@@ -1,0 +1,162 @@
+Metadata-Version: 2.4
+Name: lm_eval
+Version: 0.4.2
+Summary: A framework for evaluating language models
+Author-email: EleutherAI <contact@eleuther.ai>
+License: MIT
+Project-URL: Homepage, https://github.com/EleutherAI/lm-evaluation-harness
+Project-URL: Repository, https://github.com/EleutherAI/lm-evaluation-harness
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: accelerate>=0.26.0
+Requires-Dist: evaluate
+Requires-Dist: datasets>=2.16.0
+Requires-Dist: evaluate>=0.4.0
+Requires-Dist: jsonlines
+Requires-Dist: numexpr
+Requires-Dist: peft>=0.2.0
+Requires-Dist: pybind11>=2.6.2
+Requires-Dist: pytablewriter
+Requires-Dist: rouge-score>=0.0.4
+Requires-Dist: sacrebleu>=1.5.0
+Requires-Dist: scikit-learn>=0.24.1
+Requires-Dist: sqlitedict
+Requires-Dist: torch>=1.8
+Requires-Dist: tqdm-multiprocess
+Requires-Dist: transformers>=4.1
+Requires-Dist: zstandard
+Requires-Dist: dill
+Requires-Dist: word2number
+Requires-Dist: more_itertools
+Provides-Extra: anthropic
+Requires-Dist: anthropic; extra == "anthropic"
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: pytest-xdist; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Provides-Extra: deepsparse
+Requires-Dist: deepsparse-nightly[llm]>=1.8.0.20240404; extra == "deepsparse"
+Provides-Extra: gptq
+Requires-Dist: auto-gptq[triton]>=0.6.0; extra == "gptq"
+Provides-Extra: hf-transfer
+Requires-Dist: hf_transfer; extra == "hf-transfer"
+Provides-Extra: ifeval
+Requires-Dist: langdetect; extra == "ifeval"
+Requires-Dist: immutabledict; extra == "ifeval"
+Provides-Extra: neuronx
+Requires-Dist: optimum[neuronx]; extra == "neuronx"
+Provides-Extra: mamba
+Requires-Dist: mamba_ssm; extra == "mamba"
+Requires-Dist: causal-conv1d==1.0.2; extra == "mamba"
+Provides-Extra: math
+Requires-Dist: sympy>=1.12; extra == "math"
+Requires-Dist: antlr4-python3-runtime==4.11; extra == "math"
+Provides-Extra: multilingual
+Requires-Dist: nagisa>=0.2.7; extra == "multilingual"
+Requires-Dist: jieba>=0.42.1; extra == "multilingual"
+Requires-Dist: pycountry; extra == "multilingual"
+Provides-Extra: openai
+Requires-Dist: openai==1.3.9; extra == "openai"
+Requires-Dist: tiktoken; extra == "openai"
+Provides-Extra: optimum
+Requires-Dist: optimum[openvino]; extra == "optimum"
+Provides-Extra: promptsource
+Requires-Dist: promptsource>=0.2.3; extra == "promptsource"
+Provides-Extra: sentencepiece
+Requires-Dist: sentencepiece>=0.1.98; extra == "sentencepiece"
+Provides-Extra: sparseml
+Requires-Dist: sparseml-nightly[llm]>=1.8.0.20240404; extra == "sparseml"
+Provides-Extra: testing
+Requires-Dist: pytest; extra == "testing"
+Requires-Dist: pytest-cov; extra == "testing"
+Requires-Dist: pytest-xdist; extra == "testing"
+Provides-Extra: vllm
+Requires-Dist: vllm>=0.4.2; extra == "vllm"
+Provides-Extra: zeno
+Requires-Dist: pandas; extra == "zeno"
+Requires-Dist: zeno-client; extra == "zeno"
+Provides-Extra: wandb
+Requires-Dist: wandb>=0.16.3; extra == "wandb"
+Requires-Dist: pandas; extra == "wandb"
+Requires-Dist: numpy; extra == "wandb"
+Provides-Extra: unitxt
+Requires-Dist: unitxt; extra == "unitxt"
+Provides-Extra: all
+Requires-Dist: lm_eval[anthropic]; extra == "all"
+Requires-Dist: lm_eval[dev]; extra == "all"
+Requires-Dist: lm_eval[deepsparse]; extra == "all"
+Requires-Dist: lm_eval[gptq]; extra == "all"
+Requires-Dist: lm_eval[hf_transfer]; extra == "all"
+Requires-Dist: lm_eval[ifeval]; extra == "all"
+Requires-Dist: lm_eval[mamba]; extra == "all"
+Requires-Dist: lm_eval[math]; extra == "all"
+Requires-Dist: lm_eval[multilingual]; extra == "all"
+Requires-Dist: lm_eval[openai]; extra == "all"
+Requires-Dist: lm_eval[promptsource]; extra == "all"
+Requires-Dist: lm_eval[sentencepiece]; extra == "all"
+Requires-Dist: lm_eval[sparseml]; extra == "all"
+Requires-Dist: lm_eval[testing]; extra == "all"
+Requires-Dist: lm_eval[vllm]; extra == "all"
+Requires-Dist: lm_eval[zeno]; extra == "all"
+Requires-Dist: lm_eval[wandb]; extra == "all"
+Requires-Dist: lm_eval[unitxt]; extra == "all"
+Dynamic: license-file
+
+# MathNeuro
+
+[Paper](https://arxiv.org/abs/2410.16930)
+
+Codebase for Math Neurosurgery: Isolating Language Models' Math Reasoning Abilities Using Only Forward Passes
+
+# Overview 
+Math reasoning is an active area of Large Language Model (LLM) research because it is a hallmark of artificial intelligence and has implications in several domains, including math education. However, few works have explored how math reasoning is encoded within LLM parameters and if it is a skill that can be isolated within models. Doing so could allow targeted intervention to improve math performance without altering non-math behavior and foster understanding of how models encode math reasoning. We introduce Math Neurosurgery (MathNeuro), a computationally efficient method we use to isolate math-specific parameters in LLMs using only forward passes. MathNeuro builds on existing work by using weights and activations to calculate parameter importance, but isolates math-specific parameters by filtering out those important for general language tasks. Through pruning parameters MathNeuro identifies, we delete a LLM's math reasoning ability without significantly impacting its general language ability. Scaling the identified parameters by a small constant improves a pretrained or instruction-tuned LLM's performance by 4-17% on GSM8K and 5-35% on MATH while leaving non-math behavior unaltered. MathNeuro is also data efficient: most of its effectiveness holds when identifying math-specific parameters using a single sample. MathNeuro highlights the potential for future work to intervene on math-specific parameters.
+
+# License and Intended Use
+Our code is released under the GNU GPLv3 license. Our codebase also contains a copy of the [Eleuther AI Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) to run all experimental evaluations. 
+
+# Getting Started
+After installing Python>=3.10 and PyTorch (follow instructions [here](https://pytorch.org/get-started/locally/)), to install the dependencies for this codebase, you can run: 
+```bash
+pip install -U -r requirements.txt
+```
+
+# Running MathNeuro Pruning Experiments 
+To run MathNeuro for identifying and pruning math-specific parameters, you will need to run the MathNeuro.py file. Here is an example of how to conduct the GSM8K pruning experiment for Llama 3.2 1B IT: 
+```bash
+python MathNeuro.py --model meta-llama/Llama-3.2-1B-Instruct --save_path /results_path --train_dataset data/gsm8k.csv --eval_datasets race mmlu --calibration_datasets data/race.csv data/mmlu.csv --eval_dataset_subset 200 --calibration_dataset_names Race MMLU --train_lm_eval_task gsm8k_cot --pre_train_eval
+```
+# Running MathNeuro Scaling Experiments 
+To run MathNeuro for identifying and scaling math-specific parameters, you will need to run the MathNeuro.py file specifying your desired scalar. Here is an example of how to conduct the GSM8K scaling experiment for Llama 3.2 1B IT using a scalar of 1.1: 
+```bash
+python MathNeuro.py --model meta-llama/Llama-3.2-1B-Instruct --save_path /results_path --train_dataset data/gsm8k.csv --eval_datasets race mmlu --calibration_datasets data/race.csv data/mmlu.csv --eval_dataset_subset 200 --calibration_dataset_names Race MMLU --train_lm_eval_task gsm8k_cot --pre_train_eval --scalar 1.1
+```
+# Running MathNeuro Ablations
+To run the ablations for MathNeuro (Wanda and random identification), you will need to run the MathNeuro_Ablations.py file. Here is an example of how to conduct the GSM8K pruning experiment ablations for Llama 3.2 1B IT: 
+```bash
+python MathNeuro_Ablations.py --model meta-llama/Llama-3.2-1B-Instruct --save_path /results_path --train_dataset data/gsm8k.csv --eval_datasets race mmlu --calibration_datasets data/race.csv data/mmlu.csv --eval_dataset_subset 200 --calibration_dataset_names Race MMLU --train_lm_eval_task gsm8k_cot --pre_train_eval
+```
+# Running LAPE
+To run the LAPE comparison method, you will need to run the LAPE.py file. Please note that if you want to run this experiment for a model other than one from the Phi 1.5, Gemma 2, or Llama 3 families, you will need to create a customized implementation of its forward loop. Here is an example of how to conduct the GSM8K pruning experiment for Llama 3.2 1B IT using LAPE: 
+```bash
+python LAPE.py --model meta-llama/Llama-3.2-1B-Instruct --save_path /results_path --train_dataset data/gsm8k.csv --eval_datasets race mmlu --calibration_datasets data/race.csv data/mmlu.csv --eval_dataset_subset 200 --calibration_dataset_names Race MMLU --train_lm_eval_task gsm8k_cot --pre_train_eval
+```
+
+# Citation
+```bash
+@misc{christ2024mathneurosurgeryisolatinglanguage,
+      title={Math Neurosurgery: Isolating Language Models' Math Reasoning Abilities Using Only Forward Passes}, 
+      author={Bryan R. Christ and Zack Gottesman and Jonathan Kropko and Thomas Hartvigsen},
+      year={2024},
+      eprint={2410.16930},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2410.16930}, 
+}
+```
