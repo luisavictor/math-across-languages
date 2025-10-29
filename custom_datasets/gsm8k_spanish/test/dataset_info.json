@@ -1,0 +1,60 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "es",
+  "dataset_name": "gsm8k-translated",
+  "dataset_size": 2069367,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/Sara237/gsm8k-translated@aaccdc22f72e90378e7295558ce138f605692757/train/gsm8k-translated_es.csv": {
+      "num_bytes": 4215,
+      "checksum": null
+    },
+    "hf://datasets/Sara237/gsm8k-translated@aaccdc22f72e90378e7295558ce138f605692757/test/gsm8k-translated_es.csv": {
+      "num_bytes": 1972321,
+      "checksum": null
+    }
+  },
+  "download_size": 1976536,
+  "features": {
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer_number": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "equation_solution": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 4045903,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 4255,
+      "num_examples": 8,
+      "dataset_name": "gsm8k-translated"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 2065112,
+      "num_examples": 7465,
+      "dataset_name": "gsm8k-translated"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
