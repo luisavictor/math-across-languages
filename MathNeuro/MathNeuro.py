@@ -1,3 +1,4 @@
+import sys
 import os
 import argparse
 parser = argparse.ArgumentParser()
@@ -26,7 +27,8 @@ import pandas as pd
 import numpy as np
 import re
 import lm_eval
-import json 
+import json
+from lm_eval import tasks
 
 if 'sgsm' in args.train_dataset:
     df = pd.read_csv(args.train_dataset) # Load SGSM dataset for few-shot prompting
@@ -162,7 +164,7 @@ if args.pre_train_eval:
             json.dump(results['results'], outfile)
     
     if args.train_lm_eval_task is not None:
-        task_manager = lm_eval.tasks.TaskManager()
+        task_manager = tasks.TaskManager()
         #--log_samples --output_path results/phi_15_base --device cuda:0 --batch_size auto:4
         # Setting `task_manager` to the one above is optional and should generally be done
         # if you want to include tasks from paths other than ones in `lm_eval/tasks`.
@@ -357,8 +359,25 @@ def scale(good_params, factor):
         prune_params[k] = keep_indices + (good_indices*factor)
     return prune_params
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 num_samples = args.num_samples
-num_repeats = 5
+#num_repeats = 5
+num_repeats = 1
 if args.proportion is None:
     good_percents = [.0001, .001, .005, .01, .025, .05, .1, .15]
 if args.proportion is not None:
@@ -534,3 +553,4 @@ for dataset in dataset_list:
                     json.dump(results['results'], outfile)
                         
             del model
+
