@@ -31,6 +31,7 @@ import json
 from lm_eval import tasks
 
 if 'sgsm' in args.train_dataset:
+    print("sgsm in dataset")
     df = pd.read_csv(args.train_dataset) # Load SGSM dataset for few-shot prompting
     df = df[df['subset']=="sgsm_train"] # Subset SGSM to verified training subset
     df = df.sample(frac = 1, random_state = args.random_state)
@@ -50,6 +51,7 @@ if 'sgsm' in args.train_dataset:
 if 'sgsm' not in args.train_dataset:
     train = pd.read_csv(args.train_dataset) # Load SGSM dataset for few-shot prompting
     train = train.sample(frac = 1, random_state = args.random_state)
+    print("train is", train)
     
 
 calibration_datasets = []
@@ -62,6 +64,8 @@ for dataset in args.calibration_datasets:
         dataset_name = dataset.split('.csv')[0]
         calibration_datasets.append(dataset_name)
 
+print("calibration datasets are", calibration_datasets)
+
 dataset_list = []
 for dataset, dataset_name, name in zip(args.calibration_datasets, calibration_datasets, args.calibration_dataset_names):
     # Load the dataset into a DataFrame
@@ -72,7 +76,9 @@ for dataset, dataset_name, name in zip(args.calibration_datasets, calibration_da
     
     # Append the actual DataFrame object to the list
     dataset_list.append(globals()[dataset_name])
-    
+
+print("dataset_list is", dataset_list)
+
 output_file = f"{args.save_path}/eval_results/{args.model}/{args.text_file}"
 results_path =  f"{args.save_path}/eval_results/{args.model}/"
 os.makedirs(os.path.dirname(results_path), exist_ok=True)
@@ -80,6 +86,7 @@ os.makedirs(os.path.dirname(results_path), exist_ok=True)
 tokenizer = AutoTokenizer.from_pretrained(args.model)
 model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
 if args.pre_train_eval:
+    print("pre train eval starts")
     if 'sgsm' in args.train_dataset:
         prune_solve = []
         prune_code = []
@@ -165,33 +172,39 @@ if args.pre_train_eval:
     
     if args.train_lm_eval_task is not None:
         task_manager = tasks.TaskManager()
+        print("task manager set")
         #--log_samples --output_path results/phi_15_base --device cuda:0 --batch_size auto:4
         # Setting `task_manager` to the one above is optional and should generally be done
         # if you want to include tasks from paths other than ones in `lm_eval/tasks`.
         # `simple_evaluate` will instantiate its own task_manager if it is set to None here.
         results = lm_eval.simple_evaluate( # call simple_evaluate
             model = 'hf',
-            model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
+            model_args = {'pretrained': model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
             tasks=args.train_lm_eval_task,
             task_manager=task_manager,
-            log_samples = False, 
-            batch_size = 'auto:4',
+            log_samples = False,
+            batch_size = 1,
             limit = args.eval_dataset_subset, 
             random_seed = args.random_state
         )
+        print("results are", results)
+
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results_train_task.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
         with open(results_path, "w") as outfile: 
             json.dump(results['results'], outfile)
-        
+
+        print("again results?")
         results = lm_eval.simple_evaluate( # call simple_evaluate
             model = 'hf',
             model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
             tasks=args.eval_datasets,
             task_manager=task_manager,
             log_samples = False, 
-            batch_size = 'auto:4'
+            batch_size = 1,
+            limit = 1
         )
+        print("new results", results)
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
         with open(results_path, "w") as outfile: 
@@ -212,11 +225,15 @@ def getActivation(name):
     return hook
 
 for name, module in model.named_modules():
+    print("name, module", name, module)
     if (isinstance(module, (nn.Linear))):
+        print("module is linear layer")
         hook_fn = getActivation(name)  # Get the hook function
         module.register_forward_hook(hook_fn)  # Register the hook function
+print("hook functions registered")
 
 if 'bad_gens_full.csv' in args.calibration_datasets:
+    print("bad_gens in calibration datasets")
     def find_params(model, gens, keep_ratio, prune = True, largest = True, num_samples = len(bad_gens_full)):
         global chosen_params
         cuda_device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -270,7 +287,7 @@ if 'bad_gens_full.csv' in args.calibration_datasets:
     
         return mask_dict
         
-    
+
 def find_good_params(model, train, keep_ratio, prune = True, largest = True, num_samples = len(train)):
     global chosen_params
     import random
@@ -290,6 +307,7 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
             prompt = f"""Instruct: {question} Let's write a Python program.\nOutput:\n{answer}"""
         inputs = tokenizer.encode(prompt, return_tensors="pt").to(model.device)
         outputs = model(inputs)
+        print(magnitude.keys())
         for key, tensor in magnitude.items():
             try:
                 param_dict[f"{key}.weight"] += tensor
@@ -363,19 +381,8 @@ def scale(good_params, factor):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-num_samples = args.num_samples
+#num_samples = args.num_samples
+num_samples = 1
 #num_repeats = 5
 num_repeats = 1
 if args.proportion is None:
@@ -384,9 +391,12 @@ if args.proportion is not None:
     good_percents = [args.proportion]
 scalar = args.scalar
 for dataset in dataset_list:
+    print("current dataset", dataset)
     for repeat in range(0, num_repeats):
         sampled_train = train.sample(n = num_samples, replace = True)
+        print("sampled_train", sampled_train)
         sampled_comparison = dataset.sample(n = num_samples, replace = True)
+        print("sampled_comparison", sampled_comparison)
         for good_percent in good_percents:
             model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
             torch.cuda.empty_cache()
@@ -410,13 +420,16 @@ for dataset in dataset_list:
                     hook_fn = getActivation(name)  # Get the hook function
                     module.register_forward_hook(hook_fn)  # Register the hook function
             good_params = find_good_params(model, sampled_train, keep_ratio=good_percent, prune = True, largest = True, num_samples = num_samples)
+            print("good params", good_params)
             torch.cuda.empty_cache()
             if 'Bad' in dataset.name:    
                 comparison_params = find_params(model, sampled_comparison, keep_ratio=good_percent, prune = True, largest = True, num_samples = num_samples)
             else:
                 comparison_params = find_good_params(model, sampled_comparison, keep_ratio=good_percent, prune = True, largest = True, num_samples = num_samples)
 
+            print("comparison params", comparison_params)
             prune_params = prune(comparison_params, good_params, scalar, return_good = True)
+            print("prune params", prune_params)
             del good_params
             del comparison_params
             for key, tensor in prune_params.items():
@@ -425,6 +438,7 @@ for dataset in dataset_list:
                 model.state_dict()[key]*=tensor
                 
             del prune_params
+            print("params pruned")
             def remove_hooks(model):
                 # Function to remove all hooks
                 for name, module in model.named_modules():
@@ -530,7 +544,7 @@ for dataset in dataset_list:
                     tasks=args.train_lm_eval_task,
                     task_manager=task_manager,
                     log_samples = False, 
-                    batch_size = 'auto:4',
+                    batch_size = 1,
                     limit = args.eval_dataset_subset, 
                     random_seed = args.random_state
                 )
@@ -544,8 +558,9 @@ for dataset in dataset_list:
                     model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
                     tasks=args.eval_datasets,
                     task_manager=task_manager,
-                    log_samples = False, 
-                    batch_size = 'auto:4'
+                    log_samples = False,
+                    limit = 2,
+                    batch_size = 1
                 )
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
