@@ -26,12 +26,12 @@ cmd = [
     "--eval_datasets", "race",   # data to evaluate catastrophic forgetting after pruning/scaling
     "--calibration_datasets", "data/race.csv",  #data to find important non-task params
     "--calibration_dataset_names", "Race",
-    "--eval_dataset_subset", "2",
+    "--eval_dataset_subset", "10",
     "--train_lm_eval_task", "gsm8k_cot", # for LM evaluation harness tasks
     "--pre_train_eval",
-    #"--scalar", "0.01",
-    #"--eval_dataset_size", "1",
-    #"--num_samples", "1",
+    "--scalar", "0.01",
+    "--eval_dataset_size", "10",
+    "--num_samples", "1",
     "--proportion", "0.01"
 ]
 
