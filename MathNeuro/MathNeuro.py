@@ -92,7 +92,7 @@ print("directory at: ", os.path.dirname(results_path))
 
 
 
-
+'''
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 
 quant_config = BitsAndBytesConfig(
@@ -108,12 +108,13 @@ model = AutoModelForCausalLM.from_pretrained(
     quantization_config=quant_config,
     device_map="auto",
 )
+'''
 
 
+tokenizer = AutoTokenizer.from_pretrained(args.model)
+model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
 
 
-#tokenizer = AutoTokenizer.from_pretrained(args.model)
-#model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
 if args.pre_train_eval:
     '''
     if 'sgsm' in args.train_dataset:
@@ -213,11 +214,11 @@ if args.pre_train_eval:
         # Evaluate the model on the training dataset's task, e.g., GSM8K
         results = lm_eval.simple_evaluate( # call simple_evaluate
             model = 'hf',
-            model_args = {'pretrained':args.model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
+            model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
             tasks=args.train_lm_eval_task,
             task_manager=task_manager,
             log_samples = False, 
-            batch_size = 'auto:24',
+            batch_size = 'auto:4',
             limit = args.eval_dataset_subset, 
             random_seed = args.random_state
         )
@@ -232,12 +233,12 @@ if args.pre_train_eval:
         # Evaluate the model on the general evaluation datasets, e.g., Race
         results = lm_eval.simple_evaluate( # call simple_evaluate
             model = 'hf',
-            model_args = {'pretrained':args.model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
+            model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
             tasks=args.eval_datasets,
             task_manager=task_manager,
             log_samples = False, 
             batch_size = 'auto:4',
-            limit = 5 # actually no limit!
+            limit = 4 # actually no limit!
         )
         print("results", results)
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
@@ -335,7 +336,8 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
     cuda_device = "cuda" if torch.cuda.is_available() else "cpu"
     param_dict = {} # param_dict accumulates per-parameter magnitude scores
     for name, param in model.named_parameters():
-        param_dict[name] = torch.zeros_like(param).to(param.device)  # This will accumulate importance values
+        #param_dict[name] = torch.zeros_like(param).to(param.device)  # This will accumulate importance values
+        param_dict[name] = torch.zeros_like(param, device = 'cpu')
             
     for i in range(0, num_samples):
         if 'qa' in train.columns.to_list():
@@ -344,8 +346,9 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
             question = train['question'].iloc[i]
             answer = train['solution'].iloc[i]
             prompt = f"""Instruct: {question} Let's write a Python program.\nOutput:\n{answer}"""
-        inputs = tokenizer.encode(prompt, return_tensors="pt").to(model.device)
-        outputs = model(inputs)
+        with torch.inference_mode():   # das ist Änderung
+            inputs = tokenizer.encode(prompt, return_tensors="pt").to(model.device)
+            outputs = model(inputs)
         for key, tensor in magnitude.items():
             try:
                 param_dict[f"{key}.weight"] += tensor
@@ -383,15 +386,30 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
                 keep_num = int(num_params * keep_ratio)
                 tensor = v.view(-1)
                 top_pos = torch.topk(torch.abs(tensor), keep_num, largest = largest)[1]   # largest magnitude weights, considered the most important
-                mask_dict[k] = torch.ones_like(tensor, device=tensor.device)
+                #mask_dict[k] = torch.ones_like(tensor, device=tensor.device)
+                mask_dict[k] = torch.ones_like(tensor, device='cpu')
                 mask_dict[k][top_pos] = 0   # prune strong weights
                 mask_dict[k] = mask_dict[k].reshape(v.shape).to(tensor.device)
 
+
+
+    # we use prune = True
+    # mask_dict is a dict
+    # {
+    #     "layer1.weight": tensor([...]),
+    #     "layer2.weight": tensor([...]),
+    #     ...
+    # }
+    # Every mask starts filled with 1 → meaning “keep everything”
+    # Then the top keep_ratio of parameters (by magnitude) are set to 0
+    # --> zeroing out the parameters that the magnitude metric thinks are most important
     return mask_dict
+
     
 def prune(bad_params, good_params, factor, return_good = False):
+    # meaning of the two masks: 0 = important weights, 1 = unimportant weights
     prune_params = {}
-    if return_good ==False:
+    if return_good == False:
         for k, v in bad_params.items():
             prune_params[k] = bad_params[k] - good_params[k]
             print("prune params computed")
@@ -401,11 +419,15 @@ def prune(bad_params, good_params, factor, return_good = False):
             print("pruned params ")
 
     else:
+        # return_good == True means
         for k, v in bad_params.items():
-            prune_params[k] = good_params[k] - bad_params[k]
+            prune_params[k] = good_params[k] - bad_params[k]  # diff ∈ {1, 0, -1}
             indices = prune_params[k]!=-1
             good_indices = prune_params[k]==-1
             prune_params[k] = indices + (good_indices*factor)
+    # 0 = remove weights that are important for GOOD but NOT important for comparison
+    # 1 everywhere else
+    # So your final mask removes weights that appear important in the good dataset but not in the comparison dataset.
     return prune_params
 
 def scale(good_params, factor):
@@ -486,6 +508,11 @@ for dataset in dataset_list:
                         module._forward_hooks.clear()
         
             remove_hooks(model)
+
+
+            #At this point you are zeroing out (permanently disabling) all weights that:
+
+            # were important for the good dataset but NOT for the comparison dataset
 
             print("important params found")
 
@@ -575,7 +602,7 @@ for dataset in dataset_list:
                 with open(results_path, "w") as outfile: 
                     json.dump(results['results'], outfile)'''
 
-
+            torch.cuda.empty_cache()
             if args.train_lm_eval_task is not None:
                 task_manager = lm_eval.tasks.TaskManager()
                 #--log_samples --output_path results/phi_15_base --device cuda:0 --batch_size auto:4
@@ -586,7 +613,7 @@ for dataset in dataset_list:
                 print("start final evaluation")
                 results = lm_eval.simple_evaluate( # call simple_evaluate
                     model = 'hf',
-                    model_args = {'pretrained':args.model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
+                    model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
                     tasks=args.train_lm_eval_task,
                     task_manager=task_manager,
                     log_samples = False, 
@@ -601,16 +628,17 @@ for dataset in dataset_list:
                     
                 results = lm_eval.simple_evaluate( # call simple_evaluate
                     model = 'hf',
-                    model_args = {'pretrained':args.model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
+                    model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
                     tasks=args.eval_datasets,
                     task_manager=task_manager,
                     log_samples = False, 
-                    batch_size = 'auto:4',
-                    limit = 5   # actually no limit here!
+                    batch_size = 1,
+                    limit = 4   # actually no limit here!
                 )
+                print("results are", results)
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
                 with open(results_path, "w") as outfile: 
                     json.dump(results['results'], outfile)
-                        
+
             del model
