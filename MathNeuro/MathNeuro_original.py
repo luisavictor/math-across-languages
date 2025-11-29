@@ -28,7 +28,10 @@ import re
 import lm_eval
 import json 
 
+
+
 if 'sgsm' in args.train_dataset:
+    print("sgsm there")
     df = pd.read_csv(args.train_dataset) # Load SGSM dataset for few-shot prompting
     df = df[df['subset']=="sgsm_train"] # Subset SGSM to verified training subset
     df = df.sample(frac = 1, random_state = args.random_state)
@@ -48,6 +51,7 @@ if 'sgsm' in args.train_dataset:
 if 'sgsm' not in args.train_dataset:
     train = pd.read_csv(args.train_dataset) # Load SGSM dataset for few-shot prompting
     train = train.sample(frac = 1, random_state = args.random_state)
+
     
 
 calibration_datasets = []
@@ -182,7 +186,10 @@ if args.pre_train_eval:
             json.dump(results['results'], outfile)
     
     if args.train_lm_eval_task is not None:
-        task_manager = lm_eval.tasks.TaskManager()
+        task_manager = lm_eval.tasks.TaskManager(
+            include_path="../lm_eval_tasks"
+        )
+        #task_manager = lm_eval.tasks.TaskManager()
         #--log_samples --output_path results/phi_15_base --device cuda:0 --batch_size auto:4
         # Setting `task_manager` to the one above is optional and should generally be done
         # if you want to include tasks from paths other than ones in `lm_eval/tasks`.
@@ -302,6 +309,7 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
     for i in range(0, num_samples):
         if 'qa' in train.columns.to_list():
             prompt = train.iloc[i]['qa']
+            print("prompt", prompt)
         else:
             question = train['question'].iloc[i]
             answer = train['solution'].iloc[i]
@@ -385,7 +393,7 @@ num_samples = args.num_samples
 num_repeats = 1
 if args.proportion is None:
     good_percents = [.0001, .001, .005, .01, .025, .05, .1, .15]
-    good_percents = [.15]
+    good_percents = [.0001]
 
 if args.proportion is not None:
     good_percents = [args.proportion]
@@ -563,6 +571,5 @@ for dataset in dataset_list:
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
                 with open(results_path, "w") as outfile: 
                     json.dump(results['results'], outfile)
-                        
             del model
             torch.cuda.empty_cache()
