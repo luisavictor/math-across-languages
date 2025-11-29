@@ -248,7 +248,7 @@ if 'bad_gens_full.csv' in args.calibration_datasets:
 
         param_dict = {}
         for name, param in model.named_parameters():
-            param_dict[name] = torch.zeros_like(param).to(param.device)
+            param_dict[name] = torch.zeros_like(param, device='cpu')
         
         for i in range(0, num_samples):
             inputs = tokenizer.encode(gens.iloc[i]['0'], return_tensors="pt").to(model.device)
@@ -289,7 +289,7 @@ if 'bad_gens_full.csv' in args.calibration_datasets:
                     keep_num = int(num_params * keep_ratio)
                     tensor = v.view(-1)
                     top_pos = torch.topk(torch.abs(tensor), keep_num, largest = largest)[1]
-                    mask_dict[k] = torch.ones_like(tensor, device=tensor.device)
+                    mask_dict[k] = torch.ones_like(tensor, device='cpu')
                     mask_dict[k][top_pos] = 0
                     mask_dict[k] = mask_dict[k].reshape(v.shape).to(tensor.device)
     
@@ -304,7 +304,7 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
 
     param_dict = {}
     for name, param in model.named_parameters():
-        param_dict[name] = torch.zeros_like(param).to(param.device)
+        param_dict[name] = torch.zeros_like(param, device='cpu')
             
     for i in range(0, num_samples):
         if 'qa' in train.columns.to_list():
@@ -354,7 +354,7 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
                 keep_num = int(num_params * keep_ratio)
                 tensor = v.view(-1)
                 top_pos = torch.topk(torch.abs(tensor), keep_num, largest = largest)[1]
-                mask_dict[k] = torch.ones_like(tensor, device=tensor.device)
+                mask_dict[k] = torch.ones_like(tensor, device='cpu')
                 mask_dict[k][top_pos] = 0
                 mask_dict[k] = mask_dict[k].reshape(v.shape).to(tensor.device)
 
