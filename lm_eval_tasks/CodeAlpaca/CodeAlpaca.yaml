@@ -28,8 +28,7 @@ doc_to_target: "{{completion}}"
 num_fewshot: 0
 
 metric_list:
-  - metric: rouge
-    submetrics: [rougeL]
+  - metric: exact_match
     aggregation: mean
     higher_is_better: true
 
