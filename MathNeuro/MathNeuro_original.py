@@ -94,8 +94,16 @@ model = AutoModelForCausalLM.from_pretrained(
     device_map="auto",
 )
 
-tokenizer = AutoTokenizer.from_pretrained(args.model)
-model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
+#tokenizer = AutoTokenizer.from_pretrained(args.model)
+#model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
+
+
+
+from lm_eval.models.huggingface import HFLM
+from monkey_patch_logging import patch_hf_generate_until
+
+patch_hf_generate_until(HFLM)
+
 
 
 if args.pre_train_eval:
@@ -197,7 +205,8 @@ if args.pre_train_eval:
             log_samples=True,  # <---- add this
             write_out = True,
             limit = args.eval_dataset_subset, 
-            random_seed = args.random_state
+            random_seed = args.random_state,
+            use_cache = "logs"
         )
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results_train_task.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
