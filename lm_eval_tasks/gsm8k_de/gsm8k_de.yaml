@@ -1,7 +1,6 @@
+group:
+  - math_word_problems
 task: gsm8k_de
-group: math
-metadata:
-  version: 0
 
 dataset_path: csv
 dataset_name: null
@@ -9,23 +8,55 @@ dataset_name: null
 dataset_kwargs:
   data_files:
     train: /home/iailab76/victorl0/pycharm_sync/custom_datasets/train_gsm8kde.csv
-
-    # or provide validation/test if available
-    # validation: /abs/path/to/gsm8k_de_val.json
     test: /home/iailab76/victorl0/pycharm_sync/custom_datasets/test_gsm8kde.csv
 
 training_split: train
-test_split: test
-validation_split: null
 fewshot_split: train
+test_split: test
 
-# Optional preprocessing step
 process_docs: !function utils.process_docs
 
-# Prompt format similar to GSM8K (CoT)
-doc_to_text: |
-  "Löse folgende Aufgabe Schritt für Schritt:\n\nFrage: {{question}}\nLösung:"
+output_type: generate_until
+
+doc_to_text: "Frage: {{question}}\nAntwort:"
 doc_to_target: "{{answer}}"
 
 metric_list:
   - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+    ignore_case: true
+    ignore_punctuation: false
+    regexes_to_ignore:
+      - ","
+      - "\\$"
+      - "(?s).*#### "
+      - "\\.$"
+
+generation_kwargs:
+  until:
+    - "Frage:"
+    - "</s>"
+    - "<|im_end|>"
+  do_sample: false
+  temperature: 0.0
+
+repeats: 1
+num_fewshot: 5
+
+filter_list:
+  - name: "strict-match"
+    filter:
+      - function: "regex"
+        regex_pattern: "([0-9\\.,\\-]+)$"
+      - function: "take_first"
+
+  - name: "flexible-extract"
+    filter:
+      - function: "regex"
+        group_select: -1
+        regex_pattern: "(-?[$0-9.,]{2,})|(-?[0-9]+)"
+      - function: "take_first"
+
+metadata:
+  version: 1.0

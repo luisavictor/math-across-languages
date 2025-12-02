@@ -1,0 +1,43 @@
+group:
+  - code
+
+task: CodeAlpaca
+
+dataset_path: csv
+dataset_name: null
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/codealpaca_test_clean.csv
+
+process_docs: !function CodeAlpaca.process_docs
+
+output_type: generate_until
+test_split: test
+
+doc_to_text: |
+  Below is an instruction. Write an appropriate response.
+
+  ### Instruction:
+  {{prompt}}
+
+  ### Response:
+
+doc_to_target: "{{completion}}"
+
+num_fewshot: 0
+
+metric_list:
+  - metric: rouge
+    submetrics: [rougeL]
+    aggregation: mean
+    higher_is_better: true
+
+generation_kwargs:
+  until:
+    - "</s>"
+    - "<|im_end|>"
+  do_sample: false
+
+metadata:
+  version: 1.0
