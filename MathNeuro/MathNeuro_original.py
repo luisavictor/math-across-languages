@@ -26,9 +26,7 @@ import pandas as pd
 import numpy as np
 import re
 import lm_eval
-import json 
-
-
+import json
 
 if 'sgsm' in args.train_dataset:
     print("sgsm there")
@@ -52,7 +50,6 @@ if 'sgsm' not in args.train_dataset:
     train = pd.read_csv(args.train_dataset) # Load SGSM dataset for few-shot prompting
     train = train.sample(frac = 1, random_state = args.random_state)
 
-    
 
 calibration_datasets = []
 for dataset in args.calibration_datasets:
@@ -97,8 +94,8 @@ model = AutoModelForCausalLM.from_pretrained(
     device_map="auto",
 )
 
-#tokenizer = AutoTokenizer.from_pretrained(args.model)
-#model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
+tokenizer = AutoTokenizer.from_pretrained(args.model)
+model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
 
 
 if args.pre_train_eval:
@@ -177,18 +174,15 @@ if args.pre_train_eval:
             model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
             tasks=args.eval_datasets,
             task_manager=task_manager,
-            log_samples = False, 
             batch_size = 'auto:4'
         )
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
         with open(results_path, "w") as outfile: 
             json.dump(results['results'], outfile)
-    
+
     if args.train_lm_eval_task is not None:
-        task_manager = lm_eval.tasks.TaskManager(
-            include_path="../lm_eval_tasks"
-        )
+        task_manager = lm_eval.tasks.TaskManager(include_path="../lm_eval_tasks")
         #task_manager = lm_eval.tasks.TaskManager()
         #--log_samples --output_path results/phi_15_base --device cuda:0 --batch_size auto:4
         # Setting `task_manager` to the one above is optional and should generally be done
@@ -199,8 +193,9 @@ if args.pre_train_eval:
             model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
             tasks=args.train_lm_eval_task,
             task_manager=task_manager,
-            log_samples = False, 
             batch_size = 'auto:4',
+            log_samples=True,  # <---- add this
+            write_out = True,
             limit = args.eval_dataset_subset, 
             random_seed = args.random_state
         )
@@ -215,7 +210,8 @@ if args.pre_train_eval:
             tasks=args.eval_datasets,
             task_manager=task_manager,
             log_samples = False, 
-            batch_size = 'auto:4'
+            batch_size = 'auto:4',
+            limit = 20
         )
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
@@ -248,7 +244,7 @@ if 'bad_gens_full.csv' in args.calibration_datasets:
 
         param_dict = {}
         for name, param in model.named_parameters():
-            param_dict[name] = torch.zeros_like(param, device='cpu')
+            param_dict[name] = torch.zeros_like(param).to(param.device)
         
         for i in range(0, num_samples):
             inputs = tokenizer.encode(gens.iloc[i]['0'], return_tensors="pt").to(model.device)
@@ -289,7 +285,7 @@ if 'bad_gens_full.csv' in args.calibration_datasets:
                     keep_num = int(num_params * keep_ratio)
                     tensor = v.view(-1)
                     top_pos = torch.topk(torch.abs(tensor), keep_num, largest = largest)[1]
-                    mask_dict[k] = torch.ones_like(tensor, device='cpu')
+                    mask_dict[k] = torch.ones_like(tensor, device=tensor.device)
                     mask_dict[k][top_pos] = 0
                     mask_dict[k] = mask_dict[k].reshape(v.shape).to(tensor.device)
     
@@ -304,12 +300,11 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
 
     param_dict = {}
     for name, param in model.named_parameters():
-        param_dict[name] = torch.zeros_like(param, device='cpu')
+        param_dict[name] = torch.zeros_like(param).to(param.device)
             
     for i in range(0, num_samples):
         if 'qa' in train.columns.to_list():
             prompt = train.iloc[i]['qa']
-            print("prompt", prompt)
         else:
             question = train['question'].iloc[i]
             answer = train['solution'].iloc[i]
@@ -354,7 +349,7 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
                 keep_num = int(num_params * keep_ratio)
                 tensor = v.view(-1)
                 top_pos = torch.topk(torch.abs(tensor), keep_num, largest = largest)[1]
-                mask_dict[k] = torch.ones_like(tensor, device='cpu')
+                mask_dict[k] = torch.ones_like(tensor, device=tensor.device)
                 mask_dict[k][top_pos] = 0
                 mask_dict[k] = mask_dict[k].reshape(v.shape).to(tensor.device)
 
@@ -521,7 +516,7 @@ for dataset in dataset_list:
                 with open(output_file, "a") as f:  # Open the file in append mode ("a")
                         f.write(f"Average eval accuracy on {min(args.eval_dataset_subset, len(val))} questions for pruning top {good_percent}% good parameters based on not being activated by {dataset.name} based on {num_samples} training samples and greedy decoding (few-shot): {np.mean(prune_solve)}\n")  
                 torch.cuda.empty_cache()
-                task_manager = lm_eval.tasks.TaskManager()
+                #task_manager = lm_eval.tasks.TaskManager()
                 #--log_samples --output_path results/phi_15_base --device cuda:0 --batch_size auto:4
                 # Setting `task_manager` to the one above is optional and should generally be done
                 # if you want to include tasks from paths other than ones in `lm_eval/tasks`.
@@ -539,7 +534,7 @@ for dataset in dataset_list:
                 with open(results_path, "w") as outfile: 
                     json.dump(results['results'], outfile)
             if args.train_lm_eval_task is not None:
-                task_manager = lm_eval.tasks.TaskManager()
+                #task_manager = lm_eval.tasks.TaskManager()
                 #--log_samples --output_path results/phi_15_base --device cuda:0 --batch_size auto:4
                 # Setting `task_manager` to the one above is optional and should generally be done
                 # if you want to include tasks from paths other than ones in `lm_eval/tasks`.
@@ -564,8 +559,9 @@ for dataset in dataset_list:
                     model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
                     tasks=args.eval_datasets,
                     task_manager=task_manager,
-                    log_samples = False, 
-                    batch_size = 'auto:4'
+                    log_samples = False,
+                    batch_size = 'auto:16',
+                    limit = 10
                 )
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
