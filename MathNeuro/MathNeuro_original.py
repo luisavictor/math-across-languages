@@ -75,10 +75,102 @@ for dataset, dataset_name, name in zip(args.calibration_datasets, calibration_da
     # Append the actual DataFrame object to the list
     dataset_list.append(globals()[dataset_name])
     
+def build_task_manager():
+    # Collect all task include paths so custom tasks (e.g., CodeAlpaca) are discoverable
+    include_paths = []
+
+    # Respect LM_EVAL_TASKS if the user sets it (colon/semicolon separated)
+    env_paths = os.environ.get("LM_EVAL_TASKS")
+    if env_paths:
+        for p in env_paths.replace(";", ":").split(":"):
+            if p and os.path.isdir(p):
+                include_paths.append(os.path.abspath(p))
+
+    # Add local lm_eval_tasks plus its immediate subdirs (YAMLs are not found recursively)
+    custom_task_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "lm_eval_tasks"))
+    if os.path.isdir(custom_task_dir):
+        include_paths.append(custom_task_dir)
+        for entry in os.scandir(custom_task_dir):
+            if entry.is_dir():
+                include_paths.append(entry.path)
+
+    # De-duplicate while preserving order
+    seen = set()
+    include_paths = [p for p in include_paths if not (p in seen or seen.add(p))]
+
+    return lm_eval.tasks.TaskManager(include_path=include_paths or None)
+
 output_file = f"{args.save_path}/eval_results/{args.model}/{args.text_file}"
 results_path =  f"{args.save_path}/eval_results/{args.model}/"
 os.makedirs(os.path.dirname(results_path), exist_ok=True)
+log_base_dir = os.path.join(args.save_path, "eval_results", args.model, "logs")
+os.makedirs(log_base_dir, exist_ok=True)
 
+def save_sample_logs(eval_output, prefix):
+    """Persist per-sample logs returned by lm_eval when log_samples=True."""
+    samples = eval_output.get("samples")
+    if not samples:
+        return
+    for task, records in samples.items():
+        log_file = os.path.join(log_base_dir, f"{prefix}_{task}.jsonl")
+        with open(log_file, "w", encoding="utf-8") as f:
+            for rec in records:
+                json.dump(rec, f, ensure_ascii=False)
+                f.write("\n")
+
+def manual_gsm8k_de_cot_eval(model, tokenizer, limit, fewshot=5, seed=1234):
+    """Minimal manual evaluator to produce metrics/logs if lm_eval returns alias-only."""
+    import pandas as pd, random, re
+    test_path = "/home/iailab34/selbacht0/Test_Lab/custom_datasets/test_gsm8kde.csv"
+    train_path = "/home/iailab34/selbacht0/Test_Lab/custom_datasets/train_gsm8kde.csv"
+    if not (os.path.exists(test_path) and os.path.exists(train_path)):
+        return None
+    test_df = pd.read_csv(test_path)
+    train_df = pd.read_csv(train_path)
+    rng = random.Random(seed)
+    test_idx = list(range(len(test_df)))
+    rng.shuffle(test_idx)
+    test_idx = test_idx[:limit]
+    few_idx = list(range(len(train_df)))
+    rng.shuffle(few_idx)
+    few_idx = few_idx[:fewshot]
+    fewshots = []
+    for i in few_idx:
+        instr = str(train_df.iloc[i]["instruct"])
+        m = re.search(r"F:\\s*(.*?)\\s*A:", instr, flags=re.DOTALL)
+        q = m.group(1).strip() if m else instr
+        a = ""
+        m2 = re.search(r"####\\s*([0-9\\.,\\-]+)", instr)
+        if m2:
+            a = m2.group(1).replace(",", ".").strip()
+        else:
+            a = str(train_df.iloc[i].get("answer", "")).replace(",", ".").strip()
+        fewshots.append((q, a))
+    logs = []
+    correct = 0
+    for i in test_idx:
+        instr = str(test_df.iloc[i]["instruct"])
+        tgt = str(test_df.iloc[i].get("answer", "")).replace(",", ".").strip()
+        m = re.search(r"F:\\s*(.*?)\\s*A:", instr, flags=re.DOTALL)
+        q = m.group(1).strip() if m else instr
+        prompt_parts = [f"F: {q_i}\\nA: {a_i}" for q_i, a_i in fewshots]
+        prompt_parts.append(f"F: {q}\\nA:")
+        prompt = "\\n\\n".join(prompt_parts)
+        inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+        with torch.no_grad():
+            out_ids = model.generate(**inputs, max_new_tokens=64, do_sample=False)
+        gen = tokenizer.decode(out_ids[0], skip_special_tokens=True)
+        tail = gen.split(prompt)[-1].strip()
+        nums = re.findall(r"[-+]?\\d+(?:[.,]\\d+)?", tail)
+        pred = nums[-1].replace(",", ".") if nums else ""
+        em = float(pred == tgt)
+        correct += em
+        logs.append({"doc_id": i, "question": q, "target": tgt, "prediction_raw": tail, "prediction_num": pred, "exact_match": em})
+    acc = correct / max(1, len(test_idx))
+    # stderr for Bernoulli
+    import math
+    stderr = math.sqrt(acc * (1 - acc) / max(1, len(test_idx)))
+    return {"exact_match": acc, "exact_match_stderr": stderr, "logs": logs}
 
 
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
@@ -167,7 +259,7 @@ if args.pre_train_eval:
     
         with open(output_file, "a") as f:  # Open the file in append mode ("a")
                 f.write(f"Average eval accuracy on {min(args.eval_dataset_subset, len(val))} questions before training with greedy decoding (few-shot): {np.mean(prune_solve)}\n") 
-        task_manager = lm_eval.tasks.TaskManager()
+        task_manager = build_task_manager()
         #--log_samples --output_path results/phi_15_base --device cuda:0 --batch_size auto:4
         # Setting `task_manager` to the one above is optional and should generally be done
         # if you want to include tasks from paths other than ones in `lm_eval/tasks`.
@@ -177,19 +269,19 @@ if args.pre_train_eval:
             model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
             tasks=args.eval_datasets,
             task_manager=task_manager,
-            log_samples = False, 
-            batch_size = 'auto:4'
+            log_samples = True, 
+            batch_size = 'auto:4',
+            limit = args.eval_dataset_subset,
+            random_seed = args.random_state
         )
+        save_sample_logs(results, "pre_eval")
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
         with open(results_path, "w") as outfile: 
             json.dump(results['results'], outfile)
     
     if args.train_lm_eval_task is not None:
-        task_manager = lm_eval.tasks.TaskManager(
-            include_path="../lm_eval_tasks"
-        )
-        #task_manager = lm_eval.tasks.TaskManager()
+        task_manager = build_task_manager()
         #--log_samples --output_path results/phi_15_base --device cuda:0 --batch_size auto:4
         # Setting `task_manager` to the one above is optional and should generally be done
         # if you want to include tasks from paths other than ones in `lm_eval/tasks`.
@@ -199,11 +291,21 @@ if args.pre_train_eval:
             model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
             tasks=args.train_lm_eval_task,
             task_manager=task_manager,
-            log_samples = False, 
+            log_samples = True,
             batch_size = 'auto:4',
             limit = args.eval_dataset_subset, 
             random_seed = args.random_state
         )
+        save_sample_logs(results, "pre_train_task")
+        if args.train_lm_eval_task == "gsm8k_de_cot" and ("gsm8k_de_cot" not in results.get("results", {}) or len(results["results"].get("gsm8k_de_cot", {})) <= 1):
+            manual = manual_gsm8k_de_cot_eval(model, tokenizer, limit=args.eval_dataset_subset, fewshot=5, seed=args.random_state)
+            if manual:
+                results["results"]["gsm8k_de_cot"] = {"exact_match": manual["exact_match"], "exact_match_stderr": manual["exact_match_stderr"], "alias": "gsm8k_de_cot"}
+                manual_log = os.path.join(log_base_dir, "pre_train_task_gsm8k_de_cot_manual.jsonl")
+                with open(manual_log, "w", encoding="utf-8") as f:
+                    for rec in manual["logs"]:
+                        json.dump(rec, f, ensure_ascii=False)
+                        f.write("\n")
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results_train_task.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
         with open(results_path, "w") as outfile: 
@@ -214,9 +316,12 @@ if args.pre_train_eval:
             model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
             tasks=args.eval_datasets,
             task_manager=task_manager,
-            log_samples = False, 
-            batch_size = 'auto:4'
+            log_samples = True,
+            batch_size = 'auto:4',
+            limit = args.eval_dataset_subset,
+            random_seed = args.random_state
         )
+        save_sample_logs(results, "pre_eval_after_train_task")
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
         with open(results_path, "w") as outfile: 
@@ -521,7 +626,7 @@ for dataset in dataset_list:
                 with open(output_file, "a") as f:  # Open the file in append mode ("a")
                         f.write(f"Average eval accuracy on {min(args.eval_dataset_subset, len(val))} questions for pruning top {good_percent}% good parameters based on not being activated by {dataset.name} based on {num_samples} training samples and greedy decoding (few-shot): {np.mean(prune_solve)}\n")  
                 torch.cuda.empty_cache()
-                task_manager = lm_eval.tasks.TaskManager()
+                task_manager = build_task_manager()
                 #--log_samples --output_path results/phi_15_base --device cuda:0 --batch_size auto:4
                 # Setting `task_manager` to the one above is optional and should generally be done
                 # if you want to include tasks from paths other than ones in `lm_eval/tasks`.
@@ -531,15 +636,18 @@ for dataset in dataset_list:
                     model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
                     tasks=args.eval_datasets,
                     task_manager=task_manager,
-                    log_samples = False, 
-                    batch_size = 'auto:4'
+                    log_samples = True,
+                    batch_size = 'auto:4',
+                    limit = args.eval_dataset_subset,
+                    random_seed = args.random_state
                 )
+                save_sample_logs(results, f"{dataset.name}_calculate{good_percent}_run{repeat}_eval")
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
                 with open(results_path, "w") as outfile: 
                     json.dump(results['results'], outfile)
             if args.train_lm_eval_task is not None:
-                task_manager = lm_eval.tasks.TaskManager()
+                task_manager = build_task_manager()
                 #--log_samples --output_path results/phi_15_base --device cuda:0 --batch_size auto:4
                 # Setting `task_manager` to the one above is optional and should generally be done
                 # if you want to include tasks from paths other than ones in `lm_eval/tasks`.
@@ -549,11 +657,12 @@ for dataset in dataset_list:
                     model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
                     tasks=args.train_lm_eval_task,
                     task_manager=task_manager,
-                    log_samples = False, 
+                    log_samples = True,
                     batch_size = 'auto:4',
                     limit = args.eval_dataset_subset, 
                     random_seed = args.random_state
                 )
+                save_sample_logs(results, f"{dataset.name}_calculate{good_percent}_run{repeat}_train_task")
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}_train_task.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
                 with open(results_path, "w") as outfile: 
@@ -564,9 +673,12 @@ for dataset in dataset_list:
                     model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
                     tasks=args.eval_datasets,
                     task_manager=task_manager,
-                    log_samples = False, 
-                    batch_size = 'auto:4'
+                    log_samples = True,
+                    batch_size = 'auto:4',
+                    limit = args.eval_dataset_subset,
+                    random_seed = args.random_state
                 )
+                save_sample_logs(results, f"{dataset.name}_calculate{good_percent}_run{repeat}_eval_after_train_task")
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
                 with open(results_path, "w") as outfile: 
