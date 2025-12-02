@@ -84,7 +84,7 @@ Finally, our dataset may not be already in the exact format we want. Maybe we ha
 
 Let's create a python file in the directory where we're writing our YAML file:
 ```bash
-touch lm_eval/tasks/<dataset_name>/utils.py
+touch lm_eval/tasks/<dataset_name>/CodeAlpaca.py
 ```
 Now, in `utils.py` we'll write a function to process each split of our dataset:
 
