@@ -1,16 +1,17 @@
 group:
   - code
 
-task: CodeAlpaca
+task: codealpaca  # lowercase
 
 dataset_path: csv
 dataset_name: null
 
 dataset_kwargs:
   data_files:
-    test: ../custom_datasets/codealpaca_test_clean.csv
+    test: /home/iailab34/selbacht0/Test_Lab/custom_datasets/codealpaca_test_clean.csv
 
 process_docs: !function CodeAlpaca.process_docs
+process_results: !function CodeAlpaca.process_results
 
 output_type: generate_until
 test_split: test
@@ -28,7 +29,7 @@ doc_to_target: "{{completion}}"
 num_fewshot: 0
 
 metric_list:
-  - metric: exact_match
+  - metric: rougeL
     aggregation: mean
     higher_is_better: true
 
@@ -37,6 +38,3 @@ generation_kwargs:
     - "</s>"
     - "<|im_end|>"
   do_sample: false
-
-metadata:
-  version: 1.0
