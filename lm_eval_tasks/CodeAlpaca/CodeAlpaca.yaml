@@ -1,14 +1,14 @@
 group:
   - code
 
-task: codealpaca  # lowercase
+task: codealpaca
 
 dataset_path: csv
 dataset_name: null
 
 dataset_kwargs:
   data_files:
-    test: /home/iailab34/selbacht0/Test_Lab/custom_datasets/codealpaca_test_clean.csv
+    test: ../custom_datasets/codealpaca_test.csv
 
 process_docs: !function CodeAlpaca.process_docs
 process_results: !function CodeAlpaca.process_results

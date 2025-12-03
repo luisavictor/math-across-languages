@@ -6,7 +6,7 @@ dataset_path: csv
 dataset_name: null
 dataset_kwargs:
   data_files:
-    test: ../custom_datasets/gsm8k_de_testsplit.csv
+    test: ../custom_datasets/GSM8k_German/gsm8k_de_test.csv
 
 process_docs: !function utils.process_docs
 
