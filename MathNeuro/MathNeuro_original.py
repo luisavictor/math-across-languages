@@ -203,10 +203,8 @@ if args.pre_train_eval:
             task_manager=task_manager,
             batch_size = 'auto:4',
             log_samples=True,  # <---- add this
-            write_out = True,
             limit = args.eval_dataset_subset, 
-            random_seed = args.random_state,
-            use_cache = "logs"
+            random_seed = args.random_state
         )
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results_train_task.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
@@ -397,7 +395,7 @@ num_samples = args.num_samples
 num_repeats = 1
 if args.proportion is None:
     good_percents = [.0001, .001, .005, .01, .025, .05, .1, .15]
-    good_percents = [.0001]
+    good_percents = [0.15]
 
 if args.proportion is not None:
     good_percents = [args.proportion]
@@ -543,6 +541,7 @@ for dataset in dataset_list:
                 with open(results_path, "w") as outfile: 
                     json.dump(results['results'], outfile)
             if args.train_lm_eval_task is not None:
+                task_manager = lm_eval.tasks.TaskManager(include_path="../lm_eval_tasks")
                 #task_manager = lm_eval.tasks.TaskManager()
                 #--log_samples --output_path results/phi_15_base --device cuda:0 --batch_size auto:4
                 # Setting `task_manager` to the one above is optional and should generally be done
@@ -569,7 +568,7 @@ for dataset in dataset_list:
                     tasks=args.eval_datasets,
                     task_manager=task_manager,
                     log_samples = False,
-                    batch_size = 'auto:16',
+                    batch_size = 'auto:4',
                     limit = 10
                 )
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}.json"
