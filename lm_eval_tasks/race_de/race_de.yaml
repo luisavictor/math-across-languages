@@ -8,7 +8,7 @@ dataset_name: null
 
 dataset_kwargs:
   data_files:
-    test: /home/iailab34/selbacht0/Test_Lab/custom_datasets/race_de.csv
+    test: ../custom_datasets/Race_German/race_de_test.csv
 
 training_split: null
 validation_split: null

@@ -77,7 +77,7 @@ results_path =  f"{args.save_path}/eval_results/{args.model}/"
 os.makedirs(os.path.dirname(results_path), exist_ok=True)
 
 
-
+'''
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 
 quant_config = BitsAndBytesConfig(
@@ -93,9 +93,9 @@ model = AutoModelForCausalLM.from_pretrained(
     quantization_config=quant_config,
     device_map="auto",
 )
-
-#tokenizer = AutoTokenizer.from_pretrained(args.model)
-#model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
+'''
+tokenizer = AutoTokenizer.from_pretrained(args.model)
+model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
 
 
 
@@ -217,8 +217,7 @@ if args.pre_train_eval:
             tasks=args.eval_datasets,
             task_manager=task_manager,
             log_samples = False, 
-            batch_size = 'auto:4',
-            limit = 20
+            batch_size = 'auto:4'
         )
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
@@ -395,8 +394,6 @@ num_samples = args.num_samples
 num_repeats = 1
 if args.proportion is None:
     good_percents = [.0001, .001, .005, .01, .025, .05, .1, .15]
-    good_percents = [0.15]
-
 if args.proportion is not None:
     good_percents = [args.proportion]
 scalar = args.scalar
@@ -568,8 +565,7 @@ for dataset in dataset_list:
                     tasks=args.eval_datasets,
                     task_manager=task_manager,
                     log_samples = False,
-                    batch_size = 'auto:4',
-                    limit = 10
+                    batch_size = 'auto:4'
                 )
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
