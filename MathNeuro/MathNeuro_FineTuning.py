@@ -259,23 +259,36 @@ def scale(good_params, factor):
 '''
 
 
-
-def fine_tune_on_isolated_params(model, tokenizer, train_df, isolated_masks, num_steps, lr=1e-5):
+def fine_tune_on_isolated_params(model, tokenizer, train_df, isolated_masks, num_steps, lr=1e-4):
     """
     Fine-tune the model on `train_df`, but only update weights corresponding
     to isolated task-specific parameters (isolated_masks == 1).
 
     isolated_masks: dict[name] -> tensor with 1 where we allow updates, 0 elsewhere
     """
-    model.train()
-    # We keep all parameters requires_grad=True but mask their grads
-    optimizer = torch.optim.AdamW(model.parameters(), lr=lr)
 
+    # 1) Determine which parameters are actually trainable
+    trainable_params = []
+    for name, param in model.named_parameters():
+        if name in isolated_masks and isolated_masks[name].sum() > 0:
+            param.requires_grad = True
+            trainable_params.append(param)
+        else:
+            param.requires_grad = False
+
+    if not trainable_params:
+        print("No isolated task-specific parameters found. Skipping fine-tuning.")
+        return
+
+    # 2) Use a lightweight optimizer (no huge state like Adam)
+    optimizer = torch.optim.SGD(trainable_params, lr=lr)
+
+    model.train()
     step = 0
     while step < num_steps:
-        # simple online-style loop over examples
         idx = step % len(train_df)
 
+        # ---- build prompt ----
         if 'qa' in train_df.columns:
             prompt = train_df.iloc[idx]['qa']
         else:
@@ -291,22 +304,52 @@ def fine_tune_on_isolated_params(model, tokenizer, train_df, isolated_masks, num
         loss = outputs.loss
         loss.backward()
 
-        # mask gradients so only isolated task-specific weights get updated
+        # 3) Mask gradients so only isolated positions inside those tensors get updated
         with torch.no_grad():
             for name, param in model.named_parameters():
-                if param.grad is None:
+                if not param.requires_grad or param.grad is None:
                     continue
                 if name in isolated_masks:
                     mask = isolated_masks[name].to(param.grad.device)
-                    # mask: 1 for isolated, 0 elsewhere
                     param.grad *= mask.to(param.grad.dtype)
                 else:
-                    # no isolated positions in this tensor → no updates
+                    # Shouldn't happen because requires_grad=False, but just in case
                     param.grad.zero_()
 
         optimizer.step()
+
+        # 4) DEBUG PRINTS
+        if step < 3 or step % 50 == 0:
+            print("\n================ DEBUG FINE-TUNE STEP =================")
+            print(f"Step: {step+1}/{num_steps}")
+            print(f"Train index: {idx}")
+            print(f"Loss: {loss.item():.4f}")
+            print("\nPrompt fed to model:\n")
+            print(prompt)
+
+            # Try to generate a short continuation for debugging
+            try:
+                with torch.no_grad():
+                    gen_ids = model.generate(
+                        input_ids=inputs["input_ids"],
+                        attention_mask=inputs.get("attention_mask", None),
+                        max_new_tokens=64,
+                        do_sample=False,
+                        pad_token_id=tokenizer.eos_token_id
+                        if tokenizer.eos_token_id is not None
+                        else tokenizer.pad_token_id,
+                    )
+                decoded = tokenizer.decode(gen_ids[0], skip_special_tokens=True)
+                print("\nModel output (prompt + continuation):\n")
+                print(decoded)
+            except Exception as e:
+                print(f"\n[DEBUG] Generation failed: {e}")
+
+            print("======================================================\n")
+
         step += 1
 
+    print(f"Finished fine-tuning for {num_steps} steps.")
 
 
 num_samples = args.num_samples
@@ -375,6 +418,10 @@ for dataset in dataset_list:
 
                 del isolated_zero_mask
 
+                # clear magnitude buffers as they are no longer needed
+                magnitude.clear()
+                torch.cuda.empty_cache()
+
                 # e.g., one pass over num_samples examples
                 fine_tune_on_isolated_params(
                     model=model,
@@ -384,6 +431,8 @@ for dataset in dataset_list:
                     num_steps=num_samples,  # or something else you like
                     lr=1e-5
                 )
+                # after fine-tuning, you continue with evaluation etc.
+                del isolated_masks
 
             else:
                 prune_params = prune(comparison_params, good_params, scalar, return_good=True)

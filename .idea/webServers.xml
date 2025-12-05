@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="281b664d-1cb4-4c33-bd40-15e07b06b9f6" name="IAI76">
+        <fileTransfer accessType="SFTP" host="iai76" port="22" sshConfigId="c53276e2-d2ab-4148-a6ca-0a7f2fe76e1d" sshConfig="victorl0@iai76:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
