@@ -99,10 +99,10 @@ model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torc
 
 
 
-from lm_eval.models.huggingface import HFLM
-from monkey_patch_logging import patch_hf_generate_until
+#from lm_eval.models.huggingface import HFLM
+#from monkey_patch_logging import patch_hf_generate_until
 
-patch_hf_generate_until(HFLM)
+#patch_hf_generate_until(HFLM)
 
 
 
@@ -360,7 +360,9 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
                 mask_dict[k] = mask_dict[k].reshape(v.shape).to(tensor.device)
 
     return mask_dict
-    
+
+
+'''
 def prune(bad_params, good_params, factor, return_good = False):
     prune_params = {}
     if return_good ==False:
@@ -380,6 +382,24 @@ def prune(bad_params, good_params, factor, return_good = False):
             mask = prune_params[k] != -1  # boolean mask of same shape
             prune_params[k] = torch.where(mask, torch.tensor(1.0, device=mask.device), factor)
 
+    return prune_params
+    '''
+
+def prune(bad_params, good_params, factor, return_good = False):
+    prune_params = {}
+    if return_good ==False:
+        for k, v in bad_params.items():
+            prune_params[k] = bad_params[k] - good_params[k]
+            indices = prune_params[k]!=-1
+            bad_indices = prune_params[k]==-1
+            prune_params[k] = indices + (bad_indices*factor)
+
+    else:
+        for k, v in bad_params.items():
+            prune_params[k] = good_params[k] - bad_params[k]
+            indices = prune_params[k]!=-1
+            good_indices = prune_params[k]==-1
+            prune_params[k] = indices + (good_indices*factor)
     return prune_params
 
 def scale(good_params, factor):
@@ -531,7 +551,7 @@ for dataset in dataset_list:
                     tasks=args.eval_datasets,
                     task_manager=task_manager,
                     log_samples = False, 
-                    batch_size = 'auto:4'
+                    batch_size = 1
                 )
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
@@ -550,11 +570,11 @@ for dataset in dataset_list:
                     tasks=args.train_lm_eval_task,
                     task_manager=task_manager,
                     log_samples = False, 
-                    batch_size = 'auto:4',
+                    batch_size = 'auto:8',
                     limit = args.eval_dataset_subset, 
                     random_seed = args.random_state
                 )
-                results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}_train_task.json"
+                results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_run{repeat}_train_task.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
                 with open(results_path, "w") as outfile: 
                     json.dump(results['results'], outfile)
@@ -565,9 +585,9 @@ for dataset in dataset_list:
                     tasks=args.eval_datasets,
                     task_manager=task_manager,
                     log_samples = False,
-                    batch_size = 'auto:4'
+                    batch_size = 1
                 )
-                results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}.json"
+                results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_run{repeat}.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
                 with open(results_path, "w") as outfile: 
                     json.dump(results['results'], outfile)
