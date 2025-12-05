@@ -1,5 +1,7 @@
 import os
 import argparse
+import sys
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', help="Huggingface model to train, entered as string", type = str)
 parser.add_argument('--eval_datasets', nargs='+', help="dataset(s) to evaluate models on post pruning to evalaute catastrophic forgetting, entered as strings; should be task names from Eleuther AI LM Evaluation Harness", type = str)
@@ -182,7 +184,8 @@ if args.pre_train_eval:
             model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
             tasks=args.eval_datasets,
             task_manager=task_manager,
-            batch_size = 'auto:4'
+            batch_size = 2,
+            limit = args.eval_dataset_subset
         )
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
@@ -201,7 +204,7 @@ if args.pre_train_eval:
             model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
             tasks=args.train_lm_eval_task,
             task_manager=task_manager,
-            batch_size = 'auto:4',
+            batch_size = 2,
             log_samples=True,  # <---- add this
             limit = args.eval_dataset_subset, 
             random_seed = args.random_state
@@ -217,7 +220,8 @@ if args.pre_train_eval:
             tasks=args.eval_datasets,
             task_manager=task_manager,
             log_samples = False, 
-            batch_size = 'auto:4'
+            batch_size = 2,
+            limit = args.eval_dataset_subset
         )
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
@@ -234,7 +238,7 @@ def getActivation(name):
         activations_norm = activations.norm(p=2, dim=1).to(torch.bfloat16)
         # Multiply activations by the absolute value of weights
         modified_output = activations_norm * torch.abs(weights)
-        magnitude[name] = modified_output.detach()  # Store the modified output
+        magnitude[name] = modified_output.detach().cpu()  # Store the modified output
     # Return the hook function
     return hook
 
@@ -306,7 +310,7 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
 
     param_dict = {}
     for name, param in model.named_parameters():
-        param_dict[name] = torch.zeros_like(param).to(param.device)
+        param_dict[name] = torch.zeros_like(param, device = 'cpu')
             
     for i in range(0, num_samples):
         if 'qa' in train.columns.to_list():
@@ -346,18 +350,18 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
                 keep_num = int(num_params * keep_ratio)
                 tensor = v.view(-1)
                 top_pos = torch.topk(torch.abs(tensor), keep_num, largest = largest)[1]
-                mask_dict[k] = torch.zeros_like(tensor, device=tensor.device)
+                mask_dict[k] = torch.zeros_like(tensor, device= 'cpu')
                 mask_dict[k][top_pos] = 1
-                mask_dict[k] = mask_dict[k].reshape(v.shape).to(tensor.device)
+                mask_dict[k] = mask_dict[k].reshape(v.shape).to('cpu')
             else:
                 sizes = v.shape
                 num_params = v.numel()
                 keep_num = int(num_params * keep_ratio)
                 tensor = v.view(-1)
                 top_pos = torch.topk(torch.abs(tensor), keep_num, largest = largest)[1]
-                mask_dict[k] = torch.ones_like(tensor, device=tensor.device)
+                mask_dict[k] = torch.ones_like(tensor, device= 'cpu')
                 mask_dict[k][top_pos] = 0
-                mask_dict[k] = mask_dict[k].reshape(v.shape).to(tensor.device)
+                mask_dict[k] = mask_dict[k].reshape(v.shape).to('cpu')
 
     return mask_dict
     
@@ -390,6 +394,27 @@ def scale(good_params, factor):
         prune_params[k] = keep_indices + (good_indices*factor)
     return prune_params
 
+def count_top_parameters(mask_dict):
+    """Count how many parameters are marked as top-k (encoded as zeros in the mask)."""
+    total = 0
+    for tensor in mask_dict.values():
+        total += torch.count_nonzero(tensor == 0).item()
+    return total
+
+def count_math_only_parameters(math_mask, nonmath_mask):
+    """
+    Count math top-k parameters that remain after removing those also selected as non-math.
+    """
+    total = 0
+    for key, math_tensor in math_mask.items():
+        if key not in nonmath_mask:
+            continue
+        math_top = math_tensor == 0
+        nonmath_top = nonmath_mask[key] == 0
+        remaining_math = math_top & (~nonmath_top)
+        total += torch.count_nonzero(remaining_math).item()
+    return total
+
 num_samples = args.num_samples
 num_repeats = 1
 if args.proportion is None:
@@ -415,7 +440,7 @@ for dataset in dataset_list:
                     activations_norm = activations.norm(p=2, dim=1).to(torch.bfloat16)
                     # Multiply activations by the absolute value of weights
                     modified_output = activations_norm.to(device) * torch.abs(weights)
-                    magnitude[name] = modified_output.detach()  # Store the modified output
+                    magnitude[name] = modified_output.detach().cpu()  # Store the modified output
                 # Return the hook function
                 return hook
 
@@ -434,6 +459,17 @@ for dataset in dataset_list:
                 comparison_params = find_params(model, sampled_comparison, keep_ratio=good_percent, prune = True, largest = True, num_samples = num_samples)
             else:
                 comparison_params = find_good_params(model, sampled_comparison, keep_ratio=good_percent, prune = True, largest = True, num_samples = num_samples)
+
+            math_top_params = count_top_parameters(good_params)
+            nonmath_top_params = count_top_parameters(comparison_params)
+            math_only_params = count_math_only_parameters(good_params, comparison_params)
+            print(math_top_params, nonmath_top_params, math_only_params)
+
+
+            with open(output_file, "a") as f:
+                f.write(
+                    f"[{dataset.name}] repeat {repeat+1}, top {good_percent*100:.4f}% — math: {math_top_params}, non-math: {nonmath_top_params}, math-only after removing non-math: {math_only_params}\n"
+                )
 
             prune_params = prune(comparison_params, good_params, scalar, return_good = True)
             del good_params
@@ -531,7 +567,8 @@ for dataset in dataset_list:
                     tasks=args.eval_datasets,
                     task_manager=task_manager,
                     log_samples = False, 
-                    batch_size = 'auto:4'
+                    batch_size = 2,
+                    limit = args.eval_dataset_subset
                 )
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
@@ -550,7 +587,7 @@ for dataset in dataset_list:
                     tasks=args.train_lm_eval_task,
                     task_manager=task_manager,
                     log_samples = False, 
-                    batch_size = 'auto:4',
+                    batch_size = 2,
                     limit = args.eval_dataset_subset, 
                     random_seed = args.random_state
                 )
@@ -565,7 +602,8 @@ for dataset in dataset_list:
                     tasks=args.eval_datasets,
                     task_manager=task_manager,
                     log_samples = False,
-                    batch_size = 'auto:4'
+                    batch_size = 2,
+                    limit = args.eval_dataset_subset
                 )
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
