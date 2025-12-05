@@ -377,12 +377,9 @@ def prune(bad_params, good_params, factor, return_good = False):
     else:
         for k, v in bad_params.items():
             prune_params[k] = good_params[k] - bad_params[k]
-            #indices = prune_params[k]!=-1
-            #good_indices = prune_params[k]==-1
-            #prune_params[k] = indices + (good_indices*factor)
-
-            mask = prune_params[k] != -1  # boolean mask of same shape
-            prune_params[k] = torch.where(mask, torch.tensor(1.0, device=mask.device), factor)
+            indices = prune_params[k]!=-1
+            good_indices = prune_params[k]==-1
+            prune_params[k] = indices + (good_indices*factor)
 
     return prune_params
 
