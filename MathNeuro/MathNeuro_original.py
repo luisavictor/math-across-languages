@@ -6,6 +6,7 @@ import json
 import datetime
 from pathlib import Path
 
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', help="Huggingface model to train, entered as string", type = str)
 parser.add_argument('--eval_datasets', nargs='+', help="dataset(s) to evaluate models on post pruning to evalaute catastrophic forgetting, entered as strings; should be task names from Eleuther AI LM Evaluation Harness", type = str)
@@ -23,6 +24,9 @@ parser.add_argument('--calibration_dataset_names', nargs='+', help="desired name
 parser.add_argument('--num_samples', help="desired number of samples for calculating task specific parameters", type = int, default = 500)
 parser.add_argument('--train_lm_eval_task', help="if your training dataset is an Eleuther AI LM Evaluation Harness task, specify the associated task for the test set.", type = str, default = None)
 parser.add_argument('--proportion', help="desired proportion of top parameters to calculate", type = float, default = None)
+parser.add_argument('--fine_tune',
+                    help="freeze all non-task-specific parameters and fine-tune only isolated task-specific weights",
+                    action="store_true")
 args = parser.parse_args()
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
@@ -416,6 +420,169 @@ def count_math_only_parameters(math_mask, nonmath_mask):
         total += torch.count_nonzero(remaining_math).item()
     return total
 
+
+
+def fine_tune_on_isolated_params(
+    model,
+    tokenizer,
+    train_df,
+    isolated_masks,
+    num_epochs=1,
+    lr=1e-4,
+):
+    """
+    Fine-tune the model on `train_df`, but only update weights corresponding
+    to isolated task-specific parameters (isolated_masks == 1).
+
+    train_df columns:
+      - 'instruct':  F: ... A: ... #### 72   (unused here)
+      - 'qa':        F: ... A: ... Die Antwort ist 72.   (used for SFT)
+
+    SFT recipe:
+      - input = full_text = prompt_text + target_text
+      - prompt_text = everything up to and including 'A:'
+      - target_ftext = everything after 'A:' (CoT + final "Die Antwort ist X.")
+      - loss is computed only on target_text tokens (labels for prompt_text = -100)
+    """
+
+    # (optional) sub-sample if you don’t want to use full train_df
+    #train_df = train_df.sample(frac=1).reset_index(drop=True)  # initial shuffle
+    train_df = train.sample(5000)
+
+
+    steps_per_epoch = len(train_df)
+    total_steps = num_epochs * steps_per_epoch
+
+    # 1) Determine which parameters are actually trainable
+    trainable_params = []
+    for name, param in model.named_parameters():
+        if name in isolated_masks and isolated_masks[name].sum() > 0:
+            param.requires_grad = True
+            trainable_params.append(param)
+        else:
+            param.requires_grad = False
+
+    if not trainable_params:
+        print("No isolated task-specific parameters found. Skipping fine-tuning.")
+        return
+
+    # 2) Optimizer + scheduler
+    optimizer = torch.optim.AdamW(
+        trainable_params,
+        lr=2e-5,
+        betas=(0.9, 0.999),
+        weight_decay=0.01,
+    )
+
+    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
+        optimizer,
+        T_max=total_steps,
+    )
+
+    model.train()
+    global_step = 0
+
+    for epoch in range(num_epochs):
+        # shuffle each epoch
+        epoch_df = train_df.sample(frac=1).reset_index(drop=True)
+
+        print(f"\n===== Starting epoch {epoch+1}/{num_epochs} =====")
+
+        for i, (_, row) in enumerate(epoch_df.iterrows()):
+            qa_text = row["qa"]
+
+            # -----------------------------
+            # Split into prompt and target
+            # -----------------------------
+            question_part, sep, answer_part = qa_text.partition("A:")
+            if sep == "":
+                # no "A:" found – treat whole thing as prompt (no loss)
+                prompt_text = qa_text
+                target_text = ""
+            else:
+                prompt_text = "Hier sind ein paar Beispiele: Q: Wenn sich 3 Autos auf dem Parkplatz befinden und 2 weitere Autos ankommen, wie viele Autos befinden sich dann auf dem Parkplatz? A: Ursprünglich standen 3 Autos auf dem Parkplatz. 2 weitere Autos kommen hinzu. 3 + 2 = 5. Die Antwort ist 5." + question_part + "A: "           # "F: ... ? A:"
+                target_text = answer_part.lstrip()         # "Denken wir Schritt für Schritt. ... Die Antwort ist X."
+
+            full_text = prompt_text + " " + target_text if target_text else prompt_text
+
+            tok = tokenizer(
+                full_text,
+                return_tensors="pt",
+                truncation=True,
+            ).to(model.device)
+
+            input_ids = tok["input_ids"]
+            labels = input_ids.clone()
+
+            # mask out prompt so loss only on target_text
+            prompt_ids = tokenizer(
+                prompt_text,
+                return_tensors="pt",
+                add_special_tokens=False
+            )["input_ids"]
+            prompt_len = prompt_ids.size(1)
+            labels[:, :prompt_len] = -100
+
+            optimizer.zero_grad()
+            outputs = model(input_ids=input_ids, labels=labels)
+            loss = outputs.loss
+            loss.backward()
+
+            # 3) Mask gradients so only isolated positions inside those tensors get updated
+            with torch.no_grad():
+                for name, param in model.named_parameters():
+                    if not param.requires_grad or param.grad is None:
+                        continue
+                    if name in isolated_masks:
+                        mask = isolated_masks[name].to(param.grad.device)
+                        param.grad *= mask.to(param.grad.dtype)
+                    else:
+                        param.grad.zero_()
+            torch.nn.utils.clip_grad_norm_(trainable_params, 1.0)
+            optimizer.step()
+            scheduler.step()
+            global_step += 1
+
+            # 4) Optional debug logging
+            if (epoch == 0 and i < 3) or (global_step % 200 == 0):
+                print("\n================ DEBUG FINE-TUNE STEP =================")
+                print(f"Epoch: {epoch+1}/{num_epochs}")
+                print(f"Step in epoch: {i+1}/{steps_per_epoch}")
+                print(f"Global step: {global_step}/{total_steps}")
+                print(f"Loss: {loss.item():.4f}")
+                print(f"Current LR: {scheduler.get_last_lr()[0]:.6e}")
+
+                print("\nPrompt (prompt_text):\n")
+                print(prompt_text)
+
+                print("\nTarget (target_text):\n")
+                print(target_text[:300] + ("..." if len(target_text) > 300 else ""))
+
+                try:
+                    with torch.no_grad():
+                        gen_ids = model.generate(
+                            **tokenizer(prompt_text, return_tensors="pt").to(model.device),
+                            max_new_tokens=128,
+                            do_sample=False,
+                            pad_token_id=tokenizer.eos_token_id
+                            if tokenizer.eos_token_id is not None
+                            else tokenizer.pad_token_id,
+                        )
+                    decoded = tokenizer.decode(gen_ids[0], skip_special_tokens=True)
+                    print("\nModel output (prompt_text + continuation):\n")
+                    print(decoded)
+                except Exception as e:
+                    print(f"[DEBUG] Generation failed: {e}")
+
+                print("======================================================\n")
+
+    print(f"Finished fine-tuning for {num_epochs} epochs ({total_steps} steps).")
+
+
+
+
+
+
 num_samples = args.num_samples
 num_repeats = 1
 if args.proportion is None:
@@ -472,15 +639,48 @@ for dataset in dataset_list:
                     f"[{dataset.name}] repeat {repeat+1}, top {good_percent*100:.4f}% — math: {math_top_params}, non-math: {nonmath_top_params}, math-only after removing non-math: {math_only_params}\n"
                 )
 
-            prune_params = prune(comparison_params, good_params, scalar, return_good = True)
-            del good_params
-            del comparison_params
-            for key, tensor in prune_params.items():
-                device = model.state_dict()[key].device
-                tensor = tensor.to(device)
-                model.state_dict()[key]*=tensor
-                
-            del prune_params
+            if args.fine_tune:
+                # -------------------------------------------
+                # Fine-tuning mode: no pruning or scaling.
+                # Use prune(..., factor=0) to identify isolated task-specific params.
+                # -------------------------------------------
+                isolated_zero_mask = prune(comparison_params, good_params, factor=0.0, return_good=True)
+                # isolated_zero_mask[k] == 0 → isolated task-specific
+                # isolated_zero_mask[k] == 1 → everything else
+                # free these, we only need isolated_masks now
+                del good_params
+                del comparison_params
+
+                isolated_masks = {}
+                for k, m in isolated_zero_mask.items():
+                    # We want mask == 1 *on isolated positions*, 0 elsewhere, for grad masking
+                    isolated_masks[k] = (m == 0).to(torch.float32)
+
+                del isolated_zero_mask
+
+                # clear magnitude buffers as they are no longer needed
+                magnitude.clear()
+                torch.cuda.empty_cache()
+
+                # e.g., one pass over num_samples examples
+                fine_tune_on_isolated_params(
+                    model=model,
+                    tokenizer=tokenizer,
+                    train_df=sampled_train,
+                    isolated_masks=isolated_masks
+                )
+                # after fine-tuning, you continue with evaluation etc.
+                del isolated_masks
+
+            else:
+                prune_params = prune(comparison_params, good_params, scalar, return_good = True)
+                del good_params
+                del comparison_params
+                for key, tensor in prune_params.items():
+                    device = model.state_dict()[key].device
+                    tensor = tensor.to(device)
+                    model.state_dict()[key]*=tensor
+                del prune_params
             def remove_hooks(model):
                 # Function to remove all hooks
                 for name, module in model.named_modules():
