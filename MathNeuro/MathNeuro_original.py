@@ -1,6 +1,10 @@
 import os
 import argparse
 import sys
+import csv
+import json
+import datetime
+from pathlib import Path
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', help="Huggingface model to train, entered as string", type = str)
@@ -29,6 +33,7 @@ import numpy as np
 import re
 import lm_eval
 import json
+
 
 if 'sgsm' in args.train_dataset:
     print("sgsm there")
@@ -213,7 +218,7 @@ if args.pre_train_eval:
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
         with open(results_path, "w") as outfile: 
             json.dump(results['results'], outfile)
-        
+
         results = lm_eval.simple_evaluate( # call simple_evaluate
             model = 'hf',
             model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
@@ -227,7 +232,7 @@ if args.pre_train_eval:
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
         with open(results_path, "w") as outfile: 
             json.dump(results['results'], outfile)
-            
+
 magnitude = {}
 def getActivation(name):
     # The hook function
@@ -238,7 +243,7 @@ def getActivation(name):
         activations_norm = activations.norm(p=2, dim=1).to(torch.bfloat16)
         # Multiply activations by the absolute value of weights
         modified_output = activations_norm * torch.abs(weights)
-        magnitude[name] = modified_output.detach().cpu()  # Store the modified output
+        magnitude[name] = modified_output.detach() # Store the modified output
     # Return the hook function
     return hook
 
@@ -310,7 +315,7 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
 
     param_dict = {}
     for name, param in model.named_parameters():
-        param_dict[name] = torch.zeros_like(param, device = 'cpu')
+        param_dict[name] = torch.zeros_like(param, device = param.device)
             
     for i in range(0, num_samples):
         if 'qa' in train.columns.to_list():
@@ -350,18 +355,18 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
                 keep_num = int(num_params * keep_ratio)
                 tensor = v.view(-1)
                 top_pos = torch.topk(torch.abs(tensor), keep_num, largest = largest)[1]
-                mask_dict[k] = torch.zeros_like(tensor, device= 'cpu')
+                mask_dict[k] = torch.zeros_like(tensor, device= tensor.device)
                 mask_dict[k][top_pos] = 1
-                mask_dict[k] = mask_dict[k].reshape(v.shape).to('cpu')
+                mask_dict[k] = mask_dict[k].reshape(v.shape).to(tensor.device)
             else:
                 sizes = v.shape
                 num_params = v.numel()
                 keep_num = int(num_params * keep_ratio)
                 tensor = v.view(-1)
                 top_pos = torch.topk(torch.abs(tensor), keep_num, largest = largest)[1]
-                mask_dict[k] = torch.ones_like(tensor, device= 'cpu')
+                mask_dict[k] = torch.ones_like(tensor, device=tensor.device)
                 mask_dict[k][top_pos] = 0
-                mask_dict[k] = mask_dict[k].reshape(v.shape).to('cpu')
+                mask_dict[k] = mask_dict[k].reshape(v.shape).to(tensor.device)
 
     return mask_dict
     
@@ -380,7 +385,6 @@ def prune(bad_params, good_params, factor, return_good = False):
             indices = prune_params[k]!=-1
             good_indices = prune_params[k]==-1
             prune_params[k] = indices + (good_indices*factor)
-
     return prune_params
 
 def scale(good_params, factor):
@@ -437,7 +441,7 @@ for dataset in dataset_list:
                     activations_norm = activations.norm(p=2, dim=1).to(torch.bfloat16)
                     # Multiply activations by the absolute value of weights
                     modified_output = activations_norm.to(device) * torch.abs(weights)
-                    magnitude[name] = modified_output.detach().cpu()  # Store the modified output
+                    magnitude[name] = modified_output.detach()  # Store the modified output
                 # Return the hook function
                 return hook
 
@@ -584,11 +588,12 @@ for dataset in dataset_list:
                     tasks=args.train_lm_eval_task,
                     task_manager=task_manager,
                     log_samples = False, 
-                    batch_size = 2,
+                    batch_size = 'auto:16',
                     limit = args.eval_dataset_subset, 
                     random_seed = args.random_state
                 )
-                results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}_train_task.json"
+
+                results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_run{repeat}_train_task.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
                 with open(results_path, "w") as outfile: 
                     json.dump(results['results'], outfile)
@@ -599,10 +604,12 @@ for dataset in dataset_list:
                     tasks=args.eval_datasets,
                     task_manager=task_manager,
                     log_samples = False,
-                    batch_size = 2,
+                    batch_size = 1,
                     limit = args.eval_dataset_subset
                 )
-                results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}.json"
+
+
+                results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_run{repeat}.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
                 with open(results_path, "w") as outfile: 
                     json.dump(results['results'], outfile)
