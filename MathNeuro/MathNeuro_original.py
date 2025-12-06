@@ -1,11 +1,16 @@
 import os
 import argparse
 import sys
-import csv
-import json
-import datetime
 from pathlib import Path
-
+from transformers import AutoTokenizer, AutoModelForCausalLM
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import pandas as pd
+import numpy as np
+import re
+import lm_eval
+import json
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', help="Huggingface model to train, entered as string", type = str)
@@ -24,19 +29,15 @@ parser.add_argument('--calibration_dataset_names', nargs='+', help="desired name
 parser.add_argument('--num_samples', help="desired number of samples for calculating task specific parameters", type = int, default = 500)
 parser.add_argument('--train_lm_eval_task', help="if your training dataset is an Eleuther AI LM Evaluation Harness task, specify the associated task for the test set.", type = str, default = None)
 parser.add_argument('--proportion', help="desired proportion of top parameters to calculate", type = float, default = None)
-parser.add_argument('--fine_tune',
-                    help="freeze all non-task-specific parameters and fine-tune only isolated task-specific weights",
-                    action="store_true")
+parser.add_argument('--fine_tune', help="freeze all non-task-specific parameters and fine-tune only isolated task-specific weights",action="store_true")
+parser.add_argument('--store_params', help="store task-specific isolated parameters",action="store_true")
+
 args = parser.parse_args()
-from transformers import AutoTokenizer, AutoModelForCausalLM
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-import pandas as pd
-import numpy as np
-import re
-import lm_eval
-import json
+
+
+# Build a nice filename that encodes run configuration
+mask_dir = f"{args.save_path}/isolated_masks/{args.model}"
+os.makedirs(mask_dir, exist_ok=True)
 
 
 if 'sgsm' in args.train_dataset:
@@ -88,7 +89,7 @@ results_path =  f"{args.save_path}/eval_results/{args.model}/"
 os.makedirs(os.path.dirname(results_path), exist_ok=True)
 
 
-'''
+
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 
 quant_config = BitsAndBytesConfig(
@@ -104,7 +105,7 @@ model = AutoModelForCausalLM.from_pretrained(
     quantization_config=quant_config,
     device_map="auto",
 )
-'''
+
 tokenizer = AutoTokenizer.from_pretrained(args.model)
 model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
 
@@ -213,8 +214,8 @@ if args.pre_train_eval:
             model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
             tasks=args.train_lm_eval_task,
             task_manager=task_manager,
-            batch_size = 2,
-            log_samples=True,  # <---- add this
+            batch_size = 'auto:16',
+            log_samples=True,
             limit = args.eval_dataset_subset, 
             random_seed = args.random_state
         )
@@ -229,7 +230,7 @@ if args.pre_train_eval:
             tasks=args.eval_datasets,
             task_manager=task_manager,
             log_samples = False, 
-            batch_size = 2,
+            batch_size = 1,
             limit = args.eval_dataset_subset
         )
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
@@ -421,39 +422,41 @@ def count_math_only_parameters(math_mask, nonmath_mask):
     return total
 
 
+import torch
+from contextlib import nullcontext
 
 def fine_tune_on_isolated_params(
     model,
     tokenizer,
     train_df,
     isolated_masks,
-    num_epochs=1,
+    num_epochs=7,
     lr=1e-4,
+    max_length=512,
+    use_amp=True,
+    amp_dtype=torch.bfloat16,   # you can switch to torch.float16 if you want
+    grad_clip=1.0,
 ):
-    """
-    Fine-tune the model on `train_df`, but only update weights corresponding
-    to isolated task-specific parameters (isolated_masks == 1).
+    device = next(model.parameters()).device
 
-    train_df columns:
-      - 'instruct':  F: ... A: ... #### 72   (unused here)
-      - 'qa':        F: ... A: ... Die Antwort ist 72.   (used for SFT)
+    # ---------------------------------------------------------------
+    # 0) Memory-friendly model settings
+    # ---------------------------------------------------------------
+    if hasattr(model, "config") and hasattr(model.config, "use_cache"):
+        model.config.use_cache = False
 
-    SFT recipe:
-      - input = full_text = prompt_text + target_text
-      - prompt_text = everything up to and including 'A:'
-      - target_ftext = everything after 'A:' (CoT + final "Die Antwort ist X.")
-      - loss is computed only on target_text tokens (labels for prompt_text = -100)
-    """
+    if hasattr(model, "gradient_checkpointing_enable"):
+        model.gradient_checkpointing_enable()
+        if hasattr(model, "enable_input_require_grads"):
+            model.enable_input_require_grads()
 
-    # (optional) sub-sample if you don’t want to use full train_df
-    #train_df = train_df.sample(frac=1).reset_index(drop=True)  # initial shuffle
-    train_df = train.sample(5000)
-
-
+    #train_df = train.sample(2000)
     steps_per_epoch = len(train_df)
     total_steps = num_epochs * steps_per_epoch
 
-    # 1) Determine which parameters are actually trainable
+    # ---------------------------------------------------------------
+    # 1) Trainable params
+    # ---------------------------------------------------------------
     trainable_params = []
     for name, param in model.named_parameters():
         if name in isolated_masks and isolated_masks[name].sum() > 0:
@@ -466,12 +469,15 @@ def fine_tune_on_isolated_params(
         print("No isolated task-specific parameters found. Skipping fine-tuning.")
         return
 
-    # 2) Optimizer + scheduler
+    # ---------------------------------------------------------------
+    # 2) Optimizer + scheduler (foreach=False to be more VRAM-friendly)
+    # ---------------------------------------------------------------
     optimizer = torch.optim.AdamW(
         trainable_params,
-        lr=2e-5,
+        lr=lr,
         betas=(0.9, 0.999),
         weight_decay=0.01,
+        foreach=False,  # avoids _multi_tensor_adam big temp buffers
     )
 
     scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
@@ -479,29 +485,35 @@ def fine_tune_on_isolated_params(
         T_max=total_steps,
     )
 
+    # GradScaler: only for fp16
+    if use_amp and amp_dtype == torch.float16:
+        scaler = torch.amp.GradScaler("cuda", enabled=True)
+    else:
+        scaler = None  # no scaling for bf16 or no-AMP
+
     model.train()
     global_step = 0
 
     for epoch in range(num_epochs):
-        # shuffle each epoch
         epoch_df = train_df.sample(frac=1).reset_index(drop=True)
-
         print(f"\n===== Starting epoch {epoch+1}/{num_epochs} =====")
 
         for i, (_, row) in enumerate(epoch_df.iterrows()):
             qa_text = row["qa"]
 
-            # -----------------------------
+            # ------------------------------
             # Split into prompt and target
-            # -----------------------------
+            # ------------------------------
             question_part, sep, answer_part = qa_text.partition("A:")
             if sep == "":
-                # no "A:" found – treat whole thing as prompt (no loss)
                 prompt_text = qa_text
                 target_text = ""
             else:
-                prompt_text = "Hier sind ein paar Beispiele: Q: Wenn sich 3 Autos auf dem Parkplatz befinden und 2 weitere Autos ankommen, wie viele Autos befinden sich dann auf dem Parkplatz? A: Ursprünglich standen 3 Autos auf dem Parkplatz. 2 weitere Autos kommen hinzu. 3 + 2 = 5. Die Antwort ist 5." + question_part + "A: "           # "F: ... ? A:"
-                target_text = answer_part.lstrip()         # "Denken wir Schritt für Schritt. ... Die Antwort ist X."
+                prompt_text = (
+                     question_part
+                    + " "
+                )
+                target_text = answer_part.lstrip()
 
             full_text = prompt_text + " " + target_text if target_text else prompt_text
 
@@ -509,41 +521,86 @@ def fine_tune_on_isolated_params(
                 full_text,
                 return_tensors="pt",
                 truncation=True,
-            ).to(model.device)
-
-            input_ids = tok["input_ids"]
+                max_length=max_length,
+            )
+            input_ids = tok["input_ids"].to(device)
             labels = input_ids.clone()
 
-            # mask out prompt so loss only on target_text
             prompt_ids = tokenizer(
                 prompt_text,
                 return_tensors="pt",
-                add_special_tokens=False
+                add_special_tokens=False,
+                truncation=True,
+                max_length=max_length,
             )["input_ids"]
             prompt_len = prompt_ids.size(1)
             labels[:, :prompt_len] = -100
+            labels = labels.to(device)
 
-            optimizer.zero_grad()
-            outputs = model(input_ids=input_ids, labels=labels)
-            loss = outputs.loss
-            loss.backward()
+            optimizer.zero_grad(set_to_none=True)
 
-            # 3) Mask gradients so only isolated positions inside those tensors get updated
-            with torch.no_grad():
-                for name, param in model.named_parameters():
-                    if not param.requires_grad or param.grad is None:
-                        continue
-                    if name in isolated_masks:
-                        mask = isolated_masks[name].to(param.grad.device)
-                        param.grad *= mask.to(param.grad.dtype)
-                    else:
-                        param.grad.zero_()
-            torch.nn.utils.clip_grad_norm_(trainable_params, 1.0)
-            optimizer.step()
+            if use_amp:
+                autocast_ctx = torch.amp.autocast("cuda", dtype=amp_dtype)
+            else:
+                autocast_ctx = nullcontext()
+
+            # ----------------------------------------------------------
+            # Forward + backward (AMP + optional GradScaler)
+            # ----------------------------------------------------------
+            with autocast_ctx:
+                outputs = model(input_ids=input_ids, labels=labels)
+                loss = outputs.loss
+
+            if scaler is not None:
+                # fp16 + scaler path
+                scaler.scale(loss).backward()
+                scaler.unscale_(optimizer)
+
+                # mask grads
+                with torch.no_grad():
+                    for name, param in model.named_parameters():
+                        if not param.requires_grad or param.grad is None:
+                            continue
+                        if name in isolated_masks:
+                            mask = isolated_masks[name].to(param.grad.device)
+                            param.grad.mul_(mask.to(param.grad.dtype))
+                        else:
+                            param.grad.zero_()
+
+                if grad_clip is not None:
+                    torch.nn.utils.clip_grad_norm_(trainable_params, grad_clip)
+
+                scaler.step(optimizer)
+                scaler.update()
+            else:
+                # bf16 or no-AMP path, no GradScaler
+                loss.backward()
+
+                with torch.no_grad():
+                    for name, param in model.named_parameters():
+                        if not param.requires_grad or param.grad is None:
+                            continue
+                        if name in isolated_masks:
+                            mask = isolated_masks[name].to(param.grad.device)
+                            param.grad.mul_(mask.to(param.grad.dtype))
+                        else:
+                            param.grad.zero_()
+
+                if grad_clip is not None:
+                    torch.nn.utils.clip_grad_norm_(trainable_params, grad_clip)
+
+                optimizer.step()
+
             scheduler.step()
             global_step += 1
 
-            # 4) Optional debug logging
+            del outputs, tok, input_ids, labels, prompt_ids
+            if global_step % 50 == 0:
+                torch.cuda.empty_cache()
+
+            # ----------------------------------------------------------
+            # Debug logging
+            # ----------------------------------------------------------
             if (epoch == 0 and i < 3) or (global_step % 200 == 0):
                 print("\n================ DEBUG FINE-TUNE STEP =================")
                 print(f"Epoch: {epoch+1}/{num_epochs}")
@@ -551,37 +608,43 @@ def fine_tune_on_isolated_params(
                 print(f"Global step: {global_step}/{total_steps}")
                 print(f"Loss: {loss.item():.4f}")
                 print(f"Current LR: {scheduler.get_last_lr()[0]:.6e}")
-
+                '''
                 print("\nPrompt (prompt_text):\n")
                 print(prompt_text)
-
-                print("\nTarget (target_text):\n")
-                print(target_text[:300] + ("..." if len(target_text) > 300 else ""))
-
                 try:
                     with torch.no_grad():
-                        gen_ids = model.generate(
-                            **tokenizer(prompt_text, return_tensors="pt").to(model.device),
-                            max_new_tokens=128,
-                            do_sample=False,
-                            pad_token_id=tokenizer.eos_token_id
-                            if tokenizer.eos_token_id is not None
-                            else tokenizer.pad_token_id,
-                        )
+                        if use_amp:
+                            gen_autocast = torch.amp.autocast("cuda", dtype=amp_dtype)
+                        else:
+                            gen_autocast = nullcontext()
+                        with gen_autocast:
+                            gen_ids = model.generate(
+                                **tokenizer(
+                                    prompt_text,
+                                    return_tensors="pt",
+                                    truncation=True,
+                                    max_length=max_length,
+                                ).to(device),
+                                max_new_tokens=64,
+                                do_sample=False,
+                                pad_token_id=(
+                                    tokenizer.eos_token_id
+                                    if tokenizer.eos_token_id is not None
+                                    else tokenizer.pad_token_id
+                                ),
+                            )
                     decoded = tokenizer.decode(gen_ids[0], skip_special_tokens=True)
                     print("\nModel output (prompt_text + continuation):\n")
                     print(decoded)
+                    del gen_ids
+                    
                 except Exception as e:
-                    print(f"[DEBUG] Generation failed: {e}")
-
-                print("======================================================\n")
-
-    print(f"Finished fine-tuning for {num_epochs} epochs ({total_steps} steps).")
+                    print(f"[DEBUG] Generation failed: {e}")'''
 
 
 
 
-
+import gc
 
 num_samples = args.num_samples
 num_repeats = 1
@@ -613,10 +676,6 @@ for dataset in dataset_list:
                 return hook
 
 
-
-
-
-
             for name, module in model.named_modules():
                 if (isinstance(module, (nn.Linear))):
                     hook_fn = getActivation(name)  # Get the hook function
@@ -628,38 +687,65 @@ for dataset in dataset_list:
             else:
                 comparison_params = find_good_params(model, sampled_comparison, keep_ratio=good_percent, prune = True, largest = True, num_samples = num_samples)
 
+
             math_top_params = count_top_parameters(good_params)
             nonmath_top_params = count_top_parameters(comparison_params)
             math_only_params = count_math_only_parameters(good_params, comparison_params)
             print(math_top_params, nonmath_top_params, math_only_params)
-
-
             with open(output_file, "a") as f:
                 f.write(
                     f"[{dataset.name}] repeat {repeat+1}, top {good_percent*100:.4f}% — math: {math_top_params}, non-math: {nonmath_top_params}, math-only after removing non-math: {math_only_params}\n"
                 )
 
+
+            def remove_hooks(model):
+                # Function to remove all hooks
+                for name, module in model.named_modules():
+                    # Check if the module has any forward hooks
+                    if hasattr(module, "_forward_hooks") and len(module._forward_hooks) > 0:
+                        # Remove all forward hooks
+                        module._forward_hooks.clear()
+
+
+            if args.store_params:
+                isolated_zero_mask = prune(comparison_params, good_params, factor=0.0, return_good=True)
+                isolated_masks = {}
+                for k, m in isolated_zero_mask.items():
+                    isolated_masks[k] = (m == 0).to(torch.bool)
+                del isolated_zero_mask
+                mask_filename = f"gsm8k_{dataset.name}_{good_percent}_repeat{repeat}.pt"
+                mask_path = os.path.join(mask_dir, mask_filename)
+                cpu_masks = {k: v.to("cpu") for k, v in isolated_masks.items()}
+                torch.save(
+                    {
+                        "model_name": args.model,
+                        "dataset_name": dataset.name,
+                        "good_percent": good_percent,
+                        "repeat": repeat,
+                        "isolated_masks": cpu_masks,
+                    },
+                    mask_path,
+                )
+                del isolated_masks
+                del cpu_masks
+                print(f"Saved isolated mask to {mask_path}")
+
             if args.fine_tune:
-                # -------------------------------------------
-                # Fine-tuning mode: no pruning or scaling.
-                # Use prune(..., factor=0) to identify isolated task-specific params.
-                # -------------------------------------------
                 isolated_zero_mask = prune(comparison_params, good_params, factor=0.0, return_good=True)
                 # isolated_zero_mask[k] == 0 → isolated task-specific
                 # isolated_zero_mask[k] == 1 → everything else
                 # free these, we only need isolated_masks now
                 del good_params
                 del comparison_params
-
                 isolated_masks = {}
                 for k, m in isolated_zero_mask.items():
                     # We want mask == 1 *on isolated positions*, 0 elsewhere, for grad masking
                     isolated_masks[k] = (m == 0).to(torch.float32)
 
                 del isolated_zero_mask
-
                 # clear magnitude buffers as they are no longer needed
                 magnitude.clear()
+                remove_hooks(model)
                 torch.cuda.empty_cache()
 
                 # e.g., one pass over num_samples examples
@@ -669,7 +755,6 @@ for dataset in dataset_list:
                     train_df=sampled_train,
                     isolated_masks=isolated_masks
                 )
-                # after fine-tuning, you continue with evaluation etc.
                 del isolated_masks
 
             else:
@@ -681,13 +766,6 @@ for dataset in dataset_list:
                     tensor = tensor.to(device)
                     model.state_dict()[key]*=tensor
                 del prune_params
-            def remove_hooks(model):
-                # Function to remove all hooks
-                for name, module in model.named_modules():
-                    # Check if the module has any forward hooks
-                    if hasattr(module, "_forward_hooks") and len(module._forward_hooks) > 0:
-                        # Remove all forward hooks
-                        module._forward_hooks.clear()
         
             remove_hooks(model)
             if 'sgsm' in args.train_dataset:
@@ -814,4 +892,6 @@ for dataset in dataset_list:
                 with open(results_path, "w") as outfile: 
                     json.dump(results['results'], outfile)
             del model
+
+            gc.collect()
             torch.cuda.empty_cache()
