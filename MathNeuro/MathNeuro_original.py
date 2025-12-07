@@ -1,6 +1,16 @@
 import os
 import argparse
 import sys
+from pathlib import Path
+from transformers import AutoTokenizer, AutoModelForCausalLM
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import pandas as pd
+import numpy as np
+import re
+import lm_eval
+import json
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', help="Huggingface model to train, entered as string", type = str)
@@ -19,16 +29,16 @@ parser.add_argument('--calibration_dataset_names', nargs='+', help="desired name
 parser.add_argument('--num_samples', help="desired number of samples for calculating task specific parameters", type = int, default = 500)
 parser.add_argument('--train_lm_eval_task', help="if your training dataset is an Eleuther AI LM Evaluation Harness task, specify the associated task for the test set.", type = str, default = None)
 parser.add_argument('--proportion', help="desired proportion of top parameters to calculate", type = float, default = None)
+parser.add_argument('--fine_tune', help="freeze all non-task-specific parameters and fine-tune only isolated task-specific weights",action="store_true")
+parser.add_argument('--store_params', help="store task-specific isolated parameters",action="store_true")
+
 args = parser.parse_args()
-from transformers import AutoTokenizer, AutoModelForCausalLM
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-import pandas as pd
-import numpy as np
-import re
-import lm_eval
-import json
+
+
+# Build a nice filename that encodes run configuration
+mask_dir = f"{args.save_path}/isolated_masks/{args.model}"
+os.makedirs(mask_dir, exist_ok=True)
+
 
 if 'sgsm' in args.train_dataset:
     print("sgsm there")
@@ -79,7 +89,7 @@ results_path =  f"{args.save_path}/eval_results/{args.model}/"
 os.makedirs(os.path.dirname(results_path), exist_ok=True)
 
 
-'''
+
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 
 quant_config = BitsAndBytesConfig(
@@ -95,9 +105,9 @@ model = AutoModelForCausalLM.from_pretrained(
     quantization_config=quant_config,
     device_map="auto",
 )
-'''
-tokenizer = AutoTokenizer.from_pretrained(args.model)
-model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
+
+#tokenizer = AutoTokenizer.from_pretrained(args.model)
+#model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
 
 
 
@@ -204,8 +214,8 @@ if args.pre_train_eval:
             model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
             tasks=args.train_lm_eval_task,
             task_manager=task_manager,
-            batch_size = 2,
-            log_samples=True,  # <---- add this
+            batch_size = 'auto:16',
+            log_samples=True,
             limit = args.eval_dataset_subset, 
             random_seed = args.random_state
         )
@@ -213,21 +223,21 @@ if args.pre_train_eval:
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
         with open(results_path, "w") as outfile: 
             json.dump(results['results'], outfile)
-        
+
         results = lm_eval.simple_evaluate( # call simple_evaluate
             model = 'hf',
             model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
             tasks=args.eval_datasets,
             task_manager=task_manager,
             log_samples = False, 
-            batch_size = 2,
+            batch_size = 1,
             limit = args.eval_dataset_subset
         )
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
         with open(results_path, "w") as outfile: 
             json.dump(results['results'], outfile)
-            
+
 magnitude = {}
 def getActivation(name):
     # The hook function
@@ -238,7 +248,7 @@ def getActivation(name):
         activations_norm = activations.norm(p=2, dim=1).to(torch.bfloat16)
         # Multiply activations by the absolute value of weights
         modified_output = activations_norm * torch.abs(weights)
-        magnitude[name] = modified_output.detach().cpu()  # Store the modified output
+        magnitude[name] = modified_output.detach() # Store the modified output
     # Return the hook function
     return hook
 
@@ -310,11 +320,18 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
 
     param_dict = {}
     for name, param in model.named_parameters():
-        param_dict[name] = torch.zeros_like(param, device = 'cpu')
+        param_dict[name] = torch.zeros_like(param, device = param.device)
             
     for i in range(0, num_samples):
+        # gsm8k, race
         if 'qa' in train.columns.to_list():
             prompt = train.iloc[i]['qa']
+        # CodeAlpaca
+        elif "prompt" in train.columns and "completion" in train.columns:
+            src = train.iloc[i]["prompt"]
+            tgt = train.iloc[i]["completion"]
+            # choose whatever formatting you like:
+            prompt = f"{src}\n{tgt}"
         else:
             question = train['question'].iloc[i]
             answer = train['solution'].iloc[i]
@@ -350,18 +367,18 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
                 keep_num = int(num_params * keep_ratio)
                 tensor = v.view(-1)
                 top_pos = torch.topk(torch.abs(tensor), keep_num, largest = largest)[1]
-                mask_dict[k] = torch.zeros_like(tensor, device= 'cpu')
+                mask_dict[k] = torch.zeros_like(tensor, device= tensor.device)
                 mask_dict[k][top_pos] = 1
-                mask_dict[k] = mask_dict[k].reshape(v.shape).to('cpu')
+                mask_dict[k] = mask_dict[k].reshape(v.shape).to(tensor.device)
             else:
                 sizes = v.shape
                 num_params = v.numel()
                 keep_num = int(num_params * keep_ratio)
                 tensor = v.view(-1)
                 top_pos = torch.topk(torch.abs(tensor), keep_num, largest = largest)[1]
-                mask_dict[k] = torch.ones_like(tensor, device= 'cpu')
+                mask_dict[k] = torch.ones_like(tensor, device=tensor.device)
                 mask_dict[k][top_pos] = 0
-                mask_dict[k] = mask_dict[k].reshape(v.shape).to('cpu')
+                mask_dict[k] = mask_dict[k].reshape(v.shape).to(tensor.device)
 
     return mask_dict
     
@@ -380,7 +397,6 @@ def prune(bad_params, good_params, factor, return_good = False):
             indices = prune_params[k]!=-1
             good_indices = prune_params[k]==-1
             prune_params[k] = indices + (good_indices*factor)
-
     return prune_params
 
 def scale(good_params, factor):
@@ -412,6 +428,231 @@ def count_math_only_parameters(math_mask, nonmath_mask):
         total += torch.count_nonzero(remaining_math).item()
     return total
 
+
+import torch
+from contextlib import nullcontext
+
+def fine_tune_on_isolated_params(
+    model,
+    tokenizer,
+    train_df,
+    isolated_masks,
+    num_epochs=7,
+    lr=1e-4,
+    max_length=512,
+    use_amp=True,
+    amp_dtype=torch.bfloat16,   # you can switch to torch.float16 if you want
+    grad_clip=1.0,
+):
+    device = next(model.parameters()).device
+
+    # ---------------------------------------------------------------
+    # 0) Memory-friendly model settings
+    # ---------------------------------------------------------------
+    if hasattr(model, "config") and hasattr(model.config, "use_cache"):
+        model.config.use_cache = False
+
+    if hasattr(model, "gradient_checkpointing_enable"):
+        model.gradient_checkpointing_enable()
+        if hasattr(model, "enable_input_require_grads"):
+            model.enable_input_require_grads()
+
+    #train_df = train.sample(2000)
+    steps_per_epoch = len(train_df)
+    total_steps = num_epochs * steps_per_epoch
+
+    # ---------------------------------------------------------------
+    # 1) Trainable params
+    # ---------------------------------------------------------------
+    trainable_params = []
+    for name, param in model.named_parameters():
+        if name in isolated_masks and isolated_masks[name].sum() > 0:
+            param.requires_grad = True
+            trainable_params.append(param)
+        else:
+            param.requires_grad = False
+
+    if not trainable_params:
+        print("No isolated task-specific parameters found. Skipping fine-tuning.")
+        return
+
+    # ---------------------------------------------------------------
+    # 2) Optimizer + scheduler (foreach=False to be more VRAM-friendly)
+    # ---------------------------------------------------------------
+    optimizer = torch.optim.AdamW(
+        trainable_params,
+        lr=lr,
+        betas=(0.9, 0.999),
+        weight_decay=0.01,
+        foreach=False,  # avoids _multi_tensor_adam big temp buffers
+    )
+
+    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
+        optimizer,
+        T_max=total_steps,
+    )
+
+    # GradScaler: only for fp16
+    if use_amp and amp_dtype == torch.float16:
+        scaler = torch.amp.GradScaler("cuda", enabled=True)
+    else:
+        scaler = None  # no scaling for bf16 or no-AMP
+
+    model.train()
+    global_step = 0
+
+    for epoch in range(num_epochs):
+        epoch_df = train_df.sample(frac=1).reset_index(drop=True)
+        print(f"\n===== Starting epoch {epoch+1}/{num_epochs} =====")
+
+        for i, (_, row) in enumerate(epoch_df.iterrows()):
+            qa_text = row["qa"]
+
+            # ------------------------------
+            # Split into prompt and target
+            # ------------------------------
+            question_part, sep, answer_part = qa_text.partition("A:")
+            if sep == "":
+                prompt_text = qa_text
+                target_text = ""
+            else:
+                prompt_text = (
+                     question_part
+                    + " "
+                )
+                target_text = answer_part.lstrip()
+
+            full_text = prompt_text + " " + target_text if target_text else prompt_text
+
+            tok = tokenizer(
+                full_text,
+                return_tensors="pt",
+                truncation=True,
+                max_length=max_length,
+            )
+            input_ids = tok["input_ids"].to(device)
+            labels = input_ids.clone()
+
+            prompt_ids = tokenizer(
+                prompt_text,
+                return_tensors="pt",
+                add_special_tokens=False,
+                truncation=True,
+                max_length=max_length,
+            )["input_ids"]
+            prompt_len = prompt_ids.size(1)
+            labels[:, :prompt_len] = -100
+            labels = labels.to(device)
+
+            optimizer.zero_grad(set_to_none=True)
+
+            if use_amp:
+                autocast_ctx = torch.amp.autocast("cuda", dtype=amp_dtype)
+            else:
+                autocast_ctx = nullcontext()
+
+            # ----------------------------------------------------------
+            # Forward + backward (AMP + optional GradScaler)
+            # ----------------------------------------------------------
+            with autocast_ctx:
+                outputs = model(input_ids=input_ids, labels=labels)
+                loss = outputs.loss
+
+            if scaler is not None:
+                # fp16 + scaler path
+                scaler.scale(loss).backward()
+                scaler.unscale_(optimizer)
+
+                # mask grads
+                with torch.no_grad():
+                    for name, param in model.named_parameters():
+                        if not param.requires_grad or param.grad is None:
+                            continue
+                        if name in isolated_masks:
+                            mask = isolated_masks[name].to(param.grad.device)
+                            param.grad.mul_(mask.to(param.grad.dtype))
+                        else:
+                            param.grad.zero_()
+
+                if grad_clip is not None:
+                    torch.nn.utils.clip_grad_norm_(trainable_params, grad_clip)
+
+                scaler.step(optimizer)
+                scaler.update()
+            else:
+                # bf16 or no-AMP path, no GradScaler
+                loss.backward()
+
+                with torch.no_grad():
+                    for name, param in model.named_parameters():
+                        if not param.requires_grad or param.grad is None:
+                            continue
+                        if name in isolated_masks:
+                            mask = isolated_masks[name].to(param.grad.device)
+                            param.grad.mul_(mask.to(param.grad.dtype))
+                        else:
+                            param.grad.zero_()
+
+                if grad_clip is not None:
+                    torch.nn.utils.clip_grad_norm_(trainable_params, grad_clip)
+
+                optimizer.step()
+
+            scheduler.step()
+            global_step += 1
+
+            del outputs, tok, input_ids, labels, prompt_ids
+            if global_step % 50 == 0:
+                torch.cuda.empty_cache()
+
+            # ----------------------------------------------------------
+            # Debug logging
+            # ----------------------------------------------------------
+            if (epoch == 0 and i < 3) or (global_step % 200 == 0):
+                print("\n================ DEBUG FINE-TUNE STEP =================")
+                print(f"Epoch: {epoch+1}/{num_epochs}")
+                print(f"Step in epoch: {i+1}/{steps_per_epoch}")
+                print(f"Global step: {global_step}/{total_steps}")
+                print(f"Loss: {loss.item():.4f}")
+                print(f"Current LR: {scheduler.get_last_lr()[0]:.6e}")
+                '''
+                print("\nPrompt (prompt_text):\n")
+                print(prompt_text)
+                try:
+                    with torch.no_grad():
+                        if use_amp:
+                            gen_autocast = torch.amp.autocast("cuda", dtype=amp_dtype)
+                        else:
+                            gen_autocast = nullcontext()
+                        with gen_autocast:
+                            gen_ids = model.generate(
+                                **tokenizer(
+                                    prompt_text,
+                                    return_tensors="pt",
+                                    truncation=True,
+                                    max_length=max_length,
+                                ).to(device),
+                                max_new_tokens=64,
+                                do_sample=False,
+                                pad_token_id=(
+                                    tokenizer.eos_token_id
+                                    if tokenizer.eos_token_id is not None
+                                    else tokenizer.pad_token_id
+                                ),
+                            )
+                    decoded = tokenizer.decode(gen_ids[0], skip_special_tokens=True)
+                    print("\nModel output (prompt_text + continuation):\n")
+                    print(decoded)
+                    del gen_ids
+                    
+                except Exception as e:
+                    print(f"[DEBUG] Generation failed: {e}")'''
+
+
+
+
+import gc
+
 num_samples = args.num_samples
 num_repeats = 1
 if args.proportion is None:
@@ -437,13 +678,9 @@ for dataset in dataset_list:
                     activations_norm = activations.norm(p=2, dim=1).to(torch.bfloat16)
                     # Multiply activations by the absolute value of weights
                     modified_output = activations_norm.to(device) * torch.abs(weights)
-                    magnitude[name] = modified_output.detach().cpu()  # Store the modified output
+                    magnitude[name] = modified_output.detach()  # Store the modified output
                 # Return the hook function
                 return hook
-
-
-
-
 
 
             for name, module in model.named_modules():
@@ -457,26 +694,17 @@ for dataset in dataset_list:
             else:
                 comparison_params = find_good_params(model, sampled_comparison, keep_ratio=good_percent, prune = True, largest = True, num_samples = num_samples)
 
+
             math_top_params = count_top_parameters(good_params)
             nonmath_top_params = count_top_parameters(comparison_params)
             math_only_params = count_math_only_parameters(good_params, comparison_params)
             print(math_top_params, nonmath_top_params, math_only_params)
-
-
             with open(output_file, "a") as f:
                 f.write(
                     f"[{dataset.name}] repeat {repeat+1}, top {good_percent*100:.4f}% — math: {math_top_params}, non-math: {nonmath_top_params}, math-only after removing non-math: {math_only_params}\n"
                 )
 
-            prune_params = prune(comparison_params, good_params, scalar, return_good = True)
-            del good_params
-            del comparison_params
-            for key, tensor in prune_params.items():
-                device = model.state_dict()[key].device
-                tensor = tensor.to(device)
-                model.state_dict()[key]*=tensor
-                
-            del prune_params
+
             def remove_hooks(model):
                 # Function to remove all hooks
                 for name, module in model.named_modules():
@@ -484,6 +712,70 @@ for dataset in dataset_list:
                     if hasattr(module, "_forward_hooks") and len(module._forward_hooks) > 0:
                         # Remove all forward hooks
                         module._forward_hooks.clear()
+
+
+            if args.store_params:
+                isolated_zero_mask = prune(comparison_params, good_params, factor=0.0, return_good=True)
+                isolated_masks = {}
+                for k, m in isolated_zero_mask.items():
+                    isolated_masks[k] = (m == 0).to(torch.bool)
+                del isolated_zero_mask
+                mask_filename = f"gsm8k_{dataset.name}_{good_percent}_repeat{repeat}.pt"
+                mask_path = os.path.join(mask_dir, mask_filename)
+                cpu_masks = {k: v.to("cpu") for k, v in isolated_masks.items()}
+                torch.save(
+                    {
+                        "model_name": args.model,
+                        "dataset_name": dataset.name,
+                        "good_percent": good_percent,
+                        "repeat": repeat,
+                        "isolated_masks": cpu_masks,
+                    },
+                    mask_path,
+                )
+                del isolated_masks
+                del cpu_masks
+                print(f"Saved isolated mask to {mask_path}")
+
+            if args.fine_tune:
+                isolated_zero_mask = prune(comparison_params, good_params, factor=0.0, return_good=True)
+                # isolated_zero_mask[k] == 0 → isolated task-specific
+                # isolated_zero_mask[k] == 1 → everything else
+                # free these, we only need isolated_masks now
+                del good_params
+                del comparison_params
+                isolated_masks = {}
+                for k, m in isolated_zero_mask.items():
+                    # We want mask == 1 *on isolated positions*, 0 elsewhere, for grad masking
+                    isolated_masks[k] = (m == 0).to(torch.float32)
+
+                del isolated_zero_mask
+                # clear magnitude buffers as they are no longer needed
+                magnitude.clear()
+                remove_hooks(model)
+                torch.cuda.empty_cache()
+
+                # e.g., one pass over num_samples examples
+                fine_tune_on_isolated_params(
+                    model=model,
+                    tokenizer=tokenizer,
+                    train_df=sampled_train,
+                    isolated_masks=isolated_masks
+                )
+                del isolated_masks
+
+            else:
+                good_params = {k: v.to("cpu") for k, v in good_params.items()}
+                comparison_params = {k: v.to("cpu") for k, v in comparison_params.items()}
+
+                prune_params = prune(comparison_params, good_params, scalar, return_good = True)
+                del good_params
+                del comparison_params
+                for key, tensor in prune_params.items():
+                    device = model.state_dict()[key].device
+                    tensor = tensor.to(device)
+                    model.state_dict()[key]*=tensor
+                del prune_params
         
             remove_hooks(model)
             if 'sgsm' in args.train_dataset:
@@ -584,11 +876,12 @@ for dataset in dataset_list:
                     tasks=args.train_lm_eval_task,
                     task_manager=task_manager,
                     log_samples = False, 
-                    batch_size = 2,
+                    batch_size = 'auto:16',
                     limit = args.eval_dataset_subset, 
                     random_seed = args.random_state
                 )
-                results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}_train_task.json"
+
+                results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_run{repeat}_train_task.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
                 with open(results_path, "w") as outfile: 
                     json.dump(results['results'], outfile)
@@ -599,12 +892,16 @@ for dataset in dataset_list:
                     tasks=args.eval_datasets,
                     task_manager=task_manager,
                     log_samples = False,
-                    batch_size = 2,
+                    batch_size = 1,
                     limit = args.eval_dataset_subset
                 )
-                results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}.json"
+
+
+                results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_run{repeat}.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
                 with open(results_path, "w") as outfile: 
                     json.dump(results['results'], outfile)
             del model
+
+            gc.collect()
             torch.cuda.empty_cache()

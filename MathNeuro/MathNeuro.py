@@ -407,27 +407,20 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
 
     
 def prune(bad_params, good_params, factor, return_good = False):
-    # meaning of the two masks: 0 = important weights, 1 = unimportant weights
     prune_params = {}
-    if return_good == False:
+    if return_good ==False:
         for k, v in bad_params.items():
             prune_params[k] = bad_params[k] - good_params[k]
-            print("prune params computed")
             indices = prune_params[k]!=-1
             bad_indices = prune_params[k]==-1
             prune_params[k] = indices + (bad_indices*factor)
-            print("pruned params ")
 
     else:
-        # return_good == True means
         for k, v in bad_params.items():
-            prune_params[k] = good_params[k] - bad_params[k]  # diff ∈ {1, 0, -1}
+            prune_params[k] = good_params[k] - bad_params[k]
             indices = prune_params[k]!=-1
             good_indices = prune_params[k]==-1
             prune_params[k] = indices + (good_indices*factor)
-    # 0 = remove weights that are important for GOOD but NOT important for comparison
-    # 1 everywhere else
-    # So your final mask removes weights that appear important in the good dataset but not in the comparison dataset.
     return prune_params
 
 def scale(good_params, factor):
