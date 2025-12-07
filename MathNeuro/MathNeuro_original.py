@@ -106,8 +106,8 @@ model = AutoModelForCausalLM.from_pretrained(
     device_map="auto",
 )
 
-tokenizer = AutoTokenizer.from_pretrained(args.model)
-model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
+#tokenizer = AutoTokenizer.from_pretrained(args.model)
+#model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
 
 
 
@@ -323,8 +323,15 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
         param_dict[name] = torch.zeros_like(param, device = param.device)
             
     for i in range(0, num_samples):
+        # gsm8k, race
         if 'qa' in train.columns.to_list():
             prompt = train.iloc[i]['qa']
+        # CodeAlpaca
+        elif "prompt" in train.columns and "completion" in train.columns:
+            src = train.iloc[i]["prompt"]
+            tgt = train.iloc[i]["completion"]
+            # choose whatever formatting you like:
+            prompt = f"{src}\n{tgt}"
         else:
             question = train['question'].iloc[i]
             answer = train['solution'].iloc[i]
@@ -758,6 +765,9 @@ for dataset in dataset_list:
                 del isolated_masks
 
             else:
+                good_params = {k: v.to("cpu") for k, v in good_params.items()}
+                comparison_params = {k: v.to("cpu") for k, v in comparison_params.items()}
+
                 prune_params = prune(comparison_params, good_params, scalar, return_good = True)
                 del good_params
                 del comparison_params
