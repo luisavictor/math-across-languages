@@ -33,6 +33,29 @@ DEFAULT_MODEL_NAME = "facebook/nllb-200-3.3B"
 TARGET_LANG_CODE = "deu_Latn"
 
 
+def strip_outer_quotes(text: str) -> str:
+    if not isinstance(text, str):
+        return text
+    cleaned = text.replace('""', '"').replace("''", "'").strip()
+    if len(cleaned) >= 2 and cleaned[0] == cleaned[-1] and cleaned[0] in {"'", '"'}:
+        cleaned = cleaned[1:-1]
+    return cleaned.strip()
+
+
+def format_choices_mmlu(choices: Sequence[str]) -> str:
+    """
+    Return a string in the same style as the original MMLU choices:
+    ["a", "b"] -> "['a', 'b']" with single quotes and no doubled quotes.
+    """
+    normalized = []
+    for choice in choices:
+        c = strip_outer_quotes(choice)
+        # avoid doubled quotes in the serialized string
+        c = c.replace('"', "'")
+        normalized.append(c)
+    return "[" + ", ".join(f"'{c}'" for c in normalized) + "]"
+
+
 def parse_choices(raw_choices: str) -> List[str]:
     try:
         parsed = ast.literal_eval(raw_choices)
@@ -62,7 +85,8 @@ def split_text_into_chunks(text: str, hard_limit: int = 180) -> List[str]:
 
 
 def build_qa_text(question: str, choices: Sequence[str], answer_idx: int) -> str:
-    formatted_choices = json.dumps(list(choices), ensure_ascii=False)
+    # Match original MMLU style: Python list string with single quotes
+    formatted_choices = format_choices_mmlu(choices)
     try:
         answer_text = choices[int(answer_idx)]
     except Exception:
@@ -170,17 +194,22 @@ def translate_rows(
     for idx, row in progress:
         choices = parse_choices(str(row["choices"]))
         translated_choices = [
-            translate_text(choice, tokenizer, model, forced_bos_token_id)
+            strip_outer_quotes(
+                translate_text(choice, tokenizer, model, forced_bos_token_id)
+            )
             for choice in choices
         ]
-        question_de = translate_text(str(row["question"]), tokenizer, model, forced_bos_token_id)
+        question_de = strip_outer_quotes(
+            translate_text(str(row["question"]), tokenizer, model, forced_bos_token_id)
+        )
         qa_de = build_qa_text(question_de, translated_choices, row["answer"])
 
         translated_rows.append(
             {
                 "question": question_de,
                 "subject": row["subject"],
-                "choices": json.dumps(translated_choices, ensure_ascii=False),
+                # Store choices as Python list string (single-quoted) like original MMLU
+                "choices": format_choices_mmlu(translated_choices),
                 "answer": row["answer"],
                 "qa": qa_de,
             }
@@ -209,7 +238,7 @@ def load_and_filter(input_csv: Path, max_rows: Optional[int]) -> pd.DataFrame:
 def main():
     repo_root = Path(__file__).resolve().parents[1]
     default_input = '/home/iailab34/selbacht0/Test_Lab/MathNeuro/data/mmlu.csv'
-    default_output = Path(__file__).resolve().parent / "mmlu_de.csv"
+    default_output = Path(__file__).resolve().parent / "mmlu_de_test.csv"
 
     parser = argparse.ArgumentParser(description="Translate MMLU to German with NLLB-200.")
     parser.add_argument("--input_csv", type=Path, default=default_input)
