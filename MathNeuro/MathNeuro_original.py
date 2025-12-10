@@ -388,7 +388,7 @@ if args.pre_train_eval:
             tasks=args.train_lm_eval_task,
             task_manager=task_manager,
             log_samples=False,
-            batch_size='auto:4',
+            batch_size=1,
             limit=args.eval_dataset_subset,
             random_seed=args.random_state
         )
