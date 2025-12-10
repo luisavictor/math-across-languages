@@ -14,7 +14,7 @@ parser.add_argument('--save_path', help="save path for eval results after runnin
 parser.add_argument('--text_file', help="name of text file for saving pruning results during training if evaluating math reasoning using a non-Eleuther AI LM Evaluation Harness task in a PoT format", type = str)
 parser.add_argument('--num_repeats', help="number of repeats for pruning or scaling experiment", type = int, default = 5)
 parser.add_argument('--pre_train_eval', help="bool to indicate if full evaluation on eval and train datasets should be conducted before training", action="store_true")
-parser.add_argument('--random_state', help="random state for initial dataset shuffling and creating train/eval split for train dataset", type = int, default = 100) #42
+parser.add_argument('--random_state', help="random state for initial dataset shuffling and creating train/eval split for train dataset", type = int, default = 42)
 parser.add_argument('--scalar', help="scale factor for top parameters; default is 0 to run pruning experiments", type = float, default = 0)
 parser.add_argument('--eval_dataset_size', help="desired number of samples for task specific eval dataset", type = int, default = None)
 parser.add_argument('--eval_dataset_subset', help="desired number of samples for task specific eval dataset if subsetting to reduce run time", type = int, default = 100)
@@ -238,7 +238,7 @@ if args.pre_train_eval:
             task_manager=task_manager,
             log_samples = False, 
             batch_size = 'auto:4',
-            limit = None # actually no limit!
+            limit = 4 # actually no limit!
         )
         print("results", results)
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
@@ -626,7 +626,7 @@ for dataset in dataset_list:
                     task_manager=task_manager,
                     log_samples = False, 
                     batch_size = 1,
-                    limit = None   # actually no limit here!
+                    limit = 4   # actually no limit here!
                 )
                 print("results are", results)
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}.json"
