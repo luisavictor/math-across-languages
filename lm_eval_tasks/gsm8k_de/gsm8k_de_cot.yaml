@@ -44,37 +44,42 @@ A:
 # We compare against the numeric answer we computed in process_docs
 doc_to_target: "{{answer_number | string }}"
 
-metric_list:
-  - metric: exact_match
-    aggregation: mean
-    higher_is_better: true
-    ignore_case: true
-    ignore_punctuation: false
 
-generation_kwargs:
-  until:
-    - "Q:"
-    - "</s>"
-    - "<|im_end|>"
-  do_sample: false
+
+metric_list:
+- aggregation: mean
+  higher_is_better: true
+  ignore_case: true
+  ignore_punctuation: false
+  metric: exact_match
+  regexes_to_ignore:
+  - ','
+  - \$
+  - '(?s).*#### '
+  - \.$
 
 repeats: 1
 num_fewshot: 0
 
 filter_list:
-  - name: "strict-match"
-    filter:
-      - function: "regex"
-        # accept both German and English phrasing just in case
-        regex_pattern: "(?:Die Antwort ist|The answer is)\\s*([0-9]+)"
-      - function: "take_first"
+- filter:
+  - function: regex
+    regex_pattern: Die Antwort ist (\-?[0-9\.\,]+).
+  - function: take_first
+  name: strict-match
+- filter:
+  - function: regex
+    group_select: -1
+    regex_pattern: (-?[$0-9.,]{2,})|(-?[0-9]+)
+  - function: take_first
+  name: flexible-extract
 
-  - name: "flexible-extract"
-    filter:
-      - function: "regex"
-        group_select: -1
-        regex_pattern: "(-?[$0-9.,]{2,})|(-?[0-9]+)"
-      - function: "take_first"
+generation_kwargs:
+  do_sample: false
+  until:
+  - 'Q:'
+  - </s>
+  - <|im_end|>
 
 metadata:
   version: 3.0
