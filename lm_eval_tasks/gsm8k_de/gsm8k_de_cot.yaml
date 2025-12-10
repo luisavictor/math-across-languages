@@ -59,7 +59,7 @@ metric_list:
   - \.$
 
 repeats: 1
-num_fewshot: 0
+num_fewshot: 8
 
 filter_list:
 - filter:
