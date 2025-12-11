@@ -21,7 +21,7 @@ parser.add_argument('--save_path', help="save path for eval results after runnin
 parser.add_argument('--text_file', help="name of text file for saving pruning results during training if evaluating math reasoning using a non-Eleuther AI LM Evaluation Harness task in a PoT format", type = str)
 parser.add_argument('--num_repeats', help="number of repeats for pruning or scaling experiment", type = int, default = 5)
 parser.add_argument('--pre_train_eval', help="bool to indicate if full evaluation on eval and train datasets should be conducted before training", action="store_true")
-parser.add_argument('--random_state', help="random state for initial dataset shuffling and creating train/eval split for train dataset", type = int, default = 42)  #42
+parser.add_argument('--random_state', help="random state for initial dataset shuffling and creating train/eval split for train dataset", type = int, default = 42)
 parser.add_argument('--scalar', help="scale factor for top parameters; default is 0 to run pruning experiments", type = float, default = 0)
 parser.add_argument('--eval_dataset_size', help="desired number of samples for task specific eval dataset", type = int, default = None)
 parser.add_argument('--eval_dataset_subset', help="desired number of samples for task specific eval dataset if subsetting to reduce run time", type = int, default = 100)
@@ -31,8 +31,11 @@ parser.add_argument('--train_lm_eval_task', help="if your training dataset is an
 parser.add_argument('--proportion', help="desired proportion of top parameters to calculate", type = float, default = None)
 parser.add_argument('--fine_tune', help="freeze all non-task-specific parameters and fine-tune only isolated task-specific weights",action="store_true")
 parser.add_argument('--store_params', help="store task-specific isolated parameters",action="store_true")
+
 args = parser.parse_args()
 
+
+# Build a nice filename that encodes run configuration
 mask_dir = f"{args.save_path}/isolated_masks/{args.model}"
 os.makedirs(mask_dir, exist_ok=True)
 
@@ -86,7 +89,7 @@ results_path =  f"{args.save_path}/eval_results/{args.model}/"
 os.makedirs(os.path.dirname(results_path), exist_ok=True)
 
 
-'''
+
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 
 quant_config = BitsAndBytesConfig(
@@ -96,12 +99,12 @@ quant_config = BitsAndBytesConfig(
     bnb_4bit_quant_type="nf4"
 )
 
-tokenizer = AutoTokenizer.from_pretrained(args.model)
-model = AutoModelForCausalLM.from_pretrained(
-    args.model,
-    quantization_config=quant_config,
-    device_map="auto",
-)'''
+# tokenizer = AutoTokenizer.from_pretrained(args.model)
+# model = AutoModelForCausalLM.from_pretrained(
+#     args.model,
+#     quantization_config=quant_config,
+#     device_map="auto",
+# )
 
 tokenizer = AutoTokenizer.from_pretrained(args.model)
 model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
@@ -191,7 +194,7 @@ if args.pre_train_eval:
             model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
             tasks=args.eval_datasets,
             task_manager=task_manager,
-            batch_size = 2,
+            batch_size = 1,
             limit = args.eval_dataset_subset
         )
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
@@ -211,7 +214,7 @@ if args.pre_train_eval:
             model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
             tasks=args.train_lm_eval_task,
             task_manager=task_manager,
-            batch_size = 'auto:16',
+            batch_size = 1,
             log_samples=True,
             limit = args.eval_dataset_subset, 
             random_seed = args.random_state
@@ -233,10 +236,6 @@ if args.pre_train_eval:
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
         with open(results_path, "w") as outfile: 
             json.dump(results['results'], outfile)
-
-
-
-
 
 magnitude = {}
 def getActivation(name):
@@ -320,7 +319,7 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
 
     param_dict = {}
     for name, param in model.named_parameters():
-        param_dict[name] = torch.zeros_like(param, device = param.device)
+        param_dict[name] = torch.zeros_like(param, device = cuda_device)
             
     for i in range(0, num_samples):
         # gsm8k, race
@@ -367,7 +366,7 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
                 keep_num = int(num_params * keep_ratio)
                 tensor = v.view(-1)
                 top_pos = torch.topk(torch.abs(tensor), keep_num, largest = largest)[1]
-                mask_dict[k] = torch.zeros_like(tensor, device= tensor.device)
+                mask_dict[k] = torch.zeros_like(tensor, device= 'cpu')
                 mask_dict[k][top_pos] = 1
                 mask_dict[k] = mask_dict[k].reshape(v.shape).to(tensor.device)
             else:
@@ -376,9 +375,9 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
                 keep_num = int(num_params * keep_ratio)
                 tensor = v.view(-1)
                 top_pos = torch.topk(torch.abs(tensor), keep_num, largest = largest)[1]
-                mask_dict[k] = torch.ones_like(tensor, device=tensor.device)
+                mask_dict[k] = torch.ones_like(tensor, device='cpu')
                 mask_dict[k][top_pos] = 0
-                mask_dict[k] = mask_dict[k].reshape(v.shape).to(tensor.device)
+                mask_dict[k] = mask_dict[k].reshape(v.shape).to('cpu')
 
     return mask_dict
     
@@ -431,12 +430,13 @@ def count_math_only_parameters(math_mask, nonmath_mask):
 
 import torch
 from contextlib import nullcontext
+
 def fine_tune_on_isolated_params(
     model,
     tokenizer,
     train_df,
     isolated_masks,
-    num_epochs=5,
+    num_epochs=7,
     lr=1e-4,
     max_length=512,
     use_amp=True,
@@ -681,6 +681,7 @@ for dataset in dataset_list:
                 # Return the hook function
                 return hook
 
+
             for name, module in model.named_modules():
                 if (isinstance(module, (nn.Linear))):
                     hook_fn = getActivation(name)  # Get the hook function
@@ -854,7 +855,7 @@ for dataset in dataset_list:
                     tasks=args.eval_datasets,
                     task_manager=task_manager,
                     log_samples = False, 
-                    batch_size = 2,
+                    batch_size = 1,
                     limit = args.eval_dataset_subset
                 )
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}.json"
@@ -874,12 +875,12 @@ for dataset in dataset_list:
                     tasks=args.train_lm_eval_task,
                     task_manager=task_manager,
                     log_samples = False, 
-                    batch_size = 'auto:16',
+                    batch_size = 1,
                     limit = args.eval_dataset_subset, 
                     random_seed = args.random_state
                 )
 
-                results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_finetune{args.fine_tune}_run{repeat}_train_task.json"
+                results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_run{repeat}_train_task.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
                 with open(results_path, "w") as outfile: 
                     json.dump(results['results'], outfile)
@@ -894,7 +895,7 @@ for dataset in dataset_list:
                 )
 
 
-                results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_finetune{args.fine_tune}_run{repeat}.json"
+                results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_run{repeat}.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
                 with open(results_path, "w") as outfile: 
                     json.dump(results['results'], outfile)
