@@ -99,3 +99,50 @@ def plot_math_only_vs_top(
 
 log_path = "../results_gsm8k_race_en/eval_results/meta-llama/Llama-3.2-1B-Instruct/parameter_statistics"
 plot_math_only_vs_top(log_path, min_top=0.001, max_top=1.0)
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+def plot_vector_stats(vectors, categories=None, title="Vector Statistics"):
+    """
+    vectors: list of NumPy arrays or lists of equal length
+    categories: labels for each dimension (same length as vectors[0])
+    """
+
+    # Convert to array of shape (num_vectors, vector_length)
+    data = np.array(vectors)
+
+    if categories is None:
+        categories = np.arange(data.shape[1])
+
+    # Compute mean and standard deviation per index
+    means = np.mean(data, axis=0)
+    stds = np.std(data, axis=0)
+
+    # Plot
+    plt.figure(figsize=(10, 6))
+    plt.plot(categories, means, marker='o', label="Mean")
+    plt.fill_between(categories, means - stds, means + stds,
+                     alpha=0.25, label="Standard Deviation")
+
+    plt.title(title)
+    plt.xlabel("Top-k")
+    plt.ylabel("Jaccard Similarity")
+    plt.grid(True, linestyle="--", alpha=0.5)
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig("jaccard_plot.png")
+
+    return means, stds
+
+
+
+categories = [0.001, 0.01, 0.05, 0.1, 0.15]
+
+vec1 = [0.238, 0.219, 0.212, 0.191, 0.211]
+vec2 = [0.242, 0.219, 0.219, 0.218, 0.201]
+
+
+means, stds = plot_vector_stats([vec1, vec2], categories,
+                                title="Parameter Statistics")
