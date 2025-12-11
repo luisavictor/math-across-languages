@@ -218,7 +218,7 @@ if args.pre_train_eval:
             tasks=args.train_lm_eval_task,
             task_manager=task_manager,
             log_samples = False, 
-            batch_size = 'auto:4',
+            batch_size = 1,
             limit = args.eval_dataset_subset, 
             random_seed = args.random_state
         )
@@ -237,8 +237,7 @@ if args.pre_train_eval:
             tasks=args.eval_datasets,
             task_manager=task_manager,
             log_samples = False, 
-            batch_size = 'auto:4',
-            limit = 4 # actually no limit!
+            batch_size = 1
         )
         print("results", results)
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
@@ -337,7 +336,7 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
     param_dict = {} # param_dict accumulates per-parameter magnitude scores
     for name, param in model.named_parameters():
         #param_dict[name] = torch.zeros_like(param).to(param.device)  # This will accumulate importance values
-        param_dict[name] = torch.zeros_like(param, device = 'cpu')
+        param_dict[name] = torch.zeros_like(param, device = cuda_device)
             
     for i in range(0, num_samples):
         if 'qa' in train.columns.to_list():
@@ -389,7 +388,7 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
                 #mask_dict[k] = torch.ones_like(tensor, device=tensor.device)
                 mask_dict[k] = torch.ones_like(tensor, device='cpu')
                 mask_dict[k][top_pos] = 0   # prune strong weights
-                mask_dict[k] = mask_dict[k].reshape(v.shape).to(tensor.device)
+                mask_dict[k] = mask_dict[k].reshape(v.shape).to('cpu')
 
 
 
@@ -610,7 +609,7 @@ for dataset in dataset_list:
                     tasks=args.train_lm_eval_task,
                     task_manager=task_manager,
                     log_samples = False, 
-                    batch_size = 'auto:4',
+                    batch_size = 1,
                     limit = args.eval_dataset_subset, 
                     random_seed = args.random_state
                 )
@@ -625,8 +624,7 @@ for dataset in dataset_list:
                     tasks=args.eval_datasets,
                     task_manager=task_manager,
                     log_samples = False, 
-                    batch_size = 1,
-                    limit = 4   # actually no limit here!
+                    batch_size = 1
                 )
                 print("results are", results)
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}.json"

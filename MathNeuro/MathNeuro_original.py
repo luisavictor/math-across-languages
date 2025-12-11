@@ -21,7 +21,7 @@ parser.add_argument('--save_path', help="save path for eval results after runnin
 parser.add_argument('--text_file', help="name of text file for saving pruning results during training if evaluating math reasoning using a non-Eleuther AI LM Evaluation Harness task in a PoT format", type = str)
 parser.add_argument('--num_repeats', help="number of repeats for pruning or scaling experiment", type = int, default = 5)
 parser.add_argument('--pre_train_eval', help="bool to indicate if full evaluation on eval and train datasets should be conducted before training", action="store_true")
-parser.add_argument('--random_state', help="random state for initial dataset shuffling and creating train/eval split for train dataset", type = int, default = 42)  #42
+parser.add_argument('--random_state', help="random state for initial dataset shuffling and creating train/eval split for train dataset", type = int, default = 42)
 parser.add_argument('--scalar', help="scale factor for top parameters; default is 0 to run pruning experiments", type = float, default = 0)
 parser.add_argument('--eval_dataset_size', help="desired number of samples for task specific eval dataset", type = int, default = None)
 parser.add_argument('--eval_dataset_subset', help="desired number of samples for task specific eval dataset if subsetting to reduce run time", type = int, default = 100)
@@ -31,14 +31,15 @@ parser.add_argument('--train_lm_eval_task', help="if your training dataset is an
 parser.add_argument('--proportion', help="desired proportion of top parameters to calculate", type = float, default = None)
 parser.add_argument('--fine_tune', help="freeze all non-task-specific parameters and fine-tune only isolated task-specific weights",action="store_true")
 parser.add_argument('--store_params', help="store task-specific isolated parameters",action="store_true")
+
 args = parser.parse_args()
+
 
 # Build a nice filename that encodes run configuration
 mask_dir = f"{args.save_path}/isolated_masks/{args.model}"
 os.makedirs(mask_dir, exist_ok=True)
 
 
-'''
 if 'sgsm' in args.train_dataset:
     print("sgsm there")
     df = pd.read_csv(args.train_dataset) # Load SGSM dataset for few-shot prompting
@@ -98,12 +99,12 @@ quant_config = BitsAndBytesConfig(
     bnb_4bit_quant_type="nf4"
 )
 
-tokenizer = AutoTokenizer.from_pretrained(args.model)
-model = AutoModelForCausalLM.from_pretrained(
-    args.model,
-    quantization_config=quant_config,
-    device_map="auto",
-)
+# tokenizer = AutoTokenizer.from_pretrained(args.model)
+# model = AutoModelForCausalLM.from_pretrained(
+#     args.model,
+#     quantization_config=quant_config,
+#     device_map="auto",
+# )
 
 tokenizer = AutoTokenizer.from_pretrained(args.model)
 model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
@@ -193,7 +194,7 @@ if args.pre_train_eval:
             model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
             tasks=args.eval_datasets,
             task_manager=task_manager,
-            batch_size = 2,
+            batch_size = 1,
             limit = args.eval_dataset_subset
         )
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
@@ -213,7 +214,7 @@ if args.pre_train_eval:
             model_args = {'pretrained':model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
             tasks=args.train_lm_eval_task,
             task_manager=task_manager,
-            batch_size = 'auto:16',
+            batch_size = 1,
             log_samples=True,
             limit = args.eval_dataset_subset, 
             random_seed = args.random_state
@@ -229,188 +230,12 @@ if args.pre_train_eval:
             tasks=args.eval_datasets,
             task_manager=task_manager,
             log_samples = False, 
-            batch_size = 1,
-            limit = args.eval_dataset_subset
+            batch_size = 1
         )
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
         with open(results_path, "w") as outfile: 
             json.dump(results['results'], outfile)
-'''
-
-if 'sgsm' in args.train_dataset:
-    df = pd.read_csv(args.train_dataset)  # Load SGSM dataset for few-shot prompting
-    df = df[df['subset'] == "sgsm_train"]  # Subset SGSM to verified training subset
-    df = df.sample(frac=1, random_state=args.random_state)
-    for i in range(0, len(df)):
-        try:
-            answer = df.iloc[i]['answer']
-            answer = float(answer)
-            df.iloc[i]['answer'] = answer
-        except:
-            df = df.drop([i])
-
-    train = df.iloc[0:1500]
-
-    val = df.iloc[1500:]
-    val = val.sample(frac=1, random_state=args.random_state)
-
-if 'sgsm' not in args.train_dataset:
-    train = pd.read_csv(args.train_dataset)  # Load SGSM dataset for few-shot prompting
-    train = train.sample(frac=1, random_state=args.random_state)
-
-calibration_datasets = []
-for dataset in args.calibration_datasets:
-    if '/' in dataset:
-        dataset_name = dataset.split('/')[-1]
-        dataset_name = dataset_name.split('.csv')[0]
-        calibration_datasets.append(dataset_name)
-    else:
-        dataset_name = dataset.split('.csv')[0]
-        calibration_datasets.append(dataset_name)
-
-dataset_list = []
-for dataset, dataset_name, name in zip(args.calibration_datasets, calibration_datasets, args.calibration_dataset_names):
-    # Load the dataset into a DataFrame
-    globals()[dataset_name] = pd.read_csv(dataset).sample(frac=1,
-                                                          random_state=args.random_state)  # Shuffle the DataFrame
-
-    # Assign a name attribute to the DataFrame
-    globals()[dataset_name].name = name
-
-    # Append the actual DataFrame object to the list
-    dataset_list.append(globals()[dataset_name])
-
-output_file = f"{args.save_path}/eval_results/{args.model}/{args.text_file}"
-results_path = f"{args.save_path}/eval_results/{args.model}/"
-os.makedirs(os.path.dirname(results_path), exist_ok=True)
-
-tokenizer = AutoTokenizer.from_pretrained(args.model)
-model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
-if args.pre_train_eval:
-    if 'sgsm' in args.train_dataset:
-        prune_solve = []
-        prune_code = []
-        prune_solutions = []
-        for i in range(0, min(args.eval_dataset_subset, len(val))):
-            # Format the prompt
-            prompts = []
-            questions = []
-            final_question = val.iloc[i]['question']
-            final_answer = val.iloc[i]['answer']
-            final_prompt = f"""Instruct: {final_question} Let's write a Python program.\nOutput:"""
-
-            for j in range(0, 8):
-                question = train['question'].iloc[j]
-                questions.append(question)
-                answer = train['solution'].iloc[j]
-                prompt = f"""Instruct: {question} Let's write a Python program.\nOutput:\n{answer}"""
-                if prompt not in prompts:
-                    prompts.append(prompt)
-
-            prompts.append(final_prompt)
-            formatted_prompt = "\n\n".join(prompts)
-            # Query the model
-            inputs = tokenizer.encode(formatted_prompt, return_tensors="pt").to(model.device)
-            model_answer = None
-            output = model.generate(inputs, max_new_tokens=150)
-            generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
-            # Split the generated text by the prompt to extract the newly generated part
-            generated_text_parts = generated_text.split(final_prompt)
-            solution_text = generated_text_parts[-1].strip()
-            prune_solutions.append(solution_text)
-            if "Instruct:" in solution_text:
-                solution_text = solution_text.split("Instruct:")[
-                    0]  # Split up a generation that contains more than one question
-            if "print" in solution_text:
-                solution_text = solution_text.split("print")[0]  # Split up a generation that contains a print statement
-            if "Student:" in solution_text:
-                solution_text = solution_text.split("Student:")[
-                    0]  # Split up a generation that contains more than one question
-            if "Output:" in solution_text:
-                solution_text = solution_text.split("Output:")[
-                    0]  # Split up a generation that contains more than one question
-            if "#TODO" in solution_text:
-                solution_text = solution_text.split("#TODO")[
-                    0]  # Split up a generation that contains more than one question
-            # solutions.append(solution_text)
-            if 'return result' in solution_text:
-                # Split the string on 'return result' but keep 'return result' in the result
-                parts = re.split(r'(return result)', solution_text)
-
-                # Rejoin the parts correctly
-                solution_text = parts[0] + parts[1]
-            try:
-                exec(solution_text)
-                model_answer = solution()
-                prune_code.append(1)
-                model_answer = float(model_answer)
-                if model_answer != final_answer:
-                    prune_solve.append(0)
-
-                if model_answer == final_answer:
-                    prune_solve.append(1)
-
-            except:
-                prune_code.append(0)
-                prune_solve.append(0)
-
-        with open(output_file, "a") as f:  # Open the file in append mode ("a")
-            f.write(
-                f"Average eval accuracy on {min(args.eval_dataset_subset, len(val))} questions before training with greedy decoding (few-shot): {np.mean(prune_solve)}\n")
-        task_manager = lm_eval.tasks.TaskManager()
-        # --log_samples --output_path results/phi_15_base --device cuda:0 --batch_size auto:4
-        # Setting `task_manager` to the one above is optional and should generally be done
-        # if you want to include tasks from paths other than ones in `lm_eval/tasks`.
-        # `simple_evaluate` will instantiate its own task_manager if it is set to None here.
-        results = lm_eval.simple_evaluate(  # call simple_evaluate
-            model='hf',
-            model_args={'pretrained': model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
-            tasks=args.eval_datasets,
-            task_manager=task_manager,
-            log_samples=False,
-            batch_size='auto:4'
-        )
-        results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
-        os.makedirs(os.path.dirname(results_path), exist_ok=True)
-        with open(results_path, "w") as outfile:
-            json.dump(results['results'], outfile)
-
-    if args.train_lm_eval_task is not None:
-        task_manager = lm_eval.tasks.TaskManager()
-        # --log_samples --output_path results/phi_15_base --device cuda:0 --batch_size auto:4
-        # Setting `task_manager` to the one above is optional and should generally be done
-        # if you want to include tasks from paths other than ones in `lm_eval/tasks`.
-        # `simple_evaluate` will instantiate its own task_manager if it is set to None here.
-        results = lm_eval.simple_evaluate(  # call simple_evaluate
-            model='hf',
-            model_args={'pretrained': model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
-            tasks=args.train_lm_eval_task,
-            task_manager=task_manager,
-            log_samples=False,
-            batch_size=1,
-            limit=args.eval_dataset_subset,
-            random_seed=args.random_state
-        )
-        results_path = f"{args.save_path}/eval_results/{args.model}/pre_results_train_task.json"
-        os.makedirs(os.path.dirname(results_path), exist_ok=True)
-        with open(results_path, "w") as outfile:
-            json.dump(results['results'], outfile)
-
-        results = lm_eval.simple_evaluate(  # call simple_evaluate
-            model='hf',
-            model_args={'pretrained': model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
-            tasks=args.eval_datasets,
-            task_manager=task_manager,
-            log_samples=False,
-            batch_size='auto:4'
-        )
-        results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
-        os.makedirs(os.path.dirname(results_path), exist_ok=True)
-        with open(results_path, "w") as outfile:
-            json.dump(results['results'], outfile)
-
-
 
 magnitude = {}
 def getActivation(name):
@@ -494,7 +319,7 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
 
     param_dict = {}
     for name, param in model.named_parameters():
-        param_dict[name] = torch.zeros_like(param, device = param.device)
+        param_dict[name] = torch.zeros_like(param, device = cuda_device)
             
     for i in range(0, num_samples):
         # gsm8k, race
@@ -541,7 +366,7 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
                 keep_num = int(num_params * keep_ratio)
                 tensor = v.view(-1)
                 top_pos = torch.topk(torch.abs(tensor), keep_num, largest = largest)[1]
-                mask_dict[k] = torch.zeros_like(tensor, device= tensor.device)
+                mask_dict[k] = torch.zeros_like(tensor, device= 'cpu')
                 mask_dict[k][top_pos] = 1
                 mask_dict[k] = mask_dict[k].reshape(v.shape).to(tensor.device)
             else:
@@ -550,9 +375,9 @@ def find_good_params(model, train, keep_ratio, prune = True, largest = True, num
                 keep_num = int(num_params * keep_ratio)
                 tensor = v.view(-1)
                 top_pos = torch.topk(torch.abs(tensor), keep_num, largest = largest)[1]
-                mask_dict[k] = torch.ones_like(tensor, device=tensor.device)
+                mask_dict[k] = torch.ones_like(tensor, device='cpu')
                 mask_dict[k][top_pos] = 0
-                mask_dict[k] = mask_dict[k].reshape(v.shape).to(tensor.device)
+                mask_dict[k] = mask_dict[k].reshape(v.shape).to('cpu')
 
     return mask_dict
     
@@ -611,7 +436,7 @@ def fine_tune_on_isolated_params(
     tokenizer,
     train_df,
     isolated_masks,
-    num_epochs=5,
+    num_epochs=7,
     lr=1e-4,
     max_length=512,
     use_amp=True,
@@ -833,7 +658,6 @@ if args.proportion is None:
     good_percents = [.0001, .001, .005, .01, .025, .05, .1, .15]
 if args.proportion is not None:
     good_percents = [args.proportion]
-good_percents = [0.01, 0.05, 0.1]
 scalar = args.scalar
 for dataset in dataset_list:
     for repeat in range(0, num_repeats):
@@ -1031,7 +855,7 @@ for dataset in dataset_list:
                     tasks=args.eval_datasets,
                     task_manager=task_manager,
                     log_samples = False, 
-                    batch_size = 2,
+                    batch_size = 1,
                     limit = args.eval_dataset_subset
                 )
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}.json"
@@ -1051,12 +875,12 @@ for dataset in dataset_list:
                     tasks=args.train_lm_eval_task,
                     task_manager=task_manager,
                     log_samples = False, 
-                    batch_size = 'auto:16',
+                    batch_size = 1,
                     limit = args.eval_dataset_subset, 
                     random_seed = args.random_state
                 )
 
-                results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_finetune{args.fine_tune}_run{repeat}_train_task.json"
+                results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_run{repeat}_train_task.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
                 with open(results_path, "w") as outfile: 
                     json.dump(results['results'], outfile)
@@ -1067,12 +891,11 @@ for dataset in dataset_list:
                     tasks=args.eval_datasets,
                     task_manager=task_manager,
                     log_samples = False,
-                    batch_size = 1,
-                    limit = args.eval_dataset_subset
+                    batch_size = 1
                 )
 
 
-                results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_finetune{args.fine_tune}_run{repeat}.json"
+                results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_run{repeat}.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
                 with open(results_path, "w") as outfile: 
                     json.dump(results['results'], outfile)
