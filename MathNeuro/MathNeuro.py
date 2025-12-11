@@ -320,7 +320,8 @@ def find_good_params(model, train, keep_ratio, prune=True, largest=True, num_sam
 
     param_dict = {}
     for name, param in model.named_parameters():
-        param_dict[name] = torch.zeros_like(param).to(param.device)
+        param_dict[name] = torch.zeros_like(param, device = param.device)
+
 
     for i in range(0, num_samples):
         if 'qa' in train.columns.to_list():
@@ -368,12 +369,11 @@ def find_good_params(model, train, keep_ratio, prune=True, largest=True, num_sam
                 keep_num = int(num_params * keep_ratio)
                 tensor = v.view(-1)
                 top_pos = torch.topk(torch.abs(tensor), keep_num, largest=largest)[1]
-                mask_dict[k] = torch.ones_like(tensor, device=tensor.device)
+                mask_dict[k] = torch.ones_like(tensor, device='cpu')
                 mask_dict[k][top_pos] = 0
-                mask_dict[k] = mask_dict[k].reshape(v.shape).to(tensor.device)
+                mask_dict[k] = mask_dict[k].reshape(v.shape).to('cpu')
 
     return mask_dict
-
 
 def prune(bad_params, good_params, factor, return_good=False):
     prune_params = {}
@@ -669,7 +669,7 @@ for dataset in dataset_list:
                     activations_norm = activations.norm(p=2, dim=1).to(torch.bfloat16)
                     # Multiply activations by the absolute value of weights
                     modified_output = activations_norm.to(device) * torch.abs(weights)
-                    magnitude[name] = modified_output.detach()  # Store the modified output
+                    magnitude[name] = modified_output.detach()# Store the modified output
 
                 # Return the hook function
                 return hook
