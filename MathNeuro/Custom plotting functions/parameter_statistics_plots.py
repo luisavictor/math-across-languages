@@ -97,5 +97,5 @@ def plot_math_only_vs_top(
 
 
 
-log_path = "../results_gsm8k_race_scaling/eval_results/meta-llama/Llama-3.2-1B-Instruct/parameter_statistics"
+log_path = "../results_gsm8k_race_en/eval_results/meta-llama/Llama-3.2-1B-Instruct/parameter_statistics"
 plot_math_only_vs_top(log_path, min_top=0.001, max_top=1.0)
