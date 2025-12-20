@@ -1,0 +1,12 @@
+include: _default_template_yaml
+"task": "mmlu_de_college_medicine"
+"task_alias": "college_medicine"
+
+description: "Die folgenden Fragen sind Multiple-Choice-Fragen (mit Antworten) zum Thema College Medizin.\n\n"
+
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_German/mmlu_de_by_subject/college_medicine.csv
+
+test_split: test

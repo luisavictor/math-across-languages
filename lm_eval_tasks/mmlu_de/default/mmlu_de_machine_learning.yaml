@@ -1,0 +1,9 @@
+include: _default_template_yaml
+"task": "mmlu_de_machine_learning"
+"task_alias": "machine_learning"
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_German/mmlu_de_by_subject/machine_learning.csv
+
+test_split: test

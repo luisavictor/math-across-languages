@@ -3,15 +3,14 @@ import torch
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 import re
 
-'''
-def translate_gsm8k(
+
+def translate_gsm8k_trainset(
     input_csv_path,
     output_csv_path,
     target_lang='german',
     n_rows=None,
     device=None
     ):
-
 
     # Language map
     lang_code_map = {
@@ -24,7 +23,7 @@ def translate_gsm8k(
     tgt_lang = lang_code_map[target_lang.lower()]
 
     # Load CSV
-    df = pd.read_csv(input_csv_path, skiprows=range(1, 3797))
+    df = pd.read_csv(input_csv_path)
     total_rows = len(df) if n_rows is None else min(n_rows, len(df))
 
     # Load model
@@ -40,10 +39,8 @@ def translate_gsm8k(
     model.to(device)
     model.eval()
 
-    # -------------------------
-    # Helper functions
-    # -------------------------
 
+    # Helper functions
     def split_text_into_chunks(text):
         """
         Split a long sentence into chunks at punctuation or logical connectors.
@@ -67,7 +64,6 @@ def translate_gsm8k(
     def translate_long_text(text, translate_func):
         """
         Split text into chunks, translate each separately, then join back.
-        translate_func: your existing translate_text function
         """
         chunks = split_text_into_chunks(text)
         translated_chunks = []
@@ -108,7 +104,6 @@ def translate_gsm8k(
         protected_text, placeholders = protect_placeholders(text)
         encoded = tokenizer(protected_text, return_tensors="pt", truncation=True).to(device)
 
-        # NLLB forced target language
         try:
             forced_id = tokenizer._lang_token_to_id[tgt_lang]
         except:
@@ -126,14 +121,11 @@ def translate_gsm8k(
         translated = restore_placeholders(translated, placeholders)
         return translated
 
-    # -------------------------
     # Translation loop
-    # -------------------------
     for idx in range(total_rows):
         for col in ['instruct', 'qa']:
             original_text = str(df.at[idx, col])
             print(f"Translating row {idx}, column '{col}'...")
-            #df.at[idx, col] = translate_text(original_text)
             df.at[idx, col] = translate_long_text(original_text, translate_text)
             print(df.at[idx, col])
         # Save progress after each row
@@ -141,17 +133,14 @@ def translate_gsm8k(
 
     # Save result
     df.to_csv(output_csv_path, index=False)
-    print(f"✅ Translation complete. Saved to {output_csv_path}")
-
 
 if __name__ == "__main__":
-    translate_gsm8k(
+    translate_gsm8k_trainset(
         input_csv_path="../MathNeuro/data/gsm8k.csv",
         output_csv_path="gsm8k_de.csv",
         target_lang="german",
         n_rows=None
     )
-'''
 
 
 
@@ -164,10 +153,7 @@ if __name__ == "__main__":
 
 
 
-import pandas as pd
-import torch
-from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
-import re
+
 
 
 def translate_gsm8k(
@@ -289,7 +275,7 @@ def translate_gsm8k(
         df.to_csv(output_csv_path, index=False)  # save progress after each row
 
     df.to_csv(output_csv_path, index=False)
-    print(f"✅ Translation complete. Saved to {output_csv_path}")
+    print(f"Translation complete. Saved to {output_csv_path}")
 
 
 if __name__ == "__main__":

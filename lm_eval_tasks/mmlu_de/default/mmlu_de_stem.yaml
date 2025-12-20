@@ -1,0 +1,13 @@
+group: mmlu_de_stem
+group_alias: stem
+task:
+  - mmlu_de_anatomy
+  - mmlu_de_college_biology
+  - mmlu_de_computer_security
+  - mmlu_de_electrical_engineering
+  - mmlu_de_machine_learning
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: true
+metadata:
+  version: 1

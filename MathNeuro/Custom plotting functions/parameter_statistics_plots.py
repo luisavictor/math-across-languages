@@ -4,7 +4,7 @@ matplotlib.use("Agg")      # headless, no interactive window, but also no crash
 # or, on a local machine with GUI:
 # matplotlib.use("Qt5Agg") # or "TkAgg" depending on what you have
 import matplotlib.pyplot as plt
-
+import numpy as np
 
 
 def plot_math_only_vs_top(
@@ -66,22 +66,14 @@ def plot_math_only_vs_top(
     sorted_idx = sorted(range(len(top_fracs)), key=lambda i: top_fracs[i])
     top_fracs      = [top_fracs[i]      for i in sorted_idx]
     math_only_vals = [math_only_vals[i] for i in sorted_idx]
-    math_vals      = [math_vals[i]      for i in sorted_idx]
-    nonmath_vals   = [nonmath_vals[i]   for i in sorted_idx]
 
     fig, ax = plt.subplots()
-    ax.plot(top_fracs, math_only_vals, marker="o", label="math-only")
-
-    # If you later want the other curves, just uncomment:
-    ax.plot(top_fracs, math_vals, marker="x", linestyle="--", label="math")
-    ax.plot(top_fracs, nonmath_vals, marker="s", linestyle="--", label="non-math")
-
+    ax.plot(top_fracs, math_only_vals, marker="o", label="Math-specific parameters")
     ax.set_xscale("log")
-    ax.set_xlabel("Top-k fraction (0–1)")
+    ax.set_xlabel("Top-k fraction")
     ax.set_ylabel("Number of parameters")
-    ax.set_title("Math-only parameters vs. top-k fraction")
+    ax.set_title("Number of isolated parameters vs. top-k fraction")
     ax.set_xlim(min_top, max_top)
-    ax.grid(True, which="both", linestyle=":")
     ax.legend()
     fig.tight_layout()
 
@@ -97,11 +89,10 @@ def plot_math_only_vs_top(
 
 
 
-log_path = "../results_gsm8k_race_en/eval_results/meta-llama/Llama-3.2-1B-Instruct/parameter_statistics"
-plot_math_only_vs_top(log_path, min_top=0.001, max_top=1.0)
+#log_path = "../results_gsm8k_race_en/eval_results/meta-llama/Llama-3.2-1B-Instruct/None"
+#plot_math_only_vs_top(log_path, min_top=0.001, max_top=1.0)
 
-import numpy as np
-import matplotlib.pyplot as plt
+
 
 
 def plot_vector_stats(vectors, categories=None, title="Vector Statistics"):
@@ -128,7 +119,7 @@ def plot_vector_stats(vectors, categories=None, title="Vector Statistics"):
 
     plt.title(title)
     plt.xlabel("Top-k")
-    plt.ylabel("Jaccard Similarity")
+    plt.ylabel("Jaccard similarity of English and German math-specific parameters")
     plt.grid(True, linestyle="--", alpha=0.5)
     plt.legend()
     plt.tight_layout()
@@ -144,5 +135,5 @@ vec1 = [0.238, 0.219, 0.212, 0.191, 0.211]
 vec2 = [0.242, 0.219, 0.219, 0.218, 0.201]
 
 
-means, stds = plot_vector_stats([vec1, vec2], categories,
+means, stds = plot_vector_stats([vec1], categories,
                                 title="Parameter Statistics")

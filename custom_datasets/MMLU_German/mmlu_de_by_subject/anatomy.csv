@@ -1,0 +1,676 @@
+question,subject,choices,answer,qa
+"Eine Läsion, die eine Kompression des Gesichtsnervs am Stylomastoidforamen verursacht, verursacht",anatomy,"['Lähmung der Gesichtsmuskeln.', 'Lähmung der Gesichtsmuskeln und Verlust des Geschmacks.', 'Lähmung der Gesichtsmuskeln, Verlust des Geschmacks und Tränenbildung.', 'Lähmung der Gesichtsmuskeln, Verlust des Geschmacks, Tränenbildung und verminderte Speichelbildung.']",0,"Frage: Eine Läsion, die eine Kompression des Gesichtsnervs am Stylomastoidforamen verursacht, verursacht
+
+Antwortoptionen: ['Lähmung der Gesichtsmuskeln.', 'Lähmung der Gesichtsmuskeln und Verlust des Geschmacks.', 'Lähmung der Gesichtsmuskeln, Verlust des Geschmacks und Tränenbildung.', 'Lähmung der Gesichtsmuskeln, Verlust des Geschmacks, Tränenbildung und verminderte Speichelbildung.']
+
+Antwort: Lähmung der Gesichtsmuskeln."
+"Ein ""geplatztes Gesicht""-Profil wird oft mit",anatomy,"['ein ausstehender Kiefer aufgrund der Reaktivierung des Kondylarknorpels durch Akromegalie.', 'ein rezessiver Kiefer aufgrund einer fehlenden Verlängerung der Schädelbasis.', 'ein vergrößertes Stirnbein aufgrund von Hydrozephalie.', 'Fehlentwicklung der maxillaren Luftsinus.']",1,"Frage: Ein ""geplatztes Gesicht""-Profil wird oft mit
+
+Antwortoptionen: ['ein ausstehender Kiefer aufgrund der Reaktivierung des Kondylarknorpels durch Akromegalie.', 'ein rezessiver Kiefer aufgrund einer fehlenden Verlängerung der Schädelbasis.', 'ein vergrößertes Stirnbein aufgrund von Hydrozephalie.', 'Fehlentwicklung der maxillaren Luftsinus.']
+
+Antwort: ein rezessiver Kiefer aufgrund einer fehlenden Verlängerung der Schädelbasis."
+"Welche der folgenden Bezeichnungen beschreibt am besten die Struktur, die Urin im Körper sammelt?",anatomy,"['Blasen', 'Nieren', 'Harnröhre', 'Harnröhre']",0,"Frage: Welche der folgenden Bezeichnungen beschreibt am besten die Struktur, die Urin im Körper sammelt?
+
+Antwortoptionen: ['Blasen', 'Nieren', 'Harnröhre', 'Harnröhre']
+
+Antwort: Blasen"
+Welche der folgenden Strukturen ist aus Ectomesenchyme abgeleitet?,anatomy,"['Motorische Neuronen', 'Skelettmuskeln', 'Melanozyten', 'Schweißdrüsen']",2,"Frage: Welche der folgenden Strukturen ist aus Ectomesenchyme abgeleitet?
+
+Antwortoptionen: ['Motorische Neuronen', 'Skelettmuskeln', 'Melanozyten', 'Schweißdrüsen']
+
+Antwort: Melanozyten"
+"Welches der folgenden Wörter beschreibt die Ansammlung von Blutkapillaren, die sich in jedem Nephron der Niere befinden?",anatomy,"['Afferente Arteriole', 'Glomerulus', 'Henle-Schleife', 'Nierenbecken']",1,"Frage: Welches der folgenden Wörter beschreibt die Ansammlung von Blutkapillaren, die sich in jedem Nephron der Niere befinden?
+
+Antwortoptionen: ['Afferente Arteriole', 'Glomerulus', 'Henle-Schleife', 'Nierenbecken']
+
+Antwort: Glomerulus"
+Ein Patient erleidet einen Halsbruch mit einer Schädigung des Rückenmarks auf der Ebene des sechsten Halswirbels.,anatomy,"['Sie werden ohne Lebenserhaltung nicht atmen können.', 'Sie werden nur in der Lage sein, ruhig zu atmen.', 'Es ist unmöglich, eine Auswirkung auf die Atmung vorherzusagen.', 'Die Atmung wird nicht beeinträchtigt.']",1,"Frage: Ein Patient erleidet einen Halsbruch mit einer Schädigung des Rückenmarks auf der Ebene des sechsten Halswirbels.
+
+Antwortoptionen: ['Sie werden ohne Lebenserhaltung nicht atmen können.', 'Sie werden nur in der Lage sein, ruhig zu atmen.', 'Es ist unmöglich, eine Auswirkung auf die Atmung vorherzusagen.', 'Die Atmung wird nicht beeinträchtigt.']
+
+Antwort: Sie werden nur in der Lage sein, ruhig zu atmen."
+Welche der folgenden anatomischen Bereiche des Bauches liegt distal zum Brustbein?,anatomy,"['Epigastrisch', 'Hypochonder', 'Hypogastrisch', 'Lendenwirbelsäule']",0,"Frage: Welche der folgenden anatomischen Bereiche des Bauches liegt distal zum Brustbein?
+
+Antwortoptionen: ['Epigastrisch', 'Hypochonder', 'Hypogastrisch', 'Lendenwirbelsäule']
+
+Antwort: Epigastrisch"
+Welche der folgenden Bezeichnungen beschreibt am besten den Abwehrmechanismus des menschlichen Körpers gegen Umweltbakterien?,anatomy,"['Haare in der Nase', 'Schleimhaut', 'Osteoblasten', 'Speichel']",1,"Frage: Welche der folgenden Bezeichnungen beschreibt am besten den Abwehrmechanismus des menschlichen Körpers gegen Umweltbakterien?
+
+Antwortoptionen: ['Haare in der Nase', 'Schleimhaut', 'Osteoblasten', 'Speichel']
+
+Antwort: Schleimhaut"
+Die palatinen Prozesse beginnen sich zu verschmelzen.,anatomy,"['sechs Wochen nach der Befruchtung.', 'acht Wochen nach der Befruchtung.', '10 Wochen nach der Befruchtung.', 'zwölf Wochen nach der Befruchtung.']",2,"Frage: Die palatinen Prozesse beginnen sich zu verschmelzen.
+
+Antwortoptionen: ['sechs Wochen nach der Befruchtung.', 'acht Wochen nach der Befruchtung.', '10 Wochen nach der Befruchtung.', 'zwölf Wochen nach der Befruchtung.']
+
+Antwort: 10 Wochen nach der Befruchtung."
+Die primäre motorische Kortexaktivität führt zu,anatomy,"['bilaterale Kontraktion der Antigravitationsmuskeln der Extremitäten.', 'bilaterale Kontraktion der Muskulatur der Extremitäten.', 'Kontraktion der ipsilateralen Extremitätsmuskulatur.', 'Kontraktion der kontralateralen Extremitätsmuskulatur.']",3,"Frage: Die primäre motorische Kortexaktivität führt zu
+
+Antwortoptionen: ['bilaterale Kontraktion der Antigravitationsmuskeln der Extremitäten.', 'bilaterale Kontraktion der Muskulatur der Extremitäten.', 'Kontraktion der ipsilateralen Extremitätsmuskulatur.', 'Kontraktion der kontralateralen Extremitätsmuskulatur.']
+
+Antwort: Kontraktion der kontralateralen Extremitätsmuskulatur."
+"Sie bemerken, dass die submandibulären Lymphknoten Ihres Patienten vergrößert sind.",anatomy,"['Er hat einen harten Gaumen.', 'Harter Gaumen und Oberlippe.', 'Harter Gaumen, Oberlippe und oberer zentraler Schneidezahn.', 'Harter Gaumen, Oberlippe, oberer zentraler Schneidezahn und unterer erster Molar.']",3,"Frage: Sie bemerken, dass die submandibulären Lymphknoten Ihres Patienten vergrößert sind.
+
+Antwortoptionen: ['Er hat einen harten Gaumen.', 'Harter Gaumen und Oberlippe.', 'Harter Gaumen, Oberlippe und oberer zentraler Schneidezahn.', 'Harter Gaumen, Oberlippe, oberer zentraler Schneidezahn und unterer erster Molar.']
+
+Antwort: Harter Gaumen, Oberlippe, oberer zentraler Schneidezahn und unterer erster Molar."
+"Ein Patient erleidet bei einem Verkehrsunfall Schäden an der Hirnröhre, die zu einer Schädigung des dritten Schädelnervs führen.",anatomy,"['Verengung der Pupillen und medialer Strabismus', 'Pupillendilatation und medialer Strabismus', 'Verengung der Pupillen und lateraler Strabismus', 'Pupillendilatation und lateraler Strabismus']",3,"Frage: Ein Patient erleidet bei einem Verkehrsunfall Schäden an der Hirnröhre, die zu einer Schädigung des dritten Schädelnervs führen.
+
+Antwortoptionen: ['Verengung der Pupillen und medialer Strabismus', 'Pupillendilatation und medialer Strabismus', 'Verengung der Pupillen und lateraler Strabismus', 'Pupillendilatation und lateraler Strabismus']
+
+Antwort: Pupillendilatation und lateraler Strabismus"
+Welche der folgenden Aussagen trifft auf das Kiefergelenk zu?,anatomy,"['Es hat eine Gelenkscheibe aus Hyalinknorpel .', 'Seine Gelenkoberflächen sind mit Hyalin-Knorpel bedeckt .', 'Propriozeptive Informationen werden von der Chorda tympani und den tiefen Schläfennerven übertragen', 'Die propriozeptiven Informationen werden von den masseterischen und auriculotemporalen Nerven übertragen.']",3,"Frage: Welche der folgenden Aussagen trifft auf das Kiefergelenk zu?
+
+Antwortoptionen: ['Es hat eine Gelenkscheibe aus Hyalinknorpel .', 'Seine Gelenkoberflächen sind mit Hyalin-Knorpel bedeckt .', 'Propriozeptive Informationen werden von der Chorda tympani und den tiefen Schläfennerven übertragen', 'Die propriozeptiven Informationen werden von den masseterischen und auriculotemporalen Nerven übertragen.']
+
+Antwort: Die propriozeptiven Informationen werden von den masseterischen und auriculotemporalen Nerven übertragen."
+"Eine laryngoskopische Untersuchung der Stimmfalten nach Verdacht auf eine wiederkehrende Schädigung des Kehlkopfnervs zeigt in der Regel, dass die Stimmfalte auf der verletzten Seite angespannt ist und sich in einer Zwischenposition zwischen Adduktion und Abduktion befindet Das liegt daran,",anatomy,"['Die Schilddrüsenmuskulatur ist noch funktionsfähig, aber die interarytenoiden Muskeln sind voll aktiv.', 'Schilddrüsenmuskel ist noch funktionsfähig, aber die Interarytenoiden sind schwach.', 'Schilddrüsenmuskel ist gelähmt, aber die Interarytenoiden sind voll aktiv.', 'Schilddrüsenmuskel ist gelähmt, aber die Interarytenoiden sind schwach.']",1,"Frage: Eine laryngoskopische Untersuchung der Stimmfalten nach Verdacht auf eine wiederkehrende Schädigung des Kehlkopfnervs zeigt in der Regel, dass die Stimmfalte auf der verletzten Seite angespannt ist und sich in einer Zwischenposition zwischen Adduktion und Abduktion befindet Das liegt daran,
+
+Antwortoptionen: ['Die Schilddrüsenmuskulatur ist noch funktionsfähig, aber die interarytenoiden Muskeln sind voll aktiv.', 'Schilddrüsenmuskel ist noch funktionsfähig, aber die Interarytenoiden sind schwach.', 'Schilddrüsenmuskel ist gelähmt, aber die Interarytenoiden sind voll aktiv.', 'Schilddrüsenmuskel ist gelähmt, aber die Interarytenoiden sind schwach.']
+
+Antwort: Schilddrüsenmuskel ist noch funktionsfähig, aber die Interarytenoiden sind schwach."
+Welche der folgenden Aussagen über das Wachstum des Unterkiefers ist richtig?,anatomy,"['Die geistige Symphyse schließt sich nach etwa einem Jahr nach der Geburt.', 'Der Kondylar-Knorpel hört mit der Pubertät auf zu wachsen', 'Das Ossifizierungszentrum erscheint etwa 8 Wochen I.U.L medial zum Meckel-Knorpel', 'Die Funktionsmatrix, die auf den Winkel des Unterkiefes wirkt, ist der laterale Pterygoidmuskel.']",0,"Frage: Welche der folgenden Aussagen über das Wachstum des Unterkiefers ist richtig?
+
+Antwortoptionen: ['Die geistige Symphyse schließt sich nach etwa einem Jahr nach der Geburt.', 'Der Kondylar-Knorpel hört mit der Pubertät auf zu wachsen', 'Das Ossifizierungszentrum erscheint etwa 8 Wochen I.U.L medial zum Meckel-Knorpel', 'Die Funktionsmatrix, die auf den Winkel des Unterkiefes wirkt, ist der laterale Pterygoidmuskel.']
+
+Antwort: Die geistige Symphyse schließt sich nach etwa einem Jahr nach der Geburt."
+Welche der folgenden Aussagen gilt für den Pupillenlichtreflex?,anatomy,"['Sein efferentes Glied wird im Sehnerv getragen .', 'Es wird durch die unteren Kolliculi im Mittelhirn vermittelt .', 'Es ist ein einvernehmlicher Reflex.', 'Sein afferentes Glied wird im okulomotorischen Nerv getragen .']",2,"Frage: Welche der folgenden Aussagen gilt für den Pupillenlichtreflex?
+
+Antwortoptionen: ['Sein efferentes Glied wird im Sehnerv getragen .', 'Es wird durch die unteren Kolliculi im Mittelhirn vermittelt .', 'Es ist ein einvernehmlicher Reflex.', 'Sein afferentes Glied wird im okulomotorischen Nerv getragen .']
+
+Antwort: Es ist ein einvernehmlicher Reflex."
+Welche Muskeln sind während des stillen Einatmens normalerweise aktiv?,anatomy,"['Äußere und innere intercostale Muskeln', 'Außeninterkostale Muskeln und Zwerchfell', 'Interne intercostale Muskeln und Zwerchfell', 'Äußere und innere intercostale Muskeln und Zwerchfell']",1,"Frage: Welche Muskeln sind während des stillen Einatmens normalerweise aktiv?
+
+Antwortoptionen: ['Äußere und innere intercostale Muskeln', 'Außeninterkostale Muskeln und Zwerchfell', 'Interne intercostale Muskeln und Zwerchfell', 'Äußere und innere intercostale Muskeln und Zwerchfell']
+
+Antwort: Außeninterkostale Muskeln und Zwerchfell"
+Welche der folgenden Substanzen produzieren männliche Hormone?,anatomy,"['Schleimhaut Penis', 'Vorhaut', 'Prostata', 'Prüfungen']",3,"Frage: Welche der folgenden Substanzen produzieren männliche Hormone?
+
+Antwortoptionen: ['Schleimhaut Penis', 'Vorhaut', 'Prostata', 'Prüfungen']
+
+Antwort: Prüfungen"
+Durch welche der folgenden Strukturen wird sauerstoffreiches Blut zum Herzen transportiert?,anatomy,"['Aorta', 'Halsschlagadern', 'Unterste Kava-Vene', 'Lungenvenen']",3,"Frage: Durch welche der folgenden Strukturen wird sauerstoffreiches Blut zum Herzen transportiert?
+
+Antwortoptionen: ['Aorta', 'Halsschlagadern', 'Unterste Kava-Vene', 'Lungenvenen']
+
+Antwort: Lungenvenen"
+"Welche der folgenden Vorgänge ermöglicht es der Luft, in die Lunge zu gelangen?",anatomy,"['Aorta', 'Speiseröhre', 'Luftröhre', 'Bauchspeicheldrüse']",2,"Frage: Welche der folgenden Vorgänge ermöglicht es der Luft, in die Lunge zu gelangen?
+
+Antwortoptionen: ['Aorta', 'Speiseröhre', 'Luftröhre', 'Bauchspeicheldrüse']
+
+Antwort: Luftröhre"
+Wo befindet sich der Sinusknoten?,anatomy,"['Zwischen dem linken Vorhof und dem linken Ventrikel', 'Zwischen dem rechten Vorhof und dem rechten Ventrikel', 'In der oberen Wand des rechten Vorhofes', 'In der oberen Wand des linken Ventrikels']",2,"Frage: Wo befindet sich der Sinusknoten?
+
+Antwortoptionen: ['Zwischen dem linken Vorhof und dem linken Ventrikel', 'Zwischen dem rechten Vorhof und dem rechten Ventrikel', 'In der oberen Wand des rechten Vorhofes', 'In der oberen Wand des linken Ventrikels']
+
+Antwort: In der oberen Wand des rechten Vorhofes"
+In Bezug auf die Rippe liegt der entsprechende Interkostalnerv,anatomy,"['tief bis zu seinem oberen Rand.', 'Oberflächlich bis zu seinem oberen Rand.', 'tief bis zu seinem unteren Rand.', 'Oberflächlich bis zu seinem unteren Rand.']",2,"Frage: In Bezug auf die Rippe liegt der entsprechende Interkostalnerv
+
+Antwortoptionen: ['tief bis zu seinem oberen Rand.', 'Oberflächlich bis zu seinem oberen Rand.', 'tief bis zu seinem unteren Rand.', 'Oberflächlich bis zu seinem unteren Rand.']
+
+Antwort: tief bis zu seinem unteren Rand."
+Die regionale Lymphdrainage der linken Seite der Zungenspitze,anatomy,"['Linkser submentaler Lymphknoten.', 'Linke und rechte submentale Lymphknoten.', 'Linkser submandibulärer Lymphknoten.', 'Linke und rechte submandibulare Lymphknoten.']",1,"Frage: Die regionale Lymphdrainage der linken Seite der Zungenspitze
+
+Antwortoptionen: ['Linkser submentaler Lymphknoten.', 'Linke und rechte submentale Lymphknoten.', 'Linkser submandibulärer Lymphknoten.', 'Linke und rechte submandibulare Lymphknoten.']
+
+Antwort: Linke und rechte submentale Lymphknoten."
+"Gastrulation ist der Prozess, bei dem",anatomy,"['Mesodermbildung und tritt nach der Neurulation auf.', 'Ektomesenchymbildung und tritt vor der Neurulation auf.', 'Mesodermbildung und tritt vor der Neurulation auf.', 'Ektomesenchymbildung und tritt nach der Neurulation auf.']",1,"Frage: Gastrulation ist der Prozess, bei dem
+
+Antwortoptionen: ['Mesodermbildung und tritt nach der Neurulation auf.', 'Ektomesenchymbildung und tritt vor der Neurulation auf.', 'Mesodermbildung und tritt vor der Neurulation auf.', 'Ektomesenchymbildung und tritt nach der Neurulation auf.']
+
+Antwort: Ektomesenchymbildung und tritt vor der Neurulation auf."
+Die spheno-occipitale Synchondrose,anatomy,"['ist ein sekundäres Wachstum Knorpel.', 'beeinflusst die Position des Viscerocraniums.', 'Aktivität im Alter von 7 Jahren aufhört.', 'kann bei Patienten mit Akromegalie reaktiviert werden.']",1,"Frage: Die spheno-occipitale Synchondrose
+
+Antwortoptionen: ['ist ein sekundäres Wachstum Knorpel.', 'beeinflusst die Position des Viscerocraniums.', 'Aktivität im Alter von 7 Jahren aufhört.', 'kann bei Patienten mit Akromegalie reaktiviert werden.']
+
+Antwort: beeinflusst die Position des Viscerocraniums."
+Welcher der folgenden Stoffe kommt in größerer Menge in der ausgetretenen Luft vor?,anatomy,"['Kohlendioxid', 'Kohlenmonoxid', 'Kohlenwasserstoff', 'Sauerstoff']",2,"Frage: Welcher der folgenden Stoffe kommt in größerer Menge in der ausgetretenen Luft vor?
+
+Antwortoptionen: ['Kohlendioxid', 'Kohlenmonoxid', 'Kohlenwasserstoff', 'Sauerstoff']
+
+Antwort: Kohlenwasserstoff"
+Welche der folgenden Erkrankungen ist durch das Vorhandensein von Nierensteinen (Nierensteine) gekennzeichnet?,anatomy,"['Glomerulonephritis', 'Interstitielle Nephritis', 'Nephrolithiasis', 'Polyzystische Nieren']",2,"Frage: Welche der folgenden Erkrankungen ist durch das Vorhandensein von Nierensteinen (Nierensteine) gekennzeichnet?
+
+Antwortoptionen: ['Glomerulonephritis', 'Interstitielle Nephritis', 'Nephrolithiasis', 'Polyzystische Nieren']
+
+Antwort: Nephrolithiasis"
+Ein Puls kann auf dem Gesicht des Patienten gefühlt werden.,anatomy,"['Die Gesichtsarterie durchquert den Unterkiefer.', 'Die Gesichtsarterie durchquert den Oberkiefer.', 'Oberflächliche Schläfenarterie durchquert den Kiefer.', 'Oberflächliche Schläfenarterie kreuzt den Orbitalrand.']",0,"Frage: Ein Puls kann auf dem Gesicht des Patienten gefühlt werden.
+
+Antwortoptionen: ['Die Gesichtsarterie durchquert den Unterkiefer.', 'Die Gesichtsarterie durchquert den Oberkiefer.', 'Oberflächliche Schläfenarterie durchquert den Kiefer.', 'Oberflächliche Schläfenarterie kreuzt den Orbitalrand.']
+
+Antwort: Die Gesichtsarterie durchquert den Unterkiefer."
+"Ein Patient erleidet eine schwere, stumpfe Verletzung im linken Oberbauch und muss operiert werden. Welches der folgenden Organe ist am ehesten betroffen?",anatomy,"['Anhang', 'Gallenblase', 'Milz', 'Harnblase']",2,"Frage: Ein Patient erleidet eine schwere, stumpfe Verletzung im linken Oberbauch und muss operiert werden. Welches der folgenden Organe ist am ehesten betroffen?
+
+Antwortoptionen: ['Anhang', 'Gallenblase', 'Milz', 'Harnblase']
+
+Antwort: Milz"
+Welche Aussage bezüglich des atrioventrikulären Bündels ist richtig?,anatomy,"['Es besteht aus autonomen Nervenprozessen und ist die einzige elektrische Verbindung zwischen den Vorhöfen und den Ventrikeln.', 'Sie besteht aus Purkinje-Fasern und ist die einzige elektrische Verbindung zwischen den Vorhöfen und den Ventrikeln.', 'Es besteht aus autonomen Nervenprozessen und bildet eine von mehreren elektrischen Verbindungen zwischen den Vorhöfen und Ventrikeln.', 'Es besteht aus Purkinje-Fasern und bildet eine von mehreren elektrischen Verbindungen zwischen den Vorhöfen und Ventrikeln.']",1,"Frage: Welche Aussage bezüglich des atrioventrikulären Bündels ist richtig?
+
+Antwortoptionen: ['Es besteht aus autonomen Nervenprozessen und ist die einzige elektrische Verbindung zwischen den Vorhöfen und den Ventrikeln.', 'Sie besteht aus Purkinje-Fasern und ist die einzige elektrische Verbindung zwischen den Vorhöfen und den Ventrikeln.', 'Es besteht aus autonomen Nervenprozessen und bildet eine von mehreren elektrischen Verbindungen zwischen den Vorhöfen und Ventrikeln.', 'Es besteht aus Purkinje-Fasern und bildet eine von mehreren elektrischen Verbindungen zwischen den Vorhöfen und Ventrikeln.']
+
+Antwort: Sie besteht aus Purkinje-Fasern und ist die einzige elektrische Verbindung zwischen den Vorhöfen und den Ventrikeln."
+"Welcher der folgenden Begriffe beschreibt die Bewegung, den Unterarm zum Körper zu beugen?",anatomy,"['Entführung', 'Verstärkung', 'Beugung', 'Pronation']",2,"Frage: Welcher der folgenden Begriffe beschreibt die Bewegung, den Unterarm zum Körper zu beugen?
+
+Antwortoptionen: ['Entführung', 'Verstärkung', 'Beugung', 'Pronation']
+
+Antwort: Beugung"
+"Es wird verhindert, dass Nahrung während der pharyngalen Phase des Schluckens in den Kehlkopf gelangt, indem",anatomy,"['Verengung des Kehlkopfeingangs.', 'Aufwärtsbewegung der Epiglottis.', 'Abwärtsbewegung des Kehlkopfes.', 'Erhöhung der Atemfrequenz.']",0,"Frage: Es wird verhindert, dass Nahrung während der pharyngalen Phase des Schluckens in den Kehlkopf gelangt, indem
+
+Antwortoptionen: ['Verengung des Kehlkopfeingangs.', 'Aufwärtsbewegung der Epiglottis.', 'Abwärtsbewegung des Kehlkopfes.', 'Erhöhung der Atemfrequenz.']
+
+Antwort: Verengung des Kehlkopfeingangs."
+An welcher der folgenden Stellen gelangt die Galle in den Verdauungstrakt?,anatomy,"['Gastroösophagealer Schließmuskel', 'Dutzendfüßler', 'Ileozecum', 'Gemüse und Gemüsefleisch']",1,"Frage: An welcher der folgenden Stellen gelangt die Galle in den Verdauungstrakt?
+
+Antwortoptionen: ['Gastroösophagealer Schließmuskel', 'Dutzendfüßler', 'Ileozecum', 'Gemüse und Gemüsefleisch']
+
+Antwort: Dutzendfüßler"
+In welcher der folgenden Positionen liegt ein Patient mit dem Gesicht nach unten?,anatomy,"['Rücken', 'Aufrecht', 'Seitlich', 'Gefährdungsgefährdungsgefährdungsgefährdungsgefährdungsgefährdungsgefährdungen']",1,"Frage: In welcher der folgenden Positionen liegt ein Patient mit dem Gesicht nach unten?
+
+Antwortoptionen: ['Rücken', 'Aufrecht', 'Seitlich', 'Gefährdungsgefährdungsgefährdungsgefährdungsgefährdungsgefährdungsgefährdungen']
+
+Antwort: Aufrecht"
+Eine vollständige bilaterale Gaumenspalte ist auf eine Fehlverschmelzung des,anatomy,"['Geschmacksprozesse.', 'palatine und frontonasale Prozesse.', 'Palatin, Frontonasal und Sekundärnasalprozesse.', 'Palatin, Frontonasal, Sekundärnasalprozesse und Mandibularprozesse.']",2,"Frage: Eine vollständige bilaterale Gaumenspalte ist auf eine Fehlverschmelzung des
+
+Antwortoptionen: ['Geschmacksprozesse.', 'palatine und frontonasale Prozesse.', 'Palatin, Frontonasal und Sekundärnasalprozesse.', 'Palatin, Frontonasal, Sekundärnasalprozesse und Mandibularprozesse.']
+
+Antwort: Palatin, Frontonasal und Sekundärnasalprozesse."
+Das Gehörrohr,anatomy,"['verbindet das Innenohr und den Nasopharynx.', 'wird aus dem zweiten Kehlkopfbeutel abgeleitet.', 'wird durch die Wirkung des Levator veli palatini geöffnet.', 'wird durch die Wirkung des Tensors veli palatini geschlossen.']",2,"Frage: Das Gehörrohr
+
+Antwortoptionen: ['verbindet das Innenohr und den Nasopharynx.', 'wird aus dem zweiten Kehlkopfbeutel abgeleitet.', 'wird durch die Wirkung des Levator veli palatini geöffnet.', 'wird durch die Wirkung des Tensors veli palatini geschlossen.']
+
+Antwort: wird durch die Wirkung des Levator veli palatini geöffnet."
+"Welches der folgenden Organe ist das Lymphoidorgan, das ein Reservoir für rote Blutkörperchen ist und Organismen aus dem Blut filtert?",anatomy,"['Anhang', 'Gallenblase', 'Bauchspeicheldrüse', 'Milz']",3,"Frage: Welches der folgenden Organe ist das Lymphoidorgan, das ein Reservoir für rote Blutkörperchen ist und Organismen aus dem Blut filtert?
+
+Antwortoptionen: ['Anhang', 'Gallenblase', 'Bauchspeicheldrüse', 'Milz']
+
+Antwort: Milz"
+Welche der folgenden Hohlräume werden durch das Zwerchfell getrennt?,anatomy,"['Abdominal und Becken', 'Schädel und Wirbelsäule', 'Thorax und Bauch', 'Perikardiale und pleurale']",2,"Frage: Welche der folgenden Hohlräume werden durch das Zwerchfell getrennt?
+
+Antwortoptionen: ['Abdominal und Becken', 'Schädel und Wirbelsäule', 'Thorax und Bauch', 'Perikardiale und pleurale']
+
+Antwort: Thorax und Bauch"
+Die Wände der Bronchiolen enthalten,anatomy,"['Knorpel, glatte Muskeln und respiratorisches Epithel.', 'Knorpel und glatte Muskeln.', 'Knorpel und respiratorisches Epithel.', 'Glatten Muskeln und Atemwege.']",3,"Frage: Die Wände der Bronchiolen enthalten
+
+Antwortoptionen: ['Knorpel, glatte Muskeln und respiratorisches Epithel.', 'Knorpel und glatte Muskeln.', 'Knorpel und respiratorisches Epithel.', 'Glatten Muskeln und Atemwege.']
+
+Antwort: Glatten Muskeln und Atemwege."
+"Welches der folgenden Organe entfernt Bilirubin aus dem Blut, produziert Plasmaproteine und ist an der Produktion von Prothrombin und Fibrinogen beteiligt?",anatomy,"['Gallenblase', 'Nieren', 'Leber', 'Milz']",2,"Frage: Welches der folgenden Organe entfernt Bilirubin aus dem Blut, produziert Plasmaproteine und ist an der Produktion von Prothrombin und Fibrinogen beteiligt?
+
+Antwortoptionen: ['Gallenblase', 'Nieren', 'Leber', 'Milz']
+
+Antwort: Leber"
+Welcher der folgenden Zustände ist durch Inkompetenz des Speiseröhrenschließmuskels gekennzeichnet?,anatomy,"['Morbus Crohn', 'Krampfadern der Speiseröhre', 'Gastroösophageale Refluxkrankheit', 'Pylorische Stenose']",2,"Frage: Welcher der folgenden Zustände ist durch Inkompetenz des Speiseröhrenschließmuskels gekennzeichnet?
+
+Antwortoptionen: ['Morbus Crohn', 'Krampfadern der Speiseröhre', 'Gastroösophageale Refluxkrankheit', 'Pylorische Stenose']
+
+Antwort: Gastroösophageale Refluxkrankheit"
+Die Muskeln des weichen Gaumens werden durch Zweige des,anatomy,"['Trigeminus- und Glossopharynxnerven.', 'Gesichts- und Glossopharynxnerven.', 'Trigeminus- und Vagusnerven.', 'Gesichts- und Vagusnerven.']",2,"Frage: Die Muskeln des weichen Gaumens werden durch Zweige des
+
+Antwortoptionen: ['Trigeminus- und Glossopharynxnerven.', 'Gesichts- und Glossopharynxnerven.', 'Trigeminus- und Vagusnerven.', 'Gesichts- und Vagusnerven.']
+
+Antwort: Trigeminus- und Vagusnerven."
+Welcher der folgenden Knochen befindet sich oberhalb der Kniescheibe und unterhalb des Ischiums?,anatomy,"['Calcaneus', 'Oberschenkelbein', 'Symphysis pubis', 'Schienbein']",1,"Frage: Welcher der folgenden Knochen befindet sich oberhalb der Kniescheibe und unterhalb des Ischiums?
+
+Antwortoptionen: ['Calcaneus', 'Oberschenkelbein', 'Symphysis pubis', 'Schienbein']
+
+Antwort: Oberschenkelbein"
+Eine erfolgreiche Blockierung des unteren Alveolarnervs führt zu einer Anästhesie des,anatomy,"['Unterlippe.', 'die Unterlippe und die Kieferzähne.', 'die Unterlippe, die Mandibularzähne und die labialen Zahnfleisch der vorderen Mandibularzähne.', 'die Unterlippe, die Mandibularzähne und die Labyrinthzähne der vorderen Mandibularzähne und die Mundzähne der hinteren Mandibularzähne.']",2,"Frage: Eine erfolgreiche Blockierung des unteren Alveolarnervs führt zu einer Anästhesie des
+
+Antwortoptionen: ['Unterlippe.', 'die Unterlippe und die Kieferzähne.', 'die Unterlippe, die Mandibularzähne und die labialen Zahnfleisch der vorderen Mandibularzähne.', 'die Unterlippe, die Mandibularzähne und die Labyrinthzähne der vorderen Mandibularzähne und die Mundzähne der hinteren Mandibularzähne.']
+
+Antwort: die Unterlippe, die Mandibularzähne und die labialen Zahnfleisch der vorderen Mandibularzähne."
+Die Schleimhaut des oberen Kehlkopfes wird durch die,anatomy,"['innerer Kehlkopfnerv, der das afferente Glied des Hustenreflexes ist.', 'der äußere Kehlkopfnerv, der das afferente Glied des Kehlkopfreflexes ist.', 'innerer Kehlkopfnerv, der das afferente Glied des Kotreflexes ist.', 'externe Kehlkopfnerv, der das afferente Glied des Hustenreflexes ist.']",0,"Frage: Die Schleimhaut des oberen Kehlkopfes wird durch die
+
+Antwortoptionen: ['innerer Kehlkopfnerv, der das afferente Glied des Hustenreflexes ist.', 'der äußere Kehlkopfnerv, der das afferente Glied des Kehlkopfreflexes ist.', 'innerer Kehlkopfnerv, der das afferente Glied des Kotreflexes ist.', 'externe Kehlkopfnerv, der das afferente Glied des Hustenreflexes ist.']
+
+Antwort: innerer Kehlkopfnerv, der das afferente Glied des Hustenreflexes ist."
+Die Knochen des Viszerokraniums entwickeln sich zunächst durch,anatomy,"['Endochondraler Verknockelung und dem somatischen Wachstumsmuster folgen.', 'Endochondraler Verknockelung und folgen dem neuronalen Wachstumsmuster.', 'der intramembranen Ossifikation und dem somatischen Wachstumsmuster folgen.', 'die intramembranöse Ossifizierung und folgen dem neuronalen Wachstumsmuster.']",2,"Frage: Die Knochen des Viszerokraniums entwickeln sich zunächst durch
+
+Antwortoptionen: ['Endochondraler Verknockelung und dem somatischen Wachstumsmuster folgen.', 'Endochondraler Verknockelung und folgen dem neuronalen Wachstumsmuster.', 'der intramembranen Ossifikation und dem somatischen Wachstumsmuster folgen.', 'die intramembranöse Ossifizierung und folgen dem neuronalen Wachstumsmuster.']
+
+Antwort: der intramembranen Ossifikation und dem somatischen Wachstumsmuster folgen."
+"Der Arzt beauftragt die medizinische Assistentin, ein Antragsformular für eine Röntgenuntersuchung des Fibula auszufüllen.",anatomy,"['Auf der Ferse', 'Unterbein', 'Zehen', 'Oberschenkel']",1,"Frage: Der Arzt beauftragt die medizinische Assistentin, ein Antragsformular für eine Röntgenuntersuchung des Fibula auszufüllen.
+
+Antwortoptionen: ['Auf der Ferse', 'Unterbein', 'Zehen', 'Oberschenkel']
+
+Antwort: Unterbein"
+Welche Blutzellen haben keinen Zellkern?,anatomy,"['Lymphozyten', 'Monozyten', 'Erythrozyten', 'Basophilen']",2,"Frage: Welche Blutzellen haben keinen Zellkern?
+
+Antwortoptionen: ['Lymphozyten', 'Monozyten', 'Erythrozyten', 'Basophilen']
+
+Antwort: Erythrozyten"
+Die koronale Naht verbindet die,anatomy,"['Frontale und parietale Knochen.', 'linke und rechte parietale Knochen.', 'parietale und okzipitale Knochen.', 'parietalen, schuppigen Temporalen und größeren Flügel des Sphenoids.']",0,"Frage: Die koronale Naht verbindet die
+
+Antwortoptionen: ['Frontale und parietale Knochen.', 'linke und rechte parietale Knochen.', 'parietale und okzipitale Knochen.', 'parietalen, schuppigen Temporalen und größeren Flügel des Sphenoids.']
+
+Antwort: Frontale und parietale Knochen."
+"Wenn Sie Ihren Finger entlang der vorderen Mittellinie des ausgedehnten Halses eines Patienten vom Kinn bis zur Sternusnotch laufen lassen, sollten Sie in der Lage sein, die",anatomy,"['Hyoid-Knochen, Krikoid-Knorpel, Schilddrüsen-Knorpel.', 'Schilddrüsenknorpel, Krikoidenknorpel, Hyoidenknochen.', 'Hyoid-Knochen, Schilddrüsen-Knorpel, Krikoid-Knorpel.', 'Schilddrüsenknorpel, Hyoidknochen, Krikoidenknorpel.']",2,"Frage: Wenn Sie Ihren Finger entlang der vorderen Mittellinie des ausgedehnten Halses eines Patienten vom Kinn bis zur Sternusnotch laufen lassen, sollten Sie in der Lage sein, die
+
+Antwortoptionen: ['Hyoid-Knochen, Krikoid-Knorpel, Schilddrüsen-Knorpel.', 'Schilddrüsenknorpel, Krikoidenknorpel, Hyoidenknochen.', 'Hyoid-Knochen, Schilddrüsen-Knorpel, Krikoid-Knorpel.', 'Schilddrüsenknorpel, Hyoidknochen, Krikoidenknorpel.']
+
+Antwort: Hyoid-Knochen, Schilddrüsen-Knorpel, Krikoid-Knorpel."
+Welche der folgenden Knochenstrukturen kann bei einem lebenden Patienten gepalpiert werden?,anatomy,"['Das supraorbitale Foramen', 'Das Infraorbitalforamen', 'Das geistige Foramen', 'Alle oben genannten']",3,"Frage: Welche der folgenden Knochenstrukturen kann bei einem lebenden Patienten gepalpiert werden?
+
+Antwortoptionen: ['Das supraorbitale Foramen', 'Das Infraorbitalforamen', 'Das geistige Foramen', 'Alle oben genannten']
+
+Antwort: Alle oben genannten"
+Welche der folgenden Strukturen begleiten die Speiseröhre durch das Zwerchfell?,anatomy,"['Die phrenischen Nerven', 'Die splanchnischen Nerven', 'Die sympathischen Stämme', 'Die Vagusnerven']",3,"Frage: Welche der folgenden Strukturen begleiten die Speiseröhre durch das Zwerchfell?
+
+Antwortoptionen: ['Die phrenischen Nerven', 'Die splanchnischen Nerven', 'Die sympathischen Stämme', 'Die Vagusnerven']
+
+Antwort: Die Vagusnerven"
+Welche Sequenz beschreibt die systemische Durchblutung?,anatomy,"['Linksventrikel → Aorta → Arterien → Venen → Kapillaren', 'Linksventrikel → Aorta → Arterien → Kapillaren → Venen', 'Rechte Herzkammer → Lungenstamm → Arterien → Kapillaren → Venen', 'Rechte Herzkammer → Lungenstamm → Arterien → Venen → Kapillaren']",1,"Frage: Welche Sequenz beschreibt die systemische Durchblutung?
+
+Antwortoptionen: ['Linksventrikel → Aorta → Arterien → Venen → Kapillaren', 'Linksventrikel → Aorta → Arterien → Kapillaren → Venen', 'Rechte Herzkammer → Lungenstamm → Arterien → Kapillaren → Venen', 'Rechte Herzkammer → Lungenstamm → Arterien → Venen → Kapillaren']
+
+Antwort: Linksventrikel → Aorta → Arterien → Kapillaren → Venen"
+Die anatomische Lage des Rückenmarkskanals ist,anatomy,"['Schwanz', 'Rücken', 'Frontale', 'Querschnitt']",1,"Frage: Die anatomische Lage des Rückenmarkskanals ist
+
+Antwortoptionen: ['Schwanz', 'Rücken', 'Frontale', 'Querschnitt']
+
+Antwort: Rücken"
+Der Schädelkanal verläuft,anatomy,"['tief zum Masseter und tritt gegenüber dem oberen zweiten Molar in den Mund ein.', 'Oberflächlich zum Masseter und tritt gegenüber dem oberen zweiten Molar in den Mund ein.', 'tief zum Masseter und tritt gegenüber dem oberen zweiten Prämolar in den Mund ein.', 'Oberflächlich zum Masseter und tritt gegenüber dem oberen zweiten Prämolar in den Mund ein.']",1,"Frage: Der Schädelkanal verläuft
+
+Antwortoptionen: ['tief zum Masseter und tritt gegenüber dem oberen zweiten Molar in den Mund ein.', 'Oberflächlich zum Masseter und tritt gegenüber dem oberen zweiten Molar in den Mund ein.', 'tief zum Masseter und tritt gegenüber dem oberen zweiten Prämolar in den Mund ein.', 'Oberflächlich zum Masseter und tritt gegenüber dem oberen zweiten Prämolar in den Mund ein.']
+
+Antwort: Oberflächlich zum Masseter und tritt gegenüber dem oberen zweiten Molar in den Mund ein."
+"Wenn der Fuß entführt wird, in welche Richtung wird er bewegt?",anatomy,"['Nach innen', 'Auswärts', 'Aufwärts', 'Nach unten']",3,"Frage: Wenn der Fuß entführt wird, in welche Richtung wird er bewegt?
+
+Antwortoptionen: ['Nach innen', 'Auswärts', 'Aufwärts', 'Nach unten']
+
+Antwort: Nach unten"
+Der Infraorbitalnerv,anatomy,"['ist ein Endzweig der maxillaren Abteilung des Trigeminusnervs.', 'ist ein Endzweig des Oberkieferzweigs des Gesichtsnervs.', 'trägt parasympathische sekretomotorische Neuronen in die Tränendrüse.', 'Innerviert den unteren Teil des orbicularis oculi Muskels.']",0,"Frage: Der Infraorbitalnerv
+
+Antwortoptionen: ['ist ein Endzweig der maxillaren Abteilung des Trigeminusnervs.', 'ist ein Endzweig des Oberkieferzweigs des Gesichtsnervs.', 'trägt parasympathische sekretomotorische Neuronen in die Tränendrüse.', 'Innerviert den unteren Teil des orbicularis oculi Muskels.']
+
+Antwort: ist ein Endzweig der maxillaren Abteilung des Trigeminusnervs."
+"Welches der folgenden Wörter beschreibt am besten den Prozess, bei dem sich die Magenmuskulatur zusammenzieht, um Nahrung durch den Verdauungstrakt zu treiben?",anatomy,"['Absorption', 'Emulsion', 'Peristaltik', 'Aufstoßen']",2,"Frage: Welches der folgenden Wörter beschreibt am besten den Prozess, bei dem sich die Magenmuskulatur zusammenzieht, um Nahrung durch den Verdauungstrakt zu treiben?
+
+Antwortoptionen: ['Absorption', 'Emulsion', 'Peristaltik', 'Aufstoßen']
+
+Antwort: Peristaltik"
+"Welcher der folgenden Punkte ist der Punkt, an dem ein Impuls von einem Neuron zu einem anderen Neuron übertragen wird?",anatomy,"['Dendrite', 'Glialzelle', 'Nervenzentrum', 'Synapse']",3,"Frage: Welcher der folgenden Punkte ist der Punkt, an dem ein Impuls von einem Neuron zu einem anderen Neuron übertragen wird?
+
+Antwortoptionen: ['Dendrite', 'Glialzelle', 'Nervenzentrum', 'Synapse']
+
+Antwort: Synapse"
+Welcher der folgenden Muskeln initiiert die Erhöhung des Unterkiefers?,anatomy,"['Masseter', 'Temporalis', 'Seitliche Pterygoide', 'Medialer Pterygoid.']",3,"Frage: Welcher der folgenden Muskeln initiiert die Erhöhung des Unterkiefers?
+
+Antwortoptionen: ['Masseter', 'Temporalis', 'Seitliche Pterygoide', 'Medialer Pterygoid.']
+
+Antwort: Medialer Pterygoid."
+"Welches der folgenden Organe ist ein Hilfsorgan des Magen-Darm-Systems, das für die Ausscheidung von Insulin verantwortlich ist?",anatomy,"['Nebennieren', 'Gallenblase', 'Leber', 'Bauchspeicheldrüse']",3,"Frage: Welches der folgenden Organe ist ein Hilfsorgan des Magen-Darm-Systems, das für die Ausscheidung von Insulin verantwortlich ist?
+
+Antwortoptionen: ['Nebennieren', 'Gallenblase', 'Leber', 'Bauchspeicheldrüse']
+
+Antwort: Bauchspeicheldrüse"
+Ein bösartiger Tumor schädigt den Glossopharyngealnerv des Patienten.,anatomy,"['Verlust des Geschmacks in den vorderen zwei Dritteln der Zunge.', 'Verlust der somästhetischen Empfindung über die vorderen zwei Drittel der Zunge.', 'Verlust des Geschmacks und der somästhetischen Empfindung im hinteren Drittel der Zunge.', 'Lähmung der Muskeln der Zunge.']",2,"Frage: Ein bösartiger Tumor schädigt den Glossopharyngealnerv des Patienten.
+
+Antwortoptionen: ['Verlust des Geschmacks in den vorderen zwei Dritteln der Zunge.', 'Verlust der somästhetischen Empfindung über die vorderen zwei Drittel der Zunge.', 'Verlust des Geschmacks und der somästhetischen Empfindung im hinteren Drittel der Zunge.', 'Lähmung der Muskeln der Zunge.']
+
+Antwort: Verlust des Geschmacks und der somästhetischen Empfindung im hinteren Drittel der Zunge."
+Eine mögliche Folge einer Schädigung des dritten Schädelnervs durch ein Trauma an der Umlaufbahn ist,anatomy,"['ein konvergenter Strabismus.', 'Ptosis.', 'Verengung der Pupillen.', 'bitemporale Hämianopie.']",1,"Frage: Eine mögliche Folge einer Schädigung des dritten Schädelnervs durch ein Trauma an der Umlaufbahn ist
+
+Antwortoptionen: ['ein konvergenter Strabismus.', 'Ptosis.', 'Verengung der Pupillen.', 'bitemporale Hämianopie.']
+
+Antwort: Ptosis."
+In welche der folgenden Strukturen fließt Blut aus der rechten Herzkammer?,anatomy,"['Unterste Kava-Vene', 'Linkser Ventrikel', 'Lungenarterien', 'Lungenvenen']",2,"Frage: In welche der folgenden Strukturen fließt Blut aus der rechten Herzkammer?
+
+Antwortoptionen: ['Unterste Kava-Vene', 'Linkser Ventrikel', 'Lungenarterien', 'Lungenvenen']
+
+Antwort: Lungenarterien"
+"Ein Patient wird in den Hals gestochen, Sie vermuten Schäden am Nebennerv im hinteren Dreieck, Sie testen die Nervenfunktion, indem Sie den Patienten bitten,",anatomy,"['Sie strecken ihren Hals gegen Widerstand aus.', 'ihren Hals ohne Beeinträchtigung zu dehnen.', 'ihre Schultern gegen Widerstand zu heben.', 'ihre Schultern ohne Beeinträchtigung heben.']",2,"Frage: Ein Patient wird in den Hals gestochen, Sie vermuten Schäden am Nebennerv im hinteren Dreieck, Sie testen die Nervenfunktion, indem Sie den Patienten bitten,
+
+Antwortoptionen: ['Sie strecken ihren Hals gegen Widerstand aus.', 'ihren Hals ohne Beeinträchtigung zu dehnen.', 'ihre Schultern gegen Widerstand zu heben.', 'ihre Schultern ohne Beeinträchtigung heben.']
+
+Antwort: ihre Schultern gegen Widerstand zu heben."
+Welche der folgenden Muskeln stammen aus dem ersten Armbogen?,anatomy,"['Die Muskeln des Kaus', 'Die Mastikationsmuskeln und der vordere Bauch der Magenmuskulatur', 'Die Mastikationsmuskeln und die vorderen und hinteren Bauchmuskeln der', 'Die Mastikationsmuskeln, die vorderen und hinteren Bauchmuskeln der Magenmuskulatur und der Geniohyoidmuskulatur']",1,"Frage: Welche der folgenden Muskeln stammen aus dem ersten Armbogen?
+
+Antwortoptionen: ['Die Muskeln des Kaus', 'Die Mastikationsmuskeln und der vordere Bauch der Magenmuskulatur', 'Die Mastikationsmuskeln und die vorderen und hinteren Bauchmuskeln der', 'Die Mastikationsmuskeln, die vorderen und hinteren Bauchmuskeln der Magenmuskulatur und der Geniohyoidmuskulatur']
+
+Antwort: Die Mastikationsmuskeln und der vordere Bauch der Magenmuskulatur"
+"Welches der folgenden Wörter beschreibt am besten, wo sich der Halsschlag befindet?",anatomy,"['Vor den Ohren und knapp über der Augenhöhe', 'Im antecubital Raum', 'In der Mitte der Leiste', 'Auf der Vorderseite des Halses']",3,"Frage: Welches der folgenden Wörter beschreibt am besten, wo sich der Halsschlag befindet?
+
+Antwortoptionen: ['Vor den Ohren und knapp über der Augenhöhe', 'Im antecubital Raum', 'In der Mitte der Leiste', 'Auf der Vorderseite des Halses']
+
+Antwort: Auf der Vorderseite des Halses"
+Im Hirnstamm sind Wege für:,anatomy,"['Nozizeption decussate im medialen Lemniscus', 'Geschickte Bewegungen decussate im medialen Lemniscus', 'Geschickte motorische Bewegungen decussate in den Pyramiden.', 'Diskriminierende Berührung decussate in den Pyramiden.']",2,"Frage: Im Hirnstamm sind Wege für:
+
+Antwortoptionen: ['Nozizeption decussate im medialen Lemniscus', 'Geschickte Bewegungen decussate im medialen Lemniscus', 'Geschickte motorische Bewegungen decussate in den Pyramiden.', 'Diskriminierende Berührung decussate in den Pyramiden.']
+
+Antwort: Geschickte motorische Bewegungen decussate in den Pyramiden."
+Die Atemwege werden durch den Isthmus der Schilddrüse überquert.,anatomy,"['Schilddrüsenknorpel.', 'Schilddrüsenmembran.', 'Krikoidaler Knorpel.', 'Ringe in der Luftröhre.']",3,"Frage: Die Atemwege werden durch den Isthmus der Schilddrüse überquert.
+
+Antwortoptionen: ['Schilddrüsenknorpel.', 'Schilddrüsenmembran.', 'Krikoidaler Knorpel.', 'Ringe in der Luftröhre.']
+
+Antwort: Ringe in der Luftröhre."
+"Sie bemerken eine Läsion auf der labialen Alveolenschleimhaut des unteren rechten seitlichen Schneidezähnes eines Ihrer Patienten und beschließen, eine Biopsie zu machen, um sie für den oralen Pathologiebericht zu schicken Welcher Nerv würde eine Lokalanästhesie benötigen, um eine schmerzfreie Biopsie durchzuführen?",anatomy,"['Der Schneidnerv', 'Der geistige Nerv', 'Der Mundnerv', 'Der Sprachnerv']",1,"Frage: Sie bemerken eine Läsion auf der labialen Alveolenschleimhaut des unteren rechten seitlichen Schneidezähnes eines Ihrer Patienten und beschließen, eine Biopsie zu machen, um sie für den oralen Pathologiebericht zu schicken Welcher Nerv würde eine Lokalanästhesie benötigen, um eine schmerzfreie Biopsie durchzuführen?
+
+Antwortoptionen: ['Der Schneidnerv', 'Der geistige Nerv', 'Der Mundnerv', 'Der Sprachnerv']
+
+Antwort: Der geistige Nerv"
+"Die größten Konzentrationen von propriozeptiven Rezeptoren, die Informationen über die Position des TMJ liefern, befinden sich in",anatomy,"['die Kapsel und die Bänder des TMJ und des medialen Pterygoidmuskels.', 'die Kapsel und die Bänder des TMJ und des lateralen Pterygoidmuskels.', 'die Gelenkscheibe des TMJ und des medialen Pterygoidmuskels.', 'die Gelenkscheibe des TMJ und des lateralen Pterygoidmuskels.']",1,"Frage: Die größten Konzentrationen von propriozeptiven Rezeptoren, die Informationen über die Position des TMJ liefern, befinden sich in
+
+Antwortoptionen: ['die Kapsel und die Bänder des TMJ und des medialen Pterygoidmuskels.', 'die Kapsel und die Bänder des TMJ und des lateralen Pterygoidmuskels.', 'die Gelenkscheibe des TMJ und des medialen Pterygoidmuskels.', 'die Gelenkscheibe des TMJ und des lateralen Pterygoidmuskels.']
+
+Antwort: die Kapsel und die Bänder des TMJ und des lateralen Pterygoidmuskels."
+Welche der folgenden Substanzen unterstützt die Übertragung von Nervenimpulsen an die Muskeln?,anatomy,"['Acetylcholin', 'Cholezystokinine', 'Deoxyribose', 'Oxytocin']",0,"Frage: Welche der folgenden Substanzen unterstützt die Übertragung von Nervenimpulsen an die Muskeln?
+
+Antwortoptionen: ['Acetylcholin', 'Cholezystokinine', 'Deoxyribose', 'Oxytocin']
+
+Antwort: Acetylcholin"
+Im Rückenmark befinden sich die Zellkörper der Motoneuronen in,anatomy,"['Lamina I.', 'Lamina II.', 'Lamina V.', 'Lamina IX']",3,"Frage: Im Rückenmark befinden sich die Zellkörper der Motoneuronen in
+
+Antwortoptionen: ['Lamina I.', 'Lamina II.', 'Lamina V.', 'Lamina IX']
+
+Antwort: Lamina IX"
+"Wenn Sie einen Patienten untersuchen, der eine ungünstige Fraktur des Kieferkörpers erlitten hat, würden Sie erwarten,",anatomy,"['das vordere Fragment wird durch die Wirkung des Magenmuskels nach unten verschoben.', 'das hintere Fragment durch die Aktion des lateralen Pterygoidmuskels an der Vorderseite verdrängt werden soll.', 'Früheres Fragment wird durch die Wirkung des Temporalismuskels nach hinten verschoben.', 'das hintere Fragment durch die Aktion des medialen Pterygoidmuskels medial verdrängt werden.']",0,"Frage: Wenn Sie einen Patienten untersuchen, der eine ungünstige Fraktur des Kieferkörpers erlitten hat, würden Sie erwarten,
+
+Antwortoptionen: ['das vordere Fragment wird durch die Wirkung des Magenmuskels nach unten verschoben.', 'das hintere Fragment durch die Aktion des lateralen Pterygoidmuskels an der Vorderseite verdrängt werden soll.', 'Früheres Fragment wird durch die Wirkung des Temporalismuskels nach hinten verschoben.', 'das hintere Fragment durch die Aktion des medialen Pterygoidmuskels medial verdrängt werden.']
+
+Antwort: das vordere Fragment wird durch die Wirkung des Magenmuskels nach unten verschoben."
+"Eine Untersuchung eines Patienten zeigt, dass er einen medial gelenkten Strabismus (Squint) hat.",anatomy,"['Augenmotorische Nerven.', 'Troklearen Nerv.', 'Ophthalmischer Trigeminusnerv.', 'Abduktionsnerv.']",3,"Frage: Eine Untersuchung eines Patienten zeigt, dass er einen medial gelenkten Strabismus (Squint) hat.
+
+Antwortoptionen: ['Augenmotorische Nerven.', 'Troklearen Nerv.', 'Ophthalmischer Trigeminusnerv.', 'Abduktionsnerv.']
+
+Antwort: Abduktionsnerv."
+"Ein Patient schneidet sich einen peripheren motorischen Nerv im Handgelenk, wenn er durch ein Glasfenster fällt Wenn sich der Nerv nicht regeneriert, zeigen die Muskeln, die er normalerweise innerviert, nach etwa 6 Monaten Anzeichen für welche der folgenden vier Optionen?",anatomy,"['Spastische Lähmung', 'Schlaffe Lähmung', 'Verkrüpplung', 'Kontraktur']",2,"Frage: Ein Patient schneidet sich einen peripheren motorischen Nerv im Handgelenk, wenn er durch ein Glasfenster fällt Wenn sich der Nerv nicht regeneriert, zeigen die Muskeln, die er normalerweise innerviert, nach etwa 6 Monaten Anzeichen für welche der folgenden vier Optionen?
+
+Antwortoptionen: ['Spastische Lähmung', 'Schlaffe Lähmung', 'Verkrüpplung', 'Kontraktur']
+
+Antwort: Verkrüpplung"
+"Ein Patient erleidet einen Schlaganfall im Bereich der linken inneren Kapsel, die die Motoneuronen zum rechten Bein transportiert.",anatomy,"['Spastische Lähmung.', 'Schlaffe Lähmung.', 'Zittern.', 'Hyporeflexie.']",0,"Frage: Ein Patient erleidet einen Schlaganfall im Bereich der linken inneren Kapsel, die die Motoneuronen zum rechten Bein transportiert.
+
+Antwortoptionen: ['Spastische Lähmung.', 'Schlaffe Lähmung.', 'Zittern.', 'Hyporeflexie.']
+
+Antwort: Spastische Lähmung."
+"Die Krone eines sehr kariösen Zahnes zerbricht plötzlich, während der Patient beim Essen in einem Imbiss steht, und ein Fragment wird inhaliert.",anatomy,"['die rechte Lunge, weil die rechte Hauptbronche breiter und senkrechter ist als die linke.', 'linke Lunge, weil die linke Hauptbronche breiter und vertikaler ist als die rechte.', 'die rechte Lunge oder die linke Lunge, weil die beiden Hauptbronchien die gleiche Größe und die gleiche Winkelung haben.', 'der rechten oder der linken Lunge, da keine Faktoren vorhanden sind, die dazu veranlassen, dass sich das Fragment in eine bestimmte Richtung bewegt.']",0,"Frage: Die Krone eines sehr kariösen Zahnes zerbricht plötzlich, während der Patient beim Essen in einem Imbiss steht, und ein Fragment wird inhaliert.
+
+Antwortoptionen: ['die rechte Lunge, weil die rechte Hauptbronche breiter und senkrechter ist als die linke.', 'linke Lunge, weil die linke Hauptbronche breiter und vertikaler ist als die rechte.', 'die rechte Lunge oder die linke Lunge, weil die beiden Hauptbronchien die gleiche Größe und die gleiche Winkelung haben.', 'der rechten oder der linken Lunge, da keine Faktoren vorhanden sind, die dazu veranlassen, dass sich das Fragment in eine bestimmte Richtung bewegt.']
+
+Antwort: die rechte Lunge, weil die rechte Hauptbronche breiter und senkrechter ist als die linke."
+"Zu welchem der folgenden Stoffe gehören Kalzium, Kalium und Natrium?",anatomy,"['Androgene', 'Catecholamine', 'Elektrolyte', 'Östrogene']",2,"Frage: Zu welchem der folgenden Stoffe gehören Kalzium, Kalium und Natrium?
+
+Antwortoptionen: ['Androgene', 'Catecholamine', 'Elektrolyte', 'Östrogene']
+
+Antwort: Elektrolyte"
+Noradrenalin ist der Neurotransmitter zwischen welcher der beiden Strukturen unten?,anatomy,"['parasympathische prä- und postganglionäre Neuronen', 'Sympathische prä- und postganglionäre Neuronen', 'parasympathische postganglionale Neuronen und Zielorgane', 'Sympathische postganglionare Neuronen und Zielorgane']",3,"Frage: Noradrenalin ist der Neurotransmitter zwischen welcher der beiden Strukturen unten?
+
+Antwortoptionen: ['parasympathische prä- und postganglionäre Neuronen', 'Sympathische prä- und postganglionäre Neuronen', 'parasympathische postganglionale Neuronen und Zielorgane', 'Sympathische postganglionare Neuronen und Zielorgane']
+
+Antwort: Sympathische postganglionare Neuronen und Zielorgane"
+Welche der folgenden Schleimdrüsen befinden sich auf beiden Seiten der Vaginalöffnung?,anatomy,"['Nebennieren', 'Bartholins', 'Bulbourethral', 'Korpus luteum']",1,"Frage: Welche der folgenden Schleimdrüsen befinden sich auf beiden Seiten der Vaginalöffnung?
+
+Antwortoptionen: ['Nebennieren', 'Bartholins', 'Bulbourethral', 'Korpus luteum']
+
+Antwort: Bartholins"
+"Wenn eine Notfallöffnung in die Atemwege erforderlich ist, sollte die Schilddrüsenmembran sofort durchbohrt werden",anatomy,"['über dem Schilddrüsenknorpel.', 'unter dem Schilddrüsenknorpel.', 'unterhalb des Krikoidenknorpels.', 'über dem Schilddrüsen istmus.']",1,"Frage: Wenn eine Notfallöffnung in die Atemwege erforderlich ist, sollte die Schilddrüsenmembran sofort durchbohrt werden
+
+Antwortoptionen: ['über dem Schilddrüsenknorpel.', 'unter dem Schilddrüsenknorpel.', 'unterhalb des Krikoidenknorpels.', 'über dem Schilddrüsen istmus.']
+
+Antwort: unter dem Schilddrüsenknorpel."
+Zerebrospinalflüssigkeit zirkuliert im Gehirn zwischen den,anatomy,"['Schädel und Harnhaut.', 'die Dura Mater und die Arachnoid Mater.', 'Arachnoide und Pia Mater.', 'Pia Mater und Hirnoberfläche.']",2,"Frage: Zerebrospinalflüssigkeit zirkuliert im Gehirn zwischen den
+
+Antwortoptionen: ['Schädel und Harnhaut.', 'die Dura Mater und die Arachnoid Mater.', 'Arachnoide und Pia Mater.', 'Pia Mater und Hirnoberfläche.']
+
+Antwort: Arachnoide und Pia Mater."
+Welcher der folgenden Stoffe schließt und versiegelt die unteren Atemwege beim Schlucken?,anatomy,"['Alveolen', 'Epiglottis', 'Kehlkopf', 'Uvula']",1,"Frage: Welcher der folgenden Stoffe schließt und versiegelt die unteren Atemwege beim Schlucken?
+
+Antwortoptionen: ['Alveolen', 'Epiglottis', 'Kehlkopf', 'Uvula']
+
+Antwort: Epiglottis"
+"Welche Orbitalwand fällt am ehesten bei einem ""Ausbruch"" zusammen?",anatomy,"['Das Dach .', 'Der Fußboden .', 'Die Seitenwand', 'Die mediale Wand']",1,"Frage: Welche Orbitalwand fällt am ehesten bei einem ""Ausbruch"" zusammen?
+
+Antwortoptionen: ['Das Dach .', 'Der Fußboden .', 'Die Seitenwand', 'Die mediale Wand']
+
+Antwort: Der Fußboden ."
+Die Wände der maxillaren Sinus sind Sinus ist verwandt mit,anatomy,"['der Boden des Orbits.', 'den Boden des Orbits und die oberen hinteren Zähne.', 'der Boden des Orbits, die oberen hinteren Zähne und die infratemporale Fossa.', 'Der Boden des Orbits, die oberen hinteren Zähne, die Infratemporale Fossa und der harte Gaumen.']",2,"Frage: Die Wände der maxillaren Sinus sind Sinus ist verwandt mit
+
+Antwortoptionen: ['der Boden des Orbits.', 'den Boden des Orbits und die oberen hinteren Zähne.', 'der Boden des Orbits, die oberen hinteren Zähne und die infratemporale Fossa.', 'Der Boden des Orbits, die oberen hinteren Zähne, die Infratemporale Fossa und der harte Gaumen.']
+
+Antwort: der Boden des Orbits, die oberen hinteren Zähne und die infratemporale Fossa."
+Welche der folgenden Aussagen über das Wachstum der Kiefer nach der Geburt ist richtig?,anatomy,"['Pneumatisierung durch Vergrößerung der sich entwickelnden Sinus maxillaris endet in der Pubertät', 'Durch Resorption der Kieferknolle wird Raum für den Ausbruch der permanenten Molaren geschaffen.', 'Die zygomaticomaxillary Nähte tragen zu einer Erhöhung der Höhe und Länge der Kiefer', 'Die intermaxiläre Naht schließt sich etwa acht Jahre nach der Geburt']",2,"Frage: Welche der folgenden Aussagen über das Wachstum der Kiefer nach der Geburt ist richtig?
+
+Antwortoptionen: ['Pneumatisierung durch Vergrößerung der sich entwickelnden Sinus maxillaris endet in der Pubertät', 'Durch Resorption der Kieferknolle wird Raum für den Ausbruch der permanenten Molaren geschaffen.', 'Die zygomaticomaxillary Nähte tragen zu einer Erhöhung der Höhe und Länge der Kiefer', 'Die intermaxiläre Naht schließt sich etwa acht Jahre nach der Geburt']
+
+Antwort: Die zygomaticomaxillary Nähte tragen zu einer Erhöhung der Höhe und Länge der Kiefer"
+Der siebte Schädelnerv versorgt,anatomy,"['Geschmacksknospen auf dem hinteren Drittel der Zunge.', 'Muskeln des weichen Gaumens.', 'Muskeln der Unterlippe.', 'die Speicheldrüse.']",2,"Frage: Der siebte Schädelnerv versorgt
+
+Antwortoptionen: ['Geschmacksknospen auf dem hinteren Drittel der Zunge.', 'Muskeln des weichen Gaumens.', 'Muskeln der Unterlippe.', 'die Speicheldrüse.']
+
+Antwort: Muskeln der Unterlippe."
+Welche der folgenden Nasennebenhöhlen öffnen sich in den mittleren Meatus?,anatomy,"['Die vorderen ethmoidalen Nebenhöhlen', 'Die vorderen ethmoidalen und frontale Nasennebenhöhlen', 'Die vorderen ethmoidalen, frontalen und maxillaren Nebenhöhlen', 'Die vorderen ethmoidalen, frontalen, maxillaren und sphenoidalen Nebennebenhöhlen']",2,"Frage: Welche der folgenden Nasennebenhöhlen öffnen sich in den mittleren Meatus?
+
+Antwortoptionen: ['Die vorderen ethmoidalen Nebenhöhlen', 'Die vorderen ethmoidalen und frontale Nasennebenhöhlen', 'Die vorderen ethmoidalen, frontalen und maxillaren Nebenhöhlen', 'Die vorderen ethmoidalen, frontalen, maxillaren und sphenoidalen Nebennebenhöhlen']
+
+Antwort: Die vorderen ethmoidalen, frontalen und maxillaren Nebenhöhlen"
+"Welches der folgenden ist ein strukturelles, faseriges Protein, das in der Dermis gefunden wird?",anatomy,"['Kollagen', 'Heparin', 'Lipozyten', 'Melanin']",0,"Frage: Welches der folgenden ist ein strukturelles, faseriges Protein, das in der Dermis gefunden wird?
+
+Antwortoptionen: ['Kollagen', 'Heparin', 'Lipozyten', 'Melanin']
+
+Antwort: Kollagen"
+Die Erhöhung des Palatinschelfes ist auf die Wirkung von,anatomy,"['Abstieg der Zunge.', 'Veränderungen der Beugung des sich entwickelnden Gehirns.', 'hydrophile Moleküle, die den Turgordruck in den Gaumen erhöhen.', 'eine Kombination dieser drei Prozesse.']",3,"Frage: Die Erhöhung des Palatinschelfes ist auf die Wirkung von
+
+Antwortoptionen: ['Abstieg der Zunge.', 'Veränderungen der Beugung des sich entwickelnden Gehirns.', 'hydrophile Moleküle, die den Turgordruck in den Gaumen erhöhen.', 'eine Kombination dieser drei Prozesse.']
+
+Antwort: eine Kombination dieser drei Prozesse."
+Auf welchen Oberflächen der Zähne sammelt sich bei Patienten mit schlechter Mundhygiene am ehesten Plaque?,anatomy,"['Die Gaumenflächen der oberen Molaren und die Zungenflächen der unteren Schneidezähne.', 'Die Mundflächen der oberen Molaren und die Zungenflächen der unteren Schneidezähne.', 'Die Gaumenflächen der oberen Molaren und die Schamlippenflächen der unteren Schneidezähne.', 'Die Mundflächen der oberen Molaren und die Schamlippenflächen der unteren Schneidezähne.']",1,"Frage: Auf welchen Oberflächen der Zähne sammelt sich bei Patienten mit schlechter Mundhygiene am ehesten Plaque?
+
+Antwortoptionen: ['Die Gaumenflächen der oberen Molaren und die Zungenflächen der unteren Schneidezähne.', 'Die Mundflächen der oberen Molaren und die Zungenflächen der unteren Schneidezähne.', 'Die Gaumenflächen der oberen Molaren und die Schamlippenflächen der unteren Schneidezähne.', 'Die Mundflächen der oberen Molaren und die Schamlippenflächen der unteren Schneidezähne.']
+
+Antwort: Die Mundflächen der oberen Molaren und die Zungenflächen der unteren Schneidezähne."
+"Laryngeal Ödem ist in der Regel auf den Kehlkopf über den Stimmfalten beschränkt, weil",anatomy,"['Es gibt zahlreiche Schleimdrüsen in den Vestibularfalten.', 'die Schleimhaut, die die Stimmfalten bedeckt, ist fest an den darunter liegenden Geweben befestigt.', 'Flüssigkeit wird schnell in den Thorax unterhalb der Stimmfalten abfließen.', 'die Schleimhaut oberhalb der Stimmfalten ist vaskulärer als die unterhalb der Stimmfalten.']",1,"Frage: Laryngeal Ödem ist in der Regel auf den Kehlkopf über den Stimmfalten beschränkt, weil
+
+Antwortoptionen: ['Es gibt zahlreiche Schleimdrüsen in den Vestibularfalten.', 'die Schleimhaut, die die Stimmfalten bedeckt, ist fest an den darunter liegenden Geweben befestigt.', 'Flüssigkeit wird schnell in den Thorax unterhalb der Stimmfalten abfließen.', 'die Schleimhaut oberhalb der Stimmfalten ist vaskulärer als die unterhalb der Stimmfalten.']
+
+Antwort: die Schleimhaut, die die Stimmfalten bedeckt, ist fest an den darunter liegenden Geweben befestigt."
+Die Koronararterien,anatomy,"['aus dem Aortenbogen entstehen und sich während der Diastole füllen.', 'aus der aufsteigenden Aorta entstehen und sich während der Systole füllen.', 'aus dem Aortenbogen entstehen und sich während der Systole füllen.', 'aus der aufsteigenden Aorta entstehen und sich während der Diastole füllen.']",3,"Frage: Die Koronararterien
+
+Antwortoptionen: ['aus dem Aortenbogen entstehen und sich während der Diastole füllen.', 'aus der aufsteigenden Aorta entstehen und sich während der Systole füllen.', 'aus dem Aortenbogen entstehen und sich während der Systole füllen.', 'aus der aufsteigenden Aorta entstehen und sich während der Diastole füllen.']
+
+Antwort: aus der aufsteigenden Aorta entstehen und sich während der Diastole füllen."
+Welcher Muskel ist bei einer rechten seitlichen Exkursion des Unterkiefers am aktivsten?,anatomy,"['Linkser lateraler Pterygoidmuskel', 'Rechtsseitiger Pterygoidmuskel', 'Linkser medialer Pterygoidmuskel', 'Rechtser medialer Pterygoidmuskel']",0,"Frage: Welcher Muskel ist bei einer rechten seitlichen Exkursion des Unterkiefers am aktivsten?
+
+Antwortoptionen: ['Linkser lateraler Pterygoidmuskel', 'Rechtsseitiger Pterygoidmuskel', 'Linkser medialer Pterygoidmuskel', 'Rechtser medialer Pterygoidmuskel']
+
+Antwort: Linkser lateraler Pterygoidmuskel"
+Die phrenischen Nerven innervieren die,anatomy,"['Zwerchfell.', 'Zwerchfell und parietale Pleura.', 'Zwerchfell, parietale Pleura und Perikard.', 'Zwerchfell, parietale Pleura, Perikard und intercostale Muskeln.']",2,"Frage: Die phrenischen Nerven innervieren die
+
+Antwortoptionen: ['Zwerchfell.', 'Zwerchfell und parietale Pleura.', 'Zwerchfell, parietale Pleura und Perikard.', 'Zwerchfell, parietale Pleura, Perikard und intercostale Muskeln.']
+
+Antwort: Zwerchfell, parietale Pleura und Perikard."
+Die parasympathischen präganglionären Nerven verlassen das zentrale Nervensystem mit dem,anatomy,"['die dritten Schädelnerven.', 'die vierten Schädelnerven.', 'Fünfte Schädelnerven.', 'Sechste Schädelnerven.']",0,"Frage: Die parasympathischen präganglionären Nerven verlassen das zentrale Nervensystem mit dem
+
+Antwortoptionen: ['die dritten Schädelnerven.', 'die vierten Schädelnerven.', 'Fünfte Schädelnerven.', 'Sechste Schädelnerven.']
+
+Antwort: die dritten Schädelnerven."
+"Bei einem Patienten mit einem normalen gesunden Mund würde man erwarten, dass die Schleimhaut, die den alveolären Prozess bedeckt und die Unterkieferzähne stützt,",anatomy,"['leuchtend rosa auf beiden Seiten des Schleim-Zungen-Zungen-Gelenks.', 'hellrosa unterhalb der Schleimhautverbindung und rot darüber.', 'Rot unterhalb der Schleimhautverbindung und hellrosa darüber.', 'Rot auf beiden Seiten der Schleimhautverbindung.']",2,"Frage: Bei einem Patienten mit einem normalen gesunden Mund würde man erwarten, dass die Schleimhaut, die den alveolären Prozess bedeckt und die Unterkieferzähne stützt,
+
+Antwortoptionen: ['leuchtend rosa auf beiden Seiten des Schleim-Zungen-Zungen-Gelenks.', 'hellrosa unterhalb der Schleimhautverbindung und rot darüber.', 'Rot unterhalb der Schleimhautverbindung und hellrosa darüber.', 'Rot auf beiden Seiten der Schleimhautverbindung.']
+
+Antwort: Rot unterhalb der Schleimhautverbindung und hellrosa darüber."
+Die Makrostomie resultiert aus einem Fehlschlag der Fusion von,anatomy,"['maxillare und mandibulare Prozesse.', 'Linke und rechte Mandibularprozesse.', 'maxillare und frontonasale Prozesse.', 'Mandibular- und Hyoidbogen.']",0,"Frage: Die Makrostomie resultiert aus einem Fehlschlag der Fusion von
+
+Antwortoptionen: ['maxillare und mandibulare Prozesse.', 'Linke und rechte Mandibularprozesse.', 'maxillare und frontonasale Prozesse.', 'Mandibular- und Hyoidbogen.']
+
+Antwort: maxillare und mandibulare Prozesse."
+"Sie vermuten, dass Ihr Patient eine vergrößerte submandibuläre Speicheldrüse hat.",anatomy,"['Intraoral spürbar zu sein.', 'um außer mündlich spürbar zu sein.', 'Sie sind sowohl intra- als auch extra-oral spürbar.', 'nur durch Röntgenuntersuchung nachweisbar sein.']",2,"Frage: Sie vermuten, dass Ihr Patient eine vergrößerte submandibuläre Speicheldrüse hat.
+
+Antwortoptionen: ['Intraoral spürbar zu sein.', 'um außer mündlich spürbar zu sein.', 'Sie sind sowohl intra- als auch extra-oral spürbar.', 'nur durch Röntgenuntersuchung nachweisbar sein.']
+
+Antwort: Sie sind sowohl intra- als auch extra-oral spürbar."
+Osteoklasten,anatomy,"['Knochen ablagern und sich von periostealen Mesenchymzellen differenzieren.', 'resorbieren Knochen und differenzieren sich von periostealen mesenchymalen Zellen.', 'Knochen ablagern und sich von Monozyten differenzieren.', 'resorbieren Knochen und differenzieren sich von Monozyten.']",3,"Frage: Osteoklasten
+
+Antwortoptionen: ['Knochen ablagern und sich von periostealen Mesenchymzellen differenzieren.', 'resorbieren Knochen und differenzieren sich von periostealen mesenchymalen Zellen.', 'Knochen ablagern und sich von Monozyten differenzieren.', 'resorbieren Knochen und differenzieren sich von Monozyten.']
+
+Antwort: resorbieren Knochen und differenzieren sich von Monozyten."
+Der seitliche Pterygoidmuskel,anatomy,"['ist an dem Koronoidprozess befestigt und erhebt den Unterkiefer.', 'befindet sich am Kondylarprozess und erhebt den Unterkiefer.', 'ist am Koronoidprozess befestigt und ragt aus dem Unterkiefer hervor.', 'ist am Kondylarprozess befestigt und ragt aus dem Unterkiefer hervor.']",3,"Frage: Der seitliche Pterygoidmuskel
+
+Antwortoptionen: ['ist an dem Koronoidprozess befestigt und erhebt den Unterkiefer.', 'befindet sich am Kondylarprozess und erhebt den Unterkiefer.', 'ist am Koronoidprozess befestigt und ragt aus dem Unterkiefer hervor.', 'ist am Kondylarprozess befestigt und ragt aus dem Unterkiefer hervor.']
+
+Antwort: ist am Kondylarprozess befestigt und ragt aus dem Unterkiefer hervor."
+Im Fötus leitet der Ductus arteriosus Blut aus dem,anatomy,"['Lungenader zur Aorta.', 'Aorta zur Lungenvene.', 'Lungenarterie zur Aorta.', 'Aorta zur Lungenarterie.']",2,"Frage: Im Fötus leitet der Ductus arteriosus Blut aus dem
+
+Antwortoptionen: ['Lungenader zur Aorta.', 'Aorta zur Lungenvene.', 'Lungenarterie zur Aorta.', 'Aorta zur Lungenarterie.']
+
+Antwort: Lungenarterie zur Aorta."
+Welche der folgenden Knochen entstehen durch endokondrale Beinkörperung?,anatomy,"['Die Rippen .', 'Die Rippen und das Brustbein', 'Die Rippen, das Brustbein und der Schlüsselbein', 'Rippen, Brustbein, Schlüsselbein und Wirbel']",1,"Frage: Welche der folgenden Knochen entstehen durch endokondrale Beinkörperung?
+
+Antwortoptionen: ['Die Rippen .', 'Die Rippen und das Brustbein', 'Die Rippen, das Brustbein und der Schlüsselbein', 'Rippen, Brustbein, Schlüsselbein und Wirbel']
+
+Antwort: Die Rippen und das Brustbein"
+Die Schleimhaut des harten Gaumens ist,anatomy,"['Keratininisiert und hat Submukosa und kleinere Speicheldrüsen posterolateral.', 'nicht-keratiniert und hat Submukosa und kleinere Speicheldrüsen posteromedial.', 'Keratiniert und fehlen Submukosa und kleinere Speicheldrüsen.', 'Nicht-keratiniert und ohne Submukosa und kleinere Speicheldrüsen.']",0,"Frage: Die Schleimhaut des harten Gaumens ist
+
+Antwortoptionen: ['Keratininisiert und hat Submukosa und kleinere Speicheldrüsen posterolateral.', 'nicht-keratiniert und hat Submukosa und kleinere Speicheldrüsen posteromedial.', 'Keratiniert und fehlen Submukosa und kleinere Speicheldrüsen.', 'Nicht-keratiniert und ohne Submukosa und kleinere Speicheldrüsen.']
+
+Antwort: Keratininisiert und hat Submukosa und kleinere Speicheldrüsen posterolateral."
+Der Kopf der sechsten Rippe artikuliert mit,anatomy,"['Die untere Gelenkseite von T5 und die obere Gelenkseite von T6.', 'Die untere Gelenk-Demifasette von T5 und die obere Gelenk-Fasette von T6.', 'Das untere Gelenk-Demifazet von T5 und das obere Gelenk-Demifazet von T6.', 'Die oberen und unteren Halbleiter von T6.']",2,"Frage: Der Kopf der sechsten Rippe artikuliert mit
+
+Antwortoptionen: ['Die untere Gelenkseite von T5 und die obere Gelenkseite von T6.', 'Die untere Gelenk-Demifasette von T5 und die obere Gelenk-Fasette von T6.', 'Das untere Gelenk-Demifazet von T5 und das obere Gelenk-Demifazet von T6.', 'Die oberen und unteren Halbleiter von T6.']
+
+Antwort: Das untere Gelenk-Demifazet von T5 und das obere Gelenk-Demifazet von T6."
+Welcher der folgenden Körper befindet sich unter dem Zwerchfell im linken oberen Quadranten der Bauchhöhle?,anatomy,"['Anhang', 'Dutzendfüßler', 'Milz', 'Bauchspeicheldrüse']",2,"Frage: Welcher der folgenden Körper befindet sich unter dem Zwerchfell im linken oberen Quadranten der Bauchhöhle?
+
+Antwortoptionen: ['Anhang', 'Dutzendfüßler', 'Milz', 'Bauchspeicheldrüse']
+
+Antwort: Milz"
+Propriozeptive Nervenenden in synovialen Gelenken befinden sich in,anatomy,"['Gelenkknorpel und Synovialmembran.', 'Synovialmembran und Kapsel.', 'Kapsel und Bänder.', 'Bands und Gelenkscheiben.']",3,"Frage: Propriozeptive Nervenenden in synovialen Gelenken befinden sich in
+
+Antwortoptionen: ['Gelenkknorpel und Synovialmembran.', 'Synovialmembran und Kapsel.', 'Kapsel und Bänder.', 'Bands und Gelenkscheiben.']
+
+Antwort: Bands und Gelenkscheiben."
+"Der Brustkorb ist eine strukturelle Einheit, die für welche der folgenden Funktionen wichtig ist?",anatomy,"['Verpflegung', 'Menstruation', 'Mentation', 'Atmung']",3,"Frage: Der Brustkorb ist eine strukturelle Einheit, die für welche der folgenden Funktionen wichtig ist?
+
+Antwortoptionen: ['Verpflegung', 'Menstruation', 'Mentation', 'Atmung']
+
+Antwort: Atmung"
+Ein Patient wird nach einer Kopfverletzung eingeliefert und versinkt rasch in ein Koma.,anatomy,"['Schädelknochen und Dura Mater.', 'Dura mater und Arachnoid.', 'Arachnoid und Pia Mater.', 'Pia Mater und Hirnoberfläche.']",0,"Frage: Ein Patient wird nach einer Kopfverletzung eingeliefert und versinkt rasch in ein Koma.
+
+Antwortoptionen: ['Schädelknochen und Dura Mater.', 'Dura mater und Arachnoid.', 'Arachnoid und Pia Mater.', 'Pia Mater und Hirnoberfläche.']
+
+Antwort: Schädelknochen und Dura Mater."
+Eine erfolgreiche Infraorbitalnervenblockade führt zu einer Anästhesie des,anatomy,"['maxilläre vordere Zähne.', 'maxillare vordere Zähne und ihre labialen Zahnfleischmuskeln.', 'maxillare vordere Zähne, ihre labialen Zahnfleisch und die Oberlippe.', 'maxillare vordere Zähne, ihre labialen Zahnfleisch, die Oberlippe und den vorderen harten Gaumen.']",2,"Frage: Eine erfolgreiche Infraorbitalnervenblockade führt zu einer Anästhesie des
+
+Antwortoptionen: ['maxilläre vordere Zähne.', 'maxillare vordere Zähne und ihre labialen Zahnfleischmuskeln.', 'maxillare vordere Zähne, ihre labialen Zahnfleisch und die Oberlippe.', 'maxillare vordere Zähne, ihre labialen Zahnfleisch, die Oberlippe und den vorderen harten Gaumen.']
+
+Antwort: maxillare vordere Zähne, ihre labialen Zahnfleisch und die Oberlippe."
+Welche der folgenden Foramen durchdringen den Sphenoidbein?,anatomy,"['Das Foramen ovale', 'Das Foramen ovale und Rotundum', 'Das Foramen ovale, Rotundum und Spinosum', 'Das Foramen ovale, Rotundum und Spinosum sowie das Foramen lacerum']",2,"Frage: Welche der folgenden Foramen durchdringen den Sphenoidbein?
+
+Antwortoptionen: ['Das Foramen ovale', 'Das Foramen ovale und Rotundum', 'Das Foramen ovale, Rotundum und Spinosum', 'Das Foramen ovale, Rotundum und Spinosum sowie das Foramen lacerum']
+
+Antwort: Das Foramen ovale, Rotundum und Spinosum"
+"Welche der folgenden Störungen ist eine Störung, die durch unkontrollierbare Episoden des Einschlafenes während des Tages gekennzeichnet ist?",anatomy,"['Dyslexie', 'Epilepsie', 'Hydrozephalus', 'Narkolepsie']",3,"Frage: Welche der folgenden Störungen ist eine Störung, die durch unkontrollierbare Episoden des Einschlafenes während des Tages gekennzeichnet ist?
+
+Antwortoptionen: ['Dyslexie', 'Epilepsie', 'Hydrozephalus', 'Narkolepsie']
+
+Antwort: Narkolepsie"
+Welcher der folgenden Faktoren ermöglicht den Gasaustausch in der Lunge?,anatomy,"['Alveolen', 'Bronchien', 'Bronchiolen', 'Kapillaren']",0,"Frage: Welcher der folgenden Faktoren ermöglicht den Gasaustausch in der Lunge?
+
+Antwortoptionen: ['Alveolen', 'Bronchien', 'Bronchiolen', 'Kapillaren']
+
+Antwort: Alveolen"
+"Ein Patient hat einen Bruch, bei dem der Radius gebogen, aber nicht verschoben ist und die Haut intakt ist.",anatomy,"['geschlossen, grünstrichig', 'Komplexe, zerkleinert', 'Zusammengesetzte, Querschnittstücke', 'Geöffnet, spiralförmig']",0,"Frage: Ein Patient hat einen Bruch, bei dem der Radius gebogen, aber nicht verschoben ist und die Haut intakt ist.
+
+Antwortoptionen: ['geschlossen, grünstrichig', 'Komplexe, zerkleinert', 'Zusammengesetzte, Querschnittstücke', 'Geöffnet, spiralförmig']
+
+Antwort: geschlossen, grünstrichig"
+Die Befruchtung einer Eizelle durch ein Spermium erfolgt in welcher der folgenden Strukturen?,anatomy,"['Gebärmutterhals', 'Eileiter', 'Eierstock', 'Gebärmutter']",1,"Frage: Die Befruchtung einer Eizelle durch ein Spermium erfolgt in welcher der folgenden Strukturen?
+
+Antwortoptionen: ['Gebärmutterhals', 'Eileiter', 'Eierstock', 'Gebärmutter']
+
+Antwort: Eileiter"
+Ektoderm verursacht,anatomy,"['das Neuralrohr.', 'ectomesenchymalen Zellen.', 'Zahnschmelz.', 'alle drei Strukturen.']",3,"Frage: Ektoderm verursacht
+
+Antwortoptionen: ['das Neuralrohr.', 'ectomesenchymalen Zellen.', 'Zahnschmelz.', 'alle drei Strukturen.']
+
+Antwort: alle drei Strukturen."
+Welche der folgenden Strukturen befindet sich bei Männern am Hals der Blase und umgibt die Harnröhre?,anatomy,"['Epididymis', 'Prostata', 'Hodensack', 'Samenbläschen']",1,"Frage: Welche der folgenden Strukturen befindet sich bei Männern am Hals der Blase und umgibt die Harnröhre?
+
+Antwortoptionen: ['Epididymis', 'Prostata', 'Hodensack', 'Samenbläschen']
+
+Antwort: Prostata"
+Welche der folgenden Optionen ergänzt die folgende Aussage?,anatomy,"['ist ein Halbmondventil', 'durch die Papillärmuskeln verhindert wird.', 'ist während der Systole offen.', 'verhindert, dass das Blut aus dem Lungenstamm zurückkehrt, wenn sich das Herz entspannt.']",1,"Frage: Welche der folgenden Optionen ergänzt die folgende Aussage?
+
+Antwortoptionen: ['ist ein Halbmondventil', 'durch die Papillärmuskeln verhindert wird.', 'ist während der Systole offen.', 'verhindert, dass das Blut aus dem Lungenstamm zurückkehrt, wenn sich das Herz entspannt.']
+
+Antwort: durch die Papillärmuskeln verhindert wird."
+Welcher der folgenden Hirnbereiche wird von den Zweigen der Schlüsselbein-Arterien versorgt?,anatomy,"['Frontallappen', 'Der Parietallappen', 'Der Hypothalamus', 'Das Kleinhirn']",3,"Frage: Welcher der folgenden Hirnbereiche wird von den Zweigen der Schlüsselbein-Arterien versorgt?
+
+Antwortoptionen: ['Frontallappen', 'Der Parietallappen', 'Der Hypothalamus', 'Das Kleinhirn']
+
+Antwort: Das Kleinhirn"
+Welche der folgenden Strukturen ist Teil des Dünndarms?,anatomy,"['Aufsteigender Dickdarm', 'Zahnfleisch', 'Ileum', 'Sigmoid-Darm']",2,"Frage: Welche der folgenden Strukturen ist Teil des Dünndarms?
+
+Antwortoptionen: ['Aufsteigender Dickdarm', 'Zahnfleisch', 'Ileum', 'Sigmoid-Darm']
+
+Antwort: Ileum"
+Bei einer Inferior-Alveolar-Nervenblockade durchläuft die Nadel idealerweise,anatomy,"['hintere und mediale bis mediale Pterygoide.', 'vordere und seitliche bis mediale Pterygoide.', 'durch das mediale Pterygoid.', 'Unterhalb des medialen Pterygoiden.']",1,"Frage: Bei einer Inferior-Alveolar-Nervenblockade durchläuft die Nadel idealerweise
+
+Antwortoptionen: ['hintere und mediale bis mediale Pterygoide.', 'vordere und seitliche bis mediale Pterygoide.', 'durch das mediale Pterygoid.', 'Unterhalb des medialen Pterygoiden.']
+
+Antwort: vordere und seitliche bis mediale Pterygoide."
+Patienten mit welcher der folgenden Krankheiten werden mit Injektionen von Vitamin B-12 behandelt?,anatomy,"['Bell ist gelähmt.', 'Morbus Crohn', 'Perniziöse Anämie', 'Graves-Krankheit']",2,"Frage: Patienten mit welcher der folgenden Krankheiten werden mit Injektionen von Vitamin B-12 behandelt?
+
+Antwortoptionen: ['Bell ist gelähmt.', 'Morbus Crohn', 'Perniziöse Anämie', 'Graves-Krankheit']
+
+Antwort: Perniziöse Anämie"
+"Welcher der folgenden Knochen hat einen Prozess, der sich mit dem Zygomatenknochen verbindet, um den Zygomatenbogen zu bilden?",anatomy,"['Der Kieferknochen', 'Das Schläfenbein', 'Der Sphenoidbein', 'Das Stirnbein']",1,"Frage: Welcher der folgenden Knochen hat einen Prozess, der sich mit dem Zygomatenknochen verbindet, um den Zygomatenbogen zu bilden?
+
+Antwortoptionen: ['Der Kieferknochen', 'Das Schläfenbein', 'Der Sphenoidbein', 'Das Stirnbein']
+
+Antwort: Das Schläfenbein"
+Die parasympathischen präganglionären Axone verlassen das ZNS mit dem,anatomy,"['Halswirbelsäulen.', 'Brustnerven der Wirbelsäule.', 'Lendenwirbelsäulen.', 'sakrale Wirbelsäulennerven.']",3,"Frage: Die parasympathischen präganglionären Axone verlassen das ZNS mit dem
+
+Antwortoptionen: ['Halswirbelsäulen.', 'Brustnerven der Wirbelsäule.', 'Lendenwirbelsäulen.', 'sakrale Wirbelsäulennerven.']
+
+Antwort: sakrale Wirbelsäulennerven."
+Eine Patientin mit einer Schädigung ihrer zervikalen sympathischen Kette zeigt die folgenden Anzeichen und Symptome.,anatomy,"['Verengung der Pupillen', 'Verengung der Pupillen und Gefäßerweiterung der Gesichtsgefäße', 'Verengung der Pupillen, Gefäßerweiterung der Gesichtsgefäße und erhöhtes Schwitzen im Gesicht', 'Verengung der Pupillen, Gefäßerweiterung der Gesichtsgefäße, erhöhtes Schwitzen im Gesicht und verminderte Tränenbildung']",1,"Frage: Eine Patientin mit einer Schädigung ihrer zervikalen sympathischen Kette zeigt die folgenden Anzeichen und Symptome.
+
+Antwortoptionen: ['Verengung der Pupillen', 'Verengung der Pupillen und Gefäßerweiterung der Gesichtsgefäße', 'Verengung der Pupillen, Gefäßerweiterung der Gesichtsgefäße und erhöhtes Schwitzen im Gesicht', 'Verengung der Pupillen, Gefäßerweiterung der Gesichtsgefäße, erhöhtes Schwitzen im Gesicht und verminderte Tränenbildung']
+
+Antwort: Verengung der Pupillen und Gefäßerweiterung der Gesichtsgefäße"
+Welcher der folgenden Schädelnerven ist mit dem Geruchssinn verbunden?,anatomy,"['Entführungen', 'Hypoglossal', 'Geruchssinn', 'Hohlkopf']",2,"Frage: Welcher der folgenden Schädelnerven ist mit dem Geruchssinn verbunden?
+
+Antwortoptionen: ['Entführungen', 'Hypoglossal', 'Geruchssinn', 'Hohlkopf']
+
+Antwort: Geruchssinn"
+Wo befinden sich die lebenswichtigen Zentren im Hirnstamm?,anatomy,"['Mittelhirn', 'Pons', 'Lungenkrebs (Lungenkrebs)', 'Kleinhirn']",2,"Frage: Wo befinden sich die lebenswichtigen Zentren im Hirnstamm?
+
+Antwortoptionen: ['Mittelhirn', 'Pons', 'Lungenkrebs (Lungenkrebs)', 'Kleinhirn']
+
+Antwort: Lungenkrebs (Lungenkrebs)"
+"Der Speichel enthält ein Enzym, das auf welche der folgenden Nährstoffe wirkt.",anatomy,"['Stärken', 'Proteine', 'Fette', 'Mineralien']",0,"Frage: Der Speichel enthält ein Enzym, das auf welche der folgenden Nährstoffe wirkt.
+
+Antwortoptionen: ['Stärken', 'Proteine', 'Fette', 'Mineralien']
+
+Antwort: Stärken"
+Während des Schluckens der,anatomy,"['Gehörschlauch öffnet sich.', 'Die Krokofaringeusmuskulatur zieht sich zusammen.', 'Rima glottis öffnet sich.', 'Der Kehlreflex ist ausgeschaltet.']",0,"Frage: Während des Schluckens der
+
+Antwortoptionen: ['Gehörschlauch öffnet sich.', 'Die Krokofaringeusmuskulatur zieht sich zusammen.', 'Rima glottis öffnet sich.', 'Der Kehlreflex ist ausgeschaltet.']
+
+Antwort: Gehörschlauch öffnet sich."
+Die Rückenwurzeln aller Rückenmarksnerven enthalten,anatomy,"['sensorische neuronale Prozesse.', 'sensorische und autonome neuronale Prozesse.', 'motorneuronale Prozesse.', 'Motorische und autonome neuronale Prozesse.']",0,"Frage: Die Rückenwurzeln aller Rückenmarksnerven enthalten
+
+Antwortoptionen: ['sensorische neuronale Prozesse.', 'sensorische und autonome neuronale Prozesse.', 'motorneuronale Prozesse.', 'Motorische und autonome neuronale Prozesse.']
+
+Antwort: sensorische neuronale Prozesse."
+Welche der folgenden Drüsen ist die Hauptdrüse des endokrinen Systems?,anatomy,"['Nebennieren', 'Bauchspeicheldrüse', 'Zirbeldrüse', 'Hypophyse']",3,"Frage: Welche der folgenden Drüsen ist die Hauptdrüse des endokrinen Systems?
+
+Antwortoptionen: ['Nebennieren', 'Bauchspeicheldrüse', 'Zirbeldrüse', 'Hypophyse']
+
+Antwort: Hypophyse"
+Verlust der somatischen Empfindung über die vorderen zwei Drittel der Zunge weist auf eine Schädigung der,anatomy,"['Sprachzweig des Unterkiefer-Trigeminusnervs.', 'Chorda tympani, ein Zweig des Gesichtsnervs.', 'Sprachzweig des Glossopharynxnervs.', 'Hypoglossalnerv.']",0,"Frage: Verlust der somatischen Empfindung über die vorderen zwei Drittel der Zunge weist auf eine Schädigung der
+
+Antwortoptionen: ['Sprachzweig des Unterkiefer-Trigeminusnervs.', 'Chorda tympani, ein Zweig des Gesichtsnervs.', 'Sprachzweig des Glossopharynxnervs.', 'Hypoglossalnerv.']
+
+Antwort: Sprachzweig des Unterkiefer-Trigeminusnervs."
+Bei Männern werden Proben für Gonokokkenkulturen am häufigsten aus welcher der folgenden Strukturen gewonnen?,anatomy,"['Anus', 'Blasen', 'Harnröhre', 'Hoden']",2,"Frage: Bei Männern werden Proben für Gonokokkenkulturen am häufigsten aus welcher der folgenden Strukturen gewonnen?
+
+Antwortoptionen: ['Anus', 'Blasen', 'Harnröhre', 'Hoden']
+
+Antwort: Harnröhre"
+Welche der folgenden Strukturen sollten auf einer zahnärztlichen Panorama-Röntgenaufnahme sichtbar sein?,anatomy,"['Der Unterkieferkanal', 'Der Unterkieferkanal und der Kiefer-Sinus', 'Der Unterkieferkanal, die Kiefer-Sinus und der harte Gaumen', 'Der Unterkieferkanal, der Kiefer-Sinus, der harte Gaumen und der Zygomatikbogen']",3,"Frage: Welche der folgenden Strukturen sollten auf einer zahnärztlichen Panorama-Röntgenaufnahme sichtbar sein?
+
+Antwortoptionen: ['Der Unterkieferkanal', 'Der Unterkieferkanal und der Kiefer-Sinus', 'Der Unterkieferkanal, die Kiefer-Sinus und der harte Gaumen', 'Der Unterkieferkanal, der Kiefer-Sinus, der harte Gaumen und der Zygomatikbogen']
+
+Antwort: Der Unterkieferkanal, der Kiefer-Sinus, der harte Gaumen und der Zygomatikbogen"

@@ -1,0 +1,9 @@
+include: _default_template_yaml
+task: mmlu_de_moral_disputes
+task_alias: moral_disputes
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_German/mmlu_de_by_subject/moral_disputes.csv
+
+test_split: test

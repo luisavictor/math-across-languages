@@ -3,7 +3,6 @@ import argparse
 import torch
 from contextlib import nullcontext
 
-
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', help="Huggingface model to train, entered as string", type=str)
 parser.add_argument('--eval_datasets', nargs='+',
@@ -56,6 +55,16 @@ import numpy as np
 import re
 import lm_eval
 import json
+
+
+
+import random, numpy as np, torch
+random.seed(args.random_state)
+np.random.seed(args.random_state)
+torch.manual_seed(args.random_state)
+torch.cuda.manual_seed_all(args.random_state)
+torch.backends.cudnn.benchmark = False
+
 
 
 mask_dir = f"{args.save_path}/isolated_masks/{args.model}"
@@ -112,6 +121,11 @@ os.makedirs(os.path.dirname(results_path), exist_ok=True)
 
 tokenizer = AutoTokenizer.from_pretrained(args.model)
 model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
+
+# geändert
+model.eval()
+
+
 if args.pre_train_eval:
     if 'sgsm' in args.train_dataset:
         prune_solve = []
@@ -188,13 +202,16 @@ if args.pre_train_eval:
         # Setting `task_manager` to the one above is optional and should generally be done
         # if you want to include tasks from paths other than ones in `lm_eval/tasks`.
         # `simple_evaluate` will instantiate its own task_manager if it is set to None here.
+        model.eval()
         results = lm_eval.simple_evaluate(  # call simple_evaluate
             model='hf',
             model_args={'pretrained': model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
             tasks=args.eval_datasets,
             task_manager=task_manager,
             log_samples=False,
-            batch_size='auto:4'
+            batch_size=1
+
+
         )
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
@@ -207,7 +224,8 @@ if args.pre_train_eval:
         # Setting `task_manager` to the one above is optional and should generally be done
         # if you want to include tasks from paths other than ones in `lm_eval/tasks`.
         # `simple_evaluate` will instantiate its own task_manager if it is set to None here.
-        results = lm_eval.simple_evaluate(  # call simple_evaluate
+        model.eval()
+        '''results = lm_eval.simple_evaluate(  # call simple_evaluate
             model='hf',
             model_args={'pretrained': model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
             tasks=args.train_lm_eval_task,
@@ -220,8 +238,9 @@ if args.pre_train_eval:
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results_train_task.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
         with open(results_path, "w") as outfile:
-            json.dump(results['results'], outfile)
+            json.dump(results['results'], outfile)'''
 
+        model.eval()
         results = lm_eval.simple_evaluate(  # call simple_evaluate
             model='hf',
             model_args={'pretrained': model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
@@ -712,6 +731,8 @@ for dataset in dataset_list:
                 mask_filename = f"gsm8k_{dataset.name}_{good_percent}_repeat{repeat}.pt"
                 mask_path = os.path.join(mask_dir, mask_filename)
                 cpu_masks = {k: v.to("cpu") for k, v in isolated_masks.items()}
+                tmp_path = mask_path + ".tmp"
+
                 torch.save(
                     {
                         "model_name": args.model,
@@ -720,8 +741,11 @@ for dataset in dataset_list:
                         "repeat": repeat,
                         "isolated_masks": cpu_masks,
                     },
-                    mask_path,
+                    tmp_path,
                 )
+
+                os.replace(tmp_path, mask_path)  # atomic rename
+
                 del isolated_masks
                 del cpu_masks
                 print(f"Saved isolated mask to {mask_path}")
@@ -746,6 +770,16 @@ for dataset in dataset_list:
                 del isolated_zero_mask
                 # clear magnitude buffers as they are no longer needed
                 magnitude.clear()
+
+
+                def remove_hooks(model):
+                    # Function to remove all hooks
+                    for name, module in model.named_modules():
+                        # Check if the module has any forward hooks
+                        if hasattr(module, "_forward_hooks") and len(module._forward_hooks) > 0:
+                            # Remove all forward hooks
+                            module._forward_hooks.clear()
+                            
                 remove_hooks(model)
                 torch.cuda.empty_cache()
 
@@ -860,13 +894,14 @@ for dataset in dataset_list:
                 # Setting `task_manager` to the one above is optional and should generally be done
                 # if you want to include tasks from paths other than ones in `lm_eval/tasks`.
                 # `simple_evaluate` will instantiate its own task_manager if it is set to None here.
+                model.eval()
                 results = lm_eval.simple_evaluate(  # call simple_evaluate
                     model='hf',
                     model_args={'pretrained': model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
                     tasks=args.eval_datasets,
                     task_manager=task_manager,
                     log_samples=False,
-                    batch_size='auto:4'
+                    batch_size=1
                 )
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
@@ -878,6 +913,7 @@ for dataset in dataset_list:
                 # Setting `task_manager` to the one above is optional and should generally be done
                 # if you want to include tasks from paths other than ones in `lm_eval/tasks`.
                 # `simple_evaluate` will instantiate its own task_manager if it is set to None here.
+                model.eval()
                 results = lm_eval.simple_evaluate(  # call simple_evaluate
                     model='hf',
                     model_args={'pretrained': model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
@@ -893,6 +929,7 @@ for dataset in dataset_list:
                 with open(results_path, "w") as outfile:
                     json.dump(results['results'], outfile)
 
+                model.eval()
                 results = lm_eval.simple_evaluate(  # call simple_evaluate
                     model='hf',
                     model_args={'pretrained': model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},

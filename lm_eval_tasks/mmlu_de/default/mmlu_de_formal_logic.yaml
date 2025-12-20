@@ -1,0 +1,8 @@
+include: _default_template_yaml
+"task": "mmlu_de_formal_logic"
+"task_alias": "formal_logic"
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_German/mmlu_de_by_subject/formal_logic.csv
+
+test_split: test

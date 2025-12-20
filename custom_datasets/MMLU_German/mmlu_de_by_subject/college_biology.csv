@@ -1,0 +1,721 @@
+question,subject,choices,answer,qa
+"Auf der Grundlage der charakteristischen Populationskurven, die sich aus der Darstellung des Populationswachstums einer Art ergeben, besteht das wirksamste Mittel zur Bekämpfung der Mückenpopulation darin,",college_biology,"['die Population an einem Punkt halten, der dem Mittelpunkt ihrer logistischen Kurve entspricht,', 'für eine Nullbevölkerungskontrolle entscheiden, sobald der K-Wert der Kurve erreicht ist', 'Verringerung der Tragfähigkeit cif der Umgebung, um den K-Wert zu senken', 'die Sterblichkeitsrate erhöhen']",2,"Frage: Auf der Grundlage der charakteristischen Populationskurven, die sich aus der Darstellung des Populationswachstums einer Art ergeben, besteht das wirksamste Mittel zur Bekämpfung der Mückenpopulation darin,
+
+Antwortoptionen: ['die Population an einem Punkt halten, der dem Mittelpunkt ihrer logistischen Kurve entspricht,', 'für eine Nullbevölkerungskontrolle entscheiden, sobald der K-Wert der Kurve erreicht ist', 'Verringerung der Tragfähigkeit cif der Umgebung, um den K-Wert zu senken', 'die Sterblichkeitsrate erhöhen']
+
+Antwort: Verringerung der Tragfähigkeit cif der Umgebung, um den K-Wert zu senken"
+"Eine Frameshift-Mutation entsteht, wenn",college_biology,"['Telomersequenzen werden aus der DNA entfernt', 'die Nukleotidsequenz eines Codons ändert sich so, dass eine andere Aminosäure als die ursprüngliche produziert werden muss', 'Ein Basenpaar wird entweder in ein Gen eingefügt oder gelöscht', 'die Nukleotidsequenz eines Codons wird so verändert, dass anstatt für eine bestimmte Aminosäure zu kodieren, sie die Translation beendet']",2,"Frage: Eine Frameshift-Mutation entsteht, wenn
+
+Antwortoptionen: ['Telomersequenzen werden aus der DNA entfernt', 'die Nukleotidsequenz eines Codons ändert sich so, dass eine andere Aminosäure als die ursprüngliche produziert werden muss', 'Ein Basenpaar wird entweder in ein Gen eingefügt oder gelöscht', 'die Nukleotidsequenz eines Codons wird so verändert, dass anstatt für eine bestimmte Aminosäure zu kodieren, sie die Translation beendet']
+
+Antwort: Ein Basenpaar wird entweder in ein Gen eingefügt oder gelöscht"
+"Um Austrocknung und Verletzungen zu verhindern, werden die Embryonen von Landwirbeltieren in eine Flüssigkeit eingeschlossen, die von der",college_biology,"['Amnion', 'Chorion', 'Zitrusfrüchte', 'Eigelbsack']",0,"Frage: Um Austrocknung und Verletzungen zu verhindern, werden die Embryonen von Landwirbeltieren in eine Flüssigkeit eingeschlossen, die von der
+
+Antwortoptionen: ['Amnion', 'Chorion', 'Zitrusfrüchte', 'Eigelbsack']
+
+Antwort: Amnion"
+"Welcher der folgenden ist ein zweiter Botenstoff, der die Freisetzung von Kalziumionen in das Zytoplasma stimuliert?",college_biology,"['Prostaglandine', 'Inositoltriphosphat', 'Zyklische AMP', 'Calmodulin']",1,"Frage: Welcher der folgenden ist ein zweiter Botenstoff, der die Freisetzung von Kalziumionen in das Zytoplasma stimuliert?
+
+Antwortoptionen: ['Prostaglandine', 'Inositoltriphosphat', 'Zyklische AMP', 'Calmodulin']
+
+Antwort: Inositoltriphosphat"
+Die Synthese eines RNA/DNA-Hybrids aus einer einsträngigen RNA-Schablone erfordert,college_biology,"['ein DNA- oder RNA-Primer und eine Reverse-Transkriptase', 'ein DNA- oder RNA-Primer und eine DNA-Polymerase', 'Nur RNase', 'nur Reverse-Transkriptase']",0,"Frage: Die Synthese eines RNA/DNA-Hybrids aus einer einsträngigen RNA-Schablone erfordert
+
+Antwortoptionen: ['ein DNA- oder RNA-Primer und eine Reverse-Transkriptase', 'ein DNA- oder RNA-Primer und eine DNA-Polymerase', 'Nur RNase', 'nur Reverse-Transkriptase']
+
+Antwort: ein DNA- oder RNA-Primer und eine Reverse-Transkriptase"
+"Damit das Hardy-Weinberg-Gesetz in Bezug auf eine Population von Organismen wirksam ist, muss jede der folgenden Bedingungen erfüllt sein, ausgenommen:",college_biology,"['Gene werden mit anderen Populationen ausgetauscht.', 'Die Populationsgröße ist groß.', 'Natürliche Selektion findet nicht statt.', 'Die Paarungen sind zufällig.']",0,"Frage: Damit das Hardy-Weinberg-Gesetz in Bezug auf eine Population von Organismen wirksam ist, muss jede der folgenden Bedingungen erfüllt sein, ausgenommen:
+
+Antwortoptionen: ['Gene werden mit anderen Populationen ausgetauscht.', 'Die Populationsgröße ist groß.', 'Natürliche Selektion findet nicht statt.', 'Die Paarungen sind zufällig.']
+
+Antwort: Gene werden mit anderen Populationen ausgetauscht."
+"Der Barr-Körper, der in den Zellkernen weiblicher Säugetiere gefunden wurde, ist ein Beispiel dafür.",college_biology,"['Euchromatin (Euchromatin)', 'Heterochromatin', 'ein Cistron', 'Pseudogene']",1,"Frage: Der Barr-Körper, der in den Zellkernen weiblicher Säugetiere gefunden wurde, ist ein Beispiel dafür.
+
+Antwortoptionen: ['Euchromatin (Euchromatin)', 'Heterochromatin', 'ein Cistron', 'Pseudogene']
+
+Antwort: Heterochromatin"
+Welches der folgenden ist NICHT eine Quelle atmosphärischen Kohlenstoffs?,college_biology,"['Atmung', 'Photosynthese', 'Bakterielle Zersetzung', 'Verbrennung fossiler Brennstoffe']",1,"Frage: Welches der folgenden ist NICHT eine Quelle atmosphärischen Kohlenstoffs?
+
+Antwortoptionen: ['Atmung', 'Photosynthese', 'Bakterielle Zersetzung', 'Verbrennung fossiler Brennstoffe']
+
+Antwort: Photosynthese"
+Der Begriff des unterbrochenen Gleichgewichts bezieht sich auf,college_biology,"['Oszillierende ökologische aufeinanderfolgende Phasen', 'Ökologische Abfolge, die durch plötzliche Umweltveränderungen, z. B. durch Brand, unterbrochen wird', 'anhaltende Raubtier-Beute-Beziehungen in relativ stabilen Umgebungen', 'Ausbrüche der Speziation gefolgt von relativ unveränderlichen Abstammungslinien']",3,"Frage: Der Begriff des unterbrochenen Gleichgewichts bezieht sich auf
+
+Antwortoptionen: ['Oszillierende ökologische aufeinanderfolgende Phasen', 'Ökologische Abfolge, die durch plötzliche Umweltveränderungen, z. B. durch Brand, unterbrochen wird', 'anhaltende Raubtier-Beute-Beziehungen in relativ stabilen Umgebungen', 'Ausbrüche der Speziation gefolgt von relativ unveränderlichen Abstammungslinien']
+
+Antwort: Ausbrüche der Speziation gefolgt von relativ unveränderlichen Abstammungslinien"
+"Wenn ein Grippevirus in eine Zelle eindringt, beginnt es sofort, was zu tun?",college_biology,"['Einbeziehung der viralen DNA in das Chromosom der Wirtszelle', 'Zerstörung der Transkriptionsmaschinerie der Wirtszelle', 'Sein genetisches Material replizieren und Virusproteine synthetisieren .', 'Verwendung einer viralen Kopie der Reverse-Transkriptase zur Herstellung von viraler DNA']",2,"Frage: Wenn ein Grippevirus in eine Zelle eindringt, beginnt es sofort, was zu tun?
+
+Antwortoptionen: ['Einbeziehung der viralen DNA in das Chromosom der Wirtszelle', 'Zerstörung der Transkriptionsmaschinerie der Wirtszelle', 'Sein genetisches Material replizieren und Virusproteine synthetisieren .', 'Verwendung einer viralen Kopie der Reverse-Transkriptase zur Herstellung von viraler DNA']
+
+Antwort: Sein genetisches Material replizieren und Virusproteine synthetisieren ."
+"Spaltungssymmetrie, die sich aus frühen Zellteilungen ergibt, die in einem schrägen Winkel zur Polarachse auftreten, wird als",college_biology,"['Meroblastische Spaltung', 'Radialspaltung', 'Spirale Spaltung', 'Oberflächliche Spaltung']",2,"Frage: Spaltungssymmetrie, die sich aus frühen Zellteilungen ergibt, die in einem schrägen Winkel zur Polarachse auftreten, wird als
+
+Antwortoptionen: ['Meroblastische Spaltung', 'Radialspaltung', 'Spirale Spaltung', 'Oberflächliche Spaltung']
+
+Antwort: Spirale Spaltung"
+Das Targeting eines neu synthetisierten Proteins erfordert höchstwahrscheinlich zwei verschiedene Signalpeptide für welchen der folgenden Ziele?,college_biology,"['Plasmamembran', 'Lysosomen', 'Cytosol', 'Chloroplast']",3,"Frage: Das Targeting eines neu synthetisierten Proteins erfordert höchstwahrscheinlich zwei verschiedene Signalpeptide für welchen der folgenden Ziele?
+
+Antwortoptionen: ['Plasmamembran', 'Lysosomen', 'Cytosol', 'Chloroplast']
+
+Antwort: Chloroplast"
+"In Schweden schränkt der Rote Fuchs (Vulpes vulpes) die Population seiner Beute, einschließlich der Hasen, stark ein Allerdings werden Populationen von roten Füchsen manchmal von einem tödlichen Parasiten, der Mangelmilbe, angegriffen. Mit zunehmender Größe der Milbenpopulation an einem bestimmten Standort Wie reagieren Hasen- und Fuchspopulationen am ehesten an derselben Stelle? (Angenommen, dass Hasen an dieser Stelle keine anderen großen Raubtiere als Füchse haben.)",college_biology,"['Die Populationen von Füchsen und Hasen werden sinken.', 'Die Populationen von Füchsen und Hasen werden zunehmen.', 'Die Fuchspopulationen werden abnehmen und die Hasenpopulationen werden zunehmen.', 'Die Fuchspopulationen werden zunehmen und die Hasenpopulationen werden abnehmen.']",2,"Frage: In Schweden schränkt der Rote Fuchs (Vulpes vulpes) die Population seiner Beute, einschließlich der Hasen, stark ein Allerdings werden Populationen von roten Füchsen manchmal von einem tödlichen Parasiten, der Mangelmilbe, angegriffen. Mit zunehmender Größe der Milbenpopulation an einem bestimmten Standort Wie reagieren Hasen- und Fuchspopulationen am ehesten an derselben Stelle? (Angenommen, dass Hasen an dieser Stelle keine anderen großen Raubtiere als Füchse haben.)
+
+Antwortoptionen: ['Die Populationen von Füchsen und Hasen werden sinken.', 'Die Populationen von Füchsen und Hasen werden zunehmen.', 'Die Fuchspopulationen werden abnehmen und die Hasenpopulationen werden zunehmen.', 'Die Fuchspopulationen werden zunehmen und die Hasenpopulationen werden abnehmen.']
+
+Antwort: Die Fuchspopulationen werden abnehmen und die Hasenpopulationen werden zunehmen."
+Der Zellkern enthält Folgendes: I. DNA II. Protein III. RNA,college_biology,"['Ich habe nur ...', 'Nur II', 'Nur III', 'I, II und III']",3,"Frage: Der Zellkern enthält Folgendes: I. DNA II. Protein III. RNA
+
+Antwortoptionen: ['Ich habe nur ...', 'Nur II', 'Nur III', 'I, II und III']
+
+Antwort: I, II und III"
+"In einer taxonomischen Klassifizierung repräsentieren Archaea, Eukaryas und Bakterien die drei Hauptbereiche des Lebens Eukarya nutzen die allgemeinen Transkriptionsfaktoren TBP (TATA-bindendes Protein) und TFIIB bei der Transkription, während Bakterien dies nicht tun. Mindestens ein Archaea-Mitglied hat ein TBP-ähnliches Protein und ein TFIIB-ähnliches Protein Welches der folgenden Szenarien ist aufgrund dieser Beobachtung am wahrscheinlichsten?",college_biology,"['Archaea und Eukarya divergierten, nachdem ihr gemeinsamer Vorfahre von Bakterien divergiert war.', 'Archaea und Bakterien trennten sich, nachdem sich ihr gemeinsamer Vorfahre von Eukarya getrennt hatte.', 'Bakterien und Eukaryen divergierten, nachdem ihr gemeinsamer Vorfahre von Archaea divergiert war.', 'Archaea, Eukaryas und Bakterien divergierten gleichzeitig von einem gemeinsamen Vorfahren.']",0,"Frage: In einer taxonomischen Klassifizierung repräsentieren Archaea, Eukaryas und Bakterien die drei Hauptbereiche des Lebens Eukarya nutzen die allgemeinen Transkriptionsfaktoren TBP (TATA-bindendes Protein) und TFIIB bei der Transkription, während Bakterien dies nicht tun. Mindestens ein Archaea-Mitglied hat ein TBP-ähnliches Protein und ein TFIIB-ähnliches Protein Welches der folgenden Szenarien ist aufgrund dieser Beobachtung am wahrscheinlichsten?
+
+Antwortoptionen: ['Archaea und Eukarya divergierten, nachdem ihr gemeinsamer Vorfahre von Bakterien divergiert war.', 'Archaea und Bakterien trennten sich, nachdem sich ihr gemeinsamer Vorfahre von Eukarya getrennt hatte.', 'Bakterien und Eukaryen divergierten, nachdem ihr gemeinsamer Vorfahre von Archaea divergiert war.', 'Archaea, Eukaryas und Bakterien divergierten gleichzeitig von einem gemeinsamen Vorfahren.']
+
+Antwort: Archaea und Eukarya divergierten, nachdem ihr gemeinsamer Vorfahre von Bakterien divergiert war."
+"Ein Anstieg des intrazellulären freien Kalziums im Ei der Seeigel verursacht die Freisetzung proteolytischer Enzyme, die die Polyspermie verhindern.",college_biology,"['Zonenreaktion', 'Akrosomale Reaktion', 'Kortikalreaktion', 'Befruchtungsreaktion']",2,"Frage: Ein Anstieg des intrazellulären freien Kalziums im Ei der Seeigel verursacht die Freisetzung proteolytischer Enzyme, die die Polyspermie verhindern.
+
+Antwortoptionen: ['Zonenreaktion', 'Akrosomale Reaktion', 'Kortikalreaktion', 'Befruchtungsreaktion']
+
+Antwort: Kortikalreaktion"
+Welcher der folgenden Vorteile kommt vielen Pflanzen durch Mykorrhizalpilze zu?,college_biology,"['Sie schützen Pflanzenwurzeln vor Austrocknung in extrem trockenen Lebensräumen.', 'Sie fixieren Stickstoff, der für Pflanzen in Stickstoffarmen Lebensräumen besonders wichtig ist.', 'Sie ermöglichen den Zugang zu Phosphor, einem essentiellen Element, das in vielen Arten von Böden nur begrenzt vorhanden ist.', 'Sie liefern den Pflanzen Kohlenstoff im Austausch für festen Stickstoff.']",2,"Frage: Welcher der folgenden Vorteile kommt vielen Pflanzen durch Mykorrhizalpilze zu?
+
+Antwortoptionen: ['Sie schützen Pflanzenwurzeln vor Austrocknung in extrem trockenen Lebensräumen.', 'Sie fixieren Stickstoff, der für Pflanzen in Stickstoffarmen Lebensräumen besonders wichtig ist.', 'Sie ermöglichen den Zugang zu Phosphor, einem essentiellen Element, das in vielen Arten von Böden nur begrenzt vorhanden ist.', 'Sie liefern den Pflanzen Kohlenstoff im Austausch für festen Stickstoff.']
+
+Antwort: Sie ermöglichen den Zugang zu Phosphor, einem essentiellen Element, das in vielen Arten von Böden nur begrenzt vorhanden ist."
+"Experimente über die Entwicklung des Gesangs bei Vögeln haben gezeigt, daß ein junges Männchen, das isoliert aufgezogen wird, nur den Gesang einer anderen Vogelarte hört Er wird ein Liederrepertoire für Erwachsene entwickeln , dem bestimmte Merkmale fehlen , die typisch für seine eigene Spezies sind . Dieses Ergebnis zeigt, dass das Lied seiner Spezies höchstwahrscheinlich",college_biology,"['vollständig während der Entwicklung erlernt', 'völlig instinktiv', 'sowohl instinktiv als auch erlernt', 'für die richtige Entwicklung von Hormonen abhängig']",2,"Frage: Experimente über die Entwicklung des Gesangs bei Vögeln haben gezeigt, daß ein junges Männchen, das isoliert aufgezogen wird, nur den Gesang einer anderen Vogelarte hört Er wird ein Liederrepertoire für Erwachsene entwickeln , dem bestimmte Merkmale fehlen , die typisch für seine eigene Spezies sind . Dieses Ergebnis zeigt, dass das Lied seiner Spezies höchstwahrscheinlich
+
+Antwortoptionen: ['vollständig während der Entwicklung erlernt', 'völlig instinktiv', 'sowohl instinktiv als auch erlernt', 'für die richtige Entwicklung von Hormonen abhängig']
+
+Antwort: sowohl instinktiv als auch erlernt"
+Welches der folgenden Wörter beschreibt ein Retrotransposon am genauesten?,college_biology,"['Eine DNA-Sequenz, die sich von einer Stelle des Genoms zur anderen bewegen kann, ohne sich zu replizieren', 'Eine DNA-Sequenz , die ohne Konsequenzen aus dem Genom gelöscht werden kann .', 'Eine DNA-Sequenz, die sich über ein RNA-Zwischenprodukt repliziert', 'Eine DNA-Sequenz, die sich über ein Protein-Zwischenprodukt repliziert']",2,"Frage: Welches der folgenden Wörter beschreibt ein Retrotransposon am genauesten?
+
+Antwortoptionen: ['Eine DNA-Sequenz, die sich von einer Stelle des Genoms zur anderen bewegen kann, ohne sich zu replizieren', 'Eine DNA-Sequenz , die ohne Konsequenzen aus dem Genom gelöscht werden kann .', 'Eine DNA-Sequenz, die sich über ein RNA-Zwischenprodukt repliziert', 'Eine DNA-Sequenz, die sich über ein Protein-Zwischenprodukt repliziert']
+
+Antwort: Eine DNA-Sequenz, die sich über ein RNA-Zwischenprodukt repliziert"
+Die Böden welcher der folgenden Biome weisen die höchste Auslaugungsrate und den höchsten Nährstoffkreislauf auf?,college_biology,"['Tropischer Regenwald', 'Geflügel', 'Taiga', 'Wüste']",0,"Frage: Die Böden welcher der folgenden Biome weisen die höchste Auslaugungsrate und den höchsten Nährstoffkreislauf auf?
+
+Antwortoptionen: ['Tropischer Regenwald', 'Geflügel', 'Taiga', 'Wüste']
+
+Antwort: Tropischer Regenwald"
+"Welche der folgenden Aussagen erklärt am besten, warum Enzyme chemische Reaktionen wirksam unterstützen?",college_biology,"['Sie erhöhen die Temperatur des Reaktionsgemischs und beschleunigen so die Umwandlung von Reaktanten in Produkte.', 'Sie verändern die Gleichgewichtskonstante einer Reaktion (K_eq), so dass mehr Reaktant in Produkt umgewandelt werden kann.', 'Sie erhöhen die maximale Geschwindigkeit der chemischen Reaktion (V_max).', 'Sie senken die Aktivierungsenergie und beschleunigen so die Umwandlung von Reaktanten in Produkte.']",3,"Frage: Welche der folgenden Aussagen erklärt am besten, warum Enzyme chemische Reaktionen wirksam unterstützen?
+
+Antwortoptionen: ['Sie erhöhen die Temperatur des Reaktionsgemischs und beschleunigen so die Umwandlung von Reaktanten in Produkte.', 'Sie verändern die Gleichgewichtskonstante einer Reaktion (K_eq), so dass mehr Reaktant in Produkt umgewandelt werden kann.', 'Sie erhöhen die maximale Geschwindigkeit der chemischen Reaktion (V_max).', 'Sie senken die Aktivierungsenergie und beschleunigen so die Umwandlung von Reaktanten in Produkte.']
+
+Antwort: Sie senken die Aktivierungsenergie und beschleunigen so die Umwandlung von Reaktanten in Produkte."
+"Bei dem Bevölkerungswachstum wird der Punkt, an dem die Geburten- und Sterberaten einander entsprechen, als",college_biology,"['ein Bevölkerungsschlag', 'eine Bevölkerungsexplosion', 'Null Bevölkerungswachstum', 'exponentielles Wachstum']",2,"Frage: Bei dem Bevölkerungswachstum wird der Punkt, an dem die Geburten- und Sterberaten einander entsprechen, als
+
+Antwortoptionen: ['ein Bevölkerungsschlag', 'eine Bevölkerungsexplosion', 'Null Bevölkerungswachstum', 'exponentielles Wachstum']
+
+Antwort: Null Bevölkerungswachstum"
+Die Flügel einer Fledermaus und die Flügel eines Schmetterlings sind,college_biology,"['homologen Strukturen', 'ähnliche Strukturen', 'verbliebene Strukturen', 'in Form und Funktion unähnlich']",1,"Frage: Die Flügel einer Fledermaus und die Flügel eines Schmetterlings sind
+
+Antwortoptionen: ['homologen Strukturen', 'ähnliche Strukturen', 'verbliebene Strukturen', 'in Form und Funktion unähnlich']
+
+Antwort: ähnliche Strukturen"
+"Der Zelltyp, der das Kerngewebe umfasst, das in einem Dicot-Stamm zentriert ist, ist der",college_biology,"['Parenchym', 'Schleimhaut', 'Gefäßkambium', 'Gefäßbündel']",0,"Frage: Der Zelltyp, der das Kerngewebe umfasst, das in einem Dicot-Stamm zentriert ist, ist der
+
+Antwortoptionen: ['Parenchym', 'Schleimhaut', 'Gefäßkambium', 'Gefäßbündel']
+
+Antwort: Parenchym"
+"Bewegliche DNA-Regionen, die in der Lage sind, sich in ein vorhandenes Genom einzufügen, sind",college_biology,"['Prionen', 'Zitrone', 'Intronen', 'Transposons']",3,"Frage: Bewegliche DNA-Regionen, die in der Lage sind, sich in ein vorhandenes Genom einzufügen, sind
+
+Antwortoptionen: ['Prionen', 'Zitrone', 'Intronen', 'Transposons']
+
+Antwort: Transposons"
+"Der Prozess, bei dem Pionierspezies ein nacktes Substrat wie Gestein, Sand oder Gletschertall kolonisieren, wird als",college_biology,"['Verwitterung', 'Stabilisierung der Nachfolge', 'sekundäre Erbfolge', 'primäre Erbfolge']",3,"Frage: Der Prozess, bei dem Pionierspezies ein nacktes Substrat wie Gestein, Sand oder Gletschertall kolonisieren, wird als
+
+Antwortoptionen: ['Verwitterung', 'Stabilisierung der Nachfolge', 'sekundäre Erbfolge', 'primäre Erbfolge']
+
+Antwort: primäre Erbfolge"
+"Brutparasiten wie der Kuckuck locken andere Vogelarten erfolgreich dazu, ihre Jungen aufzuziehen, indem sie die instinktive Reaktion der Wirtvögel auf die lauten Bettelstimmen eines Jungtieres in ihrem Nest ausnutzen Die Gene, die es den Wirtvögeln ermöglichen, die Kuckuckjungen zum Nachteil ihrer eigenen Nachkommen zu züchten, verbleiben höchstwahrscheinlich im Genpool der Population, weil",college_biology,"['Durchschnittlich ermöglicht die Reaktion der Wirtsvögel es ihnen, ihre eigenen Jungen effizient zu erziehen, indem sie nur diejenigen füttern, die angeben, dass sie hungrig sind', 'die maximale Eignung des getäuschten Vogels wird nicht beeinträchtigt, wenn der Vogel einen Eindringling einer anderen Art aufzieht;', 'Im Durchschnitt wird wenig Energie für die Aufzucht eines Jungvögels aufgewendet, egal ob es sich um einen Eindringling oder um einen eigenen Vogel handelt', 'die maximale Fitness des Kuckucks würde dann verringert werden']",0,"Frage: Brutparasiten wie der Kuckuck locken andere Vogelarten erfolgreich dazu, ihre Jungen aufzuziehen, indem sie die instinktive Reaktion der Wirtvögel auf die lauten Bettelstimmen eines Jungtieres in ihrem Nest ausnutzen Die Gene, die es den Wirtvögeln ermöglichen, die Kuckuckjungen zum Nachteil ihrer eigenen Nachkommen zu züchten, verbleiben höchstwahrscheinlich im Genpool der Population, weil
+
+Antwortoptionen: ['Durchschnittlich ermöglicht die Reaktion der Wirtsvögel es ihnen, ihre eigenen Jungen effizient zu erziehen, indem sie nur diejenigen füttern, die angeben, dass sie hungrig sind', 'die maximale Eignung des getäuschten Vogels wird nicht beeinträchtigt, wenn der Vogel einen Eindringling einer anderen Art aufzieht;', 'Im Durchschnitt wird wenig Energie für die Aufzucht eines Jungvögels aufgewendet, egal ob es sich um einen Eindringling oder um einen eigenen Vogel handelt', 'die maximale Fitness des Kuckucks würde dann verringert werden']
+
+Antwort: Durchschnittlich ermöglicht die Reaktion der Wirtsvögel es ihnen, ihre eigenen Jungen effizient zu erziehen, indem sie nur diejenigen füttern, die angeben, dass sie hungrig sind"
+"Die Zellmotilität, wie sie in einem kultivierten Fibroblast beobachtet wird, umfasst alle folgenden Merkmale, ausgenommen:",college_biology,"['Adhäsionsplatten', 'Krebs und Krebserkrankungen', 'Klathrin', 'Lamellipodia']",2,"Frage: Die Zellmotilität, wie sie in einem kultivierten Fibroblast beobachtet wird, umfasst alle folgenden Merkmale, ausgenommen:
+
+Antwortoptionen: ['Adhäsionsplatten', 'Krebs und Krebserkrankungen', 'Klathrin', 'Lamellipodia']
+
+Antwort: Klathrin"
+"Nach der Hamilton-Regel Eine altruistische Eigenschaft kann sich entwickeln, wenn c < br wo c die Fitnesskosten des altruistischen Verhaltens für den Spender ist b ist der Leistungsanspruch für den Leistungsempfänger und r ist die",college_biology,"['Koeffizient der Verwandtschaft', 'Häufigkeit des altruistischen Allels', 'Inzuchtkoeffizient', 'Verhältnis der Gegenseitigkeit']",0,"Frage: Nach der Hamilton-Regel Eine altruistische Eigenschaft kann sich entwickeln, wenn c < br wo c die Fitnesskosten des altruistischen Verhaltens für den Spender ist b ist der Leistungsanspruch für den Leistungsempfänger und r ist die
+
+Antwortoptionen: ['Koeffizient der Verwandtschaft', 'Häufigkeit des altruistischen Allels', 'Inzuchtkoeffizient', 'Verhältnis der Gegenseitigkeit']
+
+Antwort: Koeffizient der Verwandtschaft"
+Anpassungen von Pflanzen zur Minimierung des Wasserverlusts in Umgebungen mit hohen Temperaturen umfassen welche der folgenden?,college_biology,"['Zahlreiche Stomaten', 'Dünne Nagelhaut', 'Stacheln anstelle von Blättern', 'Große Oberfläche-Volumen-Verhältnisse']",2,"Frage: Anpassungen von Pflanzen zur Minimierung des Wasserverlusts in Umgebungen mit hohen Temperaturen umfassen welche der folgenden?
+
+Antwortoptionen: ['Zahlreiche Stomaten', 'Dünne Nagelhaut', 'Stacheln anstelle von Blättern', 'Große Oberfläche-Volumen-Verhältnisse']
+
+Antwort: Stacheln anstelle von Blättern"
+"Alle folgenden Symptome können im Bindegewebe auftreten, AUSSONN",college_biology,"['Trombin', 'Glycosaminoglykane', 'Kollagen', 'Fibroblasten']",0,"Frage: Alle folgenden Symptome können im Bindegewebe auftreten, AUSSONN
+
+Antwortoptionen: ['Trombin', 'Glycosaminoglykane', 'Kollagen', 'Fibroblasten']
+
+Antwort: Trombin"
+Welches der folgenden Merkmale wird typischerweise NICHT in normalen somatischen Zellen eines männlichen Menschen gefunden?,college_biology,"['Die gesamte genetische Information der ursprünglichen Zygote', 'Ein inaktiviertes X-Chromosom', 'Vierundvierzig Autosomen', 'Ein diploider Kern']",1,"Frage: Welches der folgenden Merkmale wird typischerweise NICHT in normalen somatischen Zellen eines männlichen Menschen gefunden?
+
+Antwortoptionen: ['Die gesamte genetische Information der ursprünglichen Zygote', 'Ein inaktiviertes X-Chromosom', 'Vierundvierzig Autosomen', 'Ein diploider Kern']
+
+Antwort: Ein inaktiviertes X-Chromosom"
+"Die Mitglieder einer Vogelart, die in der Lage sind, in Baumkronen oder auf den Felsvorsprüngen in der Nähe zu nisten, machen ihre Häuser nur in den Baumkronen aufgrund der etablierten Anwesenheit einer aggressiveren Vogelart auf den Felsvorsprüngen. In Bezug auf den Lebensraum nutzen die Nistvögel, die in den Baumkronen nisten,",college_biology,"['nur ihre grundlegende Nische', 'nur ihre realistische Nische', 'nur ihre ökologische Nische', 'weder ihre grundlegende Nische noch ihre realistische Nische']",1,"Frage: Die Mitglieder einer Vogelart, die in der Lage sind, in Baumkronen oder auf den Felsvorsprüngen in der Nähe zu nisten, machen ihre Häuser nur in den Baumkronen aufgrund der etablierten Anwesenheit einer aggressiveren Vogelart auf den Felsvorsprüngen. In Bezug auf den Lebensraum nutzen die Nistvögel, die in den Baumkronen nisten,
+
+Antwortoptionen: ['nur ihre grundlegende Nische', 'nur ihre realistische Nische', 'nur ihre ökologische Nische', 'weder ihre grundlegende Nische noch ihre realistische Nische']
+
+Antwort: nur ihre realistische Nische"
+Alle folgenden Merkmale sind typisch für r-selektierte Arten,college_biology,"['hohe Fortpflanzungsrate', 'kleine Körpergröße', 'Besetzung instabiler Umgebungen', 'hohe Wettbewerbsfähigkeit']",3,"Frage: Alle folgenden Merkmale sind typisch für r-selektierte Arten
+
+Antwortoptionen: ['hohe Fortpflanzungsrate', 'kleine Körpergröße', 'Besetzung instabiler Umgebungen', 'hohe Wettbewerbsfähigkeit']
+
+Antwort: hohe Wettbewerbsfähigkeit"
+Ein DNA-Strang mit der Sequenz 5′ CGA TTG 3′ wäre komplementär zur Sequenz,college_biology,"['5′ GCU AAC 3′', '5′ GCT AAC 3′', '5′ GTT AGC 3′', '5′ CAA TCG 3′']",3,"Frage: Ein DNA-Strang mit der Sequenz 5′ CGA TTG 3′ wäre komplementär zur Sequenz
+
+Antwortoptionen: ['5′ GCU AAC 3′', '5′ GCT AAC 3′', '5′ GTT AGC 3′', '5′ CAA TCG 3′']
+
+Antwort: 5′ CAA TCG 3′"
+"Die Farne durchlaufen einen Generationenwechsel, bei dem ein",college_biology,"['Dominanter Sporophyte wechselt sich mit einem unabhängigen Gametophyte ab.', 'der dominante Gametophyte wechselt sich mit einem abhängigen Sporophyten ab', 'Sporophyte und Gametophyte haben gleiche Lebenserwartung', 'Gametophyte produzieren Gameten durch Meiose']",0,"Frage: Die Farne durchlaufen einen Generationenwechsel, bei dem ein
+
+Antwortoptionen: ['Dominanter Sporophyte wechselt sich mit einem unabhängigen Gametophyte ab.', 'der dominante Gametophyte wechselt sich mit einem abhängigen Sporophyten ab', 'Sporophyte und Gametophyte haben gleiche Lebenserwartung', 'Gametophyte produzieren Gameten durch Meiose']
+
+Antwort: Dominanter Sporophyte wechselt sich mit einem unabhängigen Gametophyte ab."
+Welche der folgenden Aussagen bezüglich eines Sarkomers eines gestreiften Muskels (z. B. eines Skelettmuskels) ist richtig?,college_biology,"['Während der Kontraktion werden die H-Zonen verlängert.', 'In der entspannten Position verhindert Tropomyosin den Zugang von Myosin zur Bindungsstelle von Actin.', 'Jeder myosin-helikalen Schwanz enthält eine actinbindende Stelle und eine ATP-hydrolysierende Stelle.', 'Die Proteine Troponin und Tropomyosin bilden die dicken und dünnen Filamente.']",1,"Frage: Welche der folgenden Aussagen bezüglich eines Sarkomers eines gestreiften Muskels (z. B. eines Skelettmuskels) ist richtig?
+
+Antwortoptionen: ['Während der Kontraktion werden die H-Zonen verlängert.', 'In der entspannten Position verhindert Tropomyosin den Zugang von Myosin zur Bindungsstelle von Actin.', 'Jeder myosin-helikalen Schwanz enthält eine actinbindende Stelle und eine ATP-hydrolysierende Stelle.', 'Die Proteine Troponin und Tropomyosin bilden die dicken und dünnen Filamente.']
+
+Antwort: In der entspannten Position verhindert Tropomyosin den Zugang von Myosin zur Bindungsstelle von Actin."
+"Aggressive Ameisen leben in den geschwollenen Dornen eines kleinen tropischen Baumes und ernähren sich von ölreichen Körpern, die der Baum an den Spitzen seiner Blätter produziert Welches der folgenden Experimente prüft am besten die Hypothese, daß Ameisen die Pflanze verteidigen, indem sie Blätter fressende Insekten töten oder verjagen?",college_biology,"['Entfernen Sie die Ameisen und messen Sie die Folgeschäden an den Blättern.', 'Entfernen Sie die ölreichen Körper und messen Sie die anschließende Ameisendichte.', 'Entfernen Sie die Dornen und messen Sie die anschließende Ameisendichte.', 'Entfernen Sie die blattfressenden Insekten und messen Sie die anschließende Ameisendichte.']",0,"Frage: Aggressive Ameisen leben in den geschwollenen Dornen eines kleinen tropischen Baumes und ernähren sich von ölreichen Körpern, die der Baum an den Spitzen seiner Blätter produziert Welches der folgenden Experimente prüft am besten die Hypothese, daß Ameisen die Pflanze verteidigen, indem sie Blätter fressende Insekten töten oder verjagen?
+
+Antwortoptionen: ['Entfernen Sie die Ameisen und messen Sie die Folgeschäden an den Blättern.', 'Entfernen Sie die ölreichen Körper und messen Sie die anschließende Ameisendichte.', 'Entfernen Sie die Dornen und messen Sie die anschließende Ameisendichte.', 'Entfernen Sie die blattfressenden Insekten und messen Sie die anschließende Ameisendichte.']
+
+Antwort: Entfernen Sie die Ameisen und messen Sie die Folgeschäden an den Blättern."
+"Die Sehorgane von Krebstieren und Insekten enthalten Ommatidien, die die einzelnen visuellen Einheiten des",college_biology,"['Augenfleck', 'einfaches Auge', 'zusammengesetztes Auge', 'Ferngesehen']",2,"Frage: Die Sehorgane von Krebstieren und Insekten enthalten Ommatidien, die die einzelnen visuellen Einheiten des
+
+Antwortoptionen: ['Augenfleck', 'einfaches Auge', 'zusammengesetztes Auge', 'Ferngesehen']
+
+Antwort: zusammengesetztes Auge"
+"Welche der folgenden Schlussfolgerungen wäre für einen Embryologen gerechtfertigt, der die Entwicklung eines Wirbeltieres von der Zygote bis zum Fötus untersucht?",college_biology,"['Die Ontogenese rekapituliert die Phylogenese.', 'Frühe Embryonen weisen identische Merkmale ihrer Klasse, Ordnung und Art auf.', 'Ein frühes menschliches Embryo hat Merkmale, die es mit frühen Fisch- und Vogelembryonen gemeinsam hat.', 'Ein menschlicher Embryo weist im Laufe seiner Entwicklung Merkmale erwachsener Fische und Vögel auf.']",0,"Frage: Welche der folgenden Schlussfolgerungen wäre für einen Embryologen gerechtfertigt, der die Entwicklung eines Wirbeltieres von der Zygote bis zum Fötus untersucht?
+
+Antwortoptionen: ['Die Ontogenese rekapituliert die Phylogenese.', 'Frühe Embryonen weisen identische Merkmale ihrer Klasse, Ordnung und Art auf.', 'Ein frühes menschliches Embryo hat Merkmale, die es mit frühen Fisch- und Vogelembryonen gemeinsam hat.', 'Ein menschlicher Embryo weist im Laufe seiner Entwicklung Merkmale erwachsener Fische und Vögel auf.']
+
+Antwort: Die Ontogenese rekapituliert die Phylogenese."
+"Ein Stammkäfer hat seine Eier in der Mitte eines fünfjährigen Holzzweiges gelegt, und aus den Eiern sind Larven geworden In der richtigen Reihenfolge (von innen nach außen) Welche Gewebe und Gewebebereiche würden den Larven begegnen, wenn sie sich zum Außen des Zweiges nähren? Es wird davon ausgegangen, dass die Epidermis bereits vollständig abgefallen ist.)",college_biology,"['Pith; primäres Xylem; sekundäres Xylem; Gefäßkambium; primäres Floem; sekundäres Floem; Kortex', 'Pith; sekundäres Xylem; primäres Xylem; Gefäßkambium; sekundäres Floem; primäres Floem; Kortex', 'Pith; sekundäres Xylem; primäres Xylem; Gefäßkambium; primäres Floem; sekundäres Floem; Kortex', 'Pith; primäres Xylem; sekundäres Xylem; Gefäßkambium; sekundäres Floem; primäres Floem; Kortex']",3,"Frage: Ein Stammkäfer hat seine Eier in der Mitte eines fünfjährigen Holzzweiges gelegt, und aus den Eiern sind Larven geworden In der richtigen Reihenfolge (von innen nach außen) Welche Gewebe und Gewebebereiche würden den Larven begegnen, wenn sie sich zum Außen des Zweiges nähren? Es wird davon ausgegangen, dass die Epidermis bereits vollständig abgefallen ist.)
+
+Antwortoptionen: ['Pith; primäres Xylem; sekundäres Xylem; Gefäßkambium; primäres Floem; sekundäres Floem; Kortex', 'Pith; sekundäres Xylem; primäres Xylem; Gefäßkambium; sekundäres Floem; primäres Floem; Kortex', 'Pith; sekundäres Xylem; primäres Xylem; Gefäßkambium; primäres Floem; sekundäres Floem; Kortex', 'Pith; primäres Xylem; sekundäres Xylem; Gefäßkambium; sekundäres Floem; primäres Floem; Kortex']
+
+Antwort: Pith; primäres Xylem; sekundäres Xylem; Gefäßkambium; sekundäres Floem; primäres Floem; Kortex"
+Die folgenden Paare wurden zusammen in eine Lösung gelegt. Welche beiden konnten durch Zentrifugation mit geringer Geschwindigkeit getrennt werden?,college_biology,"['DNA und mRNA', 'Nuclei und sekretorische Vesikel', 'Golgi-Apparat und endoplasmatisches Retikulum', 'Lysosomen und Endosomen']",1,"Frage: Die folgenden Paare wurden zusammen in eine Lösung gelegt. Welche beiden konnten durch Zentrifugation mit geringer Geschwindigkeit getrennt werden?
+
+Antwortoptionen: ['DNA und mRNA', 'Nuclei und sekretorische Vesikel', 'Golgi-Apparat und endoplasmatisches Retikulum', 'Lysosomen und Endosomen']
+
+Antwort: Nuclei und sekretorische Vesikel"
+"Welches der folgenden Vorgänge würde die Geschwindigkeit erhöhen, mit der ein Gas zwischen den Alveolen der Lunge und dem Blut in einer Lungenkapillare diffundiert?",college_biology,"['Verringerung des Partialdruckgradienten des Gases', 'Verringerung der Löslichkeit des Gases in Wasser', 'Erhöhung der für die Diffusion verfügbaren Gesamtfläche', 'Verringerung des Blutflusses durch die pulmonalen Kapillargefäße']",2,"Frage: Welches der folgenden Vorgänge würde die Geschwindigkeit erhöhen, mit der ein Gas zwischen den Alveolen der Lunge und dem Blut in einer Lungenkapillare diffundiert?
+
+Antwortoptionen: ['Verringerung des Partialdruckgradienten des Gases', 'Verringerung der Löslichkeit des Gases in Wasser', 'Erhöhung der für die Diffusion verfügbaren Gesamtfläche', 'Verringerung des Blutflusses durch die pulmonalen Kapillargefäße']
+
+Antwort: Erhöhung der für die Diffusion verfügbaren Gesamtfläche"
+"Die Strukturen, die als Orte des Gasaustausches in einem holzigen Stamm fungieren, sind die",college_biology,"['Lentizellen', 'Endknospen', 'Knoten', 'Eingebundene Knoten']",0,"Frage: Die Strukturen, die als Orte des Gasaustausches in einem holzigen Stamm fungieren, sind die
+
+Antwortoptionen: ['Lentizellen', 'Endknospen', 'Knoten', 'Eingebundene Knoten']
+
+Antwort: Lentizellen"
+Natürliche Feinde wurden als starke selektive Kraft für alle der folgenden ausgenommen,college_biology,"['aposematische Färbung', 'chemische Verteidigung', 'Mastenbau (synchroner Fruchtbau)', 'Leck-Verhalten']",3,"Frage: Natürliche Feinde wurden als starke selektive Kraft für alle der folgenden ausgenommen
+
+Antwortoptionen: ['aposematische Färbung', 'chemische Verteidigung', 'Mastenbau (synchroner Fruchtbau)', 'Leck-Verhalten']
+
+Antwort: Leck-Verhalten"
+Welches der folgenden Merkmale ist NICHT ein Merkmal von Intronen?,college_biology,"['Sie treten nur bei Eukaryoten auf.', 'Sie repräsentieren nicht kodierende Regionen.', 'Sie werden mit Exonen in einer DNA-Region gefunden, die für eine Polypeptidkette kodiert.', 'Sie werden aus dem Primärtranskript herausgeschnitten, bevor es eine 5'-Kappe und einen 3'-Poly (A) -Schwanz erhält.']",3,"Frage: Welches der folgenden Merkmale ist NICHT ein Merkmal von Intronen?
+
+Antwortoptionen: ['Sie treten nur bei Eukaryoten auf.', 'Sie repräsentieren nicht kodierende Regionen.', 'Sie werden mit Exonen in einer DNA-Region gefunden, die für eine Polypeptidkette kodiert.', 'Sie werden aus dem Primärtranskript herausgeschnitten, bevor es eine 5'-Kappe und einen 3'-Poly (A) -Schwanz erhält.']
+
+Antwort: Sie werden aus dem Primärtranskript herausgeschnitten, bevor es eine 5'-Kappe und einen 3'-Poly (A) -Schwanz erhält."
+"Eine gesunde Person, die in Ruhe sitzt, fängt bewusst an, zu schnell zu atmen. Welche der folgenden Bezeichnungen beschreibt die Veränderung im Blut der Person, die durch diese Hyperventilation verursacht wird?",college_biology,"['Eine Abnahme des Partialdrucks von Kohlendioxid und eine Erhöhung der Konzentration von Wasserstoff-Ionen', 'Eine Abnahme des Partialdrucks von Kohlendioxid und eine Abnahme der Konzentration von Wasserstoff-Ionen', 'Eine Erhöhung des Partialdrucks von Kohlendioxid und eine Erhöhung der Konzentration von Wasserstoff-Ionen', 'Eine Erhöhung des Partialdrucks von Kohlendioxid und eine Abnahme der Konzentration von Wasserstoff-Ionen']",1,"Frage: Eine gesunde Person, die in Ruhe sitzt, fängt bewusst an, zu schnell zu atmen. Welche der folgenden Bezeichnungen beschreibt die Veränderung im Blut der Person, die durch diese Hyperventilation verursacht wird?
+
+Antwortoptionen: ['Eine Abnahme des Partialdrucks von Kohlendioxid und eine Erhöhung der Konzentration von Wasserstoff-Ionen', 'Eine Abnahme des Partialdrucks von Kohlendioxid und eine Abnahme der Konzentration von Wasserstoff-Ionen', 'Eine Erhöhung des Partialdrucks von Kohlendioxid und eine Erhöhung der Konzentration von Wasserstoff-Ionen', 'Eine Erhöhung des Partialdrucks von Kohlendioxid und eine Abnahme der Konzentration von Wasserstoff-Ionen']
+
+Antwort: Eine Abnahme des Partialdrucks von Kohlendioxid und eine Abnahme der Konzentration von Wasserstoff-Ionen"
+Welche der folgenden ist die korrekte anatomische Reihenfolge der Strukturen im weiblichen Fortpflanzungstrakt von Säugetieren?,college_biology,"['Ovidukt, Gebärmutter, Rette, Vagina', 'Ovidukt, Epididymis, Gebärmutter, Vagina', 'Eierstock, Eierleiter, Gebärmutter, Vagina', 'Eierstock, Gebärmutter, Vagina, Rette']",2,"Frage: Welche der folgenden ist die korrekte anatomische Reihenfolge der Strukturen im weiblichen Fortpflanzungstrakt von Säugetieren?
+
+Antwortoptionen: ['Ovidukt, Gebärmutter, Rette, Vagina', 'Ovidukt, Epididymis, Gebärmutter, Vagina', 'Eierstock, Eierleiter, Gebärmutter, Vagina', 'Eierstock, Gebärmutter, Vagina, Rette']
+
+Antwort: Eierstock, Eierleiter, Gebärmutter, Vagina"
+"Eine Region des marinen Ökosystems, die durch die Durchlässigkeit der Sonnenstrahlung und den Aufstieg von Nährstoffen gekennzeichnet ist, ist die",college_biology,"['Bathyl-Zone', 'Neritischer Bereich', 'pelagische Zone', 'Benthylzone']",1,"Frage: Eine Region des marinen Ökosystems, die durch die Durchlässigkeit der Sonnenstrahlung und den Aufstieg von Nährstoffen gekennzeichnet ist, ist die
+
+Antwortoptionen: ['Bathyl-Zone', 'Neritischer Bereich', 'pelagische Zone', 'Benthylzone']
+
+Antwort: Neritischer Bereich"
+"Bei Menschen kann eine Erbkrankheit namens Xeroderma pigmentosum (XP) dazu führen, dass die DNA durch ultraviolette Strahlen nicht mehr repariert werden kann Welche der folgenden molekularen Läsionen treten am ehesten bei Personen mit XP auf?",college_biology,"['Thymindimere', 'Entamination von Cytosin', 'Entwässerung', 'DNA-Brüche mit einem einzigen Strang']",0,"Frage: Bei Menschen kann eine Erbkrankheit namens Xeroderma pigmentosum (XP) dazu führen, dass die DNA durch ultraviolette Strahlen nicht mehr repariert werden kann Welche der folgenden molekularen Läsionen treten am ehesten bei Personen mit XP auf?
+
+Antwortoptionen: ['Thymindimere', 'Entamination von Cytosin', 'Entwässerung', 'DNA-Brüche mit einem einzigen Strang']
+
+Antwort: Thymindimere"
+"Chemosynthetische Bakterien können ihre eigene Nahrung produzieren, obwohl sie keine photonabsorbierenden Pigmente haben, da die chemosynthetischen Bakterien Energie durch",college_biology,"['Oxidierende anorganische Stoffe wie Ammoniak, Schwefel oder Wasserstoff', 'zur Reduktion von anorganischen Stoffen wie Ammoniak, Schwefel oder Wasserstoff', 'Oxidierende organische Verbindungen', 'Umwandlung von Lichtenergie in chemische Energie']",0,"Frage: Chemosynthetische Bakterien können ihre eigene Nahrung produzieren, obwohl sie keine photonabsorbierenden Pigmente haben, da die chemosynthetischen Bakterien Energie durch
+
+Antwortoptionen: ['Oxidierende anorganische Stoffe wie Ammoniak, Schwefel oder Wasserstoff', 'zur Reduktion von anorganischen Stoffen wie Ammoniak, Schwefel oder Wasserstoff', 'Oxidierende organische Verbindungen', 'Umwandlung von Lichtenergie in chemische Energie']
+
+Antwort: Oxidierende anorganische Stoffe wie Ammoniak, Schwefel oder Wasserstoff"
+Alle folgenden Substanzen können als intrazelluläre Botenstoffe fungieren,college_biology,"['Kalziumionen', 'cAMP', 'Acetylcholin', 'Inositol 1,4,5-Triphosphat']",2,"Frage: Alle folgenden Substanzen können als intrazelluläre Botenstoffe fungieren
+
+Antwortoptionen: ['Kalziumionen', 'cAMP', 'Acetylcholin', 'Inositol 1,4,5-Triphosphat']
+
+Antwort: Acetylcholin"
+"Alle folgenden Aussagen über die Pflanzenembryogenese sind korrekt, AUSSONN:",college_biology,"['Der Suspensor wird aus der Basalzelle gewonnen.', 'Cotyledonen werden aus der Spitzenzelle abgeleitet.', 'Nach der Samenentstehung tritt die apikale Meristembildung auf.', 'Vorläufer aller drei pflanzlichen Gewebesysteme werden während der Embryogenese gebildet.']",2,"Frage: Alle folgenden Aussagen über die Pflanzenembryogenese sind korrekt, AUSSONN:
+
+Antwortoptionen: ['Der Suspensor wird aus der Basalzelle gewonnen.', 'Cotyledonen werden aus der Spitzenzelle abgeleitet.', 'Nach der Samenentstehung tritt die apikale Meristembildung auf.', 'Vorläufer aller drei pflanzlichen Gewebesysteme werden während der Embryogenese gebildet.']
+
+Antwort: Nach der Samenentstehung tritt die apikale Meristembildung auf."
+"Spermien von Mäusen enthalten Rezeptorproteine, die an ein Glykoprotein (ZP3) in der zona pellucida von Mäuseeiern binden Die Bindung von ZP3-Rezeptoren an ZP3 initiiert die akrosomale Reaktion des Spermas. Alle folgenden experimentellen Beobachtungen sind zu erwarten, ausgenommen:",college_biology,"['Injektion von Eiern mit Antikörpern, die an ZP3-Blocker in der In-vitro-Fertilisation binden.', 'Inkubation von Spermien mit gereinigtem ZP3 vor dem Mischen von Spermien und Eierblöcken bei der In-vitro-Fertilisation.', 'Inkubation von Eiern mit Antikörpern, die an ZP3-Blocker in der In-vitro-Fertilisation binden.', 'Die Beschichtung synthetischer Perlen mit einem anderen Glykoprotein, ZP2, führt nicht zu einer Spermaaggregation auf den Perlen.']",0,"Frage: Spermien von Mäusen enthalten Rezeptorproteine, die an ein Glykoprotein (ZP3) in der zona pellucida von Mäuseeiern binden Die Bindung von ZP3-Rezeptoren an ZP3 initiiert die akrosomale Reaktion des Spermas. Alle folgenden experimentellen Beobachtungen sind zu erwarten, ausgenommen:
+
+Antwortoptionen: ['Injektion von Eiern mit Antikörpern, die an ZP3-Blocker in der In-vitro-Fertilisation binden.', 'Inkubation von Spermien mit gereinigtem ZP3 vor dem Mischen von Spermien und Eierblöcken bei der In-vitro-Fertilisation.', 'Inkubation von Eiern mit Antikörpern, die an ZP3-Blocker in der In-vitro-Fertilisation binden.', 'Die Beschichtung synthetischer Perlen mit einem anderen Glykoprotein, ZP2, führt nicht zu einer Spermaaggregation auf den Perlen.']
+
+Antwort: Injektion von Eiern mit Antikörpern, die an ZP3-Blocker in der In-vitro-Fertilisation binden."
+Welcher der folgenden Faktoren fördert NICHT ein Verknüpfungsungleichgewicht?,college_biology,"['Geschlechtslose Fortpflanzung', 'Koadaptierte Genkomplexe', 'Epistase', 'Zufällige Paarung']",3,"Frage: Welcher der folgenden Faktoren fördert NICHT ein Verknüpfungsungleichgewicht?
+
+Antwortoptionen: ['Geschlechtslose Fortpflanzung', 'Koadaptierte Genkomplexe', 'Epistase', 'Zufällige Paarung']
+
+Antwort: Zufällige Paarung"
+"In einem Experiment Die erste Spaltungsebene einer Amphibienzygote wurde so manipuliert, dass der graue Halbmond nur in einem der beiden Blastomere enthalten war, die aus der ersten Spaltung resultieren Die beiden Blastomere wurden dann getrennt Welches Schicksal erwartet man für die Blastomere?",college_biology,"['Das Blastomer mit dem grauen Halbmond wird schneller wachsen als das Blastomer ohne den grauen Halbmond.', 'Das Blastomer mit dem grauen Halbmond bildet einen vollständigen, aber kleinen Embryo.', 'Das Blastomer ohne den grauen Halbmond bildet einen vollständigen, aber kleinen Embryo.', 'Das Blastomer mit dem grauen Halbmond hört auf sich zu teilen und stirbt vor der zweiten Spaltung.']",1,"Frage: In einem Experiment Die erste Spaltungsebene einer Amphibienzygote wurde so manipuliert, dass der graue Halbmond nur in einem der beiden Blastomere enthalten war, die aus der ersten Spaltung resultieren Die beiden Blastomere wurden dann getrennt Welches Schicksal erwartet man für die Blastomere?
+
+Antwortoptionen: ['Das Blastomer mit dem grauen Halbmond wird schneller wachsen als das Blastomer ohne den grauen Halbmond.', 'Das Blastomer mit dem grauen Halbmond bildet einen vollständigen, aber kleinen Embryo.', 'Das Blastomer ohne den grauen Halbmond bildet einen vollständigen, aber kleinen Embryo.', 'Das Blastomer mit dem grauen Halbmond hört auf sich zu teilen und stirbt vor der zweiten Spaltung.']
+
+Antwort: Das Blastomer mit dem grauen Halbmond bildet einen vollständigen, aber kleinen Embryo."
+"Das Nervenwachstum eines sich entwickelnden Neurons beginnt am Wachstumskegel, der sich an der Spitze des Axons befindet Mikrospitzen des Wachstumskegels dehnen sich aus und ziehen sich zurück, um den Wachstumskegel vorwärts zu bewegen Die Exposition des Neurons gegenüber Cytochasalin B in diesem Entwicklungsstadium verursacht",college_biology,"['Mikrotubuli im Axon, die einer reversiblen Dissoziation unterzogen werden', 'Mikrotubuli im Axon, die einer irreversiblen Dissoziation unterzogen werden', 'Mikrofilamente in der Mikrospitze, die einer reversiblen Depolymerisation unterzogen werden', 'Mikrofilamente in der Mikrospitze, die einer irreversiblen Depolymerisation unterzogen werden']",2,"Frage: Das Nervenwachstum eines sich entwickelnden Neurons beginnt am Wachstumskegel, der sich an der Spitze des Axons befindet Mikrospitzen des Wachstumskegels dehnen sich aus und ziehen sich zurück, um den Wachstumskegel vorwärts zu bewegen Die Exposition des Neurons gegenüber Cytochasalin B in diesem Entwicklungsstadium verursacht
+
+Antwortoptionen: ['Mikrotubuli im Axon, die einer reversiblen Dissoziation unterzogen werden', 'Mikrotubuli im Axon, die einer irreversiblen Dissoziation unterzogen werden', 'Mikrofilamente in der Mikrospitze, die einer reversiblen Depolymerisation unterzogen werden', 'Mikrofilamente in der Mikrospitze, die einer irreversiblen Depolymerisation unterzogen werden']
+
+Antwort: Mikrofilamente in der Mikrospitze, die einer reversiblen Depolymerisation unterzogen werden"
+Auf welche der folgenden Arten unterscheiden sich monoklonale Antisera von polyklonalen Antisera?,college_biology,"['Jede Art von Antikörper in einem monoklonalen Antiserum reagiert gegen eine einzelne Region eines einzelnen Antigens; jede Art von Antikörper in einem polyklonalen Antiserum reagiert gegen mehrere Regionen verschiedener Antigene.', 'Ein monoklonaler Antikörper reagiert gegen mehrere Regionen eines einzigen Antigens; ein polyklonaler Antikörper reagiert gegen eine einzelne Region verwandter Antigene.', 'Ein monoklonales Antiserum enthält Antikörper, die von den Nachkommen eines einzelnen B-Lymphozyten ausgeschieden werden; ein polyklonales Antiserum enthält Antikörper, die von den Nachkommen verschiedener B-Lymphozyten ausgeschieden werden.', 'Ein monoklonales Antiserum enthält Antikörper, die von den Nachkommen eines einzelnen B-Lymphozyten ausgeschieden werden; ein polyklonales Antiserum enthält Antikörper, die von den Nachkommen von B- und T-Lymphozyten ausgeschieden werden.']",2,"Frage: Auf welche der folgenden Arten unterscheiden sich monoklonale Antisera von polyklonalen Antisera?
+
+Antwortoptionen: ['Jede Art von Antikörper in einem monoklonalen Antiserum reagiert gegen eine einzelne Region eines einzelnen Antigens; jede Art von Antikörper in einem polyklonalen Antiserum reagiert gegen mehrere Regionen verschiedener Antigene.', 'Ein monoklonaler Antikörper reagiert gegen mehrere Regionen eines einzigen Antigens; ein polyklonaler Antikörper reagiert gegen eine einzelne Region verwandter Antigene.', 'Ein monoklonales Antiserum enthält Antikörper, die von den Nachkommen eines einzelnen B-Lymphozyten ausgeschieden werden; ein polyklonales Antiserum enthält Antikörper, die von den Nachkommen verschiedener B-Lymphozyten ausgeschieden werden.', 'Ein monoklonales Antiserum enthält Antikörper, die von den Nachkommen eines einzelnen B-Lymphozyten ausgeschieden werden; ein polyklonales Antiserum enthält Antikörper, die von den Nachkommen von B- und T-Lymphozyten ausgeschieden werden.']
+
+Antwort: Ein monoklonales Antiserum enthält Antikörper, die von den Nachkommen eines einzelnen B-Lymphozyten ausgeschieden werden; ein polyklonales Antiserum enthält Antikörper, die von den Nachkommen verschiedener B-Lymphozyten ausgeschieden werden."
+"Die ersten Gruppen von Tieren, die Lungengewebe entwickelten, das ihren Atmungsanforderungen ohne den Einsatz zusätzlicher Gasaustauschorgane genügte, waren die",college_biology,"['Amphibien', 'Reptilien', 'Säugetiere', 'Trematoda']",1,"Frage: Die ersten Gruppen von Tieren, die Lungengewebe entwickelten, das ihren Atmungsanforderungen ohne den Einsatz zusätzlicher Gasaustauschorgane genügte, waren die
+
+Antwortoptionen: ['Amphibien', 'Reptilien', 'Säugetiere', 'Trematoda']
+
+Antwort: Reptilien"
+"Welche der folgenden biologischen Eigenschaften ermöglichen es einer Spezies höchstwahrscheinlich, in ihrer Verbreitung kosmopolitisch zu werden?",college_biology,"['Extreme Spezialisierung des Lebensraums', 'K-selektierte Fortpflanzungsrate', 'Begrenzte Dispergierfähigkeit', 'Kapazität für die Streuung über große Entfernungen']",3,"Frage: Welche der folgenden biologischen Eigenschaften ermöglichen es einer Spezies höchstwahrscheinlich, in ihrer Verbreitung kosmopolitisch zu werden?
+
+Antwortoptionen: ['Extreme Spezialisierung des Lebensraums', 'K-selektierte Fortpflanzungsrate', 'Begrenzte Dispergierfähigkeit', 'Kapazität für die Streuung über große Entfernungen']
+
+Antwort: Kapazität für die Streuung über große Entfernungen"
+Welche der folgenden Komponenten entstand bei der Entstehung der ältesten Zellen wahrscheinlich zuerst?,college_biology,"['Kern', 'Plasmamembran', 'Mitochondrien', 'Flagellum']",1,"Frage: Welche der folgenden Komponenten entstand bei der Entstehung der ältesten Zellen wahrscheinlich zuerst?
+
+Antwortoptionen: ['Kern', 'Plasmamembran', 'Mitochondrien', 'Flagellum']
+
+Antwort: Plasmamembran"
+"Welche der folgenden Tatsachen wurde vor 1859, dem Jahr, in dem Charles Darwin Die Entstehung der Arten veröffentlichte, festgestellt?",college_biology,"['Die DNA stellt die makromolekulare Grundlage der Vererbung dar.', 'Mendelianische Prinzipien erklären, warum manche Eigenschaften dominant und andere resessiv sind.', 'Zu den Prokaryoten gehören zwei Hauptdomänen, die Bakterien und die Archaea.', 'Es gibt versteinerte Überreste von ausgestorbenen Arten.']",3,"Frage: Welche der folgenden Tatsachen wurde vor 1859, dem Jahr, in dem Charles Darwin Die Entstehung der Arten veröffentlichte, festgestellt?
+
+Antwortoptionen: ['Die DNA stellt die makromolekulare Grundlage der Vererbung dar.', 'Mendelianische Prinzipien erklären, warum manche Eigenschaften dominant und andere resessiv sind.', 'Zu den Prokaryoten gehören zwei Hauptdomänen, die Bakterien und die Archaea.', 'Es gibt versteinerte Überreste von ausgestorbenen Arten.']
+
+Antwort: Es gibt versteinerte Überreste von ausgestorbenen Arten."
+"Pilze beteiligen sich an allen folgenden Aktivitäten, AUSSOND",college_biology,"['Fotosynthese zur Herstellung von Glukose', 'Gärung zur Herstellung von Alkohol', 'Verbindung mit Menschen zur Herstellung von Ringwurm', 'Verbindung mit den Wurzeln von Pflanzen zur Bildung von Mykorrhizae']",0,"Frage: Pilze beteiligen sich an allen folgenden Aktivitäten, AUSSOND
+
+Antwortoptionen: ['Fotosynthese zur Herstellung von Glukose', 'Gärung zur Herstellung von Alkohol', 'Verbindung mit Menschen zur Herstellung von Ringwurm', 'Verbindung mit den Wurzeln von Pflanzen zur Bildung von Mykorrhizae']
+
+Antwort: Fotosynthese zur Herstellung von Glukose"
+"In Chloroplasten befindet sich ein bestimmtes Protein im Lumen des Thylakoids (Thylakoidraum) Es wird im Kern transkribiert und auf cytoplasmatischen Ribosomen synthetisiert Wie viele Membran-Doppelschichten muss dieses Protein durchqueren, um seine endgültige Position zu erreichen?",college_biology,"['Eins .', 'Zwei .', 'Drei .', 'Vier .']",2,"Frage: In Chloroplasten befindet sich ein bestimmtes Protein im Lumen des Thylakoids (Thylakoidraum) Es wird im Kern transkribiert und auf cytoplasmatischen Ribosomen synthetisiert Wie viele Membran-Doppelschichten muss dieses Protein durchqueren, um seine endgültige Position zu erreichen?
+
+Antwortoptionen: ['Eins .', 'Zwei .', 'Drei .', 'Vier .']
+
+Antwort: Drei ."
+"Während des Herzzyklus bei Säugetieren ein Blutvolumen, das dem Volumen des ventrikulären Schlaganfalls entspricht, wird von der eher konformen venösen Seite auf die weniger konforme arterielle Seite der Durchblutung übertragen, In Bezug auf den Druck innerhalb der venösen und arteriellen Kompartimente führt diese Übertragung zu",college_biology,"['keine Druckänderung in keinem der beiden Kompartimente', 'keine Wirkung auf den venösen Druck und eine geringe Erhöhung des arteriellen Drucks', 'eine Erhöhung des venösen Drucks und eine gleichwertige, aber entgegengesetzte Abnahme des arteriellen Drucks', 'geringe Wirkung auf den venösen Druck und eine starke Erhöhung des arteriellen Drucks']",3,"Frage: Während des Herzzyklus bei Säugetieren ein Blutvolumen, das dem Volumen des ventrikulären Schlaganfalls entspricht, wird von der eher konformen venösen Seite auf die weniger konforme arterielle Seite der Durchblutung übertragen, In Bezug auf den Druck innerhalb der venösen und arteriellen Kompartimente führt diese Übertragung zu
+
+Antwortoptionen: ['keine Druckänderung in keinem der beiden Kompartimente', 'keine Wirkung auf den venösen Druck und eine geringe Erhöhung des arteriellen Drucks', 'eine Erhöhung des venösen Drucks und eine gleichwertige, aber entgegengesetzte Abnahme des arteriellen Drucks', 'geringe Wirkung auf den venösen Druck und eine starke Erhöhung des arteriellen Drucks']
+
+Antwort: geringe Wirkung auf den venösen Druck und eine starke Erhöhung des arteriellen Drucks"
+Welche der folgenden Aussagen über den Golgi-Apparat eines Eukaryoten ist richtig?,college_biology,"['Es ist im Zytoplasma so ausgerichtet, dass seine Cis-Seite dem endoplasmatischen Retikulum am nächsten ist.', 'Es ist typischerweise mit kleinen sekretorischen Bläschen in der Nähe seiner Cis-Gesicht verbunden.', 'Seine zusammengesetzten, abgeflachten Zisternen sind zusammenhängend.', 'Die Glykosylierung bestimmter sekretorischer Proteine erfolgt vor dem Eintritt des Proteins in sein Lumen.']",0,"Frage: Welche der folgenden Aussagen über den Golgi-Apparat eines Eukaryoten ist richtig?
+
+Antwortoptionen: ['Es ist im Zytoplasma so ausgerichtet, dass seine Cis-Seite dem endoplasmatischen Retikulum am nächsten ist.', 'Es ist typischerweise mit kleinen sekretorischen Bläschen in der Nähe seiner Cis-Gesicht verbunden.', 'Seine zusammengesetzten, abgeflachten Zisternen sind zusammenhängend.', 'Die Glykosylierung bestimmter sekretorischer Proteine erfolgt vor dem Eintritt des Proteins in sein Lumen.']
+
+Antwort: Es ist im Zytoplasma so ausgerichtet, dass seine Cis-Seite dem endoplasmatischen Retikulum am nächsten ist."
+Der erste Eintritt des Wassers in die Wurzeln einer Monocot-Pflanze erfolgt durch das Zytoplasma der Zellen des,college_biology,"['Wurzelkappe', 'Kasparianer Streifen', 'Kreisläufer', 'Endodermisch']",3,"Frage: Der erste Eintritt des Wassers in die Wurzeln einer Monocot-Pflanze erfolgt durch das Zytoplasma der Zellen des
+
+Antwortoptionen: ['Wurzelkappe', 'Kasparianer Streifen', 'Kreisläufer', 'Endodermisch']
+
+Antwort: Endodermisch"
+"Welche der folgenden Pflanzenzellen durchläuft einen programmierten Zelltod, um funktionsfähig zu werden?",college_biology,"['Teil des Flömensiebrohrs', 'Xylem-Gefäßmitglied', 'Stomatale Schutzzelle', 'Wurzelkappenzelle']",1,"Frage: Welche der folgenden Pflanzenzellen durchläuft einen programmierten Zelltod, um funktionsfähig zu werden?
+
+Antwortoptionen: ['Teil des Flömensiebrohrs', 'Xylem-Gefäßmitglied', 'Stomatale Schutzzelle', 'Wurzelkappenzelle']
+
+Antwort: Xylem-Gefäßmitglied"
+Welche der folgenden Merkmale unterscheiden Angiospermen von Gymnospermen?,college_biology,"['Mehrjähriges Wachstum', 'Wahre Wurzeln', 'Apikales Wachstum', 'In Eierstöcken eingeschlossene Samen']",3,"Frage: Welche der folgenden Merkmale unterscheiden Angiospermen von Gymnospermen?
+
+Antwortoptionen: ['Mehrjähriges Wachstum', 'Wahre Wurzeln', 'Apikales Wachstum', 'In Eierstöcken eingeschlossene Samen']
+
+Antwort: In Eierstöcken eingeschlossene Samen"
+"Eine Gänseart nistet sowohl auf Klippen als auch an Stränden in der Nähe des Ozeans Bald nach dem Schlüpfen müssen sich alle Küken in den Ozean begeben Jungtiere aus Felsennestern müssen die Klippe hinunter stürzen, um zum Ozean zu gelangen, und viele werden vom Sturz getötet Welche der folgenden Aussagen stimmt am besten mit der Hypothese überein, dass das Nestmachen auf Felsen bei dieser Gänseart anpassungsfähig ist?",college_biology,"['An den Stränden nisten viel mehr Gänse als an den Klippen.', 'Die Nistung am Fels bietet eine höhere Eignung als die Nistung am Strand.', 'Jungtiere aus Felsennestern treten instinktiv zur richtigen Zeit von den Felsen ab.', 'Mehr Küken überleben den Sturz von der Klippe, als getötet werden.']",1,"Frage: Eine Gänseart nistet sowohl auf Klippen als auch an Stränden in der Nähe des Ozeans Bald nach dem Schlüpfen müssen sich alle Küken in den Ozean begeben Jungtiere aus Felsennestern müssen die Klippe hinunter stürzen, um zum Ozean zu gelangen, und viele werden vom Sturz getötet Welche der folgenden Aussagen stimmt am besten mit der Hypothese überein, dass das Nestmachen auf Felsen bei dieser Gänseart anpassungsfähig ist?
+
+Antwortoptionen: ['An den Stränden nisten viel mehr Gänse als an den Klippen.', 'Die Nistung am Fels bietet eine höhere Eignung als die Nistung am Strand.', 'Jungtiere aus Felsennestern treten instinktiv zur richtigen Zeit von den Felsen ab.', 'Mehr Küken überleben den Sturz von der Klippe, als getötet werden.']
+
+Antwort: Die Nistung am Fels bietet eine höhere Eignung als die Nistung am Strand."
+"Immunoglobuline mit Epsilon-Schwerketten, die sich auf den Plasmamembranen von Mastzellen und basophilen Leukozyten befinden, gehören zur Klasse von Antikörpern, die",college_biology,"['IgE', 'IgA', 'IgD', 'IgM']",0,"Frage: Immunoglobuline mit Epsilon-Schwerketten, die sich auf den Plasmamembranen von Mastzellen und basophilen Leukozyten befinden, gehören zur Klasse von Antikörpern, die
+
+Antwortoptionen: ['IgE', 'IgA', 'IgD', 'IgM']
+
+Antwort: IgE"
+"Es wird beobachtet, daß ein fluoreszierendes Molekül von 1.000 Daltonen, das in eine Zelle injiziert wird, in eine angrenzende Zelle eindringt, indem es durch eine",college_biology,"['Spott-Desmosome', 'Gürteldesmosome', 'Spaltverbindung', 'Spannverbindung']",2,"Frage: Es wird beobachtet, daß ein fluoreszierendes Molekül von 1.000 Daltonen, das in eine Zelle injiziert wird, in eine angrenzende Zelle eindringt, indem es durch eine
+
+Antwortoptionen: ['Spott-Desmosome', 'Gürteldesmosome', 'Spaltverbindung', 'Spannverbindung']
+
+Antwort: Spaltverbindung"
+"Anneliden und Arthropoden sind einander insofern ähnlich, als Mitglieder beider Stämme",college_biology,"['haben segmentierte Körper', 'haben ein geschlossenes Kreislaufsystem', 'Gasaustausch durch Diffusion durch eine feuchte Membran durchführen', 'gut entwickelte Sinnesorgane haben']",0,"Frage: Anneliden und Arthropoden sind einander insofern ähnlich, als Mitglieder beider Stämme
+
+Antwortoptionen: ['haben segmentierte Körper', 'haben ein geschlossenes Kreislaufsystem', 'Gasaustausch durch Diffusion durch eine feuchte Membran durchführen', 'gut entwickelte Sinnesorgane haben']
+
+Antwort: haben segmentierte Körper"
+In welchem Bruchteil des menschlichen Genoms werden etwa Proteine kodiert?,college_biology,"['2%', '25 v. H.', '50 v. H.', '90 v. H.']",0,"Frage: In welchem Bruchteil des menschlichen Genoms werden etwa Proteine kodiert?
+
+Antwortoptionen: ['2%', '25 v. H.', '50 v. H.', '90 v. H.']
+
+Antwort: 2%"
+Welche der folgenden Aussagen gilt für Luft im Vergleich zu Wasser?,college_biology,"['Luft bietet mehr körperliche Unterstützung.', 'Luft hat eine höhere O2-Konzentration.', 'Luft bietet mehr Widerstand gegen Bewegung.', 'Luft hat mehr thermische Trägheit.']",1,"Frage: Welche der folgenden Aussagen gilt für Luft im Vergleich zu Wasser?
+
+Antwortoptionen: ['Luft bietet mehr körperliche Unterstützung.', 'Luft hat eine höhere O2-Konzentration.', 'Luft bietet mehr Widerstand gegen Bewegung.', 'Luft hat mehr thermische Trägheit.']
+
+Antwort: Luft hat eine höhere O2-Konzentration."
+"Welche der folgenden Aussagen gilt für Organismen, die dem Königreich Protista angehören?",college_biology,"['Sie sind eukaryotisch.', 'Dazu gehören auch die Cyanobakterien.', 'Sie sind heterotrop.', 'Sie besitzen Zellwände, die aus Peptidoglycan bestehen.']",0,"Frage: Welche der folgenden Aussagen gilt für Organismen, die dem Königreich Protista angehören?
+
+Antwortoptionen: ['Sie sind eukaryotisch.', 'Dazu gehören auch die Cyanobakterien.', 'Sie sind heterotrop.', 'Sie besitzen Zellwände, die aus Peptidoglycan bestehen.']
+
+Antwort: Sie sind eukaryotisch."
+"Der Abschnitt des Chromosoms, der während der Zellteilung als Anhaftungsstelle durch den mitotischen Spindel dient, ist der",college_biology,"['Chromatophore', 'Chromomer', 'Künstlerinnen und Künstler', 'Zentriol']",2,"Frage: Der Abschnitt des Chromosoms, der während der Zellteilung als Anhaftungsstelle durch den mitotischen Spindel dient, ist der
+
+Antwortoptionen: ['Chromatophore', 'Chromomer', 'Künstlerinnen und Künstler', 'Zentriol']
+
+Antwort: Künstlerinnen und Künstler"
+"Eine Pflanze, die entlang eines Gitters wächst, zeigt",college_biology,"['Thygmotropismus', 'Fototropismus', 'Schwangerschaftsentwicklung', 'Negativ-Gravidotropismus']",0,"Frage: Eine Pflanze, die entlang eines Gitters wächst, zeigt
+
+Antwortoptionen: ['Thygmotropismus', 'Fototropismus', 'Schwangerschaftsentwicklung', 'Negativ-Gravidotropismus']
+
+Antwort: Thygmotropismus"
+"Wenn die Aktivität eines Enzyms über einen breiten Bereich von pH-Werten konstant ist, ist es wahrscheinlich, dass",college_biology,"['Nur ionisierende Gruppen auf dem Enzym nehmen an der Reaktion teil', 'Nur ionisierende Gruppen auf dem Substrat nehmen an der Reaktion teil.', 'ionisierende Gruppen sowohl auf dem Enzym als auch auf dem Substrat beteiligen sich an der Reaktion', 'keine ionisierenden Gruppen auf dem Enzym oder Substrat an der Reaktion beteiligt sind,']",3,"Frage: Wenn die Aktivität eines Enzyms über einen breiten Bereich von pH-Werten konstant ist, ist es wahrscheinlich, dass
+
+Antwortoptionen: ['Nur ionisierende Gruppen auf dem Enzym nehmen an der Reaktion teil', 'Nur ionisierende Gruppen auf dem Substrat nehmen an der Reaktion teil.', 'ionisierende Gruppen sowohl auf dem Enzym als auch auf dem Substrat beteiligen sich an der Reaktion', 'keine ionisierenden Gruppen auf dem Enzym oder Substrat an der Reaktion beteiligt sind,']
+
+Antwort: keine ionisierenden Gruppen auf dem Enzym oder Substrat an der Reaktion beteiligt sind,"
+"In Gartenerbsen das Allel für hohe Pflanzen (D) ist vollständig dominant gegenüber dem Allel für Zwergpflanzen (d) und das Allel für violette Blütenfarbe (W) ist vollständig dominant gegenüber dem Allel für weiße Blütenfarbe (w) In einer Kreuzung zwischen einer hohen violetten Pflanze mit dem Genotyp DDWw und einer weißen Zwergpflanze, welches phänotypische Verhältnis der Nachkommen wäre von dieser Kreuzung zu erwarten?",college_biology,"['Ganz groß und violett .', '1 große Violett: 1 Zwergviolett', '1 Hochviolett: 1 Hochweiß: 1 Zwergviolett: 1 Zwergweiß', '1 große Violettfarbe: 1 große Weißfarbe']",3,"Frage: In Gartenerbsen das Allel für hohe Pflanzen (D) ist vollständig dominant gegenüber dem Allel für Zwergpflanzen (d) und das Allel für violette Blütenfarbe (W) ist vollständig dominant gegenüber dem Allel für weiße Blütenfarbe (w) In einer Kreuzung zwischen einer hohen violetten Pflanze mit dem Genotyp DDWw und einer weißen Zwergpflanze, welches phänotypische Verhältnis der Nachkommen wäre von dieser Kreuzung zu erwarten?
+
+Antwortoptionen: ['Ganz groß und violett .', '1 große Violett: 1 Zwergviolett', '1 Hochviolett: 1 Hochweiß: 1 Zwergviolett: 1 Zwergweiß', '1 große Violettfarbe: 1 große Weißfarbe']
+
+Antwort: 1 große Violettfarbe: 1 große Weißfarbe"
+"Die in Kultur gezüchteten Krebszellen sind den in Kultur gezüchteten normalen Zellen insofern ähnlich, als sie",college_biology,"['teilen Sie eine unbestimmte Anzahl von Malen', 'keine Kontakthemmung aufweisen', 'benötigen eine Befestigungsfläche, um wachsen zu können', 'Proliferation auf die gleiche Zelldichte']",2,"Frage: Die in Kultur gezüchteten Krebszellen sind den in Kultur gezüchteten normalen Zellen insofern ähnlich, als sie
+
+Antwortoptionen: ['teilen Sie eine unbestimmte Anzahl von Malen', 'keine Kontakthemmung aufweisen', 'benötigen eine Befestigungsfläche, um wachsen zu können', 'Proliferation auf die gleiche Zelldichte']
+
+Antwort: benötigen eine Befestigungsfläche, um wachsen zu können"
+"Welche der folgenden Techniken könnte verwendet werden, um die Proteinbindung an spezifische DNA-Sequenzen nachzuweisen?",college_biology,"['Western-Blot-Hybridisierung', 'Northern-Blot-Hybridisierung', 'Southern-Blot-Hybridisierung', 'Elektrophoretische Mobilitätsverschiebung']",3,"Frage: Welche der folgenden Techniken könnte verwendet werden, um die Proteinbindung an spezifische DNA-Sequenzen nachzuweisen?
+
+Antwortoptionen: ['Western-Blot-Hybridisierung', 'Northern-Blot-Hybridisierung', 'Southern-Blot-Hybridisierung', 'Elektrophoretische Mobilitätsverschiebung']
+
+Antwort: Elektrophoretische Mobilitätsverschiebung"
+Der adäquate Serumkalziumspiegel wird beim Menschen durch die Sekretion von,college_biology,"['Thyroxin', 'Glucagon', 'Wachstumshormon', 'Schilddrüsenhormon']",3,"Frage: Der adäquate Serumkalziumspiegel wird beim Menschen durch die Sekretion von
+
+Antwortoptionen: ['Thyroxin', 'Glucagon', 'Wachstumshormon', 'Schilddrüsenhormon']
+
+Antwort: Schilddrüsenhormon"
+Die Aminosäure Ornithin wird während jeder Umdrehung des Harnstoffkreislaufs in ähnlicher Weise wie die folgenden Teilnehmer des Zitronensäurekreislaufs regeneriert.,college_biology,"['Succinat', 'Fumarat', 'Oxaloacetat', 'Citrate']",2,"Frage: Die Aminosäure Ornithin wird während jeder Umdrehung des Harnstoffkreislaufs in ähnlicher Weise wie die folgenden Teilnehmer des Zitronensäurekreislaufs regeneriert.
+
+Antwortoptionen: ['Succinat', 'Fumarat', 'Oxaloacetat', 'Citrate']
+
+Antwort: Oxaloacetat"
+Was ist ein einzigartiges Merkmal der Angiospermen?,college_biology,"['Pollen, der vom Wind übertragen wird', 'Ein dominanter Sporophyten-Lebenszyklus', 'Generationenwechsel', 'Doppelte Befruchtung']",3,"Frage: Was ist ein einzigartiges Merkmal der Angiospermen?
+
+Antwortoptionen: ['Pollen, der vom Wind übertragen wird', 'Ein dominanter Sporophyten-Lebenszyklus', 'Generationenwechsel', 'Doppelte Befruchtung']
+
+Antwort: Doppelte Befruchtung"
+"Säugetiere sind homöostatisch in allen folgenden Fällen, AUSSOND",college_biology,"['Körpertemperatur', 'Blutzuckerspiegel', 'pH-Wert des Blutes', 'Stoffwechselrate']",3,"Frage: Säugetiere sind homöostatisch in allen folgenden Fällen, AUSSOND
+
+Antwortoptionen: ['Körpertemperatur', 'Blutzuckerspiegel', 'pH-Wert des Blutes', 'Stoffwechselrate']
+
+Antwort: Stoffwechselrate"
+Das Hocken von sehr jungen Vögeln als Reaktion auf die Gestalt eines Raubtieres über dem Kopf ist ein Beispiel für,college_biology,"['eine konditionierte Reaktion', 'ein festes Aktionsmuster', 'ein eingeprägtes Verhalten', 'erlerntes Verhalten']",1,"Frage: Das Hocken von sehr jungen Vögeln als Reaktion auf die Gestalt eines Raubtieres über dem Kopf ist ein Beispiel für
+
+Antwortoptionen: ['eine konditionierte Reaktion', 'ein festes Aktionsmuster', 'ein eingeprägtes Verhalten', 'erlerntes Verhalten']
+
+Antwort: ein festes Aktionsmuster"
+Bei Primaten weist ein hoher Grad an sexuellem Dimorphismus in einer Spezies in der Regel auf einen intensiven Wettbewerb zwischen,college_biology,"['Männchen zur Gewinnung individueller Nahrungsmittelressourcen', 'Männchen, um Partner zu bekommen.', 'Weibchen zur Gewinnung individueller Nahrungsmittelressourcen', 'Weibchen, um Partner zu bekommen.']",1,"Frage: Bei Primaten weist ein hoher Grad an sexuellem Dimorphismus in einer Spezies in der Regel auf einen intensiven Wettbewerb zwischen
+
+Antwortoptionen: ['Männchen zur Gewinnung individueller Nahrungsmittelressourcen', 'Männchen, um Partner zu bekommen.', 'Weibchen zur Gewinnung individueller Nahrungsmittelressourcen', 'Weibchen, um Partner zu bekommen.']
+
+Antwort: Männchen, um Partner zu bekommen."
+Welches der folgenden Gewebe in einer aktiv fotosynthetisierenden Pflanze würde die höchste Sauerstoffproduktion aufweisen?,college_biology,"['Kortex', 'Palisade-Mesophyll', 'Epidermis', 'Gefäßkambium']",1,"Frage: Welches der folgenden Gewebe in einer aktiv fotosynthetisierenden Pflanze würde die höchste Sauerstoffproduktion aufweisen?
+
+Antwortoptionen: ['Kortex', 'Palisade-Mesophyll', 'Epidermis', 'Gefäßkambium']
+
+Antwort: Palisade-Mesophyll"
+"Eine aktuelle Theorie über einen ungewöhnlichen Anstieg der Asthmaanfälle nach einem Gewitter schlägt vor , dass während Pollenkörner mit 5 Mikrometern zu groß sind , um in die Atemwege zu gelangen ihre Exposition gegenüber Wasser verursacht die Freisetzung von Stärkekörnchen infolge des osmotischen Schocks Die Stärkekörner sind klein genug, um in die unteren Atemwege zu gelangen und einen asthmatischen Anfall auszulösen. Wenn diese Theorie wahr ist, welche der folgenden Aussagen ist die richtige?",college_biology,"['Das Innere der Pollenkörner war hypotonisch im Vergleich zur Umgebung.', 'Das Innere der Pollenkörner hatte einen höheren osmotischen Druck als die umgebende Umgebung.', 'Die Pollenkörner wurden vor der Freisetzung ihres Inhalts einer Plasmolyse unterzogen.', 'Die Pollenkörner schrumpften, bevor sie zerbrachen und ihren Inhalt freisetzten.']",1,"Frage: Eine aktuelle Theorie über einen ungewöhnlichen Anstieg der Asthmaanfälle nach einem Gewitter schlägt vor , dass während Pollenkörner mit 5 Mikrometern zu groß sind , um in die Atemwege zu gelangen ihre Exposition gegenüber Wasser verursacht die Freisetzung von Stärkekörnchen infolge des osmotischen Schocks Die Stärkekörner sind klein genug, um in die unteren Atemwege zu gelangen und einen asthmatischen Anfall auszulösen. Wenn diese Theorie wahr ist, welche der folgenden Aussagen ist die richtige?
+
+Antwortoptionen: ['Das Innere der Pollenkörner war hypotonisch im Vergleich zur Umgebung.', 'Das Innere der Pollenkörner hatte einen höheren osmotischen Druck als die umgebende Umgebung.', 'Die Pollenkörner wurden vor der Freisetzung ihres Inhalts einer Plasmolyse unterzogen.', 'Die Pollenkörner schrumpften, bevor sie zerbrachen und ihren Inhalt freisetzten.']
+
+Antwort: Das Innere der Pollenkörner hatte einen höheren osmotischen Druck als die umgebende Umgebung."
+"Hybriden zwischen einigen verwandten Pflanzenarten sind steril, weil die Mutterpflanzen unterschiedliche Chromosomenzahlen haben Gelegentlich verdoppelt sich die Chromosomenzahl einer solchen Hybridpflanze spontan Welches der folgenden Wörter beschreibt am besten die Nachkommen der Pflanzen mit der doppelten Chromosomenzahl?",college_biology,"['Die Pflanze mit der doppelten Chromosomenzahl wäre genetisch defekt und hätte keine Nachkommen.', 'Die Nachkommen würden aufgrund der erhöhten Fähigkeit zur Introgression einen selektiven Vorteil haben.', 'Die Nachkommen würden sich erfolgreich fortpflanzen, weil sie sich mit der Elternart kreuzen könnten.', 'Die Nachkommen würden die Fähigkeit zur sexuellen Fortpflanzung wiedererlangen, weil sich die Chromosomen normal paaren könnten.']",3,"Frage: Hybriden zwischen einigen verwandten Pflanzenarten sind steril, weil die Mutterpflanzen unterschiedliche Chromosomenzahlen haben Gelegentlich verdoppelt sich die Chromosomenzahl einer solchen Hybridpflanze spontan Welches der folgenden Wörter beschreibt am besten die Nachkommen der Pflanzen mit der doppelten Chromosomenzahl?
+
+Antwortoptionen: ['Die Pflanze mit der doppelten Chromosomenzahl wäre genetisch defekt und hätte keine Nachkommen.', 'Die Nachkommen würden aufgrund der erhöhten Fähigkeit zur Introgression einen selektiven Vorteil haben.', 'Die Nachkommen würden sich erfolgreich fortpflanzen, weil sie sich mit der Elternart kreuzen könnten.', 'Die Nachkommen würden die Fähigkeit zur sexuellen Fortpflanzung wiedererlangen, weil sich die Chromosomen normal paaren könnten.']
+
+Antwort: Die Nachkommen würden die Fähigkeit zur sexuellen Fortpflanzung wiedererlangen, weil sich die Chromosomen normal paaren könnten."
+"Phalloidin ist ein Gift, das der Todeskappenpilz produziert. Das Toxin bindet sich an Aktin-Untereinheiten und stört die Aktin-Funktion. Welche der folgenden Strukturen sind am stärksten von Phalloidin betroffen?",college_biology,"['Zwischenfäden', 'Kollagenfasern', 'Mikrofilamente', 'Mikrotubuli']",2,"Frage: Phalloidin ist ein Gift, das der Todeskappenpilz produziert. Das Toxin bindet sich an Aktin-Untereinheiten und stört die Aktin-Funktion. Welche der folgenden Strukturen sind am stärksten von Phalloidin betroffen?
+
+Antwortoptionen: ['Zwischenfäden', 'Kollagenfasern', 'Mikrofilamente', 'Mikrotubuli']
+
+Antwort: Mikrofilamente"
+Das Hardy-Weinberg-Gleichgewicht setzt im Allgemeinen alle folgenden Voraussetzungen voraus:,college_biology,"['eine große Bevölkerung', 'genetische Drift', 'Zufällige Paarung', 'Abwesenheit der Auswahl']",1,"Frage: Das Hardy-Weinberg-Gleichgewicht setzt im Allgemeinen alle folgenden Voraussetzungen voraus:
+
+Antwortoptionen: ['eine große Bevölkerung', 'genetische Drift', 'Zufällige Paarung', 'Abwesenheit der Auswahl']
+
+Antwort: genetische Drift"
+Welche der folgenden Aussagen über Pilze ist NICHT wahr?,college_biology,"['Sie sind alle eukaryotisch.', 'Sie alle haben starre Zellwände.', 'Die meisten sind fadenförmig.', 'Einige sind photosynthetisch.']",3,"Frage: Welche der folgenden Aussagen über Pilze ist NICHT wahr?
+
+Antwortoptionen: ['Sie sind alle eukaryotisch.', 'Sie alle haben starre Zellwände.', 'Die meisten sind fadenförmig.', 'Einige sind photosynthetisch.']
+
+Antwort: Einige sind photosynthetisch."
+Welches der folgenden wird durch das src-Onkogen codiert und katalysiert die spezifische Zugabe von Phosphatgruppen zu zellulären Proteinen?,college_biology,"['Proteinphosphatase', 'Adenylatzyclase', 'G-Protein-gebundene Rezeptoren', 'Tyrosin-Kinase']",3,"Frage: Welches der folgenden wird durch das src-Onkogen codiert und katalysiert die spezifische Zugabe von Phosphatgruppen zu zellulären Proteinen?
+
+Antwortoptionen: ['Proteinphosphatase', 'Adenylatzyclase', 'G-Protein-gebundene Rezeptoren', 'Tyrosin-Kinase']
+
+Antwort: Tyrosin-Kinase"
+"Sowohl C4- als auch CAM-Pflanzen verwenden physiologische und biochemische Strategien, um die Photorespiration zu reduzieren. Welche der folgenden ist ein genauer Vergleich der beiden Strategien?",college_biology,"['C4-Pflanzen fixieren CO2 als 4-Kohlenstoff-Säure-Oxaloacetat, während CAM-Pflanzen CO2 als 5-Kohlenstoff-Säure-Ribulose-1,5-Bisphosphat fixieren.', 'C4-Pflanzen fixieren CO2 im Mesophyll, führen aber den Calvin-Zyklus in der Bündelhülle durch, während CAM-Pflanzen CO2 fixieren und den Calvin-Zyklus im Mesophyll durchführen.', 'C4-Pflanzen fixieren CO2 in der Bündelhülle, führen aber den Calvin-Zyklus im Mesophyll durch, während CAM-Pflanzen CO2 fixieren und den Calvin-Zyklus in der Bündelhülle durchführen.', 'C4-Pflanzen speichern CO2 als Phosphoglykolat, während CAM-Pflanzen CO2 als Oxaloacetat speichern.']",1,"Frage: Sowohl C4- als auch CAM-Pflanzen verwenden physiologische und biochemische Strategien, um die Photorespiration zu reduzieren. Welche der folgenden ist ein genauer Vergleich der beiden Strategien?
+
+Antwortoptionen: ['C4-Pflanzen fixieren CO2 als 4-Kohlenstoff-Säure-Oxaloacetat, während CAM-Pflanzen CO2 als 5-Kohlenstoff-Säure-Ribulose-1,5-Bisphosphat fixieren.', 'C4-Pflanzen fixieren CO2 im Mesophyll, führen aber den Calvin-Zyklus in der Bündelhülle durch, während CAM-Pflanzen CO2 fixieren und den Calvin-Zyklus im Mesophyll durchführen.', 'C4-Pflanzen fixieren CO2 in der Bündelhülle, führen aber den Calvin-Zyklus im Mesophyll durch, während CAM-Pflanzen CO2 fixieren und den Calvin-Zyklus in der Bündelhülle durchführen.', 'C4-Pflanzen speichern CO2 als Phosphoglykolat, während CAM-Pflanzen CO2 als Oxaloacetat speichern.']
+
+Antwort: C4-Pflanzen fixieren CO2 im Mesophyll, führen aber den Calvin-Zyklus in der Bündelhülle durch, während CAM-Pflanzen CO2 fixieren und den Calvin-Zyklus im Mesophyll durchführen."
+"Welche der folgenden Bilder zeigt die richtige Reihenfolge der Membranen des Chloroplasts, beginnend mit der innersten und endend mit der äußeren Membran?",college_biology,"['Thylakoidmembran, innere Membran, äußere Membran', 'Innenmembran, Außenmembran, Thylakoidmembran', 'Außenmembran, Innenmembran, Thylakoidmembran', 'Strama, äußere Membran, innere Membran']",0,"Frage: Welche der folgenden Bilder zeigt die richtige Reihenfolge der Membranen des Chloroplasts, beginnend mit der innersten und endend mit der äußeren Membran?
+
+Antwortoptionen: ['Thylakoidmembran, innere Membran, äußere Membran', 'Innenmembran, Außenmembran, Thylakoidmembran', 'Außenmembran, Innenmembran, Thylakoidmembran', 'Strama, äußere Membran, innere Membran']
+
+Antwort: Thylakoidmembran, innere Membran, äußere Membran"
+"Antibiotika, die bakterielle Zellen beeinträchtigen, beeinträchtigen alle der nachstehenden",college_biology,"['Synthese von Peptidoglykanen', 'Proteinsynthese', 'DNA-Synthese', 'umgekehrte Transkriptase']",3,"Frage: Antibiotika, die bakterielle Zellen beeinträchtigen, beeinträchtigen alle der nachstehenden
+
+Antwortoptionen: ['Synthese von Peptidoglykanen', 'Proteinsynthese', 'DNA-Synthese', 'umgekehrte Transkriptase']
+
+Antwort: umgekehrte Transkriptase"
+"Die Polytänchromosomen, die mit Hilfe eines Lichtmikroskops in Drosophila silvarentis beobachtet werden, sind",college_biology,"['nicht aktiv transkribiert', 'nur während der Mitose erzeugt', 'produziert durch wiederholte DNA-Replikationsrunden, gefolgt von Kernspaltung', 'mehrere Kopien eines einzigen Chromosoms']",3,"Frage: Die Polytänchromosomen, die mit Hilfe eines Lichtmikroskops in Drosophila silvarentis beobachtet werden, sind
+
+Antwortoptionen: ['nicht aktiv transkribiert', 'nur während der Mitose erzeugt', 'produziert durch wiederholte DNA-Replikationsrunden, gefolgt von Kernspaltung', 'mehrere Kopien eines einzigen Chromosoms']
+
+Antwort: mehrere Kopien eines einzigen Chromosoms"
+Welcher der folgenden Wirkstoffe wird Polyploidie in einem sich teilenden Eukaryoten induzieren?,college_biology,"['Penicillin und ähnliche Wirkstoffe', 'Kolchicin', 'Tetracyclin', 'Puromycin']",1,"Frage: Welcher der folgenden Wirkstoffe wird Polyploidie in einem sich teilenden Eukaryoten induzieren?
+
+Antwortoptionen: ['Penicillin und ähnliche Wirkstoffe', 'Kolchicin', 'Tetracyclin', 'Puromycin']
+
+Antwort: Kolchicin"
+Welche der folgenden Aussagen über Mitochondrien und Chloroplasten ist im Allgemeinen wahr?,college_biology,"['Pflanzen haben Chloroplasten, aber keine Mitochondrien; Tiere haben Mitochondrien, aber keine Chloroplasten.', 'Pflanzen haben Chloroplasten, aber keine Mitochondrien; Pilze haben Mitochondrien, aber keine Chloroplasten.', 'Pflanzen und Pilze haben Chloroplasten, aber keine Mitochondrien; Tiere haben nur Mitochondrien.', 'Pflanzen haben sowohl Chloroplasten als auch Mitochondrien; Tiere und Pilze haben nur Mitochondrien.']",3,"Frage: Welche der folgenden Aussagen über Mitochondrien und Chloroplasten ist im Allgemeinen wahr?
+
+Antwortoptionen: ['Pflanzen haben Chloroplasten, aber keine Mitochondrien; Tiere haben Mitochondrien, aber keine Chloroplasten.', 'Pflanzen haben Chloroplasten, aber keine Mitochondrien; Pilze haben Mitochondrien, aber keine Chloroplasten.', 'Pflanzen und Pilze haben Chloroplasten, aber keine Mitochondrien; Tiere haben nur Mitochondrien.', 'Pflanzen haben sowohl Chloroplasten als auch Mitochondrien; Tiere und Pilze haben nur Mitochondrien.']
+
+Antwort: Pflanzen haben sowohl Chloroplasten als auch Mitochondrien; Tiere und Pilze haben nur Mitochondrien."
+"Wie unterscheiden sich Cyanobakterien von grünen, einzelligen Algen?",college_biology,"['Cyanobakterien reduzieren Schwefelverbindungen.', 'Cyanobakterien haben keine Zellwände.', 'Cyanobakterien haben keinen Kern.', 'Grüne Algen produzieren Zellmembranen.']",2,"Frage: Wie unterscheiden sich Cyanobakterien von grünen, einzelligen Algen?
+
+Antwortoptionen: ['Cyanobakterien reduzieren Schwefelverbindungen.', 'Cyanobakterien haben keine Zellwände.', 'Cyanobakterien haben keinen Kern.', 'Grüne Algen produzieren Zellmembranen.']
+
+Antwort: Cyanobakterien haben keinen Kern."
+Die Stabilisierung der einzigartigen gewundenen Struktur einer Alpha-Helix in einem Protein wird in erster Linie der (A) Wasserstoffbindung zwischen den Peptid-Rückgratatomen zugeschrieben,college_biology,"['Wasserstoffbindung zwischen den Atomen des Peptid-Rückgrates', 'Disulfidbrücken zwischen Cysteinseitenketten', 'Kohlenhydratfraktionen, die an polaren Aminosäuren gebunden sind', 'Peptidverbindungen, die Aminosäuren kovalent binden']",0,"Frage: Die Stabilisierung der einzigartigen gewundenen Struktur einer Alpha-Helix in einem Protein wird in erster Linie der (A) Wasserstoffbindung zwischen den Peptid-Rückgratatomen zugeschrieben
+
+Antwortoptionen: ['Wasserstoffbindung zwischen den Atomen des Peptid-Rückgrates', 'Disulfidbrücken zwischen Cysteinseitenketten', 'Kohlenhydratfraktionen, die an polaren Aminosäuren gebunden sind', 'Peptidverbindungen, die Aminosäuren kovalent binden']
+
+Antwort: Wasserstoffbindung zwischen den Atomen des Peptid-Rückgrates"
+Das Ziel der Verdauung eines Nukleosom-Dimers zu Nukleosom-Monomeren durch DNase ist,college_biology,"['das H1-Histon', 'Histon H2A, H2B, H3 und H4', 'der Kern des Nukleosoms', 'Verknüpfungs-DNA']",3,"Frage: Das Ziel der Verdauung eines Nukleosom-Dimers zu Nukleosom-Monomeren durch DNase ist
+
+Antwortoptionen: ['das H1-Histon', 'Histon H2A, H2B, H3 und H4', 'der Kern des Nukleosoms', 'Verknüpfungs-DNA']
+
+Antwort: Verknüpfungs-DNA"
+"Ein Prokaryot, der thermophil und methanogen ist und Isoprenylglycerol-Ether anstelle von Phospholipiden in seiner Membran hat, ist höchstwahrscheinlich",college_biology,"['ein Proteobakterium', 'eine Spirochete', 'ein Mitglied der Gattung Chlamydia', 'ein Archäon']",3,"Frage: Ein Prokaryot, der thermophil und methanogen ist und Isoprenylglycerol-Ether anstelle von Phospholipiden in seiner Membran hat, ist höchstwahrscheinlich
+
+Antwortoptionen: ['ein Proteobakterium', 'eine Spirochete', 'ein Mitglied der Gattung Chlamydia', 'ein Archäon']
+
+Antwort: ein Archäon"
+Alle folgenden Umweltbedingungen erhöhen die Transpirationsrate von Pflanzen,college_biology,"['hohe Temperatur', 'hohe relative Luftfeuchtigkeit', 'geringe relative Luftfeuchtigkeit', 'Winde']",1,"Frage: Alle folgenden Umweltbedingungen erhöhen die Transpirationsrate von Pflanzen
+
+Antwortoptionen: ['hohe Temperatur', 'hohe relative Luftfeuchtigkeit', 'geringe relative Luftfeuchtigkeit', 'Winde']
+
+Antwort: hohe relative Luftfeuchtigkeit"
+Welche der folgenden Aussagen über die Spaltung von Embryonen ist NICHT wahr?,college_biology,"['Das Vorhandensein von Eigelb hemmt die Spaltung.', 'Telolecithal Eier durchlaufen meroblastische Spaltung.', 'Der Pflanzenpol spaltet sich leichter als der Tierpol', 'Durch die schnellen mitotischen Spaltungen entstehen direkt Blastomere.']",2,"Frage: Welche der folgenden Aussagen über die Spaltung von Embryonen ist NICHT wahr?
+
+Antwortoptionen: ['Das Vorhandensein von Eigelb hemmt die Spaltung.', 'Telolecithal Eier durchlaufen meroblastische Spaltung.', 'Der Pflanzenpol spaltet sich leichter als der Tierpol', 'Durch die schnellen mitotischen Spaltungen entstehen direkt Blastomere.']
+
+Antwort: Der Pflanzenpol spaltet sich leichter als der Tierpol"
+"In eukaryotischen photosynthetischen Zellen tritt welches der folgenden Ereignisse auf, wenn Elektronen zyklisch durch die mit dem Photosystem I verbundene Elektronentransportkette fließen?",college_biology,"['Synthese von ATP', 'Reduzierung von NADP+ zu NADPH', 'Freisetzung von O2', 'Reduktion von CO2 zu Zucker']",0,"Frage: In eukaryotischen photosynthetischen Zellen tritt welches der folgenden Ereignisse auf, wenn Elektronen zyklisch durch die mit dem Photosystem I verbundene Elektronentransportkette fließen?
+
+Antwortoptionen: ['Synthese von ATP', 'Reduzierung von NADP+ zu NADPH', 'Freisetzung von O2', 'Reduktion von CO2 zu Zucker']
+
+Antwort: Synthese von ATP"
+"Viele Seevögel trinken Meerwasser, behalten jedoch ihre innere Osmolarität auf einem konstanten Niveau, das für Meerwasser hypoosmotisch ist Welche der folgenden physiologischen Strategien erklärt am besten, wie die Vögel ihre Gewebeosmolarität aufrechterhalten?",college_biology,"['Meeresvögel absorbieren Wasser aus der Umgebung durch spezielle Salzwechseldrüsen und produzieren in den Nieren große Mengen an verdünntem Urin.', 'Meeresvögel absorbieren Salze aus der Umgebung durch spezielle Salzwechseldrüsen und produzieren in den Nieren große Mengen an konzentriertem Urin.', 'Seevögel scheiden Salze durch spezielle Salzwechseldrüsen aus und scheiden kleine Mengen Urin aus.', 'Meeresvögel scheiden Salze und Stickstoffabfälle durch spezielle Nasendrüsen aus.']",2,"Frage: Viele Seevögel trinken Meerwasser, behalten jedoch ihre innere Osmolarität auf einem konstanten Niveau, das für Meerwasser hypoosmotisch ist Welche der folgenden physiologischen Strategien erklärt am besten, wie die Vögel ihre Gewebeosmolarität aufrechterhalten?
+
+Antwortoptionen: ['Meeresvögel absorbieren Wasser aus der Umgebung durch spezielle Salzwechseldrüsen und produzieren in den Nieren große Mengen an verdünntem Urin.', 'Meeresvögel absorbieren Salze aus der Umgebung durch spezielle Salzwechseldrüsen und produzieren in den Nieren große Mengen an konzentriertem Urin.', 'Seevögel scheiden Salze durch spezielle Salzwechseldrüsen aus und scheiden kleine Mengen Urin aus.', 'Meeresvögel scheiden Salze und Stickstoffabfälle durch spezielle Nasendrüsen aus.']
+
+Antwort: Seevögel scheiden Salze durch spezielle Salzwechseldrüsen aus und scheiden kleine Mengen Urin aus."
+"Eine kleine Nagetierart frisst die Samen von nur einer Kiefernart In normalen Jahren hat ein Paar dieser Nagetiere einen Wurf von zwei oder drei Es ist ungewöhnlich, dass kleine Nagetiere so kleine Wurfgrößen haben. Welche andere Eigenschaft zeigen die Nagetiere am ehesten?",college_biology,"['Moderater sexueller Größenunterschied', 'Hohe Investitionen der Eltern', 'Frühgewachsene Jungtiere', 'Häufige extrapaare Paarungen']",1,"Frage: Eine kleine Nagetierart frisst die Samen von nur einer Kiefernart In normalen Jahren hat ein Paar dieser Nagetiere einen Wurf von zwei oder drei Es ist ungewöhnlich, dass kleine Nagetiere so kleine Wurfgrößen haben. Welche andere Eigenschaft zeigen die Nagetiere am ehesten?
+
+Antwortoptionen: ['Moderater sexueller Größenunterschied', 'Hohe Investitionen der Eltern', 'Frühgewachsene Jungtiere', 'Häufige extrapaare Paarungen']
+
+Antwort: Hohe Investitionen der Eltern"
+"Welche der folgenden Quellen leistet den größten Beitrag zur Trockenmasse der organischen Substanz, aus der eine Eiche besteht?",college_biology,"['Organische Moleküle aus verfallenden Stoffen im Boden, die von den Wurzeln aufgenommen werden', 'In Grundwasser gelöste mineralische Nährstoffe, die von den Wurzeln aufgenommen werden', 'Wasser, das von den Wurzeln aufgenommen wird, und Kohlendioxid aus der Luft', 'Endosperm in den Cotyledonen der Eichel']",2,"Frage: Welche der folgenden Quellen leistet den größten Beitrag zur Trockenmasse der organischen Substanz, aus der eine Eiche besteht?
+
+Antwortoptionen: ['Organische Moleküle aus verfallenden Stoffen im Boden, die von den Wurzeln aufgenommen werden', 'In Grundwasser gelöste mineralische Nährstoffe, die von den Wurzeln aufgenommen werden', 'Wasser, das von den Wurzeln aufgenommen wird, und Kohlendioxid aus der Luft', 'Endosperm in den Cotyledonen der Eichel']
+
+Antwort: Wasser, das von den Wurzeln aufgenommen wird, und Kohlendioxid aus der Luft"
+"Welche der folgenden Aussagen müssen zutreffen, damit die Evolution stattgefunden hat?",college_biology,"['Die Häufigkeit einiger Allele im Genpool einer Population hat sich im Laufe der Generationen verändert.', 'Die Häufigkeit einiger Allele im Genpool einer Population hat sich während des Lebens eines Organismus verändert.', 'Die Häufigkeit jedes Allels im Genpool einer Population ist über mehrere Generationen hinweg konstant geblieben.', 'Die Häufigkeit jedes Allels im Genotyp eines Organismus ist während der gesamten Lebensdauer des Organismus konstant geblieben.']",0,"Frage: Welche der folgenden Aussagen müssen zutreffen, damit die Evolution stattgefunden hat?
+
+Antwortoptionen: ['Die Häufigkeit einiger Allele im Genpool einer Population hat sich im Laufe der Generationen verändert.', 'Die Häufigkeit einiger Allele im Genpool einer Population hat sich während des Lebens eines Organismus verändert.', 'Die Häufigkeit jedes Allels im Genpool einer Population ist über mehrere Generationen hinweg konstant geblieben.', 'Die Häufigkeit jedes Allels im Genotyp eines Organismus ist während der gesamten Lebensdauer des Organismus konstant geblieben.']
+
+Antwort: Die Häufigkeit einiger Allele im Genpool einer Population hat sich im Laufe der Generationen verändert."
+"Aus einer evolutionären Perspektive wird die Optimalitätstheorie, wie sie auf ein bestimmtes Merkmal angewendet wird, am besten durch die Idee repräsentiert, dass",college_biology,"['wenn die Vorteile, die sich aus dem Merkmal ergeben, die Kosten des Merkmals für das Tier, das sie aufweist, übersteigen, bleibt dieses Merkmal im Genom bestehen;', 'wenn die Eigenschaft die beste Rendite für die Kosten im Vergleich zu alternativen Formen der Eigenschaft erzielt, gewinnt diese Eigenschaft über die alternativen Formen', 'Vorteilhafte Eigenschaften sind immer die Kosten für den Organismus in Energie und Physiologie wert, also werden diese Eigenschaften im Genom bestehen bleiben', 'Die relative Fitness eines Organismus muss durch ein bestimmtes Merkmal verbessert werden, damit das Merkmal im Genpool einer Population verbleibt.']",1,"Frage: Aus einer evolutionären Perspektive wird die Optimalitätstheorie, wie sie auf ein bestimmtes Merkmal angewendet wird, am besten durch die Idee repräsentiert, dass
+
+Antwortoptionen: ['wenn die Vorteile, die sich aus dem Merkmal ergeben, die Kosten des Merkmals für das Tier, das sie aufweist, übersteigen, bleibt dieses Merkmal im Genom bestehen;', 'wenn die Eigenschaft die beste Rendite für die Kosten im Vergleich zu alternativen Formen der Eigenschaft erzielt, gewinnt diese Eigenschaft über die alternativen Formen', 'Vorteilhafte Eigenschaften sind immer die Kosten für den Organismus in Energie und Physiologie wert, also werden diese Eigenschaften im Genom bestehen bleiben', 'Die relative Fitness eines Organismus muss durch ein bestimmtes Merkmal verbessert werden, damit das Merkmal im Genpool einer Population verbleibt.']
+
+Antwort: wenn die Eigenschaft die beste Rendite für die Kosten im Vergleich zu alternativen Formen der Eigenschaft erzielt, gewinnt diese Eigenschaft über die alternativen Formen"
+"In Anwesenheit von Alkoholdehydrogenase erhöht sich die Reduzierungsgeschwindigkeit von Acetaldehyd zu Ethanol, wenn die Acetaldehydkonzentration erhöht wird Schließlich erreicht die Reaktionsgeschwindigkeit ein Maximum, nach dem weitere Erhöhungen der Acetaldehydkonzentration keine Wirkung mehr haben Welche der folgenden Aussagen gilt für die maximale Reaktionsgeschwindigkeit?",college_biology,"['Fast alle Enzymmoleküle interagieren mit Acetaldehydmolekülen.', 'Die Aktivierungsenergie der Reaktion nimmt ab.', 'Die Änderung der freien Energie der Reaktion nimmt ab.', 'Das Enzym ist nicht mehr spezifisch für Acetaldehyd.']",0,"Frage: In Anwesenheit von Alkoholdehydrogenase erhöht sich die Reduzierungsgeschwindigkeit von Acetaldehyd zu Ethanol, wenn die Acetaldehydkonzentration erhöht wird Schließlich erreicht die Reaktionsgeschwindigkeit ein Maximum, nach dem weitere Erhöhungen der Acetaldehydkonzentration keine Wirkung mehr haben Welche der folgenden Aussagen gilt für die maximale Reaktionsgeschwindigkeit?
+
+Antwortoptionen: ['Fast alle Enzymmoleküle interagieren mit Acetaldehydmolekülen.', 'Die Aktivierungsenergie der Reaktion nimmt ab.', 'Die Änderung der freien Energie der Reaktion nimmt ab.', 'Das Enzym ist nicht mehr spezifisch für Acetaldehyd.']
+
+Antwort: Fast alle Enzymmoleküle interagieren mit Acetaldehydmolekülen."
+"Welche der folgenden Ausführungen erklärt am besten, wie Mutationen in der DNA zum Ausdruck eines neuen Phänotyps führen können?",college_biology,"['Es wird ein anderes Polypeptid hergestellt.', 'Die Polarität von tRNA wird das Gegenteil von der von DNA.', 'Die Nukleinsäuren sind methyliert.', 'Das Gen wird nun in der 3'- bis 5'-Richtung gelesen.']",0,"Frage: Welche der folgenden Ausführungen erklärt am besten, wie Mutationen in der DNA zum Ausdruck eines neuen Phänotyps führen können?
+
+Antwortoptionen: ['Es wird ein anderes Polypeptid hergestellt.', 'Die Polarität von tRNA wird das Gegenteil von der von DNA.', 'Die Nukleinsäuren sind methyliert.', 'Das Gen wird nun in der 3'- bis 5'-Richtung gelesen.']
+
+Antwort: Es wird ein anderes Polypeptid hergestellt."
+Ein wettbewerbsfähiger Inhibitor eines Enzyms wirkt durch,college_biology,"['unumkehrbare kovalente Verbindungen mit dem Enzym bilden, wodurch die Dissoziation des Enzyms wirksam verhindert wird', 'die einige der Aminosäureresiduen, die zur Bildung der aktiven Stelle des Enzyms beitragen, irreversibel modifizieren', 'mit dem Substratmolekül um dasselbe Enzym konkurrieren, jedoch an einer anderen Bindungsstelle als der Bindungsstelle für das Substrat', 'die Anzahl der zur Bindung von Substraten verfügbaren Enzymmoleküle reversibel verringert']",3,"Frage: Ein wettbewerbsfähiger Inhibitor eines Enzyms wirkt durch
+
+Antwortoptionen: ['unumkehrbare kovalente Verbindungen mit dem Enzym bilden, wodurch die Dissoziation des Enzyms wirksam verhindert wird', 'die einige der Aminosäureresiduen, die zur Bildung der aktiven Stelle des Enzyms beitragen, irreversibel modifizieren', 'mit dem Substratmolekül um dasselbe Enzym konkurrieren, jedoch an einer anderen Bindungsstelle als der Bindungsstelle für das Substrat', 'die Anzahl der zur Bindung von Substraten verfügbaren Enzymmoleküle reversibel verringert']
+
+Antwort: die Anzahl der zur Bindung von Substraten verfügbaren Enzymmoleküle reversibel verringert"
+"Die Fähigkeit des Gehirns, Unterschiede in der Stimulusintensität zu erkennen, erklärt sich am besten durch die Tatsache, dass welche der folgenden Variablen mit der Stimulusintensität variiert?",college_biology,"['Die Amplitude des Aktionspotentials', 'Das Schwellenpotenzial', 'Die Anzahl der Aktionspotentiale pro Sekunde', 'Anzahl der überschrittenen Synapsen']",2,"Frage: Die Fähigkeit des Gehirns, Unterschiede in der Stimulusintensität zu erkennen, erklärt sich am besten durch die Tatsache, dass welche der folgenden Variablen mit der Stimulusintensität variiert?
+
+Antwortoptionen: ['Die Amplitude des Aktionspotentials', 'Das Schwellenpotenzial', 'Die Anzahl der Aktionspotentiale pro Sekunde', 'Anzahl der überschrittenen Synapsen']
+
+Antwort: Die Anzahl der Aktionspotentiale pro Sekunde"
+"Welche der folgenden Erklärungen ist die beste Erklärung dafür, warum die Primärproduktivität der terrestrischen Ökosysteme in Richtung der Tropen zunimmt?",college_biology,"['Die höhere Artenvielfalt in den Tropen neigt dazu, das Pflanzenwachstum zu erhöhen.', 'In den Tropen sind die Stoffwechselkosten für das Pflanzenwachstum niedriger.', 'Die Verfügbarkeit von Wasser und die warmen Temperaturen in den Tropen fördern die Photosynthese.', 'Die Tropen haben mehr Raubtiere, die Pflanzenfresser minimieren.']",2,"Frage: Welche der folgenden Erklärungen ist die beste Erklärung dafür, warum die Primärproduktivität der terrestrischen Ökosysteme in Richtung der Tropen zunimmt?
+
+Antwortoptionen: ['Die höhere Artenvielfalt in den Tropen neigt dazu, das Pflanzenwachstum zu erhöhen.', 'In den Tropen sind die Stoffwechselkosten für das Pflanzenwachstum niedriger.', 'Die Verfügbarkeit von Wasser und die warmen Temperaturen in den Tropen fördern die Photosynthese.', 'Die Tropen haben mehr Raubtiere, die Pflanzenfresser minimieren.']
+
+Antwort: Die Verfügbarkeit von Wasser und die warmen Temperaturen in den Tropen fördern die Photosynthese."
+"Es wurde gezeigt, dass Proteine sich in einer Ebene der Plasmamembran bewegen, wenn Mauszellenoberflächenproteine und menschliche Zelloberflächenproteine beobachtet wurden, um entlang einer verschmolzenen Maus-Mensch-Zellplasmamembran zu integrieren Welche der folgenden Zellkulturtechniken wurde höchstwahrscheinlich eingesetzt, um diese Ergebnisse zu erzielen?",college_biology,"['Herstellung eines Heterokaryon', 'Herstellung einer Hybridzelle', 'Eine unsterbliche Zellvariante aus der Kultur isolieren und sie zur Herstellung einer Zelllinie verwenden', 'Einführung eines tumorinduzierenden Virus in eine normale Zelle, um die Transformation zu initiieren']",0,"Frage: Es wurde gezeigt, dass Proteine sich in einer Ebene der Plasmamembran bewegen, wenn Mauszellenoberflächenproteine und menschliche Zelloberflächenproteine beobachtet wurden, um entlang einer verschmolzenen Maus-Mensch-Zellplasmamembran zu integrieren Welche der folgenden Zellkulturtechniken wurde höchstwahrscheinlich eingesetzt, um diese Ergebnisse zu erzielen?
+
+Antwortoptionen: ['Herstellung eines Heterokaryon', 'Herstellung einer Hybridzelle', 'Eine unsterbliche Zellvariante aus der Kultur isolieren und sie zur Herstellung einer Zelllinie verwenden', 'Einführung eines tumorinduzierenden Virus in eine normale Zelle, um die Transformation zu initiieren']
+
+Antwort: Herstellung eines Heterokaryon"
+Der Genfluss zwischen Populationen führt zu,college_biology,"['eine Erhöhung der genetischen Homogenität in der Metapopulation', 'eine Zunahme der Rate schädlicher Mutationen in der Metapopulation', 'eine erhöhte Speziationswahrscheinlichkeit', 'Störung des Hardy-Weinberg-Gleichgewichts in der Metapopulation']",0,"Frage: Der Genfluss zwischen Populationen führt zu
+
+Antwortoptionen: ['eine Erhöhung der genetischen Homogenität in der Metapopulation', 'eine Zunahme der Rate schädlicher Mutationen in der Metapopulation', 'eine erhöhte Speziationswahrscheinlichkeit', 'Störung des Hardy-Weinberg-Gleichgewichts in der Metapopulation']
+
+Antwort: eine Erhöhung der genetischen Homogenität in der Metapopulation"
+"Eine DNA- und Protein-Untereinheit, die aus 134-Basenpaaren langen DNA-Strecken besteht, die ein Protein-Oktomer umgeben, wird als (a) bezeichnet",college_biology,"['Histon', 'Chromatin', 'Nukleosomen', 'Solenoid']",2,"Frage: Eine DNA- und Protein-Untereinheit, die aus 134-Basenpaaren langen DNA-Strecken besteht, die ein Protein-Oktomer umgeben, wird als (a) bezeichnet
+
+Antwortoptionen: ['Histon', 'Chromatin', 'Nukleosomen', 'Solenoid']
+
+Antwort: Nukleosomen"
+"Welches der folgenden Umgebungssignale wäre das zuverlässigste, das eine Pflanze in einem gemäßigten Ökosystem verwenden könnte, um die Blüte zur richtigen Jahreszeit einzuleiten?",college_biology,"['Zirkadianischer Rhythmus', 'Fotoperiode', 'Veränderung der Lufttemperatur', 'Schwankungen der Abscisinsäuregehalte']",1,"Frage: Welches der folgenden Umgebungssignale wäre das zuverlässigste, das eine Pflanze in einem gemäßigten Ökosystem verwenden könnte, um die Blüte zur richtigen Jahreszeit einzuleiten?
+
+Antwortoptionen: ['Zirkadianischer Rhythmus', 'Fotoperiode', 'Veränderung der Lufttemperatur', 'Schwankungen der Abscisinsäuregehalte']
+
+Antwort: Fotoperiode"
+"Mitochondrien, die isoliert und in eine Pufferlösung mit einem niedrigen pH-Wert gebracht werden, beginnen, ATP zu produzieren. Welche der folgenden Erklärungen ist die beste Erklärung für den Effekt eines niedrigen äußeren pH-Wertes?",college_biology,"['Es erhöht die Konzentration von OH-, wodurch die Mitochondrien H+ in den intermembranen Raum pumpen.', 'Es erhöht die OH-Konzentration in der Mitochondrienmatrix.', 'Es erhöht die Säurekonzentration in der Mitochondrienmatrix.', 'Es erhöht die Diffusion von H+ aus dem intermembranen Raum in die Matrix.']",3,"Frage: Mitochondrien, die isoliert und in eine Pufferlösung mit einem niedrigen pH-Wert gebracht werden, beginnen, ATP zu produzieren. Welche der folgenden Erklärungen ist die beste Erklärung für den Effekt eines niedrigen äußeren pH-Wertes?
+
+Antwortoptionen: ['Es erhöht die Konzentration von OH-, wodurch die Mitochondrien H+ in den intermembranen Raum pumpen.', 'Es erhöht die OH-Konzentration in der Mitochondrienmatrix.', 'Es erhöht die Säurekonzentration in der Mitochondrienmatrix.', 'Es erhöht die Diffusion von H+ aus dem intermembranen Raum in die Matrix.']
+
+Antwort: Es erhöht die Diffusion von H+ aus dem intermembranen Raum in die Matrix."
+Welcher der folgenden Organismen gehört zum Nekton?,college_biology,"['Whale (Wale)', 'Geflügel', 'Zyanobakterien', 'Protist']",0,"Frage: Welcher der folgenden Organismen gehört zum Nekton?
+
+Antwortoptionen: ['Whale (Wale)', 'Geflügel', 'Zyanobakterien', 'Protist']
+
+Antwort: Whale (Wale)"
+"Eine Verhaltensreaktion, die als festes Aktionsmuster bezeichnet wird, die von Tieren gezeigt wird",college_biology,"['Auftritt beim zweiten Mal, dass ein Tier zum richtigen Zeitpunkt seines Lebens dem richtigen Reiz ausgesetzt wird', 'tritt in Abwesenheit von sensorischen Rückkopplungen auf', 'ist eine motorische Reaktion, die, sobald sie freigegeben ist, spontan beendet werden kann', 'wird durch eine Reihe von sensorischen Signalen in der Umgebung des Tieres ausgelöst']",1,"Frage: Eine Verhaltensreaktion, die als festes Aktionsmuster bezeichnet wird, die von Tieren gezeigt wird
+
+Antwortoptionen: ['Auftritt beim zweiten Mal, dass ein Tier zum richtigen Zeitpunkt seines Lebens dem richtigen Reiz ausgesetzt wird', 'tritt in Abwesenheit von sensorischen Rückkopplungen auf', 'ist eine motorische Reaktion, die, sobald sie freigegeben ist, spontan beendet werden kann', 'wird durch eine Reihe von sensorischen Signalen in der Umgebung des Tieres ausgelöst']
+
+Antwort: tritt in Abwesenheit von sensorischen Rückkopplungen auf"
+Welche der folgenden Anpassungen würde die Bestäubung durch Bienen einschränken und die Bestäubung durch Kolibris fördern?,college_biology,"['Ultraviolette Farbmuster auf den Blütenblättern', 'Modifizierte Blütenblätter zur Schaffung eines Landeplatzes', 'Hängende Blumen in roter Farbe', 'Nektar mit hoher Zuckerkonzentration, der in begrenzten Mengen hergestellt wird']",2,"Frage: Welche der folgenden Anpassungen würde die Bestäubung durch Bienen einschränken und die Bestäubung durch Kolibris fördern?
+
+Antwortoptionen: ['Ultraviolette Farbmuster auf den Blütenblättern', 'Modifizierte Blütenblätter zur Schaffung eines Landeplatzes', 'Hängende Blumen in roter Farbe', 'Nektar mit hoher Zuckerkonzentration, der in begrenzten Mengen hergestellt wird']
+
+Antwort: Hängende Blumen in roter Farbe"
+"Die doppelte Befruchtung ist ein einzigartiges Merkmal der Blütenpflanzen In diesem Prozess vereinigt sich ein Spermium mit der Eizelle, wodurch eine Zygote entsteht Das zweite Sperma verbindet sich mit den Polarkernen, um die Bildung der",college_biology,"['Megagametophyte', 'Endodermis', 'Embryo', 'Endosperm']",3,"Frage: Die doppelte Befruchtung ist ein einzigartiges Merkmal der Blütenpflanzen In diesem Prozess vereinigt sich ein Spermium mit der Eizelle, wodurch eine Zygote entsteht Das zweite Sperma verbindet sich mit den Polarkernen, um die Bildung der
+
+Antwortoptionen: ['Megagametophyte', 'Endodermis', 'Embryo', 'Endosperm']
+
+Antwort: Endosperm"
+Die Mutation von homöotischen Clustergenen führt häufig zu welchen der folgenden Entwicklungsfehler bei Drosophila?,college_biology,"['Abwesenheit einer Gruppe von zusammenhängenden Segmenten', 'Umwandlung eines Segments in ein anderes', 'Polaritätsfehler in jedem Segment entlang der vorderen und hinteren Achse', 'Tumorbildung in imaginalen Scheiben']",1,"Frage: Die Mutation von homöotischen Clustergenen führt häufig zu welchen der folgenden Entwicklungsfehler bei Drosophila?
+
+Antwortoptionen: ['Abwesenheit einer Gruppe von zusammenhängenden Segmenten', 'Umwandlung eines Segments in ein anderes', 'Polaritätsfehler in jedem Segment entlang der vorderen und hinteren Achse', 'Tumorbildung in imaginalen Scheiben']
+
+Antwort: Umwandlung eines Segments in ein anderes"
+"Der von den Wurzeln einer Pflanze erzeugte Wurzeldruck bewirkt, dass Wasser in die Wurzeln eindringt, indem",college_biology,"['Verlagerung', 'Adhäsion', 'Osmose', 'Kapillarwirkung']",2,"Frage: Der von den Wurzeln einer Pflanze erzeugte Wurzeldruck bewirkt, dass Wasser in die Wurzeln eindringt, indem
+
+Antwortoptionen: ['Verlagerung', 'Adhäsion', 'Osmose', 'Kapillarwirkung']
+
+Antwort: Osmose"
+Die zelluläre Aufnahme von Cholesterin erfolgt durch die Internalisierung von Lipoprotein-Cholesterin-Komplexen niedriger Dichte.,college_biology,"['Zelloberflächenrezeptoren', 'Adhäsionsplatten', 'endosomale Bildung', 'Rezeptorvermittelte Endozytose']",1,"Frage: Die zelluläre Aufnahme von Cholesterin erfolgt durch die Internalisierung von Lipoprotein-Cholesterin-Komplexen niedriger Dichte.
+
+Antwortoptionen: ['Zelloberflächenrezeptoren', 'Adhäsionsplatten', 'endosomale Bildung', 'Rezeptorvermittelte Endozytose']
+
+Antwort: Adhäsionsplatten"
+"Zwei Arten von Xylem-Pflanzenzellen, die Wasser und Mineralien unterstützen und leiten, sind die",college_biology,"['Kolenchyma und Sklerenchyma', 'Teile des Siebrohrs und Begleitzellen', 'Tracheiden und Gefäßteile', 'Gefäßelemente und Begleitzellen']",2,"Frage: Zwei Arten von Xylem-Pflanzenzellen, die Wasser und Mineralien unterstützen und leiten, sind die
+
+Antwortoptionen: ['Kolenchyma und Sklerenchyma', 'Teile des Siebrohrs und Begleitzellen', 'Tracheiden und Gefäßteile', 'Gefäßelemente und Begleitzellen']
+
+Antwort: Tracheiden und Gefäßteile"
+Welche der folgenden Aussagen über Ausscheidungsorgane ist wahr?,college_biology,"['Die Nieren von Salzwasserfischen produzieren für ihr Gewebe hyperosmotischen Urin.', 'Die Nieren von Wüstensäugetieren produzieren Urin, der dem Urin von Süßwasserfischen gegenüber hypoosmotisch ist.', 'Die Malpigischen Röhrchen ermöglichen es den Insekten, Abfälle durch das Exoskelett auszuscheiden.', 'Juxtameduläre Nephronen in der Niere von Säugetieren ermöglichen es dem Organismus, hyperosmotischen Urin zu produzieren.']",3,"Frage: Welche der folgenden Aussagen über Ausscheidungsorgane ist wahr?
+
+Antwortoptionen: ['Die Nieren von Salzwasserfischen produzieren für ihr Gewebe hyperosmotischen Urin.', 'Die Nieren von Wüstensäugetieren produzieren Urin, der dem Urin von Süßwasserfischen gegenüber hypoosmotisch ist.', 'Die Malpigischen Röhrchen ermöglichen es den Insekten, Abfälle durch das Exoskelett auszuscheiden.', 'Juxtameduläre Nephronen in der Niere von Säugetieren ermöglichen es dem Organismus, hyperosmotischen Urin zu produzieren.']
+
+Antwort: Juxtameduläre Nephronen in der Niere von Säugetieren ermöglichen es dem Organismus, hyperosmotischen Urin zu produzieren."
+"Mimikry ist eine Strategie, die sich durch natürliche Selektion entwickelt hat, um die Eignung von Organismen für ihre Umwelt zu erhöhen. Welche der folgenden Darstellungen ist eine Form der batesianischen Nachahmung?",college_biology,"['Eine Art von Tausendfüßlern, die für eine Kröte giftig ist, wird von der Kröte nach dem ersten Versuch der Kröte, sie zu konsumieren, dauerhaft vermieden.', 'Eine Motte zeigt am Ende ihres Schwanzes falsche Augen, um Raubtiere zu verwirren.', 'Die Farbe einer Motte ist fast identisch mit der einer stichenden Biene.', 'Eine am Boden nistende Möwenpuppe weist ein Farbmuster auf, das von ihrer Umgebung fast nicht zu unterscheiden ist.']",2,"Frage: Mimikry ist eine Strategie, die sich durch natürliche Selektion entwickelt hat, um die Eignung von Organismen für ihre Umwelt zu erhöhen. Welche der folgenden Darstellungen ist eine Form der batesianischen Nachahmung?
+
+Antwortoptionen: ['Eine Art von Tausendfüßlern, die für eine Kröte giftig ist, wird von der Kröte nach dem ersten Versuch der Kröte, sie zu konsumieren, dauerhaft vermieden.', 'Eine Motte zeigt am Ende ihres Schwanzes falsche Augen, um Raubtiere zu verwirren.', 'Die Farbe einer Motte ist fast identisch mit der einer stichenden Biene.', 'Eine am Boden nistende Möwenpuppe weist ein Farbmuster auf, das von ihrer Umgebung fast nicht zu unterscheiden ist.']
+
+Antwort: Die Farbe einer Motte ist fast identisch mit der einer stichenden Biene."
+"Es wird angenommen, dass Schlüsselarten tiefgreifende Auswirkungen auf die Struktur und Zusammensetzung ökologischer Gemeinschaften haben, da sie",college_biology,"['Tendenz zur Verringerung der Vielfalt durch Beseitigung der Nahrungsmittelressourcen für andere Arten', 'die Grundlage für Nahrungsnetze bilden', 'sind zahlreicher als die meisten anderen Arten in ihren Gemeinschaften', 'kann verhindern, dass überlegene Wettbewerber minderwertige Wettbewerber zum lokalen Aussterben bringen']",3,"Frage: Es wird angenommen, dass Schlüsselarten tiefgreifende Auswirkungen auf die Struktur und Zusammensetzung ökologischer Gemeinschaften haben, da sie
+
+Antwortoptionen: ['Tendenz zur Verringerung der Vielfalt durch Beseitigung der Nahrungsmittelressourcen für andere Arten', 'die Grundlage für Nahrungsnetze bilden', 'sind zahlreicher als die meisten anderen Arten in ihren Gemeinschaften', 'kann verhindern, dass überlegene Wettbewerber minderwertige Wettbewerber zum lokalen Aussterben bringen']
+
+Antwort: kann verhindern, dass überlegene Wettbewerber minderwertige Wettbewerber zum lokalen Aussterben bringen"
+"Welcher der folgenden Gründe führt dazu, dass Genetiker die mitochondriale DNA (mtDNA) verwenden, um die Verwandtschaft von Tierpopulationen zu untersuchen?",college_biology,"['Die mtDNA mutiert langsamer als die nukleare DNA.', 'Die mtDNA wird von der Mutter auf das Kind übertragen und ist frei von der Rekombination, die zwischen Chromosomenpaaren auftritt.', 'Es gibt nur wenige einzelne Nukleotidpolymorphismen in den hypervariablen, nicht kodierenden Regionen.', 'Alle mitochondrialen Proteine werden durch mitochondriale Gene codiert.']",1,"Frage: Welcher der folgenden Gründe führt dazu, dass Genetiker die mitochondriale DNA (mtDNA) verwenden, um die Verwandtschaft von Tierpopulationen zu untersuchen?
+
+Antwortoptionen: ['Die mtDNA mutiert langsamer als die nukleare DNA.', 'Die mtDNA wird von der Mutter auf das Kind übertragen und ist frei von der Rekombination, die zwischen Chromosomenpaaren auftritt.', 'Es gibt nur wenige einzelne Nukleotidpolymorphismen in den hypervariablen, nicht kodierenden Regionen.', 'Alle mitochondrialen Proteine werden durch mitochondriale Gene codiert.']
+
+Antwort: Die mtDNA wird von der Mutter auf das Kind übertragen und ist frei von der Rekombination, die zwischen Chromosomenpaaren auftritt."
+"Ein Zitat aus einem Text über natürliche Ressourcen lautet: ""Wenn das ursprüngliche Ökosystem durch den Menschen umstrukturiert wird Es neigt dazu, vereinfacht zu werden. Dies impliziert, dass in einem gestörten Ökosystem die stabilisierenden Einflüsse der Dichte abhängigen regulatorischen Faktoren gestört werden.",college_biology,"['Es existieren große Populationen einer geringen Anzahl von Arten.', 'Populationsniveaus einer Art werden durch natürliche Regulierungsmechanismen im Gleichgewicht gehalten', 'Ein bestimmter Beutetierorganismus unterliegt einer höheren Raubbeute durch unterschiedlichere Raubtiere.', 'die Wahrscheinlichkeit geringer ist, dass ein bestimmter Beutetier einen Populationsschub erleidet,']",0,"Frage: Ein Zitat aus einem Text über natürliche Ressourcen lautet: ""Wenn das ursprüngliche Ökosystem durch den Menschen umstrukturiert wird Es neigt dazu, vereinfacht zu werden. Dies impliziert, dass in einem gestörten Ökosystem die stabilisierenden Einflüsse der Dichte abhängigen regulatorischen Faktoren gestört werden.
+
+Antwortoptionen: ['Es existieren große Populationen einer geringen Anzahl von Arten.', 'Populationsniveaus einer Art werden durch natürliche Regulierungsmechanismen im Gleichgewicht gehalten', 'Ein bestimmter Beutetierorganismus unterliegt einer höheren Raubbeute durch unterschiedlichere Raubtiere.', 'die Wahrscheinlichkeit geringer ist, dass ein bestimmter Beutetier einen Populationsschub erleidet,']
+
+Antwort: Es existieren große Populationen einer geringen Anzahl von Arten."
+"Eine weibliche Fruchtfliege mit verknüpften Genen, die den Phänotyp grauer Körper und normale Flügel produzieren, paart sich mit einer männlichen Fruchtfliege mit dem Phänotyp schwarzer Körper und verbliebenen Flügeln Das Vorhandensein von Fliegen mit grauem Körper und verbliebenen Flügeln unter den Nachkommen wird am besten durch",college_biology,"['Überquerung', 'unabhängiges Sortiment', 'Segregation der Allele', 'Durchlässigkeit']",0,"Frage: Eine weibliche Fruchtfliege mit verknüpften Genen, die den Phänotyp grauer Körper und normale Flügel produzieren, paart sich mit einer männlichen Fruchtfliege mit dem Phänotyp schwarzer Körper und verbliebenen Flügeln Das Vorhandensein von Fliegen mit grauem Körper und verbliebenen Flügeln unter den Nachkommen wird am besten durch
+
+Antwortoptionen: ['Überquerung', 'unabhängiges Sortiment', 'Segregation der Allele', 'Durchlässigkeit']
+
+Antwort: Überquerung"
+Welcher der folgenden aktiven Kohlenstoffpools ist der größte auf der Erde und trägt am meisten zum Kohlenstoffkreislauf bei?,college_biology,"['Die Atmosphäre', 'Regenwaldvegetation', 'Rückgewinnbare fossile Brennstoffe', 'Die Ozeane']",3,"Frage: Welcher der folgenden aktiven Kohlenstoffpools ist der größte auf der Erde und trägt am meisten zum Kohlenstoffkreislauf bei?
+
+Antwortoptionen: ['Die Atmosphäre', 'Regenwaldvegetation', 'Rückgewinnbare fossile Brennstoffe', 'Die Ozeane']
+
+Antwort: Die Ozeane"
+Charles Darwins vorgeschlagene Bedingungen für die natürliche Selektion umfassen alle folgenden Bedingungen in Bezug auf eine bestimmte Population,college_biology,"['Vererbung von 'passenden' und 'unpassenden' Genen', 'Differenzielle Überlebens- und Fortpflanzungserfolge', 'Wettbewerb um begrenzte Ressourcen', 'Überproduktion von Nachkommen']",0,"Frage: Charles Darwins vorgeschlagene Bedingungen für die natürliche Selektion umfassen alle folgenden Bedingungen in Bezug auf eine bestimmte Population
+
+Antwortoptionen: ['Vererbung von 'passenden' und 'unpassenden' Genen', 'Differenzielle Überlebens- und Fortpflanzungserfolge', 'Wettbewerb um begrenzte Ressourcen', 'Überproduktion von Nachkommen']
+
+Antwort: Vererbung von ""passenden"" und ""unpassenden"" Genen"
+Welche der folgenden Aussagen ist die richtige Aussage über die Kohäsionsspannungstheorie für den Aufstieg des Wassers im Xylem?,college_biology,"['Die Verdunstung von Wasser aus den Blattmesophyllzellen erzeugt Spannungen in der Wassersäule.', 'Wasser bewegt sich von einer Quellregion mit hohem hydrostatischen Druck zu einer Senkregion mit niedrigem hydrostatischen Druck.', 'Die Kohäsion der Wassermoleküle ist für die Bildung von Embolien (Luftblasen) in der Wassersäule verantwortlich.', 'Die lebenden Zellen des Xylems bilden den Hauptkanal für den Aufstieg des Wassers.']",0,"Frage: Welche der folgenden Aussagen ist die richtige Aussage über die Kohäsionsspannungstheorie für den Aufstieg des Wassers im Xylem?
+
+Antwortoptionen: ['Die Verdunstung von Wasser aus den Blattmesophyllzellen erzeugt Spannungen in der Wassersäule.', 'Wasser bewegt sich von einer Quellregion mit hohem hydrostatischen Druck zu einer Senkregion mit niedrigem hydrostatischen Druck.', 'Die Kohäsion der Wassermoleküle ist für die Bildung von Embolien (Luftblasen) in der Wassersäule verantwortlich.', 'Die lebenden Zellen des Xylems bilden den Hauptkanal für den Aufstieg des Wassers.']
+
+Antwort: Die Verdunstung von Wasser aus den Blattmesophyllzellen erzeugt Spannungen in der Wassersäule."
+Bei Pilzen werden die Zellwände durch welche der folgenden Eigenschaften verstärkt?,college_biology,"['Chitin', 'Kieselsäure', 'Lignine', 'Kollagenfasern']",0,"Frage: Bei Pilzen werden die Zellwände durch welche der folgenden Eigenschaften verstärkt?
+
+Antwortoptionen: ['Chitin', 'Kieselsäure', 'Lignine', 'Kollagenfasern']
+
+Antwort: Chitin"
+"In Pflanzen sind Protonenpumpen an dem Prozess beteiligt, bei dem Zucker zum Transport in das Floem geladen wird.",college_biology,"['Es ist passiv.', 'Es hängt von der DNA ab.', 'Es benötigt ATP.', 'Es verdrängt die Stärke.']",2,"Frage: In Pflanzen sind Protonenpumpen an dem Prozess beteiligt, bei dem Zucker zum Transport in das Floem geladen wird.
+
+Antwortoptionen: ['Es ist passiv.', 'Es hängt von der DNA ab.', 'Es benötigt ATP.', 'Es verdrängt die Stärke.']
+
+Antwort: Es benötigt ATP."
+Welche der folgenden Merkmale sind für eine frühe Pflanzengemeinschaft vorhersehbar?,college_biology,"['Hohe Nischendivergenz bei gleichzeitig vorkommenden Arten', 'Hohe Anteile der Primärproduktion an der Biomasse der Stehpflanzen', 'Hohe Häufigkeit von K-selektierten Arten', 'Biomasse mit hohem Detritalgehalt']",1,"Frage: Welche der folgenden Merkmale sind für eine frühe Pflanzengemeinschaft vorhersehbar?
+
+Antwortoptionen: ['Hohe Nischendivergenz bei gleichzeitig vorkommenden Arten', 'Hohe Anteile der Primärproduktion an der Biomasse der Stehpflanzen', 'Hohe Häufigkeit von K-selektierten Arten', 'Biomasse mit hohem Detritalgehalt']
+
+Antwort: Hohe Anteile der Primärproduktion an der Biomasse der Stehpflanzen"
+Welcher der folgenden ist der symplastische Weg für die Bewegung von Saccharose vom Ort der Photosynthese in Mesophyllzellen in das Floem?,college_biology,"['Fasern, Phlomparenchym, Begleitzelle, Siebrohr', 'Flömenparenchym, Fasern, Bündelhülle, Luftröhre', 'Begleitzellen, Flömenparenchym, Fasern, Siebrohr', 'Bündelhülle, Phlomparenchym, Begleitzelle, Siebrohr']",3,"Frage: Welcher der folgenden ist der symplastische Weg für die Bewegung von Saccharose vom Ort der Photosynthese in Mesophyllzellen in das Floem?
+
+Antwortoptionen: ['Fasern, Phlomparenchym, Begleitzelle, Siebrohr', 'Flömenparenchym, Fasern, Bündelhülle, Luftröhre', 'Begleitzellen, Flömenparenchym, Fasern, Siebrohr', 'Bündelhülle, Phlomparenchym, Begleitzelle, Siebrohr']
+
+Antwort: Bündelhülle, Phlomparenchym, Begleitzelle, Siebrohr"

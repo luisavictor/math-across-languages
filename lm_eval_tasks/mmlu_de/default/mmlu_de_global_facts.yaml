@@ -1,0 +1,8 @@
+include: _default_template_yaml
+"task": "mmlu_de_global_facts"
+"task_alias": "global_facts"
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_German/mmlu_de_by_subject/global_facts.csv
+
+test_split: test

@@ -1,0 +1,9 @@
+include: _default_template_yaml
+"task": "mmlu_de_human_sexuality"
+"task_alias": "human_sexuality"
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_German/mmlu_de_by_subject/human_sexuality.csv
+
+test_split: test

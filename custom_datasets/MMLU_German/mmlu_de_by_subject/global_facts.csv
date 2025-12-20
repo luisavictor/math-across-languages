@@ -1,0 +1,501 @@
+question,subject,choices,answer,qa
+Wie viel Prozent der Erwachsenen im Alter von 18 Jahren oder älter waren 2016 übergewichtig?,global_facts,"['10 v. H.', '20%', '40 v. H.', '80 v. H.']",2,"Frage: Wie viel Prozent der Erwachsenen im Alter von 18 Jahren oder älter waren 2016 übergewichtig?
+
+Antwortoptionen: ['10 v. H.', '20%', '40 v. H.', '80 v. H.']
+
+Antwort: 40 v. H."
+"Was war das Bruttoinlandsprodukt pro Kopf in den Vereinigten Staaten im Jahr 1850, wenn man die Inflation und die KKP in Preisen von 2011 berücksichtigt?",global_facts,"['Ungefähr 300 Dollar.', 'Ungefähr 3000 Dollar.', 'Etwa achttausend Dollar.', 'Ungefähr 15.000 Dollar.']",1,"Frage: Was war das Bruttoinlandsprodukt pro Kopf in den Vereinigten Staaten im Jahr 1850, wenn man die Inflation und die KKP in Preisen von 2011 berücksichtigt?
+
+Antwortoptionen: ['Ungefähr 300 Dollar.', 'Ungefähr 3000 Dollar.', 'Etwa achttausend Dollar.', 'Ungefähr 15.000 Dollar.']
+
+Antwort: Ungefähr 3000 Dollar."
+"Wie viel Prozent der Amerikaner sagen, dass Homosexualität von der Gesellschaft akzeptiert werden sollte?",global_facts,"['52%', '62%', '72%', '82 v. H.']",2,"Frage: Wie viel Prozent der Amerikaner sagen, dass Homosexualität von der Gesellschaft akzeptiert werden sollte?
+
+Antwortoptionen: ['52%', '62%', '72%', '82 v. H.']
+
+Antwort: 72%"
+Welches der folgenden Länder erzeugte 2019 die meiste Gesamtenergie aus Solarquellen?,global_facts,"['Vereinigtes Königreich', 'Vereinigte Staaten', 'Vereinigtes Königreich', 'Japan']",0,"Frage: Welches der folgenden Länder erzeugte 2019 die meiste Gesamtenergie aus Solarquellen?
+
+Antwortoptionen: ['Vereinigtes Königreich', 'Vereinigte Staaten', 'Vereinigtes Königreich', 'Japan']
+
+Antwort: Vereinigtes Königreich"
+"Wenn man die Inflation und die KKP-Anpassung berücksichtigt, um wie viel stieg das Pro-Kopf-BIP von 1950 bis 2016 in Japan?",global_facts,"['um das Fünffache', 'um das Zehnfache', 'um das 15-fache', 'um das 20-fache']",2,"Frage: Wenn man die Inflation und die KKP-Anpassung berücksichtigt, um wie viel stieg das Pro-Kopf-BIP von 1950 bis 2016 in Japan?
+
+Antwortoptionen: ['um das Fünffache', 'um das Zehnfache', 'um das 15-fache', 'um das 20-fache']
+
+Antwort: um das 15-fache"
+Was ist die häufigste Todesursache bei Kindern unter fünf Jahren (Stand 2017)?,global_facts,"['Infektionen der unteren Atemwege', 'Komplikationen bei Frühgeburten', 'Durchfallerkrankungen', 'Malaria']",0,"Frage: Was ist die häufigste Todesursache bei Kindern unter fünf Jahren (Stand 2017)?
+
+Antwortoptionen: ['Infektionen der unteren Atemwege', 'Komplikationen bei Frühgeburten', 'Durchfallerkrankungen', 'Malaria']
+
+Antwort: Infektionen der unteren Atemwege"
+Wie viel Prozent der Weltbevölkerung hat 2019 keinen Zugang zu sauberem Trinkwasser?,global_facts,"['10 v. H.', '20%', '30 v. H.', '40 v. H.']",2,"Frage: Wie viel Prozent der Weltbevölkerung hat 2019 keinen Zugang zu sauberem Trinkwasser?
+
+Antwortoptionen: ['10 v. H.', '20%', '30 v. H.', '40 v. H.']
+
+Antwort: 30 v. H."
+"Wie viel Prozent der Befragten aus Indien berichten, dass sie im letzten Jahr eine Bestechung bezahlt haben, um Zugang zu öffentlichen Dienstleistungen (wie Bildung, Justiz, Medizin und Gesundheit, Polizei, Registrierungs- und Genehmigungsdienste, Versorgungsunternehmen, Steuereinnahmen und Zoll und Landdienst) zu erhalten?",global_facts,"['29%', '49%', '69%', '89%']",2,"Frage: Wie viel Prozent der Befragten aus Indien berichten, dass sie im letzten Jahr eine Bestechung bezahlt haben, um Zugang zu öffentlichen Dienstleistungen (wie Bildung, Justiz, Medizin und Gesundheit, Polizei, Registrierungs- und Genehmigungsdienste, Versorgungsunternehmen, Steuereinnahmen und Zoll und Landdienst) zu erhalten?
+
+Antwortoptionen: ['29%', '49%', '69%', '89%']
+
+Antwort: 69%"
+Wie viel Prozent der brasilianischen Bevölkerung nutzte das Internet in den letzten drei Monaten?,global_facts,"['18 v. H.', '38 v. H.', '58%', '78%']",2,"Frage: Wie viel Prozent der brasilianischen Bevölkerung nutzte das Internet in den letzten drei Monaten?
+
+Antwortoptionen: ['18 v. H.', '38 v. H.', '58%', '78%']
+
+Antwort: 58%"
+Wie viel Prozent der indischen Bevölkerung nutzte das Internet in den letzten drei Monaten?,global_facts,"['11%', '26 v. H.', '41%', '56%']",1,"Frage: Wie viel Prozent der indischen Bevölkerung nutzte das Internet in den letzten drei Monaten?
+
+Antwortoptionen: ['11%', '26 v. H.', '41%', '56%']
+
+Antwort: 26 v. H."
+"Ab 2018 über welchen Prozentsatz der Inder sagen, dass mit einer zunehmenden Anzahl von Menschen aus vielen verschiedenen Rassen ethnischen Gruppen und Nationalitäten in ihrem Land zu einem besseren Ort zum Leben macht (im Gegensatz zu einem schlechteren oder keinem Unterschied)?",global_facts,"['23 v. H.', '38 v. H.', '53%', '68%']",3,"Frage: Ab 2018 über welchen Prozentsatz der Inder sagen, dass mit einer zunehmenden Anzahl von Menschen aus vielen verschiedenen Rassen ethnischen Gruppen und Nationalitäten in ihrem Land zu einem besseren Ort zum Leben macht (im Gegensatz zu einem schlechteren oder keinem Unterschied)?
+
+Antwortoptionen: ['23 v. H.', '38 v. H.', '53%', '68%']
+
+Antwort: 68%"
+"Wie viel Prozent der Weltbevölkerung lebt ab 2019 in extremer Armut (weniger als 1,90 US-Dollar pro Tag)?",global_facts,"['5 v. H.', '10 v. H.', '15 v. H.', '25 v. H.']",1,"Frage: Wie viel Prozent der Weltbevölkerung lebt ab 2019 in extremer Armut (weniger als 1,90 US-Dollar pro Tag)?
+
+Antwortoptionen: ['5 v. H.', '10 v. H.', '15 v. H.', '25 v. H.']
+
+Antwort: 10 v. H."
+Wie viel Prozent der Weltbevölkerung praktizieren ab 2020 den offenen Stuhlgang?,global_facts,"['2%', '4%', '9%', '18 v. H.']",2,"Frage: Wie viel Prozent der Weltbevölkerung praktizieren ab 2020 den offenen Stuhlgang?
+
+Antwortoptionen: ['2%', '4%', '9%', '18 v. H.']
+
+Antwort: 9%"
+"Welches der folgenden Punkte ist nicht Bestandteil des Ansatzes ""Umverteilung mit Wachstum""?",global_facts,"['Gesetzgebung über den Mindestlohn', 'Agrarreform', 'Progressive Besteuerung', 'Erhöhung des Zugangs zur Bildung']",0,"Frage: Welches der folgenden Punkte ist nicht Bestandteil des Ansatzes ""Umverteilung mit Wachstum""?
+
+Antwortoptionen: ['Gesetzgebung über den Mindestlohn', 'Agrarreform', 'Progressive Besteuerung', 'Erhöhung des Zugangs zur Bildung']
+
+Antwort: Gesetzgebung über den Mindestlohn"
+Wie viel Prozent der Weltbevölkerung kannte 1950 lesen und schreiben?,global_facts,"['36 v. H.', '56%', '76%', '96 v. H.']",1,"Frage: Wie viel Prozent der Weltbevölkerung kannte 1950 lesen und schreiben?
+
+Antwortoptionen: ['36 v. H.', '56%', '76%', '96 v. H.']
+
+Antwort: 56%"
+Wie viel Prozent der Erwachsenen im Alter von 18 Jahren oder älter waren 2016 fettleibig?,global_facts,"['6 v. H. und 6 v. H.', '13 v. H.', '27 v. H.', '46%']",1,"Frage: Wie viel Prozent der Erwachsenen im Alter von 18 Jahren oder älter waren 2016 fettleibig?
+
+Antwortoptionen: ['6 v. H. und 6 v. H.', '13 v. H.', '27 v. H.', '46%']
+
+Antwort: 13 v. H."
+"Wie viel Prozent der Deutschen sagen, dass die Beziehung zwischen den USA und Deutschland gut ist?",global_facts,"['34%', '49%', '64%', '79%']",0,"Frage: Wie viel Prozent der Deutschen sagen, dass die Beziehung zwischen den USA und Deutschland gut ist?
+
+Antwortoptionen: ['34%', '49%', '64%', '79%']
+
+Antwort: 34%"
+Wie viel Prozent der Amerikaner leben 2017 in städtischen Gebieten?,global_facts,"['62%', '72%', '82 v. H.', '92 v. H.']",2,"Frage: Wie viel Prozent der Amerikaner leben 2017 in städtischen Gebieten?
+
+Antwortoptionen: ['62%', '72%', '82 v. H.', '92 v. H.']
+
+Antwort: 82 v. H."
+"Was war das Pro-Kopf-BIP in den Vereinigten Staaten im Jahr 1950, wenn man die Inflation und die KKP in Preisen von 2011 berücksichtigt?",global_facts,"['Ungefähr 3000 Dollar.', 'Etwa achttausend Dollar.', 'Ungefähr 15.000 Dollar.', 'Ungefähr 30.000 Dollar.']",2,"Frage: Was war das Pro-Kopf-BIP in den Vereinigten Staaten im Jahr 1950, wenn man die Inflation und die KKP in Preisen von 2011 berücksichtigt?
+
+Antwortoptionen: ['Ungefähr 3000 Dollar.', 'Etwa achttausend Dollar.', 'Ungefähr 15.000 Dollar.', 'Ungefähr 30.000 Dollar.']
+
+Antwort: Ungefähr 15.000 Dollar."
+2016 waren ungefähr wie viele Menschen in den Vereinigten Staaten obdachlos?,global_facts,"['55.000 Einwohner', '550.000', '5.500.000 Personen', '55 Millionen']",1,"Frage: 2016 waren ungefähr wie viele Menschen in den Vereinigten Staaten obdachlos?
+
+Antwortoptionen: ['55.000 Einwohner', '550.000', '5.500.000 Personen', '55 Millionen']
+
+Antwort: 550.000"
+"Wie viele Amerikaner dachten 1965, dass es ein Fehler war, Truppen nach Vietnam zu schicken?",global_facts,"['25 v. H.', '45 v. H.', '65 v. H.', '85 v. H.']",0,"Frage: Wie viele Amerikaner dachten 1965, dass es ein Fehler war, Truppen nach Vietnam zu schicken?
+
+Antwortoptionen: ['25 v. H.', '45 v. H.', '65 v. H.', '85 v. H.']
+
+Antwort: 25 v. H."
+"Ab 2013 ist der Anteil der Menschen in Äthiopien, die denken, dass politische Parteien korrupt sind,",global_facts,"['24 v. H.', '44 v. H.', '64%', '84%']",0,"Frage: Ab 2013 ist der Anteil der Menschen in Äthiopien, die denken, dass politische Parteien korrupt sind,
+
+Antwortoptionen: ['24 v. H.', '44 v. H.', '64%', '84%']
+
+Antwort: 24 v. H."
+"Im Jahr 1997 Die Weltbank stellte fest, dass der Anteil der Weltbevölkerung, der in Ländern mit niedrigem und niedrigem mittleren Einkommen lebt, d.h. Länder mit einem Pro-Kopf-Einkommen von 1230 US-Dollar oder weniger",global_facts,"['25 v. H.', '40 v. H.', '55 v. H.', '75 v. H.']",3,"Frage: Im Jahr 1997 Die Weltbank stellte fest, dass der Anteil der Weltbevölkerung, der in Ländern mit niedrigem und niedrigem mittleren Einkommen lebt, d.h. Länder mit einem Pro-Kopf-Einkommen von 1230 US-Dollar oder weniger
+
+Antwortoptionen: ['25 v. H.', '40 v. H.', '55 v. H.', '75 v. H.']
+
+Antwort: 75 v. H."
+Wie viel Prozent des gesamten indischen BIP entfiel 2015 auf die Landwirtschaft?,global_facts,"['8 v. H.', '16 v. H.', '32 v. H.', '64%']",1,"Frage: Wie viel Prozent des gesamten indischen BIP entfiel 2015 auf die Landwirtschaft?
+
+Antwortoptionen: ['8 v. H.', '16 v. H.', '32 v. H.', '64%']
+
+Antwort: 16 v. H."
+Welche der folgenden Aussagen trifft ab 2020 zu?,global_facts,"['Männer haben eine höhere Wahrscheinlichkeit, an Depressionen zu leiden, und sie haben eine höhere Wahrscheinlichkeit, an einer Alkoholkonsumstörung zu leiden als Frauen.', 'Frauen haben eine höhere Wahrscheinlichkeit, an Depressionen zu leiden, und sie haben eine höhere Wahrscheinlichkeit, an einer Alkoholkonsumstörung zu leiden als Männer.', 'Männer leiden häufiger an Depressionen als Frauen, und Frauen leiden häufiger an Alkoholproblemen als Männer.', 'Frauen leiden häufiger an Depressionen als Männer und Männer leiden häufiger an Alkoholproblemen als Frauen.']",3,"Frage: Welche der folgenden Aussagen trifft ab 2020 zu?
+
+Antwortoptionen: ['Männer haben eine höhere Wahrscheinlichkeit, an Depressionen zu leiden, und sie haben eine höhere Wahrscheinlichkeit, an einer Alkoholkonsumstörung zu leiden als Frauen.', 'Frauen haben eine höhere Wahrscheinlichkeit, an Depressionen zu leiden, und sie haben eine höhere Wahrscheinlichkeit, an einer Alkoholkonsumstörung zu leiden als Männer.', 'Männer leiden häufiger an Depressionen als Frauen, und Frauen leiden häufiger an Alkoholproblemen als Männer.', 'Frauen leiden häufiger an Depressionen als Männer und Männer leiden häufiger an Alkoholproblemen als Frauen.']
+
+Antwort: Frauen leiden häufiger an Depressionen als Männer und Männer leiden häufiger an Alkoholproblemen als Frauen."
+"Wie viel Prozent der Brasilianer sagen, dass Homosexualität von der Gesellschaft akzeptiert werden sollte?",global_facts,"['37%', '47%', '57%', '67%']",3,"Frage: Wie viel Prozent der Brasilianer sagen, dass Homosexualität von der Gesellschaft akzeptiert werden sollte?
+
+Antwortoptionen: ['37%', '47%', '57%', '67%']
+
+Antwort: 67%"
+"Ab 2017 beträgt der Anteil des BIP, den Saudi-Arabien für das Militär ausgibt, etwa",global_facts,"['1%', '3%', '6 v. H. und 6 v. H.', '10 v. H.']",3,"Frage: Ab 2017 beträgt der Anteil des BIP, den Saudi-Arabien für das Militär ausgibt, etwa
+
+Antwortoptionen: ['1%', '3%', '6 v. H. und 6 v. H.', '10 v. H.']
+
+Antwort: 10 v. H."
+Wie viel Anteil des Stroms stammte 2019 aus fossilen Brennstoffen in den Vereinigten Staaten?,global_facts,"['23 v. H.', '43 v. H.', '63%', '83%']",2,"Frage: Wie viel Anteil des Stroms stammte 2019 aus fossilen Brennstoffen in den Vereinigten Staaten?
+
+Antwortoptionen: ['23 v. H.', '43 v. H.', '63%', '83%']
+
+Antwort: 63%"
+"Wie hoch ist der Prozentsatz der Kinder im Alter von 13 bis 15 Jahren in Ägypten, die berichteten, in den letzten Monaten mindestens einmal gemobbt worden zu sein?",global_facts,"['10 v. H.', '30 v. H.', '50 v. H.', '70 v. H.']",3,"Frage: Wie hoch ist der Prozentsatz der Kinder im Alter von 13 bis 15 Jahren in Ägypten, die berichteten, in den letzten Monaten mindestens einmal gemobbt worden zu sein?
+
+Antwortoptionen: ['10 v. H.', '30 v. H.', '50 v. H.', '70 v. H.']
+
+Antwort: 70 v. H."
+"Wie viel Prozent der Erwachsenen in den USA sagen, dass eine Risikobewertung für Personen, die auf Bewährung sind, eine unangemessene Anwendung algorithmischer Entscheidungsfindung ist?",global_facts,"['26 v. H.', '41%', '56%', 'Siebenundsechzig Prozent']",2,"Frage: Wie viel Prozent der Erwachsenen in den USA sagen, dass eine Risikobewertung für Personen, die auf Bewährung sind, eine unangemessene Anwendung algorithmischer Entscheidungsfindung ist?
+
+Antwortoptionen: ['26 v. H.', '41%', '56%', 'Siebenundsechzig Prozent']
+
+Antwort: 56%"
+Wie viele Hühner wurden 2018 für die Fleischproduktion getötet?,global_facts,"['690 Millionen', '6,9 Milliarden', '69 Milliarden', '690 Milliarden']",2,"Frage: Wie viele Hühner wurden 2018 für die Fleischproduktion getötet?
+
+Antwortoptionen: ['690 Millionen', '6,9 Milliarden', '69 Milliarden', '690 Milliarden']
+
+Antwort: 69 Milliarden"
+Wie viel Prozent der Bevölkerung im Südsudan hatte 2016 Zugang zu Elektrizität?,global_facts,"['9%', '29%', '59%', '79%']",0,"Frage: Wie viel Prozent der Bevölkerung im Südsudan hatte 2016 Zugang zu Elektrizität?
+
+Antwortoptionen: ['9%', '29%', '59%', '79%']
+
+Antwort: 9%"
+"Wie viel Prozent der Befragten aus Mexiko berichten, dass sie im letzten Jahr eine Bestechung bezahlt haben, um Zugang zu öffentlichen Dienstleistungen (wie Bildung, Justiz, Medizin und Gesundheit, Polizei, Registrierungs- und Genehmigungsdienste, Versorgungsunternehmen, Steuereinnahmen und Zoll und Landdienst) zu erhalten?",global_facts,"['31%', '51 v. H.', 'Siebenundsechzig Prozent', '91%']",1,"Frage: Wie viel Prozent der Befragten aus Mexiko berichten, dass sie im letzten Jahr eine Bestechung bezahlt haben, um Zugang zu öffentlichen Dienstleistungen (wie Bildung, Justiz, Medizin und Gesundheit, Polizei, Registrierungs- und Genehmigungsdienste, Versorgungsunternehmen, Steuereinnahmen und Zoll und Landdienst) zu erhalten?
+
+Antwortoptionen: ['31%', '51 v. H.', 'Siebenundsechzig Prozent', '91%']
+
+Antwort: 51 v. H."
+"Wenn man die Inflation und die PPP-Anpassung berücksichtigt, um wie viel stieg das Pro-Kopf-BIP von 1950 bis 2016 in China?",global_facts,"['um das Vierfache', 'um das 8-fache', 'um das 16-fache', 'um das 32-fache']",2,"Frage: Wenn man die Inflation und die PPP-Anpassung berücksichtigt, um wie viel stieg das Pro-Kopf-BIP von 1950 bis 2016 in China?
+
+Antwortoptionen: ['um das Vierfache', 'um das 8-fache', 'um das 16-fache', 'um das 32-fache']
+
+Antwort: um das 16-fache"
+"Ross Perot schreibt Umfragengeschichte, indem er im Juni kurzzeitig als Kandidat einer dritten Partei mit 39% an der Spitze der Präsidentschaftswahl stand.",global_facts,"['1 und 2', 'Sieben', '13 und', 'Siehe Nr. 19']",3,"Frage: Ross Perot schreibt Umfragengeschichte, indem er im Juni kurzzeitig als Kandidat einer dritten Partei mit 39% an der Spitze der Präsidentschaftswahl stand.
+
+Antwortoptionen: ['1 und 2', 'Sieben', '13 und', 'Siehe Nr. 19']
+
+Antwort: Siehe Nr. 19"
+"Wie viel Prozent der Türken sagen, dass Gott eine wichtige Rolle in ihrem Leben spielt?",global_facts,"['59%', '69%', '79%', '89%']",3,"Frage: Wie viel Prozent der Türken sagen, dass Gott eine wichtige Rolle in ihrem Leben spielt?
+
+Antwortoptionen: ['59%', '69%', '79%', '89%']
+
+Antwort: 89%"
+Welche der folgenden Krankheiten war im 20. Jahrhundert für die meisten Todesfälle verantwortlich?,global_facts,"['Erdbeben', 'Vulkanische Aktivität', 'Waldbrände', 'Überschwemmungen']",3,"Frage: Welche der folgenden Krankheiten war im 20. Jahrhundert für die meisten Todesfälle verantwortlich?
+
+Antwortoptionen: ['Erdbeben', 'Vulkanische Aktivität', 'Waldbrände', 'Überschwemmungen']
+
+Antwort: Überschwemmungen"
+"Wie hoch ist der Prozentsatz der Kinder im Alter von 13-15 Jahren in den Vereinigten Staaten, die berichteten, in der Schule in einem körperlichen Kampf gewesen zu sein, ein oder mehrere Male in den letzten 12 Monaten ab 2015?",global_facts,"['15 v. H.', '35 v. H.', '55 v. H.', '75 v. H.']",1,"Frage: Wie hoch ist der Prozentsatz der Kinder im Alter von 13-15 Jahren in den Vereinigten Staaten, die berichteten, in der Schule in einem körperlichen Kampf gewesen zu sein, ein oder mehrere Male in den letzten 12 Monaten ab 2015?
+
+Antwortoptionen: ['15 v. H.', '35 v. H.', '55 v. H.', '75 v. H.']
+
+Antwort: 35 v. H."
+"Wenn man die Inflation und die PPP-Anpassung berücksichtigt, um wie viel stieg das Pro-Kopf-BIP von 1950 bis 2016 in Südkorea?",global_facts,"['um das Vierfache', 'um das 8-fache', 'um das 16-fache', 'um das 32-fache']",3,"Frage: Wenn man die Inflation und die PPP-Anpassung berücksichtigt, um wie viel stieg das Pro-Kopf-BIP von 1950 bis 2016 in Südkorea?
+
+Antwortoptionen: ['um das Vierfache', 'um das 8-fache', 'um das 16-fache', 'um das 32-fache']
+
+Antwort: um das 32-fache"
+"Wie viel Prozent der Menschen in der Türkei sind 2019 damit einverstanden, dass der Staat zum Wohle aller Menschen geführt wird?",global_facts,"['36 v. H.', '51 v. H.', '66%', '81%']",2,"Frage: Wie viel Prozent der Menschen in der Türkei sind 2019 damit einverstanden, dass der Staat zum Wohle aller Menschen geführt wird?
+
+Antwortoptionen: ['36 v. H.', '51 v. H.', '66%', '81%']
+
+Antwort: 66%"
+Wie viel Prozent der Weltbevölkerung über 15 Jahre kannte 2015 lesen und schreiben?,global_facts,"['81%', '86%', '91%', '96 v. H.']",1,"Frage: Wie viel Prozent der Weltbevölkerung über 15 Jahre kannte 2015 lesen und schreiben?
+
+Antwortoptionen: ['81%', '86%', '91%', '96 v. H.']
+
+Antwort: 86%"
+"Wie viel Prozent der Befragten aus China berichten, dass sie im letzten Jahr eine Bestechung bezahlt haben, um Zugang zu öffentlichen Dienstleistungen (wie Bildung, Justiz, Medizin und Gesundheit, Polizei, Registrierungs- und Genehmigungsdienste, Versorgungsunternehmen, Steuereinnahmen und Zoll und Landdienst) zu erhalten?",global_facts,"['26 v. H.', '46%', '66%', '86%']",0,"Frage: Wie viel Prozent der Befragten aus China berichten, dass sie im letzten Jahr eine Bestechung bezahlt haben, um Zugang zu öffentlichen Dienstleistungen (wie Bildung, Justiz, Medizin und Gesundheit, Polizei, Registrierungs- und Genehmigungsdienste, Versorgungsunternehmen, Steuereinnahmen und Zoll und Landdienst) zu erhalten?
+
+Antwortoptionen: ['26 v. H.', '46%', '66%', '86%']
+
+Antwort: 26 v. H."
+Ab 2019 hatte welches der folgenden Länder die niedrigste Lebenserwartung?,global_facts,"['Griechenland', 'Vereinigtes Königreich', 'Mexiko', 'Iran']",2,"Frage: Ab 2019 hatte welches der folgenden Länder die niedrigste Lebenserwartung?
+
+Antwortoptionen: ['Griechenland', 'Vereinigtes Königreich', 'Mexiko', 'Iran']
+
+Antwort: Mexiko"
+Ab 2019 ist unsauberes Wasser für ungefähr wie viele Todesfälle pro Jahr verantwortlich?,global_facts,"['1,2 Millionen', '2,4 Millionen', '3,6 Millionen', '4,8 Millionen']",0,"Frage: Ab 2019 ist unsauberes Wasser für ungefähr wie viele Todesfälle pro Jahr verantwortlich?
+
+Antwortoptionen: ['1,2 Millionen', '2,4 Millionen', '3,6 Millionen', '4,8 Millionen']
+
+Antwort: 1,2 Millionen"
+Welche der folgenden Krankheiten verursacht jedes Jahr weltweit mehr Todesfälle (Stand 2017)?,global_facts,"['Durchfallerkrankungen', 'Zuckerkrankheit', 'Demenz', 'Verletzungen im Straßenverkehr']",2,"Frage: Welche der folgenden Krankheiten verursacht jedes Jahr weltweit mehr Todesfälle (Stand 2017)?
+
+Antwortoptionen: ['Durchfallerkrankungen', 'Zuckerkrankheit', 'Demenz', 'Verletzungen im Straßenverkehr']
+
+Antwort: Demenz"
+Wie viele Menschen sind im Jahr 2020 mit HIV/AIDS infiziert?,global_facts,"['3 Millionen', '14 Millionen', '42 Millionen', '124 Millionen']",2,"Frage: Wie viele Menschen sind im Jahr 2020 mit HIV/AIDS infiziert?
+
+Antwortoptionen: ['3 Millionen', '14 Millionen', '42 Millionen', '124 Millionen']
+
+Antwort: 42 Millionen"
+"Wie hoch ist der Prozentsatz der 13- bis 15-jährigen Kinder in den Vereinigten Staaten, die berichteten, dass sie in den letzten Monaten mindestens einmal gemobbt wurden?",global_facts,"['26 v. H.', '46%', '66%', '86%']",0,"Frage: Wie hoch ist der Prozentsatz der 13- bis 15-jährigen Kinder in den Vereinigten Staaten, die berichteten, dass sie in den letzten Monaten mindestens einmal gemobbt wurden?
+
+Antwortoptionen: ['26 v. H.', '46%', '66%', '86%']
+
+Antwort: 26 v. H."
+"Wie viel Prozent der Südkoreaner sagen, dass es notwendig ist, an Gott zu glauben, um moralisch zu sein und gute Werte zu haben?",global_facts,"['25 v. H.', '45 v. H.', '65 v. H.', '85 v. H.']",1,"Frage: Wie viel Prozent der Südkoreaner sagen, dass es notwendig ist, an Gott zu glauben, um moralisch zu sein und gute Werte zu haben?
+
+Antwortoptionen: ['25 v. H.', '45 v. H.', '65 v. H.', '85 v. H.']
+
+Antwort: 45 v. H."
+"Wie hoch ist der Prozentsatz der Kinder im Alter von 13 bis 15 Jahren in Japan, die berichteten, in den letzten Monaten mindestens einmal gemobbt worden zu sein?",global_facts,"['6 v. H. und 6 v. H.', '16 v. H.', '36 v. H.', '66%']",2,"Frage: Wie hoch ist der Prozentsatz der Kinder im Alter von 13 bis 15 Jahren in Japan, die berichteten, in den letzten Monaten mindestens einmal gemobbt worden zu sein?
+
+Antwortoptionen: ['6 v. H. und 6 v. H.', '16 v. H.', '36 v. H.', '66%']
+
+Antwort: 36 v. H."
+"Wie viel Prozent der Erwachsenen in den USA sagen, dass Computerprogramme immer menschliche Vorurteile widerspiegeln?",global_facts,"['43 v. H.', '58%', '73%', '88%']",1,"Frage: Wie viel Prozent der Erwachsenen in den USA sagen, dass Computerprogramme immer menschliche Vorurteile widerspiegeln?
+
+Antwortoptionen: ['43 v. H.', '58%', '73%', '88%']
+
+Antwort: 58%"
+"Ab 2017 beträgt der Anteil des BIP, den China für das Militär ausgibt, etwa",global_facts,"['0,50 v. H.', '2%', '6 v. H. und 6 v. H.', '12 v. H.']",1,"Frage: Ab 2017 beträgt der Anteil des BIP, den China für das Militär ausgibt, etwa
+
+Antwortoptionen: ['0,50 v. H.', '2%', '6 v. H. und 6 v. H.', '12 v. H.']
+
+Antwort: 2%"
+"Die Vermutung, dass die Ungleichheit zunächst mit der Entwicklung zunimmt und dann mit der weiteren Entwicklung abnimmt (bekannt als umgekehrte U-Hypothese), wurde ab 2020",global_facts,"['stark von den meisten Studien unterstützt', 'hauptsächlich durch Querschnittsstudien und nicht durch Zeitreihenuntersuchungen unterstützt', 'hauptsächlich durch Zeitreihen und nicht durch Querschnittsstudien unterstützt', 'allgemein durch empirische Studien abgelehnt']",1,"Frage: Die Vermutung, dass die Ungleichheit zunächst mit der Entwicklung zunimmt und dann mit der weiteren Entwicklung abnimmt (bekannt als umgekehrte U-Hypothese), wurde ab 2020
+
+Antwortoptionen: ['stark von den meisten Studien unterstützt', 'hauptsächlich durch Querschnittsstudien und nicht durch Zeitreihenuntersuchungen unterstützt', 'hauptsächlich durch Zeitreihen und nicht durch Querschnittsstudien unterstützt', 'allgemein durch empirische Studien abgelehnt']
+
+Antwort: hauptsächlich durch Querschnittsstudien und nicht durch Zeitreihenuntersuchungen unterstützt"
+Weltweit haben 30-jährige Männer im Durchschnitt 10 Jahre in der Schule verbracht. Wie viele Jahre haben Frauen desselben Alters im Jahr 2020 in der Schule verbracht?,global_facts,"['12 Jahre', '9 Jahre', '6 Jahre', '3 Jahre']",1,"Frage: Weltweit haben 30-jährige Männer im Durchschnitt 10 Jahre in der Schule verbracht. Wie viele Jahre haben Frauen desselben Alters im Jahr 2020 in der Schule verbracht?
+
+Antwortoptionen: ['12 Jahre', '9 Jahre', '6 Jahre', '3 Jahre']
+
+Antwort: 9 Jahre"
+Ab 2017 liegt der Anteil der Todesfälle durch Selbstmord in Grönland bei etwa,global_facts,"['0,90%', '1,80%', '3,60%', '7,20%']",3,"Frage: Ab 2017 liegt der Anteil der Todesfälle durch Selbstmord in Grönland bei etwa
+
+Antwortoptionen: ['0,90%', '1,80%', '3,60%', '7,20%']
+
+Antwort: 7,20%"
+"Wie viel Prozent der Menschen in Russland sagen, dass Homosexualität von der Gesellschaft akzeptiert werden sollte?",global_facts,"['14 v. H.', '24 v. H.', '34%', '44 v. H.']",0,"Frage: Wie viel Prozent der Menschen in Russland sagen, dass Homosexualität von der Gesellschaft akzeptiert werden sollte?
+
+Antwortoptionen: ['14 v. H.', '24 v. H.', '34%', '44 v. H.']
+
+Antwort: 14 v. H."
+"Wie viel Prozent der Amerikaner sagen, dass die Beziehung zwischen den USA und Deutschland gut ist?",global_facts,"['60 v. H.', '75 v. H.', '90 v. H.', '45 v. H.']",1,"Frage: Wie viel Prozent der Amerikaner sagen, dass die Beziehung zwischen den USA und Deutschland gut ist?
+
+Antwortoptionen: ['60 v. H.', '75 v. H.', '90 v. H.', '45 v. H.']
+
+Antwort: 75 v. H."
+"Wie viel Prozent der Amerikaner sagen, dass es sehr wichtig ist, in unserem Land freie Medien ohne staatliche Zensur zu haben?",global_facts,"['50 v. H.', '60 v. H.', '70 v. H.', '80 v. H.']",3,"Frage: Wie viel Prozent der Amerikaner sagen, dass es sehr wichtig ist, in unserem Land freie Medien ohne staatliche Zensur zu haben?
+
+Antwortoptionen: ['50 v. H.', '60 v. H.', '70 v. H.', '80 v. H.']
+
+Antwort: 80 v. H."
+"1987 während der Iran-Contras, wie viel Prozent der Amerikaner glauben, dass Reagan Informationen zurückgehalten hat?",global_facts,"['2%', '25 v. H.', '50 v. H.', '75 v. H.']",3,"Frage: 1987 während der Iran-Contras, wie viel Prozent der Amerikaner glauben, dass Reagan Informationen zurückgehalten hat?
+
+Antwortoptionen: ['2%', '25 v. H.', '50 v. H.', '75 v. H.']
+
+Antwort: 75 v. H."
+"In Afrika südlich der Sahara, ab 2020:",global_facts,"['Keine Nation konnte in den vergangenen Jahren wachsen.', 'Die Demokratische Republik Kongo ist ärmer geworden, als sie es ursprünglich 1980 war.', 'Einige Länder verzeichneten relativ hohe Wachstumsraten.', 'Einige Länder verzeichneten relativ starke Wachstumsraten, aber die Demokratische Republik Kongo ist ärmer geworden, als sie es ursprünglich 1980 war.']",2,"Frage: In Afrika südlich der Sahara, ab 2020:
+
+Antwortoptionen: ['Keine Nation konnte in den vergangenen Jahren wachsen.', 'Die Demokratische Republik Kongo ist ärmer geworden, als sie es ursprünglich 1980 war.', 'Einige Länder verzeichneten relativ hohe Wachstumsraten.', 'Einige Länder verzeichneten relativ starke Wachstumsraten, aber die Demokratische Republik Kongo ist ärmer geworden, als sie es ursprünglich 1980 war.']
+
+Antwort: Einige Länder verzeichneten relativ hohe Wachstumsraten."
+"Die Daten der Weltbank zeigen, daß 1995 die ärmsten 20% der Haushalte entfielen auf 7,5% des Haushaltseinkommens in Niger Die nächsten 20% der Haushalte entfielen auf 11,8% des Einkommens. Die mittleren 20% entfielen auf 15,5% des Einkommens. Die zweitgrößten 20% machten 21,1% des Einkommens aus. und die obersten 20% entfielen auf 44,1% des Einkommens Wie hoch war der kumulierte Einkommensanteil der untersten 60% der Haushalte in Niger?",global_facts,"['15,50%', '34,80%', '48,10 v. H.', '65,20%']",1,"Frage: Die Daten der Weltbank zeigen, daß 1995 die ärmsten 20% der Haushalte entfielen auf 7,5% des Haushaltseinkommens in Niger Die nächsten 20% der Haushalte entfielen auf 11,8% des Einkommens. Die mittleren 20% entfielen auf 15,5% des Einkommens. Die zweitgrößten 20% machten 21,1% des Einkommens aus. und die obersten 20% entfielen auf 44,1% des Einkommens Wie hoch war der kumulierte Einkommensanteil der untersten 60% der Haushalte in Niger?
+
+Antwortoptionen: ['15,50%', '34,80%', '48,10 v. H.', '65,20%']
+
+Antwort: 34,80%"
+Wie viele Kinder im Alter von 5-14 Jahren arbeiteten weltweit im Jahr 2012?,global_facts,"['5 Millionen', '30 Millionen', '150 Millionen', '500 Millionen']",2,"Frage: Wie viele Kinder im Alter von 5-14 Jahren arbeiteten weltweit im Jahr 2012?
+
+Antwortoptionen: ['5 Millionen', '30 Millionen', '150 Millionen', '500 Millionen']
+
+Antwort: 150 Millionen"
+"Unterschiedliche weniger entwickelte Länder haben unterschiedliche Ebenen der Sekundarstufe Einschreibung. Einige Länder mit hoher Sekundarstufe Einschreibung sind, ab 2020,",global_facts,"['Kolumbien, Peru, Uruguay und Costa Rica.', 'Bhutan, Niger, Kambodscha und Costa Rica.', 'Uruguay, Costa Rica, Osttimor und Pakistan.', 'Bhutan, Kambodscha, Uruguay und Costa Rica.']",0,"Frage: Unterschiedliche weniger entwickelte Länder haben unterschiedliche Ebenen der Sekundarstufe Einschreibung. Einige Länder mit hoher Sekundarstufe Einschreibung sind, ab 2020,
+
+Antwortoptionen: ['Kolumbien, Peru, Uruguay und Costa Rica.', 'Bhutan, Niger, Kambodscha und Costa Rica.', 'Uruguay, Costa Rica, Osttimor und Pakistan.', 'Bhutan, Kambodscha, Uruguay und Costa Rica.']
+
+Antwort: Kolumbien, Peru, Uruguay und Costa Rica."
+"Wie hoch war der Prozentsatz der Kinder in Vietnam (8 Jahre alt), die in der vergangenen Woche 2009 von Lehrern körperlich bestraft wurden?",global_facts,"['10 v. H.', '20%', '40 v. H.', '80 v. H.']",1,"Frage: Wie hoch war der Prozentsatz der Kinder in Vietnam (8 Jahre alt), die in der vergangenen Woche 2009 von Lehrern körperlich bestraft wurden?
+
+Antwortoptionen: ['10 v. H.', '20%', '40 v. H.', '80 v. H.']
+
+Antwort: 20%"
+"Wie hoch war der Prozentsatz der Kinder in Indien (8 Jahre alt), die in der vergangenen Woche 2009 von Lehrern körperlich bestraft wurden?",global_facts,"['38 v. H.', '58%', '78%', '98 v. H.']",2,"Frage: Wie hoch war der Prozentsatz der Kinder in Indien (8 Jahre alt), die in der vergangenen Woche 2009 von Lehrern körperlich bestraft wurden?
+
+Antwortoptionen: ['38 v. H.', '58%', '78%', '98 v. H.']
+
+Antwort: 78%"
+"Betrachten wir folgende Aussagen: 1. In jedem Land denken die Menschen, daß andere Individuen in ihrem Land weniger glücklich sind als sie es tatsächlich sind. (2) In den Vereinigten Staaten ist das Glück der Frauen sowohl absolut als auch relativ zum Glück der Männer gestiegen Welche dieser Aussagen sind wahr/falsch?",global_facts,"['Es ist wahr, es ist wahr', 'Wahre und Falsche', 'Falsch, wahr', 'Falsch, Falsch']",1,"Frage: Betrachten wir folgende Aussagen: 1. In jedem Land denken die Menschen, daß andere Individuen in ihrem Land weniger glücklich sind als sie es tatsächlich sind. (2) In den Vereinigten Staaten ist das Glück der Frauen sowohl absolut als auch relativ zum Glück der Männer gestiegen Welche dieser Aussagen sind wahr/falsch?
+
+Antwortoptionen: ['Es ist wahr, es ist wahr', 'Wahre und Falsche', 'Falsch, wahr', 'Falsch, Falsch']
+
+Antwort: Wahre und Falsche"
+Wie viele Menschen starben 2017 weltweit an Terrorismus?,global_facts,"['261 und 262', '2.600 Personen', '26.000', '260.000']",2,"Frage: Wie viele Menschen starben 2017 weltweit an Terrorismus?
+
+Antwortoptionen: ['261 und 262', '2.600 Personen', '26.000', '260.000']
+
+Antwort: 26.000"
+1935 waren ungefähr wie viele Amerikaner für das Sozialversicherungsgesetz?,global_facts,"['90 v. H.', '70 v. H.', '50 v. H.', '30 v. H.']",0,"Frage: 1935 waren ungefähr wie viele Amerikaner für das Sozialversicherungsgesetz?
+
+Antwortoptionen: ['90 v. H.', '70 v. H.', '50 v. H.', '30 v. H.']
+
+Antwort: 90 v. H."
+Welches der folgenden Länder hat 2017 am meisten CO2 pro Kopf ausgestoßen?,global_facts,"['Japan', 'Vereinigtes Königreich', 'Russische Föderation', 'Iran']",1,"Frage: Welches der folgenden Länder hat 2017 am meisten CO2 pro Kopf ausgestoßen?
+
+Antwortoptionen: ['Japan', 'Vereinigtes Königreich', 'Russische Föderation', 'Iran']
+
+Antwort: Vereinigtes Königreich"
+"Wie viel Prozent der Inder sagen, dass es notwendig ist, an Gott zu glauben, um moralisch zu sein und gute Werte zu haben?",global_facts,"['59%', '69%', '79%', '89%']",2,"Frage: Wie viel Prozent der Inder sagen, dass es notwendig ist, an Gott zu glauben, um moralisch zu sein und gute Werte zu haben?
+
+Antwortoptionen: ['59%', '69%', '79%', '89%']
+
+Antwort: 79%"
+"Wie hoch ist der Prozentsatz der Kinder im Alter von 13 bis 15 Jahren in China, die angaben, in den vergangenen 12 Monaten einmal oder mehrmals in einer körperlichen Auseinandersetzung in der Schule verwickelt gewesen zu sein?",global_facts,"['9%', '19 v. H.', '39%', '59%']",1,"Frage: Wie hoch ist der Prozentsatz der Kinder im Alter von 13 bis 15 Jahren in China, die angaben, in den vergangenen 12 Monaten einmal oder mehrmals in einer körperlichen Auseinandersetzung in der Schule verwickelt gewesen zu sein?
+
+Antwortoptionen: ['9%', '19 v. H.', '39%', '59%']
+
+Antwort: 19 v. H."
+"Wie hoch war der Prozentsatz der Kinder in Äthiopien (8 Jahre alt), die in der vergangenen Woche von Lehrern körperlich bestraft wurden?",global_facts,"['18 v. H.', '38 v. H.', '58%', '78%']",1,"Frage: Wie hoch war der Prozentsatz der Kinder in Äthiopien (8 Jahre alt), die in der vergangenen Woche von Lehrern körperlich bestraft wurden?
+
+Antwortoptionen: ['18 v. H.', '38 v. H.', '58%', '78%']
+
+Antwort: 38 v. H."
+"Ab 2018 über welchen Prozentsatz der Menschen aus Tunesien sagen, dass mit einer zunehmenden Anzahl von Menschen aus vielen verschiedenen Rassen ethnischen Gruppen und Nationalitäten in ihrem Land zu einem besseren Ort zum Leben macht (im Gegensatz zu einem schlechteren oder keinem Unterschied)?",global_facts,"['24 v. H.', '39%', '54%', '69%']",0,"Frage: Ab 2018 über welchen Prozentsatz der Menschen aus Tunesien sagen, dass mit einer zunehmenden Anzahl von Menschen aus vielen verschiedenen Rassen ethnischen Gruppen und Nationalitäten in ihrem Land zu einem besseren Ort zum Leben macht (im Gegensatz zu einem schlechteren oder keinem Unterschied)?
+
+Antwortoptionen: ['24 v. H.', '39%', '54%', '69%']
+
+Antwort: 24 v. H."
+Im Jahr 2015 lag die weltweite Fruchtbarkeitsrate bei etwa,global_facts,"['1,5 Kinder pro Frau', '2,5 Kinder pro Frau', '3,5 Kinder pro Frau', '4,5 Kinder pro Frau']",1,"Frage: Im Jahr 2015 lag die weltweite Fruchtbarkeitsrate bei etwa
+
+Antwortoptionen: ['1,5 Kinder pro Frau', '2,5 Kinder pro Frau', '3,5 Kinder pro Frau', '4,5 Kinder pro Frau']
+
+Antwort: 2,5 Kinder pro Frau"
+Wie hoch ist das mittlere internationale Einkommen im Jahr 2020?,global_facts,"['300 Dollar .', '$1.000', 'Zehntausend Dollar.', '30.000 Dollar.']",2,"Frage: Wie hoch ist das mittlere internationale Einkommen im Jahr 2020?
+
+Antwortoptionen: ['300 Dollar .', '$1.000', 'Zehntausend Dollar.', '30.000 Dollar.']
+
+Antwort: Zehntausend Dollar."
+"Bevor er für eine dritte Amtszeit als Präsident wiedergewählt wurde, wie viele Amerikaner stimmten einer dritten Amtszeit zu?",global_facts,"['20%', '40 v. H.', '60 v. H.', '80 v. H.']",2,"Frage: Bevor er für eine dritte Amtszeit als Präsident wiedergewählt wurde, wie viele Amerikaner stimmten einer dritten Amtszeit zu?
+
+Antwortoptionen: ['20%', '40 v. H.', '60 v. H.', '80 v. H.']
+
+Antwort: 60 v. H."
+"Wie viel Prozent der Italiener sagen, dass es sehr wichtig ist, dass es in unserem Land freie Medien ohne staatliche Zensur gibt?",global_facts,"['41%', '56%', 'Siebenundsechzig Prozent', '86%']",1,"Frage: Wie viel Prozent der Italiener sagen, dass es sehr wichtig ist, dass es in unserem Land freie Medien ohne staatliche Zensur gibt?
+
+Antwortoptionen: ['41%', '56%', 'Siebenundsechzig Prozent', '86%']
+
+Antwort: 56%"
+Die öffentlichen Ausgaben für Bildung in der Welt sind etwa wie viel Prozent des globalen BIP im Jahr 2017?,global_facts,"['1%', '2%', '4%', '8 v. H.']",2,"Frage: Die öffentlichen Ausgaben für Bildung in der Welt sind etwa wie viel Prozent des globalen BIP im Jahr 2017?
+
+Antwortoptionen: ['1%', '2%', '4%', '8 v. H.']
+
+Antwort: 4%"
+Welches der folgenden Länder hatte 2013 die höchste pro-Kopf-Rate an Obdachlosigkeit?,global_facts,"['Vereinigte Staaten', 'Griechenland', 'Griechenland', 'Griechenland']",0,"Frage: Welches der folgenden Länder hatte 2013 die höchste pro-Kopf-Rate an Obdachlosigkeit?
+
+Antwortoptionen: ['Vereinigte Staaten', 'Griechenland', 'Griechenland', 'Griechenland']
+
+Antwort: Vereinigte Staaten"
+Insgesamt ist die Wachstumsrate des Durchschnittseinkommens in den weniger entwickelten Ländern zwischen 1960 und 1995,global_facts,"['war ungefähr Null', 'überstieg die der Länder mit hohem Einkommen', 'übertraf die von Großbritannien während der industriellen Revolution', 'war etwa 3,0% pro Jahr']",2,"Frage: Insgesamt ist die Wachstumsrate des Durchschnittseinkommens in den weniger entwickelten Ländern zwischen 1960 und 1995
+
+Antwortoptionen: ['war ungefähr Null', 'überstieg die der Länder mit hohem Einkommen', 'übertraf die von Großbritannien während der industriellen Revolution', 'war etwa 3,0% pro Jahr']
+
+Antwort: übertraf die von Großbritannien während der industriellen Revolution"
+Wie viel Prozent der weltweiten Landfläche ist 2015 bewaldet?,global_facts,"['15 v. H.', '30 v. H.', '45 v. H.', '60 v. H.']",1,"Frage: Wie viel Prozent der weltweiten Landfläche ist 2015 bewaldet?
+
+Antwortoptionen: ['15 v. H.', '30 v. H.', '45 v. H.', '60 v. H.']
+
+Antwort: 30 v. H."
+Die größte Bevölkerungswachstumsrate,global_facts,"['in Afrika, der ärmsten Region der Welt mit dem niedrigsten Wirtschaftswachstum insgesamt.', 'in Asien, der ärmsten Region der Welt mit einem stetigen Gesamtwirtschaftswachstum.', 'in Asien, der ärmsten Region der Welt mit dem niedrigsten Wirtschaftswachstum.', 'in Afrika, der ärmsten Region der Welt mit einem stetigen allgemeinen Wirtschaftswachstum.']",2,"Frage: Die größte Bevölkerungswachstumsrate
+
+Antwortoptionen: ['in Afrika, der ärmsten Region der Welt mit dem niedrigsten Wirtschaftswachstum insgesamt.', 'in Asien, der ärmsten Region der Welt mit einem stetigen Gesamtwirtschaftswachstum.', 'in Asien, der ärmsten Region der Welt mit dem niedrigsten Wirtschaftswachstum.', 'in Afrika, der ärmsten Region der Welt mit einem stetigen allgemeinen Wirtschaftswachstum.']
+
+Antwort: in Asien, der ärmsten Region der Welt mit dem niedrigsten Wirtschaftswachstum."
+In welcher dieser Altersgruppen ist die weltweite HIV/AIDS-Todesrate am höchsten?,global_facts,"['Unter 5 Jahren', '14. Mai', '15 bis 49', 'über 50']",2,"Frage: In welcher dieser Altersgruppen ist die weltweite HIV/AIDS-Todesrate am höchsten?
+
+Antwortoptionen: ['Unter 5 Jahren', '14. Mai', '15 bis 49', 'über 50']
+
+Antwort: 15 bis 49"
+Wie viel Prozent des gesamten US-BIP entfiel 2015 auf die Landwirtschaft?,global_facts,"['1%', '3%', '9%', '20%']",0,"Frage: Wie viel Prozent des gesamten US-BIP entfiel 2015 auf die Landwirtschaft?
+
+Antwortoptionen: ['1%', '3%', '9%', '20%']
+
+Antwort: 1%"
+Wie viel Prozent der Inder leben 2017 in städtischen Gebieten?,global_facts,"['19 v. H.', '34%', '49%', '64%']",1,"Frage: Wie viel Prozent der Inder leben 2017 in städtischen Gebieten?
+
+Antwortoptionen: ['19 v. H.', '34%', '49%', '64%']
+
+Antwort: 34%"
+"Betrachten wir folgende Aussagen: 1. Wenn Länder reicher werden, neigt die Bevölkerung dazu, eine höhere durchschnittliche Lebenszufriedenheit zu berichten. (2) Wichtige Ereignisse im Leben wie Heirat oder Scheidung beeinflussen zwar unser Glück, haben aber überraschenderweise nur geringe langfristige Auswirkungen Welche dieser Aussagen sind im Jahr 2020 wahr/falsch?",global_facts,"['Es ist wahr, es ist wahr', 'Wahre und Falsche', 'Falsch, wahr', 'Falsch, Falsch']",0,"Frage: Betrachten wir folgende Aussagen: 1. Wenn Länder reicher werden, neigt die Bevölkerung dazu, eine höhere durchschnittliche Lebenszufriedenheit zu berichten. (2) Wichtige Ereignisse im Leben wie Heirat oder Scheidung beeinflussen zwar unser Glück, haben aber überraschenderweise nur geringe langfristige Auswirkungen Welche dieser Aussagen sind im Jahr 2020 wahr/falsch?
+
+Antwortoptionen: ['Es ist wahr, es ist wahr', 'Wahre und Falsche', 'Falsch, wahr', 'Falsch, Falsch']
+
+Antwort: Es ist wahr, es ist wahr"
+"Auf seinem Höhepunkt, was war der ungefähre Unterschied in der Billigung von Schul-Desegregation aus dem Süden und dem Rest der USA?",global_facts,"['80 v. H.', '40 v. H.', '-40 Prozent', '-80%']",1,"Frage: Auf seinem Höhepunkt, was war der ungefähre Unterschied in der Billigung von Schul-Desegregation aus dem Süden und dem Rest der USA?
+
+Antwortoptionen: ['80 v. H.', '40 v. H.', '-40 Prozent', '-80%']
+
+Antwort: 40 v. H."
+"Ab 2013 ist der Anteil der Menschen in den Vereinigten Staaten, die denken, dass politische Parteien korrupt sind,",global_facts,"['36 v. H.', '56%', '76%', '96 v. H.']",2,"Frage: Ab 2013 ist der Anteil der Menschen in den Vereinigten Staaten, die denken, dass politische Parteien korrupt sind,
+
+Antwortoptionen: ['36 v. H.', '56%', '76%', '96 v. H.']
+
+Antwort: 76%"
+Welches der folgenden Länder investierte 2015 den größten Teil seines BIP in erneuerbare Energien?,global_facts,"['Vereinigtes Königreich', 'Japan', 'Griechenland', 'Vereinigtes Königreich']",2,"Frage: Welches der folgenden Länder investierte 2015 den größten Teil seines BIP in erneuerbare Energien?
+
+Antwortoptionen: ['Vereinigtes Königreich', 'Japan', 'Griechenland', 'Vereinigtes Königreich']
+
+Antwort: Griechenland"
+"Wie viel muss man im Jahr 2020 verdienen, um zu den reichsten 1% der Welt zu gehören?",global_facts,"['150.000 Dollar.', 'Siebenundfünfzigtausend Dollar.', '35.000 Dollar.', '15.000 Dollar.']",2,"Frage: Wie viel muss man im Jahr 2020 verdienen, um zu den reichsten 1% der Welt zu gehören?
+
+Antwortoptionen: ['150.000 Dollar.', 'Siebenundfünfzigtausend Dollar.', '35.000 Dollar.', '15.000 Dollar.']
+
+Antwort: 35.000 Dollar."
+Wie viele Amerikaner glaubten 1943 an den Holocaust?,global_facts,"['30 v. H.', '50 v. H.', '70 v. H.', '90 v. H.']",1,"Frage: Wie viele Amerikaner glaubten 1943 an den Holocaust?
+
+Antwortoptionen: ['30 v. H.', '50 v. H.', '70 v. H.', '90 v. H.']
+
+Antwort: 50 v. H."
+Welches der folgenden Länder hat 2017 am meisten CO2 ausgestoßen?,global_facts,"['Vereinigtes Königreich', 'Russische Föderation', 'Iran', 'Japan']",3,"Frage: Welches der folgenden Länder hat 2017 am meisten CO2 ausgestoßen?
+
+Antwortoptionen: ['Vereinigtes Königreich', 'Russische Föderation', 'Iran', 'Japan']
+
+Antwort: Japan"
+"Zum Zeitpunkt der Unabhängigkeit gab es bereits Hunderttausende von Hochschulabsolventen in ____, aber kaum überhaupt in ____.",global_facts,"['Indien, Kongo', 'Indien, Südkorea', 'Kongo, Südkorea', 'Südkorea, Indien']",0,"Frage: Zum Zeitpunkt der Unabhängigkeit gab es bereits Hunderttausende von Hochschulabsolventen in ____, aber kaum überhaupt in ____.
+
+Antwortoptionen: ['Indien, Kongo', 'Indien, Südkorea', 'Kongo, Südkorea', 'Südkorea, Indien']
+
+Antwort: Indien, Kongo"
+"Ab 2013 ist der Anteil der Menschen in Indien, die denken, dass politische Parteien korrupt sind,",global_facts,"['26 v. H.', '46%', '66%', '86%']",3,"Frage: Ab 2013 ist der Anteil der Menschen in Indien, die denken, dass politische Parteien korrupt sind,
+
+Antwortoptionen: ['26 v. H.', '46%', '66%', '86%']
+
+Antwort: 86%"
+"Wie viel Prozent der Franzosen sagen, dass Gott eine wichtige Rolle in ihrem Leben spielt?",global_facts,"['11%', '31%', '51 v. H.', 'Siebenundsechzig Prozent']",1,"Frage: Wie viel Prozent der Franzosen sagen, dass Gott eine wichtige Rolle in ihrem Leben spielt?
+
+Antwortoptionen: ['11%', '31%', '51 v. H.', 'Siebenundsechzig Prozent']
+
+Antwort: 31%"
+"Ab 2017 beträgt der Anteil des BIP, der von den Vereinigten Staaten für das Militär ausgegeben wird, etwa",global_facts,"['1%', '3%', '6 v. H. und 6 v. H.', '10 v. H.']",1,"Frage: Ab 2017 beträgt der Anteil des BIP, der von den Vereinigten Staaten für das Militär ausgegeben wird, etwa
+
+Antwortoptionen: ['1%', '3%', '6 v. H. und 6 v. H.', '10 v. H.']
+
+Antwort: 3%"
+Ab 2017 liegt der Anteil der weltweiten Todesfälle durch Selbstmord bei etwa,global_facts,"['0,70%', '1,40%', '2,80%', '5,60%']",1,"Frage: Ab 2017 liegt der Anteil der weltweiten Todesfälle durch Selbstmord bei etwa
+
+Antwortoptionen: ['0,70%', '1,40%', '2,80%', '5,60%']
+
+Antwort: 1,40%"
+"Viele Länder, die nach dem Zweiten Weltkrieg unabhängig wurden, stellten fest, daß das Erbe des Kolonialismus ihre wirtschaftliche Entwicklung behinderte.",global_facts,"['Künstliche politische Grenzen, die verschiedene ethnische Gruppen mit wenig Gemeinsamkeiten abdeckten.', 'unzureichender Zugang zu Hochschulbildung und Ausbildung für Staatsangehörige unter der Kolonialverwaltung', 'Kontrolle des inländischen Handels durch ausländische Minderheitengruppen, die von der Kolonialmacht eingeführt worden waren', 'alle oben genannten']",3,"Frage: Viele Länder, die nach dem Zweiten Weltkrieg unabhängig wurden, stellten fest, daß das Erbe des Kolonialismus ihre wirtschaftliche Entwicklung behinderte.
+
+Antwortoptionen: ['Künstliche politische Grenzen, die verschiedene ethnische Gruppen mit wenig Gemeinsamkeiten abdeckten.', 'unzureichender Zugang zu Hochschulbildung und Ausbildung für Staatsangehörige unter der Kolonialverwaltung', 'Kontrolle des inländischen Handels durch ausländische Minderheitengruppen, die von der Kolonialmacht eingeführt worden waren', 'alle oben genannten']
+
+Antwort: alle oben genannten"
+Welche der folgenden psychischen Störungen ist weltweit am weitesten verbreitet?,global_facts,"['Bipolare Störung', 'Schizophrenie', 'Alkoholkonsumstörungen', 'Angststörungen']",3,"Frage: Welche der folgenden psychischen Störungen ist weltweit am weitesten verbreitet?
+
+Antwortoptionen: ['Bipolare Störung', 'Schizophrenie', 'Alkoholkonsumstörungen', 'Angststörungen']
+
+Antwort: Angststörungen"
+Wie viele Menschen auf der Welt haben 2017 Zugang zu Elektrizität?,global_facts,"['60 v. H.', '70 v. H.', '80 v. H.', '90 v. H.']",2,"Frage: Wie viele Menschen auf der Welt haben 2017 Zugang zu Elektrizität?
+
+Antwortoptionen: ['60 v. H.', '70 v. H.', '80 v. H.', '90 v. H.']
+
+Antwort: 80 v. H."
+"Bevor Nixon zurückgetreten ist, wie viele glaubten, dass er aus dem Amt entfernt werden sollte?",global_facts,"['79%', '98 v. H.', '33 v. H.', '57%']",3,"Frage: Bevor Nixon zurückgetreten ist, wie viele glaubten, dass er aus dem Amt entfernt werden sollte?
+
+Antwortoptionen: ['79%', '98 v. H.', '33 v. H.', '57%']
+
+Antwort: 57%"

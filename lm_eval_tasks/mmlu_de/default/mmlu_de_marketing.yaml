@@ -1,0 +1,9 @@
+include: _default_template_yaml
+"task": "mmlu_de_marketing"
+"task_alias": "marketing"
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_German/mmlu_de_by_subject/marketing.csv
+
+test_split: test

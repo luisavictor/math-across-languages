@@ -1,6 +1,10 @@
 import torch
+import os
 
 def load_mask(path):
+    print("Loading:", os.path.abspath(path))
+    print("Exists:", os.path.exists(path))
+    print("Size:", os.path.getsize(path) if os.path.exists(path) else "N/A")
     data = torch.load(path, map_location="cpu")
     return data["isolated_masks"], data
 
@@ -48,9 +52,8 @@ def compute_overlap(mask1, mask2):
     }
 
 if __name__ == "__main__":
-    # EXAMPLE: two specific mask files
-    path1 = "results_gsm8k_race_scaling/isolated_masks/meta-llama/Llama-3.2-1B-Instruct/gsm8k_Race_0.1_repeat0.pt"
-    path2 = "results_gsm8k_race_scaling/isolated_masks/meta-llama/Llama-3.2-1B-Instruct/Race_good0.1_repeat0.pt"
+    path1 = "results_gsm8k_race_de/isolated_masks/meta-llama/Llama-3.2-1B-Instruct/gsm8k_Race_0.001_repeat0.pt"
+    path2 = "results_gsm8k_race_en/isolated_masks/meta-llama/Llama-3.2-1B-Instruct/gsm8k_Race_0.001_repeat0.pt"
 
     mask1, meta1 = load_mask(path1)
     mask2, meta2 = load_mask(path2)
@@ -66,3 +69,6 @@ if __name__ == "__main__":
     print(f"Intersection:          {stats['intersection']}")
     print(f"Union:                 {stats['union']}")
     print(f"Jaccard similarity:    {stats['jaccard']:.6f}")
+
+
+

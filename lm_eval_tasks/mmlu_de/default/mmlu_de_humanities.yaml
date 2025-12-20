@@ -1,0 +1,21 @@
+group: mmlu_de_humanities
+group_alias: humanities
+task:
+  - mmlu_de_formal_logic
+  - mmlu_de_high_school_european_history
+  - mmlu_de_high_school_us_history
+  - mmlu_de_high_school_world_history
+  - mmlu_de_international_law
+  - mmlu_de_jurisprudence
+  - mmlu_de_logical_fallacies
+  - mmlu_de_moral_disputes
+  - mmlu_de_moral_scenarios
+  - mmlu_de_philosophy
+  - mmlu_de_prehistory
+  - mmlu_de_professional_law
+  - mmlu_de_world_religions
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: true
+metadata:
+  version: 1

@@ -1,0 +1,12 @@
+include: _default_template_yaml
+task: mmlu_de_clinical_knowledge
+task_alias: clinical_knowledge
+
+description: "Die folgenden Fragen sind Multiple-Choice-Fragen (mit Antworten) zum Thema klinisches Wissen.\n\n"
+
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_German/mmlu_de_by_subject/clinical_knowledge.csv
+
+test_split: test

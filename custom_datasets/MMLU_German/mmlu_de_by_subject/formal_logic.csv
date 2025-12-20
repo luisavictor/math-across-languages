@@ -1,0 +1,631 @@
+question,subject,choices,answer,qa
+"Geben Sie die Schlussfolgerung des folgenden Arguments an: Es ist schwer , bei unseren Kollegen nicht die gleiche geschwächte Intelligenz aufgrund von Emotionen zu beobachten , die wir bei unseren alltäglichen Patienten beobachten . Die Arroganz unseres Bewusstseins, das im Allgemeinen zu den stärksten Abwehrmechanismen gehört, blockiert die unbewussten Komplexe Aus diesem Grund ist es schwierig, die Menschen vom Unbewussten zu überzeugen und ihnen wiederum das beizubringen, was ihrem bewussten Wissen widerspricht. (Sigmund Freud, Der Ursprung und die Entwicklung der Psychoanalyse)",formal_logic,"['Es ist schwer, bei unseren Kollegen nicht die gleiche geschwächte Intelligenz aufgrund von Emotionen zu beobachten, die wir bei unseren alltäglichen Patienten beobachten.', 'Die Arroganz unseres Bewusstseins, das im Allgemeinen zu den stärksten Abwehrmechanismen gehört, blockiert die unbewussten Komplexe.', 'Aus diesem Grund ist es schwierig, die Menschen vom Unbewussten zu überzeugen und ihnen wiederum das beizubringen, was ihrem bewussten Wissen widerspricht.', 'Es ist schwierig, die Menschen vom Unbewussten zu überzeugen und ihnen wiederum das beizubringen, was ihrem bewussten Wissen widerspricht.']",3,"Frage: Geben Sie die Schlussfolgerung des folgenden Arguments an: Es ist schwer , bei unseren Kollegen nicht die gleiche geschwächte Intelligenz aufgrund von Emotionen zu beobachten , die wir bei unseren alltäglichen Patienten beobachten . Die Arroganz unseres Bewusstseins, das im Allgemeinen zu den stärksten Abwehrmechanismen gehört, blockiert die unbewussten Komplexe Aus diesem Grund ist es schwierig, die Menschen vom Unbewussten zu überzeugen und ihnen wiederum das beizubringen, was ihrem bewussten Wissen widerspricht. (Sigmund Freud, Der Ursprung und die Entwicklung der Psychoanalyse)
+
+Antwortoptionen: ['Es ist schwer, bei unseren Kollegen nicht die gleiche geschwächte Intelligenz aufgrund von Emotionen zu beobachten, die wir bei unseren alltäglichen Patienten beobachten.', 'Die Arroganz unseres Bewusstseins, das im Allgemeinen zu den stärksten Abwehrmechanismen gehört, blockiert die unbewussten Komplexe.', 'Aus diesem Grund ist es schwierig, die Menschen vom Unbewussten zu überzeugen und ihnen wiederum das beizubringen, was ihrem bewussten Wissen widerspricht.', 'Es ist schwierig, die Menschen vom Unbewussten zu überzeugen und ihnen wiederum das beizubringen, was ihrem bewussten Wissen widerspricht.']
+
+Antwort: Es ist schwierig, die Menschen vom Unbewussten zu überzeugen und ihnen wiederum das beizubringen, was ihrem bewussten Wissen widerspricht."
+Wählen Sie die beste Übersetzung in Prädikatlogik. David lehrt Chris. (c: Chris; d: David; Txy: x lehrt y),formal_logic,"['Tdc', 'Tcd', 'Tcc', 'dTc']",0,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik. David lehrt Chris. (c: Chris; d: David; Txy: x lehrt y)
+
+Antwortoptionen: ['Tdc', 'Tcd', 'Tcc', 'dTc']
+
+Antwort: Tdc"
+Auswahl der besten englischen Interpretation des gegebenen Satzes mit folgendem Übersetzungsschlüssel: Ax: x ist eine Wohnung Hx: x ist ein Haus Lx: x ist groß Bxy: x ist größer als y (x) [(Ax • Lx) • (y) ((Hy • Bxy) ],formal_logic,"['Einige große Häuser sind größer als einige Wohnungen.', 'Manche Häuser sind größer als alle großen Wohnungen.', 'Manche großen Wohnungen sind größer als manche Häuser.', 'Manche Häuser sind größer als große Wohnungen.']",2,"Frage: Auswahl der besten englischen Interpretation des gegebenen Satzes mit folgendem Übersetzungsschlüssel: Ax: x ist eine Wohnung Hx: x ist ein Haus Lx: x ist groß Bxy: x ist größer als y (x) [(Ax • Lx) • (y) ((Hy • Bxy) ]
+
+Antwortoptionen: ['Einige große Häuser sind größer als einige Wohnungen.', 'Manche Häuser sind größer als alle großen Wohnungen.', 'Manche großen Wohnungen sind größer als manche Häuser.', 'Manche Häuser sind größer als große Wohnungen.']
+
+Antwort: Manche großen Wohnungen sind größer als manche Häuser."
+"Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) ~G  H ~H / G",formal_logic,"['Gültig', 'Gegenbeispiel, wenn G und H wahr sind', 'Ungültig. Gegenbeispiel, wenn G wahr und H falsch ist', 'Ungültig. Gegenbeispiel, wenn H wahr und G falsch ist']",0,"Frage: Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) ~G  H ~H / G
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn G und H wahr sind', 'Ungültig. Gegenbeispiel, wenn G wahr und H falsch ist', 'Ungültig. Gegenbeispiel, wenn H wahr und G falsch ist']
+
+Antwort: Gültig"
+"Verwenden Sie den folgenden Schlüssel, um die gegebene Formel von PL in natürliche zu übersetzen Englische Sätze. A: Marina liest ein Percy Jackson Buch. B: Izzy spielt Minecraft. C: Emily hört auf zu arbeiten. D: Russell macht Abendessen. E: Ashleigh kommt vorbei.",formal_logic,"['Wenn es nicht der Fall ist, dass Izzy Minecraft spielt und Ashleigh vorbeikommt, dann macht Russell das Abendessen.', 'Wenn beides nicht der Fall ist, dass Izzy Minecraft spielt und Ashleigh vorbeikommt, dann macht Russell das Abendessen.', 'Izzy spielt Minecraft und Ashleigh kommt vorbei, was bedeutet, dass Russell das Abendessen kocht.', 'Dass Russell das Abendessen kocht, ist eine ausreichende Bedingung dafür, dass Izzy nicht Minecraft spielt und Ashleigh vorbeikommt.']",1,"Frage: Verwenden Sie den folgenden Schlüssel, um die gegebene Formel von PL in natürliche zu übersetzen Englische Sätze. A: Marina liest ein Percy Jackson Buch. B: Izzy spielt Minecraft. C: Emily hört auf zu arbeiten. D: Russell macht Abendessen. E: Ashleigh kommt vorbei.
+
+Antwortoptionen: ['Wenn es nicht der Fall ist, dass Izzy Minecraft spielt und Ashleigh vorbeikommt, dann macht Russell das Abendessen.', 'Wenn beides nicht der Fall ist, dass Izzy Minecraft spielt und Ashleigh vorbeikommt, dann macht Russell das Abendessen.', 'Izzy spielt Minecraft und Ashleigh kommt vorbei, was bedeutet, dass Russell das Abendessen kocht.', 'Dass Russell das Abendessen kocht, ist eine ausreichende Bedingung dafür, dass Izzy nicht Minecraft spielt und Ashleigh vorbeikommt.']
+
+Antwort: Wenn beides nicht der Fall ist, dass Izzy Minecraft spielt und Ashleigh vorbeikommt, dann macht Russell das Abendessen."
+Auswahl der besten englischen Interpretation des gegebenen Satzes mit dem folgenden Übersetzungsschlüssel: Ax: x ist eine Wohnung Hx: x ist ein Haus Lx: x ist groß Bxy: x ist größer als y (x) [Hx • (∀y) ((Ay  Bxy) ],formal_logic,"['Manche Häuser sind kleiner als alle Wohnungen.', 'Jedes Haus ist größer als jede Wohnung.', 'Einige Wohnungen sind kleiner als jedes Haus.', 'Manche Häuser sind größer als jede Wohnung.']",3,"Frage: Auswahl der besten englischen Interpretation des gegebenen Satzes mit dem folgenden Übersetzungsschlüssel: Ax: x ist eine Wohnung Hx: x ist ein Haus Lx: x ist groß Bxy: x ist größer als y (x) [Hx • (∀y) ((Ay  Bxy) ]
+
+Antwortoptionen: ['Manche Häuser sind kleiner als alle Wohnungen.', 'Jedes Haus ist größer als jede Wohnung.', 'Einige Wohnungen sind kleiner als jedes Haus.', 'Manche Häuser sind größer als jede Wohnung.']
+
+Antwort: Manche Häuser sind größer als jede Wohnung."
+"Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) ~K  L / (K · L)  (K · ~L)",formal_logic,"['Gültig', 'Gegenbeispiel, wenn K und L wahr sind', 'Gegenbeispiel, wenn K wahr und L falsch ist', 'Gegenbeispiel, wenn L wahr und K falsch ist']",3,"Frage: Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) ~K  L / (K · L)  (K · ~L)
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn K und L wahr sind', 'Gegenbeispiel, wenn K wahr und L falsch ist', 'Gegenbeispiel, wenn L wahr und K falsch ist']
+
+Antwort: Gegenbeispiel, wenn L wahr und K falsch ist"
+Identifizieren Sie den Vorgänger des folgenden bedingten Satzes: Wenn die Universität die finanzielle Unterstützung nicht erhöht Entweder der Präsident genehmigt es nicht oder der Kuratorium verhindert es.,formal_logic,"['Die Universität erhöht die finanzielle Unterstützung.', 'Die Universität erhöht die finanzielle Unterstützung nicht.', 'Der Kuratorium verhindert es.', 'Der Präsident stimmt dem nicht zu.']",1,"Frage: Identifizieren Sie den Vorgänger des folgenden bedingten Satzes: Wenn die Universität die finanzielle Unterstützung nicht erhöht Entweder der Präsident genehmigt es nicht oder der Kuratorium verhindert es.
+
+Antwortoptionen: ['Die Universität erhöht die finanzielle Unterstützung.', 'Die Universität erhöht die finanzielle Unterstützung nicht.', 'Der Kuratorium verhindert es.', 'Der Präsident stimmt dem nicht zu.']
+
+Antwort: Die Universität erhöht die finanzielle Unterstützung nicht."
+Welcher der folgenden Sätze ist eine unmittelbare (einstufige) Konsequenz in PL der gegebenen Prämissen? ~E  ~F G  F H  ~E H  I ~I,formal_logic,"['E  F', 'F  G', 'H  ~E', '~H']",3,"Frage: Welcher der folgenden Sätze ist eine unmittelbare (einstufige) Konsequenz in PL der gegebenen Prämissen? ~E  ~F G  F H  ~E H  I ~I
+
+Antwortoptionen: ['E  F', 'F  G', 'H  ~E', '~H']
+
+Antwort: ~H"
+"Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Jeder liebt Raymond, oder nicht.",formal_logic,"['L', '~L', 'L • ~L', 'L  ~L']",3,"Frage: Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Jeder liebt Raymond, oder nicht.
+
+Antwortoptionen: ['L', '~L', 'L • ~L', 'L  ~L']
+
+Antwort: L  ~L"
+Wählen Sie die beste Übersetzung in Prädikatlogik. Alle Könige sind glücklicher als alle Armen. (Kx: x ist ein König; Px: x ist ein Armer; Lxy: x ist glücklicher als y),formal_logic,"['(∀x) [Kx  (∀y) ((Py  Lxy) ]', '(∀x) [Kx  (∀y) ((Lxy  Py) ]', '(∀x) ((∀y) (((Kx • Py)  Lyx)', '(∀x) [(Kx • (∀y) ((Py))  Lxy]']",0,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik. Alle Könige sind glücklicher als alle Armen. (Kx: x ist ein König; Px: x ist ein Armer; Lxy: x ist glücklicher als y)
+
+Antwortoptionen: ['(∀x) [Kx  (∀y) ((Py  Lxy) ]', '(∀x) [Kx  (∀y) ((Lxy  Py) ]', '(∀x) ((∀y) (((Kx • Py)  Lyx)', '(∀x) [(Kx • (∀y) ((Py))  Lxy]']
+
+Antwort: (∀x) [Kx  (∀y) ((Py  Lxy) ]"
+"Erstellen Sie eine vollständige Wahrheitstabelle für die folgenden Satzpaare Finden Sie dann anhand der Wahrheitstabellen heraus, ob die Aussagen logisch gleichwertig oder widersprüchlich sind Wenn beide nicht übereinstimmen, bestimmen Sie, ob sie übereinstimmen oder nicht übereinstimmen. Begründen Sie Ihre Antworten. (~M  ~N)  (O  N) und (~M · N) · [(~O  ~N) · (O  N) ]",formal_logic,"['Logisch gleichwertig', 'Widersprüchlich', 'Weder logisch gleichwertig noch widersprüchlich, aber konsistent', 'Unvereinbar']",1,"Frage: Erstellen Sie eine vollständige Wahrheitstabelle für die folgenden Satzpaare Finden Sie dann anhand der Wahrheitstabellen heraus, ob die Aussagen logisch gleichwertig oder widersprüchlich sind Wenn beide nicht übereinstimmen, bestimmen Sie, ob sie übereinstimmen oder nicht übereinstimmen. Begründen Sie Ihre Antworten. (~M  ~N)  (O  N) und (~M · N) · [(~O  ~N) · (O  N) ]
+
+Antwortoptionen: ['Logisch gleichwertig', 'Widersprüchlich', 'Weder logisch gleichwertig noch widersprüchlich, aber konsistent', 'Unvereinbar']
+
+Antwort: Widersprüchlich"
+Welcher der folgenden Sätze ist eine unmittelbare (einstufige) Konsequenz in PL der gegebenen Prämisse? E  ~F ~F  G ~G,formal_logic,"['E  F', 'F  G', 'G  E', '~ F ~']",3,"Frage: Welcher der folgenden Sätze ist eine unmittelbare (einstufige) Konsequenz in PL der gegebenen Prämisse? E  ~F ~F  G ~G
+
+Antwortoptionen: ['E  F', 'F  G', 'G  E', '~ F ~']
+
+Antwort: ~ F ~"
+"Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob das folgende Argument gültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) E  (F  ~G) F  (~E  ~G) / ~(E  F)",formal_logic,"['Gültig', 'Gegenbeispiel, wenn E, F und G wahr sind', 'Gegenbeispiel, wenn E und F wahr und G falsch sind', 'Gegenbeispiel, wenn E, F und G falsch sind']",2,"Frage: Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob das folgende Argument gültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) E  (F  ~G) F  (~E  ~G) / ~(E  F)
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn E, F und G wahr sind', 'Gegenbeispiel, wenn E und F wahr und G falsch sind', 'Gegenbeispiel, wenn E, F und G falsch sind']
+
+Antwort: Gegenbeispiel, wenn E und F wahr und G falsch sind"
+"Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob das folgende Argument gültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) H  (~I  J) H  ~J / ~I",formal_logic,"['Gültig', 'Gegenbeispiel, wenn H, I und J falsch sind', 'Gegenbeispiel, wenn H und I wahr und J falsch sind', 'Gegenbeispiel, wenn I wahr und H und J falsch sind']",3,"Frage: Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob das folgende Argument gültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) H  (~I  J) H  ~J / ~I
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn H, I und J falsch sind', 'Gegenbeispiel, wenn H und I wahr und J falsch sind', 'Gegenbeispiel, wenn I wahr und H und J falsch sind']
+
+Antwort: Gegenbeispiel, wenn I wahr und H und J falsch sind"
+Wählen Sie die beste Übersetzung in Prädikatlogik Einige Feuerwehrleute retten Opfer aus der Gefahr (Dx: x ist Gefahr; Fx: x ist ein Feuerwehrmann; Vx: x ist ein Opfer; Rxyz: x rettet y vor z),formal_logic,"['(x) {Fx • (∀y) [Dy  (z) ((Vz • Rxyz) ]}', '(x) {Fx • (y) [Vy • (z) {Dz • Rxyz) ]}', '(x) {Fx · (y) · (z) · (Vy) · (Dz) · (Rxzy) }', '(∀x) {Fx  (y) [Vy . (z) {Dz • Rxyz) ]}']",1,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik Einige Feuerwehrleute retten Opfer aus der Gefahr (Dx: x ist Gefahr; Fx: x ist ein Feuerwehrmann; Vx: x ist ein Opfer; Rxyz: x rettet y vor z)
+
+Antwortoptionen: ['(x) {Fx • (∀y) [Dy  (z) ((Vz • Rxyz) ]}', '(x) {Fx • (y) [Vy • (z) {Dz • Rxyz) ]}', '(x) {Fx · (y) · (z) · (Vy) · (Dz) · (Rxzy) }', '(∀x) {Fx  (y) [Vy . (z) {Dz • Rxyz) ]}']
+
+Antwort: (x) {Fx • (y) [Vy • (z) {Dz • Rxyz) ]}"
+"Identifizieren Sie den Antecedent des folgenden bedingten Satzes: Die Universität erhöht die Studiengebühren, wenn und nur, wenn Der Gouverneur genehmigt es und der Kuratorium empfiehlt es.",formal_logic,"['Die Universität erhöht die Studiengebühren.', 'Der Gouverneur stimmt dem zu.', 'Der Kuratorium empfiehlt es.', 'Keine der oben genannten']",3,"Frage: Identifizieren Sie den Antecedent des folgenden bedingten Satzes: Die Universität erhöht die Studiengebühren, wenn und nur, wenn Der Gouverneur genehmigt es und der Kuratorium empfiehlt es.
+
+Antwortoptionen: ['Die Universität erhöht die Studiengebühren.', 'Der Gouverneur stimmt dem zu.', 'Der Kuratorium empfiehlt es.', 'Keine der oben genannten']
+
+Antwort: Keine der oben genannten"
+Alle Planeten sind kleiner als Jupiter. (j: Jupiter; Px: x ist ein Planet; Sxy: x ist kleiner als y),formal_logic,"['(x) (Px) (Px) (Px) (Px) (Px) (Px) (Px) (Px) (Px) (Px) (Px)', '(∀x) ((Px • Sxj)', '(∀x) ((Px  Sjx)', '(∀x) ((Px  Sxj)']",3,"Frage: Alle Planeten sind kleiner als Jupiter. (j: Jupiter; Px: x ist ein Planet; Sxy: x ist kleiner als y)
+
+Antwortoptionen: ['(x) (Px) (Px) (Px) (Px) (Px) (Px) (Px) (Px) (Px) (Px) (Px)', '(∀x) ((Px • Sxj)', '(∀x) ((Px  Sjx)', '(∀x) ((Px  Sxj)']
+
+Antwort: (∀x) ((Px  Sxj)"
+Wählen Sie die beste Übersetzung in Prädikatlogik aus. José stellt Wilma Kevin vor. (j: José; k: Kevin; w: Wilma; Ixyz: x führt y zu z),formal_logic,"['Iwkj', 'Ich weiß nicht.', 'Iwjk', 'IJkw']",1,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik aus. José stellt Wilma Kevin vor. (j: José; k: Kevin; w: Wilma; Ixyz: x führt y zu z)
+
+Antwortoptionen: ['Iwkj', 'Ich weiß nicht.', 'Iwjk', 'IJkw']
+
+Antwort: Ich weiß nicht."
+Wählen Sie die beste Übersetzung in Prädikatlogik: Keine Artefakte sind Menschen.,formal_logic,"['~Pa', '(∀x) ((Ax  ~Px)', '~Ap', '(∀x) ((Ax • ~Px)']",1,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik: Keine Artefakte sind Menschen.
+
+Antwortoptionen: ['~Pa', '(∀x) ((Ax  ~Px)', '~Ap', '(∀x) ((Ax • ~Px)']
+
+Antwort: (∀x) ((Ax  ~Px)"
+"Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) P  Q Q · R / ~P · R",formal_logic,"['Gültig', 'Gegenbeispiel, wenn P, R und Q wahr sind', 'Gegenbeispiel, wenn P und Q wahr und R falsch sind', 'Gegenbeispiel, wenn R und Q wahr und P falsch sind']",1,"Frage: Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) P  Q Q · R / ~P · R
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn P, R und Q wahr sind', 'Gegenbeispiel, wenn P und Q wahr und R falsch sind', 'Gegenbeispiel, wenn R und Q wahr und P falsch sind']
+
+Antwort: Gegenbeispiel, wenn P, R und Q wahr sind"
+Wählen Sie die beste Übersetzung in Prädikatlogik. Marco bewegt sich von Italien nach Spanien. (i: Italien; m: Marco; s: Spanien; Mxyz: x bewegt sich von z zu y),formal_logic,"['Msim', 'Mmis', 'Mims', 'Danke .']",3,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik. Marco bewegt sich von Italien nach Spanien. (i: Italien; m: Marco; s: Spanien; Mxyz: x bewegt sich von z zu y)
+
+Antwortoptionen: ['Msim', 'Mmis', 'Mims', 'Danke .']
+
+Antwort: Danke ."
+Auswahl der besten englischen Interpretation des gegebenen Satzes mit dem folgenden Übersetzungsschlüssel: Ax: x ist eine Wohnung Hx: x ist ein Haus Lx: x ist groß Bxy: x ist größer als y (∀x) {Ax  (∀y) [(Hy • Ly)  ∼Bxy]},formal_logic,"['Alle Wohnungen sind nicht größer als ein großes Haus.', 'Keine Wohnung ist größer als ein großes Haus.', 'Alle großen Häuser sind nicht größer als eine Wohnung.', 'Kein großes Haus ist größer als alle Wohnungen.']",1,"Frage: Auswahl der besten englischen Interpretation des gegebenen Satzes mit dem folgenden Übersetzungsschlüssel: Ax: x ist eine Wohnung Hx: x ist ein Haus Lx: x ist groß Bxy: x ist größer als y (∀x) {Ax  (∀y) [(Hy • Ly)  ∼Bxy]}
+
+Antwortoptionen: ['Alle Wohnungen sind nicht größer als ein großes Haus.', 'Keine Wohnung ist größer als ein großes Haus.', 'Alle großen Häuser sind nicht größer als eine Wohnung.', 'Kein großes Haus ist größer als alle Wohnungen.']
+
+Antwort: Keine Wohnung ist größer als ein großes Haus."
+"Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) J  ~K J  L ~K / L",formal_logic,"['Gültig', 'Gegenbeispiel, wenn J und K wahr und L falsch sind', 'Ungültig. Gegenbeispiel, wenn J wahr und K und L falsch sind', 'Ungültig. Gegenbeispiel, wenn K wahr und J und L falsch sind']",2,"Frage: Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) J  ~K J  L ~K / L
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn J und K wahr und L falsch sind', 'Ungültig. Gegenbeispiel, wenn J wahr und K und L falsch sind', 'Ungültig. Gegenbeispiel, wenn K wahr und J und L falsch sind']
+
+Antwort: Ungültig. Gegenbeispiel, wenn J wahr und K und L falsch sind"
+"Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Pablo wird in den Laden gehen, wenn und nur wenn sein Bruder ihn fährt und das Benzin bezahlt.",formal_logic,"['(P  D)  G', '(D • G)  P', 'P  (D • G)', 'P  (D • G)']",3,"Frage: Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Pablo wird in den Laden gehen, wenn und nur wenn sein Bruder ihn fährt und das Benzin bezahlt.
+
+Antwortoptionen: ['(P  D)  G', '(D • G)  P', 'P  (D • G)', 'P  (D • G)']
+
+Antwort: P  (D • G)"
+"Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob jeder Satz von Sätzen konsistent ist Wenn der Satz konsistent ist, wählen Sie eine Option mit einer konsistenten Bewertung (Es können andere einheitliche Bewertungen vorliegen.) D  E F  D ~E · ~F",formal_logic,"['Unvereinbar', 'Konsistente Bewertung, wenn D, E und F zutreffen', 'Konsistente Bewertung, wenn D und E wahr und F falsch sind', 'Konsistente Bewertung, wenn D und F wahr und E falsch sind']",0,"Frage: Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob jeder Satz von Sätzen konsistent ist Wenn der Satz konsistent ist, wählen Sie eine Option mit einer konsistenten Bewertung (Es können andere einheitliche Bewertungen vorliegen.) D  E F  D ~E · ~F
+
+Antwortoptionen: ['Unvereinbar', 'Konsistente Bewertung, wenn D, E und F zutreffen', 'Konsistente Bewertung, wenn D und E wahr und F falsch sind', 'Konsistente Bewertung, wenn D und F wahr und E falsch sind']
+
+Antwort: Unvereinbar"
+"Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Das Restaurant serviert Kuchen, Käsekuchen oder Eis als Dessert.",formal_logic,"['P  (C  I)', '(P  C)  I', 'P  C  I', 'Optionen A und B']",3,"Frage: Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Das Restaurant serviert Kuchen, Käsekuchen oder Eis als Dessert.
+
+Antwortoptionen: ['P  (C  I)', '(P  C)  I', 'P  C  I', 'Optionen A und B']
+
+Antwort: Optionen A und B"
+"Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Wenn Beth Fahrrad fährt, kommt sie früher zur Arbeit.",formal_logic,"['B  W', 'W  B', 'B  W', 'Sowohl A als auch B']",0,"Frage: Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Wenn Beth Fahrrad fährt, kommt sie früher zur Arbeit.
+
+Antwortoptionen: ['B  W', 'W  B', 'B  W', 'Sowohl A als auch B']
+
+Antwort: B  W"
+Wählen Sie die beste Übersetzung in Prädikatlogik: Entweder Taylor oder Eric ist ein Latte Boy.,formal_logic,"['Lt  Le', 'Lx  Ly', 'tL  eL', 'Tl  El']",0,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik: Entweder Taylor oder Eric ist ein Latte Boy.
+
+Antwortoptionen: ['Lt  Le', 'Lx  Ly', 'tL  eL', 'Tl  El']
+
+Antwort: Lt  Le"
+"Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob das folgende Argument gültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) E  F G  ~F / ~G  ~E",formal_logic,"['Gültig', 'Gegenbeispiel, wenn E, F und G wahr sind', 'Gegenbeispiel, wenn E und G wahr und F falsch sind', 'Gegenbeispiel, wenn F und G wahr und E falsch sind']",0,"Frage: Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob das folgende Argument gültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) E  F G  ~F / ~G  ~E
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn E, F und G wahr sind', 'Gegenbeispiel, wenn E und G wahr und F falsch sind', 'Gegenbeispiel, wenn F und G wahr und E falsch sind']
+
+Antwort: Gültig"
+"Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob jeder Satz von Sätzen konsistent ist Wenn der Satz konsistent ist, wählen Sie eine Option mit einer konsistenten Bewertung (Es können andere konsistente Bewertungen vorliegen.) A  (~B  C) C  D A  (B · ~D) A  (B  D)",formal_logic,"['Unvereinbar', 'Konsistente Bewertung, wenn A und D wahr und B und C falsch sind', 'Konsistente Bewertung, wenn A, B und D wahr und C falsch sind', 'Konsistente Bewertung, wenn C und D wahr und A und B falsch sind']",1,"Frage: Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob jeder Satz von Sätzen konsistent ist Wenn der Satz konsistent ist, wählen Sie eine Option mit einer konsistenten Bewertung (Es können andere konsistente Bewertungen vorliegen.) A  (~B  C) C  D A  (B · ~D) A  (B  D)
+
+Antwortoptionen: ['Unvereinbar', 'Konsistente Bewertung, wenn A und D wahr und B und C falsch sind', 'Konsistente Bewertung, wenn A, B und D wahr und C falsch sind', 'Konsistente Bewertung, wenn C und D wahr und A und B falsch sind']
+
+Antwort: Konsistente Bewertung, wenn A und D wahr und B und C falsch sind"
+"Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) M  N ~ M · O / N",formal_logic,"['Gültig', 'Gegenbeispiel, wenn M und O wahr und N falsch sind', 'Ungültig. Gegenbeispiel, wenn M wahr und O und N falsch sind', 'Ungültig. Gegenbeispiel, wenn O wahr und M und N falsch sind']",0,"Frage: Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) M  N ~ M · O / N
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn M und O wahr und N falsch sind', 'Ungültig. Gegenbeispiel, wenn M wahr und O und N falsch sind', 'Ungültig. Gegenbeispiel, wenn O wahr und M und N falsch sind']
+
+Antwort: Gültig"
+Welcher der folgenden Sätze ist eine unmittelbare (einstufige) Folge in PL der gegebenen Prämisse? U  W W  (X  ~Y) (X  ~Y)  Z ~Z,formal_logic,"['U  Z', 'U  W', '~W', '~(X  ~Y)']",3,"Frage: Welcher der folgenden Sätze ist eine unmittelbare (einstufige) Folge in PL der gegebenen Prämisse? U  W W  (X  ~Y) (X  ~Y)  Z ~Z
+
+Antwortoptionen: ['U  Z', 'U  W', '~W', '~(X  ~Y)']
+
+Antwort: ~(X  ~Y)"
+"Nennen Sie den Vorgänger des folgenden bedingten Satzes: Wenn die Bienen ihr erstes Spiel nicht gewinnen, dann gewinnen sowohl die Aardvarks als auch die Chipmunks ihre ersten Spiele.",formal_logic,"['Die Aardvarks gewinnen ihr erstes Spiel.', 'Die Bees gewinnen ihr erstes Spiel nicht.', 'Die Chipmunks gewinnen ihr erstes Spiel.', 'Sowohl die Aardvarks als auch die Chipmunks gewinnen ihre ersten Spiele.']",1,"Frage: Nennen Sie den Vorgänger des folgenden bedingten Satzes: Wenn die Bienen ihr erstes Spiel nicht gewinnen, dann gewinnen sowohl die Aardvarks als auch die Chipmunks ihre ersten Spiele.
+
+Antwortoptionen: ['Die Aardvarks gewinnen ihr erstes Spiel.', 'Die Bees gewinnen ihr erstes Spiel nicht.', 'Die Chipmunks gewinnen ihr erstes Spiel.', 'Sowohl die Aardvarks als auch die Chipmunks gewinnen ihre ersten Spiele.']
+
+Antwort: Die Bees gewinnen ihr erstes Spiel nicht."
+Wählen Sie die beste Übersetzung in Prädikatlogik. Holly liebt Frances. (f: Frances; h: Holly; Lxy: x liebt y),formal_logic,"['hLf', 'fLh', 'Lfh', 'Lhf']",3,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik. Holly liebt Frances. (f: Frances; h: Holly; Lxy: x liebt y)
+
+Antwortoptionen: ['hLf', 'fLh', 'Lfh', 'Lhf']
+
+Antwort: Lhf"
+"Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob das folgende Argument gültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) P  (Q  R) (Q · S)  ~P ~(~Q  R) / ~P",formal_logic,"['Gültig', 'Gegenbeispiel, wenn P, Q, R und S wahr sind', 'Gegenbeispiel, wenn P und Q wahr und R und S falsch sind', 'Gegenbeispiel, wenn P, R und S wahr und Q falsch sind']",2,"Frage: Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob das folgende Argument gültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) P  (Q  R) (Q · S)  ~P ~(~Q  R) / ~P
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn P, Q, R und S wahr sind', 'Gegenbeispiel, wenn P und Q wahr und R und S falsch sind', 'Gegenbeispiel, wenn P, R und S wahr und Q falsch sind']
+
+Antwort: Gegenbeispiel, wenn P und Q wahr und R und S falsch sind"
+"Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) T  U W · T / U",formal_logic,"['Gültig', 'Gegenbeispiel, wenn T und W wahr und U falsch sind', 'Gegenbeispiel, wenn T wahr und W und U falsch sind', 'Gegenbeispiel, wenn W wahr und T und U falsch sind']",1,"Frage: Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) T  U W · T / U
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn T und W wahr und U falsch sind', 'Gegenbeispiel, wenn T wahr und W und U falsch sind', 'Gegenbeispiel, wenn W wahr und T und U falsch sind']
+
+Antwort: Gegenbeispiel, wenn T und W wahr und U falsch sind"
+"Die Universität erhöht die Studiengebühren, wenn sowohl der Gouverneur sie genehmigt als auch der Kuratorium sie empfiehlt.",formal_logic,"['Die Universität erhöht die Studiengebühren.', 'Der Gouverneur stimmt dem zu.', 'Der Kuratorium empfiehlt es.', 'Der Gouverneur genehmigt es und der Kuratorium empfiehlt es.']",3,"Frage: Die Universität erhöht die Studiengebühren, wenn sowohl der Gouverneur sie genehmigt als auch der Kuratorium sie empfiehlt.
+
+Antwortoptionen: ['Die Universität erhöht die Studiengebühren.', 'Der Gouverneur stimmt dem zu.', 'Der Kuratorium empfiehlt es.', 'Der Gouverneur genehmigt es und der Kuratorium empfiehlt es.']
+
+Antwort: Der Gouverneur genehmigt es und der Kuratorium empfiehlt es."
+"Nennen Sie den Vorgänger des folgenden bedingten Satzes: Das Restaurant hat keine Erbsen, also servieren sie stattdessen Mais und Kartoffeln.",formal_logic,"['Das Restaurant hat Erbsen.', 'Das Restaurant hat keine Erbsen.', 'Das Restaurant serviert Mais.', 'Das Restaurant serviert Kartoffeln.']",1,"Frage: Nennen Sie den Vorgänger des folgenden bedingten Satzes: Das Restaurant hat keine Erbsen, also servieren sie stattdessen Mais und Kartoffeln.
+
+Antwortoptionen: ['Das Restaurant hat Erbsen.', 'Das Restaurant hat keine Erbsen.', 'Das Restaurant serviert Mais.', 'Das Restaurant serviert Kartoffeln.']
+
+Antwort: Das Restaurant hat keine Erbsen."
+Wählen Sie die beste Übersetzung in Prädikatlogik. Alle Jellybeans sind süßer als alle Früchte. (Fx: x ist eine Frucht; Jx: x ist eine Jellybean; Sxy: x ist süßer als y),formal_logic,"['(∀x) [Fx  (∀y) ((Jy  Sxy) ]', '(∀x) ((∀y) (((Fx • Jy) • Sxy)', '(∀x) (∀y) [Sxy  (Fy • Jx) ]', '(∀x) [Jx  (∀y) ((Fy  Sxy) ]']",3,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik. Alle Jellybeans sind süßer als alle Früchte. (Fx: x ist eine Frucht; Jx: x ist eine Jellybean; Sxy: x ist süßer als y)
+
+Antwortoptionen: ['(∀x) [Fx  (∀y) ((Jy  Sxy) ]', '(∀x) ((∀y) (((Fx • Jy) • Sxy)', '(∀x) (∀y) [Sxy  (Fy • Jx) ]', '(∀x) [Jx  (∀y) ((Fy  Sxy) ]']
+
+Antwort: (∀x) [Jx  (∀y) ((Fy  Sxy) ]"
+"Geben Sie die Schlussfolgerung des folgenden Arguments an: Dass die Welt meine Vorstellung ist, ist eine Wahrheit, die für jedes Lebewesen gilt, obwohl nur der Mensch darüber nachdenken kann. Auf diese Weise erlangt er philosophische Weisheit. Keine Wahrheit ist absolut sicherer, als dass alles, was für das Wissen existiert und deshalb ist diese Welt nur Objekt in Bezug auf Subjekt, Wahrnehmung eines Wahrnehmers Die Welt ist eine Idee (Arthur Schopenhauer, Die Welt als Wille und Idee)",formal_logic,"['Die Welt ist eine Idee.', 'Dass die Welt meine Vorstellung ist, ist eine Wahrheit, die für jedes Lebewesen gilt, obwohl nur der Mensch darüber nachdenken kann.', 'Auf diese Weise erlangt er philosophische Weisheit.', 'Keine Wahrheit ist absolut sicherer, als dass alles, was für das Wissen existiert, und deshalb ist diese Welt nur ein Objekt in Bezug auf das Subjekt, die Wahrnehmung eines Wahrnehmers.']",0,"Frage: Geben Sie die Schlussfolgerung des folgenden Arguments an: Dass die Welt meine Vorstellung ist, ist eine Wahrheit, die für jedes Lebewesen gilt, obwohl nur der Mensch darüber nachdenken kann. Auf diese Weise erlangt er philosophische Weisheit. Keine Wahrheit ist absolut sicherer, als dass alles, was für das Wissen existiert und deshalb ist diese Welt nur Objekt in Bezug auf Subjekt, Wahrnehmung eines Wahrnehmers Die Welt ist eine Idee (Arthur Schopenhauer, Die Welt als Wille und Idee)
+
+Antwortoptionen: ['Die Welt ist eine Idee.', 'Dass die Welt meine Vorstellung ist, ist eine Wahrheit, die für jedes Lebewesen gilt, obwohl nur der Mensch darüber nachdenken kann.', 'Auf diese Weise erlangt er philosophische Weisheit.', 'Keine Wahrheit ist absolut sicherer, als dass alles, was für das Wissen existiert, und deshalb ist diese Welt nur ein Objekt in Bezug auf das Subjekt, die Wahrnehmung eines Wahrnehmers.']
+
+Antwort: Die Welt ist eine Idee."
+Wählen Sie die beste Übersetzung in Prädikatlogik aus. Leo ist größer als Cathy. (c: Cathy; l: Leo; Txy: x ist größer als y),formal_logic,"['Tlc', 'Tcl', 'lTc', 'cTl']",0,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik aus. Leo ist größer als Cathy. (c: Cathy; l: Leo; Txy: x ist größer als y)
+
+Antwortoptionen: ['Tlc', 'Tcl', 'lTc', 'cTl']
+
+Antwort: Tlc"
+"Erstellen Sie eine vollständige Wahrheitstabelle für die folgenden Satzpaare Finden Sie dann anhand der Wahrheitstabellen heraus, ob die Aussagen logisch gleichwertig oder widersprüchlich sind Wenn beide nicht übereinstimmen, bestimmen Sie, ob sie übereinstimmen oder nicht übereinstimmen. Begründen Sie Ihre Antworten. C  (D  C) und C · ~D",formal_logic,"['Logisch gleichwertig', 'Widersprüchlich', 'Weder logisch gleichwertig noch widersprüchlich, aber konsistent', 'Unvereinbar']",2,"Frage: Erstellen Sie eine vollständige Wahrheitstabelle für die folgenden Satzpaare Finden Sie dann anhand der Wahrheitstabellen heraus, ob die Aussagen logisch gleichwertig oder widersprüchlich sind Wenn beide nicht übereinstimmen, bestimmen Sie, ob sie übereinstimmen oder nicht übereinstimmen. Begründen Sie Ihre Antworten. C  (D  C) und C · ~D
+
+Antwortoptionen: ['Logisch gleichwertig', 'Widersprüchlich', 'Weder logisch gleichwertig noch widersprüchlich, aber konsistent', 'Unvereinbar']
+
+Antwort: Weder logisch gleichwertig noch widersprüchlich, aber konsistent"
+"Erstellen Sie eine vollständige Wahrheitstabelle für die folgenden Satzpaare Finden Sie dann anhand der Wahrheitstabellen heraus, ob die Aussagen logisch gleichwertig oder widersprüchlich sind Wenn beide nicht übereinstimmen, bestimmen Sie, ob sie übereinstimmen oder nicht übereinstimmen. Begründen Sie Ihre Antworten.",formal_logic,"['Logisch gleichwertig', 'Widersprüchlich', 'Weder logisch gleichwertig noch widersprüchlich, aber konsistent', 'Unvereinbar']",0,"Frage: Erstellen Sie eine vollständige Wahrheitstabelle für die folgenden Satzpaare Finden Sie dann anhand der Wahrheitstabellen heraus, ob die Aussagen logisch gleichwertig oder widersprüchlich sind Wenn beide nicht übereinstimmen, bestimmen Sie, ob sie übereinstimmen oder nicht übereinstimmen. Begründen Sie Ihre Antworten.
+
+Antwortoptionen: ['Logisch gleichwertig', 'Widersprüchlich', 'Weder logisch gleichwertig noch widersprüchlich, aber konsistent', 'Unvereinbar']
+
+Antwort: Logisch gleichwertig"
+"Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob das folgende Argument gültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) (T · ~U)  ~W ~W  X ~Z  W ~(X · Z) / T  U",formal_logic,"['Gültig', 'Gegenbeispiel, wenn T, X und Z wahr und U und W falsch sind', 'Gegenbeispiel, wenn T und X wahr und U, W und Z falsch sind', 'Gegenbeispiel, wenn T, W und Z wahr und U und X falsch sind']",0,"Frage: Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob das folgende Argument gültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) (T · ~U)  ~W ~W  X ~Z  W ~(X · Z) / T  U
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn T, X und Z wahr und U und W falsch sind', 'Gegenbeispiel, wenn T und X wahr und U, W und Z falsch sind', 'Gegenbeispiel, wenn T, W und Z wahr und U und X falsch sind']
+
+Antwort: Gültig"
+"Wählen Sie die beste Übersetzung in Prädikatlogik: Cecilia bricht mir das Herz, wenn und nur wenn Maria entweder ein Problem oder ein Mädchen ist.",formal_logic,"['Bc  (Pm  Gm)', 'Bc  (Pm • Gm)', 'Bc  (Pm  Gm)', 'Cb  (Pm • Gm)']",0,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik: Cecilia bricht mir das Herz, wenn und nur wenn Maria entweder ein Problem oder ein Mädchen ist.
+
+Antwortoptionen: ['Bc  (Pm  Gm)', 'Bc  (Pm • Gm)', 'Bc  (Pm  Gm)', 'Cb  (Pm • Gm)']
+
+Antwort: Bc  (Pm  Gm)"
+"Wählen Sie die beste Übersetzung in Prädikatlogik: Wenn Delilah in New York City ist, dann ist Juana in Bogotá oder Layla ist in San Juan.",formal_logic,"['Nd  (Bj • Sl)', 'Dn  (Bx • Ly)', 'Nd  (Bj • Sl)', '- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -']",3,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik: Wenn Delilah in New York City ist, dann ist Juana in Bogotá oder Layla ist in San Juan.
+
+Antwortoptionen: ['Nd  (Bj • Sl)', 'Dn  (Bx • Ly)', 'Nd  (Bj • Sl)', '- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -']
+
+Antwort: - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
+"Verwenden Sie den folgenden Schlüssel, um die gegebene Formel von PL in natürliche zu übersetzen Englische Sätze. A: Marina liest ein Percy Jackson Buch. B: Izzy spielt Minecraft. C: Emily hört auf zu arbeiten. D: Russell macht Abendessen. E: Ashleigh kommt vorbei.",formal_logic,"['Es ist nicht so, dass Marina ein Percy Jackson Buch liest, was bedeutet, dass Izzy Minecraft spielt, aber dass Izzy Minecraft spielt, bedeutet, dass Ashleigh nicht vorbeikommt.', 'Wenn Marina kein Percy Jackson Buch liest, dann spielt Izzy Minecraft, was bedeutet, dass Ashleigh nicht vorbeikommt.', 'Dass Marina ein Percy-Jackson-Buch liest, bedeutet nicht, dass Izzy Minecraft spielt, aber Izzy spielt Minecraft, vorausgesetzt, Ashleigh kommt nicht vorbei.', 'Es ist nicht wahr, dass Marina ein Percy Jackson Buch nur liest, wenn Izzy Minecraft spielt, aber Izzy spielt Minecraft nur, wenn Ashleigh vorbeikommt.']",0,"Frage: Verwenden Sie den folgenden Schlüssel, um die gegebene Formel von PL in natürliche zu übersetzen Englische Sätze. A: Marina liest ein Percy Jackson Buch. B: Izzy spielt Minecraft. C: Emily hört auf zu arbeiten. D: Russell macht Abendessen. E: Ashleigh kommt vorbei.
+
+Antwortoptionen: ['Es ist nicht so, dass Marina ein Percy Jackson Buch liest, was bedeutet, dass Izzy Minecraft spielt, aber dass Izzy Minecraft spielt, bedeutet, dass Ashleigh nicht vorbeikommt.', 'Wenn Marina kein Percy Jackson Buch liest, dann spielt Izzy Minecraft, was bedeutet, dass Ashleigh nicht vorbeikommt.', 'Dass Marina ein Percy-Jackson-Buch liest, bedeutet nicht, dass Izzy Minecraft spielt, aber Izzy spielt Minecraft, vorausgesetzt, Ashleigh kommt nicht vorbei.', 'Es ist nicht wahr, dass Marina ein Percy Jackson Buch nur liest, wenn Izzy Minecraft spielt, aber Izzy spielt Minecraft nur, wenn Ashleigh vorbeikommt.']
+
+Antwort: Es ist nicht so, dass Marina ein Percy Jackson Buch liest, was bedeutet, dass Izzy Minecraft spielt, aber dass Izzy Minecraft spielt, bedeutet, dass Ashleigh nicht vorbeikommt."
+"Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob das folgende Argument gültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) (A  B)  C C  ~D / D  A",formal_logic,"['Gültig', 'Gegenbeispiel, wenn B, C und D wahr und A falsch sind', 'Gegenbeispiel, wenn B und D wahr und A und C falsch sind', 'Gegenbeispiel, wenn A, B und C falsch und D wahr sind']",3,"Frage: Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob das folgende Argument gültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) (A  B)  C C  ~D / D  A
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn B, C und D wahr und A falsch sind', 'Gegenbeispiel, wenn B und D wahr und A und C falsch sind', 'Gegenbeispiel, wenn A, B und C falsch und D wahr sind']
+
+Antwort: Gegenbeispiel, wenn A, B und C falsch und D wahr sind"
+Wählen Sie die beste englische Interpretation der angegebenen Argumente in der Prädikatlogik. Dh  ~Pt (∀x)Px  (∀x)Mx ~Mb / ~Dh,formal_logic,"['Wenn mein Kopfschmerz ein dualischer Zustand ist, dann ist dein Kitzel ein physischer Zustand. Entweder ist alles physisch oder alles ist mental . Aber mein gebrochener Zeh ist kein psychischer Zustand. Mein Kopfschmerz ist also kein dualistischer Zustand.', 'Wenn mein Kopfschmerz ein dualischer Zustand ist, dann ist dein Kitzel kein physischer Zustand. Entweder ist alles physisch oder alles ist mental . Aber mein gebrochener Zeh ist kein psychischer Zustand. Mein Kopfschmerz ist also kein dualistischer Zustand.', 'Wenn mein Kopfschmerz ein dualischer Zustand ist, dann ist dein Kitzel kein physischer Zustand. Wenn alles physisch ist, dann ist alles mental. Aber mein gebrochener Zeh ist kein psychischer Zustand. Mein Kopfschmerz ist also kein dualistischer Zustand.', 'Wenn mein Kopfschmerz ein dualischer Zustand ist, dann ist dein Kitzel kein physischer Zustand. Alles ist entweder physisch oder mental. Aber mein gebrochener Zeh ist kein psychischer Zustand. Mein Kopfschmerz ist also kein dualistischer Zustand.']",1,"Frage: Wählen Sie die beste englische Interpretation der angegebenen Argumente in der Prädikatlogik. Dh  ~Pt (∀x)Px  (∀x)Mx ~Mb / ~Dh
+
+Antwortoptionen: ['Wenn mein Kopfschmerz ein dualischer Zustand ist, dann ist dein Kitzel ein physischer Zustand. Entweder ist alles physisch oder alles ist mental . Aber mein gebrochener Zeh ist kein psychischer Zustand. Mein Kopfschmerz ist also kein dualistischer Zustand.', 'Wenn mein Kopfschmerz ein dualischer Zustand ist, dann ist dein Kitzel kein physischer Zustand. Entweder ist alles physisch oder alles ist mental . Aber mein gebrochener Zeh ist kein psychischer Zustand. Mein Kopfschmerz ist also kein dualistischer Zustand.', 'Wenn mein Kopfschmerz ein dualischer Zustand ist, dann ist dein Kitzel kein physischer Zustand. Wenn alles physisch ist, dann ist alles mental. Aber mein gebrochener Zeh ist kein psychischer Zustand. Mein Kopfschmerz ist also kein dualistischer Zustand.', 'Wenn mein Kopfschmerz ein dualischer Zustand ist, dann ist dein Kitzel kein physischer Zustand. Alles ist entweder physisch oder mental. Aber mein gebrochener Zeh ist kein psychischer Zustand. Mein Kopfschmerz ist also kein dualistischer Zustand.']
+
+Antwort: Wenn mein Kopfschmerz ein dualischer Zustand ist, dann ist dein Kitzel kein physischer Zustand. Entweder ist alles physisch oder alles ist mental . Aber mein gebrochener Zeh ist kein psychischer Zustand. Mein Kopfschmerz ist also kein dualistischer Zustand."
+Welcher der folgenden Sätze ist eine unmittelbare (einstufige) Folge in PL der gegebenen Prämisse? A  (B • C) ~(B • C) A  (D  B),formal_logic,"['A', '~A', 'B', '~B']",1,"Frage: Welcher der folgenden Sätze ist eine unmittelbare (einstufige) Folge in PL der gegebenen Prämisse? A  (B • C) ~(B • C) A  (D  B)
+
+Antwortoptionen: ['A', '~A', 'B', '~B']
+
+Antwort: ~A"
+Welcher der folgenden Sätze ist eine unmittelbare (einstufige) Konsequenz in PL der gegebenen Prämisse? (N  ~ O)  (O  Q) P  (N  ~ O) N  P,formal_logic,"['P', 'N  ~O', 'O  Q', '~P']",0,"Frage: Welcher der folgenden Sätze ist eine unmittelbare (einstufige) Konsequenz in PL der gegebenen Prämisse? (N  ~ O)  (O  Q) P  (N  ~ O) N  P
+
+Antwortoptionen: ['P', 'N  ~O', 'O  Q', '~P']
+
+Antwort: P"
+Wählen Sie die beste Übersetzung in Prädikatlogik aus. Die Erde ist nicht größer als Jupiter. (e: Erde; j: Jupiter; Bxy: x ist größer als y),formal_logic,"['~Bje', 'Beige', 'Ich weiß nicht, was ich sagen soll.', '~ Bej']",3,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik aus. Die Erde ist nicht größer als Jupiter. (e: Erde; j: Jupiter; Bxy: x ist größer als y)
+
+Antwortoptionen: ['~Bje', 'Beige', 'Ich weiß nicht, was ich sagen soll.', '~ Bej']
+
+Antwort: ~ Bej"
+"Identifizieren Sie den Vorgänger des folgenden bedingten Satzes: Die Bienen, die ihr erstes Spiel gewinnen, sind notwendig, damit entweder die Aardvarks oder die Chipmunks ihr erstes Spiel nicht gewinnen.",formal_logic,"['Die Aardvarks gewinnen nicht ihr erstes Spiel.', 'Die Bees gewinnen ihr erstes Spiel.', 'Die Chipmunks gewinnen nicht ihr erstes Spiel.', 'Entweder die Aardvarks oder die Chipmunks gewinnen ihr erstes Spiel nicht.']",3,"Frage: Identifizieren Sie den Vorgänger des folgenden bedingten Satzes: Die Bienen, die ihr erstes Spiel gewinnen, sind notwendig, damit entweder die Aardvarks oder die Chipmunks ihr erstes Spiel nicht gewinnen.
+
+Antwortoptionen: ['Die Aardvarks gewinnen nicht ihr erstes Spiel.', 'Die Bees gewinnen ihr erstes Spiel.', 'Die Chipmunks gewinnen nicht ihr erstes Spiel.', 'Entweder die Aardvarks oder die Chipmunks gewinnen ihr erstes Spiel nicht.']
+
+Antwort: Entweder die Aardvarks oder die Chipmunks gewinnen ihr erstes Spiel nicht."
+"Nennen Sie den Vorläufer des folgenden bedingten Satzes: Die Bienen gewinnen ihr erstes Spiel nur, wenn entweder die Aardvarks oder die Chipmunks ihre ersten Spiele nicht gewinnen.",formal_logic,"['Die Aardvarks gewinnen nicht ihr erstes Spiel.', 'Die Bees gewinnen ihr erstes Spiel.', 'Die Chipmunks gewinnen nicht ihr erstes Spiel.', 'Entweder die Aardvarks oder die Chipmunks gewinnen ihre ersten Spiele nicht.']",1,"Frage: Nennen Sie den Vorläufer des folgenden bedingten Satzes: Die Bienen gewinnen ihr erstes Spiel nur, wenn entweder die Aardvarks oder die Chipmunks ihre ersten Spiele nicht gewinnen.
+
+Antwortoptionen: ['Die Aardvarks gewinnen nicht ihr erstes Spiel.', 'Die Bees gewinnen ihr erstes Spiel.', 'Die Chipmunks gewinnen nicht ihr erstes Spiel.', 'Entweder die Aardvarks oder die Chipmunks gewinnen ihre ersten Spiele nicht.']
+
+Antwort: Die Bees gewinnen ihr erstes Spiel."
+Wählen Sie die beste Übersetzung in Prädikatlogik: Manche Athleten werden nicht verletzt.,formal_logic,"['~ Sie', '(x) ((Ax • ~Ix)', '- Ja.', '(x) ((Ix  ~Ax)']",1,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik: Manche Athleten werden nicht verletzt.
+
+Antwortoptionen: ['~ Sie', '(x) ((Ax • ~Ix)', '- Ja.', '(x) ((Ix  ~Ax)']
+
+Antwort: (x) ((Ax • ~Ix)"
+"Erstellen Sie eine vollständige Wahrheitstabelle für die folgenden Satzpaare Finden Sie dann anhand der Wahrheitstabellen heraus, ob die Aussagen logisch gleichwertig oder widersprüchlich sind Wenn beide nicht übereinstimmen, bestimmen Sie, ob sie übereinstimmen oder nicht übereinstimmen. Rechtfertigen Sie Ihre Antworten.",formal_logic,"['Logisch gleichwertig', 'Widersprüchlich', 'Weder logisch gleichwertig noch widersprüchlich, aber konsistent', 'Unvereinbar']",1,"Frage: Erstellen Sie eine vollständige Wahrheitstabelle für die folgenden Satzpaare Finden Sie dann anhand der Wahrheitstabellen heraus, ob die Aussagen logisch gleichwertig oder widersprüchlich sind Wenn beide nicht übereinstimmen, bestimmen Sie, ob sie übereinstimmen oder nicht übereinstimmen. Rechtfertigen Sie Ihre Antworten.
+
+Antwortoptionen: ['Logisch gleichwertig', 'Widersprüchlich', 'Weder logisch gleichwertig noch widersprüchlich, aber konsistent', 'Unvereinbar']
+
+Antwort: Widersprüchlich"
+"Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob jeder Satz von Sätzen konsistent ist Wenn der Satz konsistent ist, wählen Sie eine Option mit einer konsistenten Bewertung (Es können andere konsistente Bewertungen vorliegen.) (T  U)  (W  U) T  ~(U  X) (T  ~X)  W",formal_logic,"['Unvereinbar', 'Konsistente Bewertung, wenn U, W und X wahr sind und T falsch ist', 'Konsistente Bewertung, wenn W und X wahr und T und U falsch sind', 'Konsistente Bewertung, wenn T und U wahr und W und X falsch sind']",1,"Frage: Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob jeder Satz von Sätzen konsistent ist Wenn der Satz konsistent ist, wählen Sie eine Option mit einer konsistenten Bewertung (Es können andere konsistente Bewertungen vorliegen.) (T  U)  (W  U) T  ~(U  X) (T  ~X)  W
+
+Antwortoptionen: ['Unvereinbar', 'Konsistente Bewertung, wenn U, W und X wahr sind und T falsch ist', 'Konsistente Bewertung, wenn W und X wahr und T und U falsch sind', 'Konsistente Bewertung, wenn T und U wahr und W und X falsch sind']
+
+Antwort: Konsistente Bewertung, wenn U, W und X wahr sind und T falsch ist"
+"Wählen Sie die beste Übersetzung in Prädikatlogik: Caroline ist süß, wenn und nur wenn Janet mit Brad verlobt ist.",formal_logic,"['Cs  Ej', 'Sch', 'sC  eJ', 'Sx  Jy']",1,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik: Caroline ist süß, wenn und nur wenn Janet mit Brad verlobt ist.
+
+Antwortoptionen: ['Cs  Ej', 'Sch', 'sC  eJ', 'Sx  Jy']
+
+Antwort: Sch"
+"Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Entweder Englands Import von Rindfleisch ist eine ausreichende Bedingung für die Subventionierung der französischen Landwirtschaft oder China fördert die Menschenrechte nicht, wenn und nur dann, wenn Südafrika Diamanten liefert.",formal_logic,"['(E  F)  (~C  S)', '(F  E)  (S  ~C)', '(E  F)  ~(S  C)', '(E  F)  (~C  S)']",3,"Frage: Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Entweder Englands Import von Rindfleisch ist eine ausreichende Bedingung für die Subventionierung der französischen Landwirtschaft oder China fördert die Menschenrechte nicht, wenn und nur dann, wenn Südafrika Diamanten liefert.
+
+Antwortoptionen: ['(E  F)  (~C  S)', '(F  E)  (S  ~C)', '(E  F)  ~(S  C)', '(E  F)  (~C  S)']
+
+Antwort: (E  F)  (~C  S)"
+"Verwenden Sie den folgenden Schlüssel, um die gegebene Formel von PL in natürliche zu übersetzen Englische Sätze. A: Marina liest ein Percy Jackson Buch. B: Izzy spielt Minecraft. C: Emily hört auf zu arbeiten. D: Russell macht Abendessen. E: Ashleigh kommt vorbei.",formal_logic,"['Wenn weder Marina ein Percy Jackson Buch liest noch Izzy Minecraft spielt, dann hört Emily auf zu arbeiten.', 'Wenn es nicht der Fall ist, dass Marina ein Percy Jackson Buch liest und Izzy Minecraft spielt, dann hört Emily auf zu arbeiten.', 'Entweder Marina liest kein Percy Jackson Buch oder Izzy spielt kein Minecraft, was bedeutet, dass Emily aufhört zu arbeiten.', 'Dass Emily aufhört zu arbeiten, ist eine ausreichende Bedingung dafür, dass entweder Marina kein Percy Jackson Buch liest oder Izzy kein Minecraft spielt.']",2,"Frage: Verwenden Sie den folgenden Schlüssel, um die gegebene Formel von PL in natürliche zu übersetzen Englische Sätze. A: Marina liest ein Percy Jackson Buch. B: Izzy spielt Minecraft. C: Emily hört auf zu arbeiten. D: Russell macht Abendessen. E: Ashleigh kommt vorbei.
+
+Antwortoptionen: ['Wenn weder Marina ein Percy Jackson Buch liest noch Izzy Minecraft spielt, dann hört Emily auf zu arbeiten.', 'Wenn es nicht der Fall ist, dass Marina ein Percy Jackson Buch liest und Izzy Minecraft spielt, dann hört Emily auf zu arbeiten.', 'Entweder Marina liest kein Percy Jackson Buch oder Izzy spielt kein Minecraft, was bedeutet, dass Emily aufhört zu arbeiten.', 'Dass Emily aufhört zu arbeiten, ist eine ausreichende Bedingung dafür, dass entweder Marina kein Percy Jackson Buch liest oder Izzy kein Minecraft spielt.']
+
+Antwort: Entweder Marina liest kein Percy Jackson Buch oder Izzy spielt kein Minecraft, was bedeutet, dass Emily aufhört zu arbeiten."
+"Geben Sie die Schlussfolgerung des folgenden Arguments an: Es gibt diejenigen, die Prädikatvariablen verwenden; die Werte dieser Variablen sind Attribute Prädikate werden in allen Sätzen benötigt, unabhängig davon, ob es Attribute gibt, auf die sich beziehen kann. Das Dummy-Predikat ""F"" wird im Allgemeinen zu expositorischen Zwecken benötigt. Wenn wir über Attribute zu quantifizieren und beziehen sich auf sie In diesem Fall wird durch die Verwendung erkennbarer Variablen und kennzeichnender Bezeichnungen für die Zwecke der Erläuterungen Klarheit geschaffen. und diese nicht mit den Prädikaten vermischen (Quine, Philosophie der Logik)",formal_logic,"['Es gibt diejenigen, die Prädikatvariablen verwenden; die Werte dieser Variablen sind Attribute.', 'Prädikate werden in allen Sätzen benötigt, unabhängig davon, ob es Attribute gibt, auf die sich beziehen kann.', 'Das Dummy-Predikat 'F' wird im Allgemeinen zur Darstellung benötigt.', 'Wenn wir über Attribute zu quantifizieren und beziehen sich auf sie In diesem Fall wird durch die Verwendung erkennbarer Variablen und kennzeichnender Bezeichnungen für die Zwecke der Erläuterungen Klarheit geschaffen. und diese nicht mit den Prädikaten vermischen.']",3,"Frage: Geben Sie die Schlussfolgerung des folgenden Arguments an: Es gibt diejenigen, die Prädikatvariablen verwenden; die Werte dieser Variablen sind Attribute Prädikate werden in allen Sätzen benötigt, unabhängig davon, ob es Attribute gibt, auf die sich beziehen kann. Das Dummy-Predikat ""F"" wird im Allgemeinen zu expositorischen Zwecken benötigt. Wenn wir über Attribute zu quantifizieren und beziehen sich auf sie In diesem Fall wird durch die Verwendung erkennbarer Variablen und kennzeichnender Bezeichnungen für die Zwecke der Erläuterungen Klarheit geschaffen. und diese nicht mit den Prädikaten vermischen (Quine, Philosophie der Logik)
+
+Antwortoptionen: ['Es gibt diejenigen, die Prädikatvariablen verwenden; die Werte dieser Variablen sind Attribute.', 'Prädikate werden in allen Sätzen benötigt, unabhängig davon, ob es Attribute gibt, auf die sich beziehen kann.', 'Das Dummy-Predikat 'F' wird im Allgemeinen zur Darstellung benötigt.', 'Wenn wir über Attribute zu quantifizieren und beziehen sich auf sie In diesem Fall wird durch die Verwendung erkennbarer Variablen und kennzeichnender Bezeichnungen für die Zwecke der Erläuterungen Klarheit geschaffen. und diese nicht mit den Prädikaten vermischen.']
+
+Antwort: Wenn wir über Attribute zu quantifizieren und beziehen sich auf sie In diesem Fall wird durch die Verwendung erkennbarer Variablen und kennzeichnender Bezeichnungen für die Zwecke der Erläuterungen Klarheit geschaffen. und diese nicht mit den Prädikaten vermischen."
+"Verwenden Sie den folgenden Schlüssel, um die gegebene Formel von PL in natürliche zu übersetzen Englische Sätze. A: Marina liest ein Percy Jackson Buch. B: Izzy spielt Minecraft. C: Emily hört auf zu arbeiten. D: Russell macht Abendessen. E: Ashleigh kommt vorbei. ~C  D",formal_logic,"['Wenn Emily nicht aufhört zu arbeiten, dann macht Russell das Abendessen.', 'Emily arbeitet nicht mehr, es sei denn, Russell macht das Abendessen.', 'Emily arbeitet nicht mehr, es sei denn, Russell macht das Abendessen nicht.', 'Emily hört nicht auf zu arbeiten, es sei denn, Russell macht das Abendessen.']",3,"Frage: Verwenden Sie den folgenden Schlüssel, um die gegebene Formel von PL in natürliche zu übersetzen Englische Sätze. A: Marina liest ein Percy Jackson Buch. B: Izzy spielt Minecraft. C: Emily hört auf zu arbeiten. D: Russell macht Abendessen. E: Ashleigh kommt vorbei. ~C  D
+
+Antwortoptionen: ['Wenn Emily nicht aufhört zu arbeiten, dann macht Russell das Abendessen.', 'Emily arbeitet nicht mehr, es sei denn, Russell macht das Abendessen.', 'Emily arbeitet nicht mehr, es sei denn, Russell macht das Abendessen nicht.', 'Emily hört nicht auf zu arbeiten, es sei denn, Russell macht das Abendessen.']
+
+Antwort: Emily hört nicht auf zu arbeiten, es sei denn, Russell macht das Abendessen."
+Wählen Sie die beste Übersetzung in Prädikatlogik: Abdul und Kleopatra sind Ägypter.,formal_logic,"['EWG • EWG', 'Verbrauchsgüter', 'A  C', 'Früher']",0,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik: Abdul und Kleopatra sind Ägypter.
+
+Antwortoptionen: ['EWG • EWG', 'Verbrauchsgüter', 'A  C', 'Früher']
+
+Antwort: EWG • EWG"
+Wählen Sie die beste Übersetzung in Prädikatlogik: Sheena ist eine Punk-Rockerin.,formal_logic,"['Sx', 'xS', 'sP', 'Ps']",3,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik: Sheena ist eine Punk-Rockerin.
+
+Antwortoptionen: ['Sx', 'xS', 'sP', 'Ps']
+
+Antwort: Ps"
+Kevin wird José von Wilma vorgestellt. (j: José; k: Kevin; w: Wilma; Ixyz: x führt y zu z),formal_logic,"['Iwjk', 'IJkw', 'Ich weiß nicht.', 'Iwkj']",3,"Frage: Kevin wird José von Wilma vorgestellt. (j: José; k: Kevin; w: Wilma; Ixyz: x führt y zu z)
+
+Antwortoptionen: ['Iwjk', 'IJkw', 'Ich weiß nicht.', 'Iwkj']
+
+Antwort: Iwkj"
+"Wählen Sie die beste Übersetzung in Prädikatlogik: Wenn Eileen Geige spielt, dann singt Sherri.",formal_logic,"['Fe  Ss', 'eF  Ss', 'Fe  Es', 'Fe  Ss']",3,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik: Wenn Eileen Geige spielt, dann singt Sherri.
+
+Antwortoptionen: ['Fe  Ss', 'eF  Ss', 'Fe  Es', 'Fe  Ss']
+
+Antwort: Fe  Ss"
+"Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) ~ C  D D  C / C",formal_logic,"['Gültig', 'Gegenbeispiel, wenn C und D zutreffen', 'Gegenbeispiel, wenn C wahr und D falsch ist', 'Ungültig. Gegenbeispiel, wenn D wahr und C falsch ist']",0,"Frage: Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) ~ C  D D  C / C
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn C und D zutreffen', 'Gegenbeispiel, wenn C wahr und D falsch ist', 'Ungültig. Gegenbeispiel, wenn D wahr und C falsch ist']
+
+Antwort: Gültig"
+Wählen Sie die beste Übersetzung in Prädikatlogik:: Einige blaue Reiher ziehen aus.,formal_logic,"['(∀x) [(Hx • Bx) • Mx]', '(x) [(Hx • Bx)  Mx]', '(∀x) [(Hx • Bx)  Mx]', '(x) [(Hx • Bx) • Mx]']",3,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik:: Einige blaue Reiher ziehen aus.
+
+Antwortoptionen: ['(∀x) [(Hx • Bx) • Mx]', '(x) [(Hx • Bx)  Mx]', '(∀x) [(Hx • Bx)  Mx]', '(x) [(Hx • Bx) • Mx]']
+
+Antwort: (x) [(Hx • Bx) • Mx]"
+Wählen Sie die beste englische Interpretation der angegebenen Argumente in der Prädikatlogik. (x) ((Cx • Ox) (∀x) [(~Cx  ~Bx)  ~Og] / ~Og,formal_logic,"['Einige Kekse haben Haferflocken. Wenn etwas kein Keks ist, bedeutet das, dass es keine Schokoladenchips hat, dann hat dieser Keks keine Haferflocken. Also hat dieser Keks keine Haferflocken.', 'Einige Kekse haben Haferflocken. Wenn etwas kein Keks ist und keine Schokoladenchips hat, hat es keine Haferflocken. Also hat dieser Keks keine Haferflocken.', 'Einige Kekse haben Haferflocken. Wenn etwas keine Haferflocken hat, dann ist es kein Keks und es hat keine Schokoladenchips. Also hat dieser Keks keine Haferflocken.', 'Einige Kekse haben Haferflocken. Wenn etwas keine Schokoladenchips hat, bedeutet das, dass es kein Keks ist, dann hat es keine Haferflocken. Also hat dieser Keks keine Haferflocken.']",0,"Frage: Wählen Sie die beste englische Interpretation der angegebenen Argumente in der Prädikatlogik. (x) ((Cx • Ox) (∀x) [(~Cx  ~Bx)  ~Og] / ~Og
+
+Antwortoptionen: ['Einige Kekse haben Haferflocken. Wenn etwas kein Keks ist, bedeutet das, dass es keine Schokoladenchips hat, dann hat dieser Keks keine Haferflocken. Also hat dieser Keks keine Haferflocken.', 'Einige Kekse haben Haferflocken. Wenn etwas kein Keks ist und keine Schokoladenchips hat, hat es keine Haferflocken. Also hat dieser Keks keine Haferflocken.', 'Einige Kekse haben Haferflocken. Wenn etwas keine Haferflocken hat, dann ist es kein Keks und es hat keine Schokoladenchips. Also hat dieser Keks keine Haferflocken.', 'Einige Kekse haben Haferflocken. Wenn etwas keine Schokoladenchips hat, bedeutet das, dass es kein Keks ist, dann hat es keine Haferflocken. Also hat dieser Keks keine Haferflocken.']
+
+Antwort: Einige Kekse haben Haferflocken. Wenn etwas kein Keks ist, bedeutet das, dass es keine Schokoladenchips hat, dann hat dieser Keks keine Haferflocken. Also hat dieser Keks keine Haferflocken."
+"Geben Sie die Schlussfolgerung des folgenden Arguments an: Die ganze Psychologie ist in moralischen Vorurteilen und Ängsten stecken geblieben . Niemand ist in der Nähe gekommen, es als die Entwicklung des Willens zur Macht zu verstehen. Jedoch Wenn eine Person überhaupt anfängt, die Auswirkungen von Hass zu betrachten, Eifersucht Begehrlichkeit und das Verlangen nach Herrschaft als Lebensbedingungen und darüber hinaus als wesentliche Faktoren für die allgemeine Ökonomie des Lebens Er wird anfangen, Seekrankheit zu bekommen. An diesem Punkt beginnt er, sich zu verlieren, und segeln über die Moral Auf diese Weise wird die Psychologie wieder zum Weg zu grundlegenden Problemen. (Friedrich Nietzsche, Jenseits von Gut und Böse)",formal_logic,"['Die ganze Psychologie ist in moralischen Vorurteilen und Ängsten stecken geblieben.', 'Niemand ist in der Nähe gekommen, es als die Entwicklung des Willens zur Macht zu verstehen.', 'Wenn jemand überhaupt anfängt, die Auswirkungen von Hass zu betrachten, Eifersucht Begehrlichkeit und das Verlangen nach Herrschaft als Lebensbedingungen und darüber hinaus als wesentliche Faktoren für die allgemeine Ökonomie des Lebens Er wird anfangen, Seekrankheit zu bekommen.', 'Die Psychologie wird wiederum zum Weg zu grundlegenden Problemen.']",3,"Frage: Geben Sie die Schlussfolgerung des folgenden Arguments an: Die ganze Psychologie ist in moralischen Vorurteilen und Ängsten stecken geblieben . Niemand ist in der Nähe gekommen, es als die Entwicklung des Willens zur Macht zu verstehen. Jedoch Wenn eine Person überhaupt anfängt, die Auswirkungen von Hass zu betrachten, Eifersucht Begehrlichkeit und das Verlangen nach Herrschaft als Lebensbedingungen und darüber hinaus als wesentliche Faktoren für die allgemeine Ökonomie des Lebens Er wird anfangen, Seekrankheit zu bekommen. An diesem Punkt beginnt er, sich zu verlieren, und segeln über die Moral Auf diese Weise wird die Psychologie wieder zum Weg zu grundlegenden Problemen. (Friedrich Nietzsche, Jenseits von Gut und Böse)
+
+Antwortoptionen: ['Die ganze Psychologie ist in moralischen Vorurteilen und Ängsten stecken geblieben.', 'Niemand ist in der Nähe gekommen, es als die Entwicklung des Willens zur Macht zu verstehen.', 'Wenn jemand überhaupt anfängt, die Auswirkungen von Hass zu betrachten, Eifersucht Begehrlichkeit und das Verlangen nach Herrschaft als Lebensbedingungen und darüber hinaus als wesentliche Faktoren für die allgemeine Ökonomie des Lebens Er wird anfangen, Seekrankheit zu bekommen.', 'Die Psychologie wird wiederum zum Weg zu grundlegenden Problemen.']
+
+Antwort: Die Psychologie wird wiederum zum Weg zu grundlegenden Problemen."
+"Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob jeder Satz von Sätzen konsistent ist Wenn der Satz konsistent ist, wählen Sie eine Option mit einer konsistenten Bewertung (Es können andere einheitliche Bewertungen vorliegen.) ~N  (O · P) ~O  Q N · ~Q",formal_logic,"['Unvereinbar', 'Konsistente Bewertung, wenn N, O und P wahr und Q falsch sind', 'Konsistente Bewertung, wenn N und O wahr und P und Q falsch sind', 'Konsistente Bewertung, wenn N und P wahr und O und Q falsch sind']",2,"Frage: Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob jeder Satz von Sätzen konsistent ist Wenn der Satz konsistent ist, wählen Sie eine Option mit einer konsistenten Bewertung (Es können andere einheitliche Bewertungen vorliegen.) ~N  (O · P) ~O  Q N · ~Q
+
+Antwortoptionen: ['Unvereinbar', 'Konsistente Bewertung, wenn N, O und P wahr und Q falsch sind', 'Konsistente Bewertung, wenn N und O wahr und P und Q falsch sind', 'Konsistente Bewertung, wenn N und P wahr und O und Q falsch sind']
+
+Antwort: Konsistente Bewertung, wenn N und O wahr und P und Q falsch sind"
+"Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Eine Person gilt als mit Ihnen für das gesamte laufende Jahr gelebt haben, wenn die Person im laufenden Jahr geboren wurde oder starb und Ihr Zuhause war diese Person zu Hause für die gesamte Zeit diese Person lebte.",formal_logic,"['[B  D] • H]  L', '[L  (B  D) ] • H', 'L  [(B  D) • H]', '(B  D • H)  L']",0,"Frage: Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Eine Person gilt als mit Ihnen für das gesamte laufende Jahr gelebt haben, wenn die Person im laufenden Jahr geboren wurde oder starb und Ihr Zuhause war diese Person zu Hause für die gesamte Zeit diese Person lebte.
+
+Antwortoptionen: ['[B  D] • H]  L', '[L  (B  D) ] • H', 'L  [(B  D) • H]', '(B  D • H)  L']
+
+Antwort: [B  D] • H]  L"
+"Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) (O  P)  P / P  ~O",formal_logic,"['Gültig', 'Gegenbeispiel, wenn O und P wahr sind', 'Gegenbeispiel, wenn O wahr und P falsch ist', 'Gegenbeispiel, wenn P wahr und O falsch ist']",0,"Frage: Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) (O  P)  P / P  ~O
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn O und P wahr sind', 'Gegenbeispiel, wenn O wahr und P falsch ist', 'Gegenbeispiel, wenn P wahr und O falsch ist']
+
+Antwort: Gültig"
+"Wählen Sie die beste Übersetzung in Prädikatlogik: Leroy ist nur schlecht, wenn DJ Khaled seinen Namen ruft.",formal_logic,"['Sk  Bl', 'Bl  Sk', 'Bx  Sy', 'Bl  Sk']",3,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik: Leroy ist nur schlecht, wenn DJ Khaled seinen Namen ruft.
+
+Antwortoptionen: ['Sk  Bl', 'Bl  Sk', 'Bx  Sy', 'Bl  Sk']
+
+Antwort: Bl  Sk"
+"Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Wenn entweder George oder Harry sich einschreibt, dann schreibt sich Ira nicht ein.",formal_logic,"['(G  H)  I', '(G  H)  I', '(G  H)  ~I', '(G  H)  ~I']",3,"Frage: Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Wenn entweder George oder Harry sich einschreibt, dann schreibt sich Ira nicht ein.
+
+Antwortoptionen: ['(G  H)  I', '(G  H)  I', '(G  H)  ~I', '(G  H)  ~I']
+
+Antwort: (G  H)  ~I"
+"Wählen Sie die beste Übersetzung in Prädikatlogik: Ms. Jackson hat mir etwas Zucker geliehen, aber weder Janet noch Latoya haben es getan.",formal_logic,"['Lm  ~(Jl  Ll)', 'Lm • ~(Lj • Ll)', 'Lm • ~(Lj  Ll)', 'Lm  ~(Lj • Ll)']",2,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik: Ms. Jackson hat mir etwas Zucker geliehen, aber weder Janet noch Latoya haben es getan.
+
+Antwortoptionen: ['Lm  ~(Jl  Ll)', 'Lm • ~(Lj • Ll)', 'Lm • ~(Lj  Ll)', 'Lm  ~(Lj • Ll)']
+
+Antwort: Lm • ~(Lj  Ll)"
+Wählen Sie die beste Übersetzung in Prädikatlogik. Einige Tiere werden von grausamen Menschen vernachlässigt. (Ax: x ist ein Tier; Cx: x ist grausam; Px: x ist eine Person; Nxy: x vernachlässigt y),formal_logic,"['(x) (Ax • Cx) (y) (Py • Nyx)', '(x) (Cx • Px) (y) (Ay • Nxy)', '(x) (Ax • Px) (y) (Cy • Nxy)', '(x) ((y) {[(Ax • Cy) • Py] • Nxy) ]}']",1,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik. Einige Tiere werden von grausamen Menschen vernachlässigt. (Ax: x ist ein Tier; Cx: x ist grausam; Px: x ist eine Person; Nxy: x vernachlässigt y)
+
+Antwortoptionen: ['(x) (Ax • Cx) (y) (Py • Nyx)', '(x) (Cx • Px) (y) (Ay • Nxy)', '(x) (Ax • Px) (y) (Cy • Nxy)', '(x) ((y) {[(Ax • Cy) • Py] • Nxy) ]}']
+
+Antwort: (x) (Cx • Px) (y) (Ay • Nxy)"
+"Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob jeder Satz von Sätzen konsistent ist Wenn der Satz konsistent ist, wählen Sie eine Option mit einer konsistenten Bewertung (Es können andere konsistente Bewertungen vorliegen.) (E  F)  G (~E  F)  (H  I) I  (J  ~H) ~G  ~J",formal_logic,"['Unvereinbar', 'Konsistente Bewertung, wenn E wahr und F, G, H, I und J falsch sind', 'Konsistente Bewertung, wenn E und H wahr und F, G, I und J falsch sind', 'Konsistente Bewertung, wenn E und I wahr und F, G, H und J falsch sind']",1,"Frage: Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob jeder Satz von Sätzen konsistent ist Wenn der Satz konsistent ist, wählen Sie eine Option mit einer konsistenten Bewertung (Es können andere konsistente Bewertungen vorliegen.) (E  F)  G (~E  F)  (H  I) I  (J  ~H) ~G  ~J
+
+Antwortoptionen: ['Unvereinbar', 'Konsistente Bewertung, wenn E wahr und F, G, H, I und J falsch sind', 'Konsistente Bewertung, wenn E und H wahr und F, G, I und J falsch sind', 'Konsistente Bewertung, wenn E und I wahr und F, G, H und J falsch sind']
+
+Antwort: Konsistente Bewertung, wenn E wahr und F, G, H, I und J falsch sind"
+Wählen Sie die beste Übersetzung in Prädikatlogik: Einige Schüler arbeiten hart.,formal_logic,"['(x) ((Wx  Sx)', '(x) ((Sx  Wx)', '(x) ((Sx • Wx)', '(x) ((Sx  Wx)']",2,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik: Einige Schüler arbeiten hart.
+
+Antwortoptionen: ['(x) ((Wx  Sx)', '(x) ((Sx  Wx)', '(x) ((Sx • Wx)', '(x) ((Sx  Wx)']
+
+Antwort: (x) ((Sx • Wx)"
+"Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Entweder Englands Import von Rindfleisch ist keine notwendige Bedingung für Frankreichs Subventionierung der Landwirtschaft oder China fördert die Menschenrechte, wenn Südafrika Diamanten liefert.",formal_logic,"['(~F  E)  (C  ~S)', '(~E  F)  (C  S)', '(~ F  E)  (C  S)', '~(F  E)  (S  C)']",3,"Frage: Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Entweder Englands Import von Rindfleisch ist keine notwendige Bedingung für Frankreichs Subventionierung der Landwirtschaft oder China fördert die Menschenrechte, wenn Südafrika Diamanten liefert.
+
+Antwortoptionen: ['(~F  E)  (C  ~S)', '(~E  F)  (C  S)', '(~ F  E)  (C  S)', '~(F  E)  (S  C)']
+
+Antwort: ~(F  E)  (S  C)"
+"Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) ~A · ~B (A  C)  B / C",formal_logic,"['Gültig', 'Ungültig. Gegenbeispiel, wenn A und B wahr und C falsch ist', 'Gegenbeispiel, wenn A wahr und B und C falsch sind', 'Ungültig. Gegenbeispiel, wenn B wahr und A und C falsch sind']",0,"Frage: Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) ~A · ~B (A  C)  B / C
+
+Antwortoptionen: ['Gültig', 'Ungültig. Gegenbeispiel, wenn A und B wahr und C falsch ist', 'Gegenbeispiel, wenn A wahr und B und C falsch sind', 'Ungültig. Gegenbeispiel, wenn B wahr und A und C falsch sind']
+
+Antwort: Gültig"
+Wählen Sie die beste Übersetzung in Prädikatlogik. Alle Vögel leben in einem Nest. (Bx: x ist ein Vogel; Nx: x ist ein Nest; Lxy: x lebt in y),formal_logic,"['(∀x) ((∀y) (((Bx • Ny)  Lxy)', '(∀x) [Bx  (y) (Ny • Lxy) ]', '(∀x) [(y) ((Ny • Bx)  Lxy]', '(∀x) ((y) (((Bx • Ny)  Lxy)']",1,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik. Alle Vögel leben in einem Nest. (Bx: x ist ein Vogel; Nx: x ist ein Nest; Lxy: x lebt in y)
+
+Antwortoptionen: ['(∀x) ((∀y) (((Bx • Ny)  Lxy)', '(∀x) [Bx  (y) (Ny • Lxy) ]', '(∀x) [(y) ((Ny • Bx)  Lxy]', '(∀x) ((y) (((Bx • Ny)  Lxy)']
+
+Antwort: (∀x) [Bx  (y) (Ny • Lxy) ]"
+"Geben Sie die Schlussfolgerung des folgenden Arguments an: Die utilitaristische Theorie ist in Verlegenheit gebracht durch die Möglichkeit von Nutzungsmonstern Ein Nutzungsmonster erhält enorme Gewinne im Nutzen, größer als der Nutzen, der durch die Opfer anderer verloren geht. Selbst die Opfer einer großen Anzahl anderer Menschen werden durch die Gewinne des Dienstleistungsmonsters aufgewogen. Die Theorie scheint zu verlangen, dass wir alle im Maul des Monsters geopfert werden, um den Gesamtnutzen zu erhöhen. (Robert Nozick, Anarchie, Staat und Utopie)",formal_logic,"['Die utilitaristische Theorie wird durch die Möglichkeit von Nutzenmonstern in Verlegenheit gebracht.', 'Ein nützliches Monster bekommt enorme Gewinne in der Nützlichkeit.', 'Ein Nutzungsmonster erhält Nutzen, der größer ist als der Nutzen, der durch das Opfer anderer verloren geht.', 'Selbst die Opfer einer großen Anzahl anderer Menschen werden durch die Gewinne des Dienstleistungsmonsters aufgewogen.']",0,"Frage: Geben Sie die Schlussfolgerung des folgenden Arguments an: Die utilitaristische Theorie ist in Verlegenheit gebracht durch die Möglichkeit von Nutzungsmonstern Ein Nutzungsmonster erhält enorme Gewinne im Nutzen, größer als der Nutzen, der durch die Opfer anderer verloren geht. Selbst die Opfer einer großen Anzahl anderer Menschen werden durch die Gewinne des Dienstleistungsmonsters aufgewogen. Die Theorie scheint zu verlangen, dass wir alle im Maul des Monsters geopfert werden, um den Gesamtnutzen zu erhöhen. (Robert Nozick, Anarchie, Staat und Utopie)
+
+Antwortoptionen: ['Die utilitaristische Theorie wird durch die Möglichkeit von Nutzenmonstern in Verlegenheit gebracht.', 'Ein nützliches Monster bekommt enorme Gewinne in der Nützlichkeit.', 'Ein Nutzungsmonster erhält Nutzen, der größer ist als der Nutzen, der durch das Opfer anderer verloren geht.', 'Selbst die Opfer einer großen Anzahl anderer Menschen werden durch die Gewinne des Dienstleistungsmonsters aufgewogen.']
+
+Antwort: Die utilitaristische Theorie wird durch die Möglichkeit von Nutzenmonstern in Verlegenheit gebracht."
+"Verwenden Sie den folgenden Schlüssel, um die gegebene Formel von PL in natürliche zu übersetzen Englische Sätze. A: Marina liest ein Percy Jackson Buch. B: Izzy spielt Minecraft. C: Emily hört auf zu arbeiten. D: Russell macht Abendessen. E: Ashleigh kommt vorbei.",formal_logic,"['Ob Marina ein Percy-Jackson-Buch liest oder Ashleigh nicht vorbeikommt, ist eine notwendige Bedingung dafür, dass Russell das Abendessen kocht und Izzy nicht Minecraft spielt.', 'Ob Marina ein Percy-Jackson-Buch liest oder Ashleigh nicht vorbeikommt, ist eine notwendige und ausreichende Bedingung dafür, dass Russell Abendessen kocht und Izzy Minecraft spielt.', 'Marina liest ein Percy-Jackson-Buch, es sei denn, Ashleigh kommt vorbei, wenn und nur wenn Russell das Abendessen macht und Izzy nicht Minecraft spielt.', 'Entweder Marina liest ein Percy-Jackson-Buch oder Ashleigh kommt nicht vorbei, nur für den Fall, dass Russell das Abendessen macht und Izzy nicht Minecraft spielt.']",3,"Frage: Verwenden Sie den folgenden Schlüssel, um die gegebene Formel von PL in natürliche zu übersetzen Englische Sätze. A: Marina liest ein Percy Jackson Buch. B: Izzy spielt Minecraft. C: Emily hört auf zu arbeiten. D: Russell macht Abendessen. E: Ashleigh kommt vorbei.
+
+Antwortoptionen: ['Ob Marina ein Percy-Jackson-Buch liest oder Ashleigh nicht vorbeikommt, ist eine notwendige Bedingung dafür, dass Russell das Abendessen kocht und Izzy nicht Minecraft spielt.', 'Ob Marina ein Percy-Jackson-Buch liest oder Ashleigh nicht vorbeikommt, ist eine notwendige und ausreichende Bedingung dafür, dass Russell Abendessen kocht und Izzy Minecraft spielt.', 'Marina liest ein Percy-Jackson-Buch, es sei denn, Ashleigh kommt vorbei, wenn und nur wenn Russell das Abendessen macht und Izzy nicht Minecraft spielt.', 'Entweder Marina liest ein Percy-Jackson-Buch oder Ashleigh kommt nicht vorbei, nur für den Fall, dass Russell das Abendessen macht und Izzy nicht Minecraft spielt.']
+
+Antwort: Entweder Marina liest ein Percy-Jackson-Buch oder Ashleigh kommt nicht vorbei, nur für den Fall, dass Russell das Abendessen macht und Izzy nicht Minecraft spielt."
+"Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Brittany mag Fische und Eidechsen, aber keine Katzen.",formal_logic,"['F • L • ~C', '(F) (L) (C)', '(F • L)  ~C', 'C • (F • L)']",1,"Frage: Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Brittany mag Fische und Eidechsen, aber keine Katzen.
+
+Antwortoptionen: ['F • L • ~C', '(F) (L) (C)', '(F • L)  ~C', 'C • (F • L)']
+
+Antwort: (F) (L) (C)"
+"Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Wenn entweder Harry sich einschreibt oder George sich nicht einschreibt, dann schreibt sich Jim ein.",formal_logic,"['H  (~G  J)', '~(H  G)  J', '(H  ~G)  J', '(H  ~G)  J']",2,"Frage: Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Wenn entweder Harry sich einschreibt oder George sich nicht einschreibt, dann schreibt sich Jim ein.
+
+Antwortoptionen: ['H  (~G  J)', '~(H  G)  J', '(H  ~G)  J', '(H  ~G)  J']
+
+Antwort: (H  ~G)  J"
+"Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) ~X  Y Y  Z ~Z / ~X",formal_logic,"['Gültig', 'Gegenbeispiel, wenn X, Y und Z wahr sind', 'Gegenbeispiel, wenn Y und Z wahr und Z falsch sind', 'Ungültig. Gegenbeispiel, wenn X wahr und Y und Z falsch sind']",3,"Frage: Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) ~X  Y Y  Z ~Z / ~X
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn X, Y und Z wahr sind', 'Gegenbeispiel, wenn Y und Z wahr und Z falsch sind', 'Ungültig. Gegenbeispiel, wenn X wahr und Y und Z falsch sind']
+
+Antwort: Ungültig. Gegenbeispiel, wenn X wahr und Y und Z falsch sind"
+S Die beste Übersetzung in Prädikatlogik auswählen Einige freundliche Menschen helfen gefährdeten Arten (Ex: x ist gefährdet; Kx: x ist freundlich; Px: x ist eine Person; Sx: x ist eine Spezies; Hxy: x hilft y),formal_logic,"['(x) {(Kx • Px) • (y) [(Ey • Sy) • Hxy]}', '(x) ((y) {[(Kx • Sx) • (Ey • Py) ] • Hxy}', '(x) ((y) {[(Kx • Sx) • (Ey • Py) ] • Hyx}', '(x) ((y) {[(Kx • Px) • (Ey • Sy)  Hxy}']",0,"Frage: S Die beste Übersetzung in Prädikatlogik auswählen Einige freundliche Menschen helfen gefährdeten Arten (Ex: x ist gefährdet; Kx: x ist freundlich; Px: x ist eine Person; Sx: x ist eine Spezies; Hxy: x hilft y)
+
+Antwortoptionen: ['(x) {(Kx • Px) • (y) [(Ey • Sy) • Hxy]}', '(x) ((y) {[(Kx • Sx) • (Ey • Py) ] • Hxy}', '(x) ((y) {[(Kx • Sx) • (Ey • Py) ] • Hyx}', '(x) ((y) {[(Kx • Px) • (Ey • Sy)  Hxy}']
+
+Antwort: (x) {(Kx • Px) • (y) [(Ey • Sy) • Hxy]}"
+Auswahl der besten englischen Interpretation des gegebenen Satzes mit dem folgenden Übersetzungsschlüssel: Ax: x ist eine Wohnung Hx: x ist ein Haus Lx: x ist groß Bxy: x ist größer als y (∀x) [Ax  (y) ((Hy • Bxy) ],formal_logic,"['Jede Wohnung ist größer als ein Haus.', 'Jedes Haus ist größer als alle Wohnungen.', 'Jedes Haus ist größer als eine Wohnung.', 'Ein Haus ist größer als jede Wohnung.']",0,"Frage: Auswahl der besten englischen Interpretation des gegebenen Satzes mit dem folgenden Übersetzungsschlüssel: Ax: x ist eine Wohnung Hx: x ist ein Haus Lx: x ist groß Bxy: x ist größer als y (∀x) [Ax  (y) ((Hy • Bxy) ]
+
+Antwortoptionen: ['Jede Wohnung ist größer als ein Haus.', 'Jedes Haus ist größer als alle Wohnungen.', 'Jedes Haus ist größer als eine Wohnung.', 'Ein Haus ist größer als jede Wohnung.']
+
+Antwort: Jede Wohnung ist größer als ein Haus."
+"Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) Q  R ~(S  Q) / R",formal_logic,"['Gültig', 'Gegenbeispiel, wenn Q und S wahr und R falsch sind', 'Gegenbeispiel, wenn Q wahr und S und R falsch sind', 'Gegenbeispiel, wenn Q, S und R falsch sind']",3,"Frage: Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) Q  R ~(S  Q) / R
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn Q und S wahr und R falsch sind', 'Gegenbeispiel, wenn Q wahr und S und R falsch sind', 'Gegenbeispiel, wenn Q, S und R falsch sind']
+
+Antwort: Gegenbeispiel, wenn Q, S und R falsch sind"
+"Die Universität erhöht die Studiengebühren nur, wenn der Gouverneur sie genehmigt und der Kuratorium sie empfiehlt.",formal_logic,"['Die Universität erhöht die Studiengebühren.', 'Der Gouverneur stimmt dem zu.', 'Der Kuratorium empfiehlt es.', 'Der Gouverneur genehmigt es und der Kuratorium empfiehlt es.']",0,"Frage: Die Universität erhöht die Studiengebühren nur, wenn der Gouverneur sie genehmigt und der Kuratorium sie empfiehlt.
+
+Antwortoptionen: ['Die Universität erhöht die Studiengebühren.', 'Der Gouverneur stimmt dem zu.', 'Der Kuratorium empfiehlt es.', 'Der Gouverneur genehmigt es und der Kuratorium empfiehlt es.']
+
+Antwort: Die Universität erhöht die Studiengebühren."
+Welcher der folgenden Sätze ist eine unmittelbare (einstufige) Konsequenz in PL der gegebenen Prämisse? (A  B)  (C  D) A  B ~ C,formal_logic,"['~A  ~B', '~C ~', 'C  D', '(A  B)  D']",2,"Frage: Welcher der folgenden Sätze ist eine unmittelbare (einstufige) Konsequenz in PL der gegebenen Prämisse? (A  B)  (C  D) A  B ~ C
+
+Antwortoptionen: ['~A  ~B', '~C ~', 'C  D', '(A  B)  D']
+
+Antwort: C  D"
+Identifizieren Sie den Vorgänger des folgenden bedingten Satzes: Wenn die Universität die Studiengebühren erhöht Dann genehmigt es entweder der Gouverneur oder der Kuratorium verhindert es nicht.,formal_logic,"['Die Universität erhöht die Studiengebühren.', 'Der Gouverneur stimmt dem zu.', 'Der Kuratorium verhindert es.', 'Der Kuratorium verhindert es nicht.']",0,"Frage: Identifizieren Sie den Vorgänger des folgenden bedingten Satzes: Wenn die Universität die Studiengebühren erhöht Dann genehmigt es entweder der Gouverneur oder der Kuratorium verhindert es nicht.
+
+Antwortoptionen: ['Die Universität erhöht die Studiengebühren.', 'Der Gouverneur stimmt dem zu.', 'Der Kuratorium verhindert es.', 'Der Kuratorium verhindert es nicht.']
+
+Antwort: Die Universität erhöht die Studiengebühren."
+Wählen Sie die beste Übersetzung in Prädikatlogik. Marco bewegt sich nicht von Spanien nach Italien. (i: Italien; m: Marco; s: Spanien; Mxyz: x bewegt sich von z zu y),formal_logic,"['~Mmsi', 'Ich weiß nicht, was ich sagen soll.', '~Miss', 'M~msi']",2,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik. Marco bewegt sich nicht von Spanien nach Italien. (i: Italien; m: Marco; s: Spanien; Mxyz: x bewegt sich von z zu y)
+
+Antwortoptionen: ['~Mmsi', 'Ich weiß nicht, was ich sagen soll.', '~Miss', 'M~msi']
+
+Antwort: ~Miss"
+"Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) ~S  T ~S · U ~T  U / T · U",formal_logic,"['Gültig', 'Gegenbeispiel, wenn S, T und U wahr sind', 'Gegenbeispiel, wenn S und U wahr und T falsch sind', 'Gegenbeispiel, wenn U wahr und S und T falsch sind']",3,"Frage: Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) ~S  T ~S · U ~T  U / T · U
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn S, T und U wahr sind', 'Gegenbeispiel, wenn S und U wahr und T falsch sind', 'Gegenbeispiel, wenn U wahr und S und T falsch sind']
+
+Antwort: Gegenbeispiel, wenn U wahr und S und T falsch sind"
+"Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Ärzte sind hilfsbereit, es sei denn, ihre Patienten sind unhöflich.",formal_logic,"['H  R', 'H • R', 'H  ~R', 'H  R']",3,"Frage: Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Ärzte sind hilfsbereit, es sei denn, ihre Patienten sind unhöflich.
+
+Antwortoptionen: ['H  R', 'H • R', 'H  ~R', 'H  R']
+
+Antwort: H  R"
+"Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob das folgende Argument gültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) L  [(M  ~N)  O] (N  O)  (~P  Q) R  ~Q / L  (R  P)",formal_logic,"['Gültig', 'Gegenbeispiel, wenn L, M, O, Q und R wahr und N und P falsch sind', 'Gegenbeispiel, wenn L, N, O, Q und R wahr und M und P falsch sind', 'Gegenbeispiel, wenn L, N und R wahr und M, O, P und Q falsch sind']",3,"Frage: Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob das folgende Argument gültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) L  [(M  ~N)  O] (N  O)  (~P  Q) R  ~Q / L  (R  P)
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn L, M, O, Q und R wahr und N und P falsch sind', 'Gegenbeispiel, wenn L, N, O, Q und R wahr und M und P falsch sind', 'Gegenbeispiel, wenn L, N und R wahr und M, O, P und Q falsch sind']
+
+Antwort: Gegenbeispiel, wenn L, N und R wahr und M, O, P und Q falsch sind"
+"Geben Sie die Schlussfolgerung des folgenden Arguments an: Der Sinn eines Begriffs soll seine Referenz bestimmen Aber beziehung kann variieren, ohne irgendeinen Unterschied im Denken Also, die Sinne der Begriffe müssen in der Lage sein, ohne Abweichung im Denken zu variieren Unsere Gedanken bestimmen also nicht die Bedeutung unserer Begriffe; Bedeutungen sind nicht im Kopf. (Hilary Putnam)",formal_logic,"['Der Sinn eines Begriffs soll seine Referenz bestimmen.', 'Aber die Referenzen können variieren, ohne dass es Unterschiede im Denken gibt.', 'Die Referenz kann variieren, ohne daß ein Unterschied im Denken vorhanden ist.', 'Unsere Gedanken bestimmen nicht die Bedeutung unserer Begriffe; Bedeutungen sind nicht im Kopf.']",3,"Frage: Geben Sie die Schlussfolgerung des folgenden Arguments an: Der Sinn eines Begriffs soll seine Referenz bestimmen Aber beziehung kann variieren, ohne irgendeinen Unterschied im Denken Also, die Sinne der Begriffe müssen in der Lage sein, ohne Abweichung im Denken zu variieren Unsere Gedanken bestimmen also nicht die Bedeutung unserer Begriffe; Bedeutungen sind nicht im Kopf. (Hilary Putnam)
+
+Antwortoptionen: ['Der Sinn eines Begriffs soll seine Referenz bestimmen.', 'Aber die Referenzen können variieren, ohne dass es Unterschiede im Denken gibt.', 'Die Referenz kann variieren, ohne daß ein Unterschied im Denken vorhanden ist.', 'Unsere Gedanken bestimmen nicht die Bedeutung unserer Begriffe; Bedeutungen sind nicht im Kopf.']
+
+Antwort: Unsere Gedanken bestimmen nicht die Bedeutung unserer Begriffe; Bedeutungen sind nicht im Kopf."
+"Erstellen Sie eine vollständige Wahrheitstabelle für die folgenden Satzpaare Finden Sie dann anhand der Wahrheitstabellen heraus, ob die Aussagen logisch gleichwertig oder widersprüchlich sind Wenn beide nicht übereinstimmen, bestimmen Sie, ob sie übereinstimmen oder nicht übereinstimmen. Begründen Sie Ihre Antworten. (G  ~H)  G und ~G  (~H · G)",formal_logic,"['Logisch gleichwertig', 'Widersprüchlich', 'Weder logisch gleichwertig noch widersprüchlich, aber konsistent', 'Unvereinbar']",2,"Frage: Erstellen Sie eine vollständige Wahrheitstabelle für die folgenden Satzpaare Finden Sie dann anhand der Wahrheitstabellen heraus, ob die Aussagen logisch gleichwertig oder widersprüchlich sind Wenn beide nicht übereinstimmen, bestimmen Sie, ob sie übereinstimmen oder nicht übereinstimmen. Begründen Sie Ihre Antworten. (G  ~H)  G und ~G  (~H · G)
+
+Antwortoptionen: ['Logisch gleichwertig', 'Widersprüchlich', 'Weder logisch gleichwertig noch widersprüchlich, aber konsistent', 'Unvereinbar']
+
+Antwort: Weder logisch gleichwertig noch widersprüchlich, aber konsistent"
+Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Entweder Englands Import von Rindfleisch ist eine notwendige Bedingung für Frankreichs Subventionierung der Landwirtschaft oder Chinas Förderung der Menschenrechte ist keine ausreichende Bedingung für Südafrikas Lieferung von Diamanten.,formal_logic,"['(E  F)  ~(C  S)', '(E  F)  (~C  S)', '(E  F)  ~(C  S)', '(F  E)  ~(C  S)']",3,"Frage: Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Entweder Englands Import von Rindfleisch ist eine notwendige Bedingung für Frankreichs Subventionierung der Landwirtschaft oder Chinas Förderung der Menschenrechte ist keine ausreichende Bedingung für Südafrikas Lieferung von Diamanten.
+
+Antwortoptionen: ['(E  F)  ~(C  S)', '(E  F)  (~C  S)', '(E  F)  ~(C  S)', '(F  E)  ~(C  S)']
+
+Antwort: (F  E)  ~(C  S)"
+Wählen Sie die beste englische Interpretation der angegebenen Argumente in der Prädikatlogik aus. Wn  Wm (∀x) [Lx  (Dx  ~Wx) ] Ln • Dn / ~(∀x) ~Wx,formal_logic,"['Entweder Nancy oder Marvin sind bei der Arbeit. Alle Anwälte sind nicht bei der Arbeit, wenn sie auswärts zum Abendessen sind. Nancy ist Anwältin und auswärts zum Abendessen. Also nicht alles ist nicht bei der Arbeit.', 'Entweder Nancy oder Marvin sind bei der Arbeit. Alle Anwälte sind zum Abendessen unterwegs, wenn sie nicht bei der Arbeit sind. Nancy ist Anwältin und zum Abendessen unterwegs. Also nicht alles ist nicht bei der Arbeit.', 'Entweder Nancy oder Marvin sind bei der Arbeit. Alle Anwälte sind zum Abendessen unterwegs, wenn sie nicht bei der Arbeit sind. Nancy ist Anwältin und zum Abendessen unterwegs. Also ist nicht alles bei der Arbeit.', 'Entweder Nancy oder Marvin sind bei der Arbeit. Alle Anwälte sind nicht bei der Arbeit, wenn sie auswärts zum Abendessen sind. Nancy ist Anwältin und auswärts zum Abendessen. Also ist nicht alles bei der Arbeit.']",0,"Frage: Wählen Sie die beste englische Interpretation der angegebenen Argumente in der Prädikatlogik aus. Wn  Wm (∀x) [Lx  (Dx  ~Wx) ] Ln • Dn / ~(∀x) ~Wx
+
+Antwortoptionen: ['Entweder Nancy oder Marvin sind bei der Arbeit. Alle Anwälte sind nicht bei der Arbeit, wenn sie auswärts zum Abendessen sind. Nancy ist Anwältin und auswärts zum Abendessen. Also nicht alles ist nicht bei der Arbeit.', 'Entweder Nancy oder Marvin sind bei der Arbeit. Alle Anwälte sind zum Abendessen unterwegs, wenn sie nicht bei der Arbeit sind. Nancy ist Anwältin und zum Abendessen unterwegs. Also nicht alles ist nicht bei der Arbeit.', 'Entweder Nancy oder Marvin sind bei der Arbeit. Alle Anwälte sind zum Abendessen unterwegs, wenn sie nicht bei der Arbeit sind. Nancy ist Anwältin und zum Abendessen unterwegs. Also ist nicht alles bei der Arbeit.', 'Entweder Nancy oder Marvin sind bei der Arbeit. Alle Anwälte sind nicht bei der Arbeit, wenn sie auswärts zum Abendessen sind. Nancy ist Anwältin und auswärts zum Abendessen. Also ist nicht alles bei der Arbeit.']
+
+Antwort: Entweder Nancy oder Marvin sind bei der Arbeit. Alle Anwälte sind nicht bei der Arbeit, wenn sie auswärts zum Abendessen sind. Nancy ist Anwältin und auswärts zum Abendessen. Also nicht alles ist nicht bei der Arbeit."
+"Geben Sie die Schlussfolgerung des folgenden Arguments an: Denken Sie daran, alle Schlussfolgerungsindikatoren zu entfernen Es ist falsch für die Gesellschaft , einen Mörder zu töten . Dies ergibt sich aus dem Grund, daß, wenn ein Mörder falsch darin liegt, sein Opfer zu töten, dann auch die Gesellschaft falsch darin liegt, den Mörder zu töten. Und ein Mörder hat Unrecht, wenn er sein Opfer tötet.",formal_logic,"['Es ist falsch für die Gesellschaft, einen Mörder zu töten.', 'Das ergibt sich aus dem Grund, daß, wenn es falsch ist, wenn ein Mörder sein Opfer tötet, es auch falsch ist, wenn die Gesellschaft den Mörder tötet.', 'Wenn es falsch ist, wenn ein Mörder sein Opfer tötet, dann ist es auch falsch, wenn die Gesellschaft den Mörder tötet.', 'Und ein Mörder hat Unrecht, wenn er sein Opfer tötet.']",0,"Frage: Geben Sie die Schlussfolgerung des folgenden Arguments an: Denken Sie daran, alle Schlussfolgerungsindikatoren zu entfernen Es ist falsch für die Gesellschaft , einen Mörder zu töten . Dies ergibt sich aus dem Grund, daß, wenn ein Mörder falsch darin liegt, sein Opfer zu töten, dann auch die Gesellschaft falsch darin liegt, den Mörder zu töten. Und ein Mörder hat Unrecht, wenn er sein Opfer tötet.
+
+Antwortoptionen: ['Es ist falsch für die Gesellschaft, einen Mörder zu töten.', 'Das ergibt sich aus dem Grund, daß, wenn es falsch ist, wenn ein Mörder sein Opfer tötet, es auch falsch ist, wenn die Gesellschaft den Mörder tötet.', 'Wenn es falsch ist, wenn ein Mörder sein Opfer tötet, dann ist es auch falsch, wenn die Gesellschaft den Mörder tötet.', 'Und ein Mörder hat Unrecht, wenn er sein Opfer tötet.']
+
+Antwort: Es ist falsch für die Gesellschaft, einen Mörder zu töten."
+Welcher der folgenden Sätze ist keine unmittelbare (einstufige) Folge in PL der gegebenen Prämisse? I  (J  K) (J  K)  (L  M) I  ~L,formal_logic,"['~L', 'J  K', 'I  (L  M)', '~ L  (J  K)']",3,"Frage: Welcher der folgenden Sätze ist keine unmittelbare (einstufige) Folge in PL der gegebenen Prämisse? I  (J  K) (J  K)  (L  M) I  ~L
+
+Antwortoptionen: ['~L', 'J  K', 'I  (L  M)', '~ L  (J  K)']
+
+Antwort: ~ L  (J  K)"
+"Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) I  ~J I  J / I",formal_logic,"['Gültig', 'Gegenbeispiel, wenn I und J wahr sind', 'Gegenbeispiel, wenn I wahr und J falsch ist', 'Gegenbeispiel, wenn J wahr und I falsch ist']",3,"Frage: Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) I  ~J I  J / I
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn I und J wahr sind', 'Gegenbeispiel, wenn I wahr und J falsch ist', 'Gegenbeispiel, wenn J wahr und I falsch ist']
+
+Antwort: Gegenbeispiel, wenn J wahr und I falsch ist"
+Wählen Sie die beste Übersetzung in Prädikatlogik: Manche Leute haben Glück.,formal_logic,"['(x) ((Fx • Lx)', 'Fl', 'Wenn', '(∀x) ((Fx • Lx)']",0,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik: Manche Leute haben Glück.
+
+Antwortoptionen: ['(x) ((Fx • Lx)', 'Fl', 'Wenn', '(∀x) ((Fx • Lx)']
+
+Antwort: (x) ((Fx • Lx)"
+Wählen Sie die beste Übersetzung in Prädikatlogik. Alexis wird von Ben begrüßt. (a: Alexis; b: Ben; Gxy: x begrüßt y),formal_logic,"['Gab', '~Gba', 'aGb', 'Gebäude und Gebäude']",3,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik. Alexis wird von Ben begrüßt. (a: Alexis; b: Ben; Gxy: x begrüßt y)
+
+Antwortoptionen: ['Gab', '~Gba', 'aGb', 'Gebäude und Gebäude']
+
+Antwort: Gebäude und Gebäude"
+Wählen Sie die beste Übersetzung in Prädikatlogik: Nicht alle Hummer sind rot.,formal_logic,"['~(∀x) ((Lx  Rx)', '~(x) ((Lx  Rx)', '~(x) ((Lx • Rx)', '~(∀x) ((Lx • Rx)']",0,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik: Nicht alle Hummer sind rot.
+
+Antwortoptionen: ['~(∀x) ((Lx  Rx)', '~(x) ((Lx  Rx)', '~(x) ((Lx • Rx)', '~(∀x) ((Lx • Rx)']
+
+Antwort: ~(∀x) ((Lx  Rx)"
+"Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob das folgende Argument gültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) H  (I · ~J) K  ~H ~(K  J) / I  J",formal_logic,"['Gültig', 'Gegenbeispiel, wenn I, H und K wahr und J falsch sind', 'Gegenbeispiel, wenn I und H wahr und J und K falsch sind', 'Gegenbeispiel, wenn K wahr und I, H und J falsch sind']",0,"Frage: Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob das folgende Argument gültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) H  (I · ~J) K  ~H ~(K  J) / I  J
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn I, H und K wahr und J falsch sind', 'Gegenbeispiel, wenn I und H wahr und J und K falsch sind', 'Gegenbeispiel, wenn K wahr und I, H und J falsch sind']
+
+Antwort: Gültig"
+"Erstellen Sie eine vollständige Wahrheitstabelle für die folgenden Satzpaare Finden Sie dann anhand der Wahrheitstabellen heraus, ob die Aussagen logisch gleichwertig oder widersprüchlich sind Wenn beide nicht übereinstimmen, bestimmen Sie, ob sie übereinstimmen oder nicht übereinstimmen. Begründen Sie Ihre Antworten. J  K) · L und (L  J) · K",formal_logic,"['Logisch gleichwertig', 'Widersprüchlich', 'Weder logisch gleichwertig noch widersprüchlich, aber konsistent', 'Unvereinbar']",3,"Frage: Erstellen Sie eine vollständige Wahrheitstabelle für die folgenden Satzpaare Finden Sie dann anhand der Wahrheitstabellen heraus, ob die Aussagen logisch gleichwertig oder widersprüchlich sind Wenn beide nicht übereinstimmen, bestimmen Sie, ob sie übereinstimmen oder nicht übereinstimmen. Begründen Sie Ihre Antworten. J  K) · L und (L  J) · K
+
+Antwortoptionen: ['Logisch gleichwertig', 'Widersprüchlich', 'Weder logisch gleichwertig noch widersprüchlich, aber konsistent', 'Unvereinbar']
+
+Antwort: Unvereinbar"
+Wählen Sie die beste Übersetzung in Prädikatlogik aus: Alle Erstsemester machen einen Schwimmtest.,formal_logic,"['(∀x) ((Sx  Fx)', '(∀x) ((Fx  Sx)', '(∀x) ((Fx  Sx)', '(∀x) ((Fx  Sx)']",1,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik aus: Alle Erstsemester machen einen Schwimmtest.
+
+Antwortoptionen: ['(∀x) ((Sx  Fx)', '(∀x) ((Fx  Sx)', '(∀x) ((Fx  Sx)', '(∀x) ((Fx  Sx)']
+
+Antwort: (∀x) ((Fx  Sx)"
+Wählen Sie die beste Übersetzung in Prädikatlogik: Johnny kam zu spät.,formal_logic,"['jL', 'Lj', 'Cj  Lj', 'Lx']",1,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik: Johnny kam zu spät.
+
+Antwortoptionen: ['jL', 'Lj', 'Cj  Lj', 'Lx']
+
+Antwort: Lj"
+Wählen Sie die beste Übersetzung in Prädikat-Logik: Keine Senior-Absolventen ohne Hauptfach.,formal_logic,"['(∀x) ((Sx  ~Gx)', '~(∀x) ((Sx  Gx)', '(∀x) (Sx  ~Gx)', '(∀x) ~(Sx  ~Gx)']",0,"Frage: Wählen Sie die beste Übersetzung in Prädikat-Logik: Keine Senior-Absolventen ohne Hauptfach.
+
+Antwortoptionen: ['(∀x) ((Sx  ~Gx)', '~(∀x) ((Sx  Gx)', '(∀x) (Sx  ~Gx)', '(∀x) ~(Sx  ~Gx)']
+
+Antwort: (∀x) ((Sx  ~Gx)"
+"Geben Sie die Schlussfolgerung des folgenden Arguments an: Aus historischer Sicht ist die Genetik eine junge Wissenschaft Die Prinzipien, die die Vererbung beeinflussen, wurden vor weniger als 150 Jahren beschrieben. Um die Jahrhundertwende wurden außerdem die Erbschaftsgesetze wiederentdeckt Aber selbst dann wurde die Bedeutung der DNA erst in den 1950er Jahren richtig verstanden.",formal_logic,"['Aber selbst dann wurde die Bedeutung der DNA erst in den 1950er Jahren richtig verstanden.', 'Die Bedeutung der DNA wurde erst in den 1950er Jahren richtig verstanden.', 'Aus historischer Sicht ist die Genetik eine junge Wissenschaft.', 'Die Prinzipien, die die Vererbung beeinflussen, wurden vor weniger als 150 Jahren beschrieben.']",2,"Frage: Geben Sie die Schlussfolgerung des folgenden Arguments an: Aus historischer Sicht ist die Genetik eine junge Wissenschaft Die Prinzipien, die die Vererbung beeinflussen, wurden vor weniger als 150 Jahren beschrieben. Um die Jahrhundertwende wurden außerdem die Erbschaftsgesetze wiederentdeckt Aber selbst dann wurde die Bedeutung der DNA erst in den 1950er Jahren richtig verstanden.
+
+Antwortoptionen: ['Aber selbst dann wurde die Bedeutung der DNA erst in den 1950er Jahren richtig verstanden.', 'Die Bedeutung der DNA wurde erst in den 1950er Jahren richtig verstanden.', 'Aus historischer Sicht ist die Genetik eine junge Wissenschaft.', 'Die Prinzipien, die die Vererbung beeinflussen, wurden vor weniger als 150 Jahren beschrieben.']
+
+Antwort: Aus historischer Sicht ist die Genetik eine junge Wissenschaft."
+"Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Entweder Englands Import von Rindfleisch ist eine notwendige Bedingung für Frankreichs Subventionierung der Landwirtschaft oder China fördert die Menschenrechte, da Südafrika keine Diamanten liefert.",formal_logic,"['(E  F)  (C  ~S)', '(F  E)  (~S  C)', '(E  F)  (S ~C)', '(F  E)  (~S  C)']",3,"Frage: Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Entweder Englands Import von Rindfleisch ist eine notwendige Bedingung für Frankreichs Subventionierung der Landwirtschaft oder China fördert die Menschenrechte, da Südafrika keine Diamanten liefert.
+
+Antwortoptionen: ['(E  F)  (C  ~S)', '(F  E)  (~S  C)', '(E  F)  (S ~C)', '(F  E)  (~S  C)']
+
+Antwort: (F  E)  (~S  C)"
+Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Entweder Englands Import von Rindfleisch ist eine ausreichende Bedingung für Frankreichs Subventionierung der Landwirtschaft oder Chinas Förderung der Menschenrechte ist eine notwendige Bedingung für Südafrikas Lieferung von Diamanten.,formal_logic,"['(E  F)  (S  C)', '(F  E)  (C  S)', '(E  F)  (C  S)', '(F  E)  (S  C)']",0,"Frage: Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Entweder Englands Import von Rindfleisch ist eine ausreichende Bedingung für Frankreichs Subventionierung der Landwirtschaft oder Chinas Förderung der Menschenrechte ist eine notwendige Bedingung für Südafrikas Lieferung von Diamanten.
+
+Antwortoptionen: ['(E  F)  (S  C)', '(F  E)  (C  S)', '(E  F)  (C  S)', '(F  E)  (S  C)']
+
+Antwort: (E  F)  (S  C)"
+Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Dylan mag weder Mathematik noch Wissenschaft.,formal_logic,"['M  S', '~(M • S)', '~(M  S)', '~M  ~S']",2,"Frage: Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Dylan mag weder Mathematik noch Wissenschaft.
+
+Antwortoptionen: ['M  S', '~(M • S)', '~(M  S)', '~M  ~S']
+
+Antwort: ~(M  S)"
+Wählen Sie die beste Übersetzung in Prädikatlogik: Alle Roboter sind Artefakte.,formal_logic,"['(∀x) ((Ax  Rx)', '(∀x) ((Ax • Rx)', '(∀x) ((Rx  Ax)', '(∀x) ((Rx • Ax)']",2,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik: Alle Roboter sind Artefakte.
+
+Antwortoptionen: ['(∀x) ((Ax  Rx)', '(∀x) ((Ax • Rx)', '(∀x) ((Rx  Ax)', '(∀x) ((Rx • Ax)']
+
+Antwort: (∀x) ((Rx  Ax)"
+Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Der Präsident hat es genehmigt und der Vorstand hat es nicht verhindert.,formal_logic,"['(P • ~B)  U', '(U  P) • B', 'U  (P • ~B)', 'U  (P  ~B)']",2,"Frage: Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Der Präsident hat es genehmigt und der Vorstand hat es nicht verhindert.
+
+Antwortoptionen: ['(P • ~B)  U', '(U  P) • B', 'U  (P • ~B)', 'U  (P  ~B)']
+
+Antwort: U  (P • ~B)"
+"Geben Sie die Schlussfolgerung des folgenden Arguments an: Wir sollten die Todesstrafe nicht abschaffen. Wenn wir das tun, werden die Gefängnisse überfüllt sein. Wenn die Gefängnisse überfüllt werden, müssen wir mehr Gefängnisse bauen. Und wir wollen keine Gefängnisse mehr bauen.",formal_logic,"['Wir sollten die Todesstrafe nicht abschaffen.', 'Wenn wir das tun, werden die Gefängnisse überfüllt sein.', 'Wenn die Gefängnisse überfüllt werden, müssen wir mehr Gefängnisse bauen.', 'Wir müssen mehr Gefängnisse bauen.']",0,"Frage: Geben Sie die Schlussfolgerung des folgenden Arguments an: Wir sollten die Todesstrafe nicht abschaffen. Wenn wir das tun, werden die Gefängnisse überfüllt sein. Wenn die Gefängnisse überfüllt werden, müssen wir mehr Gefängnisse bauen. Und wir wollen keine Gefängnisse mehr bauen.
+
+Antwortoptionen: ['Wir sollten die Todesstrafe nicht abschaffen.', 'Wenn wir das tun, werden die Gefängnisse überfüllt sein.', 'Wenn die Gefängnisse überfüllt werden, müssen wir mehr Gefängnisse bauen.', 'Wir müssen mehr Gefängnisse bauen.']
+
+Antwort: Wir sollten die Todesstrafe nicht abschaffen."
+"Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Entweder Englands Nicht-Einfuhr von Rindfleisch ist eine notwendige Bedingung für Frankreichs Subventionierung der Landwirtschaft oder China fördert die Menschenrechte, wenn und nur wenn Südafrika keine Diamanten liefert.",formal_logic,"['(F  ~E)  (C  ~S)', '(~E  F)  (C  ~S)', '~(F  E)  (~S  C)', '(F  E)  (C  ~S)']",0,"Frage: Welche der angegebenen Formeln von PL ist die beste Symbolisierung des folgenden Satzes? Entweder Englands Nicht-Einfuhr von Rindfleisch ist eine notwendige Bedingung für Frankreichs Subventionierung der Landwirtschaft oder China fördert die Menschenrechte, wenn und nur wenn Südafrika keine Diamanten liefert.
+
+Antwortoptionen: ['(F  ~E)  (C  ~S)', '(~E  F)  (C  ~S)', '~(F  E)  (~S  C)', '(F  E)  (C  ~S)']
+
+Antwort: (F  ~E)  (C  ~S)"
+"Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob das folgende Argument gültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) (K · L)  M N  ~M N  K / L  K",formal_logic,"['Gültig', 'Gegenbeispiel, wenn L, M und N wahr und K falsch sind', 'Gegenbeispiel, wenn L und M wahr und K und N falsch sind', 'Gegenbeispiel, wenn L und N wahr und K und M falsch sind']",3,"Frage: Verwenden Sie indirekte Wahrheitstabellen, um zu bestimmen, ob das folgende Argument gültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) (K · L)  M N  ~M N  K / L  K
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn L, M und N wahr und K falsch sind', 'Gegenbeispiel, wenn L und M wahr und K und N falsch sind', 'Gegenbeispiel, wenn L und N wahr und K und M falsch sind']
+
+Antwort: Gegenbeispiel, wenn L und N wahr und K und M falsch sind"
+"Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) (G  H) · ~I ~G  (~H  I) / G",formal_logic,"['Gültig', 'Gegenbeispiel, wenn H und I wahr und G falsch sind', 'Gegenbeispiel, wenn H wahr und I und G falsch sind', 'Gegenbeispiel, wenn H, I und G falsch sind']",3,"Frage: Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) (G  H) · ~I ~G  (~H  I) / G
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn H und I wahr und G falsch sind', 'Gegenbeispiel, wenn H wahr und I und G falsch sind', 'Gegenbeispiel, wenn H, I und G falsch sind']
+
+Antwort: Gegenbeispiel, wenn H, I und G falsch sind"
+"Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) ~(M  ~N) M / N",formal_logic,"['Gültig', 'Gegenbeispiel, wenn M und N wahr sind', 'Ungültig. Gegenbeispiel, wenn M wahr und N falsch ist', 'Ungültig. Gegenbeispiel, wenn N wahr und M falsch ist']",0,"Frage: Erstellen Sie eine vollständige Wahrheitstabelle für das folgende Argument Dann bestimmen Sie mithilfe der Wahrheitstabelle, ob das Argument gültig oder ungültig ist Wenn das Argument ungültig ist, wählen Sie eine Option, die ein Gegenbeispiel darstellt (Es kann auch andere Gegenbeispiele geben.) ~(M  ~N) M / N
+
+Antwortoptionen: ['Gültig', 'Gegenbeispiel, wenn M und N wahr sind', 'Ungültig. Gegenbeispiel, wenn M wahr und N falsch ist', 'Ungültig. Gegenbeispiel, wenn N wahr und M falsch ist']
+
+Antwort: Gültig"
+Wählen Sie die beste Übersetzung in Prädikatlogik. Einige CEO ist reicher als alle. (Cx: x ist ein CEO; Px: x ist eine Person; Wxy: x ist reicher als y),formal_logic,"['(x) [Cx • (∀y) ((Py • Wxy) ]', '(x) [Cx  (∀y) ((Py  Wxy) ]', '(x) [Cx • (∀y) ((Py  Wxy) ]', '(∀x) [Px  (y) ((Cy  Wxy) ]']",2,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik. Einige CEO ist reicher als alle. (Cx: x ist ein CEO; Px: x ist eine Person; Wxy: x ist reicher als y)
+
+Antwortoptionen: ['(x) [Cx • (∀y) ((Py • Wxy) ]', '(x) [Cx  (∀y) ((Py  Wxy) ]', '(x) [Cx • (∀y) ((Py  Wxy) ]', '(∀x) [Px  (y) ((Cy  Wxy) ]']
+
+Antwort: (x) [Cx • (∀y) ((Py  Wxy) ]"
+Wählen Sie die beste Übersetzung in Prädikatlogik. Alle Kinder gehen in eine Schule. (Cx: x ist ein Kind; Sx: x ist eine Schule; Gxy: x geht zu y),formal_logic,"['(∀x) ((y) (((Cx • Sy) • Gxy)', '(∀x) [Sx  (y) ((Cy • Gxy) ]', '(∀x) [Cx  (y) ((Sy • Gxy) ]', '(∀x) [Sx • (y) ((Cy • Gxy) ]']",2,"Frage: Wählen Sie die beste Übersetzung in Prädikatlogik. Alle Kinder gehen in eine Schule. (Cx: x ist ein Kind; Sx: x ist eine Schule; Gxy: x geht zu y)
+
+Antwortoptionen: ['(∀x) ((y) (((Cx • Sy) • Gxy)', '(∀x) [Sx  (y) ((Cy • Gxy) ]', '(∀x) [Cx  (y) ((Sy • Gxy) ]', '(∀x) [Sx • (y) ((Cy • Gxy) ]']
+
+Antwort: (∀x) [Cx  (y) ((Sy • Gxy) ]"

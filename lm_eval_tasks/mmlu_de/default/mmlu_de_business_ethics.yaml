@@ -1,0 +1,13 @@
+include: _default_template_yaml
+task: mmlu_de_business_ethics
+task_alias: business_ethics
+
+description: "Die folgenden Fragen sind Multiple-Choice-Fragen (mit Antworten) zum Thema Business Ethik.\n\n"
+
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_German/mmlu_de_by_subject/business_ethics.csv
+
+test_split: test
+

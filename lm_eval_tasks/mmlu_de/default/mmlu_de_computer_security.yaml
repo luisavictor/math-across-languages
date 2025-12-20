@@ -1,0 +1,11 @@
+include: _default_template_yaml
+"task": "mmlu_de_computer_security"
+"task_alias": "computer_security"
+
+description: "Die folgenden Fragen sind Multiple-Choice-Fragen (mit Antworten) zum Thema Computer Sicherheit.\n\n"
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_German/mmlu_de_by_subject/computer_security.csv
+
+test_split: test

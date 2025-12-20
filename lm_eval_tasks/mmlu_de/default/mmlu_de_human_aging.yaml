@@ -1,0 +1,10 @@
+include: _default_template_yaml
+"task": "mmlu_de_human_aging"
+"task_alias": "human_aging"
+
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_German/mmlu_de_by_subject/human_aging.csv
+
+test_split: test

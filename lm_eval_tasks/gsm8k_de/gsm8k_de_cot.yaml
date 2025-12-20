@@ -13,73 +13,85 @@ process_docs: !function utils.process_docs
 output_type: generate_until
 test_split: test
 
-doc_to_text: "Q: Im Hain stehen 15 Bäume. Heute werden Arbeiter weitere Bäume im Hain pflanzen. Wenn sie fertig sind, werden es 21 Bäume sein. Wie viele Bäume haben die Arbeiter heute gepflanzt?
-A: Ursprünglich standen 15 Bäume im Hain. Danach waren es 21 Bäume, nachdem einige dazugepflanzt wurden. Also müssen 21 - 15 = 6 gepflanzt worden sein. Die Antwort ist 6.
+doc_to_text: |
+  Q: {{question}}
 
-Q: Wenn sich 3 Autos auf dem Parkplatz befinden und 2 weitere Autos ankommen, wie viele Autos befinden sich dann auf dem Parkplatz?
-A: Ursprünglich standen 3 Autos auf dem Parkplatz. 2 weitere Autos kommen hinzu. 3 + 2 = 5. Die Antwort ist 5.
+  A:
 
-Q: Leah hatte 32 Schokoladen und ihre Schwester hatte 42. Wenn sie zusammen 35 davon gegessen haben, wie viele Stück haben sie insgesamt noch übrig?
-A: Ursprünglich hatte Leah 32 Schokoladen. Ihre Schwester hatte 42. Zusammen hatten sie also 32 + 42 = 74. Nachdem sie 35 gegessen haben, bleiben 74 - 35 = 39. Die Antwort ist 39.
-
-Q: Jason hatte 20 Lutscher. Er gab Denny einige Lutscher. Jetzt hat Jason noch 12 Lutscher. Wie viele Lutscher hat Jason Denny gegeben?
-A: Jason begann mit 20 Lutschern. Danach hatte er 12, nachdem er einige an Denny gegeben hatte. Also gab er Denny 20 - 12 = 8. Die Antwort ist 8.
-
-Q: Shawn hat fünf Spielzeuge. Zu Weihnachten bekam er jeweils zwei Spielzeuge von seiner Mutter und seinem Vater. Wie viele Spielzeuge hat er jetzt?
-A: Shawn begann mit 5 Spielzeugen. Wenn er jeweils 2 Spielzeuge von seiner Mutter und seinem Vater bekam, dann sind das 4 weitere Spielzeuge. 5 + 4 = 9. Die Antwort ist 9.
-
-Q: Im Serverraum standen neun Computer. Von Montag bis Donnerstag wurden jeden Tag fünf weitere Computer installiert. Wie viele Computer stehen jetzt im Serverraum?
-A: Ursprünglich standen 9 Computer dort. An jedem der 4 Tage wurden 5 weitere Computer hinzugefügt. Also wurden 5 * 4 = 20 Computer hinzugefügt. 9 + 20 = 29. Die Antwort ist 29.
-
-Q: Michael hatte 58 Golfbälle. Am Dienstag verlor er 23 Golfbälle. Am Mittwoch verlor er weitere 2. Wie viele Golfbälle hatte er am Ende des Mittwochs?
-A: Michael begann mit 58 Golfbällen. Nachdem er am Dienstag 23 verlor, hatte er 58 - 23 = 35. Nachdem er weitere 2 verlor, hatte er 35 - 2 = 33 Golfbälle. Die Antwort ist 33.
-
-Q: Olivia hat 23 Dollar. Sie kaufte fünf Bagels für je 3 Dollar. Wie viel Geld hat sie noch übrig?
-A: Olivia hatte 23 Dollar. 5 Bagels für je 3 Dollar kosten 5 x 3 = 15 Dollar. Also hat sie 23 - 15 Dollar übrig. 23 - 15 = 8. Die Antwort ist 8.
-
-Q: {{question}}
-A:
-"
-
-# We compare against the numeric answer we computed in process_docs
-doc_to_target: "{{answer_number | string }}"
-
-
+# WICHTIG: Für Datensatz-Einträge answer_number, für Few-Shot-Samples target
+doc_to_target: "{{ (answer_number | string) if answer_number is defined else target }}"
 
 metric_list:
-- aggregation: mean
-  higher_is_better: true
-  ignore_case: true
-  ignore_punctuation: false
-  metric: exact_match
-  regexes_to_ignore:
-  - ','
-  - \$
-  - '(?s).*#### '
-  - \.$
+  - aggregation: mean
+    higher_is_better: true
+    ignore_case: true
+    ignore_punctuation: false
+    metric: exact_match
+    regexes_to_ignore:
+      - ','
+      - '\$'
+      - '(?s).*#### '
+      - '\.$'
 
 repeats: 1
 num_fewshot: 8
 
+fewshot_config:
+  sampler: first_n
+  samples:
+    - question: Im Hain stehen 15 Bäume. Heute werden Arbeiter weitere Bäume im Hain pflanzen. Wenn sie fertig sind, werden es 21 Bäume sein. Wie viele Bäume haben die Arbeiter heute gepflanzt?
+      target: >
+        Ursprünglich standen 15 Bäume im Hain. Danach waren es 21 Bäume, nachdem einige dazugepflanzt wurden.
+        Also müssen 21 - 15 = 6 gepflanzt worden sein. Die Antwort ist 6.
+    - question: Wenn sich 3 Autos auf dem Parkplatz befinden und 2 weitere Autos ankommen, wie viele Autos befinden sich dann auf dem Parkplatz?
+      target: >
+        Ursprünglich standen 3 Autos auf dem Parkplatz. 2 weitere Autos kommen hinzu.
+        3 + 2 = 5. Die Antwort ist 5.
+    - question: Leah hatte 32 Schokoladen und ihre Schwester hatte 42. Wenn sie zusammen 35 davon gegessen haben, wie viele Stück haben sie insgesamt noch übrig?
+      target: >
+        Ursprünglich hatte Leah 32 Schokoladen. Ihre Schwester hatte 42.
+        Zusammen hatten sie also 32 + 42 = 74. Nachdem sie 35 gegessen haben, bleiben 74 - 35 = 39.
+        Die Antwort ist 39.
+    - question: Jason hatte 20 Lutscher. Er gab Denny einige Lutscher. Jetzt hat Jason noch 12 Lutscher. Wie viele Lutscher hat Jason Denny gegeben?
+      target: >
+        Jason begann mit 20 Lutschern. Danach hatte er 12, nachdem er einige an Denny gegeben hatte.
+        Also gab er Denny 20 - 12 = 8. Die Antwort ist 8.
+    - question: Shawn hat fünf Spielzeuge. Zu Weihnachten bekam er jeweils zwei Spielzeuge von seiner Mutter und seinem Vater. Wie viele Spielzeuge hat er jetzt?
+      target: >
+        Shawn begann mit 5 Spielzeugen. Wenn er jeweils 2 Spielzeuge von seiner Mutter und seinem Vater bekam,
+        dann sind das 4 weitere Spielzeuge. 5 + 4 = 9. Die Antwort ist 9.
+    - question: Im Serverraum standen neun Computer. Von Montag bis Donnerstag wurden jeden Tag fünf weitere Computer installiert. Wie viele Computer stehen jetzt im Serverraum?
+      target: >
+        Ursprünglich standen 9 Computer dort. An jedem der 4 Tage wurden 5 weitere Computer hinzugefügt.
+        Also wurden 5 * 4 = 20 Computer hinzugefügt. 9 + 20 = 29. Die Antwort ist 29.
+    - question: Michael hatte 58 Golfbälle. Am Dienstag verlor er 23 Golfbälle. Am Mittwoch verlor er weitere 2. Wie viele Golfbälle hatte er am Ende des Mittwochs?
+      target: >
+        Michael begann mit 58 Golfbällen. Nachdem er am Dienstag 23 verlor, hatte er 58 - 23 = 35.
+        Nachdem er weitere 2 verlor, hatte er 35 - 2 = 33 Golfbälle. Die Antwort ist 33.
+    - question: Olivia hat 23 Dollar. Sie kaufte fünf Bagels für je 3 Dollar. Wie viel Geld hat sie noch übrig?
+      target: >
+        Olivia hatte 23 Dollar. 5 Bagels für je 3 Dollar kosten 5 × 3 = 15 Dollar.
+        Also hat sie 23 - 15 Dollar übrig. 23 - 15 = 8. Die Antwort ist 8.
+
 filter_list:
-- filter:
-  - function: regex
-    regex_pattern: Die Antwort ist (\-?[0-9\.\,]+).
-  - function: take_first
-  name: strict-match
-- filter:
-  - function: regex
-    group_select: -1
-    regex_pattern: (-?[$0-9.,]{2,})|(-?[0-9]+)
-  - function: take_first
-  name: flexible-extract
+  - filter:
+      - function: regex
+        regex_pattern: Die Antwort ist (\-?[0-9\.\,]+).
+      - function: take_first
+    name: strict-match
+  - filter:
+      - function: regex
+        group_select: -1
+        regex_pattern: (-?[$0-9.,]{2,})|(-?[0-9]+)
+      - function: take_first
+    name: flexible-extract
 
 generation_kwargs:
   do_sample: false
   until:
-  - 'Q:'
-  - </s>
-  - <|im_end|>
+    - 'Q:'
+    - '</s>'
+    - '<|im_end|>'
 
 metadata:
   version: 3.0

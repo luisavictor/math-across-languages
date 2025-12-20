@@ -161,3 +161,11 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 /results_gsm8k_race_en/isolated_masks/
+# results / artifacts
+MathNeuro/results_*/
+MathNeuro/**/isolated_masks/
+**/*.pt
+**/*.pth
+**/*.ckpt
+**/*.bin
+**/*.safetensors

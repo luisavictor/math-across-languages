@@ -1,0 +1,501 @@
+question,subject,choices,answer,qa
+"Welcher der folgenden Fuzzer-Stile erkundet eher Pfade, die jede Codezeile im folgenden Programm abdecken?",computer_security,"['Generationen', 'Blackbox (schwarze Schachtel)', 'Whitebox', 'Mutationsbasierte']",2,"Frage: Welcher der folgenden Fuzzer-Stile erkundet eher Pfade, die jede Codezeile im folgenden Programm abdecken?
+
+Antwortoptionen: ['Generationen', 'Blackbox (schwarze Schachtel)', 'Whitebox', 'Mutationsbasierte']
+
+Antwort: Whitebox"
+"Nehmen Sie an, dass eine TLS-Verbindung erfolgreich zwischen einem Client und einem Server hergestellt wurde Die Einrichtung der Sitzung beinhaltete die Überprüfung des Serverzertifikats und die Ausführung eines DiffieHelmann-Austausches, aber der Client lieferte kein Clientzertifikat Darüber hinaus gehen wir davon aus, dass der Client und der Server ehrlich sind, dass der Client und der Server ihre Schlüssel nicht preisgeben und dass die Kryptographie gut ist Vor welchem der folgenden Angriffe schützt TLS? 1 Ein Angreifer spielt Bytes wieder, die ein Client zuvor gesendet hat. Ein Angreifer, der sich als Server ausgibt.",computer_security,"['Es ist wahr, es ist wahr', 'Falsch, Falsch', 'Wahre und Falsche', 'Falsch, wahr']",0,"Frage: Nehmen Sie an, dass eine TLS-Verbindung erfolgreich zwischen einem Client und einem Server hergestellt wurde Die Einrichtung der Sitzung beinhaltete die Überprüfung des Serverzertifikats und die Ausführung eines DiffieHelmann-Austausches, aber der Client lieferte kein Clientzertifikat Darüber hinaus gehen wir davon aus, dass der Client und der Server ehrlich sind, dass der Client und der Server ihre Schlüssel nicht preisgeben und dass die Kryptographie gut ist Vor welchem der folgenden Angriffe schützt TLS? 1 Ein Angreifer spielt Bytes wieder, die ein Client zuvor gesendet hat. Ein Angreifer, der sich als Server ausgibt.
+
+Antwortoptionen: ['Es ist wahr, es ist wahr', 'Falsch, Falsch', 'Wahre und Falsche', 'Falsch, wahr']
+
+Antwort: Es ist wahr, es ist wahr"
+"MIT's Kerberos KDC-Server hat eine maximale Ticket-Lebensdauer von 24 Stunden (für die meisten Benutzer). Was stellt sicher, dass ein abgelaufenes Kerberos-Ticket nicht mehr verwendet werden kann?",computer_security,"['Der Kerberos-Server (KDC) weigert sich, neue Verbindungen zwischen Clients und Servern für abgelaufene Tickets herzustellen.', 'Wenn sich ein Client mit einem Server verbindet, setzt der Server einen 24-Stunden-Timer, um die Verbindung zu beenden, wodurch sichergestellt wird, dass ein Client nicht über die maximale Lebensdauer des Tickets hinweg verbunden bleiben kann.', 'Wenn ein Client eine Verbindung zu einem Server herstellt der Server vergleicht die Verfallszeit des Tickets mit der aktuellen Uhr des Servers und weigert sich, den Benutzer zu authentifizieren, wenn das Ticket in der Vergangenheit abgelaufen ist.', 'Wenn ein Client eine Verbindung zu einem Server herstellt der Server sendet eine Abfrage an das KDC, um zu überprüfen, ob das Ticket in Bezug auf die Uhr des KDC noch gültig ist und die Authentifizierung des Nutzers verweigert, wenn der KDC meldet, dass das Ticket abgelaufen ist.']",2,"Frage: MIT's Kerberos KDC-Server hat eine maximale Ticket-Lebensdauer von 24 Stunden (für die meisten Benutzer). Was stellt sicher, dass ein abgelaufenes Kerberos-Ticket nicht mehr verwendet werden kann?
+
+Antwortoptionen: ['Der Kerberos-Server (KDC) weigert sich, neue Verbindungen zwischen Clients und Servern für abgelaufene Tickets herzustellen.', 'Wenn sich ein Client mit einem Server verbindet, setzt der Server einen 24-Stunden-Timer, um die Verbindung zu beenden, wodurch sichergestellt wird, dass ein Client nicht über die maximale Lebensdauer des Tickets hinweg verbunden bleiben kann.', 'Wenn ein Client eine Verbindung zu einem Server herstellt der Server vergleicht die Verfallszeit des Tickets mit der aktuellen Uhr des Servers und weigert sich, den Benutzer zu authentifizieren, wenn das Ticket in der Vergangenheit abgelaufen ist.', 'Wenn ein Client eine Verbindung zu einem Server herstellt der Server sendet eine Abfrage an das KDC, um zu überprüfen, ob das Ticket in Bezug auf die Uhr des KDC noch gültig ist und die Authentifizierung des Nutzers verweigert, wenn der KDC meldet, dass das Ticket abgelaufen ist.']
+
+Antwort: Wenn ein Client eine Verbindung zu einem Server herstellt der Server vergleicht die Verfallszeit des Tickets mit der aktuellen Uhr des Servers und weigert sich, den Benutzer zu authentifizieren, wenn das Ticket in der Vergangenheit abgelaufen ist."
+In Message Condentiality muss die übermittelte Nachricht nur für die beabsichtigten Benutzer sinnvoll sein.,computer_security,"['Empfänger', 'Absender', 'Modulor', 'Übersetzer']",0,"Frage: In Message Condentiality muss die übermittelte Nachricht nur für die beabsichtigten Benutzer sinnvoll sein.
+
+Antwortoptionen: ['Empfänger', 'Absender', 'Modulor', 'Übersetzer']
+
+Antwort: Empfänger"
+Welcher der folgenden Programme ist ein Remote-Trojaner?,computer_security,"['Troja', 'DaCryptic', 'Banker A', 'Spiel-Trojans']",0,"Frage: Welcher der folgenden Programme ist ein Remote-Trojaner?
+
+Antwortoptionen: ['Troja', 'DaCryptic', 'Banker A', 'Spiel-Trojans']
+
+Antwort: Troja"
+"______________ ist ein weit verbreiteter Fehler bei der Programmierung von Anwendungen, der von Entwicklern gemacht wird und von einem Angreifer ausgenutzt werden kann, um Zugriff zu erhalten oder Ihr System zu stören.",computer_security,"['Gedächtnisverlust', 'Bufferüberschreitung', 'Weniger Verarbeitungsleistung', 'Ineffiziente Programmierung']",1,"Frage: ______________ ist ein weit verbreiteter Fehler bei der Programmierung von Anwendungen, der von Entwicklern gemacht wird und von einem Angreifer ausgenutzt werden kann, um Zugriff zu erhalten oder Ihr System zu stören.
+
+Antwortoptionen: ['Gedächtnisverlust', 'Bufferüberschreitung', 'Weniger Verarbeitungsleistung', 'Ineffiziente Programmierung']
+
+Antwort: Bufferüberschreitung"
+"Betrachten Sie die Arbeit Native Client: A Sandbox for Portable, Untrusted x86 Native Code von Yee et al. Ben Bitdiddle stellt fest, dass NaCl die Intel x86-Segmentierung verwendet, um sicherzustellen, dass das Sandbox-Modul keinen Speicher außerhalb seines eigenen Datenbereichs liest oder schreibt und führt keine Anweisungen außerhalb seines eigenen Codes aus Ben denkt, dass allein mit diesen Einschränkungen die Ausführung des Sandbox-Moduls sicher sein muss; das heißt, er denkt, dass eine Validierung nicht erforderlich ist Ben hat sich geirrt . Kreisen Sie die Arten von x86-Maschine Anweisungen, die der Validator verbietet immer in Sandbox-Code Bitte ignorieren Sie die Regeln für Trampolin und Sprungbrett.",computer_security,"['alle Anweisungen, die den Zustand des Segments ändern', 'alle Ladungen oder Lager an Adressen, die nicht 0 mod 32 sind', 'alle indirekten Ladungen oder Speicher (über eine Adresse in einem Register oder einer Variablen)', 'alle indirekten Sprünge (über eine Adresse in einem Register oder einer Variablen)']",0,"Frage: Betrachten Sie die Arbeit Native Client: A Sandbox for Portable, Untrusted x86 Native Code von Yee et al. Ben Bitdiddle stellt fest, dass NaCl die Intel x86-Segmentierung verwendet, um sicherzustellen, dass das Sandbox-Modul keinen Speicher außerhalb seines eigenen Datenbereichs liest oder schreibt und führt keine Anweisungen außerhalb seines eigenen Codes aus Ben denkt, dass allein mit diesen Einschränkungen die Ausführung des Sandbox-Moduls sicher sein muss; das heißt, er denkt, dass eine Validierung nicht erforderlich ist Ben hat sich geirrt . Kreisen Sie die Arten von x86-Maschine Anweisungen, die der Validator verbietet immer in Sandbox-Code Bitte ignorieren Sie die Regeln für Trampolin und Sprungbrett.
+
+Antwortoptionen: ['alle Anweisungen, die den Zustand des Segments ändern', 'alle Ladungen oder Lager an Adressen, die nicht 0 mod 32 sind', 'alle indirekten Ladungen oder Speicher (über eine Adresse in einem Register oder einer Variablen)', 'alle indirekten Sprünge (über eine Adresse in einem Register oder einer Variablen)']
+
+Antwort: alle Anweisungen, die den Zustand des Segments ändern"
+"____________ ist auch ein Teil des Darknet, der für die anonyme Übertragung von Dateien verwendet wird.",computer_security,"['Freenet', 'ARPANET', 'Stuxnet', 'Internet']",0,"Frage: ____________ ist auch ein Teil des Darknet, der für die anonyme Übertragung von Dateien verwendet wird.
+
+Antwortoptionen: ['Freenet', 'ARPANET', 'Stuxnet', 'Internet']
+
+Antwort: Freenet"
+"Warum sind Anwendungen, die in Sprachen wie C, C++ entwickelt wurden, anfällig für Buffer-Overflow?",computer_security,"['Keine Kontrollen der Stringgrenzen in vordefinierten Funktionen', 'Keine Überprüfung des Speichers im externen Speicher', 'Keine Prüfung der Verarbeitungsleistung', 'Keine Überprüfung der Datenbank']",0,"Frage: Warum sind Anwendungen, die in Sprachen wie C, C++ entwickelt wurden, anfällig für Buffer-Overflow?
+
+Antwortoptionen: ['Keine Kontrollen der Stringgrenzen in vordefinierten Funktionen', 'Keine Überprüfung des Speichers im externen Speicher', 'Keine Prüfung der Verarbeitungsleistung', 'Keine Überprüfung der Datenbank']
+
+Antwort: Keine Kontrollen der Stringgrenzen in vordefinierten Funktionen"
+"Man in der Mitte Angriff kann die Sicherheit der Diffie-Hellman-Methode gefährden, wenn zwei Parteien nicht",computer_security,"['Zusammengeschlossen', 'Authentifiziert', 'Einreichung', 'Gemeinsam']",1,"Frage: Man in der Mitte Angriff kann die Sicherheit der Diffie-Hellman-Methode gefährden, wenn zwei Parteien nicht
+
+Antwortoptionen: ['Zusammengeschlossen', 'Authentifiziert', 'Einreichung', 'Gemeinsam']
+
+Antwort: Authentifiziert"
+"Ein ganzzahliger Überlauf tritt auf, wenn",computer_security,"['das Ergebnis eines Ganzzahl-Ausdrucks 'umwickelt sich'; anstatt eine sehr große Zahl zu erzeugen, wird am Ende eine sehr kleine (oder negative) Zahl erzeugt', 'eine ganze Zahl wird so verwendet, als wäre sie ein Zeiger', 'eine ganze Zahl wird verwendet, um auf einen Puffer außerhalb der Grenzen des Puffers zuzugreifen', 'Es gibt keinen Platz mehr, um ganze Zahlen im Programm zu halten']",3,"Frage: Ein ganzzahliger Überlauf tritt auf, wenn
+
+Antwortoptionen: ['das Ergebnis eines Ganzzahl-Ausdrucks 'umwickelt sich'; anstatt eine sehr große Zahl zu erzeugen, wird am Ende eine sehr kleine (oder negative) Zahl erzeugt', 'eine ganze Zahl wird so verwendet, als wäre sie ein Zeiger', 'eine ganze Zahl wird verwendet, um auf einen Puffer außerhalb der Grenzen des Puffers zuzugreifen', 'Es gibt keinen Platz mehr, um ganze Zahlen im Programm zu halten']
+
+Antwort: Es gibt keinen Platz mehr, um ganze Zahlen im Programm zu halten"
+"HH ist eine Merkle-Damgard-Hash-Funktion ist H:X^{\leq L} \to TH:X^≤L →T Konstruieren Sie ein MAC aus diesem HH wie folgt: \ \ S(k,m) = H(k \  m) S(k,m) = H(km) Dieser Mac ist unsicher, weil:",computer_security,"['Angesichts der Tatsache, dass jeder H{\displaystyle H} berechnen kann, kann jeder H{\displaystyle H} für jede beliebige Zahl berechnen.', 'Angesichts H{\displaystyle H{\displaystyle H} kann jeder H{\displaystyle H{\displaystyle H{\displaystyle H{\displaystyle H} berechnen H{\displaystyle H{\displaystyle H{\displaystyle H} für jede ww', 'Angesichts H{\displaystyle H} kann jeder H{\displaystyle H{\displaystyle H} berechnen.', 'Jeder kann H{\displaystyle k\displaystyle m} und H{\displaystyle k\displaystyle m} für jeden mm berechnen.']",2,"Frage: HH ist eine Merkle-Damgard-Hash-Funktion ist H:X^{\leq L} \to TH:X^≤L →T Konstruieren Sie ein MAC aus diesem HH wie folgt: \ \ S(k,m) = H(k \  m) S(k,m) = H(km) Dieser Mac ist unsicher, weil:
+
+Antwortoptionen: ['Angesichts der Tatsache, dass jeder H{\displaystyle H} berechnen kann, kann jeder H{\displaystyle H} für jede beliebige Zahl berechnen.', 'Angesichts H{\displaystyle H{\displaystyle H} kann jeder H{\displaystyle H{\displaystyle H{\displaystyle H{\displaystyle H} berechnen H{\displaystyle H{\displaystyle H{\displaystyle H} für jede ww', 'Angesichts H{\displaystyle H} kann jeder H{\displaystyle H{\displaystyle H} berechnen.', 'Jeder kann H{\displaystyle k\displaystyle m} und H{\displaystyle k\displaystyle m} für jeden mm berechnen.']
+
+Antwort: Angesichts H{\displaystyle H} kann jeder H{\displaystyle H{\displaystyle H} berechnen."
+"Angenommen, Alice und Bob haben sich letzten Monat vertrauliche Nachrichten über ein verschlüsseltes Messaging-System verschickt. Alice und Bob sind besorgt , dass ein Gegner heute einen ihrer Computer kompromittieren könnte . während sie die 6.858 Abschlussprüfung machen. und wäre dann in der Lage, diese Nachrichten zu entschlüsseln Welche der folgenden Sicherheitseigenschaften können Alice und Bobs Bedenken ansprechen?",computer_security,"['Authentifizierung.', 'Verleugnung.', 'Geheimhaltung der Weiterleitung', 'Zurückgebliebene Geheimhaltung.']",2,"Frage: Angenommen, Alice und Bob haben sich letzten Monat vertrauliche Nachrichten über ein verschlüsseltes Messaging-System verschickt. Alice und Bob sind besorgt , dass ein Gegner heute einen ihrer Computer kompromittieren könnte . während sie die 6.858 Abschlussprüfung machen. und wäre dann in der Lage, diese Nachrichten zu entschlüsseln Welche der folgenden Sicherheitseigenschaften können Alice und Bobs Bedenken ansprechen?
+
+Antwortoptionen: ['Authentifizierung.', 'Verleugnung.', 'Geheimhaltung der Weiterleitung', 'Zurückgebliebene Geheimhaltung.']
+
+Antwort: Geheimhaltung der Weiterleitung"
+"Das AH-Protokoll bietet Quelle Authentifizierung und Datenintegrität, aber nicht",computer_security,"['Integrität', 'Datenschutz', 'Nichtverleugnung', 'Sowohl A als auch C']",1,"Frage: Das AH-Protokoll bietet Quelle Authentifizierung und Datenintegrität, aber nicht
+
+Antwortoptionen: ['Integrität', 'Datenschutz', 'Nichtverleugnung', 'Sowohl A als auch C']
+
+Antwort: Datenschutz"
+Welcher der folgenden Punkte ist keine Sicherheitslücke?,computer_security,"['Abhören', 'Webseitenübergreifende Skripte', 'Authentifizierung', 'SQL-Injektion']",2,"Frage: Welcher der folgenden Punkte ist keine Sicherheitslücke?
+
+Antwortoptionen: ['Abhören', 'Webseitenübergreifende Skripte', 'Authentifizierung', 'SQL-Injektion']
+
+Antwort: Authentifizierung"
+_______________ ist der zentrale Knotenpunkt für drahtlose 802.11-Betriebsvorgänge.,computer_security,"['WPA', 'Zugangspunkt', 'WAP', 'Zugangsanschluss']",1,"Frage: _______________ ist der zentrale Knotenpunkt für drahtlose 802.11-Betriebsvorgänge.
+
+Antwortoptionen: ['WPA', 'Zugangspunkt', 'WAP', 'Zugangsanschluss']
+
+Antwort: Zugangspunkt"
+In MD-5 ist die Länge des Nachrichtensammenschlusses,computer_security,"['160', 'Nr. 128', 'Verbrauchsteuern', '54 und']",1,"Frage: In MD-5 ist die Länge des Nachrichtensammenschlusses
+
+Antwortoptionen: ['160', 'Nr. 128', 'Verbrauchsteuern', '54 und']
+
+Antwort: Nr. 128"
+Was ist Nmap?,computer_security,"['Es handelt sich um einen Scanner, der Pakete an eine Reihe von Adressen injiziert und daraus schließt, welche Hosts und Dienste sich an diesen Adressen befinden können, basierend auf den Antworten', 'Es ist ein Netzwerk Fuzz-Test-Tool', 'Es ist eine Karte des Internets.', 'Es handelt sich um eine Reihe von Tools für das Skripting von Angriffen: Sonde, Konstruktion, Kodierung, Injektion, Warten auf Antwort']",0,"Frage: Was ist Nmap?
+
+Antwortoptionen: ['Es handelt sich um einen Scanner, der Pakete an eine Reihe von Adressen injiziert und daraus schließt, welche Hosts und Dienste sich an diesen Adressen befinden können, basierend auf den Antworten', 'Es ist ein Netzwerk Fuzz-Test-Tool', 'Es ist eine Karte des Internets.', 'Es handelt sich um eine Reihe von Tools für das Skripting von Angriffen: Sonde, Konstruktion, Kodierung, Injektion, Warten auf Antwort']
+
+Antwort: Es handelt sich um einen Scanner, der Pakete an eine Reihe von Adressen injiziert und daraus schließt, welche Hosts und Dienste sich an diesen Adressen befinden können, basierend auf den Antworten"
+Wie verhindert man eine SQL-Injektion?,computer_security,"['Auslösende Abfragen', 'Anträge auf Unterbrechung', 'Zusammenfügen von Tabellen', 'Alle oben genannten']",0,"Frage: Wie verhindert man eine SQL-Injektion?
+
+Antwortoptionen: ['Auslösende Abfragen', 'Anträge auf Unterbrechung', 'Zusammenfügen von Tabellen', 'Alle oben genannten']
+
+Antwort: Auslösende Abfragen"
+"Was bedeutet es, während einer Penetrationstest ""stealthy"" zu sein?",computer_security,"['Durchführung der Prüfungen von einem unbekannten Standort aus', 'Verwendung von Verschlüsselung während der Tests, um die Quelle der Angriffe unmöglich zu bestimmen', 'Durchführung von Penetrationstests ohne das Wissen der Zielorganisation', 'Vorsicht bei der Vermeidung von Aktivitäten während eines Penetrationstests, die die Aufmerksamkeit auf sich ziehen könnten, z. B. von Betreibern oder IDS-Diensten']",3,"Frage: Was bedeutet es, während einer Penetrationstest ""stealthy"" zu sein?
+
+Antwortoptionen: ['Durchführung der Prüfungen von einem unbekannten Standort aus', 'Verwendung von Verschlüsselung während der Tests, um die Quelle der Angriffe unmöglich zu bestimmen', 'Durchführung von Penetrationstests ohne das Wissen der Zielorganisation', 'Vorsicht bei der Vermeidung von Aktivitäten während eines Penetrationstests, die die Aufmerksamkeit auf sich ziehen könnten, z. B. von Betreibern oder IDS-Diensten']
+
+Antwort: Vorsicht bei der Vermeidung von Aktivitäten während eines Penetrationstests, die die Aufmerksamkeit auf sich ziehen könnten, z. B. von Betreibern oder IDS-Diensten"
+Welche der folgenden Sicherheitslücken ist keine Sicherheitslücke in der Transportschicht?,computer_security,"['Falscher Umgang mit undefinierten, schlecht definierten Variablen', 'Die Sicherheitsanfälligkeit, die 'Fingerabdrücke' und andere Aufzählungen von Host-Informationen ermöglicht', 'Überlastung der Mechanismen der Transportschicht', 'Nicht autorisierter Zugriff auf das Netzwerk']",3,"Frage: Welche der folgenden Sicherheitslücken ist keine Sicherheitslücke in der Transportschicht?
+
+Antwortoptionen: ['Falscher Umgang mit undefinierten, schlecht definierten Variablen', 'Die Sicherheitsanfälligkeit, die 'Fingerabdrücke' und andere Aufzählungen von Host-Informationen ermöglicht', 'Überlastung der Mechanismen der Transportschicht', 'Nicht autorisierter Zugriff auf das Netzwerk']
+
+Antwort: Nicht autorisierter Zugriff auf das Netzwerk"
+"In Brumleys und Bonehs Papier über Seitenkanal-Angriffe, warum verhindert Blindung, dass der Timing-Angriff funktioniert?",computer_security,"['Blinding verhindert, dass der Server die CRT-Optimierung nutzt, die für den Timing-Angriff unerlässlich ist.', 'Blinding ändert die verwendeten p- und q-Primzahlen, so dass ein Gegner die wahren p- und q-Werte des Servers nicht erfahren kann.', 'Blinding randomisiert den zu entschlüsselnden Chiffertext, wodurch die Korrelation zwischen der Eingabe eines Gegners und den Zeitunterschieden verschleiert wird.', 'Blinding fügt eine zufällige Menge an Zeit für die Entschlüsselung aufgrund der Multiplikation und Division durch die Blinding zufälligen Wert r Das verdeckt die Zeitunterschiede, die bei dem Angriff verwendet wurden.']",2,"Frage: In Brumleys und Bonehs Papier über Seitenkanal-Angriffe, warum verhindert Blindung, dass der Timing-Angriff funktioniert?
+
+Antwortoptionen: ['Blinding verhindert, dass der Server die CRT-Optimierung nutzt, die für den Timing-Angriff unerlässlich ist.', 'Blinding ändert die verwendeten p- und q-Primzahlen, so dass ein Gegner die wahren p- und q-Werte des Servers nicht erfahren kann.', 'Blinding randomisiert den zu entschlüsselnden Chiffertext, wodurch die Korrelation zwischen der Eingabe eines Gegners und den Zeitunterschieden verschleiert wird.', 'Blinding fügt eine zufällige Menge an Zeit für die Entschlüsselung aufgrund der Multiplikation und Division durch die Blinding zufälligen Wert r Das verdeckt die Zeitunterschiede, die bei dem Angriff verwendet wurden.']
+
+Antwort: Blinding randomisiert den zu entschlüsselnden Chiffertext, wodurch die Korrelation zwischen der Eingabe eines Gegners und den Zeitunterschieden verschleiert wird."
+"Die in Remote Timing Attacks are Practical (von Brumley und Boneh) beschriebene OpenSSL-Implementierung verwendet folgende Leistungsoptimierungen: Chinese Remainder (CR) Vertretung von Montgomery (MR) Karatsuba Multiplikation (KM) und wiederholte Quadratisierungs- und Schiebefenster (RS) Welche der folgenden Optionen würde den in der Arbeit beschriebenen Timing-Channel-Angriff schließen, wenn Sie die aufgeführten Optimierungen deaktivieren? 1 RS und KM 2 RS und MR",computer_security,"['Es ist wahr, es ist wahr', 'Falsch, Falsch', 'Wahre und Falsche', 'Falsch, wahr']",3,"Frage: Die in Remote Timing Attacks are Practical (von Brumley und Boneh) beschriebene OpenSSL-Implementierung verwendet folgende Leistungsoptimierungen: Chinese Remainder (CR) Vertretung von Montgomery (MR) Karatsuba Multiplikation (KM) und wiederholte Quadratisierungs- und Schiebefenster (RS) Welche der folgenden Optionen würde den in der Arbeit beschriebenen Timing-Channel-Angriff schließen, wenn Sie die aufgeführten Optimierungen deaktivieren? 1 RS und KM 2 RS und MR
+
+Antwortoptionen: ['Es ist wahr, es ist wahr', 'Falsch, Falsch', 'Wahre und Falsche', 'Falsch, wahr']
+
+Antwort: Falsch, wahr"
+"Die Verschlüsselung mit öffentlichem Schlüssel ist gegenüber der Kryptographie mit symmetrischem Schlüssel vorteilhaft, da",computer_security,"['Geschwindigkeit', 'Raum', 'Austausch von Schlüsseln', 'Schlüssellänge']",2,"Frage: Die Verschlüsselung mit öffentlichem Schlüssel ist gegenüber der Kryptographie mit symmetrischem Schlüssel vorteilhaft, da
+
+Antwortoptionen: ['Geschwindigkeit', 'Raum', 'Austausch von Schlüsseln', 'Schlüssellänge']
+
+Antwort: Austausch von Schlüsseln"
+"Das __________ war ein riesiger Marktplatz des Dark Web, der speziell für den Verkauf von illegalen Drogen und Betäubungsmitteln bekannt war, sowie für eine breite Palette anderer Waren zum Verkauf.",computer_security,"['Seidenstraße', 'Baumwollstraße', 'Dunkle Straße', 'Drogenstraße']",0,"Frage: Das __________ war ein riesiger Marktplatz des Dark Web, der speziell für den Verkauf von illegalen Drogen und Betäubungsmitteln bekannt war, sowie für eine breite Palette anderer Waren zum Verkauf.
+
+Antwortoptionen: ['Seidenstraße', 'Baumwollstraße', 'Dunkle Straße', 'Drogenstraße']
+
+Antwort: Seidenstraße"
+"Das ______________ wird als unbekanntes Segment des Deep Web kategorisiert, das absichtlich verborgen gehalten wurde und mit Standard-Webbrowsern nicht zugänglich ist.",computer_security,"['Geisternetz', 'Das World Wide Web', 'Dunkles Netz', 'Oberflächennetz']",2,"Frage: Das ______________ wird als unbekanntes Segment des Deep Web kategorisiert, das absichtlich verborgen gehalten wurde und mit Standard-Webbrowsern nicht zugänglich ist.
+
+Antwortoptionen: ['Geisternetz', 'Das World Wide Web', 'Dunkles Netz', 'Oberflächennetz']
+
+Antwort: Dunkles Netz"
+"Was macht EXE, wenn der STP-Lösser auf eine Einschränkungsabfrage für einen bestimmten Pfad ausläuft?",computer_security,"['Nehmen Sie an, dass die Abfrage zufriedenstellend ist und führen Sie den Pfad weiter aus.', 'Nehmen Sie an, dass die Abfrage nicht zufriedenstellend ist und beenden Sie die Ausführung des Pfades', 'STP neu starten und die Abfrage bis zu einer begrenzten Anzahl von Wiederholungsversuchen erneut ausprobieren.', 'Entfernen Sie eine Teilmenge der Einschränkungen und versuchen Sie die Abfrage erneut.']",1,"Frage: Was macht EXE, wenn der STP-Lösser auf eine Einschränkungsabfrage für einen bestimmten Pfad ausläuft?
+
+Antwortoptionen: ['Nehmen Sie an, dass die Abfrage zufriedenstellend ist und führen Sie den Pfad weiter aus.', 'Nehmen Sie an, dass die Abfrage nicht zufriedenstellend ist und beenden Sie die Ausführung des Pfades', 'STP neu starten und die Abfrage bis zu einer begrenzten Anzahl von Wiederholungsversuchen erneut ausprobieren.', 'Entfernen Sie eine Teilmenge der Einschränkungen und versuchen Sie die Abfrage erneut.']
+
+Antwort: Nehmen Sie an, dass die Abfrage nicht zufriedenstellend ist und beenden Sie die Ausführung des Pfades"
+"Um eine digitale Signatur zu verifizieren, benötigen wir die",computer_security,"['Privater Schlüssel des Absenders', 'Öffentlicher Schlüssel des Absenders', 'Der private Schlüssel des Empfängers', 'Öffentlicher Schlüssel des Empfängers']",1,"Frage: Um eine digitale Signatur zu verifizieren, benötigen wir die
+
+Antwortoptionen: ['Privater Schlüssel des Absenders', 'Öffentlicher Schlüssel des Absenders', 'Der private Schlüssel des Empfängers', 'Öffentlicher Schlüssel des Empfängers']
+
+Antwort: Öffentlicher Schlüssel des Absenders"
+"Angenommen, Sie möchten Fuzzing in einem Programm verwenden, um zu versuchen, Speicherfehler zu finden. Welche der folgenden Aussagen ist wahr?",computer_security,"['Sie sollten nicht verwenden, eine Grammatik-basierte Fuzzer, weil seine Einhaltung der Grammatik bedeutet, dass es nicht finden Speicherfehler', 'Die Kompilierung des Programms mit Adresssanitizer (ASAN) wird Fehler schwerer zu reproduzieren', 'Die Kompilierung des Programms mit Adresssanitizer (ASAN) wird die Quelle eines Speicherfehlers leichter zu finden', 'Fuzzing findet keine Gedächtnisfehler, es findet Abstürze und hängt.']",2,"Frage: Angenommen, Sie möchten Fuzzing in einem Programm verwenden, um zu versuchen, Speicherfehler zu finden. Welche der folgenden Aussagen ist wahr?
+
+Antwortoptionen: ['Sie sollten nicht verwenden, eine Grammatik-basierte Fuzzer, weil seine Einhaltung der Grammatik bedeutet, dass es nicht finden Speicherfehler', 'Die Kompilierung des Programms mit Adresssanitizer (ASAN) wird Fehler schwerer zu reproduzieren', 'Die Kompilierung des Programms mit Adresssanitizer (ASAN) wird die Quelle eines Speicherfehlers leichter zu finden', 'Fuzzing findet keine Gedächtnisfehler, es findet Abstürze und hängt.']
+
+Antwort: Die Kompilierung des Programms mit Adresssanitizer (ASAN) wird die Quelle eines Speicherfehlers leichter zu finden"
+"Basierend auf dem Papier SoK: SSL und HTTPS: Revisiting past challenges and evaluating certificates trust model enhancements, welche der folgenden Aussagen sind falsch?",computer_security,"['Gültige DV-Zertifikate geben einem Benutzer mehr Vertrauen, dass er sich mit der beabsichtigten Partei verbindet, als gültige EV-Zertifikate.', 'OCSP-Stapling ermöglicht es einem Server, einem Browser zu beweisen, dass sein Zertifikat nicht widerrufen wurde.', 'DANE erschwert es einem Gegner, einen SSL-Stripping-Angriff durchzuführen.', 'Server-Key-Pinning macht es für einen Gegner schwieriger, eine CA davon zu überzeugen, ein Zertifikat für eine Website zu erstellen und einen MITM-Angriff auf diese Website zu starten.']",0,"Frage: Basierend auf dem Papier SoK: SSL und HTTPS: Revisiting past challenges and evaluating certificates trust model enhancements, welche der folgenden Aussagen sind falsch?
+
+Antwortoptionen: ['Gültige DV-Zertifikate geben einem Benutzer mehr Vertrauen, dass er sich mit der beabsichtigten Partei verbindet, als gültige EV-Zertifikate.', 'OCSP-Stapling ermöglicht es einem Server, einem Browser zu beweisen, dass sein Zertifikat nicht widerrufen wurde.', 'DANE erschwert es einem Gegner, einen SSL-Stripping-Angriff durchzuführen.', 'Server-Key-Pinning macht es für einen Gegner schwieriger, eine CA davon zu überzeugen, ein Zertifikat für eine Website zu erstellen und einen MITM-Angriff auf diese Website zu starten.']
+
+Antwort: Gültige DV-Zertifikate geben einem Benutzer mehr Vertrauen, dass er sich mit der beabsichtigten Partei verbindet, als gültige EV-Zertifikate."
+Mit welchem Werkzeug kann die SNMP-Zählung durchgeführt werden?,computer_security,"['DNS-Suche', 'Wer ist das ?', 'Ein Blick nach vorn.', 'IP-Netzwerk-Browser']",3,"Frage: Mit welchem Werkzeug kann die SNMP-Zählung durchgeführt werden?
+
+Antwortoptionen: ['DNS-Suche', 'Wer ist das ?', 'Ein Blick nach vorn.', 'IP-Netzwerk-Browser']
+
+Antwort: IP-Netzwerk-Browser"
+Welcher von ihnen hat die stärkste Wireless-Sicherheit?,computer_security,"['WEP', 'WPA', 'WPA2', 'WPA3']",3,"Frage: Welcher von ihnen hat die stärkste Wireless-Sicherheit?
+
+Antwortoptionen: ['WEP', 'WPA', 'WPA2', 'WPA3']
+
+Antwort: WPA3"
+"Angenommen, Unix bietet keine Möglichkeit, Dateideskriptoren zwischen Prozessen zu übergeben, erlaubt aber dennoch das Erben von Dateideskriptoren von einem Elternteil auf Fork und exec Welche Aspekte des OKWS-Designs würden ohne die Übergabe des Dateideskriptors fehlen? 1 Es wäre für Dienste unmöglich, eine TCP-Verbindung zum Client-Webbrowser herzustellen. Es wäre für okd unmöglich, als Nicht-Root-Benutzer zu laufen.",computer_security,"['Es ist wahr, es ist wahr', 'Falsch, Falsch', 'Wahre und Falsche', 'Falsch, wahr']",2,"Frage: Angenommen, Unix bietet keine Möglichkeit, Dateideskriptoren zwischen Prozessen zu übergeben, erlaubt aber dennoch das Erben von Dateideskriptoren von einem Elternteil auf Fork und exec Welche Aspekte des OKWS-Designs würden ohne die Übergabe des Dateideskriptors fehlen? 1 Es wäre für Dienste unmöglich, eine TCP-Verbindung zum Client-Webbrowser herzustellen. Es wäre für okd unmöglich, als Nicht-Root-Benutzer zu laufen.
+
+Antwortoptionen: ['Es ist wahr, es ist wahr', 'Falsch, Falsch', 'Wahre und Falsche', 'Falsch, wahr']
+
+Antwort: Wahre und Falsche"
+Versagte Sitzungen erlauben Brute-Force-Angriffe auf Zugangsdaten. In welcher Ebene des OSI-Modells werden diese Angriffe durchgeführt?,computer_security,"['Physikalische Schicht', 'Datenverbindungsschicht', 'Sitzungsschicht', 'Präsentationsschicht']",2,"Frage: Versagte Sitzungen erlauben Brute-Force-Angriffe auf Zugangsdaten. In welcher Ebene des OSI-Modells werden diese Angriffe durchgeführt?
+
+Antwortoptionen: ['Physikalische Schicht', 'Datenverbindungsschicht', 'Sitzungsschicht', 'Präsentationsschicht']
+
+Antwort: Sitzungsschicht"
+Welches der folgenden Verfahren ist eine Authentifizierungsmethode?,computer_security,"['Geheime Frage .', 'Biometrische Daten', 'SMS-Code', 'Alle oben genannten']",3,"Frage: Welches der folgenden Verfahren ist eine Authentifizierungsmethode?
+
+Antwortoptionen: ['Geheime Frage .', 'Biometrische Daten', 'SMS-Code', 'Alle oben genannten']
+
+Antwort: Alle oben genannten"
+Wann tritt im Allgemeinen ein Pufferüberlauf auf?,computer_security,"['wenn Sie an einen freigegebenen Zeiger schreiben', 'beim Kopieren eines Puffers vom Stack zum Heap', 'wenn ein Zeiger verwendet wird, um auf Speicher zuzugreifen, der ihm nicht zugewiesen ist', 'wenn das Programm bemerkt, ein Puffer gefüllt hat, und so beginnt Anfragen abzulehnen']",2,"Frage: Wann tritt im Allgemeinen ein Pufferüberlauf auf?
+
+Antwortoptionen: ['wenn Sie an einen freigegebenen Zeiger schreiben', 'beim Kopieren eines Puffers vom Stack zum Heap', 'wenn ein Zeiger verwendet wird, um auf Speicher zuzugreifen, der ihm nicht zugewiesen ist', 'wenn das Programm bemerkt, ein Puffer gefüllt hat, und so beginnt Anfragen abzulehnen']
+
+Antwort: wenn ein Zeiger verwendet wird, um auf Speicher zuzugreifen, der ihm nicht zugewiesen ist"
+Eine digitale Signatur benötigt eine,computer_security,"['System mit privaten Schlüsseln', 'System mit gemeinsamen Schlüsseln', 'System mit öffentlichem Schlüssel', 'Sie alle .']",2,"Frage: Eine digitale Signatur benötigt eine
+
+Antwortoptionen: ['System mit privaten Schlüsseln', 'System mit gemeinsamen Schlüsseln', 'System mit öffentlichem Schlüssel', 'Sie alle .']
+
+Antwort: System mit öffentlichem Schlüssel"
+Eine Paketfilter-Firewall filtert die,computer_security,"['Anwendung oder Transport', 'Datenverbindungsschicht', 'Physikalische Schicht', 'Netz- oder Transportschicht']",3,"Frage: Eine Paketfilter-Firewall filtert die
+
+Antwortoptionen: ['Anwendung oder Transport', 'Datenverbindungsschicht', 'Physikalische Schicht', 'Netz- oder Transportschicht']
+
+Antwort: Netz- oder Transportschicht"
+"Angenommen, I = (S,V) I = ((S,V)) ist ein MAC. Angenommen, S ((k,m) S ((k,m)) ist immer 5 Bit lang. Kann dieser MAC sicher sein?",computer_security,"['Nein, ein Angreifer kann einfach das Tag für Nachrichten erraten', 'Es hängt von den Details des MAC', 'Ja, der Angreifer kann für keine Nachricht ein gültiges Tag generieren', 'Ja, die PRG ist pseudorandom']",0,"Frage: Angenommen, I = (S,V) I = ((S,V)) ist ein MAC. Angenommen, S ((k,m) S ((k,m)) ist immer 5 Bit lang. Kann dieser MAC sicher sein?
+
+Antwortoptionen: ['Nein, ein Angreifer kann einfach das Tag für Nachrichten erraten', 'Es hängt von den Details des MAC', 'Ja, der Angreifer kann für keine Nachricht ein gültiges Tag generieren', 'Ja, die PRG ist pseudorandom']
+
+Antwort: Nein, ein Angreifer kann einfach das Tag für Nachrichten erraten"
+Welcher der folgenden Bereiche befasst sich mit der Erkennung von Eindringlingen in das Netzwerk und der Analyse des Datenverkehrs in Echtzeit?,computer_security,"['Johannes der Ripper', 'L0phtCrack', 'Schnüffeln.', 'Nessus']",2,"Frage: Welcher der folgenden Bereiche befasst sich mit der Erkennung von Eindringlingen in das Netzwerk und der Analyse des Datenverkehrs in Echtzeit?
+
+Antwortoptionen: ['Johannes der Ripper', 'L0phtCrack', 'Schnüffeln.', 'Nessus']
+
+Antwort: Schnüffeln."
+"Die Nachricht Kondentialität oder Privatsphäre bedeutet, dass der Absender und der Empfänger erwarten",computer_security,"['Integrität', 'Kondentialität', 'Authentifizierung', 'Nichtverleugnung']",1,"Frage: Die Nachricht Kondentialität oder Privatsphäre bedeutet, dass der Absender und der Empfänger erwarten
+
+Antwortoptionen: ['Integrität', 'Kondentialität', 'Authentifizierung', 'Nichtverleugnung']
+
+Antwort: Kondentialität"
+"Wenn sich ein drahtloser Benutzer bei einem beliebigen AP authentifiziert, durchlaufen beide einen vierstufigen Authentifizierungsprozess, der als _____________ bezeichnet wird.",computer_security,"['AP-Handschütteln', '4-Wege-Handschlag', '4-Wege-Verbindung', 'drahtlose Händedruckung']",1,"Frage: Wenn sich ein drahtloser Benutzer bei einem beliebigen AP authentifiziert, durchlaufen beide einen vierstufigen Authentifizierungsprozess, der als _____________ bezeichnet wird.
+
+Antwortoptionen: ['AP-Handschütteln', '4-Wege-Handschlag', '4-Wege-Verbindung', 'drahtlose Händedruckung']
+
+Antwort: 4-Wege-Handschlag"
+"Die Authentifizierung von Nachrichten ist ein Dienst, der über",computer_security,"['Kondentialität der Nachricht', 'Integrität der Nachricht', 'Nachrichten spritzen', 'Übermittlung von Nachrichten']",1,"Frage: Die Authentifizierung von Nachrichten ist ein Dienst, der über
+
+Antwortoptionen: ['Kondentialität der Nachricht', 'Integrität der Nachricht', 'Nachrichten spritzen', 'Übermittlung von Nachrichten']
+
+Antwort: Integrität der Nachricht"
+Welche der folgenden Gruppen sind am anfälligsten für Injektionsangriffe?,computer_security,"['Sitzungs-IDs', 'Registrierungsschlüssel', 'Netzwerkkommunikation', 'SQL-Abfragen basierend auf Benutzereingaben']",3,"Frage: Welche der folgenden Gruppen sind am anfälligsten für Injektionsangriffe?
+
+Antwortoptionen: ['Sitzungs-IDs', 'Registrierungsschlüssel', 'Netzwerkkommunikation', 'SQL-Abfragen basierend auf Benutzereingaben']
+
+Antwort: SQL-Abfragen basierend auf Benutzereingaben"
+"Nehmen Sie an, dass eine TLS-Verbindung erfolgreich zwischen einem Client und einem Server hergestellt wurde Die Einrichtung der Sitzung beinhaltete die Überprüfung des Serverzertifikats und die Ausführung eines DiffieHelmann-Austausches, aber der Client lieferte kein Clientzertifikat Darüber hinaus gehen wir davon aus, dass der Client und der Server ehrlich sind, dass der Client und der Server ihre Schlüssel nicht preisgeben und dass die Kryptographie gut ist Vor welchem der folgenden Angriffe schützt TLS? 1 Ein Angreifer ersetzt die von einem Client gesendeten Bytes durch Bytes seiner Wahl. Ein Angreifer, der die von einem Client gesendeten Klartext-Bytes liest.",computer_security,"['Es ist wahr, es ist wahr', 'Falsch, Falsch', 'Wahre und Falsche', 'Falsch, wahr']",0,"Frage: Nehmen Sie an, dass eine TLS-Verbindung erfolgreich zwischen einem Client und einem Server hergestellt wurde Die Einrichtung der Sitzung beinhaltete die Überprüfung des Serverzertifikats und die Ausführung eines DiffieHelmann-Austausches, aber der Client lieferte kein Clientzertifikat Darüber hinaus gehen wir davon aus, dass der Client und der Server ehrlich sind, dass der Client und der Server ihre Schlüssel nicht preisgeben und dass die Kryptographie gut ist Vor welchem der folgenden Angriffe schützt TLS? 1 Ein Angreifer ersetzt die von einem Client gesendeten Bytes durch Bytes seiner Wahl. Ein Angreifer, der die von einem Client gesendeten Klartext-Bytes liest.
+
+Antwortoptionen: ['Es ist wahr, es ist wahr', 'Falsch, Falsch', 'Wahre und Falsche', 'Falsch, wahr']
+
+Antwort: Es ist wahr, es ist wahr"
+Welches der folgenden Werkzeuge ist ein Wireless Traffic Sniffing Tool?,computer_security,"['Griechenland', 'Rülpseranzug', 'Nessus', 'Wireshark']",3,"Frage: Welches der folgenden Werkzeuge ist ein Wireless Traffic Sniffing Tool?
+
+Antwortoptionen: ['Griechenland', 'Rülpseranzug', 'Nessus', 'Wireshark']
+
+Antwort: Wireshark"
+"Ein ___________ ist eine Methode, bei der ein Computer-Sicherheitsmechanismus umgangen wird, der für den Zugriff auf den Computer oder seine Informationen nicht nachvollziehbar ist.",computer_security,"['Vordertür', 'Hintertür', 'clickjacking (Klickkapseln)', 'Schlüsselprotokollierung']",1,"Frage: Ein ___________ ist eine Methode, bei der ein Computer-Sicherheitsmechanismus umgangen wird, der für den Zugriff auf den Computer oder seine Informationen nicht nachvollziehbar ist.
+
+Antwortoptionen: ['Vordertür', 'Hintertür', 'clickjacking (Klickkapseln)', 'Schlüsselprotokollierung']
+
+Antwort: Hintertür"
+Welcher der folgenden Modus ist kein Blockchiffrierungsmodus?,computer_security,"['Europäische Zentralbank (EZB)', 'CFB', 'CBF', 'CBC']",2,"Frage: Welcher der folgenden Modus ist kein Blockchiffrierungsmodus?
+
+Antwortoptionen: ['Europäische Zentralbank (EZB)', 'CFB', 'CBF', 'CBC']
+
+Antwort: CBF"
+Was ist ein Web-Proxy?,computer_security,"['Eine Software, die Anfragen (und Antworten) zwischen einem Webbrowser und einem Webserver abfängt und möglicherweise modifiziert', 'Ein Agent, der bei der Interaktion mit Webanwendungen im Auftrag des Kunden Entscheidungen trifft', 'Ein Teil der Software, die eine Web-Anwendung wie eine eigenständige Anwendung aussehen macht, so dass es einfacher zu testen', 'Ein Simulator für das Internet, der auch offline genutzt werden kann']",0,"Frage: Was ist ein Web-Proxy?
+
+Antwortoptionen: ['Eine Software, die Anfragen (und Antworten) zwischen einem Webbrowser und einem Webserver abfängt und möglicherweise modifiziert', 'Ein Agent, der bei der Interaktion mit Webanwendungen im Auftrag des Kunden Entscheidungen trifft', 'Ein Teil der Software, die eine Web-Anwendung wie eine eigenständige Anwendung aussehen macht, so dass es einfacher zu testen', 'Ein Simulator für das Internet, der auch offline genutzt werden kann']
+
+Antwort: Eine Software, die Anfragen (und Antworten) zwischen einem Webbrowser und einem Webserver abfängt und möglicherweise modifiziert"
+"Buffer-Overflow kann als Fehler in Apps verbleiben, wenn __________ nicht vollständig erledigt werden.",computer_security,"['Grenzschnitte', 'Gedächtniskontrollen', 'Grenzkontrollen', 'Pufferprüfungen']",2,"Frage: Buffer-Overflow kann als Fehler in Apps verbleiben, wenn __________ nicht vollständig erledigt werden.
+
+Antwortoptionen: ['Grenzschnitte', 'Gedächtniskontrollen', 'Grenzkontrollen', 'Pufferprüfungen']
+
+Antwort: Grenzkontrollen"
+"Anwendungen, die durch Programmiersprachen wie ____ und ______ entwickelt wurden, haben diesen häufigen Pufferüberlauffehler.",computer_security,"['C, Rubin', 'Python und Ruby', 'C, C++', 'Tcl, C#']",2,"Frage: Anwendungen, die durch Programmiersprachen wie ____ und ______ entwickelt wurden, haben diesen häufigen Pufferüberlauffehler.
+
+Antwortoptionen: ['C, Rubin', 'Python und Ruby', 'C, C++', 'Tcl, C#']
+
+Antwort: C, C++"
+"Verschlüsselung und Entschlüsselung bieten Geheimhaltung oder Vertraulichkeit, aber nicht",computer_security,"['Authentifizierung', 'Integrität', 'Datenschutz', 'Alle oben genannten']",1,"Frage: Verschlüsselung und Entschlüsselung bieten Geheimhaltung oder Vertraulichkeit, aber nicht
+
+Antwortoptionen: ['Authentifizierung', 'Integrität', 'Datenschutz', 'Alle oben genannten']
+
+Antwort: Integrität"
+"Ein ___________ ist ein Programm, das Ihre Logins und Passwörter für Instant Messaging-Anwendungen stiehlt.",computer_security,"['IM  Trojaner', 'Hintertür-Trojaner', 'Trojaner-Downloader', 'Lösegeld-Trojaner']",0,"Frage: Ein ___________ ist ein Programm, das Ihre Logins und Passwörter für Instant Messaging-Anwendungen stiehlt.
+
+Antwortoptionen: ['IM  Trojaner', 'Hintertür-Trojaner', 'Trojaner-Downloader', 'Lösegeld-Trojaner']
+
+Antwort: IM  Trojaner"
+Die Subschlüssellänge bei jeder Runde des DES beträgt__________,computer_security,"['Nr. 32', 'Ausführungen Nr. 56', '48 und', 'Verbrauchsteuern']",1,"Frage: Die Subschlüssellänge bei jeder Runde des DES beträgt__________
+
+Antwortoptionen: ['Nr. 32', 'Ausführungen Nr. 56', '48 und', 'Verbrauchsteuern']
+
+Antwort: Ausführungen Nr. 56"
+Welche der folgenden Aussagen trifft auf Mutations-basiertes Fuzzing zu?,computer_security,"['Es erzeugt jede andere Eingabe durch eine vorherige Eingabe zu modifizieren', 'Es funktioniert durch kleine Mutationen des Zielprogramms Fehler zu induzieren', 'Jeder Eingang ist eine Mutation, die einer bestimmten Grammatik folgt.', 'Es macht nur Sinn für Datei-basierte Fuzzing, nicht Netzwerk-basierte Fuzzing']",0,"Frage: Welche der folgenden Aussagen trifft auf Mutations-basiertes Fuzzing zu?
+
+Antwortoptionen: ['Es erzeugt jede andere Eingabe durch eine vorherige Eingabe zu modifizieren', 'Es funktioniert durch kleine Mutationen des Zielprogramms Fehler zu induzieren', 'Jeder Eingang ist eine Mutation, die einer bestimmten Grammatik folgt.', 'Es macht nur Sinn für Datei-basierte Fuzzing, nicht Netzwerk-basierte Fuzzing']
+
+Antwort: Es erzeugt jede andere Eingabe durch eine vorherige Eingabe zu modifizieren"
+Welche Arten von Scans gibt es?,computer_security,"['Hafen, Netz und Dienstleistungen', 'Netzwerk, Verwundbarkeit und Port', 'Passiv, aktiv und interaktiv', 'Server, Client und Netzwerk']",1,"Frage: Welche Arten von Scans gibt es?
+
+Antwortoptionen: ['Hafen, Netz und Dienstleistungen', 'Netzwerk, Verwundbarkeit und Port', 'Passiv, aktiv und interaktiv', 'Server, Client und Netzwerk']
+
+Antwort: Netzwerk, Verwundbarkeit und Port"
+"Ein Absender darf nicht in der Lage sein, die Versendung einer gesendeten Nachricht zu leugnen.",computer_security,"['Nichtverleugnung der Nachricht', 'Integrität der Nachricht', 'Kondentialität der Nachricht', 'Übermittlung von Nachrichten']",0,"Frage: Ein Absender darf nicht in der Lage sein, die Versendung einer gesendeten Nachricht zu leugnen.
+
+Antwortoptionen: ['Nichtverleugnung der Nachricht', 'Integrität der Nachricht', 'Kondentialität der Nachricht', 'Übermittlung von Nachrichten']
+
+Antwort: Nichtverleugnung der Nachricht"
+Eine Stellvertreter-Rewall-Liter an der,computer_security,"['Physikalische Schicht', 'Anwendungsschicht', 'Datenverbindungsschicht', 'Netzwerk-Schicht']",1,"Frage: Eine Stellvertreter-Rewall-Liter an der
+
+Antwortoptionen: ['Physikalische Schicht', 'Anwendungsschicht', 'Datenverbindungsschicht', 'Netzwerk-Schicht']
+
+Antwort: Anwendungsschicht"
+"Zu welchem Internet-Sicherheitsprotokoll gehört die eingekapselte Sicherheitsnutzlast (Encapsulating Security Payload, ESP)?",computer_security,"['Protokoll für die Secure Socket Layer', 'IP-Sicherheitsprotokoll', 'Sicherer Http-Protokoll', 'Sicherheitsprotokoll für die Transportschicht']",1,"Frage: Zu welchem Internet-Sicherheitsprotokoll gehört die eingekapselte Sicherheitsnutzlast (Encapsulating Security Payload, ESP)?
+
+Antwortoptionen: ['Protokoll für die Secure Socket Layer', 'IP-Sicherheitsprotokoll', 'Sicherer Http-Protokoll', 'Sicherheitsprotokoll für die Transportschicht']
+
+Antwort: IP-Sicherheitsprotokoll"
+"Ein spezielles Tool ist notwendig, um das Netzwerk zu betreten, das _______________ ist, das den anonymen Internetnutzern hilft, auf das Tor-Netzwerk zuzugreifen und verschiedene Tor-Dienste zu nutzen.",computer_security,"['Opera-Browser', 'Firefox', 'Chrom', 'Tor-Browser']",3,"Frage: Ein spezielles Tool ist notwendig, um das Netzwerk zu betreten, das _______________ ist, das den anonymen Internetnutzern hilft, auf das Tor-Netzwerk zuzugreifen und verschiedene Tor-Dienste zu nutzen.
+
+Antwortoptionen: ['Opera-Browser', 'Firefox', 'Chrom', 'Tor-Browser']
+
+Antwort: Tor-Browser"
+"Wie erleichtert ein Puffer-Überlauf im Stack die Ausführung von Code, der vom Angreifer injiziert wurde?",computer_security,"['Durch das Überschreiben der Rücksendeadresse auf den Standort dieses Codes zeigen', 'Durch das Schreiben direkt an den Befehlszeiger registrieren Sie die Adresse des Codes', 'Indem Sie die Adresse des Codes direkt an %eax schreiben', 'Durch die Änderung des Namens der laufenden ausführbaren Datei, auf dem Stapel gespeichert']",0,"Frage: Wie erleichtert ein Puffer-Überlauf im Stack die Ausführung von Code, der vom Angreifer injiziert wurde?
+
+Antwortoptionen: ['Durch das Überschreiben der Rücksendeadresse auf den Standort dieses Codes zeigen', 'Durch das Schreiben direkt an den Befehlszeiger registrieren Sie die Adresse des Codes', 'Indem Sie die Adresse des Codes direkt an %eax schreiben', 'Durch die Änderung des Namens der laufenden ausführbaren Datei, auf dem Stapel gespeichert']
+
+Antwort: Durch das Überschreiben der Rücksendeadresse auf den Standort dieses Codes zeigen"
+Die von einer Hash-Funktion erstellte Zusammenfassung wird normalerweise als,computer_security,"['Modikationserkennungscode (MDC)', 'Ändern der Authentifizierungsverbindung', 'Kontrolle der Nachrichten-Authentifizierung', 'Nachrichten-Authentifizierungsschlüssel']",0,"Frage: Die von einer Hash-Funktion erstellte Zusammenfassung wird normalerweise als
+
+Antwortoptionen: ['Modikationserkennungscode (MDC)', 'Ändern der Authentifizierungsverbindung', 'Kontrolle der Nachrichten-Authentifizierung', 'Nachrichten-Authentifizierungsschlüssel']
+
+Antwort: Modikationserkennungscode (MDC)"
+"Lassen Sie F: K \times R \to MF:K×R→M eine sichere PRF sein Für m \in Mm∈M definieren E ((k,m) = \big[ r \gets R,\ \text{output } \big ((r,\ F (((k,r) \oplus m\big) \big) E ((k,m) =[r←R, output (r, F (((k,r) m) ] Ist EE unter CPA semantisch sicher?",computer_security,"['Ja, wenn F ein sicherer PRF ist', 'Nein, es gibt immer einen CPA-Angriff auf dieses System', 'Ja, aber nur, wenn R so groß ist, dass r sich nie wiederholt (w.h.p.)', 'Es hängt davon ab, was F verwendet wird']",2,"Frage: Lassen Sie F: K \times R \to MF:K×R→M eine sichere PRF sein Für m \in Mm∈M definieren E ((k,m) = \big[ r \gets R,\ \text{output } \big ((r,\ F (((k,r) \oplus m\big) \big) E ((k,m) =[r←R, output (r, F (((k,r) m) ] Ist EE unter CPA semantisch sicher?
+
+Antwortoptionen: ['Ja, wenn F ein sicherer PRF ist', 'Nein, es gibt immer einen CPA-Angriff auf dieses System', 'Ja, aber nur, wenn R so groß ist, dass r sich nie wiederholt (w.h.p.)', 'Es hängt davon ab, was F verwendet wird']
+
+Antwort: Ja, aber nur, wenn R so groß ist, dass r sich nie wiederholt (w.h.p.)"
+"Alte Betriebssysteme wie _______ und NT-basierte Systeme haben einen Buffer-Overflow-Angriff, eine häufige Schwachstelle.",computer_security,"['Windows 7', 'Chrom', 'IOS12', 'UNIX-Systeme']",3,"Frage: Alte Betriebssysteme wie _______ und NT-basierte Systeme haben einen Buffer-Overflow-Angriff, eine häufige Schwachstelle.
+
+Antwortoptionen: ['Windows 7', 'Chrom', 'IOS12', 'UNIX-Systeme']
+
+Antwort: UNIX-Systeme"
+Was ist ein Replay-Angriff?,computer_security,"['Wenn der Angreifer auf eine vom System gesendete Nachricht antwortet', 'Ein Angriff, der sich ständig wiederholt und nach einer Schwäche sucht', 'Ein Angriff, der die eigenen Nachrichten des Systems nutzt und daher nicht abgewehrt werden kann', 'Der Angreifer sendet eine erfasste Nachricht zurück, und die Website akzeptiert sie und reagiert zugunsten des Angreifers']",3,"Frage: Was ist ein Replay-Angriff?
+
+Antwortoptionen: ['Wenn der Angreifer auf eine vom System gesendete Nachricht antwortet', 'Ein Angriff, der sich ständig wiederholt und nach einer Schwäche sucht', 'Ein Angriff, der die eigenen Nachrichten des Systems nutzt und daher nicht abgewehrt werden kann', 'Der Angreifer sendet eine erfasste Nachricht zurück, und die Website akzeptiert sie und reagiert zugunsten des Angreifers']
+
+Antwort: Der Angreifer sendet eine erfasste Nachricht zurück, und die Website akzeptiert sie und reagiert zugunsten des Angreifers"
+"Aussage 1: Ein U2F-USB-Dongle verhindert, dass Malware auf dem Computer des Benutzers den zweiten Faktor des Benutzers stehlen kann, um sich als Benutzer zu authentifizieren, auch wenn der Computer des Benutzers ausgeschaltet ist Anweisung 2: Ein Server, der U2F verwendet, kann zuverlässig feststellen, dass der Benutzer, der versucht, sich anzumelden, tatsächlich hinter dem Computer steht, der die Anmeldeanforderung gesendet hat.",computer_security,"['Es ist wahr, es ist wahr', 'Falsch, Falsch', 'Wahre und Falsche', 'Falsch, wahr']",2,"Frage: Aussage 1: Ein U2F-USB-Dongle verhindert, dass Malware auf dem Computer des Benutzers den zweiten Faktor des Benutzers stehlen kann, um sich als Benutzer zu authentifizieren, auch wenn der Computer des Benutzers ausgeschaltet ist Anweisung 2: Ein Server, der U2F verwendet, kann zuverlässig feststellen, dass der Benutzer, der versucht, sich anzumelden, tatsächlich hinter dem Computer steht, der die Anmeldeanforderung gesendet hat.
+
+Antwortoptionen: ['Es ist wahr, es ist wahr', 'Falsch, Falsch', 'Wahre und Falsche', 'Falsch, wahr']
+
+Antwort: Wahre und Falsche"
+____________________ ist die Vorbereitung auf unbefugten Zugriff auf Computer oder Daten mittels drahtloser Netzwerke.,computer_security,"['Drahtloser Zugang', 'Wireless-Sicherheit', 'Verkabelte Sicherheit', 'Anwendungen für drahtgebundene Geräte']",1,"Frage: ____________________ ist die Vorbereitung auf unbefugten Zugriff auf Computer oder Daten mittels drahtloser Netzwerke.
+
+Antwortoptionen: ['Drahtloser Zugang', 'Wireless-Sicherheit', 'Verkabelte Sicherheit', 'Anwendungen für drahtgebundene Geräte']
+
+Antwort: Wireless-Sicherheit"
+Welche der folgenden Vorteile bietet der Penetrationstest?,computer_security,"['Die Ergebnisse sind häufig reproduzierbar', 'Vollständiger Nachweis der Sicherheit: ein sauberer Test bedeutet ein sicheres System', 'Kompositionalität der Sicherheitseigenschaften bedeutet, dass getestete Komponenten sicher sind, auch wenn sich andere ändern', 'Macht ein gegnerisches neuronales Netzwerk schneller konvergieren']",0,"Frage: Welche der folgenden Vorteile bietet der Penetrationstest?
+
+Antwortoptionen: ['Die Ergebnisse sind häufig reproduzierbar', 'Vollständiger Nachweis der Sicherheit: ein sauberer Test bedeutet ein sicheres System', 'Kompositionalität der Sicherheitseigenschaften bedeutet, dass getestete Komponenten sicher sind, auch wenn sich andere ändern', 'Macht ein gegnerisches neuronales Netzwerk schneller konvergieren']
+
+Antwort: Die Ergebnisse sind häufig reproduzierbar"
+1. Das _________-Framework erleichterte das Aufspüren von Schwachstellen wie Point and Click.,computer_security,"['.Net', 'Metasploit', 'Zeus', 'Nachträglich']",1,"Frage: 1. Das _________-Framework erleichterte das Aufspüren von Schwachstellen wie Point and Click.
+
+Antwortoptionen: ['.Net', 'Metasploit', 'Zeus', 'Nachträglich']
+
+Antwort: Metasploit"
+Sie erhalten eine Nachricht (m) und ihre OTP-Verschlüsselung (c). Können Sie den OTP-Schlüssel aus m und c berechnen ?,computer_security,"['Nein, ich kann den Schlüssel nicht berechnen.', 'Ja, der Schlüssel ist k = m x oder c.', 'Ich kann nur die Hälfte des Schlüssels berechnen.', 'Ja, der Schlüssel ist k = m x oder m.']",1,"Frage: Sie erhalten eine Nachricht (m) und ihre OTP-Verschlüsselung (c). Können Sie den OTP-Schlüssel aus m und c berechnen ?
+
+Antwortoptionen: ['Nein, ich kann den Schlüssel nicht berechnen.', 'Ja, der Schlüssel ist k = m x oder c.', 'Ich kann nur die Hälfte des Schlüssels berechnen.', 'Ja, der Schlüssel ist k = m x oder m.']
+
+Antwort: Ja, der Schlüssel ist k = m x oder c."
+"Die in Remote Timing Attacks are Practical (von Brumley und Boneh) beschriebene OpenSSL-Implementierung verwendet folgende Leistungsoptimierungen: Chinese Remainder (CR) Vertretung von Montgomery (MR) Karatsuba Multiplikation (KM) und wiederholte Quadratisierungs- und Schiebefenster (RS) Welche der folgenden Optionen würde den in der Arbeit beschriebenen Timing-Channel-Angriff schließen, wenn Sie die aufgeführten Optimierungen deaktivieren? 1 CR und MR 2 Kfz-Fahrzeuge",computer_security,"['Es ist wahr, es ist wahr', 'Falsch, Falsch', 'Wahre und Falsche', 'Falsch, wahr']",0,"Frage: Die in Remote Timing Attacks are Practical (von Brumley und Boneh) beschriebene OpenSSL-Implementierung verwendet folgende Leistungsoptimierungen: Chinese Remainder (CR) Vertretung von Montgomery (MR) Karatsuba Multiplikation (KM) und wiederholte Quadratisierungs- und Schiebefenster (RS) Welche der folgenden Optionen würde den in der Arbeit beschriebenen Timing-Channel-Angriff schließen, wenn Sie die aufgeführten Optimierungen deaktivieren? 1 CR und MR 2 Kfz-Fahrzeuge
+
+Antwortoptionen: ['Es ist wahr, es ist wahr', 'Falsch, Falsch', 'Wahre und Falsche', 'Falsch, wahr']
+
+Antwort: Es ist wahr, es ist wahr"
+"Wenn die Daten beim Empfänger genau so ankommen müssen, wie sie gesendet wurden, nennt man sie",computer_security,"['Kondentialität der Nachricht', 'Integrität der Nachricht', 'Nachrichten spritzen', 'Übermittlung von Nachrichten']",1,"Frage: Wenn die Daten beim Empfänger genau so ankommen müssen, wie sie gesendet wurden, nennt man sie
+
+Antwortoptionen: ['Kondentialität der Nachricht', 'Integrität der Nachricht', 'Nachrichten spritzen', 'Übermittlung von Nachrichten']
+
+Antwort: Integrität der Nachricht"
+Was ist der Unterschied zwischen einem direkten Leck und einem Seitenkanal?,computer_security,"['Ein direkter Leak erzeugt einen Denial of Service, indem er den Speicher nicht freisetzt, während ein Kanal den Speicher als Nebeneffekt freisetzt', 'Eine direkte Leckage ist eine, die vorsätzlich, anstatt durch unbeabsichtigte', 'Ein direkter Leck kommt über den beabsichtigten Interaktionsmechanismus des Softwaresystems. wenn als Seitenkanalleck aus Messungen anderer Systemeigenschaften entsteht wie Timing Stromverbrauch oder Raumnutzung', 'Es gibt keinen Unterschied .']",2,"Frage: Was ist der Unterschied zwischen einem direkten Leck und einem Seitenkanal?
+
+Antwortoptionen: ['Ein direkter Leak erzeugt einen Denial of Service, indem er den Speicher nicht freisetzt, während ein Kanal den Speicher als Nebeneffekt freisetzt', 'Eine direkte Leckage ist eine, die vorsätzlich, anstatt durch unbeabsichtigte', 'Ein direkter Leck kommt über den beabsichtigten Interaktionsmechanismus des Softwaresystems. wenn als Seitenkanalleck aus Messungen anderer Systemeigenschaften entsteht wie Timing Stromverbrauch oder Raumnutzung', 'Es gibt keinen Unterschied .']
+
+Antwort: Ein direkter Leck kommt über den beabsichtigten Interaktionsmechanismus des Softwaresystems. wenn als Seitenkanalleck aus Messungen anderer Systemeigenschaften entsteht wie Timing Stromverbrauch oder Raumnutzung"
+Es wird ein symmetrischer Session-Schlüssel zwischen zwei Parteien verwendet,computer_security,"['Nur einmal .', 'Zweimal .', 'Mehrere Male', 'Abhängige Bedingungen']",0,"Frage: Es wird ein symmetrischer Session-Schlüssel zwischen zwei Parteien verwendet
+
+Antwortoptionen: ['Nur einmal .', 'Zweimal .', 'Mehrere Male', 'Abhängige Bedingungen']
+
+Antwort: Nur einmal ."
+Was ist ein Nop-Schlitten,computer_security,"['Es ist eine anonyme Version eines Mop-Schlitten', 'Es ist eine Sequenz von nops vor injizierten Shellcode, nützlich, wenn die Rücksendeadresse unbekannt ist', 'Es ist eine Methode, um Null-Bytes aus dem Shellcode zu entfernen', 'Es ist ein anderer Name für einen Zweig Anweisung am Ende der Sequenz von nops']",1,"Frage: Was ist ein Nop-Schlitten
+
+Antwortoptionen: ['Es ist eine anonyme Version eines Mop-Schlitten', 'Es ist eine Sequenz von nops vor injizierten Shellcode, nützlich, wenn die Rücksendeadresse unbekannt ist', 'Es ist eine Methode, um Null-Bytes aus dem Shellcode zu entfernen', 'Es ist ein anderer Name für einen Zweig Anweisung am Ende der Sequenz von nops']
+
+Antwort: Es ist eine Sequenz von nops vor injizierten Shellcode, nützlich, wenn die Rücksendeadresse unbekannt ist"
+Welcher Nmap-Scan öffnet eine TCP-Verbindung nicht vollständig?,computer_security,"['SYN-Unsichtbarkeits-Scan', 'TCP-Verbindung', 'XMAS-Baumscan', 'ACK-Scan']",0,"Frage: Welcher Nmap-Scan öffnet eine TCP-Verbindung nicht vollständig?
+
+Antwortoptionen: ['SYN-Unsichtbarkeits-Scan', 'TCP-Verbindung', 'XMAS-Baumscan', 'ACK-Scan']
+
+Antwort: SYN-Unsichtbarkeits-Scan"
+"Basierend auf dem Papier Click Trajectories: End-to-End Analyse der Spam-Wertschöpfungskette Welche der folgenden Aussagen sind wahr? ""Spammer"" beziehen sich hier auf Betreiber verschiedener Teile der ""Spam-Wertschöpfungskette"".",computer_security,"['Spammer betreiben ihre mit Spam beworbenen Websites auf kompromittierten Benutzermaschinen, die Teil eines Botnets sind.', 'Spammer müssen Domain-Namen registrieren, damit ihre auf Spam basierenden Anzeigen wirksam sind.', 'Es ist teuer für Spammer, die übernehmenden Banken zu wechseln.', 'B und C']",3,"Frage: Basierend auf dem Papier Click Trajectories: End-to-End Analyse der Spam-Wertschöpfungskette Welche der folgenden Aussagen sind wahr? ""Spammer"" beziehen sich hier auf Betreiber verschiedener Teile der ""Spam-Wertschöpfungskette"".
+
+Antwortoptionen: ['Spammer betreiben ihre mit Spam beworbenen Websites auf kompromittierten Benutzermaschinen, die Teil eines Botnets sind.', 'Spammer müssen Domain-Namen registrieren, damit ihre auf Spam basierenden Anzeigen wirksam sind.', 'Es ist teuer für Spammer, die übernehmenden Banken zu wechseln.', 'B und C']
+
+Antwort: B und C"
+"In einem _____________ Angriff Die zusätzlichen Daten, die einige spezifische Anweisungen für Aktionen im Speicher enthalten, werden von einem Cyberkriminellen oder Penetrationstester projiziert, um das System zu knacken.",computer_security,"['Phishing', 'MiTM', 'Pufferüberfluss', 'Clickjacking (Clickjacking) (englisch)']",2,"Frage: In einem _____________ Angriff Die zusätzlichen Daten, die einige spezifische Anweisungen für Aktionen im Speicher enthalten, werden von einem Cyberkriminellen oder Penetrationstester projiziert, um das System zu knacken.
+
+Antwortoptionen: ['Phishing', 'MiTM', 'Pufferüberfluss', 'Clickjacking (Clickjacking) (englisch)']
+
+Antwort: Pufferüberfluss"
+"_______________ ist ein beliebtes Werkzeug, das für die Netzwerkanalyse in multiprotokollartigen Netzwerken verwendet wird.",computer_security,"['Schnüffeln.', 'SuperScan', 'Rülpseranzug', 'Nachmittags']",3,"Frage: _______________ ist ein beliebtes Werkzeug, das für die Netzwerkanalyse in multiprotokollartigen Netzwerken verwendet wird.
+
+Antwortoptionen: ['Schnüffeln.', 'SuperScan', 'Rülpseranzug', 'Nachmittags']
+
+Antwort: Nachmittags"
+___________________ ist dem Access Point (AP) von 802.11 ähnlich und wird von den Mobilfunkbetreibern für die Bereitstellung von Signalbedeckung genutzt.,computer_security,"['Basis-Signalstation', 'Basisübertragungsstation', 'Basis-Sende- und Empfangsstationen', 'Sende- und Empfangsstation']",2,"Frage: ___________________ ist dem Access Point (AP) von 802.11 ähnlich und wird von den Mobilfunkbetreibern für die Bereitstellung von Signalbedeckung genutzt.
+
+Antwortoptionen: ['Basis-Signalstation', 'Basisübertragungsstation', 'Basis-Sende- und Empfangsstationen', 'Sende- und Empfangsstation']
+
+Antwort: Basis-Sende- und Empfangsstationen"
+"Ein __________ ist ein sequentielles Segment des Speicherortes, das zugewiesen ist, um einige Daten wie eine Zeichenfolge oder ein Array von Ganzzahlen zu enthalten.",computer_security,"['Stack', 'Warteschlange', 'externe Speicherung', 'Puffer']",3,"Frage: Ein __________ ist ein sequentielles Segment des Speicherortes, das zugewiesen ist, um einige Daten wie eine Zeichenfolge oder ein Array von Ganzzahlen zu enthalten.
+
+Antwortoptionen: ['Stack', 'Warteschlange', 'externe Speicherung', 'Puffer']
+
+Antwort: Puffer"
+Welche Form der Verschlüsselung verwendet WPA?,computer_security,"['Gemeinsamer Schlüssel', 'LEAP', 'TKIP', 'AES']",2,"Frage: Welche Form der Verschlüsselung verwendet WPA?
+
+Antwortoptionen: ['Gemeinsamer Schlüssel', 'LEAP', 'TKIP', 'AES']
+
+Antwort: TKIP"
+"Angenommen, ein Suchfeld einer Anwendung kann höchstens 200 Wörter aufnehmen, und Sie haben mehr als das eingefügt und die Suchtaste gedrückt; das System stürzt ab In der Regel ist dies auf begrenzte __________ zurückzuführen",computer_security,"['Puffer', 'externe Speicherung', 'Verarbeitungsleistung', 'lokale Lagerung']",0,"Frage: Angenommen, ein Suchfeld einer Anwendung kann höchstens 200 Wörter aufnehmen, und Sie haben mehr als das eingefügt und die Suchtaste gedrückt; das System stürzt ab In der Regel ist dies auf begrenzte __________ zurückzuführen
+
+Antwortoptionen: ['Puffer', 'externe Speicherung', 'Verarbeitungsleistung', 'lokale Lagerung']
+
+Antwort: Puffer"
+"___________________ begann vor einigen Jahren auf drahtlosen Zugangspunkten zu erscheinen als eine neue Möglichkeit, neue Geräte hinzuzufügen oder zu verbinden.",computer_security,"['WPA2', 'WPA', 'WPS', 'WEP']",2,"Frage: ___________________ begann vor einigen Jahren auf drahtlosen Zugangspunkten zu erscheinen als eine neue Möglichkeit, neue Geräte hinzuzufügen oder zu verbinden.
+
+Antwortoptionen: ['WPA2', 'WPA', 'WPS', 'WEP']
+
+Antwort: WPS"
+Was sind die von Nmap ermittelten Hafenzustände?,computer_security,"['Aktiv, inaktiv, Standby', 'Geöffnet, halb geöffnet, geschlossen.', 'Offen, gefiltert, ungefiltert', 'Aktiv, geschlossen, nicht benutzt']",2,"Frage: Was sind die von Nmap ermittelten Hafenzustände?
+
+Antwortoptionen: ['Aktiv, inaktiv, Standby', 'Geöffnet, halb geöffnet, geschlossen.', 'Offen, gefiltert, ungefiltert', 'Aktiv, geschlossen, nicht benutzt']
+
+Antwort: Offen, gefiltert, ungefiltert"
+Welcher der folgenden ist der am wenigsten starke Sicherheitsverschlüsselungsstandard?,computer_security,"['WEP', 'WPA', 'WPA2', 'WPA3']",0,"Frage: Welcher der folgenden ist der am wenigsten starke Sicherheitsverschlüsselungsstandard?
+
+Antwortoptionen: ['WEP', 'WPA', 'WPA2', 'WPA3']
+
+Antwort: WEP"
+Warum kennt der Compiler die absolute Adresse einer lokalen Variablen nicht?,computer_security,"['Programme dürfen den Speicher nicht mit absoluten Adressen referenzieren', 'Die Größe der Adresse hängt von der Architektur ab, auf der das Programm ausgeführt wird', 'Als Stack-allokierte Variable könnte sie unterschiedliche Adressen haben, je nachdem, wann ihre enthaltende Funktion aufgerufen wird.', 'Compiler-Autoren sind nicht sehr gut in dieser Art von Dingen']",2,"Frage: Warum kennt der Compiler die absolute Adresse einer lokalen Variablen nicht?
+
+Antwortoptionen: ['Programme dürfen den Speicher nicht mit absoluten Adressen referenzieren', 'Die Größe der Adresse hängt von der Architektur ab, auf der das Programm ausgeführt wird', 'Als Stack-allokierte Variable könnte sie unterschiedliche Adressen haben, je nachdem, wann ihre enthaltende Funktion aufgerufen wird.', 'Compiler-Autoren sind nicht sehr gut in dieser Art von Dingen']
+
+Antwort: Als Stack-allokierte Variable könnte sie unterschiedliche Adressen haben, je nachdem, wann ihre enthaltende Funktion aufgerufen wird."
+Der Stapel ist Speicher zum Speichern,computer_security,"['Lokale Variablen', 'Programmcode', 'Dynamisch verknüpfte Bibliotheken', 'Globale Variablen']",0,"Frage: Der Stapel ist Speicher zum Speichern
+
+Antwortoptionen: ['Lokale Variablen', 'Programmcode', 'Dynamisch verknüpfte Bibliotheken', 'Globale Variablen']
+
+Antwort: Lokale Variablen"
+Kann eine Stromverschlüsselung eine vollkommene Geheimhaltung haben?,computer_security,"['Ja, wenn die PRG wirklich 'sicher' ist.', 'Nein, es gibt keine Chiffren mit perfekter Geheimhaltung.', 'Ja, jeder Code hat eine perfekte Geheimhaltung.', 'Nein, denn der Schlüssel ist kürzer als die Nachricht.']",3,"Frage: Kann eine Stromverschlüsselung eine vollkommene Geheimhaltung haben?
+
+Antwortoptionen: ['Ja, wenn die PRG wirklich 'sicher' ist.', 'Nein, es gibt keine Chiffren mit perfekter Geheimhaltung.', 'Ja, jeder Code hat eine perfekte Geheimhaltung.', 'Nein, denn der Schlüssel ist kürzer als die Nachricht.']
+
+Antwort: Nein, denn der Schlüssel ist kürzer als die Nachricht."
+Welche der folgenden Ziele verfolgt die Zulassung?,computer_security,"['Beschränken, auf welche Vorgänge/Daten der Benutzer zugreifen kann', 'Feststellen, ob der Benutzer ein Angreifer ist', 'Anzeige des Fehlverhaltens des Benutzers', 'Feststellen, wer der Benutzer ist']",0,"Frage: Welche der folgenden Ziele verfolgt die Zulassung?
+
+Antwortoptionen: ['Beschränken, auf welche Vorgänge/Daten der Benutzer zugreifen kann', 'Feststellen, ob der Benutzer ein Angreifer ist', 'Anzeige des Fehlverhaltens des Benutzers', 'Feststellen, wer der Benutzer ist']
+
+Antwort: Beschränken, auf welche Vorgänge/Daten der Benutzer zugreifen kann"
+Die Nachricht muss an der Absenderseite verschlüsselt und an der,computer_security,"['Webseite des Absenders', 'Standort', 'Empfängerstandort', 'Konferenzen']",2,"Frage: Die Nachricht muss an der Absenderseite verschlüsselt und an der
+
+Antwortoptionen: ['Webseite des Absenders', 'Standort', 'Empfängerstandort', 'Konferenzen']
+
+Antwort: Empfängerstandort"
+"Ein _________________ kann ein versteckter Teil eines Programms sein, ein separates infiziertes Programm, ein Trojaner in Verkleidung einer ausführbaren Datei oder Code in der Firmware einer beliebigen System-Hardware.",computer_security,"['Krypter', 'Infektionskrankheit', 'Hintertür', 'Schlüssellogger']",2,"Frage: Ein _________________ kann ein versteckter Teil eines Programms sein, ein separates infiziertes Programm, ein Trojaner in Verkleidung einer ausführbaren Datei oder Code in der Firmware einer beliebigen System-Hardware.
+
+Antwortoptionen: ['Krypter', 'Infektionskrankheit', 'Hintertür', 'Schlüssellogger']
+
+Antwort: Hintertür"
+Wie wird IP-Adress-Spoofing erkannt?,computer_security,"['Installation und Konfiguration eines IDS, das den IP-Header lesen kann', 'Vergleich der TTL-Werte der tatsächlichen und gefälschten Adressen', 'Implementierung einer Firewall für das Netzwerk', 'Identifizieren Sie alle TCP-Sitzungen, die initiiert sind, aber nicht erfolgreich abgeschlossen']",1,"Frage: Wie wird IP-Adress-Spoofing erkannt?
+
+Antwortoptionen: ['Installation und Konfiguration eines IDS, das den IP-Header lesen kann', 'Vergleich der TTL-Werte der tatsächlichen und gefälschten Adressen', 'Implementierung einer Firewall für das Netzwerk', 'Identifizieren Sie alle TCP-Sitzungen, die initiiert sind, aber nicht erfolgreich abgeschlossen']
+
+Antwort: Vergleich der TTL-Werte der tatsächlichen und gefälschten Adressen"
+Welches der folgenden Beispiele ist kein Beispiel für Probleme mit der Präsentationsschicht?,computer_security,"['Schlechter Umgang mit unerwarteten Eingaben kann zur Ausführung von willkürlichen Anweisungen führen', 'Unbeabsichtigter oder missbräuchlicher Einsatz oberflächlich bereitgestellter Eingaben', 'Verschlüsselungsfehler im System können ausgenutzt werden, um der Privatsphäre auszuweichen', 'Schwache oder keine Authentifizierungsmechanismen']",3,"Frage: Welches der folgenden Beispiele ist kein Beispiel für Probleme mit der Präsentationsschicht?
+
+Antwortoptionen: ['Schlechter Umgang mit unerwarteten Eingaben kann zur Ausführung von willkürlichen Anweisungen führen', 'Unbeabsichtigter oder missbräuchlicher Einsatz oberflächlich bereitgestellter Eingaben', 'Verschlüsselungsfehler im System können ausgenutzt werden, um der Privatsphäre auszuweichen', 'Schwache oder keine Authentifizierungsmechanismen']
+
+Antwort: Schwache oder keine Authentifizierungsmechanismen"
+"Angenommen, Unix bietet keine Möglichkeit, Dateideskriptoren zwischen Prozessen zu übergeben, erlaubt aber dennoch das Erben von Dateideskriptoren von einem Elternteil auf Fork und exec Welche Aspekte des OKWS-Designs würden ohne die Übergabe des Dateideskriptors fehlen? 1 Es wäre für Dienste unmöglich, Nachrichten an oklogd zu senden. Es wäre für Dienste unmöglich, eine TCP-Verbindung zu einem Datenbank-Proxy herzustellen.",computer_security,"['Es ist wahr, es ist wahr', 'Falsch, Falsch', 'Wahre und Falsche', 'Falsch, wahr']",1,"Frage: Angenommen, Unix bietet keine Möglichkeit, Dateideskriptoren zwischen Prozessen zu übergeben, erlaubt aber dennoch das Erben von Dateideskriptoren von einem Elternteil auf Fork und exec Welche Aspekte des OKWS-Designs würden ohne die Übergabe des Dateideskriptors fehlen? 1 Es wäre für Dienste unmöglich, Nachrichten an oklogd zu senden. Es wäre für Dienste unmöglich, eine TCP-Verbindung zu einem Datenbank-Proxy herzustellen.
+
+Antwortoptionen: ['Es ist wahr, es ist wahr', 'Falsch, Falsch', 'Wahre und Falsche', 'Falsch, wahr']
+
+Antwort: Falsch, Falsch"
+Warum sollte ein Ping-Sweep verwendet werden?,computer_security,"['Um lebende Systeme zu identifizieren', 'Um lebende Systeme zu lokalisieren', 'Um offene Häfen zu identifizieren', 'Um Firewalls zu lokalisieren']",0,"Frage: Warum sollte ein Ping-Sweep verwendet werden?
+
+Antwortoptionen: ['Um lebende Systeme zu identifizieren', 'Um lebende Systeme zu lokalisieren', 'Um offene Häfen zu identifizieren', 'Um Firewalls zu lokalisieren']
+
+Antwort: Um lebende Systeme zu identifizieren"
+"Die vier primären Sicherheitsprinzipien, die sich auf Nachrichten beziehen, sind:",computer_security,"['Vertraulichkeit, Integrität, Nichtverleugnung und Authentifizierung', 'Vertraulichkeit, Zugangskontrolle, Integrität, Nichtverleugnung', 'Authentifizierung, Autorisierung, Verfügbarkeit, Integrität', 'Verfügbarkeit, Zulassung, Vertraulichkeit, Integrität']",0,"Frage: Die vier primären Sicherheitsprinzipien, die sich auf Nachrichten beziehen, sind:
+
+Antwortoptionen: ['Vertraulichkeit, Integrität, Nichtverleugnung und Authentifizierung', 'Vertraulichkeit, Zugangskontrolle, Integrität, Nichtverleugnung', 'Authentifizierung, Autorisierung, Verfügbarkeit, Integrität', 'Verfügbarkeit, Zulassung, Vertraulichkeit, Integrität']
+
+Antwort: Vertraulichkeit, Integrität, Nichtverleugnung und Authentifizierung"
+Was war der erste Pufferüberlauf-Angriff?,computer_security,"['Der Liebeskäfer .', 'SQL-Slammer', 'Morris-Wurm', 'Code Rot']",2,"Frage: Was war der erste Pufferüberlauf-Angriff?
+
+Antwortoptionen: ['Der Liebeskäfer .', 'SQL-Slammer', 'Morris-Wurm', 'Code Rot']
+
+Antwort: Morris-Wurm"
+"Die ______________ können Sie Geld kosten, indem Sie SMS von Ihren Mobiltelefonnummern senden.",computer_security,"['IM  Trojaner', 'Hintertür-Trojaner', 'SMS-Trojaner', 'Lösegeld-Trojaner']",2,"Frage: Die ______________ können Sie Geld kosten, indem Sie SMS von Ihren Mobiltelefonnummern senden.
+
+Antwortoptionen: ['IM  Trojaner', 'Hintertür-Trojaner', 'SMS-Trojaner', 'Lösegeld-Trojaner']
+
+Antwort: SMS-Trojaner"
+Drei der folgenden Eigenschaften sind klassische Sicherheitsmerkmale; welche sind es nicht?,computer_security,"['Vertraulichkeit', 'Verfügbarkeit', 'Korrektheit', 'Integrität']",1,"Frage: Drei der folgenden Eigenschaften sind klassische Sicherheitsmerkmale; welche sind es nicht?
+
+Antwortoptionen: ['Vertraulichkeit', 'Verfügbarkeit', 'Korrektheit', 'Integrität']
+
+Antwort: Verfügbarkeit"

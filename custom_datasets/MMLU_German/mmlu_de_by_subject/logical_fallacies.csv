@@ -1,0 +1,816 @@
+question,subject,choices,answer,qa
+"Ein gültiger disjunktiver Syllogismus hat eine Hauptprämisse, dass:",logical_fallacies,"['umfasst zwei oder mehr Alternativen', 'Klassifiziert Themen', 'bestätigt die Vorgeschichte oder verneint die Folge', 'führt zu einer gültigen Schlussfolgerung']",0,"Frage: Ein gültiger disjunktiver Syllogismus hat eine Hauptprämisse, dass:
+
+Antwortoptionen: ['umfasst zwei oder mehr Alternativen', 'Klassifiziert Themen', 'bestätigt die Vorgeschichte oder verneint die Folge', 'führt zu einer gültigen Schlussfolgerung']
+
+Antwort: umfasst zwei oder mehr Alternativen"
+"Welches der folgenden Ausdrücke beschreibt am besten den Trugschluss, dass der Stil wichtiger ist als der Inhalt?",logical_fallacies,"['Ändern der Bedeutung eines Wortes oder einer Phrase von einem Teil des Arguments zu einem anderen.', 'Verwechseln von Bildsprache mit buchstäblicher Sprache.', 'Argumentieren, daß Ideen, die auf ansprechende Weise dargestellt werden, richtig sind, ungeachtet des Inhalts der Botschaft.', 'Emotional geladene Sprache verwenden, um einen Eindruck über das Thema eines Anspruchs zu erzeugen, ohne zu argumentieren, dass die Sprache zum Thema passt.']",2,"Frage: Welches der folgenden Ausdrücke beschreibt am besten den Trugschluss, dass der Stil wichtiger ist als der Inhalt?
+
+Antwortoptionen: ['Ändern der Bedeutung eines Wortes oder einer Phrase von einem Teil des Arguments zu einem anderen.', 'Verwechseln von Bildsprache mit buchstäblicher Sprache.', 'Argumentieren, daß Ideen, die auf ansprechende Weise dargestellt werden, richtig sind, ungeachtet des Inhalts der Botschaft.', 'Emotional geladene Sprache verwenden, um einen Eindruck über das Thema eines Anspruchs zu erzeugen, ohne zu argumentieren, dass die Sprache zum Thema passt.']
+
+Antwort: Argumentieren, daß Ideen, die auf ansprechende Weise dargestellt werden, richtig sind, ungeachtet des Inhalts der Botschaft."
+"Welcher der folgenden Irrtümer ist eine Möglichkeit, Beweise zu unterdrücken, die eine Beweisquelle aus der Betrachtung ausschließt, indem behauptet wird, dass die Quelle fehlerhaft ist? wenn es keinen echten Zusammenhang zwischen dem behaupteten Fehler und der Zuverlässigkeit der Quelle gibt?",logical_fallacies,"['Bedeutung', 'Snob-Appeal', 'Vergiftung des Brunnens', 'Berufung auf eine anonyme Behörde']",2,"Frage: Welcher der folgenden Irrtümer ist eine Möglichkeit, Beweise zu unterdrücken, die eine Beweisquelle aus der Betrachtung ausschließt, indem behauptet wird, dass die Quelle fehlerhaft ist? wenn es keinen echten Zusammenhang zwischen dem behaupteten Fehler und der Zuverlässigkeit der Quelle gibt?
+
+Antwortoptionen: ['Bedeutung', 'Snob-Appeal', 'Vergiftung des Brunnens', 'Berufung auf eine anonyme Behörde']
+
+Antwort: Vergiftung des Brunnens"
+Der falsche Analogiefehler ist,logical_fallacies,"['Eine spezifische Art des falschen Ursachenfehlers, der argumentiert, dass, da zwei Ereignisse zur gleichen Zeit stattfanden, ein Ereignis das andere verursacht haben muss.', 'Behauptung, dass ein Ereignis, das einem anderen Ereignis vorausging, notwendigerweise die Ursache des zweiten Ereignisses ist', 'Argumentieren, dass etwas, das neu ist, notwendigerweise gut ist', 'eine Schlussfolgerung auf der Grundlage eines Vergleichs zu ziehen, wenn die Gegenstände, die verglichen werden, nicht ähnlich genug sind, um die Schlussfolgerung zu stützen.']",3,"Frage: Der falsche Analogiefehler ist
+
+Antwortoptionen: ['Eine spezifische Art des falschen Ursachenfehlers, der argumentiert, dass, da zwei Ereignisse zur gleichen Zeit stattfanden, ein Ereignis das andere verursacht haben muss.', 'Behauptung, dass ein Ereignis, das einem anderen Ereignis vorausging, notwendigerweise die Ursache des zweiten Ereignisses ist', 'Argumentieren, dass etwas, das neu ist, notwendigerweise gut ist', 'eine Schlussfolgerung auf der Grundlage eines Vergleichs zu ziehen, wenn die Gegenstände, die verglichen werden, nicht ähnlich genug sind, um die Schlussfolgerung zu stützen.']
+
+Antwort: eine Schlussfolgerung auf der Grundlage eines Vergleichs zu ziehen, wenn die Gegenstände, die verglichen werden, nicht ähnlich genug sind, um die Schlussfolgerung zu stützen."
+Der _ad nauseam_ Trugschluss ist,logical_fallacies,"['Argumentieren, dass etwas getan werden sollte, weil es in der Vergangenheit so gemacht wurde.', 'die Behauptung, dass eine Handlung ausgeführt werden sollte, weil sie keine wesentlichen Folgen haben wird, wenn keine Beweise dafür vorliegen,', 'Argumentation, dass eine Schlussfolgerung wahr ist, weil sie so oft behauptet wurde', 'Argumentation, dass eine Behauptung wahr ist, weil so viele Menschen glauben, dass es wahr ist']",2,"Frage: Der _ad nauseam_ Trugschluss ist
+
+Antwortoptionen: ['Argumentieren, dass etwas getan werden sollte, weil es in der Vergangenheit so gemacht wurde.', 'die Behauptung, dass eine Handlung ausgeführt werden sollte, weil sie keine wesentlichen Folgen haben wird, wenn keine Beweise dafür vorliegen,', 'Argumentation, dass eine Schlussfolgerung wahr ist, weil sie so oft behauptet wurde', 'Argumentation, dass eine Behauptung wahr ist, weil so viele Menschen glauben, dass es wahr ist']
+
+Antwort: Argumentation, dass eine Schlussfolgerung wahr ist, weil sie so oft behauptet wurde"
+"Die Behauptung, dass das, was für ein ganzes Objekt gilt, auch für jeden Teil dieses Objekts gilt, ist der Irrtum von",logical_fallacies,"['falsche Kriterien', 'überstürzte Verallgemeinerung', 'ad crumenam ad crumenam', 'Abteilung']",3,"Frage: Die Behauptung, dass das, was für ein ganzes Objekt gilt, auch für jeden Teil dieses Objekts gilt, ist der Irrtum von
+
+Antwortoptionen: ['falsche Kriterien', 'überstürzte Verallgemeinerung', 'ad crumenam ad crumenam', 'Abteilung']
+
+Antwort: Abteilung"
+Welche der folgenden Beschreibungen beschreibt die Pferde lachen Trugschluss?,logical_fallacies,"['auf ein Argument mit einem Ausdruck des Spottes anstelle eines Gegenarguments zu reagieren', 'Versuche, eine Einigung zu erzielen, die sich ausschließlich auf die Gefühle stützt, die durch die Botschaft hervorgerufen wurden', 'die Position eines Gegners so zu charakterisieren, dass sie oder ihre Folgen lächerlich erscheinen', 'Argumentation, dass Maßnahmen ergriffen werden sollten, um negative Ergebnisse zu vermeiden, wenn diese Ergebnisse übertrieben, unwahrscheinlich oder irrelevant sind']",0,"Frage: Welche der folgenden Beschreibungen beschreibt die Pferde lachen Trugschluss?
+
+Antwortoptionen: ['auf ein Argument mit einem Ausdruck des Spottes anstelle eines Gegenarguments zu reagieren', 'Versuche, eine Einigung zu erzielen, die sich ausschließlich auf die Gefühle stützt, die durch die Botschaft hervorgerufen wurden', 'die Position eines Gegners so zu charakterisieren, dass sie oder ihre Folgen lächerlich erscheinen', 'Argumentation, dass Maßnahmen ergriffen werden sollten, um negative Ergebnisse zu vermeiden, wenn diese Ergebnisse übertrieben, unwahrscheinlich oder irrelevant sind']
+
+Antwort: auf ein Argument mit einem Ausdruck des Spottes anstelle eines Gegenarguments zu reagieren"
+"Die Behauptung, dass ein Mangel an Beweisen etwas beweist, ist der Irrtum von...",logical_fallacies,"['Appell an die Unwissenheit', 'Doppelnegativ', 'Zweideutigkeit', 'Beweislast']",0,"Frage: Die Behauptung, dass ein Mangel an Beweisen etwas beweist, ist der Irrtum von...
+
+Antwortoptionen: ['Appell an die Unwissenheit', 'Doppelnegativ', 'Zweideutigkeit', 'Beweislast']
+
+Antwort: Appell an die Unwissenheit"
+Das Argument gegen die Person besteht aus,logical_fallacies,"['die Argumente einer anderen Person zu ignorieren und stattdessen ihren Charakter anzugreifen', 'Behauptung, dass ein gegnerischer Argumentator eine leicht zu besiegende Position eingenommen hat, die sie nicht wirklich eingenommen hat', 'Verwirrung während einer Auseinandersetzung durch mangelnde Fähigkeit zur Widerlegung zu verursachen', 'Bedrohungen auszusprechen, anstatt zu argumentieren, um eine Einigung herbeizuführen']",0,"Frage: Das Argument gegen die Person besteht aus
+
+Antwortoptionen: ['die Argumente einer anderen Person zu ignorieren und stattdessen ihren Charakter anzugreifen', 'Behauptung, dass ein gegnerischer Argumentator eine leicht zu besiegende Position eingenommen hat, die sie nicht wirklich eingenommen hat', 'Verwirrung während einer Auseinandersetzung durch mangelnde Fähigkeit zur Widerlegung zu verursachen', 'Bedrohungen auszusprechen, anstatt zu argumentieren, um eine Einigung herbeizuführen']
+
+Antwort: die Argumente einer anderen Person zu ignorieren und stattdessen ihren Charakter anzugreifen"
+"Welche der folgenden Irrtümer treten auf, wenn jemand zu dem Schluss kommt, dass jemand ehrlich sein muss, weil die Menschen, mit denen er zusammen ist, ehrlich sind?",logical_fallacies,"['Lobende Persönlichkeit', 'Schuld durch Assoziation', 'Verwerfliche Persönlichkeit', 'Zirkuläre Argumentation']",1,"Frage: Welche der folgenden Irrtümer treten auf, wenn jemand zu dem Schluss kommt, dass jemand ehrlich sein muss, weil die Menschen, mit denen er zusammen ist, ehrlich sind?
+
+Antwortoptionen: ['Lobende Persönlichkeit', 'Schuld durch Assoziation', 'Verwerfliche Persönlichkeit', 'Zirkuläre Argumentation']
+
+Antwort: Schuld durch Assoziation"
+"Zu welchem der folgenden Irrtümer kann es führen, wenn man eine Frage stellt, die eine nicht bewiesene Annahme beinhaltet?",logical_fallacies,"['Appell an die Unwissenheit', 'Erweiterung', 'a priori', 'Komplexe Frage']",3,"Frage: Zu welchem der folgenden Irrtümer kann es führen, wenn man eine Frage stellt, die eine nicht bewiesene Annahme beinhaltet?
+
+Antwortoptionen: ['Appell an die Unwissenheit', 'Erweiterung', 'a priori', 'Komplexe Frage']
+
+Antwort: Komplexe Frage"
+"Polonius in William Shakespeares Hamlet: ""Dein edler Sohn ist verrückt: Verrückt nenne ich es, denn um wahre Verrücktheit zu definieren, was ist es, nichts anderes als verrückt zu sein?""",logical_fallacies,"['Angriff auf die Person (ad hominem)', 'Zweideutigkeit', 'Die Frage zu stellen', 'Ein Appell an die Barmherzigkeit']",2,"Frage: Polonius in William Shakespeares Hamlet: ""Dein edler Sohn ist verrückt: Verrückt nenne ich es, denn um wahre Verrücktheit zu definieren, was ist es, nichts anderes als verrückt zu sein?""
+
+Antwortoptionen: ['Angriff auf die Person (ad hominem)', 'Zweideutigkeit', 'Die Frage zu stellen', 'Ein Appell an die Barmherzigkeit']
+
+Antwort: Die Frage zu stellen"
+"Das Hyatt Regency Hotel in New Orleans ist erfreut, Ihre Reservierung zu bestätigen.",logical_fallacies,"['Zweideutigkeit', 'Bestätigung der Folgen', 'Der Irrtum des Glücksspielers', 'Unvereinbarkeit']",3,"Frage: Das Hyatt Regency Hotel in New Orleans ist erfreut, Ihre Reservierung zu bestätigen.
+
+Antwortoptionen: ['Zweideutigkeit', 'Bestätigung der Folgen', 'Der Irrtum des Glücksspielers', 'Unvereinbarkeit']
+
+Antwort: Unvereinbarkeit"
+Der Irrtum des Naturgesetzes lautet:,logical_fallacies,"['Argumentieren, dass etwas notwendigerweise schlecht ist, weil es nicht sehr viel kostet', 'Ersatz einzelner Geschichten durch eine größere Stichprobe bei der Unterstützung einer Verallgemeinerung', 'die Behauptung, dass das, was in der Natur wahr ist, auch für den Menschen wahr sein muss', 'die gleiche Sache wie die post hoc Trugschluss']",2,"Frage: Der Irrtum des Naturgesetzes lautet:
+
+Antwortoptionen: ['Argumentieren, dass etwas notwendigerweise schlecht ist, weil es nicht sehr viel kostet', 'Ersatz einzelner Geschichten durch eine größere Stichprobe bei der Unterstützung einer Verallgemeinerung', 'die Behauptung, dass das, was in der Natur wahr ist, auch für den Menschen wahr sein muss', 'die gleiche Sache wie die post hoc Trugschluss']
+
+Antwort: die Behauptung, dass das, was in der Natur wahr ist, auch für den Menschen wahr sein muss"
+"Wenn jemand eine emotionale Wiederholung einer Behauptung anstelle der Unterstützung der Behauptung verwendet, welche der folgenden Irrtümer hat diese Person möglicherweise begangen?",logical_fallacies,"['Stil über Substanz', 'Fragestellende Bezeichnungen', 'Hypostatierung', 'Amphibolie']",1,"Frage: Wenn jemand eine emotionale Wiederholung einer Behauptung anstelle der Unterstützung der Behauptung verwendet, welche der folgenden Irrtümer hat diese Person möglicherweise begangen?
+
+Antwortoptionen: ['Stil über Substanz', 'Fragestellende Bezeichnungen', 'Hypostatierung', 'Amphibolie']
+
+Antwort: Fragestellende Bezeichnungen"
+"Die Behauptung, dass eine Behauptung wahr sein muss, nur weil eine beträchtliche Anzahl von Menschen daran glaubt, wird als Trugschluss bezeichnet.",logical_fallacies,"['Tu quoque', 'Zusammensetzung', 'Appell an die Massen', 'Berufung auf die Vernunft']",2,"Frage: Die Behauptung, dass eine Behauptung wahr sein muss, nur weil eine beträchtliche Anzahl von Menschen daran glaubt, wird als Trugschluss bezeichnet.
+
+Antwortoptionen: ['Tu quoque', 'Zusammensetzung', 'Appell an die Massen', 'Berufung auf die Vernunft']
+
+Antwort: Appell an die Massen"
+_Ad populum_. ist ein anderer Name für welchen Irrtum?,logical_fallacies,"['Vergiftung des Brunnens', 'Unterdrückte Beweise', 'Appell an den Stolz', 'appellieren an das Volk']",3,"Frage: _Ad populum_. ist ein anderer Name für welchen Irrtum?
+
+Antwortoptionen: ['Vergiftung des Brunnens', 'Unterdrückte Beweise', 'Appell an den Stolz', 'appellieren an das Volk']
+
+Antwort: appellieren an das Volk"
+In einem gültigen disjunktiven Syllogismus muss die unbedeutende Prämisse,logical_fallacies,"['eine Auswahl akzeptieren', 'alle Auswahlmöglichkeiten außer einer ablehnen', 'entweder A oder B', 'keine der oben genannten']",2,"Frage: In einem gültigen disjunktiven Syllogismus muss die unbedeutende Prämisse
+
+Antwortoptionen: ['eine Auswahl akzeptieren', 'alle Auswahlmöglichkeiten außer einer ablehnen', 'entweder A oder B', 'keine der oben genannten']
+
+Antwort: entweder A oder B"
+Welche der folgenden Aussagen beschreibt den Irrtum des Anrufs auf Groll?,logical_fallacies,"['auf ein Argument mit einem Ausdruck des Spottes anstelle eines Gegenarguments zu reagieren', 'Argumentieren gegen eine Position, die nur auf negativen persönlichen Gefühlen gegenüber der Position basiert', 'Argumentieren, dass jemand etwas tun sollte, nur weil diese Person jemand anderen nicht mag', 'zu sagen, dass jemand etwas nicht tun sollte, weil, wenn er oder sie es tut, die Leute ihn oder sie nicht mögen']",2,"Frage: Welche der folgenden Aussagen beschreibt den Irrtum des Anrufs auf Groll?
+
+Antwortoptionen: ['auf ein Argument mit einem Ausdruck des Spottes anstelle eines Gegenarguments zu reagieren', 'Argumentieren gegen eine Position, die nur auf negativen persönlichen Gefühlen gegenüber der Position basiert', 'Argumentieren, dass jemand etwas tun sollte, nur weil diese Person jemand anderen nicht mag', 'zu sagen, dass jemand etwas nicht tun sollte, weil, wenn er oder sie es tut, die Leute ihn oder sie nicht mögen']
+
+Antwort: Argumentieren, dass jemand etwas tun sollte, nur weil diese Person jemand anderen nicht mag"
+_Ad hominem_ ist ein anderer Name für den Irrtum von,logical_fallacies,"['Berufung auf Loyalität', 'zu einer Absurdität reduzieren', 'Unkenntnis der Widerlegung', 'Argument gegen die Person']",3,"Frage: _Ad hominem_ ist ein anderer Name für den Irrtum von
+
+Antwortoptionen: ['Berufung auf Loyalität', 'zu einer Absurdität reduzieren', 'Unkenntnis der Widerlegung', 'Argument gegen die Person']
+
+Antwort: Argument gegen die Person"
+Der Irrtum der Berufung auf die Person ist die Ablehnung eines Anspruchs durch...,logical_fallacies,"['Mit Rhetorik', 'Falsche Angaben machen', 'Die Person ignorieren', 'Die Person kritisieren, die es macht']",3,"Frage: Der Irrtum der Berufung auf die Person ist die Ablehnung eines Anspruchs durch...
+
+Antwortoptionen: ['Mit Rhetorik', 'Falsche Angaben machen', 'Die Person ignorieren', 'Die Person kritisieren, die es macht']
+
+Antwort: Die Person kritisieren, die es macht"
+Eine andere Bezeichnung für eine voreilige Schlussfolgerung ist,logical_fallacies,"['überstürzte Verallgemeinerung', 'post hoc ergo prompter hoc', 'zu voreiligen Schlüssen', 'ad novitatem']",2,"Frage: Eine andere Bezeichnung für eine voreilige Schlussfolgerung ist
+
+Antwortoptionen: ['überstürzte Verallgemeinerung', 'post hoc ergo prompter hoc', 'zu voreiligen Schlüssen', 'ad novitatem']
+
+Antwort: zu voreiligen Schlüssen"
+"John S. Knight, Detroit Free Press (3. Juli 1970): ...Der Kapitalismus ist das Wirtschaftssystem, in dem die Produktions- und Vertriebsmittel im Privatbesitz sind und gewinnorientiert betrieben werden Das alternative System wird Sozialismus genannt, die Theorie des Eigentums und des Betriebs der Produktionsmittel durch die Gesellschaft, wobei alle Mitglieder an der Arbeit und den Produkten teilhaben.",logical_fallacies,"['Die Frage zu stellen', 'Falsches Dilemma', 'Strohmann', 'Appell an die Galerie (Provisionalismus)']",1,"Frage: John S. Knight, Detroit Free Press (3. Juli 1970): ...Der Kapitalismus ist das Wirtschaftssystem, in dem die Produktions- und Vertriebsmittel im Privatbesitz sind und gewinnorientiert betrieben werden Das alternative System wird Sozialismus genannt, die Theorie des Eigentums und des Betriebs der Produktionsmittel durch die Gesellschaft, wobei alle Mitglieder an der Arbeit und den Produkten teilhaben.
+
+Antwortoptionen: ['Die Frage zu stellen', 'Falsches Dilemma', 'Strohmann', 'Appell an die Galerie (Provisionalismus)']
+
+Antwort: Falsches Dilemma"
+Der Irrtum der Zusammensetzung ist,logical_fallacies,"['die Ursache eines Ereignisses einer einfachen Ursache zuzuschreiben, wenn die Ursache komplexer ist', 'Argumentieren, dass das, was für einen Teil eines Objekts zutrifft, für das gesamte Objekt zutreffen muss', 'eine Schlussfolgerung ohne ausreichende Beweise für diese Schlussfolgerung zu ziehen', 'eine Schlussfolgerung auf der Grundlage des Zeichenverständnisses zu ziehen, wenn zwischen dem angeblichen Zeichen und dem Gegenstand der Schlussfolgerung keine tatsächliche unmittelbare Beziehung besteht']",1,"Frage: Der Irrtum der Zusammensetzung ist
+
+Antwortoptionen: ['die Ursache eines Ereignisses einer einfachen Ursache zuzuschreiben, wenn die Ursache komplexer ist', 'Argumentieren, dass das, was für einen Teil eines Objekts zutrifft, für das gesamte Objekt zutreffen muss', 'eine Schlussfolgerung ohne ausreichende Beweise für diese Schlussfolgerung zu ziehen', 'eine Schlussfolgerung auf der Grundlage des Zeichenverständnisses zu ziehen, wenn zwischen dem angeblichen Zeichen und dem Gegenstand der Schlussfolgerung keine tatsächliche unmittelbare Beziehung besteht']
+
+Antwort: Argumentieren, dass das, was für einen Teil eines Objekts zutrifft, für das gesamte Objekt zutreffen muss"
+""" _Ad crumenam_ "" ist eine spezifische Art von",logical_fallacies,"['Falsche Analogie', 'Überstürzte Verallgemeinerung', 'Falsches Zeichen', 'Eine voreilige Schlussfolgerung']",2,"Frage: "" _Ad crumenam_ "" ist eine spezifische Art von
+
+Antwortoptionen: ['Falsche Analogie', 'Überstürzte Verallgemeinerung', 'Falsches Zeichen', 'Eine voreilige Schlussfolgerung']
+
+Antwort: Falsches Zeichen"
+"Welcher der folgenden Irrtümer tritt auf, wenn jemand eine Schlussfolgerung zieht, die einfach eine Neuauslegung einer der Prämissen ist?",logical_fallacies,"['Lobende Persönlichkeit', 'Schuld durch Assoziation', 'Unfall', 'Die Frage zu stellen']",3,"Frage: Welcher der folgenden Irrtümer tritt auf, wenn jemand eine Schlussfolgerung zieht, die einfach eine Neuauslegung einer der Prämissen ist?
+
+Antwortoptionen: ['Lobende Persönlichkeit', 'Schuld durch Assoziation', 'Unfall', 'Die Frage zu stellen']
+
+Antwort: Die Frage zu stellen"
+"Ich weiß nicht, was die Antwort auf Nummer 8 ist. Aber Heather hat die dritte Option längst nicht zur richtigen Antwort gemacht, und selbst dann nur einmal, also schätze ich, dass das der Irrtum der Komposition ist!",logical_fallacies,"['Der Irrtum des Glücksspielers', 'Zweideutigkeit', 'Irrtum der Zusammensetzung', 'Ein Appell an die Barmherzigkeit']",0,"Frage: Ich weiß nicht, was die Antwort auf Nummer 8 ist. Aber Heather hat die dritte Option längst nicht zur richtigen Antwort gemacht, und selbst dann nur einmal, also schätze ich, dass das der Irrtum der Komposition ist!
+
+Antwortoptionen: ['Der Irrtum des Glücksspielers', 'Zweideutigkeit', 'Irrtum der Zusammensetzung', 'Ein Appell an die Barmherzigkeit']
+
+Antwort: Der Irrtum des Glücksspielers"
+"Wenn jemand argumentiert, dass eine Änderung keinen signifikanten Effekt haben wird aber es gibt keine Hinweise darauf, dass die Wirkung nicht signifikant sein wird Welche der folgenden Irrtümer hat diese Person begangen?",logical_fallacies,"['Vergiftung des Brunnens', 'solide Steigung', 'Berufung auf die Tradition', 'Argument der Autorität']",1,"Frage: Wenn jemand argumentiert, dass eine Änderung keinen signifikanten Effekt haben wird aber es gibt keine Hinweise darauf, dass die Wirkung nicht signifikant sein wird Welche der folgenden Irrtümer hat diese Person begangen?
+
+Antwortoptionen: ['Vergiftung des Brunnens', 'solide Steigung', 'Berufung auf die Tradition', 'Argument der Autorität']
+
+Antwort: solide Steigung"
+"Welches der folgenden Ausdrücke beschreibt am besten den Irrtum der Frage, wie man mit Epitheten um Hilfe bittet?",logical_fallacies,"['Etwas, das im Kopf existiert, so zu behandeln, als wäre es ein echtes Objekt.', 'Eine Form der aufgeladenen Sprache, die eine emotional geladene Neuaussage der Behauptung verwendet, oft in Form von Beschimpfungen, anstelle der Unterstützung der Behauptung.', 'Ändern der Bedeutung eines Wortes oder einer Phrase von einem Teil des Arguments zu einem anderen.', 'Argumentieren, daß Ideen, die auf ansprechende Weise dargestellt werden, richtig sind, ungeachtet des Inhalts der Botschaft.']",1,"Frage: Welches der folgenden Ausdrücke beschreibt am besten den Irrtum der Frage, wie man mit Epitheten um Hilfe bittet?
+
+Antwortoptionen: ['Etwas, das im Kopf existiert, so zu behandeln, als wäre es ein echtes Objekt.', 'Eine Form der aufgeladenen Sprache, die eine emotional geladene Neuaussage der Behauptung verwendet, oft in Form von Beschimpfungen, anstelle der Unterstützung der Behauptung.', 'Ändern der Bedeutung eines Wortes oder einer Phrase von einem Teil des Arguments zu einem anderen.', 'Argumentieren, daß Ideen, die auf ansprechende Weise dargestellt werden, richtig sind, ungeachtet des Inhalts der Botschaft.']
+
+Antwort: Eine Form der aufgeladenen Sprache, die eine emotional geladene Neuaussage der Behauptung verwendet, oft in Form von Beschimpfungen, anstelle der Unterstützung der Behauptung."
+Welche der folgenden Aussagen beschreibt den Irrtum des Appells an den Stolz?,logical_fallacies,"['die Behauptung, dass ein Anspruch nur auf der Grundlage von Beweisen akzeptiert werden sollte, dass nicht identifizierte Behörden ihn akzeptieren.', 'Argumentieren, dass jemand eine Behauptung nur auf der Grundlage der Beweise akzeptieren sollte, dass er oder sie die günstigen Eigenschaften hat, um die Wahrheit der Behauptung zu verstehen.', 'Argumentieren, dass etwas nur auf der Grundlage von Beweisen getan werden sollte, dass es in der Vergangenheit so gemacht wurde, oder dass man es nur glauben sollte, weil man es schon lange geglaubt hat.', 'die Behauptung, dass eine Handlung oder eine Reihe von Handlungen ausgeführt werden sollte, weil sie keine wesentlichen Folgen haben, wenn keine Beweise dafür vorliegen, dass sie keine wesentlichen Auswirkungen haben.']",1,"Frage: Welche der folgenden Aussagen beschreibt den Irrtum des Appells an den Stolz?
+
+Antwortoptionen: ['die Behauptung, dass ein Anspruch nur auf der Grundlage von Beweisen akzeptiert werden sollte, dass nicht identifizierte Behörden ihn akzeptieren.', 'Argumentieren, dass jemand eine Behauptung nur auf der Grundlage der Beweise akzeptieren sollte, dass er oder sie die günstigen Eigenschaften hat, um die Wahrheit der Behauptung zu verstehen.', 'Argumentieren, dass etwas nur auf der Grundlage von Beweisen getan werden sollte, dass es in der Vergangenheit so gemacht wurde, oder dass man es nur glauben sollte, weil man es schon lange geglaubt hat.', 'die Behauptung, dass eine Handlung oder eine Reihe von Handlungen ausgeführt werden sollte, weil sie keine wesentlichen Folgen haben, wenn keine Beweise dafür vorliegen, dass sie keine wesentlichen Auswirkungen haben.']
+
+Antwort: Argumentieren, dass jemand eine Behauptung nur auf der Grundlage der Beweise akzeptieren sollte, dass er oder sie die günstigen Eigenschaften hat, um die Wahrheit der Behauptung zu verstehen."
+"Ein Syllogismus, der formell ungültig ist",logical_fallacies,"['kann nicht materiell wahr sein', 'könnte materiell wahr sein', 'könnte materiell unwahr sein', 'sowohl B als auch C']",3,"Frage: Ein Syllogismus, der formell ungültig ist
+
+Antwortoptionen: ['kann nicht materiell wahr sein', 'könnte materiell wahr sein', 'könnte materiell unwahr sein', 'sowohl B als auch C']
+
+Antwort: sowohl B als auch C"
+Ein anderer Name für den Irrtum des falschen Dilemmas ist,logical_fallacies,"['Schuld durch Assoziation', 'Zirkuläre Argumentation', 'Lobende Persönlichkeit', 'Falsche Dichotomie']",3,"Frage: Ein anderer Name für den Irrtum des falschen Dilemmas ist
+
+Antwortoptionen: ['Schuld durch Assoziation', 'Zirkuläre Argumentation', 'Lobende Persönlichkeit', 'Falsche Dichotomie']
+
+Antwort: Falsche Dichotomie"
+"Wenn jemand auf deine Argumentation mit einer sarkastischen Aussage reagiert, wie zum Beispiel: ""Ja, richtig. Als würde das jemals passieren"", hat diese Person vielleicht welchen Irrtum begangen?",logical_fallacies,"['Appell an die Empörung', 'Berufung auf Trotz', 'Pferdelachen', 'Das ist es, was du sagst.']",2,"Frage: Wenn jemand auf deine Argumentation mit einer sarkastischen Aussage reagiert, wie zum Beispiel: ""Ja, richtig. Als würde das jemals passieren"", hat diese Person vielleicht welchen Irrtum begangen?
+
+Antwortoptionen: ['Appell an die Empörung', 'Berufung auf Trotz', 'Pferdelachen', 'Das ist es, was du sagst.']
+
+Antwort: Pferdelachen"
+Der _post hoc_ Trugschluss ist,logical_fallacies,"['Argumentieren, dass ein einzelnes Ereignis ein anderes verursacht hat, wenn die Ursache in Wirklichkeit mehrere Ereignisse sind', 'Sie argumentieren, dass, da zwei Dinge zur gleichen Zeit passierten, das eine das andere verursacht haben muss.', 'eine Schlussfolgerung über einen Kausalzusammenhang zu ziehen, wenn kein Beweis für einen Kausalzusammenhang vorliegt', 'Da ein Ereignis einem anderen vorausging, muss das erste Ereignis das zweite Ereignis verursacht haben.']",3,"Frage: Der _post hoc_ Trugschluss ist
+
+Antwortoptionen: ['Argumentieren, dass ein einzelnes Ereignis ein anderes verursacht hat, wenn die Ursache in Wirklichkeit mehrere Ereignisse sind', 'Sie argumentieren, dass, da zwei Dinge zur gleichen Zeit passierten, das eine das andere verursacht haben muss.', 'eine Schlussfolgerung über einen Kausalzusammenhang zu ziehen, wenn kein Beweis für einen Kausalzusammenhang vorliegt', 'Da ein Ereignis einem anderen vorausging, muss das erste Ereignis das zweite Ereignis verursacht haben.']
+
+Antwort: Da ein Ereignis einem anderen vorausging, muss das erste Ereignis das zweite Ereignis verursacht haben."
+Der Irrtum der verwerflichen Persönlichkeit ist eine spezifische Art von,logical_fallacies,"['Der Irrtum des Unfalls', 'Falsches Dilemma', 'Die Frage zu stellen', 'Zirkuläre Argumentation']",0,"Frage: Der Irrtum der verwerflichen Persönlichkeit ist eine spezifische Art von
+
+Antwortoptionen: ['Der Irrtum des Unfalls', 'Falsches Dilemma', 'Die Frage zu stellen', 'Zirkuläre Argumentation']
+
+Antwort: Der Irrtum des Unfalls"
+"_A priori_ ist ein Irrtum, der",logical_fallacies,"['eine Frage zu stellen, die entweder eine unbewiesene Annahme oder mehrere Fragen enthält, wodurch eine einfache Ja- oder Nein-Antwort bedeutungslos wird.', 'Argumentieren, dass etwas minderwertig ist, nur weil es etwas nicht tut, wozu es niemals gedacht war.', 'Argumentieren, dass eine Behauptung wahr sein muss, weil es keine Beweise dafür gibt, dass sie falsch ist.', 'Argumentation, die zuerst die gewünschte Schlussfolgerung bestimmt, dann nur Beweise akzeptiert, die diese Schlussfolgerung stützen, oder alle Beweise als Unterstützung für diese Schlussfolgerung interpretiert.']",3,"Frage: _A priori_ ist ein Irrtum, der
+
+Antwortoptionen: ['eine Frage zu stellen, die entweder eine unbewiesene Annahme oder mehrere Fragen enthält, wodurch eine einfache Ja- oder Nein-Antwort bedeutungslos wird.', 'Argumentieren, dass etwas minderwertig ist, nur weil es etwas nicht tut, wozu es niemals gedacht war.', 'Argumentieren, dass eine Behauptung wahr sein muss, weil es keine Beweise dafür gibt, dass sie falsch ist.', 'Argumentation, die zuerst die gewünschte Schlussfolgerung bestimmt, dann nur Beweise akzeptiert, die diese Schlussfolgerung stützen, oder alle Beweise als Unterstützung für diese Schlussfolgerung interpretiert.']
+
+Antwort: Argumentation, die zuerst die gewünschte Schlussfolgerung bestimmt, dann nur Beweise akzeptiert, die diese Schlussfolgerung stützen, oder alle Beweise als Unterstützung für diese Schlussfolgerung interpretiert."
+"Wenn du sagst, dass ein gegnerischer Argumentator eine Position eingenommen hat, die du leicht besiegen kannst wenn er oder sie diese Position nicht eingenommen hat Dann gehen Sie auf diese Position zu besiegen und behaupten, erheblichen Schaden zu diesem Argumenter Gesamtargument gemacht haben an welchem der folgenden Irrtümer sind Sie wahrscheinlich schuldig?",logical_fallacies,"['genetische Trugschlüsse', 'appellieren an die Gefühle', 'Strohmensch', 'Unkenntnis der Widerlegung']",2,"Frage: Wenn du sagst, dass ein gegnerischer Argumentator eine Position eingenommen hat, die du leicht besiegen kannst wenn er oder sie diese Position nicht eingenommen hat Dann gehen Sie auf diese Position zu besiegen und behaupten, erheblichen Schaden zu diesem Argumenter Gesamtargument gemacht haben an welchem der folgenden Irrtümer sind Sie wahrscheinlich schuldig?
+
+Antwortoptionen: ['genetische Trugschlüsse', 'appellieren an die Gefühle', 'Strohmensch', 'Unkenntnis der Widerlegung']
+
+Antwort: Strohmensch"
+"""Die unbedeutende Prämisse muss die Vorgeschichte bestätigen oder die Konsequenz leugnen"" ist ein Weg, um die Gültigkeit welcher Art von Argument zu bestimmen?",logical_fallacies,"['Kategorischer Syllogismus', 'Disjunktiver Syllogismus', 'Hypothetischer Syllogismus', 'Modell von Toulmin']",2,"Frage: ""Die unbedeutende Prämisse muss die Vorgeschichte bestätigen oder die Konsequenz leugnen"" ist ein Weg, um die Gültigkeit welcher Art von Argument zu bestimmen?
+
+Antwortoptionen: ['Kategorischer Syllogismus', 'Disjunktiver Syllogismus', 'Hypothetischer Syllogismus', 'Modell von Toulmin']
+
+Antwort: Hypothetischer Syllogismus"
+"Wenn man behauptet, jemand hätte nichts Gutes tun können, weil er nicht in der Lage ist, Gutes zu tun, begeht man den Irrtum,",logical_fallacies,"['Die Frage zu stellen', 'Falsches Dilemma', 'Unfall', 'Falsche Dichotomie']",0,"Frage: Wenn man behauptet, jemand hätte nichts Gutes tun können, weil er nicht in der Lage ist, Gutes zu tun, begeht man den Irrtum,
+
+Antwortoptionen: ['Die Frage zu stellen', 'Falsches Dilemma', 'Unfall', 'Falsche Dichotomie']
+
+Antwort: Die Frage zu stellen"
+Der komplexe Propositionsfehler beinhaltet,logical_fallacies,"['mehr als einen Anspruch in den Satz aufzunehmen und den Nachweis für einen Anspruch als Nachweis für alle Ansprüche zu behandeln.', 'eine Frage zu stellen, die entweder eine unbewiesene Annahme oder mehrere Fragen enthält, wodurch eine einfache Ja- oder Nein-Antwort bedeutungslos wird.', 'Argumentieren, dass eine Behauptung wahr sein muss, weil es keine Beweise dafür gibt, dass sie falsch ist.', 'Argumentieren, dass etwas minderwertig ist, nur weil es etwas nicht tut, wozu es niemals gedacht war.']",0,"Frage: Der komplexe Propositionsfehler beinhaltet
+
+Antwortoptionen: ['mehr als einen Anspruch in den Satz aufzunehmen und den Nachweis für einen Anspruch als Nachweis für alle Ansprüche zu behandeln.', 'eine Frage zu stellen, die entweder eine unbewiesene Annahme oder mehrere Fragen enthält, wodurch eine einfache Ja- oder Nein-Antwort bedeutungslos wird.', 'Argumentieren, dass eine Behauptung wahr sein muss, weil es keine Beweise dafür gibt, dass sie falsch ist.', 'Argumentieren, dass etwas minderwertig ist, nur weil es etwas nicht tut, wozu es niemals gedacht war.']
+
+Antwort: mehr als einen Anspruch in den Satz aufzunehmen und den Nachweis für einen Anspruch als Nachweis für alle Ansprüche zu behandeln."
+Anekdotische Beweise sind eine spezifische Art von,logical_fallacies,"['Falsches Zeichen', 'Falsche Kriterien', 'Falsche Ursache', 'Überstürzte Verallgemeinerung']",3,"Frage: Anekdotische Beweise sind eine spezifische Art von
+
+Antwortoptionen: ['Falsches Zeichen', 'Falsche Kriterien', 'Falsche Ursache', 'Überstürzte Verallgemeinerung']
+
+Antwort: Überstürzte Verallgemeinerung"
+"Irrtümer können psychologisch überzeugend sein, obwohl sie...",logical_fallacies,"['Psychologisch impotent', 'Logisch fehlerhaft', 'Deduktiv gültig', 'Induktiv gültig']",1,"Frage: Irrtümer können psychologisch überzeugend sein, obwohl sie...
+
+Antwortoptionen: ['Psychologisch impotent', 'Logisch fehlerhaft', 'Deduktiv gültig', 'Induktiv gültig']
+
+Antwort: Logisch fehlerhaft"
+"Welche der folgenden Irrtümer beschreibt es, sich auf eine Handlung eines Gegners in negativen Worten zu beziehen, während man sich auf die gleiche Handlung des Argumentators oder Unterstützers in günstigen Worten bezieht?",logical_fallacies,"['Zweideutigkeit', 'Besondere Schriftsätze', 'Reifizierung', 'Hypostatierung']",1,"Frage: Welche der folgenden Irrtümer beschreibt es, sich auf eine Handlung eines Gegners in negativen Worten zu beziehen, während man sich auf die gleiche Handlung des Argumentators oder Unterstützers in günstigen Worten bezieht?
+
+Antwortoptionen: ['Zweideutigkeit', 'Besondere Schriftsätze', 'Reifizierung', 'Hypostatierung']
+
+Antwort: Besondere Schriftsätze"
+Welche der folgenden Erklärungen entspricht am besten dem Irrtum der Ignoranz der Widerlegung?,logical_fallacies,"['Ein argumentierender Gegner hat eine leicht zu besiegende Position eingenommen. die der Gegner nicht wirklich genommen hat die Position zu besiegen und sich so verhalten, als hätten Sie dem Gesamtargument dieser Person erheblichen Schaden zugefügt.', 'Verwirrung bei der Widerlegung aufgrund einer tatsächlichen oder vorgetäuschten Unfähigkeit zur Widerlegung zu verursachen', 'ein gegnerisches Argument so zu charakterisieren, dass es oder seine Konsequenzen lächerlich erscheinen', 'zu argumentieren, dass eine Handlung nur auf der Grundlage der Notwendigkeit durchgeführt werden sollte, jemandem oder einer Gruppe treu zu sein']",1,"Frage: Welche der folgenden Erklärungen entspricht am besten dem Irrtum der Ignoranz der Widerlegung?
+
+Antwortoptionen: ['Ein argumentierender Gegner hat eine leicht zu besiegende Position eingenommen. die der Gegner nicht wirklich genommen hat die Position zu besiegen und sich so verhalten, als hätten Sie dem Gesamtargument dieser Person erheblichen Schaden zugefügt.', 'Verwirrung bei der Widerlegung aufgrund einer tatsächlichen oder vorgetäuschten Unfähigkeit zur Widerlegung zu verursachen', 'ein gegnerisches Argument so zu charakterisieren, dass es oder seine Konsequenzen lächerlich erscheinen', 'zu argumentieren, dass eine Handlung nur auf der Grundlage der Notwendigkeit durchgeführt werden sollte, jemandem oder einer Gruppe treu zu sein']
+
+Antwort: Verwirrung bei der Widerlegung aufgrund einer tatsächlichen oder vorgetäuschten Unfähigkeit zur Widerlegung zu verursachen"
+Ein anderer Name für den Irrtum der Reduzierung zu einer Absurdität ist,logical_fallacies,"['Das ist es, was du sagst.', 'ad baculum', 'Ad-hominem', 'Reduktion zum Absurdum']",3,"Frage: Ein anderer Name für den Irrtum der Reduzierung zu einer Absurdität ist
+
+Antwortoptionen: ['Das ist es, was du sagst.', 'ad baculum', 'Ad-hominem', 'Reduktion zum Absurdum']
+
+Antwort: Reduktion zum Absurdum"
+Ein anderer Name für den Irrtum der komplexen Frage ist,logical_fallacies,"['Fallacy des Verhörs', 'Zusammengesetzte Behauptung', 'Appell an die Unwissenheit', 'Erweiterung']",0,"Frage: Ein anderer Name für den Irrtum der komplexen Frage ist
+
+Antwortoptionen: ['Fallacy des Verhörs', 'Zusammengesetzte Behauptung', 'Appell an die Unwissenheit', 'Erweiterung']
+
+Antwort: Fallacy des Verhörs"
+Der Appell an die Freude ist ein Trugschluss.,logical_fallacies,"['zu argumentieren, dass jemand etwas tun sollte, nur weil er behauptet, dass er sich dadurch glücklicher fühlen wird', 'Verwirrung bei der Widerlegung verursachen, weil sie nicht in der Lage sind, eine Widerlegung durchzuführen', 'Argumentieren für eine Schlussfolgerung, die nur auf Mitleid mit jemandem basiert, wenn dieses Gefühl für die Schlussfolgerung irrelevant ist', 'Argumentieren, dass jemand etwas tun sollte, nur weil andere Leute ihn oder sie dafür mögen']",0,"Frage: Der Appell an die Freude ist ein Trugschluss.
+
+Antwortoptionen: ['zu argumentieren, dass jemand etwas tun sollte, nur weil er behauptet, dass er sich dadurch glücklicher fühlen wird', 'Verwirrung bei der Widerlegung verursachen, weil sie nicht in der Lage sind, eine Widerlegung durchzuführen', 'Argumentieren für eine Schlussfolgerung, die nur auf Mitleid mit jemandem basiert, wenn dieses Gefühl für die Schlussfolgerung irrelevant ist', 'Argumentieren, dass jemand etwas tun sollte, nur weil andere Leute ihn oder sie dafür mögen']
+
+Antwort: zu argumentieren, dass jemand etwas tun sollte, nur weil er behauptet, dass er sich dadurch glücklicher fühlen wird"
+Ein anderer Name für den Irrtum des Zufalls ist,logical_fallacies,"['Große Verallgemeinerung', 'Schwarz-oder-weiß-Fälschung', 'Grundsätzliche Petition', 'Falsche Dichotomie']",0,"Frage: Ein anderer Name für den Irrtum des Zufalls ist
+
+Antwortoptionen: ['Große Verallgemeinerung', 'Schwarz-oder-weiß-Fälschung', 'Grundsätzliche Petition', 'Falsche Dichotomie']
+
+Antwort: Große Verallgemeinerung"
+"Welche der folgenden Aussagen beschreibt den Irrtum, dem Thema auszuweichen?",logical_fallacies,"['Argumentieren, dass jemand etwas nur aus bösem Willen gegenüber jemand anderem tun sollte', 'die Position eines Gegners auf eine Weise zu beschreiben, die sie lächerlich erscheinen lässt', 'eine Behauptung mit Beweisen oder Argumenten zu unterstützen, die für den Satz nicht relevant sind, oder auf das Argument eines anderen zu reagieren, indem man das Thema ändert', 'Versuchen, eine Einigung zu erzielen, die nur auf den Gefühlen basiert, die in der Nachricht geweckt werden']",2,"Frage: Welche der folgenden Aussagen beschreibt den Irrtum, dem Thema auszuweichen?
+
+Antwortoptionen: ['Argumentieren, dass jemand etwas nur aus bösem Willen gegenüber jemand anderem tun sollte', 'die Position eines Gegners auf eine Weise zu beschreiben, die sie lächerlich erscheinen lässt', 'eine Behauptung mit Beweisen oder Argumenten zu unterstützen, die für den Satz nicht relevant sind, oder auf das Argument eines anderen zu reagieren, indem man das Thema ändert', 'Versuchen, eine Einigung zu erzielen, die nur auf den Gefühlen basiert, die in der Nachricht geweckt werden']
+
+Antwort: eine Behauptung mit Beweisen oder Argumenten zu unterstützen, die für den Satz nicht relevant sind, oder auf das Argument eines anderen zu reagieren, indem man das Thema ändert"
+Zu welchem der folgenden Irrtümer kann die Einbeziehung von mehr als einem Anspruch in einen Satz führen?,logical_fallacies,"['Komplexe Frage', 'Appell an die Unwissenheit', 'Zusammengesetzte Behauptung', 'Erweiterung']",2,"Frage: Zu welchem der folgenden Irrtümer kann die Einbeziehung von mehr als einem Anspruch in einen Satz führen?
+
+Antwortoptionen: ['Komplexe Frage', 'Appell an die Unwissenheit', 'Zusammengesetzte Behauptung', 'Erweiterung']
+
+Antwort: Zusammengesetzte Behauptung"
+"Welcher der folgenden Irrtümer tritt auf, wenn jemand zu dem Schluss kommt, dass jemand etwas Schlechtes nicht getan haben könnte, weil er oder sie gute Eigenschaften hat?",logical_fallacies,"['Lobende Persönlichkeit', 'Schuld durch Assoziation', 'Verwerfliche Persönlichkeit', 'Zirkuläre Argumentation']",0,"Frage: Welcher der folgenden Irrtümer tritt auf, wenn jemand zu dem Schluss kommt, dass jemand etwas Schlechtes nicht getan haben könnte, weil er oder sie gute Eigenschaften hat?
+
+Antwortoptionen: ['Lobende Persönlichkeit', 'Schuld durch Assoziation', 'Verwerfliche Persönlichkeit', 'Zirkuläre Argumentation']
+
+Antwort: Lobende Persönlichkeit"
+"Welches der folgenden Beispiele beschreibt den Irrtum, sich auf die Beliebtheit zu berufen?",logical_fallacies,"['zu sagen, dass jemand etwas tun sollte, weil er oder sie jemand anderen nicht mag', 'zu sagen, dass jemand etwas tun sollte, um von anderen besser gemocht zu werden', 'zu sagen, dass jemand etwas tun sollte, weil es ihm oder ihr ein gutes Gefühl gibt', 'dass jemand eine Idee aufgrund der Quelle der Idee akzeptieren sollte']",1,"Frage: Welches der folgenden Beispiele beschreibt den Irrtum, sich auf die Beliebtheit zu berufen?
+
+Antwortoptionen: ['zu sagen, dass jemand etwas tun sollte, weil er oder sie jemand anderen nicht mag', 'zu sagen, dass jemand etwas tun sollte, um von anderen besser gemocht zu werden', 'zu sagen, dass jemand etwas tun sollte, weil es ihm oder ihr ein gutes Gefühl gibt', 'dass jemand eine Idee aufgrund der Quelle der Idee akzeptieren sollte']
+
+Antwort: zu sagen, dass jemand etwas tun sollte, um von anderen besser gemocht zu werden"
+"Welcher Irrtum entsteht, weil man nicht erkennt, daß die dargestellten Alternativen sich nicht gegenseitig ausschließen?",logical_fallacies,"['Die Frage zu stellen', 'Unfall', 'Zirkuläre Argumentation', 'Falsches Dilemma']",3,"Frage: Welcher Irrtum entsteht, weil man nicht erkennt, daß die dargestellten Alternativen sich nicht gegenseitig ausschließen?
+
+Antwortoptionen: ['Die Frage zu stellen', 'Unfall', 'Zirkuläre Argumentation', 'Falsches Dilemma']
+
+Antwort: Falsches Dilemma"
+"In einem bedingten Syllogismus, wenn die unbedeutende Prämisse den Vorgänger leugnet",logical_fallacies,"['keine gültige Schlussfolgerung gezogen werden kann', 'Die Schlussfolgerung muß die daraus resultierenden', 'Die Schlussfolgerung muß die daraus resultierenden', 'Die Schlussfolgerung muss den Vorgänger bestätigen.']",0,"Frage: In einem bedingten Syllogismus, wenn die unbedeutende Prämisse den Vorgänger leugnet
+
+Antwortoptionen: ['keine gültige Schlussfolgerung gezogen werden kann', 'Die Schlussfolgerung muß die daraus resultierenden', 'Die Schlussfolgerung muß die daraus resultierenden', 'Die Schlussfolgerung muss den Vorgänger bestätigen.']
+
+Antwort: keine gültige Schlussfolgerung gezogen werden kann"
+"Der Dekan führte einen Besucher durch den Campus . Der Besucher fragte: ""Wie viele Schüler haben Sie hier?"" Nach einem Moment des Nachdenkens antwortete der Dekan: ""Oh, ich schätze, ungefähr einer von hundert"".",logical_fallacies,"['Zweideutigkeit', 'Irrtum der Teilung', 'Berufung auf die Autorität', 'Verleugnung des Vorgängers']",0,"Frage: Der Dekan führte einen Besucher durch den Campus . Der Besucher fragte: ""Wie viele Schüler haben Sie hier?"" Nach einem Moment des Nachdenkens antwortete der Dekan: ""Oh, ich schätze, ungefähr einer von hundert"".
+
+Antwortoptionen: ['Zweideutigkeit', 'Irrtum der Teilung', 'Berufung auf die Autorität', 'Verleugnung des Vorgängers']
+
+Antwort: Zweideutigkeit"
+"Der Irrtum der Berufung auf eine anonyme Autorität besteht darin,",logical_fallacies,"['Argumentation, dass eine Handlung oder eine Reihe von Handlungen ausgeführt werden sollte, weil sie keine wesentlichen Folgen haben werden, wenn es keine Beweise dafür gibt, dass es keine Folgen geben wird.', 'Argumentieren, dass eine Behauptung auf der Grundlage der Beweise akzeptiert werden sollte, dass eine große Anzahl von Menschen sie akzeptiert', 'Argumentieren, dass etwas getan werden sollte, weil es in der Vergangenheit getan wurde', 'Behauptung, dass eine Forderung nur auf der Grundlage der Behauptung akzeptiert werden sollte, dass nicht identifizierte Behörden sie akzeptieren']",3,"Frage: Der Irrtum der Berufung auf eine anonyme Autorität besteht darin,
+
+Antwortoptionen: ['Argumentation, dass eine Handlung oder eine Reihe von Handlungen ausgeführt werden sollte, weil sie keine wesentlichen Folgen haben werden, wenn es keine Beweise dafür gibt, dass es keine Folgen geben wird.', 'Argumentieren, dass eine Behauptung auf der Grundlage der Beweise akzeptiert werden sollte, dass eine große Anzahl von Menschen sie akzeptiert', 'Argumentieren, dass etwas getan werden sollte, weil es in der Vergangenheit getan wurde', 'Behauptung, dass eine Forderung nur auf der Grundlage der Behauptung akzeptiert werden sollte, dass nicht identifizierte Behörden sie akzeptieren']
+
+Antwort: Behauptung, dass eine Forderung nur auf der Grundlage der Behauptung akzeptiert werden sollte, dass nicht identifizierte Behörden sie akzeptieren"
+Eine voreilige Verallgemeinerung ist ein Irrtum...,logical_fallacies,"['Annehmbare Räumlichkeiten', 'Unzulässige Räumlichkeiten', 'Abzug', 'Akzeptable, aber unwahre Prämisse']",1,"Frage: Eine voreilige Verallgemeinerung ist ein Irrtum...
+
+Antwortoptionen: ['Annehmbare Räumlichkeiten', 'Unzulässige Räumlichkeiten', 'Abzug', 'Akzeptable, aber unwahre Prämisse']
+
+Antwort: Unzulässige Räumlichkeiten"
+Welches der folgenden Ausdrücke beschreibt den Irrtum der Bildsprache am besten?,logical_fallacies,"['Emotional geladene Sprache verwenden, um einen Eindruck über das Thema eines Anspruchs zu erzeugen, ohne zu argumentieren, dass die Sprache zum Thema passt.', 'Etwas, das im Kopf existiert, so zu behandeln, als wäre es ein echtes Objekt.', 'Verwechseln von Bildsprache mit buchstäblicher Sprache.', 'Eine Form der aufgeladenen Sprache, die eine emotional geladene Neuaussage der Behauptung anstelle der Unterstützung der Behauptung verwendet.']",2,"Frage: Welches der folgenden Ausdrücke beschreibt den Irrtum der Bildsprache am besten?
+
+Antwortoptionen: ['Emotional geladene Sprache verwenden, um einen Eindruck über das Thema eines Anspruchs zu erzeugen, ohne zu argumentieren, dass die Sprache zum Thema passt.', 'Etwas, das im Kopf existiert, so zu behandeln, als wäre es ein echtes Objekt.', 'Verwechseln von Bildsprache mit buchstäblicher Sprache.', 'Eine Form der aufgeladenen Sprache, die eine emotional geladene Neuaussage der Behauptung anstelle der Unterstützung der Behauptung verwendet.']
+
+Antwort: Verwechseln von Bildsprache mit buchstäblicher Sprache."
+"Der Irrtum der Erweiterung besteht darin,",logical_fallacies,"['eine Frage zu stellen, die entweder eine unbewiesene Annahme oder mehrere Fragen enthält, wodurch eine einfache Ja- oder Nein-Antwort bedeutungslos wird.', 'Argumentieren, dass etwas fehlerhaft ist, weil es nicht das tut, wozu es niemals gedacht war.', 'über etwas streiten, wenn du nicht weißt, wovon du sprichst', 'mehr als einen Anspruch in den Satz aufzunehmen und den Nachweis für einen Anspruch als Nachweis für alle Ansprüche zu behandeln.']",1,"Frage: Der Irrtum der Erweiterung besteht darin,
+
+Antwortoptionen: ['eine Frage zu stellen, die entweder eine unbewiesene Annahme oder mehrere Fragen enthält, wodurch eine einfache Ja- oder Nein-Antwort bedeutungslos wird.', 'Argumentieren, dass etwas fehlerhaft ist, weil es nicht das tut, wozu es niemals gedacht war.', 'über etwas streiten, wenn du nicht weißt, wovon du sprichst', 'mehr als einen Anspruch in den Satz aufzunehmen und den Nachweis für einen Anspruch als Nachweis für alle Ansprüche zu behandeln.']
+
+Antwort: Argumentieren, dass etwas fehlerhaft ist, weil es nicht das tut, wozu es niemals gedacht war."
+"Die Behauptung, dass eine Behauptung wahr sein muss, weil es keinen Beweis dafür gibt, dass sie falsch ist, ist eine der folgenden Irrtümer.",logical_fallacies,"['a priori', 'Erweiterung', 'Appell an die Unwissenheit', 'Plurium und Interrogationum']",2,"Frage: Die Behauptung, dass eine Behauptung wahr sein muss, weil es keinen Beweis dafür gibt, dass sie falsch ist, ist eine der folgenden Irrtümer.
+
+Antwortoptionen: ['a priori', 'Erweiterung', 'Appell an die Unwissenheit', 'Plurium und Interrogationum']
+
+Antwort: Appell an die Unwissenheit"
+"Welches der folgenden Beispiele zeigt, wie falsch es ist, sich auf die gängige Praxis zu berufen?",logical_fallacies,"['Ausschluss einer Beweisquelle aus der Prüfung, indem behauptet wird, dass die Quelle fehlerhaft ist, wenn kein tatsächlicher Zusammenhang zwischen dem behaupteten Fehler und der Zuverlässigkeit der Quelle besteht', 'Argumentation, dass eine Handlung oder eine Reihe von Handlungen ausgeführt werden sollte, weil sie keine wesentlichen Folgen haben, wenn keine Beweise vorliegen, dass es keine Folgen geben wird', 'eine Schlussfolgerung zu ziehen, nachdem Beweise, die einem Anspruch widersprechen könnten, absichtlich weggelassen oder ignoriert wurden', 'Argumentieren, dass etwas das Richtige ist, basierend nur auf Beweisen, dass andere Leute es bereits tun.']",3,"Frage: Welches der folgenden Beispiele zeigt, wie falsch es ist, sich auf die gängige Praxis zu berufen?
+
+Antwortoptionen: ['Ausschluss einer Beweisquelle aus der Prüfung, indem behauptet wird, dass die Quelle fehlerhaft ist, wenn kein tatsächlicher Zusammenhang zwischen dem behaupteten Fehler und der Zuverlässigkeit der Quelle besteht', 'Argumentation, dass eine Handlung oder eine Reihe von Handlungen ausgeführt werden sollte, weil sie keine wesentlichen Folgen haben, wenn keine Beweise vorliegen, dass es keine Folgen geben wird', 'eine Schlussfolgerung zu ziehen, nachdem Beweise, die einem Anspruch widersprechen könnten, absichtlich weggelassen oder ignoriert wurden', 'Argumentieren, dass etwas das Richtige ist, basierend nur auf Beweisen, dass andere Leute es bereits tun.']
+
+Antwort: Argumentieren, dass etwas das Richtige ist, basierend nur auf Beweisen, dass andere Leute es bereits tun."
+Welches der folgenden ist ein anderer Name für die Umgehung des Problems?,logical_fallacies,"[''Du auch' Trugschluss', 'unerhebliche Schlussfolgerung', 'appellieren an die Angst', 'Argument gegen die Person']",1,"Frage: Welches der folgenden ist ein anderer Name für die Umgehung des Problems?
+
+Antwortoptionen: [''Du auch' Trugschluss', 'unerhebliche Schlussfolgerung', 'appellieren an die Angst', 'Argument gegen die Person']
+
+Antwort: unerhebliche Schlussfolgerung"
+"Ich verstehe nicht, warum jeder denkt, dass er aufs College gehört. Schließlich weiß jeder, dass, wenn man intelligent ist, man Erfolg hat. Aber so viele Leute, die sich für ein College entscheiden, haben nicht einmal die grundlegendste Intelligenz. Wie sollen sie hier irgendwohin gelangen?",logical_fallacies,"['Angriff auf die Person (ad hominem)', 'Strohmann', 'Verleugnung des Vorgängers', 'Die Frage zu stellen']",2,"Frage: Ich verstehe nicht, warum jeder denkt, dass er aufs College gehört. Schließlich weiß jeder, dass, wenn man intelligent ist, man Erfolg hat. Aber so viele Leute, die sich für ein College entscheiden, haben nicht einmal die grundlegendste Intelligenz. Wie sollen sie hier irgendwohin gelangen?
+
+Antwortoptionen: ['Angriff auf die Person (ad hominem)', 'Strohmann', 'Verleugnung des Vorgängers', 'Die Frage zu stellen']
+
+Antwort: Verleugnung des Vorgängers"
+"Wenn jemand ein imaginäres Konzept behandelt , als wäre es etwas Greifbares , könnte diese Person den Irrtum begehen ,",logical_fallacies,"['Fragestellende Bezeichnungen', 'Missbrauch der Mehrdeutigkeit', 'Hypostatierung', 'Amphibolie']",2,"Frage: Wenn jemand ein imaginäres Konzept behandelt , als wäre es etwas Greifbares , könnte diese Person den Irrtum begehen ,
+
+Antwortoptionen: ['Fragestellende Bezeichnungen', 'Missbrauch der Mehrdeutigkeit', 'Hypostatierung', 'Amphibolie']
+
+Antwort: Hypostatierung"
+Eine andere Bezeichnung für eine übereilte Verallgemeinerung ist,logical_fallacies,"['falsche Kriterien', 'Sekundum Pfund', 'Anekdotische Beweise', 'ad crumenam ad crumenam']",1,"Frage: Eine andere Bezeichnung für eine übereilte Verallgemeinerung ist
+
+Antwortoptionen: ['falsche Kriterien', 'Sekundum Pfund', 'Anekdotische Beweise', 'ad crumenam ad crumenam']
+
+Antwort: Sekundum Pfund"
+"Ein Argumentator, der einen anderen bedroht, um eine Einigung zu erzielen, begeht den Irrtum:",logical_fallacies,"['Anwendung von Gewalt', 'Das ist es, was du sagst.', 'Unkenntnis der Widerlegung', 'Strohmensch']",0,"Frage: Ein Argumentator, der einen anderen bedroht, um eine Einigung zu erzielen, begeht den Irrtum:
+
+Antwortoptionen: ['Anwendung von Gewalt', 'Das ist es, was du sagst.', 'Unkenntnis der Widerlegung', 'Strohmensch']
+
+Antwort: Anwendung von Gewalt"
+"Welche Art von Syllogismus hat die Hauptprämisse: ""Alle A's sind B's""?",logical_fallacies,"['kategorisch', 'Disjunktiv', 'bedingte', 'hypothetisch']",0,"Frage: Welche Art von Syllogismus hat die Hauptprämisse: ""Alle A's sind B's""?
+
+Antwortoptionen: ['kategorisch', 'Disjunktiv', 'bedingte', 'hypothetisch']
+
+Antwort: kategorisch"
+"Welcher der folgenden Irrtümer tritt auf, wenn jemand argumentiert, dass eine Wahl zwischen einer bestimmten Reihe von Alternativen getroffen werden muss wenn es wirklich andere Alternativen gibt, aus denen man wählen kann?",logical_fallacies,"['Lobende Persönlichkeit', 'Unfall', 'Falsches Dilemma', 'Zirkuläre Argumentation']",2,"Frage: Welcher der folgenden Irrtümer tritt auf, wenn jemand argumentiert, dass eine Wahl zwischen einer bestimmten Reihe von Alternativen getroffen werden muss wenn es wirklich andere Alternativen gibt, aus denen man wählen kann?
+
+Antwortoptionen: ['Lobende Persönlichkeit', 'Unfall', 'Falsches Dilemma', 'Zirkuläre Argumentation']
+
+Antwort: Falsches Dilemma"
+"Wenn Sie denken, dass jemandes Argument stark ist, basierend auf seinem überzeugenden Sprachgebrauch und seiner selbstbewussten Aussage, welchen Irrtum haben Sie vermutlich begangen?",logical_fallacies,"['Amphibolie', 'Zweideutigkeit', 'Besondere Schriftsätze', 'Stil über Substanz']",3,"Frage: Wenn Sie denken, dass jemandes Argument stark ist, basierend auf seinem überzeugenden Sprachgebrauch und seiner selbstbewussten Aussage, welchen Irrtum haben Sie vermutlich begangen?
+
+Antwortoptionen: ['Amphibolie', 'Zweideutigkeit', 'Besondere Schriftsätze', 'Stil über Substanz']
+
+Antwort: Stil über Substanz"
+"Welches der folgenden Beispiele zeigt, wie falsch es ist, sich auf die Empörung zu berufen?",logical_fallacies,"['Angriff auf den Charakter oder den Hintergrund von jemandem, der ein Argument anstelle seiner Beweise und Argumentation macht', 'Reagieren auf Vorwürfe des Fehlverhaltens, indem sie sagen, dass andere Menschen das Gleiche tun', 'Argumentieren gegen eine Position, die nur auf persönlichen Gefühlen gegenüber der Position basiert', 'auf ein Argument mit einem Ausdruck des Spottes anstelle eines Gegenarguments zu reagieren']",2,"Frage: Welches der folgenden Beispiele zeigt, wie falsch es ist, sich auf die Empörung zu berufen?
+
+Antwortoptionen: ['Angriff auf den Charakter oder den Hintergrund von jemandem, der ein Argument anstelle seiner Beweise und Argumentation macht', 'Reagieren auf Vorwürfe des Fehlverhaltens, indem sie sagen, dass andere Menschen das Gleiche tun', 'Argumentieren gegen eine Position, die nur auf persönlichen Gefühlen gegenüber der Position basiert', 'auf ein Argument mit einem Ausdruck des Spottes anstelle eines Gegenarguments zu reagieren']
+
+Antwort: Argumentieren gegen eine Position, die nur auf persönlichen Gefühlen gegenüber der Position basiert"
+Die Vermeidung der Beweislast ist ein anderer Name für den Irrtum der,logical_fallacies,"['Erweiterung', 'Appell an die Unwissenheit', 'Komplexe Frage', 'Komplexer Vorschlag']",1,"Frage: Die Vermeidung der Beweislast ist ein anderer Name für den Irrtum der
+
+Antwortoptionen: ['Erweiterung', 'Appell an die Unwissenheit', 'Komplexe Frage', 'Komplexer Vorschlag']
+
+Antwort: Appell an die Unwissenheit"
+"In einem hypothetischen Syllogismus, wenn die Nebenprämisse den Vorgänger bestätigt",logical_fallacies,"['keine gültige Schlussfolgerung gezogen werden kann', 'Die Schlussfolgerung muß die daraus resultierenden', 'Die Schlussfolgerung muß die daraus resultierenden', 'Die Schlussfolgerung muss den Anzeichen widersprechen.']",1,"Frage: In einem hypothetischen Syllogismus, wenn die Nebenprämisse den Vorgänger bestätigt
+
+Antwortoptionen: ['keine gültige Schlussfolgerung gezogen werden kann', 'Die Schlussfolgerung muß die daraus resultierenden', 'Die Schlussfolgerung muß die daraus resultierenden', 'Die Schlussfolgerung muss den Anzeichen widersprechen.']
+
+Antwort: Die Schlussfolgerung muß die daraus resultierenden"
+"Moses Maimonides, ""Der Führer der Verwirrten"": Gott, möge Er erhaben sein .. existiert allein, und nichts anderes Später, durch seinen Willen und seinen Willen, brachte er aus dem Nichts alle Wesen ins Dasein, wie sie sind, wobei die Zeit selbst eines der erschaffenen Dinge ist. Denn die Zeit ist eine Folge der Bewegung, und Bewegung ist ein Zufall dessen, was bewegt wird. Darüber hinaus wird das, was bewegt wird, selbst in der Zeit geschaffen.",logical_fallacies,"['Zweideutigkeit', 'Berufung auf die Autorität', 'Unvereinbarkeit', 'Schlüpfende Steigung']",2,"Frage: Moses Maimonides, ""Der Führer der Verwirrten"": Gott, möge Er erhaben sein .. existiert allein, und nichts anderes Später, durch seinen Willen und seinen Willen, brachte er aus dem Nichts alle Wesen ins Dasein, wie sie sind, wobei die Zeit selbst eines der erschaffenen Dinge ist. Denn die Zeit ist eine Folge der Bewegung, und Bewegung ist ein Zufall dessen, was bewegt wird. Darüber hinaus wird das, was bewegt wird, selbst in der Zeit geschaffen.
+
+Antwortoptionen: ['Zweideutigkeit', 'Berufung auf die Autorität', 'Unvereinbarkeit', 'Schlüpfende Steigung']
+
+Antwort: Unvereinbarkeit"
+"John Stuart Mill: Das Glück jedes Menschen ist ein Gut für diese Person, und das allgemeine Glück ist daher ein Gut für die Gesamtheit aller Menschen.",logical_fallacies,"['Irrtum der Zusammensetzung', 'Irrtum der Teilung', 'Der Irrtum des Glücksspielers', 'Zweideutigkeit']",0,"Frage: John Stuart Mill: Das Glück jedes Menschen ist ein Gut für diese Person, und das allgemeine Glück ist daher ein Gut für die Gesamtheit aller Menschen.
+
+Antwortoptionen: ['Irrtum der Zusammensetzung', 'Irrtum der Teilung', 'Der Irrtum des Glücksspielers', 'Zweideutigkeit']
+
+Antwort: Irrtum der Zusammensetzung"
+_Circulus in probando_ ist ein anderer Name für,logical_fallacies,"['Der Irrtum des Zufalls', 'Falsches Dilemma', 'Die Frage zu stellen', 'Schuld durch Assoziation']",2,"Frage: _Circulus in probando_ ist ein anderer Name für
+
+Antwortoptionen: ['Der Irrtum des Zufalls', 'Falsches Dilemma', 'Die Frage zu stellen', 'Schuld durch Assoziation']
+
+Antwort: Die Frage zu stellen"
+"Wenn man behauptet, daß eine Idee nur aufgrund ihrer Quelle angenommen oder abgelehnt werden sollte, begeht man welchen der folgenden Irrtümer?",logical_fallacies,"['genetische Trugschlüsse', 'Anspruch auf Beliebtheit', 'Einschüchterungstaktiken', 'appellieren an die Gefühle']",0,"Frage: Wenn man behauptet, daß eine Idee nur aufgrund ihrer Quelle angenommen oder abgelehnt werden sollte, begeht man welchen der folgenden Irrtümer?
+
+Antwortoptionen: ['genetische Trugschlüsse', 'Anspruch auf Beliebtheit', 'Einschüchterungstaktiken', 'appellieren an die Gefühle']
+
+Antwort: genetische Trugschlüsse"
+"Am Ende des Kurses sagte uns Professor Jones, wir seien die beste Klasse gewesen, die er je hatte. Deshalb bin ich mir sicher, dass die 0,0 auf meinem Abschlussbericht ein Fehler ist. Wenn wir eine so gute Klasse sind, wie Professor Jones sagt, hat keiner von uns es verdient, zu scheitern.",logical_fallacies,"['Irrtum der Zusammensetzung', 'Irrtum der Teilung', 'Zweifelhafte Ursache', 'Appell an die Galerie (Provisionalismus)']",1,"Frage: Am Ende des Kurses sagte uns Professor Jones, wir seien die beste Klasse gewesen, die er je hatte. Deshalb bin ich mir sicher, dass die 0,0 auf meinem Abschlussbericht ein Fehler ist. Wenn wir eine so gute Klasse sind, wie Professor Jones sagt, hat keiner von uns es verdient, zu scheitern.
+
+Antwortoptionen: ['Irrtum der Zusammensetzung', 'Irrtum der Teilung', 'Zweifelhafte Ursache', 'Appell an die Galerie (Provisionalismus)']
+
+Antwort: Irrtum der Teilung"
+Welche der folgenden Aussagen beschreibt den Irrtum der Zweideutigkeit am besten?,logical_fallacies,"['Eine Form der aufgeladenen Sprache, die eine emotional geladene Neuaussage der Behauptung anstelle der Unterstützung der Behauptung verwendet.', 'Ändern der Bedeutung eines Wortes oder einer Phrase von einem Teil des Arguments zu einem anderen.', 'Verwechseln von Bildsprache mit buchstäblicher Sprache.', 'Verweis auf eine Handlung, die von einem Gegner in negativen Worten begangen wurde, während auf die gleiche Handlung, die vom Argumentator oder den Unterstützern in günstigen Worten begangen wurde, verwiesen wird.']",1,"Frage: Welche der folgenden Aussagen beschreibt den Irrtum der Zweideutigkeit am besten?
+
+Antwortoptionen: ['Eine Form der aufgeladenen Sprache, die eine emotional geladene Neuaussage der Behauptung anstelle der Unterstützung der Behauptung verwendet.', 'Ändern der Bedeutung eines Wortes oder einer Phrase von einem Teil des Arguments zu einem anderen.', 'Verwechseln von Bildsprache mit buchstäblicher Sprache.', 'Verweis auf eine Handlung, die von einem Gegner in negativen Worten begangen wurde, während auf die gleiche Handlung, die vom Argumentator oder den Unterstützern in günstigen Worten begangen wurde, verwiesen wird.']
+
+Antwort: Ändern der Bedeutung eines Wortes oder einer Phrase von einem Teil des Arguments zu einem anderen."
+"Der Irrtum des Appells an die Emotionen besteht darin,",logical_fallacies,"['Versuchen, das Argument eines Gegners lächerlich erscheinen zu lassen.', 'Verteidigung des Fehlverhaltens durch die Behauptung, dass der gegnerische Argumentator dasselbe tut', 'Argumentieren, dass ein Argument abgelehnt werden sollte, weil die Quelle des Arguments', 'versucht, jemanden dazu zu bringen, einer Behauptung zuzustimmen, nur indem er die Gefühle dieser Person über das Thema weckt']",3,"Frage: Der Irrtum des Appells an die Emotionen besteht darin,
+
+Antwortoptionen: ['Versuchen, das Argument eines Gegners lächerlich erscheinen zu lassen.', 'Verteidigung des Fehlverhaltens durch die Behauptung, dass der gegnerische Argumentator dasselbe tut', 'Argumentieren, dass ein Argument abgelehnt werden sollte, weil die Quelle des Arguments', 'versucht, jemanden dazu zu bringen, einer Behauptung zuzustimmen, nur indem er die Gefühle dieser Person über das Thema weckt']
+
+Antwort: versucht, jemanden dazu zu bringen, einer Behauptung zuzustimmen, nur indem er die Gefühle dieser Person über das Thema weckt"
+"""Um gültig zu sein, muss die unbedeutende Prämisse entweder mit dem Vorgänger übereinstimmen oder mit dem Folgenden nicht übereinstimmen"" ist eine Voraussetzung für",logical_fallacies,"['ein disjunktiver Syllogismus', 'ein kategorischer Syllogismus', 'ein bedingter Syllogismus', 'disjunktives Enthymem']",2,"Frage: ""Um gültig zu sein, muss die unbedeutende Prämisse entweder mit dem Vorgänger übereinstimmen oder mit dem Folgenden nicht übereinstimmen"" ist eine Voraussetzung für
+
+Antwortoptionen: ['ein disjunktiver Syllogismus', 'ein kategorischer Syllogismus', 'ein bedingter Syllogismus', 'disjunktives Enthymem']
+
+Antwort: ein bedingter Syllogismus"
+"Welcher der folgenden Irrtümer tritt auf, wenn jemand zu dem Schluss kommt, dass jemand etwas Gutes nicht hätte tun können, weil er oder sie negative Eigenschaften hat?",logical_fallacies,"['Lobende Persönlichkeit', 'Schuld durch Assoziation', 'Verwerfliche Persönlichkeit', 'Zirkuläre Argumentation']",2,"Frage: Welcher der folgenden Irrtümer tritt auf, wenn jemand zu dem Schluss kommt, dass jemand etwas Gutes nicht hätte tun können, weil er oder sie negative Eigenschaften hat?
+
+Antwortoptionen: ['Lobende Persönlichkeit', 'Schuld durch Assoziation', 'Verwerfliche Persönlichkeit', 'Zirkuläre Argumentation']
+
+Antwort: Verwerfliche Persönlichkeit"
+Eine andere Bezeichnung für die Bandwagon-Attraktivität ist,logical_fallacies,"['Berufung auf Glaubensvorstellungen', 'Beschwerde bei der Behörde', 'appellieren an das Volk', 'Berufung des einfachen Mannes']",2,"Frage: Eine andere Bezeichnung für die Bandwagon-Attraktivität ist
+
+Antwortoptionen: ['Berufung auf Glaubensvorstellungen', 'Beschwerde bei der Behörde', 'appellieren an das Volk', 'Berufung des einfachen Mannes']
+
+Antwort: appellieren an das Volk"
+Welche der folgenden Eigenschaften hat ein gültiger disjunktiver Syllogismus?,logical_fallacies,"['Die unbedeutende Prämisse muß entweder den Vorgänger bestätigen oder den Nachfolger leugnen.', 'Die unbedeutende Prämisse muss entweder eine Alternative akzeptieren oder eine Alternative ablehnen.', 'Einer der Räumlichkeiten fehlt.', 'Es kommt zu einem wahrheitsgemäßen Schluss']",1,"Frage: Welche der folgenden Eigenschaften hat ein gültiger disjunktiver Syllogismus?
+
+Antwortoptionen: ['Die unbedeutende Prämisse muß entweder den Vorgänger bestätigen oder den Nachfolger leugnen.', 'Die unbedeutende Prämisse muss entweder eine Alternative akzeptieren oder eine Alternative ablehnen.', 'Einer der Räumlichkeiten fehlt.', 'Es kommt zu einem wahrheitsgemäßen Schluss']
+
+Antwort: Die unbedeutende Prämisse muss entweder eine Alternative akzeptieren oder eine Alternative ablehnen."
+Für welchen der folgenden Irrtümer ist der Appell an Glaubensvorstellungen ein anderer Name?,logical_fallacies,"['unerträglich', 'Berufung auf die Tradition', 'solide Steigung', 'Selbstverständliche Wahrheiten']",3,"Frage: Für welchen der folgenden Irrtümer ist der Appell an Glaubensvorstellungen ein anderer Name?
+
+Antwortoptionen: ['unerträglich', 'Berufung auf die Tradition', 'solide Steigung', 'Selbstverständliche Wahrheiten']
+
+Antwort: Selbstverständliche Wahrheiten"
+"Wenn eine Behauptung nur durch die Behauptung gestützt wird, dass nicht identifizierte Experten die Behauptung akzeptieren, hat der Befürworter welchen der folgenden Irrtümer begangen?",logical_fallacies,"['Berufung auf die Tradition', 'ad vericundiam (in englischer Sprache)', 'Berufung auf eine anonyme Behörde', 'Snob-Appeal']",2,"Frage: Wenn eine Behauptung nur durch die Behauptung gestützt wird, dass nicht identifizierte Experten die Behauptung akzeptieren, hat der Befürworter welchen der folgenden Irrtümer begangen?
+
+Antwortoptionen: ['Berufung auf die Tradition', 'ad vericundiam (in englischer Sprache)', 'Berufung auf eine anonyme Behörde', 'Snob-Appeal']
+
+Antwort: Berufung auf eine anonyme Behörde"
+Die Schwarz-oder-Weiß-Fälschung ist ein anderer Name für,logical_fallacies,"['Der Irrtum des Zufalls', 'Falsches Dilemma', 'Die Frage zu stellen', 'Zirkuläre Argumentation']",1,"Frage: Die Schwarz-oder-Weiß-Fälschung ist ein anderer Name für
+
+Antwortoptionen: ['Der Irrtum des Zufalls', 'Falsches Dilemma', 'Die Frage zu stellen', 'Zirkuläre Argumentation']
+
+Antwort: Falsches Dilemma"
+Der Falschzeichenfehler ist,logical_fallacies,"['Argumentieren, dass das, was für einen Teil eines Objekts zutrifft, notwendigerweise für das gesamte Objekt zutrifft', 'Argumentieren, dass zwei Dinge so ähnlich sind, dass das, was für das eine wahr ist, auch für das andere wahr ist', 'Wenn etwas billig ist, ist es zwangsläufig von schlechter Qualität.', 'Argumentation durch Zeichen, wenn tatsächlich kein direkter Zusammenhang zwischen dem angeblichen Zeichen und dem Gegenstand des Arguments besteht']",3,"Frage: Der Falschzeichenfehler ist
+
+Antwortoptionen: ['Argumentieren, dass das, was für einen Teil eines Objekts zutrifft, notwendigerweise für das gesamte Objekt zutrifft', 'Argumentieren, dass zwei Dinge so ähnlich sind, dass das, was für das eine wahr ist, auch für das andere wahr ist', 'Wenn etwas billig ist, ist es zwangsläufig von schlechter Qualität.', 'Argumentation durch Zeichen, wenn tatsächlich kein direkter Zusammenhang zwischen dem angeblichen Zeichen und dem Gegenstand des Arguments besteht']
+
+Antwort: Argumentation durch Zeichen, wenn tatsächlich kein direkter Zusammenhang zwischen dem angeblichen Zeichen und dem Gegenstand des Arguments besteht"
+""" _Ad novitatem_ "" ist",logical_fallacies,"['Argumentieren, dass das, was für einige Mitglieder einer Klasse gilt, für alle Mitglieder der Klasse gilt', 'eine Schlussfolgerung zu ziehen, indem man irrelevante Kriterien auf ein Thema anwendet', 'Ersatz einzelner Geschichten durch eine größere Stichprobe zur Unterstützung eines Anspruchs', 'Argumentieren, dass etwas gut sein muss, weil es neu ist, oder schlecht sein muss, weil es alt ist']",3,"Frage: "" _Ad novitatem_ "" ist
+
+Antwortoptionen: ['Argumentieren, dass das, was für einige Mitglieder einer Klasse gilt, für alle Mitglieder der Klasse gilt', 'eine Schlussfolgerung zu ziehen, indem man irrelevante Kriterien auf ein Thema anwendet', 'Ersatz einzelner Geschichten durch eine größere Stichprobe zur Unterstützung eines Anspruchs', 'Argumentieren, dass etwas gut sein muss, weil es neu ist, oder schlecht sein muss, weil es alt ist']
+
+Antwort: Argumentieren, dass etwas gut sein muss, weil es neu ist, oder schlecht sein muss, weil es alt ist"
+"Wenn jemand versucht, eine Behauptung mit Informationen zu unterstützen, die wirklich nichts mit der Behauptung zu tun haben Welche der folgenden Irrtümer hat diese Person vermutlich begangen?",logical_fallacies,"['Strohmensch', 'genetische Trugschlüsse', 'unerhebliche Schlussfolgerung', 'Ignoratio Elenchi']",2,"Frage: Wenn jemand versucht, eine Behauptung mit Informationen zu unterstützen, die wirklich nichts mit der Behauptung zu tun haben Welche der folgenden Irrtümer hat diese Person vermutlich begangen?
+
+Antwortoptionen: ['Strohmensch', 'genetische Trugschlüsse', 'unerhebliche Schlussfolgerung', 'Ignoratio Elenchi']
+
+Antwort: unerhebliche Schlussfolgerung"
+Die Anwendung irrelevanter Standards auf den Gegenstand des Arguments ist der Irrtum des,logical_fallacies,"['ad crumenam ad crumenam', 'ad antiquitatem ad antiquitatem', 'falsche Kriterien', 'überstürzte Verallgemeinerung']",2,"Frage: Die Anwendung irrelevanter Standards auf den Gegenstand des Arguments ist der Irrtum des
+
+Antwortoptionen: ['ad crumenam ad crumenam', 'ad antiquitatem ad antiquitatem', 'falsche Kriterien', 'überstürzte Verallgemeinerung']
+
+Antwort: falsche Kriterien"
+"Wenn du argumentierst, dass etwas fehlerhaft ist, weil es versagt, etwas zu tun, obwohl es niemals beabsichtigt war, das zu tun, welchen der folgenden Irrtümer hast du möglicherweise begangen?",logical_fallacies,"['Ad Ignorantium (Unwissenheit)', 'Viele Fragen', 'Erweiterung', 'Zusammengesetzte Behauptung']",2,"Frage: Wenn du argumentierst, dass etwas fehlerhaft ist, weil es versagt, etwas zu tun, obwohl es niemals beabsichtigt war, das zu tun, welchen der folgenden Irrtümer hast du möglicherweise begangen?
+
+Antwortoptionen: ['Ad Ignorantium (Unwissenheit)', 'Viele Fragen', 'Erweiterung', 'Zusammengesetzte Behauptung']
+
+Antwort: Erweiterung"
+""" _Ad antiquitatem_ "" ist",logical_fallacies,"['Eine spezifische Art des falschen Ursachenfehlers, der argumentiert, dass, da zwei Ereignisse zur gleichen Zeit stattfanden, ein Ereignis das andere verursacht haben muss.', 'eine spezifische Art von Falschzeichenfehler, die argumentiert, dass etwas notwendigerweise besser ist, weil es alt ist, oder schlechter ist, weil es neu ist', 'eine spezifische Art von Falschzeichenfehler, der besagt, dass etwas notwendigerweise besser ist, weil es neu ist, oder schlechter ist, weil es alt ist', 'Argumentieren, dass das, was für einen einzelnen Teil eines Objekts zutrifft, für das gesamte Objekt zutreffen muss']",1,"Frage: "" _Ad antiquitatem_ "" ist
+
+Antwortoptionen: ['Eine spezifische Art des falschen Ursachenfehlers, der argumentiert, dass, da zwei Ereignisse zur gleichen Zeit stattfanden, ein Ereignis das andere verursacht haben muss.', 'eine spezifische Art von Falschzeichenfehler, die argumentiert, dass etwas notwendigerweise besser ist, weil es alt ist, oder schlechter ist, weil es neu ist', 'eine spezifische Art von Falschzeichenfehler, der besagt, dass etwas notwendigerweise besser ist, weil es neu ist, oder schlechter ist, weil es alt ist', 'Argumentieren, dass das, was für einen einzelnen Teil eines Objekts zutrifft, für das gesamte Objekt zutreffen muss']
+
+Antwort: eine spezifische Art von Falschzeichenfehler, die argumentiert, dass etwas notwendigerweise besser ist, weil es alt ist, oder schlechter ist, weil es neu ist"
+""" _Ad crumenam_ "" ist",logical_fallacies,"['eine Schlussfolgerung auf eine Analogie stützen, wenn die Gegenstände, die verglichen werden, nicht ähnlich genug sind, um die Analogie aufrechtzuerhalten', 'eine spezifische Art von Falschzeichenfehler, die argumentiert, dass jemand notwendigerweise besser ist, weil er oder sie reich ist, oder schlechter ist, weil er oder sie arm ist', 'eine eindeutige Schlussfolgerung ohne ausreichende Beweise für diese Schlussfolgerung zu ziehen', 'eine spezifische Art falscher Ursache, bei der die Ursache eines Ereignisses fälschlicherweise einer einfachen Ursache zugeschrieben wird, wenn die Ursache komplexer ist']",1,"Frage: "" _Ad crumenam_ "" ist
+
+Antwortoptionen: ['eine Schlussfolgerung auf eine Analogie stützen, wenn die Gegenstände, die verglichen werden, nicht ähnlich genug sind, um die Analogie aufrechtzuerhalten', 'eine spezifische Art von Falschzeichenfehler, die argumentiert, dass jemand notwendigerweise besser ist, weil er oder sie reich ist, oder schlechter ist, weil er oder sie arm ist', 'eine eindeutige Schlussfolgerung ohne ausreichende Beweise für diese Schlussfolgerung zu ziehen', 'eine spezifische Art falscher Ursache, bei der die Ursache eines Ereignisses fälschlicherweise einer einfachen Ursache zugeschrieben wird, wenn die Ursache komplexer ist']
+
+Antwort: eine spezifische Art von Falschzeichenfehler, die argumentiert, dass jemand notwendigerweise besser ist, weil er oder sie reich ist, oder schlechter ist, weil er oder sie arm ist"
+Der Irrtum der lobenden Persönlichkeit ist eine spezifische Art von,logical_fallacies,"['Der Irrtum des Zufalls', 'Falsches Dilemma', 'Die Frage zu stellen', 'Zirkuläre Argumentation']",0,"Frage: Der Irrtum der lobenden Persönlichkeit ist eine spezifische Art von
+
+Antwortoptionen: ['Der Irrtum des Zufalls', 'Falsches Dilemma', 'Die Frage zu stellen', 'Zirkuläre Argumentation']
+
+Antwort: Der Irrtum des Zufalls"
+"Der Appell an die Unwissenheit ist ein Trugschluss, der",logical_fallacies,"['zuerst die gewünschte Schlussfolgerung zu bestimmen, dann nur Beweise zu akzeptieren, die diese Schlussfolgerung stützen, oder alle Beweise als Unterstützung für diese Schlussfolgerung zu interpretieren.', 'Argumentieren, dass etwas minderwertig ist, nur weil es etwas nicht tut, wozu es niemals gedacht war.', 'Argumentieren, dass eine Behauptung wahr sein muss, weil es keine Beweise dafür gibt, dass sie falsch ist.', 'über etwas zu streiten, obwohl du nichts darüber weißt']",2,"Frage: Der Appell an die Unwissenheit ist ein Trugschluss, der
+
+Antwortoptionen: ['zuerst die gewünschte Schlussfolgerung zu bestimmen, dann nur Beweise zu akzeptieren, die diese Schlussfolgerung stützen, oder alle Beweise als Unterstützung für diese Schlussfolgerung zu interpretieren.', 'Argumentieren, dass etwas minderwertig ist, nur weil es etwas nicht tut, wozu es niemals gedacht war.', 'Argumentieren, dass eine Behauptung wahr sein muss, weil es keine Beweise dafür gibt, dass sie falsch ist.', 'über etwas zu streiten, obwohl du nichts darüber weißt']
+
+Antwort: Argumentieren, dass eine Behauptung wahr sein muss, weil es keine Beweise dafür gibt, dass sie falsch ist."
+Welche der folgenden Aussagen ist **nicht** wahr?,logical_fallacies,"['Ein formal gültiger Syllogismus kann materiell unwahr sein', 'Ein formal gültiger Syllogismus muss materiell wahr sein', 'Eine materiell wahre Schlussfolgerung kann sich aus einem formal gültigen Syllogismus ergeben', 'Die formelle Gültigkeit eines Syllogismus garantiert nicht, dass er materiell wahr ist']",1,"Frage: Welche der folgenden Aussagen ist **nicht** wahr?
+
+Antwortoptionen: ['Ein formal gültiger Syllogismus kann materiell unwahr sein', 'Ein formal gültiger Syllogismus muss materiell wahr sein', 'Eine materiell wahre Schlussfolgerung kann sich aus einem formal gültigen Syllogismus ergeben', 'Die formelle Gültigkeit eines Syllogismus garantiert nicht, dass er materiell wahr ist']
+
+Antwort: Ein formal gültiger Syllogismus muss materiell wahr sein"
+"""Die unbedeutende Prämisse muss den Vorgänger bestätigen oder den Folgenden leugnen"" ist eine Gültigkeitsanforderung welcher Art von Argument?",logical_fallacies,"['Toulmin', 'Kategorisch', 'Disjunktiv', 'Bedingt (oder hypothetisch)']",3,"Frage: ""Die unbedeutende Prämisse muss den Vorgänger bestätigen oder den Folgenden leugnen"" ist eine Gültigkeitsanforderung welcher Art von Argument?
+
+Antwortoptionen: ['Toulmin', 'Kategorisch', 'Disjunktiv', 'Bedingt (oder hypothetisch)']
+
+Antwort: Bedingt (oder hypothetisch)"
+"Welches der folgenden Beispiele zeigt, wie trügerisch es ist, an Loyalität zu appellieren?",logical_fallacies,"['zu argumentieren, dass jemand etwas tun sollte, weil es ihn oder sie von anderen besser mögen wird', 'Reagieren auf ein Argument mit einem Ausdruck des Spottes', 'die Behauptung, dass eine Idee nur deshalb akzeptiert werden sollte, weil sie von einem Ideengeber stammt', 'zu argumentieren, dass jemand etwas tun sollte, um einer Person oder einer Gruppe loyal zu sein']",3,"Frage: Welches der folgenden Beispiele zeigt, wie trügerisch es ist, an Loyalität zu appellieren?
+
+Antwortoptionen: ['zu argumentieren, dass jemand etwas tun sollte, weil es ihn oder sie von anderen besser mögen wird', 'Reagieren auf ein Argument mit einem Ausdruck des Spottes', 'die Behauptung, dass eine Idee nur deshalb akzeptiert werden sollte, weil sie von einem Ideengeber stammt', 'zu argumentieren, dass jemand etwas tun sollte, um einer Person oder einer Gruppe loyal zu sein']
+
+Antwort: zu argumentieren, dass jemand etwas tun sollte, um einer Person oder einer Gruppe loyal zu sein"
+"Für eine Behauptung zu argumentieren, die nur auf dem Beweis basiert, dass einige normale Menschen die Behauptung glauben, ist eine Möglichkeit, welche der folgenden Irrtümer zu begehen?",logical_fallacies,"['Vergiftung des Brunnens', 'Einspruch einer gewöhnlichen Person', 'Ad numerum', 'Unterdrückte Beweise']",1,"Frage: Für eine Behauptung zu argumentieren, die nur auf dem Beweis basiert, dass einige normale Menschen die Behauptung glauben, ist eine Möglichkeit, welche der folgenden Irrtümer zu begehen?
+
+Antwortoptionen: ['Vergiftung des Brunnens', 'Einspruch einer gewöhnlichen Person', 'Ad numerum', 'Unterdrückte Beweise']
+
+Antwort: Einspruch einer gewöhnlichen Person"
+Der Appell an die Angst beinhaltet,logical_fallacies,"['Argumentieren, dass etwas nur getan werden sollte, weil es der Person, die es tut, ein gutes Gefühl gibt', 'Argumentieren, dass jemand etwas nur aus bösem Willen gegenüber jemand anderem tun sollte', 'Argumentieren, dass Maßnahmen ergriffen werden sollten, um übertriebene, unwahrscheinliche oder irrelevante negative Ergebnisse zu vermeiden', 'eine Position des Gegners in einer Weise zu beschreiben, die sie albern erscheinen lässt']",2,"Frage: Der Appell an die Angst beinhaltet
+
+Antwortoptionen: ['Argumentieren, dass etwas nur getan werden sollte, weil es der Person, die es tut, ein gutes Gefühl gibt', 'Argumentieren, dass jemand etwas nur aus bösem Willen gegenüber jemand anderem tun sollte', 'Argumentieren, dass Maßnahmen ergriffen werden sollten, um übertriebene, unwahrscheinliche oder irrelevante negative Ergebnisse zu vermeiden', 'eine Position des Gegners in einer Weise zu beschreiben, die sie albern erscheinen lässt']
+
+Antwort: Argumentieren, dass Maßnahmen ergriffen werden sollten, um übertriebene, unwahrscheinliche oder irrelevante negative Ergebnisse zu vermeiden"
+"Es ist dumm, Gesetze gegen Diskriminierung zu verabschieden, da es offensichtlich ist, dass wir ohne sie nicht leben können Bei der Auswahl unserer Speisen unterscheiden wir zwischen angenehmem und unangenehmem Geschmack zwischen angenehmen und unangenehmen Klängen bei der Auswahl unserer Musik zwischen harmonischen und unharmonischen Farben bei der Dekoration unserer Häuser zwischen interessanten und uninteressanten Menschen bei der Wahl unserer Freunde und so weiter Wir können nicht ohne Diskriminierung leben.",logical_fallacies,"['Beeinträchtigende Sprache', 'Zweideutigkeit', 'Unvereinbarkeit', 'Strohmann']",1,"Frage: Es ist dumm, Gesetze gegen Diskriminierung zu verabschieden, da es offensichtlich ist, dass wir ohne sie nicht leben können Bei der Auswahl unserer Speisen unterscheiden wir zwischen angenehmem und unangenehmem Geschmack zwischen angenehmen und unangenehmen Klängen bei der Auswahl unserer Musik zwischen harmonischen und unharmonischen Farben bei der Dekoration unserer Häuser zwischen interessanten und uninteressanten Menschen bei der Wahl unserer Freunde und so weiter Wir können nicht ohne Diskriminierung leben.
+
+Antwortoptionen: ['Beeinträchtigende Sprache', 'Zweideutigkeit', 'Unvereinbarkeit', 'Strohmann']
+
+Antwort: Zweideutigkeit"
+Der Irrtum der Schuld durch Assoziation ist eine spezifische Art von,logical_fallacies,"['Unfallfehler', 'Lobende Persönlichkeit', 'Die Frage zu stellen', 'Zirkuläre Argumentation']",0,"Frage: Der Irrtum der Schuld durch Assoziation ist eine spezifische Art von
+
+Antwortoptionen: ['Unfallfehler', 'Lobende Persönlichkeit', 'Die Frage zu stellen', 'Zirkuläre Argumentation']
+
+Antwort: Unfallfehler"
+Der Appell an das Mitgefühl ist,logical_fallacies,"['ein Appell an Emotionen, der gegen eine Position argumentiert, die nur auf negativen persönlichen Gefühlen gegenüber der Position basiert', 'ein Appell an Gefühle, der argumentiert, dass eine Schlussfolgerung nur aus Mitleid für jemanden gezogen werden sollte', 'ein Appell an Gefühle, der argumentiert, dass eine Handlung nur aufgrund der Notwendigkeit, jemandem treu zu sein, unternommen werden sollte', 'Argumentieren, dass eine Idee nur auf der Grundlage dessen akzeptiert werden sollte, wer die Idee hervorgebracht hat']",1,"Frage: Der Appell an das Mitgefühl ist
+
+Antwortoptionen: ['ein Appell an Emotionen, der gegen eine Position argumentiert, die nur auf negativen persönlichen Gefühlen gegenüber der Position basiert', 'ein Appell an Gefühle, der argumentiert, dass eine Schlussfolgerung nur aus Mitleid für jemanden gezogen werden sollte', 'ein Appell an Gefühle, der argumentiert, dass eine Handlung nur aufgrund der Notwendigkeit, jemandem treu zu sein, unternommen werden sollte', 'Argumentieren, dass eine Idee nur auf der Grundlage dessen akzeptiert werden sollte, wer die Idee hervorgebracht hat']
+
+Antwort: ein Appell an Gefühle, der argumentiert, dass eine Schlussfolgerung nur aus Mitleid für jemanden gezogen werden sollte"
+"Wenn jemand während einer Auseinandersetzung sehr emotional geladene Begriffe verwendet ohne Angabe von Gründen, warum diese Begriffe dem Gegenstand entsprechen Welche der folgenden Irrtümer hat diese Person möglicherweise begangen?",logical_fallacies,"['Besondere Schriftsätze', 'Amphibolie', 'Zweideutigkeit', 'Eingeladene Sprache']",3,"Frage: Wenn jemand während einer Auseinandersetzung sehr emotional geladene Begriffe verwendet ohne Angabe von Gründen, warum diese Begriffe dem Gegenstand entsprechen Welche der folgenden Irrtümer hat diese Person möglicherweise begangen?
+
+Antwortoptionen: ['Besondere Schriftsätze', 'Amphibolie', 'Zweideutigkeit', 'Eingeladene Sprache']
+
+Antwort: Eingeladene Sprache"
+"Wenn man behauptet, jemand hätte nichts Gutes tun können, weil er eine bestimmte Position innehat, begeht man den Irrtum:",logical_fallacies,"['Schuld durch Assoziation', 'Falsches Dilemma', 'Verwerfliche Persönlichkeit', 'Falsche Dichotomie']",2,"Frage: Wenn man behauptet, jemand hätte nichts Gutes tun können, weil er eine bestimmte Position innehat, begeht man den Irrtum:
+
+Antwortoptionen: ['Schuld durch Assoziation', 'Falsches Dilemma', 'Verwerfliche Persönlichkeit', 'Falsche Dichotomie']
+
+Antwort: Verwerfliche Persönlichkeit"
+""" _Ad antiquitatem_ "" ist eine spezifische Art von",logical_fallacies,"['Falsche Ursache', 'Falsches Zeichen', 'Falsche Analogie', 'Überstürzte Verallgemeinerung']",1,"Frage: "" _Ad antiquitatem_ "" ist eine spezifische Art von
+
+Antwortoptionen: ['Falsche Ursache', 'Falsches Zeichen', 'Falsche Analogie', 'Überstürzte Verallgemeinerung']
+
+Antwort: Falsches Zeichen"
+Der Irrtum der voreiligen Schlussfolgerung lautet:,logical_fallacies,"['Argumentieren, dass ein einzelnes Ereignis ein anderes verursacht hat, wenn die Ursache in Wirklichkeit mehrere Ereignisse sind', 'Argumentation ohne genügend Beweise zur Stützung der Schlussfolgerung', 'Ersatz einzelner Geschichten durch eine größere Stichprobe zur Unterstützung eines Anspruchs', 'Argumentation, die irrelevante Kriterien auf den Gegenstand des Arguments anwendet.']",1,"Frage: Der Irrtum der voreiligen Schlussfolgerung lautet:
+
+Antwortoptionen: ['Argumentieren, dass ein einzelnes Ereignis ein anderes verursacht hat, wenn die Ursache in Wirklichkeit mehrere Ereignisse sind', 'Argumentation ohne genügend Beweise zur Stützung der Schlussfolgerung', 'Ersatz einzelner Geschichten durch eine größere Stichprobe zur Unterstützung eines Anspruchs', 'Argumentation, die irrelevante Kriterien auf den Gegenstand des Arguments anwendet.']
+
+Antwort: Argumentation ohne genügend Beweise zur Stützung der Schlussfolgerung"
+""" _Ad lazarum_ "" ist",logical_fallacies,"['eine bestimmte Art von Falschzeichen, das argumentiert, dass es notwendigerweise eine umgekehrte Beziehung zwischen Kosten und Qualität gibt, so dass etwas notwendigerweise einen besseren Wert hat, weil es weniger kostet', 'Argumentieren, dass das, was für ein ganzes Objekt gilt, auch für jeden einzelnen Teil dieses Objekts gelten muss', 'Eine spezifische Art falscher Analogie, die argumentiert, dass das, was für die Natur wahr ist, auch für den Menschen wahr sein muss.', 'eine Schlussfolgerung ohne ausreichende Beweise für diese Schlussfolgerung zu ziehen']",0,"Frage: "" _Ad lazarum_ "" ist
+
+Antwortoptionen: ['eine bestimmte Art von Falschzeichen, das argumentiert, dass es notwendigerweise eine umgekehrte Beziehung zwischen Kosten und Qualität gibt, so dass etwas notwendigerweise einen besseren Wert hat, weil es weniger kostet', 'Argumentieren, dass das, was für ein ganzes Objekt gilt, auch für jeden einzelnen Teil dieses Objekts gelten muss', 'Eine spezifische Art falscher Analogie, die argumentiert, dass das, was für die Natur wahr ist, auch für den Menschen wahr sein muss.', 'eine Schlussfolgerung ohne ausreichende Beweise für diese Schlussfolgerung zu ziehen']
+
+Antwort: eine bestimmte Art von Falschzeichen, das argumentiert, dass es notwendigerweise eine umgekehrte Beziehung zwischen Kosten und Qualität gibt, so dass etwas notwendigerweise einen besseren Wert hat, weil es weniger kostet"
+"""Alles, was verdorben ist, ist ungenießbar"". Timothy ist verdorben, also ist Timothy ungenießbar.",logical_fallacies,"['Zweideutigkeit', 'Angriff auf die Person (ad hominem)', 'Irrtum der Teilung', 'Zweifelhafte Ursache']",0,"Frage: ""Alles, was verdorben ist, ist ungenießbar"". Timothy ist verdorben, also ist Timothy ungenießbar.
+
+Antwortoptionen: ['Zweideutigkeit', 'Angriff auf die Person (ad hominem)', 'Irrtum der Teilung', 'Zweifelhafte Ursache']
+
+Antwort: Zweideutigkeit"
+"Welche der folgenden Aussagen bezüglich des folgenden Arguments ist richtig? ""Wenn der Himmel blau ist, wird es nicht regnen. Der Himmel ist heute blau. Daher wird es nicht regnen"".",logical_fallacies,"['Es ist ein formal gültiger kategorischer Syllogismus .', 'Es ist ein formal ungültiger disjunktiver Syllogismus .', 'Es ist ein formal gültiger bedingter Syllogismus', 'Es ist ein formal ungültiger bedingter Syllogismus .']",2,"Frage: Welche der folgenden Aussagen bezüglich des folgenden Arguments ist richtig? ""Wenn der Himmel blau ist, wird es nicht regnen. Der Himmel ist heute blau. Daher wird es nicht regnen"".
+
+Antwortoptionen: ['Es ist ein formal gültiger kategorischer Syllogismus .', 'Es ist ein formal ungültiger disjunktiver Syllogismus .', 'Es ist ein formal gültiger bedingter Syllogismus', 'Es ist ein formal ungültiger bedingter Syllogismus .']
+
+Antwort: Es ist ein formal gültiger bedingter Syllogismus"
+Welche der folgenden Aussagen beschreibt den Irrtum der Snob-Anziehungskraft am besten?,logical_fallacies,"['Argumentation, dass eine Behauptung wahr ist, basierend nur auf dem Beweis, dass sie so oft gemacht wurde.', 'Argumentieren, dass jemand eine Behauptung nur auf der Grundlage der Beweise akzeptieren sollte, dass er oder sie die günstigen Eigenschaften hat, um die Wahrheit der Behauptung zu verstehen.', 'die Behauptung, dass ein Anspruch nur auf der Grundlage von Beweisen akzeptiert werden sollte, dass nicht identifizierte Behörden ihn akzeptieren.', 'Argumentieren, dass jemand eine Idee oder ein Produkt nur auf der Grundlage von Beweisen akzeptieren sollte, dass angesehene Menschen es akzeptieren, oder dass nicht angesehene Menschen es ablehnen.']",3,"Frage: Welche der folgenden Aussagen beschreibt den Irrtum der Snob-Anziehungskraft am besten?
+
+Antwortoptionen: ['Argumentation, dass eine Behauptung wahr ist, basierend nur auf dem Beweis, dass sie so oft gemacht wurde.', 'Argumentieren, dass jemand eine Behauptung nur auf der Grundlage der Beweise akzeptieren sollte, dass er oder sie die günstigen Eigenschaften hat, um die Wahrheit der Behauptung zu verstehen.', 'die Behauptung, dass ein Anspruch nur auf der Grundlage von Beweisen akzeptiert werden sollte, dass nicht identifizierte Behörden ihn akzeptieren.', 'Argumentieren, dass jemand eine Idee oder ein Produkt nur auf der Grundlage von Beweisen akzeptieren sollte, dass angesehene Menschen es akzeptieren, oder dass nicht angesehene Menschen es ablehnen.']
+
+Antwort: Argumentieren, dass jemand eine Idee oder ein Produkt nur auf der Grundlage von Beweisen akzeptieren sollte, dass angesehene Menschen es akzeptieren, oder dass nicht angesehene Menschen es ablehnen."
+"""Jeder Begriff muss zweimal verwendet werden, nicht mehr und nicht weniger"", ist ein Validitätstest für welche Art von Syllogismus?",logical_fallacies,"['Hymne', 'Kategorisch', 'Disjunktiv', 'Vorbehaltlich']",1,"Frage: ""Jeder Begriff muss zweimal verwendet werden, nicht mehr und nicht weniger"", ist ein Validitätstest für welche Art von Syllogismus?
+
+Antwortoptionen: ['Hymne', 'Kategorisch', 'Disjunktiv', 'Vorbehaltlich']
+
+Antwort: Kategorisch"
+"Das Universum muß, wie eine Uhr, einen Schöpfer haben.",logical_fallacies,"['Der Irrtum vom Zufall', 'Zweifelhafte Analogie', 'Zweifelhafte Ursache', 'Irrtum der Zusammensetzung']",1,"Frage: Das Universum muß, wie eine Uhr, einen Schöpfer haben.
+
+Antwortoptionen: ['Der Irrtum vom Zufall', 'Zweifelhafte Analogie', 'Zweifelhafte Ursache', 'Irrtum der Zusammensetzung']
+
+Antwort: Zweifelhafte Analogie"
+Der Naturgesetzesfehler ist eine spezifische Art von,logical_fallacies,"['falsche Analogie', 'falsche Ursache', 'falsche Kriterien', 'falsches Zeichen']",0,"Frage: Der Naturgesetzesfehler ist eine spezifische Art von
+
+Antwortoptionen: ['falsche Analogie', 'falsche Ursache', 'falsche Kriterien', 'falsches Zeichen']
+
+Antwort: falsche Analogie"
+"Angesichts der folgenden Hauptvoraussetzung, welche der folgenden Nebenvoraussetzungen könnte zu einer gültigen Schlussfolgerung führen? ""Entweder ich werde in diesem Test gut abschneiden oder ich werde verrückt werden"".",logical_fallacies,"[''Ich werde bei der Prüfung nicht gut abschneiden'.', ''Ich werde den Test nicht machen'.', ''Heute ist mein Geburtstag'.', 'sowohl A als auch B']",0,"Frage: Angesichts der folgenden Hauptvoraussetzung, welche der folgenden Nebenvoraussetzungen könnte zu einer gültigen Schlussfolgerung führen? ""Entweder ich werde in diesem Test gut abschneiden oder ich werde verrückt werden"".
+
+Antwortoptionen: [''Ich werde bei der Prüfung nicht gut abschneiden'.', ''Ich werde den Test nicht machen'.', ''Heute ist mein Geburtstag'.', 'sowohl A als auch B']
+
+Antwort: ""Ich werde bei der Prüfung nicht gut abschneiden""."
+"Männer sind bessere Fahrer als Frauen. Der Beweis dafür ist, daß Männer besser als Frauen in der Lage sind, Autos auf der Straße zu steuern.",logical_fallacies,"['Die Frage zu stellen', 'Ad hominem (Angriff auf die Person)', 'Falsches Dilemma', 'Ein Appell an die Barmherzigkeit']",0,"Frage: Männer sind bessere Fahrer als Frauen. Der Beweis dafür ist, daß Männer besser als Frauen in der Lage sind, Autos auf der Straße zu steuern.
+
+Antwortoptionen: ['Die Frage zu stellen', 'Ad hominem (Angriff auf die Person)', 'Falsches Dilemma', 'Ein Appell an die Barmherzigkeit']
+
+Antwort: Die Frage zu stellen"
+"In einer fehlerhaften Analogie sind die Dinge, die verglichen werden...",logical_fallacies,"['Genügend ähnlich', 'In irrelevanter Hinsicht ausreichend ähnlich', 'Vollständige Gegensätze', 'Nicht ausreichend ähnlich in wichtiger Hinsicht']",3,"Frage: In einer fehlerhaften Analogie sind die Dinge, die verglichen werden...
+
+Antwortoptionen: ['Genügend ähnlich', 'In irrelevanter Hinsicht ausreichend ähnlich', 'Vollständige Gegensätze', 'Nicht ausreichend ähnlich in wichtiger Hinsicht']
+
+Antwort: Nicht ausreichend ähnlich in wichtiger Hinsicht"
+Welche der folgenden Aussagen beschreibt den _tu quoque_ Trugschluss?,logical_fallacies,"['die Position eines Gegners auf eine Weise zusammenfassen, die sie albern erscheinen lässt', 'Versuchen, eine Einigung zu erzielen, die nur auf den Gefühlen beruht, die im Streit hervorgerufen wurden.', 'Beantwortung von Vorwürfen des Fehlverhaltens, indem man sagt, dass der Ankläger das Gleiche tut', 'Argumentieren gegen eine Position, die nur auf negativen persönlichen Gefühlen gegenüber der Position basiert']",2,"Frage: Welche der folgenden Aussagen beschreibt den _tu quoque_ Trugschluss?
+
+Antwortoptionen: ['die Position eines Gegners auf eine Weise zusammenfassen, die sie albern erscheinen lässt', 'Versuchen, eine Einigung zu erzielen, die nur auf den Gefühlen beruht, die im Streit hervorgerufen wurden.', 'Beantwortung von Vorwürfen des Fehlverhaltens, indem man sagt, dass der Ankläger das Gleiche tut', 'Argumentieren gegen eine Position, die nur auf negativen persönlichen Gefühlen gegenüber der Position basiert']
+
+Antwort: Beantwortung von Vorwürfen des Fehlverhaltens, indem man sagt, dass der Ankläger das Gleiche tut"
+"Welche der folgenden Irrtümer beschreibt es, wenn man auf Vorwürfe eines Fehlverhaltens antwortet, indem man sagt, der Ankläger oder andere würden dasselbe tun?",logical_fallacies,"['Ignoratio Elenchi', 'ad baculum', 'der Barmherzigkeit', 'Das ist es, was du sagst.']",3,"Frage: Welche der folgenden Irrtümer beschreibt es, wenn man auf Vorwürfe eines Fehlverhaltens antwortet, indem man sagt, der Ankläger oder andere würden dasselbe tun?
+
+Antwortoptionen: ['Ignoratio Elenchi', 'ad baculum', 'der Barmherzigkeit', 'Das ist es, was du sagst.']
+
+Antwort: Das ist es, was du sagst."
+"Der Irrtum, der das Argument beinhaltet, das die Schlussfolgerung bestimmt, die man zuerst will dann nur Beweise akzeptiert, die diese Schlussfolgerung stützen oder interpretiert alle Beweise als Unterstützung für diese Schlussfolgerung ist bekannt als",logical_fallacies,"['Ad Ignorantium (Unwissenheit)', 'a priori', 'Plurium und Interrogationum', 'Erweiterung']",1,"Frage: Der Irrtum, der das Argument beinhaltet, das die Schlussfolgerung bestimmt, die man zuerst will dann nur Beweise akzeptiert, die diese Schlussfolgerung stützen oder interpretiert alle Beweise als Unterstützung für diese Schlussfolgerung ist bekannt als
+
+Antwortoptionen: ['Ad Ignorantium (Unwissenheit)', 'a priori', 'Plurium und Interrogationum', 'Erweiterung']
+
+Antwort: a priori"
+Der genetische Trugschluss besteht aus,logical_fallacies,"['Argumentieren, dass eine Schlussfolgerung auf der Grundlage von Mitgefühl für jemanden getroffen werden sollte, wenn dieses Gefühl für die Schlussfolgerung irrelevant ist', 'Beantwortung von Anschuldigungen des Fehlverhaltens, indem man sagt, der Ankläger tut etwas genauso schlimm', 'Argumentieren, dass eine Idee nur aufgrund dessen akzeptiert oder abgelehnt werden sollte, wer die Idee hervorgebracht hat.', 'Verwirrung bei der Widerlegung aufgrund einer tatsächlichen oder vorgetäuschten Unfähigkeit zur Widerlegung zu verursachen']",2,"Frage: Der genetische Trugschluss besteht aus
+
+Antwortoptionen: ['Argumentieren, dass eine Schlussfolgerung auf der Grundlage von Mitgefühl für jemanden getroffen werden sollte, wenn dieses Gefühl für die Schlussfolgerung irrelevant ist', 'Beantwortung von Anschuldigungen des Fehlverhaltens, indem man sagt, der Ankläger tut etwas genauso schlimm', 'Argumentieren, dass eine Idee nur aufgrund dessen akzeptiert oder abgelehnt werden sollte, wer die Idee hervorgebracht hat.', 'Verwirrung bei der Widerlegung aufgrund einer tatsächlichen oder vorgetäuschten Unfähigkeit zur Widerlegung zu verursachen']
+
+Antwort: Argumentieren, dass eine Idee nur aufgrund dessen akzeptiert oder abgelehnt werden sollte, wer die Idee hervorgebracht hat."
+"Ein anderer Name für den Irrtum, die Frage zu stellen, ist",logical_fallacies,"['Dies wird vereinfacht.', 'Zweigeteilung', 'Verwerfliche Persönlichkeit', 'Zirkuläre Argumentation']",3,"Frage: Ein anderer Name für den Irrtum, die Frage zu stellen, ist
+
+Antwortoptionen: ['Dies wird vereinfacht.', 'Zweigeteilung', 'Verwerfliche Persönlichkeit', 'Zirkuläre Argumentation']
+
+Antwort: Zirkuläre Argumentation"
+Der Irrtum der Ignoratio elenchi wird auch als,logical_fallacies,"['Argument gegen die Person', 'Ein Appell an das Mitgefühl', 'Unkenntnis der Widerlegung', 'der 'Du auch' Trugschluss']",2,"Frage: Der Irrtum der Ignoratio elenchi wird auch als
+
+Antwortoptionen: ['Argument gegen die Person', 'Ein Appell an das Mitgefühl', 'Unkenntnis der Widerlegung', 'der 'Du auch' Trugschluss']
+
+Antwort: Unkenntnis der Widerlegung"
+"William Safire im American Heritage Magazine (Dezember 1987): ...Die Größe Lincolns war seine Zielstrebigkeit Er sah etwas, was nur wenige andere sahen: dass sich das demokratische Experiment auf die Union konzentrierte und dass die Mehrheitsregel alles war. In der Minute, in der Sie die Sezession erlaubten, machten Sie die Demokratie zu einer Absurdität, denn was passieren würde, wäre eine fortgesetzte Unterteilung.",logical_fallacies,"['Schlüpfende Steigung', 'Zweifelhafte Analogie', 'Berufung auf die Autorität', 'Strohmann']",0,"Frage: William Safire im American Heritage Magazine (Dezember 1987): ...Die Größe Lincolns war seine Zielstrebigkeit Er sah etwas, was nur wenige andere sahen: dass sich das demokratische Experiment auf die Union konzentrierte und dass die Mehrheitsregel alles war. In der Minute, in der Sie die Sezession erlaubten, machten Sie die Demokratie zu einer Absurdität, denn was passieren würde, wäre eine fortgesetzte Unterteilung.
+
+Antwortoptionen: ['Schlüpfende Steigung', 'Zweifelhafte Analogie', 'Berufung auf die Autorität', 'Strohmann']
+
+Antwort: Schlüpfende Steigung"
+Wie lange schlagen Sie Ihre Frau schon?,logical_fallacies,"['Angriff auf die Person (ad hominem)', 'Falsches Dilemma', 'Beeinträchtigende Sprache', 'Der Einsatz von Gewalt']",2,"Frage: Wie lange schlagen Sie Ihre Frau schon?
+
+Antwortoptionen: ['Angriff auf die Person (ad hominem)', 'Falsches Dilemma', 'Beeinträchtigende Sprache', 'Der Einsatz von Gewalt']
+
+Antwort: Beeinträchtigende Sprache"
+"""Missbrauch von Statistiken"", ""zweifelhafte Statistiken"" und ""zweifelhafter Gebrauch von Statistiken"" sind alle andere Namen für den Irrtum der",logical_fallacies,"['Berufung auf einen Stolz', 'Bedeutung', 'Vergiftung des Brunnens', 'rutschige Steigung']",1,"Frage: ""Missbrauch von Statistiken"", ""zweifelhafte Statistiken"" und ""zweifelhafter Gebrauch von Statistiken"" sind alle andere Namen für den Irrtum der
+
+Antwortoptionen: ['Berufung auf einen Stolz', 'Bedeutung', 'Vergiftung des Brunnens', 'rutschige Steigung']
+
+Antwort: Bedeutung"
+"E.F. Schumacher berühmter Ökonom in einem Artikel im Atlantic (April 1979): Fünfzehn Monate [nachdem ich empfohlen hatte, dass das ländliche Indien eine Technologie zwischen der Hacke und dem Traktor haben sollte ) wurde eine Allindien-Konferenz über Zwischentechnologie veranstaltet. (Sie immer noch nicht wie der Begriff [intermediate], so nannten sie es angemessene Technologie Das ist alles in Ordnung: wenn ich nach Indien kommen und jemand sagt: Schumacher, ich glaube nicht an angemessene Technologie"", schaue ich ihm direkt ins Gesicht und sage: ""Oh, das ist großartig Glauben Sie an unangemessene Technologien?"")",logical_fallacies,"['Zweideutigkeit', 'Unvereinbarkeit', 'Berufung auf die Autorität', 'Beeinträchtigende Sprache']",0,"Frage: E.F. Schumacher berühmter Ökonom in einem Artikel im Atlantic (April 1979): Fünfzehn Monate [nachdem ich empfohlen hatte, dass das ländliche Indien eine Technologie zwischen der Hacke und dem Traktor haben sollte ) wurde eine Allindien-Konferenz über Zwischentechnologie veranstaltet. (Sie immer noch nicht wie der Begriff [intermediate], so nannten sie es angemessene Technologie Das ist alles in Ordnung: wenn ich nach Indien kommen und jemand sagt: Schumacher, ich glaube nicht an angemessene Technologie"", schaue ich ihm direkt ins Gesicht und sage: ""Oh, das ist großartig Glauben Sie an unangemessene Technologien?"")
+
+Antwortoptionen: ['Zweideutigkeit', 'Unvereinbarkeit', 'Berufung auf die Autorität', 'Beeinträchtigende Sprache']
+
+Antwort: Zweideutigkeit"
+"Wir müssen davon ausgehen, daß er ein Kommunist ist, weil er sagt, daß er es nicht ist, und wir wissen, daß Kommunisten immer gelehrt werden, die Parteimitgliedschaft abzulehnen.",logical_fallacies,"['Ein Argument aus Unwissenheit', 'Bestätigung der Folgen', 'Verleugnung des Vorgängers', 'Die Frage zu stellen']",1,"Frage: Wir müssen davon ausgehen, daß er ein Kommunist ist, weil er sagt, daß er es nicht ist, und wir wissen, daß Kommunisten immer gelehrt werden, die Parteimitgliedschaft abzulehnen.
+
+Antwortoptionen: ['Ein Argument aus Unwissenheit', 'Bestätigung der Folgen', 'Verleugnung des Vorgängers', 'Die Frage zu stellen']
+
+Antwort: Bestätigung der Folgen"
+"Wenn jemand argumentiert, dass etwas auf eine bestimmte Art und Weise gemacht werden sollte, weil es schon immer so gemacht wurde, hat diese Person welchen der folgenden Irrtümer begangen?",logical_fallacies,"['rutschige Steigung', 'Berufung auf die Tradition', 'Argument der Autorität', 'unerträglich']",1,"Frage: Wenn jemand argumentiert, dass etwas auf eine bestimmte Art und Weise gemacht werden sollte, weil es schon immer so gemacht wurde, hat diese Person welchen der folgenden Irrtümer begangen?
+
+Antwortoptionen: ['rutschige Steigung', 'Berufung auf die Tradition', 'Argument der Autorität', 'unerträglich']
+
+Antwort: Berufung auf die Tradition"
+Falsche Analogie ist ein anderer Name für welchen Irrtum?,logical_fallacies,"['Übergeneralisierung', 'Zusammensetzung', 'Gleichzeitige Veränderung', 'Unvollkommene Analogie']",3,"Frage: Falsche Analogie ist ein anderer Name für welchen Irrtum?
+
+Antwortoptionen: ['Übergeneralisierung', 'Zusammensetzung', 'Gleichzeitige Veränderung', 'Unvollkommene Analogie']
+
+Antwort: Unvollkommene Analogie"
+"Welcher der folgenden Irrtümer tritt auf, wenn jemand argumentiert, dass Sie eine vernünftige und intelligente Person sind, so dass Sie natürlich verstehen, dass seine Behauptung wahr ist?",logical_fallacies,"['Bedeutung', 'Argument der Autorität', 'Appell an den Stolz', 'rutschige Steigung']",2,"Frage: Welcher der folgenden Irrtümer tritt auf, wenn jemand argumentiert, dass Sie eine vernünftige und intelligente Person sind, so dass Sie natürlich verstehen, dass seine Behauptung wahr ist?
+
+Antwortoptionen: ['Bedeutung', 'Argument der Autorität', 'Appell an den Stolz', 'rutschige Steigung']
+
+Antwort: Appell an den Stolz"
+"Welcher Irrtum tritt auf, wenn jemand für einen Zweiteilvorschlag argumentiert unterstützt nur einen Teil des Vorschlags dann behauptet, dass der gesamte Vorschlag unterstützt wurde.",logical_fallacies,"['a priori', 'Komplexer Vorschlag', 'Erweiterung', 'Appell an die Unwissenheit']",1,"Frage: Welcher Irrtum tritt auf, wenn jemand für einen Zweiteilvorschlag argumentiert unterstützt nur einen Teil des Vorschlags dann behauptet, dass der gesamte Vorschlag unterstützt wurde.
+
+Antwortoptionen: ['a priori', 'Komplexer Vorschlag', 'Erweiterung', 'Appell an die Unwissenheit']
+
+Antwort: Komplexer Vorschlag"
+Welches der folgenden Vorgänge ist ein Test für die Gültigkeit eines bedingten Syllogismus?,logical_fallacies,"['Jeder Begriff muss zweimal verwendet werden - nicht mehr und nicht weniger', 'Wenn eine Prämisse negativ ist, muss die Schlussfolgerung negativ sein.', 'Die unbedeutende Prämisse muss den Vorgänger bestätigen oder den Nachfolger leugnen.', 'Die vorgeschlagenen Alternativen müssen sich gegenseitig ausschließen.']",2,"Frage: Welches der folgenden Vorgänge ist ein Test für die Gültigkeit eines bedingten Syllogismus?
+
+Antwortoptionen: ['Jeder Begriff muss zweimal verwendet werden - nicht mehr und nicht weniger', 'Wenn eine Prämisse negativ ist, muss die Schlussfolgerung negativ sein.', 'Die unbedeutende Prämisse muss den Vorgänger bestätigen oder den Nachfolger leugnen.', 'Die vorgeschlagenen Alternativen müssen sich gegenseitig ausschließen.']
+
+Antwort: Die unbedeutende Prämisse muss den Vorgänger bestätigen oder den Nachfolger leugnen."
+"Welcher der folgenden Irrtümer tritt auf, wenn jemand die Ursache eines Ereignisses einer einfachen Ursache zuschreibt, wenn die Ursache tatsächlich komplizierter ist?",logical_fallacies,"['Komplexe Ursache', 'überstürzte Verallgemeinerung', 'nachträglich', 'Abteilung']",0,"Frage: Welcher der folgenden Irrtümer tritt auf, wenn jemand die Ursache eines Ereignisses einer einfachen Ursache zuschreibt, wenn die Ursache tatsächlich komplizierter ist?
+
+Antwortoptionen: ['Komplexe Ursache', 'überstürzte Verallgemeinerung', 'nachträglich', 'Abteilung']
+
+Antwort: Komplexe Ursache"
+Welcher der folgenden Ausführungen ist ein anderer Name für den Irrtum der Amphibolie?,logical_fallacies,"['Missbrauch der Mehrdeutigkeit', 'Reifizierung', 'Sprichwörter', 'Besondere Schriftsätze']",0,"Frage: Welcher der folgenden Ausführungen ist ein anderer Name für den Irrtum der Amphibolie?
+
+Antwortoptionen: ['Missbrauch der Mehrdeutigkeit', 'Reifizierung', 'Sprichwörter', 'Besondere Schriftsätze']
+
+Antwort: Missbrauch der Mehrdeutigkeit"
+"Tan ah Tiat, 49 Jahre alt, aus Kuala Lumpar, Malaysia, wurde des Besitzes von Opium angeklagt. Als er für die Freispruchsentscheidung plädierte, sagte er dem Richter, seine Opiumsucht habe keinen Schaden angerichtet, da er ohnehin zu alt sei, um zu arbeiten. Auf die Frage, wie er lebte, antwortete er, er lebte vom Einkommen seiner Großmutter.",logical_fallacies,"['Strohmann', 'Falsches Dilemma', 'Unvereinbarkeit', 'Berufung auf die Autorität']",2,"Frage: Tan ah Tiat, 49 Jahre alt, aus Kuala Lumpar, Malaysia, wurde des Besitzes von Opium angeklagt. Als er für die Freispruchsentscheidung plädierte, sagte er dem Richter, seine Opiumsucht habe keinen Schaden angerichtet, da er ohnehin zu alt sei, um zu arbeiten. Auf die Frage, wie er lebte, antwortete er, er lebte vom Einkommen seiner Großmutter.
+
+Antwortoptionen: ['Strohmann', 'Falsches Dilemma', 'Unvereinbarkeit', 'Berufung auf die Autorität']
+
+Antwort: Unvereinbarkeit"
+Welche der folgenden Aussagen beschreibt am besten den Irrtum selbstverständlicher Wahrheiten?,logical_fallacies,"['Argumentieren, dass eine Behauptung nur auf der Grundlage von Beweisen wahr ist, dass eine Autoritätsperson die Behauptung akzeptiert.', 'die Behauptung, dass ein Anspruch nur auf der Grundlage von Beweisen akzeptiert werden sollte, dass nicht identifizierte Behörden ihn akzeptieren.', 'die Behauptung, dass ein Anspruch auf der Grundlage von Beweisen akzeptiert werden sollte, die nicht vorgelegt werden, aber behauptet werden, gut bekannt oder offensichtlich zu sein.', 'Argumentieren, dass jemand eine Behauptung nur auf der Grundlage der Beweise akzeptieren sollte, dass er oder sie die günstigen Eigenschaften hat, um die Wahrheit der Behauptung zu verstehen.']",2,"Frage: Welche der folgenden Aussagen beschreibt am besten den Irrtum selbstverständlicher Wahrheiten?
+
+Antwortoptionen: ['Argumentieren, dass eine Behauptung nur auf der Grundlage von Beweisen wahr ist, dass eine Autoritätsperson die Behauptung akzeptiert.', 'die Behauptung, dass ein Anspruch nur auf der Grundlage von Beweisen akzeptiert werden sollte, dass nicht identifizierte Behörden ihn akzeptieren.', 'die Behauptung, dass ein Anspruch auf der Grundlage von Beweisen akzeptiert werden sollte, die nicht vorgelegt werden, aber behauptet werden, gut bekannt oder offensichtlich zu sein.', 'Argumentieren, dass jemand eine Behauptung nur auf der Grundlage der Beweise akzeptieren sollte, dass er oder sie die günstigen Eigenschaften hat, um die Wahrheit der Behauptung zu verstehen.']
+
+Antwort: die Behauptung, dass ein Anspruch auf der Grundlage von Beweisen akzeptiert werden sollte, die nicht vorgelegt werden, aber behauptet werden, gut bekannt oder offensichtlich zu sein."
+""" _Ad lazarum_ "" ist eine spezifische Art von",logical_fallacies,"['Anekdotische Beweise', 'Komplexe Ursache', 'Falsche Kriterien', 'Falsches Zeichen']",3,"Frage: "" _Ad lazarum_ "" ist eine spezifische Art von
+
+Antwortoptionen: ['Anekdotische Beweise', 'Komplexe Ursache', 'Falsche Kriterien', 'Falsches Zeichen']
+
+Antwort: Falsches Zeichen"
+"Wir sind vollkommen berechtigt, an die Existenz Gottes zu glauben, denn alle Anstrengungen der Atheisten, das Gegenteil zu beweisen, sind gescheitert.",logical_fallacies,"['Berufung auf die Autorität', 'Verleugnung des Vorgängers', 'Angriff auf die Person (ad hominem)', 'Ein Argument aus Unwissenheit']",3,"Frage: Wir sind vollkommen berechtigt, an die Existenz Gottes zu glauben, denn alle Anstrengungen der Atheisten, das Gegenteil zu beweisen, sind gescheitert.
+
+Antwortoptionen: ['Berufung auf die Autorität', 'Verleugnung des Vorgängers', 'Angriff auf die Person (ad hominem)', 'Ein Argument aus Unwissenheit']
+
+Antwort: Ein Argument aus Unwissenheit"
+"Wenn jemand ein Argument macht Und der einzige Beweis, den er oder sie verwendet, um die Behauptung zu stützen, ist die Aussage, dass eine Autoritätsperson die Behauptung glaubt. Welchen Irrtum hat der Argumentator begangen?",logical_fallacies,"['Zweifelhafter Einsatz von Statistiken', 'Polieren von Äpfeln', 'Selbstverständliche Wahrheiten', 'Argument der Autorität']",3,"Frage: Wenn jemand ein Argument macht Und der einzige Beweis, den er oder sie verwendet, um die Behauptung zu stützen, ist die Aussage, dass eine Autoritätsperson die Behauptung glaubt. Welchen Irrtum hat der Argumentator begangen?
+
+Antwortoptionen: ['Zweifelhafter Einsatz von Statistiken', 'Polieren von Äpfeln', 'Selbstverständliche Wahrheiten', 'Argument der Autorität']
+
+Antwort: Argument der Autorität"
+"Wenn jemand die Bedeutung eines Wortes oder einer Phrase von einem Teil des Arguments zu einem anderen ändert, welche der folgenden Irrtümer kann er begangen haben?",logical_fallacies,"['Besondere Schriftsätze', 'Hypostatierung', 'Fragestellende Bezeichnungen', 'Zweideutigkeit']",3,"Frage: Wenn jemand die Bedeutung eines Wortes oder einer Phrase von einem Teil des Arguments zu einem anderen ändert, welche der folgenden Irrtümer kann er begangen haben?
+
+Antwortoptionen: ['Besondere Schriftsätze', 'Hypostatierung', 'Fragestellende Bezeichnungen', 'Zweideutigkeit']
+
+Antwort: Zweideutigkeit"
+Ein anderer Name für den Irrtum des Zufalls ist,logical_fallacies,"['Lobende Persönlichkeit', 'Schuld durch Assoziation', 'Entweder - oder Trugschluss', ''Dicto simpliciter' (einfach zu formulieren)']",3,"Frage: Ein anderer Name für den Irrtum des Zufalls ist
+
+Antwortoptionen: ['Lobende Persönlichkeit', 'Schuld durch Assoziation', 'Entweder - oder Trugschluss', ''Dicto simpliciter' (einfach zu formulieren)']
+
+Antwort: ""Dicto simpliciter"" (einfach zu formulieren)"
+"""Jeder Begriff muss zweimal verwendet werden, nicht mehr und nicht weniger"" ist eine Anforderung für",logical_fallacies,"['gültiger kategorischer Syllogismus', 'ein gültiger disjunktiver Syllogismus', 'ein gültiger bedingter Syllogismus', 'ein materiell wahrer hypothetischer Syllogismus']",0,"Frage: ""Jeder Begriff muss zweimal verwendet werden, nicht mehr und nicht weniger"" ist eine Anforderung für
+
+Antwortoptionen: ['gültiger kategorischer Syllogismus', 'ein gültiger disjunktiver Syllogismus', 'ein gültiger bedingter Syllogismus', 'ein materiell wahrer hypothetischer Syllogismus']
+
+Antwort: gültiger kategorischer Syllogismus"
+Der Irrtum der falschen Ursache ist,logical_fallacies,"['Sie argumentieren, dass jemand, der arm ist, einen hohen moralischen Charakter haben muss.', 'Argumentieren, dass zwei Dinge ursächlich miteinander verbunden sind, ohne Beweise für eine ursächliche Beziehung', 'mit dem Argument, dass etwas, das neu ist, notwendigerweise schlecht ist', 'Ersatz einzelner Geschichten durch eine größere Stichprobe zur Unterstützung eines Anspruchs']",1,"Frage: Der Irrtum der falschen Ursache ist
+
+Antwortoptionen: ['Sie argumentieren, dass jemand, der arm ist, einen hohen moralischen Charakter haben muss.', 'Argumentieren, dass zwei Dinge ursächlich miteinander verbunden sind, ohne Beweise für eine ursächliche Beziehung', 'mit dem Argument, dass etwas, das neu ist, notwendigerweise schlecht ist', 'Ersatz einzelner Geschichten durch eine größere Stichprobe zur Unterstützung eines Anspruchs']
+
+Antwort: Argumentieren, dass zwei Dinge ursächlich miteinander verbunden sind, ohne Beweise für eine ursächliche Beziehung"
+"Die Behauptung, jemand solle etwas tun, weil andere es tun, ist eine Beschreibung von welchem der folgenden Irrtümer?",logical_fallacies,"['Berufung auf die gängige Praxis', 'Snob-Appeal', 'Argumentation durch Konsens', 'Berufung auf die Tradition']",0,"Frage: Die Behauptung, jemand solle etwas tun, weil andere es tun, ist eine Beschreibung von welchem der folgenden Irrtümer?
+
+Antwortoptionen: ['Berufung auf die gängige Praxis', 'Snob-Appeal', 'Argumentation durch Konsens', 'Berufung auf die Tradition']
+
+Antwort: Berufung auf die gängige Praxis"
+Welches der folgenden Beispiele beschreibt den Irrtum des falschen Trostes?,logical_fallacies,"['Argumentieren gegen eine Position, die nur auf negativen persönlichen Gefühlen gegenüber der Position basiert', 'Reagieren auf Anschuldigungen des Fehlverhaltens, indem sie sagen, dass andere Dinge ebenso schlecht oder schlimmer tun', 'Argumentieren , dass jemand nicht wirklich verletzt wird , weil die Dinge schlimmer sein könnten oder indem man darauf hinweist , wofür man dankbar sein muss', 'mit der Drohung, Schaden zuzufügen, statt zu argumentieren, um eine Einigung herbeizuführen']",2,"Frage: Welches der folgenden Beispiele beschreibt den Irrtum des falschen Trostes?
+
+Antwortoptionen: ['Argumentieren gegen eine Position, die nur auf negativen persönlichen Gefühlen gegenüber der Position basiert', 'Reagieren auf Anschuldigungen des Fehlverhaltens, indem sie sagen, dass andere Dinge ebenso schlecht oder schlimmer tun', 'Argumentieren , dass jemand nicht wirklich verletzt wird , weil die Dinge schlimmer sein könnten oder indem man darauf hinweist , wofür man dankbar sein muss', 'mit der Drohung, Schaden zuzufügen, statt zu argumentieren, um eine Einigung herbeizuführen']
+
+Antwort: Argumentieren , dass jemand nicht wirklich verletzt wird , weil die Dinge schlimmer sein könnten oder indem man darauf hinweist , wofür man dankbar sein muss"
+"Welcher der folgenden Irrtümer tritt auf, wenn jemand zu dem Schluss kommt, dass eine berechtigte Verallgemeinerung unbedingt auf einen bestimmten Fall zutrifft?",logical_fallacies,"['Falsches Dilemma', 'Zirkuläre Argumentation', 'Unfall', 'Zweigeteilung']",2,"Frage: Welcher der folgenden Irrtümer tritt auf, wenn jemand zu dem Schluss kommt, dass eine berechtigte Verallgemeinerung unbedingt auf einen bestimmten Fall zutrifft?
+
+Antwortoptionen: ['Falsches Dilemma', 'Zirkuläre Argumentation', 'Unfall', 'Zweigeteilung']
+
+Antwort: Unfall"
+"Welche der folgenden Aussagen beschreibt am besten den Irrtum, den Brunnen zu vergiften?",logical_fallacies,"['Eine Methode zur Unterdrückung von Beweisen, die eine Beweisquelle aus der Prüfung ausschließt, indem behauptet wird, dass die Quelle fehlerhaft ist. wenn es keinen tatsächlichen Zusammenhang zwischen dem behaupteten Fehler und der Zuverlässigkeit der Quelle gibt', 'die Behauptung, dass ein Anspruch auf der Grundlage von Beweisen akzeptiert werden sollte, die nicht vorgelegt werden, aber als gut bekannt oder offensichtlich bezeichnet werden.', 'Argumentieren, dass etwas nur auf der Grundlage von Beweisen getan werden sollte, dass es in der Vergangenheit so gemacht wurde, oder dass man es nur glauben sollte, weil man es schon lange geglaubt hat.', 'Argumentation, dass eine Behauptung wahr ist, basierend nur auf dem Beweis, dass sie so oft gemacht wurde.']",0,"Frage: Welche der folgenden Aussagen beschreibt am besten den Irrtum, den Brunnen zu vergiften?
+
+Antwortoptionen: ['Eine Methode zur Unterdrückung von Beweisen, die eine Beweisquelle aus der Prüfung ausschließt, indem behauptet wird, dass die Quelle fehlerhaft ist. wenn es keinen tatsächlichen Zusammenhang zwischen dem behaupteten Fehler und der Zuverlässigkeit der Quelle gibt', 'die Behauptung, dass ein Anspruch auf der Grundlage von Beweisen akzeptiert werden sollte, die nicht vorgelegt werden, aber als gut bekannt oder offensichtlich bezeichnet werden.', 'Argumentieren, dass etwas nur auf der Grundlage von Beweisen getan werden sollte, dass es in der Vergangenheit so gemacht wurde, oder dass man es nur glauben sollte, weil man es schon lange geglaubt hat.', 'Argumentation, dass eine Behauptung wahr ist, basierend nur auf dem Beweis, dass sie so oft gemacht wurde.']
+
+Antwort: Eine Methode zur Unterdrückung von Beweisen, die eine Beweisquelle aus der Prüfung ausschließt, indem behauptet wird, dass die Quelle fehlerhaft ist. wenn es keinen tatsächlichen Zusammenhang zwischen dem behaupteten Fehler und der Zuverlässigkeit der Quelle gibt"
+Welche der folgenden Aussagen beschreibt den Trugschluss des Strohmenschen?,logical_fallacies,"['zu argumentieren, dass jemand etwas tun sollte, nur weil er oder sie dadurch besser gemocht werden', 'dass ein gegnerischer Argumentator eine Position eingenommen hat, die Sie leicht besiegen können wenn er oder sie diese Position nicht eingenommen hat Dann gehen Sie auf diese Position zu besiegen und behaupten, erheblichen Schaden zu diesem Argumenter Gesamtargument getan zu haben', 'Angriff auf den Charakter oder den Hintergrund eines gegnerischen Argumentators, anstatt auf die Argumente dieser Person mit guten Beweisen und vernünftigen Gründen zu reagieren', 'auf ein Argument mit einem Ausdruck des Spottes anstelle eines Gegenarguments zu reagieren']",1,"Frage: Welche der folgenden Aussagen beschreibt den Trugschluss des Strohmenschen?
+
+Antwortoptionen: ['zu argumentieren, dass jemand etwas tun sollte, nur weil er oder sie dadurch besser gemocht werden', 'dass ein gegnerischer Argumentator eine Position eingenommen hat, die Sie leicht besiegen können wenn er oder sie diese Position nicht eingenommen hat Dann gehen Sie auf diese Position zu besiegen und behaupten, erheblichen Schaden zu diesem Argumenter Gesamtargument getan zu haben', 'Angriff auf den Charakter oder den Hintergrund eines gegnerischen Argumentators, anstatt auf die Argumente dieser Person mit guten Beweisen und vernünftigen Gründen zu reagieren', 'auf ein Argument mit einem Ausdruck des Spottes anstelle eines Gegenarguments zu reagieren']
+
+Antwort: dass ein gegnerischer Argumentator eine Position eingenommen hat, die Sie leicht besiegen können wenn er oder sie diese Position nicht eingenommen hat Dann gehen Sie auf diese Position zu besiegen und behaupten, erheblichen Schaden zu diesem Argumenter Gesamtargument getan zu haben"
+"Welcher der folgenden Begriffe ist ein anderer Begriff, um das Volk anzusprechen?",logical_fallacies,"['Argumentation durch Konsens', 'Berufung auf Glaubensvorstellungen', 'Kein wahrer Schotte.', 'vernachlässigte Beweise']",0,"Frage: Welcher der folgenden Begriffe ist ein anderer Begriff, um das Volk anzusprechen?
+
+Antwortoptionen: ['Argumentation durch Konsens', 'Berufung auf Glaubensvorstellungen', 'Kein wahrer Schotte.', 'vernachlässigte Beweise']
+
+Antwort: Argumentation durch Konsens"
+"Welche der folgenden Aussagen beschreibt den Irrtum, sich auf die Tradition zu berufen?",logical_fallacies,"['Argumentation, dass eine Behauptung wahr sein muss, weil sie so oft gemacht wurde', 'Argumentation, dass eine Behauptung wahr sein muss, weil eine gewöhnliche Person sie glaubt', 'Argumentation, dass eine Behauptung wahr sein muss, weil sie in der Vergangenheit geglaubt wurde', 'Argumentation, dass eine Behauptung wahr sein muss, weil viele Menschen sie glauben']",2,"Frage: Welche der folgenden Aussagen beschreibt den Irrtum, sich auf die Tradition zu berufen?
+
+Antwortoptionen: ['Argumentation, dass eine Behauptung wahr sein muss, weil sie so oft gemacht wurde', 'Argumentation, dass eine Behauptung wahr sein muss, weil eine gewöhnliche Person sie glaubt', 'Argumentation, dass eine Behauptung wahr sein muss, weil sie in der Vergangenheit geglaubt wurde', 'Argumentation, dass eine Behauptung wahr sein muss, weil viele Menschen sie glauben']
+
+Antwort: Argumentation, dass eine Behauptung wahr sein muss, weil sie in der Vergangenheit geglaubt wurde"
+Welche der folgenden Erklärungen ist die beste Erklärung für den Irrtum der aufgeladenen Sprache?,logical_fallacies,"['Emotional geladene Sprache verwenden, um einen Eindruck über das Thema eines Anspruchs zu erzeugen, ohne zu argumentieren, dass die Sprache zum Thema passt.', 'Verweis auf eine Handlung, die von einem Gegner in negativen Worten begangen wurde, während auf die gleiche Handlung, die vom Argumentator oder den Unterstützern in günstigen Worten begangen wurde, verwiesen wird.', 'Sprache und Interpunktion so verwenden, dass eine Aussage mehrere Interpretationen haben kann, so dass nicht wirklich klar ist, was gemeint ist.', 'Verwechselung von Bildsprache mit wörtlicher Sprache']",0,"Frage: Welche der folgenden Erklärungen ist die beste Erklärung für den Irrtum der aufgeladenen Sprache?
+
+Antwortoptionen: ['Emotional geladene Sprache verwenden, um einen Eindruck über das Thema eines Anspruchs zu erzeugen, ohne zu argumentieren, dass die Sprache zum Thema passt.', 'Verweis auf eine Handlung, die von einem Gegner in negativen Worten begangen wurde, während auf die gleiche Handlung, die vom Argumentator oder den Unterstützern in günstigen Worten begangen wurde, verwiesen wird.', 'Sprache und Interpunktion so verwenden, dass eine Aussage mehrere Interpretationen haben kann, so dass nicht wirklich klar ist, was gemeint ist.', 'Verwechselung von Bildsprache mit wörtlicher Sprache']
+
+Antwort: Emotional geladene Sprache verwenden, um einen Eindruck über das Thema eines Anspruchs zu erzeugen, ohne zu argumentieren, dass die Sprache zum Thema passt."
+"Eine Forderung automatisch abzulehnen, nur weil sie traditionell ist...",logical_fallacies,"['Unzumutbar', 'Ein Appell an die Tradition', 'Ein Appell an die Massen', 'Angemessen']",0,"Frage: Eine Forderung automatisch abzulehnen, nur weil sie traditionell ist...
+
+Antwortoptionen: ['Unzumutbar', 'Ein Appell an die Tradition', 'Ein Appell an die Massen', 'Angemessen']
+
+Antwort: Unzumutbar"
+"Ein schlüpfriger Argumentationsmuster ist trügerisch, wenn...",logical_fallacies,"['Es ist hypothetisch .', 'Es gibt gute Gründe zu der Annahme, dass eine Handlung zwangsläufig zu einer anderen unerwünschten Handlung führt', 'Es gibt nur zwei mögliche Ergebnisse.', 'Es gibt keinen guten Grund zu der Annahme, dass eine Handlung zwangsläufig zu einer anderen unerwünschten Handlung führt']",3,"Frage: Ein schlüpfriger Argumentationsmuster ist trügerisch, wenn...
+
+Antwortoptionen: ['Es ist hypothetisch .', 'Es gibt gute Gründe zu der Annahme, dass eine Handlung zwangsläufig zu einer anderen unerwünschten Handlung führt', 'Es gibt nur zwei mögliche Ergebnisse.', 'Es gibt keinen guten Grund zu der Annahme, dass eine Handlung zwangsläufig zu einer anderen unerwünschten Handlung führt']
+
+Antwort: Es gibt keinen guten Grund zu der Annahme, dass eine Handlung zwangsläufig zu einer anderen unerwünschten Handlung führt"
+Welche der folgenden Aussagen beschreibt am besten den Irrtum des besonderen Plädoyers?,logical_fallacies,"['Argumentieren, daß Ideen, die auf ansprechende Weise dargestellt werden, richtig sind, ungeachtet des Inhalts der Botschaft.', 'Sprache und Interpunktion so verwenden, dass eine Aussage mehrere Interpretationen haben kann, so dass nicht wirklich klar ist, was gemeint ist.', 'Verwechseln von Bildsprache mit buchstäblicher Sprache.', 'Verweis auf eine Handlung, die von einem Gegner in negativen Worten begangen wurde, während auf dieselbe Handlung, die vom Argumentanten oder den Unterstützern begangen wurde, in günstigen Worten verwiesen wird']",3,"Frage: Welche der folgenden Aussagen beschreibt am besten den Irrtum des besonderen Plädoyers?
+
+Antwortoptionen: ['Argumentieren, daß Ideen, die auf ansprechende Weise dargestellt werden, richtig sind, ungeachtet des Inhalts der Botschaft.', 'Sprache und Interpunktion so verwenden, dass eine Aussage mehrere Interpretationen haben kann, so dass nicht wirklich klar ist, was gemeint ist.', 'Verwechseln von Bildsprache mit buchstäblicher Sprache.', 'Verweis auf eine Handlung, die von einem Gegner in negativen Worten begangen wurde, während auf dieselbe Handlung, die vom Argumentanten oder den Unterstützern begangen wurde, in günstigen Worten verwiesen wird']
+
+Antwort: Verweis auf eine Handlung, die von einem Gegner in negativen Worten begangen wurde, während auf dieselbe Handlung, die vom Argumentanten oder den Unterstützern begangen wurde, in günstigen Worten verwiesen wird"
+"Ob jemand in Bezug auf ihre Ansprüche heuchlerisch ist, ist...",logical_fallacies,"['Irrelevant für ihren Charakter.', 'Beweise für die Unwahrheit der Ansprüche', 'Unerheblich für die Wahrhaftigkeit der Behauptungen', 'Nur vor Gericht maßgeblich']",2,"Frage: Ob jemand in Bezug auf ihre Ansprüche heuchlerisch ist, ist...
+
+Antwortoptionen: ['Irrelevant für ihren Charakter.', 'Beweise für die Unwahrheit der Ansprüche', 'Unerheblich für die Wahrhaftigkeit der Behauptungen', 'Nur vor Gericht maßgeblich']
+
+Antwort: Unerheblich für die Wahrhaftigkeit der Behauptungen"
+"Wenn jemand sagt , wenn du etwas tust , wird es zu extremen Konsequenzen führen . Aber es liefert keinen Beweis für eine Ursache-Wirkungs-Beziehung zwischen Ihrer Handlung und diesen Konsequenzen. Welche der folgenden Irrtümer hat diese Person vermutlich begangen?",logical_fallacies,"['unerträglich', 'Selbstverständliche Wahrheiten', 'rutschige Steigung', 'Unterdrückte Beweise']",2,"Frage: Wenn jemand sagt , wenn du etwas tust , wird es zu extremen Konsequenzen führen . Aber es liefert keinen Beweis für eine Ursache-Wirkungs-Beziehung zwischen Ihrer Handlung und diesen Konsequenzen. Welche der folgenden Irrtümer hat diese Person vermutlich begangen?
+
+Antwortoptionen: ['unerträglich', 'Selbstverständliche Wahrheiten', 'rutschige Steigung', 'Unterdrückte Beweise']
+
+Antwort: rutschige Steigung"
+Der damit einhergehende Variationsfehler ist,logical_fallacies,"['die Ursache eines Ereignisses einer einzigen Ursache zuzuschreiben, wenn die Ursache komplizierter ist', 'Argumentieren, dass, da zwei Ereignisse zur gleichen Zeit passierten, ein Ereignis das andere verursacht haben muss', 'Da ein Ereignis einem anderen vorausging, muss es das zweite Ereignis verursacht haben.', 'eine Schlussfolgerung auf der Grundlage des Zeichenverständnisses zu ziehen, wenn zwischen dem angeblichen Zeichen und dem Gegenstand der Schlussfolgerung keine tatsächliche unmittelbare Beziehung besteht']",1,"Frage: Der damit einhergehende Variationsfehler ist
+
+Antwortoptionen: ['die Ursache eines Ereignisses einer einzigen Ursache zuzuschreiben, wenn die Ursache komplizierter ist', 'Argumentieren, dass, da zwei Ereignisse zur gleichen Zeit passierten, ein Ereignis das andere verursacht haben muss', 'Da ein Ereignis einem anderen vorausging, muss es das zweite Ereignis verursacht haben.', 'eine Schlussfolgerung auf der Grundlage des Zeichenverständnisses zu ziehen, wenn zwischen dem angeblichen Zeichen und dem Gegenstand der Schlussfolgerung keine tatsächliche unmittelbare Beziehung besteht']
+
+Antwort: Argumentieren, dass, da zwei Ereignisse zur gleichen Zeit passierten, ein Ereignis das andere verursacht haben muss"
+""" _Ad novitatem_ "" ist eine spezifische Art von Irrtum .",logical_fallacies,"['Abteilung', 'Falsches Zeichen', 'Falsche Ursache', 'Überstürzte Verallgemeinerung']",1,"Frage: "" _Ad novitatem_ "" ist eine spezifische Art von Irrtum .
+
+Antwortoptionen: ['Abteilung', 'Falsches Zeichen', 'Falsche Ursache', 'Überstürzte Verallgemeinerung']
+
+Antwort: Falsches Zeichen"
+"Eine Behauptung abzulehnen, indem man die Person kritisiert, die sie vorbringt, anstatt die Behauptung selbst zu kritisieren, ist bekannt als der Trugschluss von...",logical_fallacies,"['Abteilung', 'Der Appell an die Emotionen', 'Zusammensetzung', 'Berufung auf die Person']",3,"Frage: Eine Behauptung abzulehnen, indem man die Person kritisiert, die sie vorbringt, anstatt die Behauptung selbst zu kritisieren, ist bekannt als der Trugschluss von...
+
+Antwortoptionen: ['Abteilung', 'Der Appell an die Emotionen', 'Zusammensetzung', 'Berufung auf die Person']
+
+Antwort: Berufung auf die Person"
+Welche der folgenden Aussagen beschreibt den Irrtum der Amphibolie am besten?,logical_fallacies,"['Emotional geladene Sprachen verwenden, um einen Eindruck über das Thema eines Anspruchs zu erzeugen, ohne zu argumentieren, dass die Sprache zum Thema passt.', 'Verweis auf eine Handlung, die von einem Gegner in negativen Worten begangen wurde, während auf die gleiche Handlung, die vom Argumentator oder den Unterstützern in günstigen Worten begangen wurde, verwiesen wird.', 'Grammatik und Interpunktion so verwenden, dass eine Aussage mehrere Interpretationen haben kann, so dass nicht wirklich klar ist, was gemeint ist.', 'Ändern der Bedeutung eines Wortes oder einer Phrase von einem Teil des Arguments zu einem anderen.']",2,"Frage: Welche der folgenden Aussagen beschreibt den Irrtum der Amphibolie am besten?
+
+Antwortoptionen: ['Emotional geladene Sprachen verwenden, um einen Eindruck über das Thema eines Anspruchs zu erzeugen, ohne zu argumentieren, dass die Sprache zum Thema passt.', 'Verweis auf eine Handlung, die von einem Gegner in negativen Worten begangen wurde, während auf die gleiche Handlung, die vom Argumentator oder den Unterstützern in günstigen Worten begangen wurde, verwiesen wird.', 'Grammatik und Interpunktion so verwenden, dass eine Aussage mehrere Interpretationen haben kann, so dass nicht wirklich klar ist, was gemeint ist.', 'Ändern der Bedeutung eines Wortes oder einer Phrase von einem Teil des Arguments zu einem anderen.']
+
+Antwort: Grammatik und Interpunktion so verwenden, dass eine Aussage mehrere Interpretationen haben kann, so dass nicht wirklich klar ist, was gemeint ist."
+"Wenn jemand Grammatik oder Interpunktion so verwendet, dass eine Aussage mehr als eine mögliche Interpretation hat Welche der folgenden Irrtümer hat diese Person möglicherweise begangen?",logical_fallacies,"['Amphibolie', 'Hypostatierung', 'Fragestellende Bezeichnungen', 'Stil über Substanz']",0,"Frage: Wenn jemand Grammatik oder Interpunktion so verwendet, dass eine Aussage mehr als eine mögliche Interpretation hat Welche der folgenden Irrtümer hat diese Person möglicherweise begangen?
+
+Antwortoptionen: ['Amphibolie', 'Hypostatierung', 'Fragestellende Bezeichnungen', 'Stil über Substanz']
+
+Antwort: Amphibolie"
+"Den Leuten zu sagen, dass sie nicht verletzt wurden, weil es etwas gibt, für das sie dankbar sein sollten, begeht welchen der folgenden Irrtümer?",logical_fallacies,"['genetische Trugschlüsse', 'Pferdelachen', 'falscher Trost', 'appellieren an die Freude']",2,"Frage: Den Leuten zu sagen, dass sie nicht verletzt wurden, weil es etwas gibt, für das sie dankbar sein sollten, begeht welchen der folgenden Irrtümer?
+
+Antwortoptionen: ['genetische Trugschlüsse', 'Pferdelachen', 'falscher Trost', 'appellieren an die Freude']
+
+Antwort: falscher Trost"

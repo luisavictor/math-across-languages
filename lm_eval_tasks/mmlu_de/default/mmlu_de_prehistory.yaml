@@ -1,0 +1,8 @@
+include: _default_template_yaml
+"task": "mmlu_de_prehistory"
+"task_alias": "prehistory"
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_German/mmlu_de_by_subject/prehistory.csv
+
+test_split: test

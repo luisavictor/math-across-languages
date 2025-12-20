@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="victorl0@iai76:22 agent (2)">
+  <component name="PublishConfigData" autoUpload="Always" serverName="victorl0@iai76:22 agent (4)">
     <serverData>
       <paths name="IAI76">
         <serverdata>
@@ -17,6 +17,20 @@
         </serverdata>
       </paths>
       <paths name="victorl0@iai76:22 agent (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/iailab76/victorl0/pycharm_sync" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="victorl0@iai76:22 agent (3)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/iailab76/victorl0/pycharm_sync" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="victorl0@iai76:22 agent (4)">
         <serverdata>
           <mappings>
             <mapping deploy="/home/iailab76/victorl0/pycharm_sync" local="$PROJECT_DIR$" />
