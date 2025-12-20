@@ -225,7 +225,7 @@ if args.pre_train_eval:
         # if you want to include tasks from paths other than ones in `lm_eval/tasks`.
         # `simple_evaluate` will instantiate its own task_manager if it is set to None here.
         model.eval()
-        '''results = lm_eval.simple_evaluate(  # call simple_evaluate
+        results = lm_eval.simple_evaluate(  # call simple_evaluate
             model='hf',
             model_args={'pretrained': model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
             tasks=args.train_lm_eval_task,
@@ -238,7 +238,7 @@ if args.pre_train_eval:
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results_train_task.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
         with open(results_path, "w") as outfile:
-            json.dump(results['results'], outfile)'''
+            json.dump(results['results'], outfile)
 
         model.eval()
         results = lm_eval.simple_evaluate(  # call simple_evaluate
