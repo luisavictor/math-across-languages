@@ -42,6 +42,9 @@ parser.add_argument('--num_samples', help="desired number of samples for calcula
 parser.add_argument('--train_lm_eval_task',
                     help="if your training dataset is an Eleuther AI LM Evaluation Harness task, specify the associated task for the test set.",
                     type=str, default=None)
+parser.add_argument('--run_codealpaca_eval',
+                    help="run CodeAlpaca oracle evaluation after lm_eval",
+                    action="store_true")
 parser.add_argument('--proportion', help="desired proportion of top parameters to calculate", type=float, default=None)
 parser.add_argument('--fine_tune', help="freeze all non-task-specific parameters and fine-tune only isolated task-specific weights",action="store_true")
 parser.add_argument('--store_params', help="store task-specific isolated parameters",action="store_true")
@@ -55,7 +58,7 @@ import numpy as np
 import re
 import lm_eval
 import json
-
+import codealpaca_oracle
 
 
 import random, numpy as np, torch
@@ -64,6 +67,16 @@ np.random.seed(args.random_state)
 torch.manual_seed(args.random_state)
 torch.cuda.manual_seed_all(args.random_state)
 torch.backends.cudnn.benchmark = False
+
+oracle_cases_path = None
+oracle_eval_ids = None
+if args.run_codealpaca_eval:
+    oracle_cases_path, _ = codealpaca_oracle.oracle_paths()
+    oracle_eval_ids = codealpaca_oracle.select_oracle_sample_ids(
+        oracle_cases_path,
+        eval_subset=args.eval_dataset_subset,
+        min_cases_per_id=2,
+    )
 
 
 
@@ -137,7 +150,8 @@ if args.pre_train_eval:
             questions = []
             final_question = val.iloc[i]['question']
             final_answer = val.iloc[i]['answer']
-            final_prompt = f"""Instruct: {final_question} Let's write a Python program.\nOutput:"""
+            format_rule = "Return only Python function definitions; no top-level code or prints."
+            prompt = f"{format_rule}\n\nInstruct: {question} Let's write a Python program.\nOutput:\n{answer}"
 
             for j in range(0, 8):
                 question = train['question'].iloc[j]
@@ -225,20 +239,65 @@ if args.pre_train_eval:
         # if you want to include tasks from paths other than ones in `lm_eval/tasks`.
         # `simple_evaluate` will instantiate its own task_manager if it is set to None here.
         model.eval()
-        results = lm_eval.simple_evaluate(  # call simple_evaluate
-            model='hf',
-            model_args={'pretrained': model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
-            tasks=args.train_lm_eval_task,
-            task_manager=task_manager,
-            log_samples=True,
-            batch_size=1,
-            limit=args.eval_dataset_subset,
-            random_seed=args.random_state
-        )
+        codealpaca_limit = args.eval_dataset_subset
+        oracle_env_set = False
+        if args.run_codealpaca_eval and oracle_eval_ids is not None:
+            os.environ["CODEALPACA_ORACLE_CASES_PATH"] = oracle_cases_path
+            os.environ["CODEALPACA_ALLOWED_SAMPLE_IDS"] = ",".join(
+                str(sid) for sid in sorted(oracle_eval_ids)
+            )
+            oracle_env_set = True
+            codealpaca_limit = len(oracle_eval_ids)
+        try:
+            results = lm_eval.simple_evaluate(  # call simple_evaluate
+                model='hf',
+                model_args={'pretrained': model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
+                tasks=args.train_lm_eval_task,
+                task_manager=task_manager,
+                log_samples=True,
+                batch_size=1,
+                limit=codealpaca_limit,
+                random_seed=args.random_state
+            )
+        finally:
+            if oracle_env_set:
+                os.environ.pop("CODEALPACA_ORACLE_CASES_PATH", None)
+                os.environ.pop("CODEALPACA_ALLOWED_SAMPLE_IDS", None)
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results_train_task.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
         with open(results_path, "w") as outfile:
             json.dump(results['results'], outfile)
+
+        samples = results["samples"]["codealpaca"]
+        out_path = f"{args.save_path}/eval_results/{args.model}/codealpaca_samples.jsonl"
+        os.makedirs(os.path.dirname(out_path), exist_ok=True)
+
+        with open(out_path, "w", encoding="utf-8") as f:
+            for ex in samples:
+                resp = ex.get("filtered_resps", [None])[0]
+                if isinstance(resp, list):
+                    resp = resp[0] if resp else ""
+                if resp is None:
+                    resp = ex.get("resps", [[None]])[0][0]
+                sample_id = ex.get("doc", {}).get("sample_id")
+                if sample_id is None:
+                    sample_id = ex["doc_id"]
+                f.write(json.dumps({"sample_id": int(sample_id), "code": resp}, ensure_ascii=False) + "\n")
+        if args.run_codealpaca_eval:
+            candidate_path = f"{args.save_path}/eval_results/{args.model}/candidate_generations.jsonl"
+            print(candidate_path)
+            metrics_path = f"{args.save_path}/eval_results/{args.model}/codealpaca_oracle_metrics.json"
+            codealpaca_oracle.write_codealpaca_candidates(
+                samples,
+                candidate_path,
+                allowed_sample_ids=set(oracle_eval_ids) if oracle_eval_ids is not None else None,
+            )
+            codealpaca_oracle.run_codealpaca_oracle_eval(
+                candidate_path,
+                metrics_path,
+                allowed_sample_ids=set(oracle_eval_ids) if oracle_eval_ids is not None else None,
+                max_cases_per_id=2,
+            )
 
         model.eval()
         results = lm_eval.simple_evaluate(  # call simple_evaluate
@@ -928,6 +987,53 @@ for dataset in dataset_list:
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
                 with open(results_path, "w") as outfile:
                     json.dump(results['results'], outfile)
+
+                if args.run_codealpaca_eval:
+                    model.eval()
+                    codealpaca_limit = args.eval_dataset_subset
+                    oracle_env_set = False
+                    if oracle_eval_ids is not None:
+                        os.environ["CODEALPACA_ORACLE_CASES_PATH"] = oracle_cases_path
+                        os.environ["CODEALPACA_ALLOWED_SAMPLE_IDS"] = ",".join(
+                            str(sid) for sid in sorted(oracle_eval_ids)
+                        )
+                        oracle_env_set = True
+                        codealpaca_limit = len(oracle_eval_ids)
+                    try:
+                        codealpaca_results = lm_eval.simple_evaluate(  # call simple_evaluate
+                            model='hf',
+                            model_args={'pretrained': model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
+                            tasks=args.train_lm_eval_task,
+                            task_manager=task_manager,
+                            log_samples=True,
+                            batch_size=1,
+                            limit=codealpaca_limit,
+                            random_seed=args.random_state
+                        )
+                    finally:
+                        if oracle_env_set:
+                            os.environ.pop("CODEALPACA_ORACLE_CASES_PATH", None)
+                            os.environ.pop("CODEALPACA_ALLOWED_SAMPLE_IDS", None)
+                    samples = codealpaca_results["samples"]["codealpaca"]
+                    candidate_path = (
+                        f"{args.save_path}/eval_results/{args.model}/"
+                        f"candidate_generations_{dataset.name}_calculate{good_percent}_scalar{scalar}_run{repeat}.jsonl"
+                    )
+                    metrics_path = (
+                        f"{args.save_path}/eval_results/{args.model}/"
+                        f"codealpaca_oracle_metrics_{dataset.name}_calculate{good_percent}_scalar{scalar}_run{repeat}.json"
+                    )
+                    codealpaca_oracle.write_codealpaca_candidates(
+                        samples,
+                        candidate_path,
+                        allowed_sample_ids=set(oracle_eval_ids) if oracle_eval_ids is not None else None,
+                    )
+                    codealpaca_oracle.run_codealpaca_oracle_eval(
+                        candidate_path,
+                        metrics_path,
+                        allowed_sample_ids=set(oracle_eval_ids) if oracle_eval_ids is not None else None,
+                        max_cases_per_id=2,
+                    )
 
                 model.eval()
                 results = lm_eval.simple_evaluate(  # call simple_evaluate
