@@ -1,4 +1,5 @@
 import math
+import re
 from collections import deque
 from contextlib import nullcontext
 
@@ -10,7 +11,7 @@ def fine_tune_on_isolated_params(
     tokenizer,
     train_df,
     isolated_masks,
-    num_epochs=5,
+    num_epochs=10,
     lr=2e-4,
     max_length=500,
     use_amp=True,
@@ -177,8 +178,6 @@ def fine_tune_on_isolated_params(
 
             qa_text = row["qa"]
             prompt_text, target_text = split_qa_cot(qa_text)
-            print("target is:", target_text)
-
             prompt_ids = tokenizer(
                 prompt_text,
                 add_special_tokens=True,
