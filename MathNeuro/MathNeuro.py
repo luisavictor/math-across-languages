@@ -512,8 +512,8 @@ if args.proportion is not None:
 scalar = args.scalar
 for dataset in dataset_list:
     for repeat in range(0, num_repeats):
-        sampled_train = train.sample(n=num_samples, replace=True)
-        sampled_comparison = dataset.sample(n=num_samples, replace=True)
+        sampled_train = train.sample(n=num_samples, replace=True, random_state=args.random_state)
+        sampled_comparison = dataset.sample(n=num_samples, replace=True, random_state=args.random_state)
         for good_percent in good_percents:
             model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
             model.eval()
@@ -617,7 +617,6 @@ for dataset in dataset_list:
 
 
                 def remove_hooks(model):
-                    # Function to remove all hooks
                     for name, module in model.named_modules():
                         # Check if the module has any forward hooks
                         if hasattr(module, "_forward_hooks") and len(module._forward_hooks) > 0:
@@ -627,24 +626,18 @@ for dataset in dataset_list:
                 remove_hooks(model)
                 torch.cuda.empty_cache()
 
-                # e.g., one pass over num_samples examples
                 fine_tune_on_isolated_params(
                     model=model,
                     tokenizer=tokenizer,
-                    train_df=sampled_train,
-                    isolated_masks=isolated_masks
+                    train_df=sampled_train,  #  fine-tune on the same 500 samples for that the params have been identified
+                    isolated_masks=isolated_masks,
+                    seed = args.random_state
                 )
                 model.eval()
-                if hasattr(model, "config"):
-                    model.config.use_cache = True
-                if hasattr(model, "gradient_checkpointing_disable"):
-                    model.gradient_checkpointing_disable()
-                for p in model.parameters():
-                    p.requires_grad = False
                 del isolated_masks
 
 
-
+            # prune or scale based on scalar value
             else:
                 prune_params = prune(comparison_params, good_params, scalar, return_good=True)
                 del good_params

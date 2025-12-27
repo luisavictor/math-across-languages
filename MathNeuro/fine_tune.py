@@ -1,8 +1,7 @@
 import math
-import re
+import random
 from collections import deque
 from contextlib import nullcontext
-
 import torch
 
 
@@ -11,23 +10,36 @@ def fine_tune_on_isolated_params(
     tokenizer,
     train_df,
     isolated_masks,
-    num_epochs=10,
-    lr=2e-4,
-    max_length=500,
+    num_epochs=4,
+    lr=5e-5,
+    max_length=512,
     use_amp=True,
     amp_dtype=torch.bfloat16,
     grad_clip=1.0,
-    weight_decay=0.0,
+    weight_decay=1e-3,
     store_base_fp32=True,
-
-    # stability knobs
-    grad_accum_steps=8,
-    warmup_ratio=0.03,
+    grad_accum_steps=16,
+    warmup_ratio=0.1,
     log_every=30,
     check_drift_every=300,
     drift_eps=1e-8,
+    seed=None,
+    cudnn_benchmark=False,
 ):
     device = next(model.parameters()).device
+    if seed is not None:
+        random.seed(seed)
+        torch.manual_seed(seed)
+        if torch.cuda.is_available():
+            torch.cuda.manual_seed_all(seed)
+        try:
+            import numpy as np
+        except Exception:
+            np = None
+        if np is not None:
+            np.random.seed(seed)
+
+    torch.backends.cudnn.benchmark = cudnn_benchmark
 
     if hasattr(model, "config") and hasattr(model.config, "use_cache"):
         model.config.use_cache = False
@@ -36,7 +48,7 @@ def fine_tune_on_isolated_params(
         if hasattr(model, "enable_input_require_grads"):
             model.enable_input_require_grads()
 
-    # ---- Build trainable set + cache masks + base weights ----
+    # Build trainable set + cache masks + base weights
     trainables = []
     mask_cache = {}
     base_cache = {}
@@ -53,7 +65,6 @@ def fine_tune_on_isolated_params(
 
                 mask_cache[name] = m.to(device=device, dtype=p.dtype)
 
-                # cache base on DEVICE ONCE (fp32 optional)
                 if store_base_fp32:
                     base_cache[name] = p.detach().to(device=device, dtype=torch.float32).clone()
                 else:
@@ -67,7 +78,7 @@ def fine_tune_on_isolated_params(
         print("No isolated task-specific parameters found. Skipping fine-tuning.")
         return
 
-    # ---- Gradient masking hooks ----
+    # Gradient masking hooks
     hooks = []
     for name, p in trainables:
         m = mask_cache[name]
@@ -83,54 +94,28 @@ def fine_tune_on_isolated_params(
 
     total_steps = num_epochs * len(train_df)
     warmup_steps = max(1, int(warmup_ratio * total_steps))
-
     scaler = torch.amp.GradScaler("cuda", enabled=(use_amp and amp_dtype == torch.float16))
-
     model.train()
     global_step = 0
     opt_step = 0  # optimizer steps (after accumulation)
 
-    loss_window = deque(maxlen=20)
+
 
     def split_qa_cot(qa_text: str):
-        full_cot = True
-        answer_only = False
-        whole_answer_only = False
-        if full_cot:
-            # tests for cot + the answer is XY
-            if "A:" in qa_text:
-                question_part, _, answer_part = qa_text.partition("A:")
-                prompt_text = question_part.strip()
-                if not prompt_text.endswith("A:"):
-                    prompt_text = prompt_text.rstrip() + "\nA:"
-                return prompt_text, answer_part.lstrip()
-            return qa_text.strip(), ""
-        if answer_only:
-            # Only checks for the numerical answer
-            if "The answer is " in qa_text:
-                question_part, _, answer_part = qa_text.partition("The answer is :")
-                prompt_text = question_part.strip()
-                if not prompt_text.endswith("The answer is :"):
-                    prompt_text = prompt_text.rstrip() + "\nThe answer is :"
-                return prompt_text, answer_part.lstrip()
-            return qa_text.strip(), ""
-
-        if whole_answer_only:
-            key = "The answer is "
-            idx = qa_text.find(key)
-            if idx != -1:
-                prompt_text = qa_text[:idx].strip()
-                target_text = qa_text[idx:].lstrip()  # includes "The answer is ..."
-                return prompt_text, target_text
-            return qa_text.strip(), ""
+        # target = cot + The answer is XY
+        if "A:" in qa_text:
+            question_part, _, answer_part = qa_text.partition("A:")
+            prompt_text = question_part.strip()
+            if not prompt_text.endswith("A:"):
+                prompt_text = prompt_text.rstrip() + "\nA:"
+            return prompt_text, answer_part.lstrip()
+        return qa_text.strip(), ""
 
 
     def set_lr(step_idx: int):
-        """step_idx is global_step starting at 1"""
         if step_idx <= warmup_steps:
             lr_scale = step_idx / warmup_steps
         else:
-            # cosine from 1 -> 0 over the remaining steps
             t = (step_idx - warmup_steps) / max(1, (total_steps - warmup_steps))
             lr_scale = 0.5 * (1.0 + math.cos(math.pi * t))
         new_lr = lr * lr_scale
@@ -143,12 +128,11 @@ def fine_tune_on_isolated_params(
             for name, p in trainables:
                 m = mask_cache[name]
                 base = base_cache[name]
-                # match dtype for mixing
                 base_cast = base.to(dtype=p.dtype) if base.dtype != p.dtype else base
-                # p = base on (1-m), keep p on m
                 p.data.mul_(m).add_(base_cast * (1 - m))
 
     def check_drift():
+        # probably, we dont need this, just for checking that no undesired params are updated/changed --> would print warning then
         with torch.no_grad():
             max_drift = 0.0
             worst = None
@@ -167,10 +151,14 @@ def fine_tune_on_isolated_params(
                 print(f"[WARN] non-masked drift={max_drift:.3e} worst={worst}")
             return max_drift
 
+
     optimizer.zero_grad(set_to_none=True)
 
     for epoch in range(num_epochs):
-        epoch_df = train_df.sample(frac=1).reset_index(drop=True)
+        if seed is None:
+            epoch_df = train_df.sample(frac=1).reset_index(drop=True)
+        else:
+            epoch_df = train_df.sample(frac=1, random_state=seed + epoch).reset_index(drop=True)
 
         for _, row in epoch_df.iterrows():
             global_step += 1
@@ -216,7 +204,8 @@ def fine_tune_on_isolated_params(
                 outputs = model(input_ids=input_ids, labels=labels)
                 loss = outputs.loss / grad_accum_steps  # normalize for accumulation
 
-            # logging (use the *unscaled* loss value for display)
+            # logging
+            loss_window = deque(maxlen=20)
             loss_window.append(float((loss.detach().item()) * grad_accum_steps))
             if global_step % log_every == 0 or global_step == 1:
                 meanN = sum(loss_window) / len(loss_window)
@@ -243,12 +232,8 @@ def fine_tune_on_isolated_params(
                     optimizer.step()
 
                 opt_step += 1
-
-                # hard constraint projection
                 projection()
-
                 optimizer.zero_grad(set_to_none=True)
-
                 if (opt_step % max(1, check_drift_every // max(1, grad_accum_steps))) == 0:
                     check_drift()
 
