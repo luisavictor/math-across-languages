@@ -109,7 +109,14 @@ def fine_tune_on_isolated_params(
             if not prompt_text.endswith("A:"):
                 prompt_text = prompt_text.rstrip() + "\nA:"
             return prompt_text, answer_part.lstrip()
-        return qa_text.strip(), ""
+        #return qa_text.strip(), ""
+
+        else:
+             prompt_part = qa_text["question"]
+             answer_part = qa_text["solution"]
+             return prompt_part, answer_part
+
+
 
 
     def set_lr(step_idx: int):
@@ -163,8 +170,10 @@ def fine_tune_on_isolated_params(
         for _, row in epoch_df.iterrows():
             global_step += 1
             cur_lr = set_lr(global_step)
-
-            qa_text = row["qa"]
+            if "qa" in row:
+                qa_text = row["qa"]
+            else:
+                qa_text = row
             prompt_text, target_text = split_qa_cot(qa_text)
             prompt_ids = tokenizer(
                 prompt_text,
@@ -178,6 +187,9 @@ def fine_tune_on_isolated_params(
                 truncation=False,
                 max_length=max_length,
             )["input_ids"]
+
+            print("prompt text:", prompt_text)
+            print("target text:", target_text)
 
             if len(target_ids) == 0:
                 continue
