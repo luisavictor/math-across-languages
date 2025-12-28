@@ -44,7 +44,7 @@ def filter_python_only(input_csv: str, output_csv: str,
 
 def main():
 
-    filter_python_only("codealpaca_test.csv", "codealpaca_test_filtered.csv", "completion")
+    filter_python_only("codealpaca_train.csv", "codealpaca_train_filtered.csv", "solution")
 
 if __name__ == "__main__":
     main()

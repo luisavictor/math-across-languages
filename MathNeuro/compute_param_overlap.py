@@ -1,3 +1,7 @@
+'''
+Given the .pt files, this script allows to compute the Jaccard similarity of two parameter sets, e.g., of English and German math specific params.
+'''
+
 import torch
 import os
 

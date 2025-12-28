@@ -1,3 +1,8 @@
+'''
+Can be used to monitor generated output during lm_eval tasks.
+Currently, we do no use it actively.
+'''
+
 import json
 import functools
 

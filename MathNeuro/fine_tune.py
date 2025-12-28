@@ -1,3 +1,6 @@
+'''
+This gets called when task-specific parameters should be fine-tuned on the current training task.
+'''
 import math
 import random
 from collections import deque
@@ -187,9 +190,6 @@ def fine_tune_on_isolated_params(
                 truncation=False,
                 max_length=max_length,
             )["input_ids"]
-
-            print("prompt text:", prompt_text)
-            print("target text:", target_text)
 
             if len(target_ids) == 0:
                 continue
