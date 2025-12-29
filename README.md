@@ -3,6 +3,7 @@
 This repository explores task-specific parameter isolation (pruning/scaling/fine-tuning) for math and code tasks, with evaluation via the EleutherAI LM Evaluation Harness and a CodeAlpaca oracle.
 
 ## Project layout
+
 - `MathNeuro/MathNeuro.py`: main experiment driver (identify task-specific parameters, prune/scale, eval).
 - `MathNeuro/fine_tune.py`: fine-tunes only isolated parameters after mask selection.
 - `MathNeuro/compute_param_overlap.py`: compares two isolated parameter masks, e.g., English vs German math-specific parameters in terms of Jaccard similarity.
@@ -14,16 +15,18 @@ This repository explores task-specific parameter isolation (pruning/scaling/fine
 - `custom_datasets/`: german translations of GSM8K, MMLU and Race, and for coding the original CodeAlpaca, each with train/test split
 - `lm_eval_tasks/`: custom tasks/yaml files for lm_eval (e.g., German gsm8k_cot is not a predefined task in the standard lm_eval package, thus, we defined it ourselves).
 
-## Setup (local)
+## Setup for conda(local)
+
 ```
-py -m venv .venv
-.\.venv\Scripts\activate
-pip install -r MathNeuro/requirements.txt
+conda env create -n math_neuro -f MathNeuro/requirements.yml
+conda activate math_neuro
+python -m spacy download xx_sent_ud_sm
 ```
+
 If you already have a working environment, skip this section.
 
-
 ## Key arguments (MathNeuro.py)
+
 - `--model`: HuggingFace model id (string).
 - `--train_dataset`: CSV with task-specific dataset, e.g., gsm8k
 - `--calibration_datasets`: one or more CSVs with non-task-related content
@@ -41,14 +44,12 @@ If you already have a working environment, skip this section.
 - `--train_lm_eval_task` lets you evaluate a train task via lm_eval (e.g., `gsm8k_cot`).
 - `--run_codealpaca_eval` runs the CodeAlpaca oracle evaluation after lm_eval.
 
-
-
-
 ## Core workflow
 
 Pruning/Scaling/Finetuning Example hyperparameter configurations
 
 - Scaling on German gsm8k and race datasets:
+
 ```
 --model
 meta-llama/Llama-3.2-1B-Instruct
@@ -74,6 +75,7 @@ Race
 ```
 
 - Finetuning on English gsm8k and mmlu datasets:
+
 ```
 --model
 meta-llama/Llama-3.2-1B-Instruct
@@ -97,7 +99,9 @@ MMLU
 --random_state=1
 --fine_tune
 ```
+
 - Pruning on CodeAlpaca and MMLU datasets including baseline evaluation at the very beginning:
+
 ```
 --model
 meta-llama/Llama-3.2-1B-Instruct
@@ -124,24 +128,31 @@ MMLU
 ```
 
 ## CodeAlpaca oracle evaluation (offline)
-See `ORACLE_TESTS.md` for the full workflow. Minimal flow:
+
+See `ORACLE_TESTS.md` for the full workflow. Minimal flow for creation (already done in this repository):
+
 ```
 py build_oracle_cases.py --csv custom_datasets/CodeAlpaca/codealpaca_test_filtered.csv --output oracle_cases.jsonl --n_cases 30 --seed 0
 py -m pytest -q tests/test_oracle_cases.py
 ```
+
+At the moment oracle_cases.jsonl contains 2 test cases each for 200 samples from the CodeAlpaca_test_filtered.csv.
+
 Model outputs should be JSONL (default `candidate_generations.jsonl`) with:
+
 ```
 {"sample_id": 0, "code": "<model completion here>"}
 ```
 
 ## Outputs
+
 - `MathNeuro/results_*`: experiment results by dataset setting.
 - `MathNeuro/results_*/eval_results/`: lm_eval metrics JSON.
 - `MathNeuro/results_*/isolated_masks/`: saved parameter masks (`.pt`).
 - `oracle_cases.jsonl`: oracle cases for CodeAlpaca evaluation.
 
-
 ## Open questions / TODO
+
 - Decide whether CodeAlpaca parameter identification should use Python-only tasks for both train and test (currently, testset is Python-only).
 - Confirm if English MMLU needs math-related question filtering like already done for German MMLU.
 - Wire layer selection into `MathNeuro/MathNeuro.py` (currently standalone) to only modifiy parameters from specific layers.
