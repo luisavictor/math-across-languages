@@ -1,6 +1,6 @@
 import pandas as pd
 import torch
-from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoModelForSeq2SeqLM, AutoTokenizer
 import re
 
 
@@ -8,32 +8,20 @@ def translate_gsm8k(
     input_csv_path,
     output_csv_path,
     text_columns,
-    target_lang='german',
     n_rows=None,
     device=None
     ):
-
-    # Language map
-    lang_code_map = {
-        'german': 'deu_Latn',
-        'french': 'fra_Latn',
-        'spanish': 'spa_Latn',
-        'farsi': 'pes_Arab'
-    }
-    if target_lang.lower() not in lang_code_map:
-        raise ValueError(f"Unsupported target_lang: choose from {list(lang_code_map.keys())}")
-    tgt_lang = lang_code_map[target_lang.lower()]
 
     # Load CSV
     df = pd.read_csv(input_csv_path)
     total_rows = len(df) if n_rows is None else min(n_rows, len(df))
 
     # Load model
-    model_name = "facebook/nllb-200-3.3B"
+    model_name = "Sheikhaei/llama-3.2-1b-en-fa-translator"
     tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True)
-    model = AutoModelForSeq2SeqLM.from_pretrained(
+    model = AutoModelForCausalLM.from_pretrained(
         model_name,
-        torch_dtype=torch.float16,
+        torch_dtype=torch.bfloat16, 
         device_map="auto"
     )
 
@@ -53,7 +41,7 @@ def translate_gsm8k(
         final_chunks = []
         for chunk in sentence_chunks:
             # Split at common connectors only if the chunk is still long
-            if len(chunk) > 150:  # threshold for “long chunk”
+            if len(chunk) > 1024:  # threshold for “long chunk”
                 sub_chunks = re.split(r'(?<=,)\s+(then|because|so|and)\s+', chunk, flags=re.IGNORECASE)
                 final_chunks.extend([c.strip() for c in sub_chunks if c.strip()])
             else:
@@ -68,6 +56,14 @@ def translate_gsm8k(
         western_to_persian_digits = str.maketrans('0123456789', '۰۱۲۳۴۵۶۷۸۹')
         return text.translate(western_to_persian_digits)
 
+    def replace_q_a_with_persian(text):
+        """
+        Replace 'Q:' and 'A:' with Persian equivalents.
+        """
+        text = re.sub(r'\bQ:\b', 'س:', text)
+        text = re.sub(r'\bA:\b', 'ج:', text)
+        return text
+
     def translate_long_text(text, translate_func):
         """
         Split text into chunks, translate each separately, then join back.
@@ -77,6 +73,7 @@ def translate_gsm8k(
         for chunk in chunks:
             translation = translate_func(chunk)
             translation = replace_digits_with_persian(translation)
+            translation = replace_q_a_with_persian(translation)
             translated_chunks.append(translation)
         # Join translated chunks with a space
         return ' '.join(translated_chunks)
@@ -113,17 +110,11 @@ def translate_gsm8k(
         protected_text, placeholders = protect_placeholders(text)
         encoded = tokenizer(protected_text, return_tensors="pt", truncation=True).to(device)
 
-        try:
-            forced_id = tokenizer._lang_token_to_id[tgt_lang]
-        except:
-            forced_id = tokenizer.convert_tokens_to_ids(tgt_lang)
-
         with torch.no_grad():
             outputs = model.generate(
                 **encoded,
-                forced_bos_token_id=forced_id,
-                max_new_tokens=2048,
-                num_beams=8
+                max_new_tokens=2048,    
+                do_sample=False,
             )
 
         translated = tokenizer.decode(outputs[0], skip_special_tokens=True)
@@ -150,7 +141,6 @@ translate_gsm8k(
     input_csv_path="MathNeuro/data/gsm8k.csv",
     output_csv_path="custom_datasets/GSM8k_Farsi/gsm8k_fa_train.csv",
     text_columns=["instruct", "qa"],
-    target_lang="farsi",
     n_rows=None
 )
 
@@ -159,6 +149,5 @@ translate_gsm8k(
     input_csv_path="MathNeuro/data/gsm8k_test.csv",
     output_csv_path="custom_datasets/GSM8k_Farsi/gsm8k_fa_test.csv",
     text_columns=["question", "answer"],
-    target_lang="farsi",
     n_rows=None # allows to debug/test translations on the first n_rows only, ignores limit for "None"
 )
