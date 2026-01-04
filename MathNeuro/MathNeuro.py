@@ -15,57 +15,27 @@ sys.path.append(os.path.dirname(__file__))
 from fine_tune import fine_tune_on_isolated_params
 import codealpaca_oracle
 
-parser = argparse.ArgumentParser()
-parser.add_argument('--model', help="Huggingface model to train, entered as string", type=str)
-parser.add_argument('--eval_datasets', nargs='+',
-                    help="dataset(s) to evaluate models on post pruning to evalaute catastrophic forgetting, entered as strings; should be task names from Eleuther AI LM Evaluation Harness",
-                    type=str)
-parser.add_argument('--train_dataset',
-                    help="path to math train dataset; should be a path to a CSV file with question/solution pairs in a columns titled 'question' and 'solution' along with ground-truth answers in a column called 'answer'",
-                    type=str)
-parser.add_argument('--calibration_datasets', nargs='+',
-                    help="path to calibration datasets; should be paths to CSV files with instruction/response pairs in a column titled 'qa'",
-                    type=str)
-parser.add_argument('--save_path',
-                    help="save path for eval results after running Eleuther AI LM Evaluation Harness post pruning",
-                    type=str)
-parser.add_argument('--text_file',
-                    help="name of text file for saving pruning results during training if evaluating math reasoning using a non-Eleuther AI LM Evaluation Harness task in a PoT format",
-                    type=str)
-parser.add_argument('--num_repeats', help="number of repeats for pruning or scaling experiment", type=int, default=5)
-parser.add_argument('--pre_train_eval',
-                    help="bool to indicate if full evaluation on eval and train datasets should be conducted before training",
-                    action="store_true")
-parser.add_argument('--random_state',
-                    help="random state for initial dataset shuffling and creating train/eval split for train dataset",
-                    type=int, default=42)
-parser.add_argument('--scalar', help="scale factor for top parameters; default is 0 to run pruning experiments",
-                    type=float, default=0)
-parser.add_argument('--eval_dataset_size', help="desired number of samples for task specific eval dataset", type=int,
-                    default=None)
-parser.add_argument('--eval_dataset_subset',
-                    help="desired number of samples for task specific eval dataset if subsetting to reduce run time",
-                    type=int, default=100)
-parser.add_argument('--calibration_dataset_names', nargs='+',
-                    help="desired name of calibration datasets; should be strings entered in same order as calibration_datasets",
-                    type=str)
-parser.add_argument('--num_samples', help="desired number of samples for calculating task specific parameters",
-                    type=int, default=500)
-parser.add_argument('--train_lm_eval_task',
-                    help="if your training dataset is an Eleuther AI LM Evaluation Harness task, specify the associated task for the test set.",
-                    type=str, default=None)
-parser.add_argument('--run_codealpaca_eval',
-                    help="run CodeAlpaca oracle evaluation after lm_eval",
-                    action="store_true")
-parser.add_argument('--proportion', help="desired proportion of top parameters to calculate", type=float, default=None)
-parser.add_argument('--fine_tune', help="freeze all non-task-specific parameters and fine-tune only isolated task-specific weights",action="store_true")
-parser.add_argument('--store_params', help="store task-specific isolated parameters",action="store_true")
-args = parser.parse_args()
-random.seed(args.random_state)
-np.random.seed(args.random_state)
-torch.manual_seed(args.random_state)
-torch.cuda.manual_seed_all(args.random_state)
-torch.backends.cudnn.benchmark = False
+import time
+
+from utils import (
+    parse_args, 
+    set_random_seeds, 
+    load_train_val_datasets,
+    load_calibration_datasets,
+    create_output_dirs_and_files,
+    prune,
+    count_top_parameters,
+    count_math_only_parameters,
+    scale,
+    store_identified_params
+)
+
+beg = time.time()
+
+args = parse_args()
+
+set_random_seeds(args.random_state)
+
 
 oracle_cases_path = None
 oracle_eval_ids = None
@@ -79,57 +49,17 @@ if args.run_codealpaca_eval:
 
 
 
-mask_dir = f"{args.save_path}/isolated_masks/{args.model}"
-os.makedirs(mask_dir, exist_ok=True)
-task_manager = lm_eval.tasks.TaskManager(include_path="../lm_eval_tasks")
+mask_dir, output_file, results_path = create_output_dirs_and_files(args.save_path, args.model, args.text_file)
 
+task_manager = lm_eval.tasks.TaskManager(include_path="lm_eval_tasks")
 
-if 'sgsm' in args.train_dataset:
-    df = pd.read_csv(args.train_dataset)  # Load SGSM dataset for few-shot prompting
-    df = df[df['subset'] == "sgsm_train"]  # Subset SGSM to verified training subset
-    df = df.sample(frac=1, random_state=args.random_state)
-    for i in range(0, len(df)):
-        try:
-            answer = df.iloc[i]['answer']
-            answer = float(answer)
-            df.iloc[i]['answer'] = answer
-        except:
-            df = df.drop([i])
-
-    train = df.iloc[0:1500]
-
-    val = df.iloc[1500:]
-    val = val.sample(frac=1, random_state=args.random_state)
-
-if 'sgsm' not in args.train_dataset:
-    train = pd.read_csv(args.train_dataset)  # Load SGSM dataset for few-shot prompting
-    train = train.sample(frac=1, random_state=args.random_state)
-
-calibration_datasets = []
-for dataset in args.calibration_datasets:
-    if '/' in dataset:
-        dataset_name = dataset.split('/')[-1]
-        dataset_name = dataset_name.split('.csv')[0]
-        calibration_datasets.append(dataset_name)
-    else:
-        dataset_name = dataset.split('.csv')[0]
-        calibration_datasets.append(dataset_name)
-
-dataset_list = []
-for dataset, dataset_name, name in zip(args.calibration_datasets, calibration_datasets, args.calibration_dataset_names):
-    # Load the dataset into a DataFrame
-    globals()[dataset_name] = pd.read_csv(dataset).sample(frac=1,
-                                                          random_state=args.random_state)  # Shuffle the DataFrame
-
-    # Assign a name attribute to the DataFrame
-    globals()[dataset_name].name = name
-
-    # Append the actual DataFrame object to the list
-    dataset_list.append(globals()[dataset_name])
-
-output_file = f"{args.save_path}/eval_results/{args.model}/{args.text_file}"
-results_path = f"{args.save_path}/eval_results/{args.model}/"
-os.makedirs(os.path.dirname(results_path), exist_ok=True)
+train, val = load_train_val_datasets(args.train_dataset, args.random_state)
+dataset_list = load_calibration_datasets(
+    args.calibration_datasets, 
+    args.calibration_dataset_names, 
+    args.random_state
+)
+assert len(dataset_list) > 0, "No calibration datasets loaded."
 
 tokenizer = AutoTokenizer.from_pretrained(args.model)
 model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
@@ -202,7 +132,11 @@ if args.pre_train_eval:
                 if model_answer == final_answer:
                     prune_solve.append(1)
 
-            except:
+            except Exception as e:
+                with open(f"{results_path}/error_log.txt", "a")  as log_file:
+                    log_file.write(f"Model: {args.model}\n")
+                    log_file.write(f"Error processing question {i}: {e}\n")
+                    log_file.write(f"Generated solution:\n{solution_text}\n\n")
                 prune_code.append(0)
                 prune_solve.append(0)
 
@@ -221,9 +155,8 @@ if args.pre_train_eval:
             tasks=args.eval_datasets,
             task_manager=task_manager,
             log_samples=False,
-            batch_size=1
-
-
+            batch_size=args.batch_size,
+            max_batch_size=args.max_batch_size
         )
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
@@ -246,41 +179,43 @@ if args.pre_train_eval:
             )
             oracle_env_set = True
             codealpaca_limit = len(oracle_eval_ids)
-        try:
-            results = lm_eval.simple_evaluate(  # call simple_evaluate
-                model='hf',
-                model_args={'pretrained': model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
-                tasks=args.train_lm_eval_task,
-                task_manager=task_manager,
-                log_samples=True,
-                batch_size=1,
-                limit=codealpaca_limit,
-                random_seed=args.random_state
-            )
-        finally:
-            if oracle_env_set:
-                os.environ.pop("CODEALPACA_ORACLE_CASES_PATH", None)
-                os.environ.pop("CODEALPACA_ALLOWED_SAMPLE_IDS", None)
-        results_path = f"{args.save_path}/eval_results/{args.model}/pre_results_train_task.json"
-        os.makedirs(os.path.dirname(results_path), exist_ok=True)
-        with open(results_path, "w") as outfile:
-            json.dump(results['results'], outfile)
+        if args.run_codealpaca_eval:
+            try:
+                results = lm_eval.simple_evaluate(  # call simple_evaluate
+                    model='hf',
+                    model_args={'pretrained': model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
+                    tasks=args.train_lm_eval_task,
+                    task_manager=task_manager,
+                    log_samples=True,
+                    batch_size=args.batch_size,
+                    max_batch_size=args.max_batch_size,
+                    limit=codealpaca_limit,
+                    random_seed=args.random_state
+                )
+            finally:
+                if oracle_env_set:
+                    os.environ.pop("CODEALPACA_ORACLE_CASES_PATH", None)
+                    os.environ.pop("CODEALPACA_ALLOWED_SAMPLE_IDS", None)
+            results_path = f"{args.save_path}/eval_results/{args.model}/pre_results_train_task.json"
+            os.makedirs(os.path.dirname(results_path), exist_ok=True)
+            with open(results_path, "w") as outfile:
+                json.dump(results['results'], outfile)
 
-        samples = results["samples"]["codealpaca"]
-        out_path = f"{args.save_path}/eval_results/{args.model}/codealpaca_samples.jsonl"
-        os.makedirs(os.path.dirname(out_path), exist_ok=True)
+            samples = results["samples"]["codealpaca"]
+            out_path = f"{args.save_path}/eval_results/{args.model}/codealpaca_samples.jsonl"
+            os.makedirs(os.path.dirname(out_path), exist_ok=True)
 
-        with open(out_path, "w", encoding="utf-8") as f:
-            for ex in samples:
-                resp = ex.get("filtered_resps", [None])[0]
-                if isinstance(resp, list):
-                    resp = resp[0] if resp else ""
-                if resp is None:
-                    resp = ex.get("resps", [[None]])[0][0]
-                sample_id = ex.get("doc", {}).get("sample_id")
-                if sample_id is None:
-                    sample_id = ex["doc_id"]
-                f.write(json.dumps({"sample_id": int(sample_id), "code": resp}, ensure_ascii=False) + "\n")
+            with open(out_path, "w", encoding="utf-8") as f:
+                for ex in samples:
+                    resp = ex.get("filtered_resps", [None])[0]
+                    if isinstance(resp, list):
+                        resp = resp[0] if resp else ""
+                    if resp is None:
+                        resp = ex.get("resps", [[None]])[0][0]
+                    sample_id = ex.get("doc", {}).get("sample_id")
+                    if sample_id is None:
+                        sample_id = ex["doc_id"]
+                    f.write(json.dumps({"sample_id": int(sample_id), "code": resp}, ensure_ascii=False) + "\n")
         if args.run_codealpaca_eval:
             candidate_path = f"{args.save_path}/eval_results/{args.model}/candidate_generations.jsonl"
             print(candidate_path)
@@ -304,7 +239,8 @@ if args.pre_train_eval:
             tasks=args.eval_datasets,
             task_manager=task_manager,
             log_samples=False,
-            batch_size=1
+            batch_size=args.batch_size,
+            max_batch_size=args.max_batch_size
         )
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
@@ -452,68 +388,18 @@ def find_good_params(model, train, keep_ratio, prune=True, largest=True, num_sam
 
     return mask_dict
 
-def prune(bad_params, good_params, factor, return_good=False):
-    prune_params = {}
-    if return_good == False:
-        for k, v in bad_params.items():
-            prune_params[k] = bad_params[k] - good_params[k]
-            indices = prune_params[k] != -1
-            bad_indices = prune_params[k] == -1
-            prune_params[k] = indices + (bad_indices * factor)
-
-    else:
-        for k, v in bad_params.items():
-            prune_params[k] = good_params[k] - bad_params[k]
-            indices = prune_params[k] != -1
-            good_indices = prune_params[k] == -1
-            prune_params[k] = indices + (good_indices * factor)
-    return prune_params
-
-
-def scale(good_params, factor):
-    prune_params = {}
-    for k, v in good_params.items():
-        good_indices = good_params[k] != 1
-        keep_indices = good_params[k] == 1
-        prune_params[k] = keep_indices + (good_indices * factor)
-    return prune_params
-
-
-
-def count_top_parameters(mask_dict):
-    """Count how many parameters are marked as top-k (encoded as zeros in the mask)."""
-    total = 0
-    for tensor in mask_dict.values():
-        total += torch.count_nonzero(tensor == 0).item()
-    return total
-
-def count_math_only_parameters(math_mask, nonmath_mask):
-    """
-    Count math top-k parameters that remain after removing those also selected as non-math.
-    """
-    total = 0
-    for key, math_tensor in math_mask.items():
-        if key not in nonmath_mask:
-            continue
-        math_top = math_tensor == 0
-        nonmath_top = nonmath_mask[key] == 0
-        remaining_math = math_top & (~nonmath_top)
-        total += torch.count_nonzero(remaining_math).item()
-    return total
 
 
 
 num_samples = args.num_samples
-num_repeats = 1
-if args.proportion is None:
-    good_percents = [.0001, .001, .005, .01, .025, .05, .1, .15]
-if args.proportion is not None:
-    good_percents = [args.proportion]
+num_repeats = args.num_repeats
+good_percents = args.proportion
 scalar = args.scalar
 for dataset in dataset_list:
     for repeat in range(0, num_repeats):
-        sampled_train = train.sample(n=num_samples, replace=True, random_state=args.random_state)
-        sampled_comparison = dataset.sample(n=num_samples, replace=True, random_state=args.random_state)
+        random_state = args.random_state + repeat*100
+        sampled_train = train.sample(n=num_samples, replace=True, random_state=random_state)
+        sampled_comparison = dataset.sample(n=num_samples, replace=True, random_state=random_state)
         for good_percent in good_percents:
             model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
             model.eval()
@@ -541,6 +427,7 @@ for dataset in dataset_list:
                 if (isinstance(module, (nn.Linear))):
                     hook_fn = getActivation(name)  # Get the hook function
                     module.register_forward_hook(hook_fn)  # Register the hook function
+            
             print("start to find good params")
             good_params = find_good_params(model, sampled_train, keep_ratio=good_percent, prune=True, largest=True,
                                            num_samples=num_samples)
@@ -552,52 +439,26 @@ for dataset in dataset_list:
                 comparison_params = find_good_params(model, sampled_comparison, keep_ratio=good_percent, prune=True,
                                                      largest=True, num_samples=num_samples)
 
-
-
-
             math_top_params = count_top_parameters(good_params)
             nonmath_top_params = count_top_parameters(comparison_params)
             math_only_params = count_math_only_parameters(good_params, comparison_params)
-            print(math_top_params, nonmath_top_params, math_only_params)
+            # print(math_top_params, nonmath_top_params, math_only_params)
             with open(output_file, "a") as f:
                 f.write(
                     f"[{dataset.name}] repeat {repeat+1}, top {good_percent*100:.4f}% — math: {math_top_params}, non-math: {nonmath_top_params}, math-only after removing non-math: {math_only_params}\n"
                 )
 
-
-
             if args.store_params:
-                isolated_zero_mask = prune(comparison_params, good_params, factor=0.0, return_good=True)
-                isolated_masks = {}
-                for k, m in isolated_zero_mask.items():
-                    isolated_masks[k] = (m == 0).to(torch.bool)
-                del isolated_zero_mask
-                mask_filename = f"gsm8k_{dataset.name}_{good_percent}_repeat{repeat}.pt"
-                mask_path = os.path.join(mask_dir, mask_filename)
-                cpu_masks = {k: v.to("cpu") for k, v in isolated_masks.items()}
-                tmp_path = mask_path + ".tmp"
-
-                torch.save(
-                    {
-                        "model_name": args.model,
-                        "dataset_name": dataset.name,
-                        "good_percent": good_percent,
-                        "repeat": repeat,
-                        "isolated_masks": cpu_masks,
-                    },
-                    tmp_path,
+                store_identified_params(
+                    comparison_params,
+                    good_params,
+                    dataset,
+                    good_percent,
+                    repeat,
+                    random_state,
+                    mask_dir,
+                    args.model
                 )
-
-                os.replace(tmp_path, mask_path)  # atomic rename
-
-                del isolated_masks
-                del cpu_masks
-                print(f"Saved isolated mask to {mask_path}")
-
-
-
-
-
 
             if args.fine_tune:
                 isolated_zero_mask = prune(comparison_params, good_params, factor=0.0, return_good=True)
@@ -631,7 +492,7 @@ for dataset in dataset_list:
                     tokenizer=tokenizer,
                     train_df=sampled_train,  #  fine-tune on the same 500 samples for that the params have been identified
                     isolated_masks=isolated_masks,
-                    seed = args.random_state
+                    seed = random_state
                 )
                 model.eval()
                 del isolated_masks
@@ -725,7 +586,13 @@ for dataset in dataset_list:
                         if model_answer == final_answer:
                             prune_solve.append(1)
 
-                    except:
+                    except Exception as e:
+                        # append to a log file
+                        with open(f"{results_path}/error_log.txt", "a")  as log_file:
+                            log_file.write(f"Error processing question {i}: {e}\n")
+                            log_file.write(f"Generated solution:\n{solution_text}\n") 
+                            log_file.write(f"Model: {args.model}\n") 
+                            log_file.write("\n")
                         prune_code.append(0)
                         prune_solve.append(0)
 
@@ -745,7 +612,8 @@ for dataset in dataset_list:
                     tasks=args.eval_datasets,
                     task_manager=task_manager,
                     log_samples=False,
-                    batch_size=1
+                    batch_size=args.batch_size,
+                    max_batch_size=args.max_batch_size
                 )
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
@@ -764,9 +632,10 @@ for dataset in dataset_list:
                     tasks=args.train_lm_eval_task,
                     task_manager=task_manager,
                     log_samples=False,
-                    batch_size=1,
+                    batch_size=args.batch_size,
+                    max_batch_size=args.max_batch_size,
                     limit=args.eval_dataset_subset,
-                    random_seed=args.random_state
+                    random_seed=random_state
                 )
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_run{repeat}_train_task.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
@@ -791,9 +660,10 @@ for dataset in dataset_list:
                             tasks=args.train_lm_eval_task,
                             task_manager=task_manager,
                             log_samples=True,
-                            batch_size=1,
+                            batch_size=args.batch_size,
+                            max_batch_size=args.max_batch_size,
                             limit=codealpaca_limit,
-                            random_seed=args.random_state
+                            random_seed=random_state
                         )
                     finally:
                         if oracle_env_set:
@@ -827,10 +697,14 @@ for dataset in dataset_list:
                     tasks=args.eval_datasets,
                     task_manager=task_manager,
                     log_samples=False,
-                    batch_size=1
+                    batch_size=args.batch_size,
+                    max_batch_size=args.max_batch_size
                 )
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_run{repeat}.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
                 with open(results_path, "w") as outfile:
                     json.dump(results['results'], outfile)
             del model
+
+end = time.time()
+print(f"Total time taken: {end - beg} seconds")
