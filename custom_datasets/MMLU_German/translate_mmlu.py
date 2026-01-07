@@ -274,7 +274,7 @@ def main():
     default_input = default_input.resolve()
 
     #default_output = Path(__file__).resolve().parent / "mmlu_de_test.csv"
-    default_output = (Path(__file__).resolve().parent / "../MMLU_Hindu/mmlu_hi_test.csv").resolve()
+    default_output = (Path(__file__).resolve().parent / "../MMLU_Hindi/mmlu_hi_test.csv").resolve()
     default_output.parent.mkdir(parents=True, exist_ok=True)
 
     parser = argparse.ArgumentParser(description="Translate MMLU to German with NLLB-200.")

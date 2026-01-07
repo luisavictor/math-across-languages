@@ -301,7 +301,7 @@ def translate_rows(
 def main():
     script_dir = Path(__file__).resolve().parent
     default_input_dir = script_dir / "data_val"
-    default_output = script_dir / ".."/"MMLU_Hindu"/"mmlu_hi_val.csv"
+    default_output = script_dir / ".."/"MMLU_Hindi"/"mmlu_hi_val.csv"
 
     parser = argparse.ArgumentParser(description="Translate MMLU validation split to German.")
     parser.add_argument("--input_dir", type=Path, default=default_input_dir, help="Directory with *_val.csv files.")

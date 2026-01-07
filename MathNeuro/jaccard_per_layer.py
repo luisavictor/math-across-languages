@@ -142,19 +142,73 @@ def jaccard_similarity_per_llama_layer(
 
 
 
+if __name__ == "__main__":
+    out_dir = "/home/iailab76/victorl0/pycharm_sync/MathNeuro/jaccard_results/"
+    base_dir_en = "/home/iailab76/victorl0/pycharm_sync/MathNeuro/results_gsm8k_en_mmlu_en/isolated_masks/meta-llama/Llama-3.2-1B-Instruct/"
+    base_dir_de = "/home/iailab76/victorl0/pycharm_sync/MathNeuro/results_gsm8k_de_mmlu_de/isolated_masks/meta-llama/Llama-3.2-1B-Instruct/"
+    base_dir_hi = "/home/iailab76/victorl0/pycharm_sync/MathNeuro/results_gsm8k_hi_mmlu_hi/isolated_masks/meta-llama/Llama-3.2-1B-Instruct/"
+    pt_0_001 = "gsm8k_MMLU_0.001_repeat0.pt"
+    pt_0_01 = "gsm8k_MMLU_0.01_repeat0.pt"
+    pt_0_1 = "gsm8k_MMLU_0.1_repeat0.pt"
+    pt_0_15 = "gsm8k_MMLU_0.15_repeat0.pt"
 
-out_dir = "/home/iailab76/victorl0/pycharm_sync/MathNeuro/jaccard_results/"
-jacc, stats = jaccard_similarity_per_llama_layer("/home/iailab76/victorl0/pycharm_sync/MathNeuro/results_gsm8k_race/isolated_masks/meta-llama/Llama-3.2-1B-Instruct/gsm8k_Race_0.05_repeat0.pt", "/home/iailab76/victorl0/pycharm_sync/MathNeuro/results_gsm8k_de_race_de/isolated_masks/meta-llama/Llama-3.2-1B-Instruct/gsm8k_Race_0.05_repeat0.pt")
-out_csv = os.path.join(out_dir, "jaccard_gsm8k_Race_0.05_repeat0_race_vs_de_race.csv")
-save_jaccard_results(out_csv, jacc, stats, fmt="csv")
-for k in sorted(jacc.keys(), key=layer_sort_key):
-    print(k, f"J={jacc[k]:.4f}", stats[k])
+    # German - English
+    jacc, stats = jaccard_similarity_per_llama_layer(base_dir_en + pt_0_001, base_dir_de + pt_0_001)
+    out_csv = os.path.join(out_dir, "jaccard_0.001_repeat0_mmlu_gsm8k_de_en.csv")
+    save_jaccard_results(out_csv, jacc, stats, fmt="csv")
+    for k in sorted(jacc.keys(), key=layer_sort_key):
+        print(k, f"J={jacc[k]:.4f}", stats[k])
+
+
+    jacc, stats = jaccard_similarity_per_llama_layer(base_dir_en + pt_0_01, base_dir_de + pt_0_01)
+    out_csv = os.path.join(out_dir, "jaccard_0.01_repeat0_mmlu_gsm8k_de_en.csv")
+    save_jaccard_results(out_csv, jacc, stats, fmt="csv")
+    for k in sorted(jacc.keys(), key=layer_sort_key):
+        print(k, f"J={jacc[k]:.4f}", stats[k])
 
 
 
-jacc, stats = jaccard_similarity_per_llama_layer("/home/iailab76/victorl0/pycharm_sync/MathNeuro/results_gsm8k_race/isolated_masks/meta-llama/Llama-3.2-1B-Instruct/gsm8k_Race_0.1_repeat0.pt", "/home/iailab76/victorl0/pycharm_sync/MathNeuro/results_gsm8k_race/isolated_masks/meta-llama/Llama-3.2-1B-Instruct/gsm8k_Race_0.1_repeat0.pt")
-out_csv = os.path.join(out_dir, "jaccard_test.csv")
-save_jaccard_results(out_csv, jacc, stats, fmt="csv")
-for k in sorted(jacc.keys(), key=layer_sort_key):
-    print(k, f"J={jacc[k]:.4f}", stats[k])
+    jacc, stats = jaccard_similarity_per_llama_layer(base_dir_en + pt_0_1, base_dir_de + pt_0_1)
+    out_csv = os.path.join(out_dir, "jaccard_0.1_repeat0_mmlu_gsm8k_de_en.csv")
+    save_jaccard_results(out_csv, jacc, stats, fmt="csv")
+    for k in sorted(jacc.keys(), key=layer_sort_key):
+        print(k, f"J={jacc[k]:.4f}", stats[k])
+
+
+    jacc, stats = jaccard_similarity_per_llama_layer(base_dir_en + pt_0_15, base_dir_de + pt_0_15)
+    out_csv = os.path.join(out_dir, "jaccard_0.15_repeat0_mmlu_gsm8k_de_en.csv")
+    save_jaccard_results(out_csv, jacc, stats, fmt="csv")
+    for k in sorted(jacc.keys(), key=layer_sort_key):
+        print(k, f"J={jacc[k]:.4f}", stats[k])
+
+
+
+
+    # Hindi - English
+    jacc, stats = jaccard_similarity_per_llama_layer(base_dir_en + pt_0_001, base_dir_hi + pt_0_001)
+    out_csv = os.path.join(out_dir, "jaccard_0.001_repeat0_mmlu_gsm8k_hi_en.csv")
+    save_jaccard_results(out_csv, jacc, stats, fmt="csv")
+    for k in sorted(jacc.keys(), key=layer_sort_key):
+        print(k, f"J={jacc[k]:.4f}", stats[k])
+
+    jacc, stats = jaccard_similarity_per_llama_layer(base_dir_en + pt_0_01, base_dir_hi + pt_0_01)
+    out_csv = os.path.join(out_dir, "jaccard_0.01_repeat0_mmlu_gsm8k_hi_en.csv")
+    save_jaccard_results(out_csv, jacc, stats, fmt="csv")
+    for k in sorted(jacc.keys(), key=layer_sort_key):
+        print(k, f"J={jacc[k]:.4f}", stats[k])
+
+    jacc, stats = jaccard_similarity_per_llama_layer(base_dir_en + pt_0_1, base_dir_hi + pt_0_1)
+    out_csv = os.path.join(out_dir, "jaccard_0.1_repeat0_mmlu_gsm8k_hi_en.csv")
+    save_jaccard_results(out_csv, jacc, stats, fmt="csv")
+    for k in sorted(jacc.keys(), key=layer_sort_key):
+        print(k, f"J={jacc[k]:.4f}", stats[k])
+
+    jacc, stats = jaccard_similarity_per_llama_layer(base_dir_en + pt_0_15, base_dir_hi + pt_0_15)
+    out_csv = os.path.join(out_dir, "jaccard_0.15_repeat0_mmlu_gsm8k_hi_en.csv")
+    save_jaccard_results(out_csv, jacc, stats, fmt="csv")
+    for k in sorted(jacc.keys(), key=layer_sort_key):
+        print(k, f"J={jacc[k]:.4f}", stats[k])
+
+
+
 
