@@ -134,9 +134,8 @@ os.makedirs(os.path.dirname(results_path), exist_ok=True)
 tokenizer = AutoTokenizer.from_pretrained(args.model)
 model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
 
-# geändert
-model.eval()
 
+model.eval()
 print("datasets and models loaded")
 if args.pre_train_eval:
     if 'sgsm' in args.train_dataset:
@@ -390,7 +389,6 @@ if 'bad_gens_full.csv' in args.calibration_datasets:
 
 def find_good_params(model, train, keep_ratio, prune=True, largest=True, num_samples=len(train)):
     global chosen_params
-    import random
 
     cuda_device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -541,7 +539,7 @@ for dataset in dataset_list:
                 if (isinstance(module, (nn.Linear))):
                     hook_fn = getActivation(name)  # Get the hook function
                     module.register_forward_hook(hook_fn)  # Register the hook function
-            print("start to find good params")
+            print("start finding good params")
             good_params = find_good_params(model, sampled_train, keep_ratio=good_percent, prune=True, largest=True,
                                            num_samples=num_samples)
             torch.cuda.empty_cache()
@@ -555,9 +553,9 @@ for dataset in dataset_list:
 
 
 
-            math_top_params = count_top_parameters(good_params)
-            nonmath_top_params = count_top_parameters(comparison_params)
-            math_only_params = count_math_only_parameters(good_params, comparison_params)
+            math_top_params = count_top_parameters(good_params)  # how many parameters are imprtant for math (good_percent of all parameters)
+            nonmath_top_params = count_top_parameters(comparison_params)  # should be same number as math_top_params
+            math_only_params = count_math_only_parameters(good_params, comparison_params)  # how many params are math-specific? will be modified in the next steps
             print(math_top_params, nonmath_top_params, math_only_params)
             with open(output_file, "a") as f:
                 f.write(
@@ -565,18 +563,16 @@ for dataset in dataset_list:
                 )
 
 
-
             if args.store_params:
-                isolated_zero_mask = prune(comparison_params, good_params, factor=0.0, return_good=True)
+                isolated_zero_mask = prune(comparison_params, good_params, factor=0.0, return_good=True)  # get math-specific params
                 isolated_masks = {}
                 for k, m in isolated_zero_mask.items():
                     isolated_masks[k] = (m == 0).to(torch.bool)
                 del isolated_zero_mask
-                mask_filename = f"gsm8k_{dataset.name}_{good_percent}_repeat{repeat}.pt"
+                mask_filename = f"gsm8k_{dataset.name}_{good_percent}_repeat{repeat}.pt"   # store math-specific params
                 mask_path = os.path.join(mask_dir, mask_filename)
                 cpu_masks = {k: v.to("cpu") for k, v in isolated_masks.items()}
                 tmp_path = mask_path + ".tmp"
-
                 torch.save(
                     {
                         "model_name": args.model,
@@ -586,7 +582,7 @@ for dataset in dataset_list:
                         "isolated_masks": cpu_masks,
                     },
                     tmp_path,
-                )
+                )  # all parameter masks keyed by name
 
                 os.replace(tmp_path, mask_path)  # atomic rename
 
