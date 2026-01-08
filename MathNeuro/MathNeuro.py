@@ -349,7 +349,8 @@ def find_good_params(model, train, keep_ratio, prune=True, largest=True, num_sam
                 try:
                     param_dict[f"{key}.weight"] += tensor
                 except:
-                    print(f'passed at {key}')
+                    # print(f'passed at {key}')
+                    pass
     keys_to_remove = [key for key in param_dict if key.split('.weight')[0] not in magnitude]
 
     for key in keys_to_remove:

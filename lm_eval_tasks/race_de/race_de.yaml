@@ -6,7 +6,7 @@ metadata:
 dataset_path: csv
 dataset_kwargs:
   data_files:
-    test: ../custom_datasets/Race_German/race_de_test.csv
+    test: custom_datasets/Race_German/race_de_test.csv
 
 test_split: test
 output_type: multiple_choice

@@ -4,5 +4,5 @@ models=(
 )
 
 for model in "${models[@]}"; do
-    bash MathNeuro/scripts/bash_scripts/scaling_pruning_finetuning.sh "$model"
+    bash MathNeuro/scripts/bash_scripts/scaling_pruning_missing_experiments.sh "$model"
 done
