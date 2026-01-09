@@ -10,6 +10,11 @@ from tqdm.auto import tqdm
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, BitsAndBytesConfig
 
 
+QA_LABELS = {
+    "deu_Latn": ("Frage", "Antwortoptionen", "Antwort"),
+    "hin_Deva": ("प्रश्न", "उत्तर विकल्प", "उत्तर"),
+}
+
 EXCLUDED_SUBJECTS = {
     "abstract_algebra",
     "astronomy",
@@ -30,7 +35,9 @@ EXCLUDED_SUBJECTS = {
 }
 
 DEFAULT_MODEL_NAME = "facebook/nllb-200-3.3B"
-TARGET_LANG_CODE = "deu_Latn"
+#TARGET_LANG_CODE = "deu_Latn"
+TARGET_LANG_CODE = "hin_Deva"
+
 
 
 def strip_outer_quotes(text: str) -> str:
@@ -84,6 +91,8 @@ def split_text_into_chunks(text: str, hard_limit: int = 180) -> List[str]:
     return chunks
 
 
+
+'''
 def build_qa_text(question: str, choices: Sequence[str], answer_idx: int) -> str:
     # Match original MMLU style: Python list string with single quotes
     formatted_choices = format_choices_mmlu(choices)
@@ -96,6 +105,30 @@ def build_qa_text(question: str, choices: Sequence[str], answer_idx: int) -> str
         f"Antwortoptionen: {formatted_choices}\n\n"
         f"Antwort: {answer_text}"
     )
+    
+'''
+
+def build_qa_text(
+    question: str,
+    choices: Sequence[str],
+    answer_idx: int,
+    target_lang_code: str = "hin_Deva",
+) -> str:
+    formatted_choices = format_choices_mmlu(choices)
+    try:
+        answer_text = choices[int(answer_idx)]
+    except Exception:
+        answer_text = ""
+    q_label, c_label, a_label = QA_LABELS.get(
+        target_lang_code, ("Question", "Choices", "Answer")
+    )
+    return (
+        f"{q_label}: {question}\n\n"
+        f"{c_label}: {formatted_choices}\n\n"
+        f"{a_label}: {answer_text}"
+    )
+
+
 
 
 def load_model(
@@ -237,17 +270,21 @@ def load_and_filter(input_csv: Path, max_rows: Optional[int]) -> pd.DataFrame:
 
 def main():
     repo_root = Path(__file__).resolve().parents[1]
-    default_input = '/home/iailab34/selbacht0/Test_Lab/MathNeuro/data/mmlu.csv'
-    default_output = Path(__file__).resolve().parent / "mmlu_de_test.csv"
+    default_input = Path(__file__).resolve().parent / "../../MathNeuro/data/mmlu.csv"
+    default_input = default_input.resolve()
+
+    #default_output = Path(__file__).resolve().parent / "mmlu_de_test.csv"
+    default_output = (Path(__file__).resolve().parent / "../MMLU_Hindi/mmlu_hi_test.csv").resolve()
+    default_output.parent.mkdir(parents=True, exist_ok=True)
 
     parser = argparse.ArgumentParser(description="Translate MMLU to German with NLLB-200.")
     parser.add_argument("--input_csv", type=Path, default=default_input)
     parser.add_argument("--output_csv", type=Path, default=default_output)
-    parser.add_argument("--max_rows", type=int, default=None, help="Limit rows for a quick test run.")
+    parser.add_argument("--max_rows", type=int, default=1000, help="Limit rows for a quick test run.")
     parser.add_argument(
         "--save_every",
         type=int,
-        default=50,
+        default=100,
         help="Save progress every N rows to avoid losing long runs.",
     )
     parser.add_argument("--hf_token", type=str, default=None, help="Optional HF token for gated models.")

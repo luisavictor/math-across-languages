@@ -10,7 +10,16 @@ from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, BitsAndBytesConfi
 
 
 DEFAULT_MODEL_NAME = "facebook/nllb-200-3.3B"
-TARGET_LANG_CODE = "deu_Latn"
+#TARGET_LANG_CODE = "deu_Latn"
+TARGET_LANG_CODE = "hin_Deva"
+
+
+QA_LABELS = {
+    "deu_Latn": ("Frage", "Antwortoptionen", "Antwort"),
+    "hin_Deva": ("प्रश्न", "उत्तर विकल्प", "उत्तर"),
+}
+
+
 ANSWER_MAP = {"A": 0, "B": 1, "C": 2, "D": 3}
 EXCLUDED_SUBJECTS = {
     "abstract_algebra",
@@ -66,6 +75,7 @@ def split_text_into_chunks(text: str, hard_limit: int = 180) -> List[str]:
     return chunks
 
 
+'''
 def build_qa_text(question: str, choices: Sequence[str], answer_idx: int) -> str:
     formatted_choices = format_choices_mmlu(choices)
     try:
@@ -77,6 +87,29 @@ def build_qa_text(question: str, choices: Sequence[str], answer_idx: int) -> str
         f"Antwortoptionen: {formatted_choices}\n\n"
         f"Antwort: {answer_text}"
     )
+'''
+
+
+def build_qa_text(
+    question: str,
+    choices: Sequence[str],
+    answer_idx: int,
+    target_lang_code: str = "hin_Deva",
+) -> str:
+    formatted_choices = format_choices_mmlu(choices)
+    try:
+        answer_text = choices[int(answer_idx)]
+    except Exception:
+        answer_text = ""
+    q_label, c_label, a_label = QA_LABELS.get(
+        target_lang_code, ("Question", "Choices", "Answer")
+    )
+    return (
+        f"{q_label}: {question}\n\n"
+        f"{c_label}: {formatted_choices}\n\n"
+        f"{a_label}: {answer_text}"
+    )
+
 
 
 def load_model(
@@ -268,7 +301,7 @@ def translate_rows(
 def main():
     script_dir = Path(__file__).resolve().parent
     default_input_dir = script_dir / "data_val"
-    default_output = script_dir / "mmlu_de_val.csv"
+    default_output = script_dir / ".."/"MMLU_Hindi"/"mmlu_hi_val.csv"
 
     parser = argparse.ArgumentParser(description="Translate MMLU validation split to German.")
     parser.add_argument("--input_dir", type=Path, default=default_input_dir, help="Directory with *_val.csv files.")

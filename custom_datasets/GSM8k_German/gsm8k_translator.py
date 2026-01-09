@@ -17,7 +17,8 @@ def translate_gsm8k(
     lang_code_map = {
         'german': 'deu_Latn',
         'french': 'fra_Latn',
-        'spanish': 'spa_Latn'
+        'spanish': 'spa_Latn',
+        'hindi': 'hin_Deva',
     }
     if target_lang.lower() not in lang_code_map:
         raise ValueError(f"Unsupported target_lang: choose from {list(lang_code_map.keys())}")
@@ -135,7 +136,18 @@ def translate_gsm8k(
 
 
 
-# training datset translation (English version from MathNeurosurgery repo, but same sentences as from Huggingface with different column names and additional "The answer is XY".
+
+translate_gsm8k(
+    input_csv_path="../../MathNeuro/data/gsm8k_test.csv",
+    output_csv_path="../GSM8k_Hindi/gsm8k_hi_test.csv",
+    text_columns=["question", "answer"],
+    target_lang="hindi",
+    n_rows=100 # allows to debug/test translations on the first n_rows only, ignores limit for "None"
+)
+
+
+
+'''
 translate_gsm8k(
     input_csv_path="../../MathNeuro/data/gsm8k.csv",
     output_csv_path="gsm8k_de_train.csv",
@@ -152,3 +164,18 @@ translate_gsm8k(
     target_lang="german",
     n_rows=None # allows to debug/test translations on the first n_rows only, ignores limit for "None"
 )
+
+
+
+translate_gsm8k(
+    input_csv_path="../../MathNeuro/data/gsm8k.csv",
+    output_csv_path="../GSM8k_Hindi/gsm8k_hi_train.csv",
+    text_columns=["instruct", "qa"],
+    target_lang="hindi",
+    n_rows=100
+)
+
+
+
+
+'''
