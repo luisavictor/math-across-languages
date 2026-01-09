@@ -1,0 +1,1 @@
+{"gsm8k_de_cot": {"alias": "gsm8k_de_cot", "exact_match,strict-match": 0.245, "exact_match_stderr,strict-match": 0.030488073292114216, "exact_match,flexible-extract": 0.18, "exact_match_stderr,flexible-extract": 0.02723432655149685}}
