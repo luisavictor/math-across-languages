@@ -129,6 +129,7 @@ for dataset, dataset_name, name in zip(args.calibration_datasets, calibration_da
 
 output_file = f"{args.save_path}/eval_results/{args.model}/{args.text_file}"
 results_path = f"{args.save_path}/eval_results/{args.model}/"
+print("Results Path: ", results_path)
 os.makedirs(os.path.dirname(results_path), exist_ok=True)
 
 tokenizer = AutoTokenizer.from_pretrained(args.model)
@@ -236,6 +237,7 @@ if args.pre_train_eval:
         # Setting `task_manager` to the one above is optional and should generally be done
         # if you want to include tasks from paths other than ones in `lm_eval/tasks`.
         # `simple_evaluate` will instantiate its own task_manager if it is set to None here.
+
         model.eval()
         codealpaca_limit = args.eval_dataset_subset
         oracle_env_set = False
@@ -246,6 +248,7 @@ if args.pre_train_eval:
             )
             oracle_env_set = True
             codealpaca_limit = len(oracle_eval_ids)
+
         try:
             results = lm_eval.simple_evaluate(  # call simple_evaluate
                 model='hf',
@@ -254,7 +257,7 @@ if args.pre_train_eval:
                 task_manager=task_manager,
                 log_samples=True,
                 batch_size=1,
-                limit=codealpaca_limit,
+                limit=args.eval_dataset_subset,
                 random_seed=args.random_state
             )
         finally:
@@ -266,22 +269,27 @@ if args.pre_train_eval:
         with open(results_path, "w") as outfile:
             json.dump(results['results'], outfile)
 
-        samples = results["samples"]["codealpaca"]
-        out_path = f"{args.save_path}/eval_results/{args.model}/codealpaca_samples.jsonl"
-        os.makedirs(os.path.dirname(out_path), exist_ok=True)
 
-        with open(out_path, "w", encoding="utf-8") as f:
-            for ex in samples:
-                resp = ex.get("filtered_resps", [None])[0]
-                if isinstance(resp, list):
-                    resp = resp[0] if resp else ""
-                if resp is None:
-                    resp = ex.get("resps", [[None]])[0][0]
-                sample_id = ex.get("doc", {}).get("sample_id")
-                if sample_id is None:
-                    sample_id = ex["doc_id"]
-                f.write(json.dumps({"sample_id": int(sample_id), "code": resp}, ensure_ascii=False) + "\n")
+
         if args.run_codealpaca_eval:
+            samples = results["samples"]["codealpaca"]
+            out_path = f"{args.save_path}/eval_results/{args.model}/codealpaca_samples.jsonl"
+            os.makedirs(os.path.dirname(out_path), exist_ok=True)
+
+            with open(out_path, "w", encoding="utf-8") as f:
+                for ex in samples:
+                    resp = ex.get("filtered_resps", [None])[0]
+                    if isinstance(resp, list):
+                        resp = resp[0] if resp else ""
+                    if resp is None:
+                        resp = ex.get("resps", [[None]])[0][0]
+                    sample_id = ex.get("doc", {}).get("sample_id")
+                    if sample_id is None:
+                        sample_id = ex["doc_id"]
+                    f.write(json.dumps({"sample_id": int(sample_id), "code": resp}, ensure_ascii=False) + "\n")
+
+
+
             candidate_path = f"{args.save_path}/eval_results/{args.model}/candidate_generations.jsonl"
             print(candidate_path)
             metrics_path = f"{args.save_path}/eval_results/{args.model}/codealpaca_oracle_metrics.json"
