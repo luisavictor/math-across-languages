@@ -60,7 +60,7 @@ parser.add_argument('--proportion', help="desired proportion of top parameters t
 parser.add_argument('--fine_tune',
                     help="freeze all non-task-specific parameters and fine-tune only isolated task-specific weights",
                     action="store_true")
-parser.add_argument('--store_params', help="store task-specific isolated parameters", action="store_true")
+
 args = parser.parse_args()
 random.seed(args.random_state)
 np.random.seed(args.random_state)
@@ -405,34 +405,6 @@ for dataset in dataset_list:
                 f.write(
                     f"[{dataset.name}] repeat {repeat + 1}, top {good_percent * 100:.4f}% — math: {math_top_params}, non-math: {nonmath_top_params}, math-only after removing non-math: {math_only_params}\n"
                 )
-
-            if args.store_params:
-                isolated_zero_mask = prune(comparison_params, good_params, factor=0.0,
-                                           return_good=True)  # get math-specific params
-                isolated_masks = {}
-                for k, m in isolated_zero_mask.items():
-                    isolated_masks[k] = (m == 0).to(torch.bool)
-                del isolated_zero_mask
-                mask_filename = f"gsm8k_{dataset.name}_{good_percent}_repeat{repeat}.pt"  # store math-specific params
-                mask_path = os.path.join(mask_dir, mask_filename)
-                cpu_masks = {k: v.to("cpu") for k, v in isolated_masks.items()}
-                tmp_path = mask_path + ".tmp"
-                torch.save(
-                    {
-                        "model_name": args.model,
-                        "dataset_name": dataset.name,
-                        "good_percent": good_percent,
-                        "repeat": repeat,
-                        "isolated_masks": cpu_masks,
-                    },
-                    tmp_path,
-                )  # all parameter masks keyed by name
-
-                os.replace(tmp_path, mask_path)  # atomic rename
-
-                del isolated_masks
-                del cpu_masks
-                print(f"Saved isolated mask to {mask_path}")
 
             if args.fine_tune:
                 isolated_zero_mask = prune(comparison_params, good_params, factor=0.0, return_good=True)
