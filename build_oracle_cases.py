@@ -60,12 +60,7 @@ def property_from_prompt(prompt: str) -> Dict[str, Any]:
 
 def should_skip(run_result: Dict[str, Any], skip_type_error: bool = True) -> bool:
     """Decide whether to drop a case based on the runner result."""
-    if run_result.get("ok"):
-        return False
-    exc = run_result.get("exc_type")
-    if exc in BAD_EXC_TYPES:
-        return True
-    if skip_type_error and exc == "TypeError":
+    if not run_result.get("ok"):
         return True
     return False
 

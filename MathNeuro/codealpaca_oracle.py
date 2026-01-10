@@ -4,6 +4,7 @@ import base64
 import json
 import os
 import pickle
+import random
 import re
 import subprocess
 import sys
@@ -139,6 +140,7 @@ def select_oracle_sample_ids(
     oracle_path: str | None = None,
     eval_subset: int | None = None,
     min_cases_per_id: int = 2,
+    seed: int | None = None,
 ) -> List[int]:
     if oracle_path is None:
         oracle_path, _ = _oracle_paths()
@@ -147,6 +149,8 @@ def select_oracle_sample_ids(
     counts = _count_sample_ids(valid_cases)
     eligible = sorted(sid for sid, count in counts.items() if count >= min_cases_per_id)
     if eval_subset is not None:
+        rng = random.Random(seed)
+        rng.shuffle(eligible)
         eligible = eligible[:eval_subset]
     return eligible
 

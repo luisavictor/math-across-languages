@@ -75,6 +75,7 @@ if args.run_codealpaca_eval:
         oracle_cases_path,
         eval_subset=args.eval_dataset_subset,
         min_cases_per_id=2,
+        seed=args.random_state,
     )
 
 
