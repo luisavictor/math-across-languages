@@ -1,103 +1,124 @@
-from MathNeuro.jaccard_per_layer import layer_sort_key
-import os
-import csv
-import math
+import json
+import re
+from pathlib import Path
 import matplotlib
 matplotlib.use("Agg")  # no GUI; save-only backend
 import matplotlib.pyplot as plt
 
-
-def _read_jaccard_csv(csv_path: str) -> dict[str, float]:
-    """Read CSV produced by save_jaccard_results and return {layer: jaccard}."""
-    if not os.path.exists(csv_path):
-        raise FileNotFoundError(csv_path)
-
-    jacc = {}
-    with open(csv_path, "r", newline="") as f:
-        reader = csv.DictReader(f)
-        required = {"layer", "jaccard"}
-        if not required.issubset(reader.fieldnames or []):
-            raise ValueError(f"{csv_path} missing required columns {required}. Got: {reader.fieldnames}")
-        for r in reader:
-            layer = r["layer"]
-            try:
-                val = float(r["jaccard"])
-            except (TypeError, ValueError):
-                val = float("nan")
-            jacc[layer] = val
-    return jacc
+_LAYER_RE = re.compile(r"^layers\.(\d+)$")
 
 
-def plot_jaccard_two_pairs_for_threshold(
-    *,
-    threshold: str,
-    csv_en_de: str,
-    csv_en_hi: str,
-    sort_key=layer_sort_key,
-    title_prefix: str = "Jaccard per layer",
-    out_path: str | None = None,
-    show: bool = False,  # <- Agg backend: should be False
-    ylim: tuple[float, float] = (0.0, 0.45),
-    figsize: tuple[float, float] = (12, 8),
+def plot_jaccard_per_good_percent(
+    json_path: str | Path,
+    save_dir: str | Path | None = None,
+    show: bool = True,
 ):
-    j_de = _read_jaccard_csv(csv_en_de)
-    j_hi = _read_jaccard_csv(csv_en_hi)
+    """
+    Reads a jaccard_summary.json (list of entries) and, for each entry (i.e., each good_percent),
+    creates ONE plot:
+      - x-axis: layers (sorted)
+      - left y-axis: Jaccard similarity per layer
+      - right y-axis: total_isolated_run1 and total_isolated_run2 per layer
+                      labeled as "Math-specific English" and "Math-specific German"
 
-    layers = sorted(set(j_de.keys()) | set(j_hi.keys()), key=sort_key)
+    Args:
+        json_path: path to jaccard_summary.json
+        save_dir: if provided, saves one PNG per good_percent into this folder
+        show: if True, calls plt.show() at the end
+    """
+    json_path = Path(json_path)
+    with json_path.open("r", encoding="utf-8") as f:
+        data = json.load(f)
 
-    def get_vals(jmap: dict[str, float]):
-        vals = []
-        for k in layers:
-            v = jmap.get(k, float("nan"))
-            vals.append(v if not math.isnan(v) else float("nan"))
-        return vals
+    if save_dir is not None:
+        save_dir = Path(save_dir)
+        save_dir.mkdir(parents=True, exist_ok=True)
 
-    y_de = get_vals(j_de)
-    y_hi = get_vals(j_hi)
+    def layer_index(name: str) -> int | None:
+        m = _LAYERSAFE(name)
+        if m is None:
+            return None
+        return int(m.group(1))
 
-    fig, ax = plt.subplots(figsize=figsize)
-    ax.plot(range(len(layers)), y_de, marker="o", linewidth=1.5, label="EN vs DE")
-    ax.plot(range(len(layers)), y_hi, marker="o", linewidth=1.5, label="EN vs HI")
+    def _LAYERSAFE(name: str):
+        return _LAYER_RE.match(name)
 
-    ax.set_title(f"{title_prefix} — {threshold}")
-    ax.set_ylabel("Jaccard similarity")
-    ax.set_xlabel("Layer / bucket")
-    ax.set_ylim(*ylim)
+    for entry in data:
+        gp = entry.get("good_percent", None)
+        seed = entry.get("seed", None)
+        per_group = entry.get("per_group", {})
 
-    ax.set_xticks(range(len(layers)))
-    ax.set_xticklabels(layers, rotation=60, ha="right", fontsize=9)
+        # keep only "layers.N"
+        layer_items = []
+        for gname, stats in per_group.items():
+            m = _LAYER_RE.match(gname)
+            if not m:
+                continue
+            idx = int(m.group(1))
+            layer_items.append((idx, gname, stats))
 
-    ax.grid(True, linestyle="--", linewidth=0.5, alpha=0.6)
-    ax.legend()
-    fig.tight_layout()
+        if not layer_items:
+            print(f"[WARN] No layer entries found for good_percent={gp}. Skipping.")
+            continue
 
-    if out_path:
-        d = os.path.dirname(out_path)
-        if d:  # <- only mkdir if directory component exists
-            os.makedirs(d, exist_ok=True)
-        fig.savefig(out_path, dpi=200, bbox_inches="tight")
+        # sort by layer index
+        layer_items.sort(key=lambda t: t[0])
 
-    # Agg backend: no interactive window; always close to free memory
-    plt.close(fig)
-    return fig, ax
+        x = [idx for idx, _, _ in layer_items]
+        xlabels = [f"{idx}" for idx in x]
+
+        jacc = [float(stats["jaccard"]) for _, _, stats in layer_items]
+        iso_en = [int(stats["total_isolated_run1"]) for _, _, stats in layer_items]
+        iso_de = [int(stats["total_isolated_run2"]) for _, _, stats in layer_items]
+
+        fig, ax_left = plt.subplots(figsize=(12, 5))
+        ax_right = ax_left.twinx()
+
+        # Left axis: Jaccard
+        l1 = ax_left.plot(x, jacc, marker="o", label="Jaccard")
+
+        # Right axis: isolated counts
+        l2 = ax_right.plot(x, iso_en, marker=".",alpha=0.5,color="green", label="Math-specific English")
+        l3 = ax_right.plot(x, iso_de, marker=".",color="violet", label="Math-specific German")
+
+        ax_left.set_xlabel("Layer")
+        ax_left.set_ylabel("Jaccard similarity")
+        ax_right.set_ylabel("# isolated parameters")
+
+        ax_left.set_xticks(x)
+        ax_left.set_xticklabels(xlabels, rotation=0)
+
+        title = f"Top-k={gp}, seed={seed}"
+        ax_left.set_title(title)
+
+        # Combine legends from both axes
+        lines = l1 + l2 + l3
+        labels = [ln.get_label() for ln in lines]
+        ax_left.legend(lines, labels, loc="best")
+
+        ax_left.grid(True, which="both", axis="both", linestyle="--", linewidth=0.5)
+
+        fig.tight_layout()
+
+        if save_dir is not None:
+            # safe filename
+            gp_str = str(gp)
+            out_path = save_dir / f"jaccard_layers_{gp_str}_seed_{seed}.png"
+            fig.savefig(out_path, dpi=200)
+            print("Saved:", out_path)
+
+        if show:
+            plt.show()
+        else:
+            plt.close(fig)
 
 
 
-out_dir = "/home/iailab76/victorl0/pycharm_sync/MathNeuro/jaccard_results/"
 
-plot_dir = "/home/iailab76/victorl0/pycharm_sync/plotting_stuff/jaccard_results/"
-thresholds = ["0.001", "0.01", "0.1", "0.15"]
 
-for thr in thresholds:
-    csv_en_de = os.path.join(out_dir, f"jaccard_{thr}_repeat0_mmlu_gsm8k_de_en.csv")
-    csv_en_hi = os.path.join(out_dir, f"jaccard_{thr}_repeat0_mmlu_gsm8k_hi_en.csv")
-
-    out_png = os.path.join(plot_dir, f"plot_jaccard_{thr}_repeat0_en_de_vs_en_hi.png")
-
-    plot_jaccard_two_pairs_for_threshold(
-        threshold=thr,
-        csv_en_de=csv_en_de,
-        csv_en_hi=csv_en_hi,
-        out_path=out_png,
-        show=False,
-    )
+seed = 1
+plot_jaccard_per_good_percent(
+    f"../MathNeuro/results_jaccard/gsm8k_race_en_vs_de/jaccard_summary_{seed}.json",
+    save_dir="jaccard_results/gsm8k_race_en_vs_de",
+    show=True,
+)

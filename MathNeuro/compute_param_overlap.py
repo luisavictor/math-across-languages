@@ -265,8 +265,8 @@ def run_jaccard_sweep(
         # default to your per-layer grouping function
         group_fn = layer_group_name
 
-    json_path = out_dir / "jaccard_summary.json"
-    csv_path = out_dir / "jaccard_per_layer.csv"
+    json_path = out_dir / f"jaccard_summary_{seed}.json"
+    csv_path = out_dir / f"jaccard_per_layer_{seed}.csv"
 
     all_results = []  # list of dicts (one per good_percent)
     per_layer_rows = []  # flattened rows for CSV
@@ -333,7 +333,7 @@ def run_jaccard_sweep(
     return all_results, per_layer_rows
 
 
-good_percents = [0.0001, 0.001]
+good_percents = [0.001, 0.01, 0.1, 0.15]
 
 mask_dir_lang1 = "results_gsm8k_en_race_en/isolated_masks/meta-llama/Llama-3.2-1B-Instruct/"
 mask_dir_lang2 = "results_gsm8k_de_race_de/isolated_masks/meta-llama/Llama-3.2-1B-Instruct/"
