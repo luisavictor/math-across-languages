@@ -91,6 +91,10 @@ def plot_jaccard_per_good_percent(
         title = f"Top-k={gp}, seed={seed}"
         ax_left.set_title(title)
 
+
+        ax_left.set_ylim(0.0, 0.4)
+        #ax_right.set_ylim([])
+
         # Combine legends from both axes
         lines = l1 + l2 + l3
         labels = [ln.get_label() for ln in lines]
@@ -103,7 +107,7 @@ def plot_jaccard_per_good_percent(
         if save_dir is not None:
             # safe filename
             gp_str = str(gp)
-            out_path = save_dir / f"jaccard_layers_{gp_str}_seed_{seed}.png"
+            out_path = save_dir / f"jaccard_layers_{gp_str}_seed_{seed}.pdf"
             fig.savefig(out_path, dpi=200)
             print("Saved:", out_path)
 
