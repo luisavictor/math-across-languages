@@ -348,7 +348,7 @@ def getActivation(name):
 num_samples = args.num_samples
 num_repeats = 1
 if args.proportion is None:
-    good_percents = [.0001, .001, .005, .01, .025, .05, .1, .15]
+    good_percents = [.0001, .001,  .01,  .05, .1, .15]
 if args.proportion is not None:
     good_percents = [args.proportion]
 scalar = args.scalar
@@ -544,7 +544,6 @@ for dataset in dataset_list:
                     task_manager=task_manager,
                     log_samples=False,
                     batch_size=1,
-                    limit = 10
                 )
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_run{repeat}.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
