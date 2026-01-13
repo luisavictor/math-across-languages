@@ -3,7 +3,6 @@ import ast
 import json
 from pathlib import Path
 from typing import List, Optional, Sequence
-
 import pandas as pd
 import torch
 from tqdm.auto import tqdm
@@ -280,7 +279,7 @@ def main():
     parser = argparse.ArgumentParser(description="Translate MMLU to German with NLLB-200.")
     parser.add_argument("--input_csv", type=Path, default=default_input)
     parser.add_argument("--output_csv", type=Path, default=default_output)
-    parser.add_argument("--max_rows", type=int, default=1000, help="Limit rows for a quick test run.")
+    parser.add_argument("--max_rows", type=int, default=None, help="Limit rows for a quick test run.")
     parser.add_argument(
         "--save_every",
         type=int,
