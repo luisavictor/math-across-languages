@@ -2,7 +2,6 @@ import re
 
 def process_docs(dataset):
     def _clean(doc):
-
         question = doc["question"].strip()
         answer_text = doc["answer"].strip()
 

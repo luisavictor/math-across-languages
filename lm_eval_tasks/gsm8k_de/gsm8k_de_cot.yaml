@@ -21,6 +21,7 @@ doc_to_text: |
 # WICHTIG: Für Datensatz-Einträge answer_number, für Few-Shot-Samples target
 doc_to_target: "{{ (answer_number | string) if answer_number is defined else target }}"
 
+
 metric_list:
   - aggregation: mean
     higher_is_better: true
