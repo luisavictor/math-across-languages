@@ -60,6 +60,8 @@ parser.add_argument('--run_codealpaca_eval',
 parser.add_argument('--proportion', help="desired proportion of top parameters to calculate", type=float, default=None)
 parser.add_argument('--fine_tune', help="freeze all non-task-specific parameters and fine-tune only isolated task-specific weights",action="store_true")
 parser.add_argument('--store_params', help="store task-specific isolated parameters",action="store_true")
+parser.add_argument('--batch_size', help="batch size for evaluation", type=int, default=1)
+parser.add_argument('--max_batch_size', help="maximum batch size for auto batch size selection during evaluation", type=int, default=18)
 args = parser.parse_args()
 random.seed(args.random_state)
 np.random.seed(args.random_state)
@@ -222,9 +224,8 @@ if args.pre_train_eval:
             tasks=args.eval_datasets,
             task_manager=task_manager,
             log_samples=False,
-            batch_size=1
-
-
+            batch_size=args.batch_size,
+            max_batch_size=args.max_batch_size
         )
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
@@ -256,7 +257,8 @@ if args.pre_train_eval:
                 tasks=args.train_lm_eval_task,
                 task_manager=task_manager,
                 log_samples=True,
-                batch_size=1,
+                batch_size=args.batch_size,
+                max_batch_size=args.max_batch_size,
                 limit=args.eval_dataset_subset,
                 random_seed=args.random_state
             )
@@ -312,7 +314,8 @@ if args.pre_train_eval:
             tasks=args.eval_datasets,
             task_manager=task_manager,
             log_samples=False,
-            batch_size=1
+            batch_size=args.batch_size,
+            max_batch_size=args.max_batch_size
         )
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
@@ -750,7 +753,8 @@ for dataset in dataset_list:
                     tasks=args.eval_datasets,
                     task_manager=task_manager,
                     log_samples=False,
-                    batch_size=1
+                    batch_size=args.batch_size,
+                    max_batch_size=args.max_batch_size
                 )
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_run{repeat}.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
@@ -769,7 +773,8 @@ for dataset in dataset_list:
                     tasks=args.train_lm_eval_task,
                     task_manager=task_manager,
                     log_samples=False,
-                    batch_size=1,
+                    batch_size=args.batch_size,
+                    max_batch_size=args.max_batch_size,
                     limit=args.eval_dataset_subset,
                     random_seed=args.random_state
                 )
@@ -796,7 +801,8 @@ for dataset in dataset_list:
                             tasks=args.train_lm_eval_task,
                             task_manager=task_manager,
                             log_samples=True,
-                            batch_size=1,
+                            batch_size=args.batch_size,
+                            max_batch_size=args.max_batch_size,
                             limit=codealpaca_limit,
                             random_seed=args.random_state
                         )
@@ -832,7 +838,8 @@ for dataset in dataset_list:
                     tasks=args.eval_datasets,
                     task_manager=task_manager,
                     log_samples=False,
-                    batch_size=1
+                    batch_size=args.batch_size,
+                    max_batch_size=args.max_batch_size
                 )
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_run{repeat}.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
