@@ -135,26 +135,29 @@ def translate_gsm8k(
 
 
 
+translate_gsm8k(
+    input_csv_path="../../MathNeuro/data/gsm8k.csv",
+    output_csv_path="gsm8k_de_train.csv",
+    text_columns=["instruct", "qa"],
+    target_lang="german",
+    n_rows=None
+)
 
+
+
+
+
+'''
 
 translate_gsm8k(
     input_csv_path="../../MathNeuro/data/gsm8k_test.csv",
     output_csv_path="../GSM8k_Hindi/gsm8k_hi_test.csv",
     text_columns=["question", "answer"],
     target_lang="hindi",
-    n_rows=100 # allows to debug/test translations on the first n_rows only, ignores limit for "None"
+    n_rows=None # allows to debug/test translations on the first n_rows only, ignores limit for "None"
 )
 
 
-
-'''
-translate_gsm8k(
-    input_csv_path="../../MathNeuro/data/gsm8k.csv",
-    output_csv_path="gsm8k_de_train.csv",
-    text_columns=["instruct", "qa"],
-    target_lang="german",
-    n_rows=10
-)
 
 # test dataset translation from original huggingface test set (only #### XY option)
 translate_gsm8k(
