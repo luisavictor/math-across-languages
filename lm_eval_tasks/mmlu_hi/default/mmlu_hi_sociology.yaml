@@ -1,0 +1,8 @@
+include: _default_template_yaml
+"task": "mmlu_hi_sociology"
+"task_alias": "sociology"
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_Hindi/mmlu_hi_by_subject/sociology.csv
+
+test_split: test

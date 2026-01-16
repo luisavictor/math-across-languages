@@ -1,0 +1,13 @@
+include: _default_template_yaml
+"task": "mmlu_hi_college_medicine"
+"task_alias": "college_medicine"
+
+description: "निम्नलिखित प्रश्न कॉलेज चिकित्सा विषय पर बहुविकल्पीय प्रश्न हैं (उत्तर सहित)।\n\n"
+
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_Hindi/mmlu_hi_by_subject/college_medicine.csv
+
+test_split: test
+

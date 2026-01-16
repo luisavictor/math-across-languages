@@ -1,0 +1,8 @@
+include: _default_template_yaml
+"task": "mmlu_hi_public_relations"
+"task_alias": "public_relations"
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_Hindi/mmlu_hi_by_subject/public_relations.csv
+
+test_split: test

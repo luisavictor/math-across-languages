@@ -1,0 +1,9 @@
+include: _default_template_yaml
+"task": "mmlu_hi_high_school_european_history"
+"task_alias": "high_school_european_history"
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_Hindi/mmlu_hi_by_subject/high_school_european_history.csv
+
+test_split: test
+

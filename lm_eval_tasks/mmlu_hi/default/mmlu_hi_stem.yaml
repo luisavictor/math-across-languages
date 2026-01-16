@@ -1,0 +1,14 @@
+group: mmlu_hi_stem
+group_alias: stem
+task:
+  - mmlu_hi_anatomy
+  - mmlu_hi_college_biology
+  - mmlu_hi_computer_security
+  - mmlu_hi_electrical_engineering
+  - mmlu_hi_machine_learning
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: true
+metadata:
+  version: 1
+
