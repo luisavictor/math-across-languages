@@ -1,0 +1,13 @@
+include: _default_template_yaml
+task: mmlu_hi_clinical_knowledge
+task_alias: clinical_knowledge
+
+description: "निम्नलिखित प्रश्न नैदानिक ज्ञान विषय पर बहुविकल्पीय प्रश्न हैं (उत्तर सहित)।\n\n"
+
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_Hindi/mmlu_hi_by_subject/clinical_knowledge.csv
+
+test_split: test
+

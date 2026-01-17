@@ -1,9 +1,9 @@
 import pandas as pd
 from pathlib import Path
 
-df = pd.read_csv("mmlu_de_test.csv")
+df = pd.read_csv("../MMLU_Hindi/mmlu_hi_test.csv")
 
-out_dir = Path("mmlu_de_by_subject")
+out_dir = Path("../MMLU_Hindi/mmlu_hi_by_subject")
 out_dir.mkdir(exist_ok=True)
 
 for subject, sub_df in df.groupby("subject"):

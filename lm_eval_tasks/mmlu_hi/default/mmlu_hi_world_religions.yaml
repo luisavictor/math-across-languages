@@ -1,0 +1,9 @@
+include: _default_template_yaml
+"task": "mmlu_hi_world_religions"
+"task_alias": "world_religions"
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_Hindi/mmlu_hi_by_subject/world_religions.csv
+
+test_split: test

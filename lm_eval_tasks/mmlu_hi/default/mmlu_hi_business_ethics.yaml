@@ -1,0 +1,15 @@
+include: _default_template_yaml
+task: mmlu_hi_business_ethics
+task_alias: business_ethics
+
+description: "निम्नलिखित प्रश्न व्यावसायिक नैतिकता विषय पर बहुविकल्पीय प्रश्न हैं (उत्तर सहित)।\n\n"
+
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_Hindi/mmlu_hi_by_subject/business_ethics.csv
+
+test_split: test
+
+
+
