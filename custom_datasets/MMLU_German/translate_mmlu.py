@@ -273,7 +273,7 @@ def main():
     default_input = default_input.resolve()
 
     #default_output = Path(__file__).resolve().parent / "mmlu_de_test.csv"
-    default_output = (Path(__file__).resolve().parent / "../MMLU_Hindi/mmlu_hi_test.csv").resolve()
+    default_output = (Path(__file__).resolve().parent / "../MMLU_Hindi/mmlu_hi_test_save.csv").resolve()
     default_output.parent.mkdir(parents=True, exist_ok=True)
 
     parser = argparse.ArgumentParser(description="Translate MMLU to German with NLLB-200.")
@@ -301,6 +301,12 @@ def main():
     args = parser.parse_args()
 
     df = load_and_filter(args.input_csv, args.max_rows)
+
+    df = df.iloc[8801:].reset_index(drop=True)
+    print(f"Resuming from filtered row index {8801} (remaining {len(df)} rows).")
+
+
+
     tokenizer, model, forced_id = load_model(
         DEFAULT_MODEL_NAME,
         TARGET_LANG_CODE,
