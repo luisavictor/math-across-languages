@@ -14,6 +14,8 @@ from contextlib import nullcontext
 sys.path.append(os.path.dirname(__file__))
 from fine_tune import fine_tune_on_isolated_params
 import codealpaca_oracle
+import time
+beg = time.time()
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', help="Huggingface model to train, entered as string", type=str)
@@ -205,7 +207,11 @@ if args.pre_train_eval:
                 if model_answer == final_answer:
                     prune_solve.append(1)
 
-            except:
+            except Exception as e:
+                with open(f"{results_path}/error_log.txt", "a")  as log_file:
+                    log_file.write(f"Model: {args.model}\n")
+                    log_file.write(f"Error processing question {i}: {e}\n")
+                    log_file.write(f"Generated solution:\n{solution_text}\n\n")
                 prune_code.append(0)
                 prune_solve.append(0)
 
@@ -514,7 +520,7 @@ def count_math_only_parameters(math_mask, nonmath_mask):
 
 
 num_samples = args.num_samples
-num_repeats = 1
+num_repeats = args.num_repeats
 if args.proportion is None:
     good_percents = [.0001, .001, .005, .01, .025, .05, .1, .15]
 if args.proportion is not None:
@@ -522,8 +528,9 @@ if args.proportion is not None:
 scalar = args.scalar
 for dataset in dataset_list:
     for repeat in range(0, num_repeats):
-        sampled_train = train.sample(n=num_samples, replace=True, random_state=args.random_state)
-        sampled_comparison = dataset.sample(n=num_samples, replace=True, random_state=args.random_state)
+        random_state = args.random_state + repeat*100
+        sampled_train = train.sample(n=num_samples, replace=True, random_state=random_state)
+        sampled_comparison = dataset.sample(n=num_samples, replace=True, random_state=random_state)
         for good_percent in good_percents:
             model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
             model.eval()
@@ -639,7 +646,7 @@ for dataset in dataset_list:
                     tokenizer=tokenizer,
                     train_df=sampled_train,  #  fine-tune on the same 500 samples for that the params have been identified
                     isolated_masks=isolated_masks,
-                    seed = args.random_state
+                    seed = random_state
                 )
                 model.eval()
                 del isolated_masks
@@ -733,7 +740,13 @@ for dataset in dataset_list:
                         if model_answer == final_answer:
                             prune_solve.append(1)
 
-                    except:
+                    except Exception as e:
+                        # append to a log file
+                        with open(f"{results_path}/error_log.txt", "a")  as log_file:
+                            log_file.write(f"Error processing question {i}: {e}\n")
+                            log_file.write(f"Generated solution:\n{solution_text}\n") 
+                            log_file.write(f"Model: {args.model}\n") 
+                            log_file.write("\n")
                         prune_code.append(0)
                         prune_solve.append(0)
 
@@ -776,7 +789,7 @@ for dataset in dataset_list:
                     batch_size=args.batch_size,
                     max_batch_size=args.max_batch_size,
                     limit=args.eval_dataset_subset,
-                    random_seed=args.random_state
+                    random_seed=random_state
                 )
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_run{repeat}_train_task.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
@@ -804,7 +817,7 @@ for dataset in dataset_list:
                             batch_size=args.batch_size,
                             max_batch_size=args.max_batch_size,
                             limit=codealpaca_limit,
-                            random_seed=args.random_state
+                            random_seed=random_state
                         )
                     finally:
                         if oracle_env_set:
@@ -841,8 +854,11 @@ for dataset in dataset_list:
                     batch_size=args.batch_size,
                     max_batch_size=args.max_batch_size
                 )
-                results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_run{repeat}.json"
+                results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_run{repeat}_seed{random_state}.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
                 with open(results_path, "w") as outfile:
                     json.dump(results['results'], outfile)
             del model
+
+end = time.time()
+print(f"Total time taken: {end - beg} seconds")
