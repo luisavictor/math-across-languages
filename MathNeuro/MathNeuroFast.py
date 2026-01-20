@@ -13,6 +13,8 @@ from pathlib import Path
 sys.path.append(os.path.dirname(__file__))
 from fine_tune import fine_tune_on_isolated_params
 import codealpaca_oracle
+import time
+beg = time.time()
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', help="Huggingface model to train, entered as string", type=str)
@@ -81,9 +83,13 @@ if args.run_codealpaca_eval:
 
 mask_dir = f"{args.save_path}/isolated_masks/{args.model}"
 os.makedirs(mask_dir, exist_ok=True)
-task_manager = lm_eval.tasks.TaskManager(include_path="../lm_eval_tasks")
 
-
+if os.path.exists("../lm_eval_tasks"):
+    task_manager = lm_eval.tasks.TaskManager(include_path="../lm_eval_tasks")
+elif os.path.exists("lm_eval_tasks"):
+    task_manager = lm_eval.tasks.TaskManager(include_path="lm_eval_tasks")
+else:
+    raise ValueError("Could not find lm_eval_tasks directory.")
 
 
 train = pd.read_csv(args.train_dataset)
@@ -346,7 +352,7 @@ def getActivation(name):
 
 
 num_samples = args.num_samples
-num_repeats = 1
+num_repeats = args.num_repeats
 if args.proportion is None:
     good_percents = [.0001, .001,  .01,  .05, .1, .15]
 if args.proportion is not None:
@@ -357,9 +363,9 @@ scalar = args.scalar
 
 for dataset in dataset_list:
     for repeat in range(0, num_repeats):
-
-        sampled_train = train.sample(n=num_samples, replace=True, random_state=args.random_state)
-        sampled_comparison = dataset.sample(n=num_samples, replace=True, random_state=args.random_state)
+        random_state = args.random_state + repeat*100
+        sampled_train = train.sample(n=num_samples, replace=True, random_state=random_state)
+        sampled_comparison = dataset.sample(n=num_samples, replace=True, random_state=random_state)
 
         # load model again (only important for multi run case) and register the hook function
         model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
@@ -369,8 +375,8 @@ for dataset in dataset_list:
                 hook_fn = getActivation(name)  # Get the hook function
                 module.register_forward_hook(hook_fn)  # Register the hook function
 
-        compute_score_mask(model, sampled_train, num_samples=num_samples, save_dir=mask_dir, save_path = f"train_scores_seed{args.random_state}.pt")
-        compute_score_mask(model, sampled_comparison, num_samples=num_samples, save_dir=mask_dir, save_path=f"comparison_scores_seed{args.random_state}.pt")
+        compute_score_mask(model, sampled_train, num_samples=num_samples, save_dir=mask_dir, save_path = f"train_scores_seed{random_state}.pt")
+        compute_score_mask(model, sampled_comparison, num_samples=num_samples, save_dir=mask_dir, save_path=f"comparison_scores_seed{random_state}.pt")
 
         for good_percent in good_percents:
             # load fresh model for each new run since modified during each run
@@ -386,13 +392,13 @@ for dataset in dataset_list:
 
 
             print("load good param score mask")
-            param_dict_good = torch.load(Path(mask_dir) / f"train_scores_seed{args.random_state}.pt", map_location="cpu")
+            param_dict_good = torch.load(Path(mask_dir) / f"train_scores_seed{random_state}.pt", map_location="cpu")
             print("extract top-k params")
             good_params = find_good_params(keep_ratio=good_percent, prune=True, largest=True, param_dict = param_dict_good)
             torch.cuda.empty_cache()
 
             print("load comparison param score mask")
-            param_dict_comparison = torch.load(Path(mask_dir) / f"comparison_scores_seed{args.random_state}.pt", map_location="cpu")
+            param_dict_comparison = torch.load(Path(mask_dir) / f"comparison_scores_seed{random_state}.pt", map_location="cpu")
             print("extract top-k params")
             comparison_params = find_good_params(keep_ratio=good_percent, prune=True,largest=True, param_dict = param_dict_comparison)
 
@@ -439,7 +445,7 @@ for dataset in dataset_list:
                     train_df=sampled_train,
                     # fine-tune on the same 500 samples for that the params have been identified
                     isolated_masks=isolated_masks,
-                    seed=args.random_state
+                    seed=random_state
                 )
                 model.eval()
                 del isolated_masks
@@ -482,7 +488,7 @@ for dataset in dataset_list:
                     log_samples=False,
                     batch_size=1,
                     limit=args.eval_dataset_subset,
-                    random_seed=args.random_state
+                    random_seed=random_state
                 )
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_run{repeat}_train_task.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
@@ -509,7 +515,7 @@ for dataset in dataset_list:
                             log_samples=True,
                             batch_size=1,
                             limit=codealpaca_limit,
-                            random_seed=args.random_state
+                            random_seed=random_state
                         )
                     finally:
                         if oracle_env_set:
