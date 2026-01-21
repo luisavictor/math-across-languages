@@ -58,7 +58,7 @@ parser.add_argument('--train_lm_eval_task',
 parser.add_argument('--run_codealpaca_eval',
                     help="run CodeAlpaca oracle evaluation after lm_eval",
                     action="store_true")
-parser.add_argument('--proportion', help="desired proportion of top parameters to calculate", type=float, default=None)
+parser.add_argument('--proportion', help="desired proportion of top parameters to calculate", type=float, nargs='+', default=None)
 parser.add_argument('--fine_tune',
                     help="freeze all non-task-specific parameters and fine-tune only isolated task-specific weights",
                     action="store_true")
@@ -356,7 +356,10 @@ num_repeats = args.num_repeats
 if args.proportion is None:
     good_percents = [.0001, .001,  .01,  .05, .1, .15]
 if args.proportion is not None:
-    good_percents = [args.proportion]
+    if len(args.proportion) > 1:
+        good_percents = args.proportion
+    else:
+        good_percents = [args.proportion]
 scalar = args.scalar
 
 
