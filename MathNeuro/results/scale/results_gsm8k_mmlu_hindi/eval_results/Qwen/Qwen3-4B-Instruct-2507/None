@@ -1,0 +1,6 @@
+[MMLU] repeat 1, top 0.0001% — math: 3456, non-math: 3456, math-only after removing non-math: 814
+[MMLU] repeat 1, top 0.0010% — math: 36252, non-math: 36252, math-only after removing non-math: 8024
+[MMLU] repeat 2, top 0.0001% — math: 3456, non-math: 3456, math-only after removing non-math: 839
+[MMLU] repeat 2, top 0.0010% — math: 36252, non-math: 36252, math-only after removing non-math: 7747
+[MMLU] repeat 3, top 0.0001% — math: 3456, non-math: 3456, math-only after removing non-math: 806
+[MMLU] repeat 3, top 0.0010% — math: 36252, non-math: 36252, math-only after removing non-math: 7517

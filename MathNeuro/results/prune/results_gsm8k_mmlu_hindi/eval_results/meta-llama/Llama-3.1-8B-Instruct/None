@@ -1,0 +1,6 @@
+[MMLU] repeat 1, top 0.0001% — math: 7373, non-math: 7373, math-only after removing non-math: 1957
+[MMLU] repeat 1, top 0.0010% — math: 74917, non-math: 74917, math-only after removing non-math: 17715
+[MMLU] repeat 2, top 0.0001% — math: 7373, non-math: 7373, math-only after removing non-math: 1933
+[MMLU] repeat 2, top 0.0010% — math: 74917, non-math: 74917, math-only after removing non-math: 17608
+[MMLU] repeat 3, top 0.0001% — math: 7373, non-math: 7373, math-only after removing non-math: 1831
+[MMLU] repeat 3, top 0.0010% — math: 74917, non-math: 74917, math-only after removing non-math: 17143

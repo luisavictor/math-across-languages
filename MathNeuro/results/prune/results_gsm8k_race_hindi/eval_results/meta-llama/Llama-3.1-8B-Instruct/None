@@ -1,0 +1,6 @@
+[Race] repeat 1, top 0.0001% — math: 7373, non-math: 7373, math-only after removing non-math: 2486
+[Race] repeat 1, top 0.0010% — math: 74917, non-math: 74917, math-only after removing non-math: 20991
+[Race] repeat 2, top 0.0001% — math: 7373, non-math: 7373, math-only after removing non-math: 2587
+[Race] repeat 2, top 0.0010% — math: 74917, non-math: 74917, math-only after removing non-math: 22333
+[Race] repeat 3, top 0.0001% — math: 7373, non-math: 7373, math-only after removing non-math: 2384
+[Race] repeat 3, top 0.0010% — math: 74917, non-math: 74917, math-only after removing non-math: 20430
