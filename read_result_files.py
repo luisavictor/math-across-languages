@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 
 DEFAULT_INPUT_PATH = (
-    "results/scale/results_gsm8k_race_german/eval_results/meta-llama/Llama-3.1-8B-Instruct"
+    "results/scale/results_gsm8k_race_german/eval_results/Qwen/Qwen3-4B-Instruct-2507"
 )
 
 DEFAULT_K_VALUES = [0.0001, 0.001, 0.005, 0.01, 0.025, 0.05, 0.1, 0.15]

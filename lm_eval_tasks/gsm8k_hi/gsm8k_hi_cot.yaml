@@ -18,7 +18,6 @@ doc_to_text: |
 
   A:
 
-# WICHTIG: Für Datensatz-Einträge answer_number, für Few-Shot-Samples target
 doc_to_target: "{{ (answer_number | string) if answer_number is defined else target }}"
 
 
@@ -80,6 +79,7 @@ filter_list:
     name: flexible-extract
 
 generation_kwargs:
+  max_new_tokens: 300
   do_sample: false
   until:
     - 'Q:'
