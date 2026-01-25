@@ -88,6 +88,7 @@ filter_list:
     name: flexible-extract
 
 generation_kwargs:
+  max_new_tokens: 300
   do_sample: false
   until:
     - 'Q:'

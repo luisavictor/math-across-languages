@@ -13,8 +13,6 @@ from pathlib import Path
 sys.path.append(os.path.dirname(__file__))
 from fine_tune import fine_tune_on_isolated_params
 import codealpaca_oracle
-import time
-beg = time.time()
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', help="Huggingface model to train, entered as string", type=str)
@@ -58,7 +56,7 @@ parser.add_argument('--train_lm_eval_task',
 parser.add_argument('--run_codealpaca_eval',
                     help="run CodeAlpaca oracle evaluation after lm_eval",
                     action="store_true")
-parser.add_argument('--proportion', help="desired proportion of top parameters to calculate", type=float, nargs='+', default=None)
+parser.add_argument('--proportion', help="desired proportion of top parameters to calculate", type=float, default=None)
 parser.add_argument('--fine_tune',
                     help="freeze all non-task-specific parameters and fine-tune only isolated task-specific weights",
                     action="store_true")
@@ -66,12 +64,20 @@ parser.add_argument('--batch_size',
                     help="batch size for evaluation",
                     type=int, default=1)
 
+print(os.environ.get("CUBLAS_WORKSPACE_CONFIG"))
+
 args = parser.parse_args()
 random.seed(args.random_state)
 np.random.seed(args.random_state)
 torch.manual_seed(args.random_state)
 torch.cuda.manual_seed_all(args.random_state)
 torch.backends.cudnn.benchmark = False
+
+torch.use_deterministic_algorithms(True)
+torch.backends.cudnn.deterministic = True
+torch.backends.cuda.matmul.allow_tf32 = False
+torch.backends.cudnn.allow_tf32 = False
+
 
 oracle_cases_path = None
 oracle_eval_ids = None
@@ -86,13 +92,9 @@ if args.run_codealpaca_eval:
 
 mask_dir = f"{args.save_path}/isolated_masks/{args.model}"
 os.makedirs(mask_dir, exist_ok=True)
+task_manager = lm_eval.tasks.TaskManager(include_path="../lm_eval_tasks")
 
-if os.path.exists("../lm_eval_tasks"):
-    task_manager = lm_eval.tasks.TaskManager(include_path="../lm_eval_tasks")
-elif os.path.exists("lm_eval_tasks"):
-    task_manager = lm_eval.tasks.TaskManager(include_path="lm_eval_tasks")
-else:
-    raise ValueError("Could not find lm_eval_tasks directory.")
+
 
 
 train = pd.read_csv(args.train_dataset)
@@ -284,6 +286,7 @@ def find_good_params(keep_ratio, prune=True, largest=True, param_dict = "good_sc
                 mask_dict[k][top_pos] = 1
                 mask_dict[k] = mask_dict[k].reshape(v.shape).to(tensor.device)
             else:
+
                 sizes = v.shape
                 num_params = v.numel()
                 keep_num = int(num_params * keep_ratio)
@@ -292,6 +295,8 @@ def find_good_params(keep_ratio, prune=True, largest=True, param_dict = "good_sc
                 mask_dict[k] = torch.ones_like(tensor, device='cpu')
                 mask_dict[k][top_pos] = 0
                 mask_dict[k] = mask_dict[k].reshape(v.shape).to('cpu')
+
+
 
     return mask_dict
 
@@ -355,23 +360,20 @@ def getActivation(name):
 
 
 num_samples = args.num_samples
-num_repeats = args.num_repeats
+num_repeats = 1
 if args.proportion is None:
-    good_percents = [.0001, .001,  .01,  .05, .1, .15]
+    good_percents = [0.000001, 0.00005, 0.00001, .0001, .001,  .01, .1]
 if args.proportion is not None:
-    if len(args.proportion) > 1:
-        good_percents = args.proportion
-    else:
-        good_percents = [args.proportion]
+    good_percents = [args.proportion]
 scalar = args.scalar
 
 
 
 for dataset in dataset_list:
     for repeat in range(0, num_repeats):
-        random_state = args.random_state + repeat*100
-        sampled_train = train.sample(n=num_samples, replace=True, random_state=random_state)
-        sampled_comparison = dataset.sample(n=num_samples, replace=True, random_state=random_state)
+
+        sampled_train = train.sample(n=num_samples, replace=True, random_state=args.random_state)
+        sampled_comparison = dataset.sample(n=num_samples, replace=True, random_state=args.random_state)
 
         # load model again (only important for multi run case) and register the hook function
         model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
@@ -381,12 +383,13 @@ for dataset in dataset_list:
                 hook_fn = getActivation(name)  # Get the hook function
                 module.register_forward_hook(hook_fn)  # Register the hook function
 
-        compute_score_mask(model, sampled_train, num_samples=num_samples, save_dir=mask_dir, save_path = f"train_scores_seed{random_state}.pt")
-        compute_score_mask(model, sampled_comparison, num_samples=num_samples, save_dir=mask_dir, save_path=f"comparison_scores_seed{random_state}.pt")
+        #compute_score_mask(model, sampled_train, num_samples=num_samples, save_dir=mask_dir, save_path = f"train_scores_seed{args.random_state}.pt")
+        #compute_score_mask(model, sampled_comparison, num_samples=num_samples, save_dir=mask_dir, save_path=f"comparison_scores_seed{args.random_state}.pt")
 
         for good_percent in good_percents:
             # load fresh model for each new run since modified during each run
-            model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
+            model = AutoModelForCausalLM.from_pretrained(args.model, device_map=None, torch_dtype=torch.bfloat16)
+            model = model.to("cuda:0")
             model.eval()
             torch.cuda.empty_cache()
             magnitude = {}
@@ -398,13 +401,13 @@ for dataset in dataset_list:
 
 
             print("load good param score mask")
-            param_dict_good = torch.load(Path(mask_dir) / f"train_scores_seed{random_state}.pt", map_location="cpu")
+            param_dict_good = torch.load(Path(mask_dir) / f"train_scores_seed{args.random_state}.pt", map_location="cpu")
             print("extract top-k params")
             good_params = find_good_params(keep_ratio=good_percent, prune=True, largest=True, param_dict = param_dict_good)
             torch.cuda.empty_cache()
 
             print("load comparison param score mask")
-            param_dict_comparison = torch.load(Path(mask_dir) / f"comparison_scores_seed{random_state}.pt", map_location="cpu")
+            param_dict_comparison = torch.load(Path(mask_dir) / f"comparison_scores_seed{args.random_state}.pt", map_location="cpu")
             print("extract top-k params")
             comparison_params = find_good_params(keep_ratio=good_percent, prune=True,largest=True, param_dict = param_dict_comparison)
 
@@ -451,7 +454,7 @@ for dataset in dataset_list:
                     train_df=sampled_train,
                     # fine-tune on the same 500 samples for that the params have been identified
                     isolated_masks=isolated_masks,
-                    seed=random_state
+                    seed=args.random_state
                 )
                 model.eval()
                 del isolated_masks
@@ -494,7 +497,7 @@ for dataset in dataset_list:
                     log_samples=False,
                     batch_size=args.batch_size,
                     limit=args.eval_dataset_subset,
-                    random_seed=random_state
+                    random_seed=args.random_state
                 )
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_run{repeat}_train_task.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
@@ -521,7 +524,7 @@ for dataset in dataset_list:
                             log_samples=True,
                             batch_size=args.batch_size,
                             limit=codealpaca_limit,
-                            random_seed=random_state
+                            random_seed=args.random_state
                         )
                     finally:
                         if oracle_env_set:

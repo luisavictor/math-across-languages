@@ -90,7 +90,7 @@ def plot_jaccard_per_good_percent(
 
         # Right axis: isolated counts
         l2 = ax_right.plot(x, iso_en, marker=".",alpha=0.5,color="green", label="Math-specific English")
-        l3 = ax_right.plot(x, iso_de, marker=".",color="violet", label="Math-specific German")
+        l3 = ax_right.plot(x, iso_de, marker=".",color="violet", label="Code-specific")
 
         ax_left.set_xlabel("Layer")
         ax_left.set_ylabel("Jaccard similarity")
@@ -103,7 +103,7 @@ def plot_jaccard_per_good_percent(
         ax_left.set_title(title)
 
 
-        ax_left.set_ylim(0.0, 0.4)
+        ax_left.set_ylim(0.0, 0.5)
         #ax_right.set_ylim([])
 
         # Combine legends from both axes
@@ -131,10 +131,10 @@ def plot_jaccard_per_good_percent(
             plt.close(fig)
 
 
-
+seed = 42
 plot_jaccard_per_good_percent(
-    f"../MathNeuro/results_jaccard/gsm8k_race_en_vs_de/jaccard_summary_42.json",
-    save_dir="jaccard_results/gsm8k_race_en_vs_de",
+    f"../MathNeuro/jaccard_results/gsm8k_race_en_vs_code/jaccard_summary_{seed}.json",
+    save_dir="jaccard_results/gsm8k_race_en_vs_code",
     show=True,
-    show_chance_line=False
+    show_chance_line=True
 )

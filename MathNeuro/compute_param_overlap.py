@@ -243,6 +243,7 @@ def build_isolated_masks(mask_dir: str, good_percent: float, seed: int = 1):
 
     isolated_masks = {k: (m == 0).to(torch.bool) for k, m in isolated_zero_mask.items()}
     del isolated_zero_mask
+    print("new isolated mask returned")
 
     return isolated_masks
 
@@ -252,7 +253,7 @@ def run_jaccard_sweep(
     mask_dir_lang1,
     mask_dir_lang2,
     out_dir,
-    seed: int = 1,
+    seed,
     group_fn=None,
 ):
     """
@@ -265,13 +266,14 @@ def run_jaccard_sweep(
         # default to your per-layer grouping function
         group_fn = layer_group_name
 
-    json_path = out_dir / "jaccard_summary.json"
-    csv_path = out_dir / "jaccard_per_layer.csv"
+    json_path = out_dir / f"jaccard_summary_{seed}.json"
+    csv_path = out_dir / f"jaccard_per_layer_{seed}.csv"
 
     all_results = []  # list of dicts (one per good_percent)
     per_layer_rows = []  # flattened rows for CSV
 
     for gp in good_percents:
+        print(gp)
         # build masks
         isolated_masks_lang1 = build_isolated_masks(mask_dir_lang1, gp, seed=seed)
         isolated_masks_lang2 = build_isolated_masks(mask_dir_lang2, gp, seed=seed)
@@ -333,12 +335,13 @@ def run_jaccard_sweep(
     return all_results, per_layer_rows
 
 
-good_percents = [0.0001, 0.001, 0.01,0.025,0.05, 0.1, 0.15]
+#good_percents = [0.000001, 0.000005, 0.00001, 0.0001, 0.001, 0.01, 0.1]
+good_percents = [0.0001, 0.001, 0.01, 0.025, 0.05, 0.075, 0.1, 0.125, 0.15]
+print(good_percents)
+mask_dir_lang1 = "results_gsm8k_en_race_en/isolated_masks/meta-llama/Llama-3.2-1B-Instruct/"
+mask_dir_lang2 =  "results_code_race/isolated_masks/meta-llama/Llama-3.2-1B-Instruct/"
 
-mask_dir_lang1 = "/home/iailab75/selbacht0/Test_Lab/MathNeuro/results_codealpaca_0.01/isolated_masks/meta-llama/Llama-3.2-1B-Instruct/"
-mask_dir_lang2 = "/home/iailab75/selbacht0/Test_Lab/MathNeuro/results_codealpaca_mmlu_filtered/isolated_masks/meta-llama/Llama-3.2-1B-Instruct/"
-
-out_dir = "results_jaccard/gsm8k_mmlu_en_filtered_vs_code"
+out_dir = "jaccard_results/code_race"
 
 all_results, per_layer_rows = run_jaccard_sweep(
     good_percents=good_percents,

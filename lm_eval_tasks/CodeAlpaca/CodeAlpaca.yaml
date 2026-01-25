@@ -37,6 +37,7 @@ metric_list:
     higher_is_better: true
 
 generation_kwargs:
+  max_new_tokens: 600
   until:
     - "### Explanation"
     - "### Example"
