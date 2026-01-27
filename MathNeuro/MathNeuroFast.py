@@ -56,7 +56,7 @@ parser.add_argument('--train_lm_eval_task',
 parser.add_argument('--run_codealpaca_eval',
                     help="run CodeAlpaca oracle evaluation after lm_eval",
                     action="store_true")
-parser.add_argument('--proportion', help="desired proportion of top parameters to calculate", type=float, default=None)
+parser.add_argument('--proportion', help="desired proportion of top parameters to calculate", type=float, default=None, nargs='+')
 parser.add_argument('--fine_tune',
                     help="freeze all non-task-specific parameters and fine-tune only isolated task-specific weights",
                     action="store_true")
