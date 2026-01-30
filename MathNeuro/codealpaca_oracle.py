@@ -384,7 +384,7 @@ def compute_oracle_metrics(
 def run_codealpaca_oracle_eval(
     candidate_path: str,
     metrics_path: str,
-    run_pytest: bool = True,
+    run_pytest: bool = False,
     filter_to_candidates: bool = True,
     allowed_sample_ids: set[int] | None = None,
     max_cases_per_id: int | None = None,
