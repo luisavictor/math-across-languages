@@ -1,0 +1,11 @@
+{
+  "task_name": "gsm8k_cot_train",
+  "dataset_size": 7473,
+  "limit_used": 2000,
+  "available_correct_count": 642,
+  "available_incorrect_count": 1358,
+  "correct_count": 500,
+  "incorrect_count": 500,
+  "samples_per_group": 500,
+  "random_seed": 1
+}
