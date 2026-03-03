@@ -22,3 +22,9 @@
 [MMLU] repeat 3, top 5.0000% — math: 375232780, non-math: 375232780, math-only after removing non-math: 79877555
 [MMLU] repeat 3, top 10.0000% — math: 750465721, non-math: 750465721, math-only after removing non-math: 126211727
 [MMLU] repeat 3, top 15.0000% — math: 1125698662, non-math: 1125698662, math-only after removing non-math: 150109932
+[MMLU] repeat 1, top 0.0001% — math: 7373, non-math: 7373, math-only after removing non-math: 2664
+[MMLU] repeat 1, top 0.0010% — math: 74917, non-math: 74917, math-only after removing non-math: 30382
+[MMLU] repeat 2, top 0.0001% — math: 7373, non-math: 7373, math-only after removing non-math: 2681
+[MMLU] repeat 2, top 0.0010% — math: 74917, non-math: 74917, math-only after removing non-math: 29513
+[MMLU] repeat 3, top 0.0001% — math: 7373, non-math: 7373, math-only after removing non-math: 2709
+[MMLU] repeat 3, top 0.0010% — math: 74917, non-math: 74917, math-only after removing non-math: 29820

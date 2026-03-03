@@ -1,0 +1,6 @@
+[MMLU] repeat 1, top 0.5000% — math: 18166464, non-math: 18166464, math-only after removing non-math: 3561832
+[MMLU] repeat 1, top 2.5000% — math: 90832896, non-math: 90832896, math-only after removing non-math: 15506075
+[MMLU] repeat 2, top 0.5000% — math: 18166464, non-math: 18166464, math-only after removing non-math: 3643401
+[MMLU] repeat 2, top 2.5000% — math: 90832896, non-math: 90832896, math-only after removing non-math: 15979317
+[MMLU] repeat 3, top 0.5000% — math: 18166464, non-math: 18166464, math-only after removing non-math: 3585715
+[MMLU] repeat 3, top 2.5000% — math: 90832896, non-math: 90832896, math-only after removing non-math: 15668016
