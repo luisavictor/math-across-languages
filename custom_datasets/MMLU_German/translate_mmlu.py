@@ -12,6 +12,9 @@ from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, BitsAndBytesConfi
 QA_LABELS = {
     "deu_Latn": ("Frage", "Antwortoptionen", "Antwort"),
     "hin_Deva": ("प्रश्न", "उत्तर विकल्प", "उत्तर"),
+    "fra_Latn": ("Question", "Choix", "Réponse"),
+    "ita_Latn": ("Domanda", "Opzioni di risposta", "Risposta"),
+    "por_Latn": ("Pergunta", "Opções de resposta", "Resposta"),
 }
 
 EXCLUDED_SUBJECTS = {
@@ -35,7 +38,7 @@ EXCLUDED_SUBJECTS = {
 
 DEFAULT_MODEL_NAME = "facebook/nllb-200-3.3B"
 #TARGET_LANG_CODE = "deu_Latn"
-TARGET_LANG_CODE = "hin_Deva"
+TARGET_LANG_CODE = "fra_Latn"
 
 
 
@@ -234,7 +237,7 @@ def translate_rows(
         question_de = strip_outer_quotes(
             translate_text(str(row["question"]), tokenizer, model, forced_bos_token_id)
         )
-        qa_de = build_qa_text(question_de, translated_choices, row["answer"])
+        qa_de = build_qa_text(question_de, translated_choices, row["answer"], TARGET_LANG_CODE)
 
         translated_rows.append(
             {
@@ -273,10 +276,10 @@ def main():
     default_input = default_input.resolve()
 
     #default_output = Path(__file__).resolve().parent / "mmlu_de_test.csv"
-    default_output = (Path(__file__).resolve().parent / "../MMLU_Hindi/mmlu_hi_test_save.csv").resolve()
+    default_output = (Path(__file__).resolve().parent / "../MMLU_French/mmlu_fr_test.csv").resolve()
     default_output.parent.mkdir(parents=True, exist_ok=True)
 
-    parser = argparse.ArgumentParser(description="Translate MMLU to German with NLLB-200.")
+    parser = argparse.ArgumentParser(description="Translate MMLU to French with NLLB-200.")
     parser.add_argument("--input_csv", type=Path, default=default_input)
     parser.add_argument("--output_csv", type=Path, default=default_output)
     parser.add_argument("--max_rows", type=int, default=None, help="Limit rows for a quick test run.")
