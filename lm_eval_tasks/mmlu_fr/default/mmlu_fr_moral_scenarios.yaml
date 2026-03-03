@@ -1,0 +1,13 @@
+include: _default_template_yaml
+task: mmlu_fr_moral_scenarios
+task_alias: moral_scenarios
+
+description: "Les questions suivantes sont des questions à choix multiples (avec réponses) sur le sujet scénarios moraux.\n\n"
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_French/mmlu_fr_by_subject/moral_scenarios.csv
+
+test_split: test
+
+

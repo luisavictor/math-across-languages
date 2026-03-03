@@ -1,0 +1,13 @@
+include: _default_template_yaml
+task: mmlu_fr_anatomy
+task_alias: anatomy
+
+description: "Les questions suivantes sont des questions à choix multiples (avec réponses) sur le sujet anatomie.\n\n"
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_French/mmlu_fr_by_subject/anatomy.csv
+
+test_split: test
+
+

@@ -1,0 +1,13 @@
+include: _default_template_yaml
+task: mmlu_fr_logical_fallacies
+task_alias: logical_fallacies
+
+description: "Les questions suivantes sont des questions à choix multiples (avec réponses) sur le sujet sophismes logiques.\n\n"
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_French/mmlu_fr_by_subject/logical_fallacies.csv
+
+test_split: test
+
+

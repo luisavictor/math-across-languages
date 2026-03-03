@@ -1,0 +1,13 @@
+include: _default_template_yaml
+task: mmlu_fr_human_aging
+task_alias: human_aging
+
+description: "Les questions suivantes sont des questions à choix multiples (avec réponses) sur le sujet vieillissement humain.\n\n"
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_French/mmlu_fr_by_subject/human_aging.csv
+
+test_split: test
+
+

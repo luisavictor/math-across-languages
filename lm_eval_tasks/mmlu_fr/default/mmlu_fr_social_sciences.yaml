@@ -1,0 +1,21 @@
+group: mmlu_fr_social_sciences
+group_alias: social sciences
+task:
+  - mmlu_fr_high_school_geography
+  - mmlu_fr_high_school_psychology
+  - mmlu_fr_high_school_macroeconomics
+  - mmlu_fr_high_school_microeconomics
+  - mmlu_fr_professional_psychology
+  - mmlu_fr_public_relations
+  - mmlu_fr_security_studies
+  - mmlu_fr_sociology
+  - mmlu_fr_us_foreign_policy
+  - mmlu_fr_human_sexuality
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: True
+metadata:
+  version: 1
+
+
+
