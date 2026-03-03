@@ -1,0 +1,99 @@
+group:
+  - chain_of_thought
+task: gsm8k_fr_cot
+
+dataset_path: csv
+dataset_name: null
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/GSM8k_French/gsm8k_fr_test.csv
+
+process_docs: !function utils.process_docs
+
+output_type: generate_until
+test_split: test
+
+doc_to_text: |
+  Q: {{question}}
+
+  A:
+
+# WICHTIG: Für Datensatz-Einträge answer_number, für Few-Shot-Samples target
+doc_to_target: "{{ (answer_number | string) if answer_number is defined else target }}"
+
+
+metric_list:
+  - aggregation: mean
+    higher_is_better: true
+    ignore_case: true
+    ignore_punctuation: false
+    metric: exact_match
+    regexes_to_ignore:
+      - ','
+      - '\$'
+      - '(?s).*#### '
+      - '\.$'
+
+repeats: 1
+num_fewshot: 8
+fewshot_config:
+  sampler: first_n
+  samples:
+    - question: Dans un bosquet, il y a 15 arbres. Aujourd’hui, des ouvriers vont planter d’autres arbres dans le bosquet. Quand ils auront fini, il y aura 21 arbres. Combien d’arbres les ouvriers ont-ils plantés aujourd’hui ?
+      target: >
+        Au départ, il y avait 15 arbres dans le bosquet. Ensuite, il y en a 21 après en avoir planté d’autres.
+        Donc 21 - 15 = 6 arbres ont été plantés. La réponse est 6.
+    - question: S’il y a 3 voitures sur le parking et que 2 autres voitures arrivent, combien de voitures y a-t-il alors sur le parking ?
+      target: >
+        Au départ, il y avait 3 voitures sur le parking. 2 autres voitures s’ajoutent.
+        3 + 2 = 5. La réponse est 5.
+    - question: Leah avait 32 chocolats et sa sœur en avait 42. Si elles en ont mangé 35 au total, combien de morceaux leur reste-t-il au total ?
+      target: >
+        Au départ, Leah avait 32 chocolats. Sa sœur en avait 42.
+        Elles avaient donc 32 + 42 = 74 au total. Après en avoir mangé 35, il reste 74 - 35 = 39.
+        La réponse est 39.
+    - question: Jason avait 20 sucettes. Il a donné quelques sucettes à Denny. Maintenant, Jason a 12 sucettes. Combien de sucettes Jason a-t-il données à Denny ?
+      target: >
+        Jason a commencé avec 20 sucettes. Ensuite, il en avait 12 après en avoir donné à Denny.
+        Donc il a donné 20 - 12 = 8 sucettes à Denny. La réponse est 8.
+    - question: Shawn a cinq jouets. À Noël, il a reçu deux jouets de sa mère et deux jouets de son père. Combien de jouets a-t-il maintenant ?
+      target: >
+        Shawn a commencé avec 5 jouets. S’il a reçu 2 jouets de sa mère et 2 jouets de son père,
+        cela fait 4 jouets de plus. 5 + 4 = 9. La réponse est 9.
+    - question: Dans la salle des serveurs, il y avait neuf ordinateurs. Du lundi au jeudi, cinq ordinateurs supplémentaires ont été installés chaque jour. Combien d’ordinateurs y a-t-il maintenant dans la salle des serveurs ?
+      target: >
+        Au départ, il y avait 9 ordinateurs. Pendant chacun des 4 jours, 5 ordinateurs supplémentaires ont été ajoutés.
+        Donc 5 * 4 = 20 ordinateurs ont été ajoutés. 9 + 20 = 29. La réponse est 29.
+    - question: Michael avait 58 balles de golf. Mardi, il a perdu 23 balles de golf. Mercredi, il en a perdu 2 de plus. Combien de balles de golf avait-il à la fin du mercredi ?
+      target: >
+        Michael a commencé avec 58 balles de golf. Après en avoir perdu 23 mardi, il lui restait 58 - 23 = 35.
+        Après en avoir perdu 2 de plus, il lui restait 35 - 2 = 33 balles de golf. La réponse est 33.
+    - question: Olivia a 23 dollars. Elle a acheté cinq bagels à 3 dollars chacun. Combien d’argent lui reste-t-il ?
+      target: >
+        Olivia avait 23 dollars. 5 bagels à 3 dollars chacun coûtent 5 × 3 = 15 dollars.
+        Il lui reste donc 23 - 15 dollars. 23 - 15 = 8. La réponse est 8.
+
+filter_list:
+  - filter:
+      - function: regex
+        regex_pattern: La réponse est (\-?[0-9\.\,]+).
+      - function: take_first
+    name: strict-match
+  - filter:
+      - function: regex
+        group_select: -1
+        regex_pattern: (-?[$0-9.,]{2,})|(-?[0-9]+)
+      - function: take_first
+    name: flexible-extract
+
+generation_kwargs:
+  max_new_tokens: 300
+  do_sample: false
+  until:
+    - 'Q:'
+    - '</s>'
+    - '<|im_end|>'
+
+metadata:
+  version: 3.0
+  num_fewshot: 8
