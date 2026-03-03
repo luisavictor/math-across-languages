@@ -1,0 +1,14 @@
+[Race] repeat 1, top 0.0001% — math: 3456, non-math: 3456, math-only after removing non-math: 1541
+[Race] repeat 1, top 0.0010% — math: 36252, non-math: 36252, math-only after removing non-math: 16053
+[Race] repeat 2, top 0.0001% — math: 3456, non-math: 3456, math-only after removing non-math: 1586
+[Race] repeat 2, top 0.0010% — math: 36252, non-math: 36252, math-only after removing non-math: 16367
+[Race] repeat 3, top 0.0001% — math: 3456, non-math: 3456, math-only after removing non-math: 1545
+[Race] repeat 3, top 0.0010% — math: 36252, non-math: 36252, math-only after removing non-math: 15898
+[Race] repeat 4, top 0.0001% — math: 3456, non-math: 3456, math-only after removing non-math: 1531
+[Race] repeat 4, top 0.0010% — math: 36252, non-math: 36252, math-only after removing non-math: 15926
+[Race] repeat 5, top 0.0001% — math: 3456, non-math: 3456, math-only after removing non-math: 1545
+[Race] repeat 5, top 0.0010% — math: 36252, non-math: 36252, math-only after removing non-math: 15963
+[Race] repeat 1, top 0.0010% — math: 36252, non-math: 36252, math-only after removing non-math: 16053
+[Race] repeat 1, top 0.0010% — math: 36252, non-math: 36252, math-only after removing non-math: 16053
+[Race] repeat 1, top 0.0010% — math: 36252, non-math: 36252, math-only after removing non-math: 16053
+[Race] repeat 1, top 0.0010% — math: 36252, non-math: 36252, math-only after removing non-math: 16053
