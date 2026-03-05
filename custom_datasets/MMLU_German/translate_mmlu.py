@@ -305,8 +305,8 @@ def main():
 
     df = load_and_filter(args.input_csv, args.max_rows)
 
-    df = df.iloc[8801:].reset_index(drop=True)
-    print(f"Resuming from filtered row index {8801} (remaining {len(df)} rows).")
+    # df = df.iloc[8801:].reset_index(drop=True)
+    # print(f"Resuming from filtered row index {8801} (remaining {len(df)} rows).")
 
 
 
