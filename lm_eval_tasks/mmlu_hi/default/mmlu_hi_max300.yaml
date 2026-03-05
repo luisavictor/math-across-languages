@@ -1,0 +1,14 @@
+group: mmlu_hi_max300
+task:
+  - mmlu_hi_stem
+  - mmlu_hi_other
+  - mmlu_hi_humanities
+  - mmlu_hi_social_sciences
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: true
+metadata:
+  version: 1
+generation_kwargs:
+  max_new_tokens: 300
+

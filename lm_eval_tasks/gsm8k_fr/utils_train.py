@@ -7,6 +7,12 @@ def _extract_question(text: str) -> str:
     t = re.sub(r"^(Q|F)\s*:\s*", "", t)
     if "\nA:" in t:
         t = t.split("\nA:", 1)[0].strip()
+    elif " A: " in t:
+        # Fallback: training CSVs may lack newlines before the answer marker.
+        t = t.split(" A: ", 1)[0].strip()
+    elif " Réfléchissons" in t:
+        # French samples without A: marker use 'Réfléchissons' to start the answer.
+        t = t.split(" Réfléchissons", 1)[0].strip()
     return t
 
 
