@@ -1,0 +1,816 @@
+question,subject,choices,answer,qa
+Un syllogisme disjonctif valide a une prémisse majeure qui:,logical_fallacies,"['comprend deux ou plusieurs alternatives', 'classifie les sujets', 'affirme l' antécédent ou nie la conséquence', 'conduit à une conclusion valable']",0,"Question: Un syllogisme disjonctif valide a une prémisse majeure qui:
+
+Choix: ['comprend deux ou plusieurs alternatives', 'classifie les sujets', 'affirme l' antécédent ou nie la conséquence', 'conduit à une conclusion valable']
+
+Réponse: comprend deux ou plusieurs alternatives"
+Laquelle des affirmations suivantes décrit le mieux l'erreur selon laquelle le style est plus important que le contenu?,logical_fallacies,"['Changer le sens d'un mot ou d'une phrase d'une partie de l'argument à une autre.', 'Confondre le langage figuré avec le langage littéral.', 'Raisonner que les idées présentées d'une manière attrayante sont correctes, quel que soit le contenu du message.', 'Utiliser un langage chargé d'émotion pour créer une impression sur le sujet d'une revendication, sans faire valoir que le langage correspond au sujet.']",2,"Question: Laquelle des affirmations suivantes décrit le mieux l'erreur selon laquelle le style est plus important que le contenu?
+
+Choix: ['Changer le sens d'un mot ou d'une phrase d'une partie de l'argument à une autre.', 'Confondre le langage figuré avec le langage littéral.', 'Raisonner que les idées présentées d'une manière attrayante sont correctes, quel que soit le contenu du message.', 'Utiliser un langage chargé d'émotion pour créer une impression sur le sujet d'une revendication, sans faire valoir que le langage correspond au sujet.']
+
+Réponse: Raisonner que les idées présentées d'une manière attrayante sont correctes, quel que soit le contenu du message."
+Laquelle des erreurs suivantes est une façon de supprimer des preuves qui élimine une source de preuves de la considération en affirmant que la source est défectueuse lorsqu'il n'existe pas de lien réel entre le défaut allégué et la fiabilité de la source?,logical_fallacies,"['l'importance', 'l'attrait du snobisme', 'empoisonner le puits', 'faire appel à une autorité anonyme']",2,"Question: Laquelle des erreurs suivantes est une façon de supprimer des preuves qui élimine une source de preuves de la considération en affirmant que la source est défectueuse lorsqu'il n'existe pas de lien réel entre le défaut allégué et la fiabilité de la source?
+
+Choix: ['l'importance', 'l'attrait du snobisme', 'empoisonner le puits', 'faire appel à une autorité anonyme']
+
+Réponse: empoisonner le puits"
+L'erreur de la fausse analogie est,logical_fallacies,"['un type spécifique de fausse erreur de cause qui soutient que puisque deux événements se sont produits en même temps, un événement doit avoir causé l'autre', 'argumentant qu'un événement qui a précédé un autre événement est nécessairement la cause du second événement', 'en faisant valoir que, puisque quelque chose est nouveau, il est nécessairement bon', 'tirer une conclusion sur la base d'une comparaison lorsque les éléments comparés ne sont pas suffisamment similaires pour étayer la conclusion.']",3,"Question: L'erreur de la fausse analogie est
+
+Choix: ['un type spécifique de fausse erreur de cause qui soutient que puisque deux événements se sont produits en même temps, un événement doit avoir causé l'autre', 'argumentant qu'un événement qui a précédé un autre événement est nécessairement la cause du second événement', 'en faisant valoir que, puisque quelque chose est nouveau, il est nécessairement bon', 'tirer une conclusion sur la base d'une comparaison lorsque les éléments comparés ne sont pas suffisamment similaires pour étayer la conclusion.']
+
+Réponse: tirer une conclusion sur la base d'une comparaison lorsque les éléments comparés ne sont pas suffisamment similaires pour étayer la conclusion."
+L'erreur _ad nauseam_ est,logical_fallacies,"['argumentant que quelque chose devrait être fait parce que c'est la façon dont il a été fait dans le passé.', 'argumentant qu'un acte devrait être accompli parce qu'il n'aura pas de conséquences significatives, alors qu'il n'existe aucune preuve des effets', 'raisonnant qu'une conclusion est vraie parce qu'elle a été revendiquée si souvent', 'raisonner qu'une affirmation est vraie parce que tant de gens croient qu'elle est vraie']",2,"Question: L'erreur _ad nauseam_ est
+
+Choix: ['argumentant que quelque chose devrait être fait parce que c'est la façon dont il a été fait dans le passé.', 'argumentant qu'un acte devrait être accompli parce qu'il n'aura pas de conséquences significatives, alors qu'il n'existe aucune preuve des effets', 'raisonnant qu'une conclusion est vraie parce qu'elle a été revendiquée si souvent', 'raisonner qu'une affirmation est vraie parce que tant de gens croient qu'elle est vraie']
+
+Réponse: raisonnant qu'une conclusion est vraie parce qu'elle a été revendiquée si souvent"
+Argumenter que ce qui est vrai d'un objet entier est également vrai de chaque partie de cet objet est l'erreur de,logical_fallacies,"['critères erronés', 'généralisation précipitée', 'Nom de l'établissement', 'département']",3,"Question: Argumenter que ce qui est vrai d'un objet entier est également vrai de chaque partie de cet objet est l'erreur de
+
+Choix: ['critères erronés', 'généralisation précipitée', 'Nom de l'établissement', 'département']
+
+Réponse: département"
+Laquelle des affirmations suivantes décrit l'erreur du rire du cheval ?,logical_fallacies,"['répondre à un argument avec une expression de dérision au lieu d'un contre-argument', 'tentatives d'obtenir un accord fondé uniquement sur les sentiments suscités par le message', 'caractériser la position d'un adversaire de telle manière qu'elle ou ses conséquences semblent ridicules', 'l'argumentation selon laquelle des mesures devraient être prises pour éviter des résultats négatifs, lorsque ces résultats sont exagérés, peu probables ou non pertinents;']",0,"Question: Laquelle des affirmations suivantes décrit l'erreur du rire du cheval ?
+
+Choix: ['répondre à un argument avec une expression de dérision au lieu d'un contre-argument', 'tentatives d'obtenir un accord fondé uniquement sur les sentiments suscités par le message', 'caractériser la position d'un adversaire de telle manière qu'elle ou ses conséquences semblent ridicules', 'l'argumentation selon laquelle des mesures devraient être prises pour éviter des résultats négatifs, lorsque ces résultats sont exagérés, peu probables ou non pertinents;']
+
+Réponse: répondre à un argument avec une expression de dérision au lieu d'un contre-argument"
+Argumenter qu'un manque de preuves prouve quelque chose est la fausseté de...,logical_fallacies,"['Un appel à l'ignorance', 'Double négatif', 'Équivoque', 'Charge de la preuve']",0,"Question: Argumenter qu'un manque de preuves prouve quelque chose est la fausseté de...
+
+Choix: ['Un appel à l'ignorance', 'Double négatif', 'Équivoque', 'Charge de la preuve']
+
+Réponse: Un appel à l'ignorance"
+L'argument contre la personne est le suivant:,logical_fallacies,"['ignorer les arguments d'une autre personne et attaquer son personnage à la place', 'affirmant qu'un argumentateur adverse a pris une position facilement vaincue, ce qu'elle n'a pas vraiment pris', 'causer de la confusion lors d'une dispute par un manque de capacité à s'engager dans la réfutation', 'utiliser des menaces de faire du mal au lieu de raisonner pour obtenir un accord']",0,"Question: L'argument contre la personne est le suivant:
+
+Choix: ['ignorer les arguments d'une autre personne et attaquer son personnage à la place', 'affirmant qu'un argumentateur adverse a pris une position facilement vaincue, ce qu'elle n'a pas vraiment pris', 'causer de la confusion lors d'une dispute par un manque de capacité à s'engager dans la réfutation', 'utiliser des menaces de faire du mal au lieu de raisonner pour obtenir un accord']
+
+Réponse: ignorer les arguments d'une autre personne et attaquer son personnage à la place"
+Laquelle des idées fausses suivantes se produit quand quelqu'un conclut que quelqu'un doit être honnête parce que les gens avec qui il traîne sont honnêtes?,logical_fallacies,"['Personnalité élogieuse', 'La culpabilité par association', 'Personnalité répréhensible', 'Le raisonnement circulaire']",1,"Question: Laquelle des idées fausses suivantes se produit quand quelqu'un conclut que quelqu'un doit être honnête parce que les gens avec qui il traîne sont honnêtes?
+
+Choix: ['Personnalité élogieuse', 'La culpabilité par association', 'Personnalité répréhensible', 'Le raisonnement circulaire']
+
+Réponse: La culpabilité par association"
+"Si vous posez une question qui inclut une hypothèse non étayée, quelle erreur risquez- vous de commettre?",logical_fallacies,"['Un appel à l'ignorance', 'Prolongation du délai', 'à priori', 'Une question complexe']",3,"Question: Si vous posez une question qui inclut une hypothèse non étayée, quelle erreur risquez- vous de commettre?
+
+Choix: ['Un appel à l'ignorance', 'Prolongation du délai', 'à priori', 'Une question complexe']
+
+Réponse: Une question complexe"
+"Polonius dans Hamlet de William Shakespeare: ""Votre noble fils est fou: Je l'appelle fou, car pour définir la vraie folie, qu'est-ce que c'est d'être rien d'autre que fou?""",logical_fallacies,"['Attaquer la personne (ad hominem)', 'Équivoque', 'La question est posée', 'Un appel à la pitié']",2,"Question: Polonius dans Hamlet de William Shakespeare: ""Votre noble fils est fou: Je l'appelle fou, car pour définir la vraie folie, qu'est-ce que c'est d'être rien d'autre que fou?""
+
+Choix: ['Attaquer la personne (ad hominem)', 'Équivoque', 'La question est posée', 'Un appel à la pitié']
+
+Réponse: La question est posée"
+L'hôtel Hyatt Regency à la Nouvelle-Orléans est heureux de confirmer votre réservation.,logical_fallacies,"['Équivoque', 'L'affirmation de la conséquence', 'L'erreur du joueur', 'Incohérence']",3,"Question: L'hôtel Hyatt Regency à la Nouvelle-Orléans est heureux de confirmer votre réservation.
+
+Choix: ['Équivoque', 'L'affirmation de la conséquence', 'L'erreur du joueur', 'Incohérence']
+
+Réponse: Incohérence"
+L'erreur de la loi naturelle est,logical_fallacies,"['argumentant que quelque chose est nécessairement mauvais parce qu'il ne coûte pas très cher', 'substituer des histoires individuelles à un échantillon plus large pour soutenir une généralisation', 'en faisant valoir que ce qui est vrai dans la nature doit être vrai sur les humains', 'la même chose que l'erreur post hoc']",2,"Question: L'erreur de la loi naturelle est
+
+Choix: ['argumentant que quelque chose est nécessairement mauvais parce qu'il ne coûte pas très cher', 'substituer des histoires individuelles à un échantillon plus large pour soutenir une généralisation', 'en faisant valoir que ce qui est vrai dans la nature doit être vrai sur les humains', 'la même chose que l'erreur post hoc']
+
+Réponse: en faisant valoir que ce qui est vrai dans la nature doit être vrai sur les humains"
+"Si quelqu'un utilise une réaffirmation émotionnellement chargée d'une affirmation au lieu de la soutenir, quelle des erreurs suivantes a-t-il pu commettre ?",logical_fallacies,"['Le style avant la substance', 'Des épithètes qui suscitent des interrogations', 'L'hypostatisation', 'Amphibole']",1,"Question: Si quelqu'un utilise une réaffirmation émotionnellement chargée d'une affirmation au lieu de la soutenir, quelle des erreurs suivantes a-t-il pu commettre ?
+
+Choix: ['Le style avant la substance', 'Des épithètes qui suscitent des interrogations', 'L'hypostatisation', 'Amphibole']
+
+Réponse: Des épithètes qui suscitent des interrogations"
+Argumenter qu'une affirmation doit être vraie simplement parce qu'un nombre substantiel de personnes la croient est appelé l'erreur de...,logical_fallacies,"['Tu sais quoi ?', 'La composition', 'Un appel aux masses', 'Appel à la raison']",2,"Question: Argumenter qu'une affirmation doit être vraie simplement parce qu'un nombre substantiel de personnes la croient est appelé l'erreur de...
+
+Choix: ['Tu sais quoi ?', 'La composition', 'Un appel aux masses', 'Appel à la raison']
+
+Réponse: Un appel aux masses"
+"Ad populum, c'est un autre nom pour quelle erreur ?",logical_fallacies,"['empoisonner le puits', 'des preuves dissimulées', 'faire appel à l'orgueil', 'appel au peuple']",3,"Question: Ad populum, c'est un autre nom pour quelle erreur ?
+
+Choix: ['empoisonner le puits', 'des preuves dissimulées', 'faire appel à l'orgueil', 'appel au peuple']
+
+Réponse: appel au peuple"
+"Dans un syllogisme disjonctif valide, la prémisse mineure doit",logical_fallacies,"['accepter un choix', 'rejeter tous les choix sauf un', 'A ou B', 'rien de ce qui précède']",2,"Question: Dans un syllogisme disjonctif valide, la prémisse mineure doit
+
+Choix: ['accepter un choix', 'rejeter tous les choix sauf un', 'A ou B', 'rien de ce qui précède']
+
+Réponse: A ou B"
+Laquelle des affirmations suivantes décrit la fausseté de l'appel à la rancœur?,logical_fallacies,"['répondre à un argument avec une expression de dérision au lieu d'un contre-argument', 'argumenter contre une position basée uniquement sur des sentiments personnels négatifs à l'égard de la position', 'argumenter que quelqu'un devrait faire quelque chose uniquement parce que cette personne n'aime pas quelqu'un d'autre', 'dire que quelqu'un ne devrait pas faire quelque chose parce que s'il ou elle le fait, les gens ne l'aimeront pas']",2,"Question: Laquelle des affirmations suivantes décrit la fausseté de l'appel à la rancœur?
+
+Choix: ['répondre à un argument avec une expression de dérision au lieu d'un contre-argument', 'argumenter contre une position basée uniquement sur des sentiments personnels négatifs à l'égard de la position', 'argumenter que quelqu'un devrait faire quelque chose uniquement parce que cette personne n'aime pas quelqu'un d'autre', 'dire que quelqu'un ne devrait pas faire quelque chose parce que s'il ou elle le fait, les gens ne l'aimeront pas']
+
+Réponse: argumenter que quelqu'un devrait faire quelque chose uniquement parce que cette personne n'aime pas quelqu'un d'autre"
+_Ad hominem_ est un autre nom pour l'erreur de,logical_fallacies,"['faire appel à la loyauté', 'réduire à l'absurdité', 'ignorance de la réfutation', 'argument contre la personne']",3,"Question: _Ad hominem_ est un autre nom pour l'erreur de
+
+Choix: ['faire appel à la loyauté', 'réduire à l'absurdité', 'ignorance de la réfutation', 'argument contre la personne']
+
+Réponse: argument contre la personne"
+L'erreur d'appel à la personne est de rejeter une revendication par...,logical_fallacies,"['Utiliser la rhétorique', 'Faire de fausses déclarations', 'Ignorer la personne', 'Critiquer la personne qui le fait']",3,"Question: L'erreur d'appel à la personne est de rejeter une revendication par...
+
+Choix: ['Utiliser la rhétorique', 'Faire de fausses déclarations', 'Ignorer la personne', 'Critiquer la personne qui le fait']
+
+Réponse: Critiquer la personne qui le fait"
+Un autre nom pour une conclusion hâtive est,logical_fallacies,"['généralisation précipitée', 'post hoc ergo prompter hoc, c'est-à-dire à la suite d'un événement', 'sauter à une conclusion', 'ad novitatem (en anglais seulement)']",2,"Question: Un autre nom pour une conclusion hâtive est
+
+Choix: ['généralisation précipitée', 'post hoc ergo prompter hoc, c'est-à-dire à la suite d'un événement', 'sauter à une conclusion', 'ad novitatem (en anglais seulement)']
+
+Réponse: sauter à une conclusion"
+"Je suis John S. Knight, Detroit Free Press (3 juillet 1970): ... Le capitalisme est le système économique dans lequel les moyens de production et de distribution sont privés et exploités à but lucratif Le système alternatif est appelé socialisme, la théorie de la propriété et de l'exploitation des moyens de production par la société, tous les membres participant au travail et aux produits.",logical_fallacies,"['La question est posée', 'Faux dilemme', 'L'homme de paille', 'Appel à la galerie (provisionnisme)']",1,"Question: Je suis John S. Knight, Detroit Free Press (3 juillet 1970): ... Le capitalisme est le système économique dans lequel les moyens de production et de distribution sont privés et exploités à but lucratif Le système alternatif est appelé socialisme, la théorie de la propriété et de l'exploitation des moyens de production par la société, tous les membres participant au travail et aux produits.
+
+Choix: ['La question est posée', 'Faux dilemme', 'L'homme de paille', 'Appel à la galerie (provisionnisme)']
+
+Réponse: Faux dilemme"
+L'erreur de la composition est,logical_fallacies,"['attribuer la cause d'un événement à une cause simple alors que la cause est plus complexe', 'en faisant valoir que ce qui est vrai d'une partie d'un objet doit être vrai de l'ensemble de l'objet', 'tirer une conclusion sans preuve suffisante à l'appui de cette conclusion', 'tirer une conclusion fondée sur le raisonnement du signe alors qu'il n'existe pas réellement de lien direct entre le signe allégué et l'objet de la conclusion']",1,"Question: L'erreur de la composition est
+
+Choix: ['attribuer la cause d'un événement à une cause simple alors que la cause est plus complexe', 'en faisant valoir que ce qui est vrai d'une partie d'un objet doit être vrai de l'ensemble de l'objet', 'tirer une conclusion sans preuve suffisante à l'appui de cette conclusion', 'tirer une conclusion fondée sur le raisonnement du signe alors qu'il n'existe pas réellement de lien direct entre le signe allégué et l'objet de la conclusion']
+
+Réponse: en faisant valoir que ce qui est vrai d'une partie d'un objet doit être vrai de l'ensemble de l'objet"
+""" _Ad crumenam_ "" est un type spécifique de",logical_fallacies,"['Fausse analogie', 'Une généralisation hâtive', 'Faux signe', 'Une conclusion hâtive']",2,"Question: "" _Ad crumenam_ "" est un type spécifique de
+
+Choix: ['Fausse analogie', 'Une généralisation hâtive', 'Faux signe', 'Une conclusion hâtive']
+
+Réponse: Faux signe"
+Laquelle des erreurs suivantes se produit lorsque quelqu'un tire une conclusion qui est simplement une réaffirmation de l'une des prémisses?,logical_fallacies,"['Personnalité élogieuse', 'La culpabilité par association', 'Accident de voiture', 'Je me pose la question .']",3,"Question: Laquelle des erreurs suivantes se produit lorsque quelqu'un tire une conclusion qui est simplement une réaffirmation de l'une des prémisses?
+
+Choix: ['Personnalité élogieuse', 'La culpabilité par association', 'Accident de voiture', 'Je me pose la question .']
+
+Réponse: Je me pose la question ."
+"Je ne sais pas quelle est la réponse au numéro 8. Mais Heather n'a pas fait de la troisième option la bonne réponse depuis un moment, et même alors seulement une fois, donc je suppose que c'est l'erreur de la composition !",logical_fallacies,"['L'erreur du joueur', 'Équivoque', 'Erreur de composition', 'Un appel à la pitié']",0,"Question: Je ne sais pas quelle est la réponse au numéro 8. Mais Heather n'a pas fait de la troisième option la bonne réponse depuis un moment, et même alors seulement une fois, donc je suppose que c'est l'erreur de la composition !
+
+Choix: ['L'erreur du joueur', 'Équivoque', 'Erreur de composition', 'Un appel à la pitié']
+
+Réponse: L'erreur du joueur"
+Lorsque quelqu'un soutient qu'un changement n'aura aucun effet significatif mais il n' y a aucune preuve que l' effet ne sera pas significatif Cette personne a commis laquelle des erreurs suivantes ?,logical_fallacies,"['empoisonner le puits', 'inclinaison solide', 'appel à la tradition', 'l'argument de l'autorité']",1,"Question: Lorsque quelqu'un soutient qu'un changement n'aura aucun effet significatif mais il n' y a aucune preuve que l' effet ne sera pas significatif Cette personne a commis laquelle des erreurs suivantes ?
+
+Choix: ['empoisonner le puits', 'inclinaison solide', 'appel à la tradition', 'l'argument de l'autorité']
+
+Réponse: inclinaison solide"
+Laquelle des affirmations suivantes décrit le mieux l'erreur de poser des questions en utilisant des épithètes?,logical_fallacies,"['Traiter quelque chose qui existe dans l'esprit comme s'il s'agissait d'un objet réel.', 'Une forme de langage chargé qui utilise une réaffirmation émotionnellement chargée de la revendication, souvent sous la forme d'appels au nom, à la place du soutien de la revendication.', 'Changer le sens d'un mot ou d'une phrase d'une partie de l'argument à une autre.', 'Raisonner que les idées présentées d'une manière attrayante sont correctes, quel que soit le contenu du message.']",1,"Question: Laquelle des affirmations suivantes décrit le mieux l'erreur de poser des questions en utilisant des épithètes?
+
+Choix: ['Traiter quelque chose qui existe dans l'esprit comme s'il s'agissait d'un objet réel.', 'Une forme de langage chargé qui utilise une réaffirmation émotionnellement chargée de la revendication, souvent sous la forme d'appels au nom, à la place du soutien de la revendication.', 'Changer le sens d'un mot ou d'une phrase d'une partie de l'argument à une autre.', 'Raisonner que les idées présentées d'une manière attrayante sont correctes, quel que soit le contenu du message.']
+
+Réponse: Une forme de langage chargé qui utilise une réaffirmation émotionnellement chargée de la revendication, souvent sous la forme d'appels au nom, à la place du soutien de la revendication."
+Laquelle des affirmations suivantes décrit l'erreur consistant à faire appel à l'orgueil?,logical_fallacies,"['arguant qu'une revendication ne devrait être acceptée que sur la base de preuves que des autorités non identifiées l'acceptent.', 'argumentant que quelqu'un devrait accepter une affirmation basée uniquement sur l'évidence qu'il ou elle a les caractéristiques favorables pour comprendre la vérité de l'affirmation.', 'argumenter que quelque chose devrait être fait uniquement sur la base de preuves qu'il a été fait de cette façon dans le passé, ou devrait être cru seulement parce qu'il a été cru pendant une longue période.', 'en faisant valoir qu'un acte ou une série d'actes devraient être exécutés parce qu'ils n'auront pas de conséquences significatives, alors qu'il n'existe aucune preuve de l'absence d'effets significatifs.']",1,"Question: Laquelle des affirmations suivantes décrit l'erreur consistant à faire appel à l'orgueil?
+
+Choix: ['arguant qu'une revendication ne devrait être acceptée que sur la base de preuves que des autorités non identifiées l'acceptent.', 'argumentant que quelqu'un devrait accepter une affirmation basée uniquement sur l'évidence qu'il ou elle a les caractéristiques favorables pour comprendre la vérité de l'affirmation.', 'argumenter que quelque chose devrait être fait uniquement sur la base de preuves qu'il a été fait de cette façon dans le passé, ou devrait être cru seulement parce qu'il a été cru pendant une longue période.', 'en faisant valoir qu'un acte ou une série d'actes devraient être exécutés parce qu'ils n'auront pas de conséquences significatives, alors qu'il n'existe aucune preuve de l'absence d'effets significatifs.']
+
+Réponse: argumentant que quelqu'un devrait accepter une affirmation basée uniquement sur l'évidence qu'il ou elle a les caractéristiques favorables pour comprendre la vérité de l'affirmation."
+Un syllogisme qui est formellement invalide,logical_fallacies,"['ne peut être matériellement vrai', 'pourrait être matériellement vrai', 'pourrait être matériellement faux', 'à la fois B et C']",3,"Question: Un syllogisme qui est formellement invalide
+
+Choix: ['ne peut être matériellement vrai', 'pourrait être matériellement vrai', 'pourrait être matériellement faux', 'à la fois B et C']
+
+Réponse: à la fois B et C"
+Un autre nom pour l'erreur du faux dilemme est,logical_fallacies,"['La culpabilité par association', 'Le raisonnement circulaire', 'Personnalité élogieuse', 'Fausse dichotomie']",3,"Question: Un autre nom pour l'erreur du faux dilemme est
+
+Choix: ['La culpabilité par association', 'Le raisonnement circulaire', 'Personnalité élogieuse', 'Fausse dichotomie']
+
+Réponse: Fausse dichotomie"
+"Quand quelqu'un répond à votre argumentation par une déclaration sarcastique telle que: ""Oui, c'est vrai. Comme si cela allait jamais arriver"", quelle erreur cette personne a- t- elle peut-être commise?",logical_fallacies,"['appel à l'indignation', 'appel à la méchanceté', 'le rire du cheval', 'Tu sais quoi ?']",2,"Question: Quand quelqu'un répond à votre argumentation par une déclaration sarcastique telle que: ""Oui, c'est vrai. Comme si cela allait jamais arriver"", quelle erreur cette personne a- t- elle peut-être commise?
+
+Choix: ['appel à l'indignation', 'appel à la méchanceté', 'le rire du cheval', 'Tu sais quoi ?']
+
+Réponse: le rire du cheval"
+L'erreur post hoc est la suivante:,logical_fallacies,"['argumentant qu'un seul événement en a causé un autre alors que la cause est en réalité plusieurs événements', 'en faisant valoir que puisque deux choses se sont produites en même temps l' un doit avoir causé l' autre', 'tirer une conclusion au sujet d'une relation de cause à effet lorsqu'il n'y a pas de preuve d'une relation de cause à effet', 'en faisant valoir que, puisqu'un événement a précédé un autre événement, le premier événement doit avoir causé le second événement']",3,"Question: L'erreur post hoc est la suivante:
+
+Choix: ['argumentant qu'un seul événement en a causé un autre alors que la cause est en réalité plusieurs événements', 'en faisant valoir que puisque deux choses se sont produites en même temps l' un doit avoir causé l' autre', 'tirer une conclusion au sujet d'une relation de cause à effet lorsqu'il n'y a pas de preuve d'une relation de cause à effet', 'en faisant valoir que, puisqu'un événement a précédé un autre événement, le premier événement doit avoir causé le second événement']
+
+Réponse: en faisant valoir que, puisqu'un événement a précédé un autre événement, le premier événement doit avoir causé le second événement"
+L'erreur de la personnalité répréhensible est un type spécifique de,logical_fallacies,"['l'erreur de l'accident', 'Faux dilemme', 'Je me pose la question .', 'Le raisonnement circulaire']",0,"Question: L'erreur de la personnalité répréhensible est un type spécifique de
+
+Choix: ['l'erreur de l'accident', 'Faux dilemme', 'Je me pose la question .', 'Le raisonnement circulaire']
+
+Réponse: l'erreur de l'accident"
+_A priori_ est une erreur qui implique,logical_fallacies,"['poser une question qui inclut une hypothèse non prouvée ou plus d'une question, rendant ainsi une réponse simple oui ou non dénuée de sens.', 'argumenter que quelque chose est inférieur juste parce qu'il ne fait pas quelque chose qu'il n'a jamais été destiné à faire.', 'argumentant qu'une affirmation doit être vraie parce qu'il n'y a aucune preuve qu'elle est fausse.', 'raisonnement qui détermine d'abord la conclusion que l'on veut, puis n'accepte que les preuves à l'appui de cette conclusion, ou interprète toutes les preuves comme étant à l'appui de cette conclusion.']",3,"Question: _A priori_ est une erreur qui implique
+
+Choix: ['poser une question qui inclut une hypothèse non prouvée ou plus d'une question, rendant ainsi une réponse simple oui ou non dénuée de sens.', 'argumenter que quelque chose est inférieur juste parce qu'il ne fait pas quelque chose qu'il n'a jamais été destiné à faire.', 'argumentant qu'une affirmation doit être vraie parce qu'il n'y a aucune preuve qu'elle est fausse.', 'raisonnement qui détermine d'abord la conclusion que l'on veut, puis n'accepte que les preuves à l'appui de cette conclusion, ou interprète toutes les preuves comme étant à l'appui de cette conclusion.']
+
+Réponse: raisonnement qui détermine d'abord la conclusion que l'on veut, puis n'accepte que les preuves à l'appui de cette conclusion, ou interprète toutes les preuves comme étant à l'appui de cette conclusion."
+Si vous dites qu'un adversaire a pris une position que vous pouvez facilement vaincre quand il ou elle n'a pas pris cette position puis vous allez à vaincre cette position et prétendre avoir fait des dommages significatifs à l'argument global de cet argument Vous êtes probablement coupable de laquelle des erreurs suivantes?,logical_fallacies,"['erreur génétique', 'faire appel aux émotions', 'personne de paille', 'ignorance de la réfutation']",2,"Question: Si vous dites qu'un adversaire a pris une position que vous pouvez facilement vaincre quand il ou elle n'a pas pris cette position puis vous allez à vaincre cette position et prétendre avoir fait des dommages significatifs à l'argument global de cet argument Vous êtes probablement coupable de laquelle des erreurs suivantes?
+
+Choix: ['erreur génétique', 'faire appel aux émotions', 'personne de paille', 'ignorance de la réfutation']
+
+Réponse: personne de paille"
+"""La prémisse mineure doit affirmer l'antécédent ou nier la conséquence"" est un moyen de déterminer la validité de quel type d'argument ?",logical_fallacies,"['Syllogisme catégorique', 'Syllogisme disjonctif', 'Syllogisme hypothétique', 'Le modèle de Toulmin']",2,"Question: ""La prémisse mineure doit affirmer l'antécédent ou nier la conséquence"" est un moyen de déterminer la validité de quel type d'argument ?
+
+Choix: ['Syllogisme catégorique', 'Syllogisme disjonctif', 'Syllogisme hypothétique', 'Le modèle de Toulmin']
+
+Réponse: Syllogisme hypothétique"
+Argumenter que quelqu'un ne pouvait pas avoir fait quelque chose de bien parce qu'il est incapable de faire le bien commet l'erreur de,logical_fallacies,"['Je me pose la question .', 'Faux dilemme', 'Accident de voiture', 'Fausse dichotomie']",0,"Question: Argumenter que quelqu'un ne pouvait pas avoir fait quelque chose de bien parce qu'il est incapable de faire le bien commet l'erreur de
+
+Choix: ['Je me pose la question .', 'Faux dilemme', 'Accident de voiture', 'Fausse dichotomie']
+
+Réponse: Je me pose la question ."
+L'erreur de proposition complexe implique,logical_fallacies,"['inclure plus d'une revendication dans la proposition et traiter la preuve d'une revendication comme la preuve de toutes les revendications.', 'poser une question qui inclut une hypothèse non prouvée ou plus d'une question, rendant ainsi une réponse simple oui ou non dénuée de sens.', 'argumentant qu'une affirmation doit être vraie parce qu'il n'y a aucune preuve qu'elle est fausse.', 'argumenter que quelque chose est inférieur juste parce qu'il ne fait pas quelque chose qu'il n'a jamais été destiné à faire.']",0,"Question: L'erreur de proposition complexe implique
+
+Choix: ['inclure plus d'une revendication dans la proposition et traiter la preuve d'une revendication comme la preuve de toutes les revendications.', 'poser une question qui inclut une hypothèse non prouvée ou plus d'une question, rendant ainsi une réponse simple oui ou non dénuée de sens.', 'argumentant qu'une affirmation doit être vraie parce qu'il n'y a aucune preuve qu'elle est fausse.', 'argumenter que quelque chose est inférieur juste parce qu'il ne fait pas quelque chose qu'il n'a jamais été destiné à faire.']
+
+Réponse: inclure plus d'une revendication dans la proposition et traiter la preuve d'une revendication comme la preuve de toutes les revendications."
+La preuve anecdotique est un type spécifique de,logical_fallacies,"['Faux signe', 'Critères erronés', 'Fausse cause', 'Une généralisation hâtive']",3,"Question: La preuve anecdotique est un type spécifique de
+
+Choix: ['Faux signe', 'Critères erronés', 'Fausse cause', 'Une généralisation hâtive']
+
+Réponse: Une généralisation hâtive"
+Les erreurs peuvent être psychologiquement convaincantes même si elles sont...,logical_fallacies,"['Psychologiquement impuissant', 'Logiquement défectueux', 'Valeur déductive', 'Valeur inductive']",1,"Question: Les erreurs peuvent être psychologiquement convaincantes même si elles sont...
+
+Choix: ['Psychologiquement impuissant', 'Logiquement défectueux', 'Valeur déductive', 'Valeur inductive']
+
+Réponse: Logiquement défectueux"
+Se référer à un acte commis par un adversaire en termes négatifs tout en se référant au même acte commis par l'argumentateur ou les partisans en termes favorables décrit laquelle des erreurs suivantes?,logical_fallacies,"['Une ambiguïté', 'Déclaration spéciale', 'Réalisation', 'L'hypostatisation']",1,"Question: Se référer à un acte commis par un adversaire en termes négatifs tout en se référant au même acte commis par l'argumentateur ou les partisans en termes favorables décrit laquelle des erreurs suivantes?
+
+Choix: ['Une ambiguïté', 'Déclaration spéciale', 'Réalisation', 'L'hypostatisation']
+
+Réponse: Déclaration spéciale"
+Laquelle des explications suivantes correspond le mieux à l'erreur de l'ignorance de la réfutation ?,logical_fallacies,"['affirmant qu'un adversaire argumentatif a pris une position facilement vaincue que l'adversaire n'a pas vraiment pris vaincre la position et agissant comme si vous avez fait des dommages significatifs à l'argument global de cette personne.', 'causer de la confusion lors de la réfutation en raison d'un manque réel ou simulé de capacité à engager la réfutation', 'caractériser un argument opposé de telle manière que celui-ci ou ses conséquences paraissent ridicules', 'en faisant valoir qu'une action ne devrait être prise que sur la base de la nécessité d'être fidèle à quelqu'un ou à un groupe']",1,"Question: Laquelle des explications suivantes correspond le mieux à l'erreur de l'ignorance de la réfutation ?
+
+Choix: ['affirmant qu'un adversaire argumentatif a pris une position facilement vaincue que l'adversaire n'a pas vraiment pris vaincre la position et agissant comme si vous avez fait des dommages significatifs à l'argument global de cette personne.', 'causer de la confusion lors de la réfutation en raison d'un manque réel ou simulé de capacité à engager la réfutation', 'caractériser un argument opposé de telle manière que celui-ci ou ses conséquences paraissent ridicules', 'en faisant valoir qu'une action ne devrait être prise que sur la base de la nécessité d'être fidèle à quelqu'un ou à un groupe']
+
+Réponse: causer de la confusion lors de la réfutation en raison d'un manque réel ou simulé de capacité à engager la réfutation"
+Un autre nom pour l'erreur de réduire à l'absurde est,logical_fallacies,"['Tu sais quoi ?', 'ad baculum ou ad baculum ou ad baculum', 'Nom de l'accusé', 'Réduction à l'absurd']",3,"Question: Un autre nom pour l'erreur de réduire à l'absurde est
+
+Choix: ['Tu sais quoi ?', 'ad baculum ou ad baculum ou ad baculum', 'Nom de l'accusé', 'Réduction à l'absurd']
+
+Réponse: Réduction à l'absurd"
+Un autre nom pour l'erreur de la question complexe est,logical_fallacies,"['Fallacité de l'interrogatoire', 'Proposition composée', 'Un appel à l'ignorance', 'Prolongation du délai']",0,"Question: Un autre nom pour l'erreur de la question complexe est
+
+Choix: ['Fallacité de l'interrogatoire', 'Proposition composée', 'Un appel à l'ignorance', 'Prolongation du délai']
+
+Réponse: Fallacité de l'interrogatoire"
+L'appel à l'illusion de la joie implique,logical_fallacies,"['arguant que quelqu'un devrait faire quelque chose en se basant uniquement sur l'affirmation que cela le rendra plus heureux', 'causer de la confusion lors de la réfutation en raison d'une incapacité à s'engager dans la réfutation', 'argumenter pour une conclusion basée uniquement sur le fait de ressentir de la pitié pour quelqu'un lorsque ce sentiment n'est pas pertinent pour la conclusion', 'arguant que quelqu'un devrait faire quelque chose uniquement parce que d'autres personnes l'aimeront pour le faire']",0,"Question: L'appel à l'illusion de la joie implique
+
+Choix: ['arguant que quelqu'un devrait faire quelque chose en se basant uniquement sur l'affirmation que cela le rendra plus heureux', 'causer de la confusion lors de la réfutation en raison d'une incapacité à s'engager dans la réfutation', 'argumenter pour une conclusion basée uniquement sur le fait de ressentir de la pitié pour quelqu'un lorsque ce sentiment n'est pas pertinent pour la conclusion', 'arguant que quelqu'un devrait faire quelque chose uniquement parce que d'autres personnes l'aimeront pour le faire']
+
+Réponse: arguant que quelqu'un devrait faire quelque chose en se basant uniquement sur l'affirmation que cela le rendra plus heureux"
+Un autre nom pour l'erreur de l'accident est,logical_fallacies,"['Généralisation généralisée', 'L'erreur du noir ou du blanc', 'Une pétition de principe', 'Fausse dichotomie']",0,"Question: Un autre nom pour l'erreur de l'accident est
+
+Choix: ['Généralisation généralisée', 'L'erreur du noir ou du blanc', 'Une pétition de principe', 'Fausse dichotomie']
+
+Réponse: Généralisation généralisée"
+Laquelle des affirmations suivantes décrit l'erreur consistant à échapper à la question?,logical_fallacies,"['argumentant que quelqu'un devrait faire quelque chose seulement à cause de la mauvaise volonté envers quelqu'un d'autre', 'caractériser la position d'un adversaire d'une manière qui la rend ridicule', 'soutenir une affirmation par des preuves ou des raisonnements qui ne sont pas pertinents pour la proposition, ou répondre à l'argument d'un autre en changeant de sujet', 'tenter d'obtenir un accord basé uniquement sur les sentiments suscités par le message']",2,"Question: Laquelle des affirmations suivantes décrit l'erreur consistant à échapper à la question?
+
+Choix: ['argumentant que quelqu'un devrait faire quelque chose seulement à cause de la mauvaise volonté envers quelqu'un d'autre', 'caractériser la position d'un adversaire d'une manière qui la rend ridicule', 'soutenir une affirmation par des preuves ou des raisonnements qui ne sont pas pertinents pour la proposition, ou répondre à l'argument d'un autre en changeant de sujet', 'tenter d'obtenir un accord basé uniquement sur les sentiments suscités par le message']
+
+Réponse: soutenir une affirmation par des preuves ou des raisonnements qui ne sont pas pertinents pour la proposition, ou répondre à l'argument d'un autre en changeant de sujet"
+L'inclusion de plus d'une revendication dans une proposition peut conduire à laquelle des erreurs suivantes?,logical_fallacies,"['Une question complexe', 'Un appel à l'ignorance', 'Proposition composée', 'Prolongation du délai']",2,"Question: L'inclusion de plus d'une revendication dans une proposition peut conduire à laquelle des erreurs suivantes?
+
+Choix: ['Une question complexe', 'Un appel à l'ignorance', 'Proposition composée', 'Prolongation du délai']
+
+Réponse: Proposition composée"
+Laquelle des erreurs suivantes se produit quand quelqu'un conclut que quelqu'un ne peut pas avoir fait quelque chose de mal parce qu'il ou elle a de bonnes qualités?,logical_fallacies,"['Personnalité élogieuse', 'La culpabilité par association', 'Personnalité répréhensible', 'Le raisonnement circulaire']",0,"Question: Laquelle des erreurs suivantes se produit quand quelqu'un conclut que quelqu'un ne peut pas avoir fait quelque chose de mal parce qu'il ou elle a de bonnes qualités?
+
+Choix: ['Personnalité élogieuse', 'La culpabilité par association', 'Personnalité répréhensible', 'Le raisonnement circulaire']
+
+Réponse: Personnalité élogieuse"
+Laquelle des affirmations suivantes décrit la fausseté de l'appel à la popularité?,logical_fallacies,"['dire que quelqu'un devrait faire quelque chose parce qu'il ou elle n'aime pas quelqu'un d'autre', 'dire que quelqu'un devrait faire quelque chose pour être mieux aimé par les autres', 'dire que quelqu'un devrait faire quelque chose parce que cela le fera se sentir bien', 'dire que quelqu'un devrait accepter une idée en raison de la source de l'idée']",1,"Question: Laquelle des affirmations suivantes décrit la fausseté de l'appel à la popularité?
+
+Choix: ['dire que quelqu'un devrait faire quelque chose parce qu'il ou elle n'aime pas quelqu'un d'autre', 'dire que quelqu'un devrait faire quelque chose pour être mieux aimé par les autres', 'dire que quelqu'un devrait faire quelque chose parce que cela le fera se sentir bien', 'dire que quelqu'un devrait accepter une idée en raison de la source de l'idée']
+
+Réponse: dire que quelqu'un devrait faire quelque chose pour être mieux aimé par les autres"
+Quelle erreur est due au fait de ne pas reconnaître que les alternatives présentées ne s'excluent pas mutuellement ?,logical_fallacies,"['La question est posée', 'Accident de voiture', 'Le raisonnement circulaire', 'Faux dilemme']",3,"Question: Quelle erreur est due au fait de ne pas reconnaître que les alternatives présentées ne s'excluent pas mutuellement ?
+
+Choix: ['La question est posée', 'Accident de voiture', 'Le raisonnement circulaire', 'Faux dilemme']
+
+Réponse: Faux dilemme"
+"Dans un syllogisme conditionnel, lorsque la prémisse mineure nie l'antécédent",logical_fallacies,"['aucune conclusion valable ne peut être tirée', 'La conclusion doit affirmer la conséquence', 'la conclusion doit nier la conséquence', 'la conclusion doit confirmer l'antécédent']",0,"Question: Dans un syllogisme conditionnel, lorsque la prémisse mineure nie l'antécédent
+
+Choix: ['aucune conclusion valable ne peut être tirée', 'La conclusion doit affirmer la conséquence', 'la conclusion doit nier la conséquence', 'la conclusion doit confirmer l'antécédent']
+
+Réponse: aucune conclusion valable ne peut être tirée"
+"Le doyen faisait visiter le campus à un visiteur. Le visiteur a demandé: "" Combien d'élèves avez- vous ici? "" Après un moment de réflexion, le doyen a répondu: "" Oh, je dirais environ un sur cent. """,logical_fallacies,"['Équivoque', 'L'erreur de la division', 'Le recours à l'autorité', 'Le déni de l'antécédent']",0,"Question: Le doyen faisait visiter le campus à un visiteur. Le visiteur a demandé: "" Combien d'élèves avez- vous ici? "" Après un moment de réflexion, le doyen a répondu: "" Oh, je dirais environ un sur cent. ""
+
+Choix: ['Équivoque', 'L'erreur de la division', 'Le recours à l'autorité', 'Le déni de l'antécédent']
+
+Réponse: Équivoque"
+L'appel à l'autorité anonyme fallacieuse se compose de,logical_fallacies,"['raisonnement selon lequel un acte ou une série d'actes devraient être exécutés parce qu'ils n'auront pas de conséquences significatives, lorsqu'il n'y a aucune preuve qu'il n'y aura pas de conséquences.', 'argumentant qu'une affirmation devrait être acceptée sur la base de la preuve qu'un grand nombre de personnes l'acceptent', 'en faisant valoir que quelque chose devrait être fait parce qu'il a été fait dans le passé', 'arguant qu'une revendication ne devrait être acceptée que sur la base de l'affirmation selon laquelle des autorités non identifiées l'acceptent']",3,"Question: L'appel à l'autorité anonyme fallacieuse se compose de
+
+Choix: ['raisonnement selon lequel un acte ou une série d'actes devraient être exécutés parce qu'ils n'auront pas de conséquences significatives, lorsqu'il n'y a aucune preuve qu'il n'y aura pas de conséquences.', 'argumentant qu'une affirmation devrait être acceptée sur la base de la preuve qu'un grand nombre de personnes l'acceptent', 'en faisant valoir que quelque chose devrait être fait parce qu'il a été fait dans le passé', 'arguant qu'une revendication ne devrait être acceptée que sur la base de l'affirmation selon laquelle des autorités non identifiées l'acceptent']
+
+Réponse: arguant qu'une revendication ne devrait être acceptée que sur la base de l'affirmation selon laquelle des autorités non identifiées l'acceptent"
+Une généralisation hâtive est une erreur de...,logical_fallacies,"['Emplacements admissibles', 'Emplacements inacceptables', 'Déduction', 'Prémisse admissible mais fausse']",1,"Question: Une généralisation hâtive est une erreur de...
+
+Choix: ['Emplacements admissibles', 'Emplacements inacceptables', 'Déduction', 'Prémisse admissible mais fausse']
+
+Réponse: Emplacements inacceptables"
+Laquelle des expressions suivantes décrit le mieux l'erreur du langage figuré?,logical_fallacies,"['Utiliser un langage chargé d'émotion pour créer une impression sur le sujet d'une revendication, sans faire valoir que le langage correspond au sujet.', 'Traiter quelque chose qui existe dans l'esprit comme s'il s'agissait d'un objet réel.', 'Confondre le langage figuré avec le langage littéral.', 'Une forme de langage chargé qui utilise une réaffirmation émotionnellement chargée de la revendication à la place de l'appui de la revendication.']",2,"Question: Laquelle des expressions suivantes décrit le mieux l'erreur du langage figuré?
+
+Choix: ['Utiliser un langage chargé d'émotion pour créer une impression sur le sujet d'une revendication, sans faire valoir que le langage correspond au sujet.', 'Traiter quelque chose qui existe dans l'esprit comme s'il s'agissait d'un objet réel.', 'Confondre le langage figuré avec le langage littéral.', 'Une forme de langage chargé qui utilise une réaffirmation émotionnellement chargée de la revendication à la place de l'appui de la revendication.']
+
+Réponse: Confondre le langage figuré avec le langage littéral."
+L'erreur d'extension est la suivante:,logical_fallacies,"['poser une question qui inclut une hypothèse non prouvée ou plus d'une question, rendant ainsi une réponse simple oui ou non dénuée de sens.', 'argumenter que quelque chose est défectueux parce qu'il ne fait pas ce qu'il n'a jamais été destiné à faire.', 'Vous vous disputez quand vous ne savez pas de quoi vous parlez.', 'inclure plus d'une revendication dans la proposition et traiter la preuve d'une revendication comme la preuve de toutes les revendications.']",1,"Question: L'erreur d'extension est la suivante:
+
+Choix: ['poser une question qui inclut une hypothèse non prouvée ou plus d'une question, rendant ainsi une réponse simple oui ou non dénuée de sens.', 'argumenter que quelque chose est défectueux parce qu'il ne fait pas ce qu'il n'a jamais été destiné à faire.', 'Vous vous disputez quand vous ne savez pas de quoi vous parlez.', 'inclure plus d'une revendication dans la proposition et traiter la preuve d'une revendication comme la preuve de toutes les revendications.']
+
+Réponse: argumenter que quelque chose est défectueux parce qu'il ne fait pas ce qu'il n'a jamais été destiné à faire."
+L'argument selon lequel une affirmation doit être vraie parce qu'il n'y a aucune preuve qu'elle est fausse est l'une des erreurs suivantes?,logical_fallacies,"['à priori', 'Prolongation du délai', 'Un appel à l'ignorance', 'le plurium interrogationum']",2,"Question: L'argument selon lequel une affirmation doit être vraie parce qu'il n'y a aucune preuve qu'elle est fausse est l'une des erreurs suivantes?
+
+Choix: ['à priori', 'Prolongation du délai', 'Un appel à l'ignorance', 'le plurium interrogationum']
+
+Réponse: Un appel à l'ignorance"
+Laquelle des affirmations suivantes décrit l'erreur consistant à faire appel à la pratique courante?,logical_fallacies,"['élimination d'une source de preuve de l'examen en affirmant que la source est erronée, lorsqu'il n'existe pas de lien réel entre la faille alléguée et la fiabilité de la source', 'raisonnement selon lequel un acte ou une série d'actes devrait être accompli parce qu'ils n'auront pas de conséquences significatives, lorsqu'il n'y a pas de preuve qu'il n'y aura pas de conséquences', 'tirer une conclusion après avoir délibérément omis des éléments de preuve ou ignoré des éléments de preuve connus susceptibles de contredire une allégation', 'argumenter que quelque chose est la bonne chose à faire basé uniquement sur la preuve que d'autres personnes le font déjà.']",3,"Question: Laquelle des affirmations suivantes décrit l'erreur consistant à faire appel à la pratique courante?
+
+Choix: ['élimination d'une source de preuve de l'examen en affirmant que la source est erronée, lorsqu'il n'existe pas de lien réel entre la faille alléguée et la fiabilité de la source', 'raisonnement selon lequel un acte ou une série d'actes devrait être accompli parce qu'ils n'auront pas de conséquences significatives, lorsqu'il n'y a pas de preuve qu'il n'y aura pas de conséquences', 'tirer une conclusion après avoir délibérément omis des éléments de preuve ou ignoré des éléments de preuve connus susceptibles de contredire une allégation', 'argumenter que quelque chose est la bonne chose à faire basé uniquement sur la preuve que d'autres personnes le font déjà.']
+
+Réponse: argumenter que quelque chose est la bonne chose à faire basé uniquement sur la preuve que d'autres personnes le font déjà."
+Lequel des noms suivants est un autre nom pour échapper à la question?,logical_fallacies,"[''vous aussi' erreur', 'conclusion non pertinente', 'faire appel à la peur', 'argument contre la personne']",1,"Question: Lequel des noms suivants est un autre nom pour échapper à la question?
+
+Choix: [''vous aussi' erreur', 'conclusion non pertinente', 'faire appel à la peur', 'argument contre la personne']
+
+Réponse: conclusion non pertinente"
+"Je ne comprends pas pourquoi tout le monde pense qu'ils appartiennent à l'université Après tout, tout le monde sait que quand on est intelligent, on réussit. Mais tant de gens qui choisissent d'aller à l'université n'ont même pas l'intelligence la plus élémentaire Comment s'attendent-ils à aller quelque part ici ?",logical_fallacies,"['Attaquer la personne (ad hominem)', 'L'homme de paille', 'Le déni de l'antécédent', 'La question est posée']",2,"Question: Je ne comprends pas pourquoi tout le monde pense qu'ils appartiennent à l'université Après tout, tout le monde sait que quand on est intelligent, on réussit. Mais tant de gens qui choisissent d'aller à l'université n'ont même pas l'intelligence la plus élémentaire Comment s'attendent-ils à aller quelque part ici ?
+
+Choix: ['Attaquer la personne (ad hominem)', 'L'homme de paille', 'Le déni de l'antécédent', 'La question est posée']
+
+Réponse: Le déni de l'antécédent"
+Quand quelqu'un traite un concept imaginaire comme s'il était quelque chose de tangible cette personne pourrait commettre l'erreur de,logical_fallacies,"['Des épithètes qui suscitent des interrogations', 'Une mauvaise utilisation de l'ambiguïté', 'L'hypostatisation', 'Amphibole']",2,"Question: Quand quelqu'un traite un concept imaginaire comme s'il était quelque chose de tangible cette personne pourrait commettre l'erreur de
+
+Choix: ['Des épithètes qui suscitent des interrogations', 'Une mauvaise utilisation de l'ambiguïté', 'L'hypostatisation', 'Amphibole']
+
+Réponse: L'hypostatisation"
+Un autre nom pour une généralisation hâtive est,logical_fallacies,"['critères erronés', 'Le secondum quid', 'preuve anecdotique', 'Nom de l'établissement']",1,"Question: Un autre nom pour une généralisation hâtive est
+
+Choix: ['critères erronés', 'Le secondum quid', 'preuve anecdotique', 'Nom de l'établissement']
+
+Réponse: Le secondum quid"
+Un argumentateur qui menace un autre pour obtenir un accord commet l'erreur de,logical_fallacies,"['appel à la force', 'Tu sais quoi ?', 'ignorance de la réfutation', 'personne de paille']",0,"Question: Un argumentateur qui menace un autre pour obtenir un accord commet l'erreur de
+
+Choix: ['appel à la force', 'Tu sais quoi ?', 'ignorance de la réfutation', 'personne de paille']
+
+Réponse: appel à la force"
+"Quel type de syllogisme la prémisse principale prend la forme, ""tous les A sont B""?",logical_fallacies,"['catégorique', 'disjonctif', 'conditionnelle', 'hypothétique']",0,"Question: Quel type de syllogisme la prémisse principale prend la forme, ""tous les A sont B""?
+
+Choix: ['catégorique', 'disjonctif', 'conditionnelle', 'hypothétique']
+
+Réponse: catégorique"
+Laquelle des erreurs suivantes se produit quand quelqu'un soutient qu'un choix doit être fait parmi un certain ensemble d'alternatives quand il y a vraiment d'autres alternatives à choisir ?,logical_fallacies,"['Personnalité élogieuse', 'Accident de voiture', 'Faux dilemme', 'Le raisonnement circulaire']",2,"Question: Laquelle des erreurs suivantes se produit quand quelqu'un soutient qu'un choix doit être fait parmi un certain ensemble d'alternatives quand il y a vraiment d'autres alternatives à choisir ?
+
+Choix: ['Personnalité élogieuse', 'Accident de voiture', 'Faux dilemme', 'Le raisonnement circulaire']
+
+Réponse: Faux dilemme"
+"Si vous pensez que l'argument de quelqu'un est fort basé sur son utilisation convaincante du langage et sa présentation confiante, vous avez probablement commis quelle erreur ?",logical_fallacies,"['Amphibole', 'Équivoque', 'Déclaration spéciale', 'Le style avant la substance']",3,"Question: Si vous pensez que l'argument de quelqu'un est fort basé sur son utilisation convaincante du langage et sa présentation confiante, vous avez probablement commis quelle erreur ?
+
+Choix: ['Amphibole', 'Équivoque', 'Déclaration spéciale', 'Le style avant la substance']
+
+Réponse: Le style avant la substance"
+Laquelle des affirmations suivantes décrit la fausseté de l'appel à l'indignation?,logical_fallacies,"['attaquer le caractère ou les antécédents de quelqu'un qui fait un argument au lieu de ses preuves et de son raisonnement', 'répondre à des accusations d'actes répréhensibles en disant que d'autres personnes font la même chose', 'argumenter contre une position uniquement sur la base de sentiments personnels à l'égard de la position', 'répondre à un argument avec une expression de dérision au lieu d'un contre-argument']",2,"Question: Laquelle des affirmations suivantes décrit la fausseté de l'appel à l'indignation?
+
+Choix: ['attaquer le caractère ou les antécédents de quelqu'un qui fait un argument au lieu de ses preuves et de son raisonnement', 'répondre à des accusations d'actes répréhensibles en disant que d'autres personnes font la même chose', 'argumenter contre une position uniquement sur la base de sentiments personnels à l'égard de la position', 'répondre à un argument avec une expression de dérision au lieu d'un contre-argument']
+
+Réponse: argumenter contre une position uniquement sur la base de sentiments personnels à l'égard de la position"
+Éviter le fardeau de la preuve est un autre nom pour l'erreur de,logical_fallacies,"['Prolongation du délai', 'Un appel à l'ignorance', 'Une question complexe', 'Proposition complexe']",1,"Question: Éviter le fardeau de la preuve est un autre nom pour l'erreur de
+
+Choix: ['Prolongation du délai', 'Un appel à l'ignorance', 'Une question complexe', 'Proposition complexe']
+
+Réponse: Un appel à l'ignorance"
+"Dans un syllogisme hypothétique, lorsque la prémisse mineure affirme l'antécédent",logical_fallacies,"['aucune conclusion valable ne peut être tirée', 'La conclusion doit affirmer la conséquence', 'la conclusion doit nier la conséquence', 'la conclusion doit nier l'antécédent']",1,"Question: Dans un syllogisme hypothétique, lorsque la prémisse mineure affirme l'antécédent
+
+Choix: ['aucune conclusion valable ne peut être tirée', 'La conclusion doit affirmer la conséquence', 'la conclusion doit nier la conséquence', 'la conclusion doit nier l'antécédent']
+
+Réponse: La conclusion doit affirmer la conséquence"
+"Moïse Maïmonide, ""Le guide des perplexes"": Dieu, qu'Il soit exalté .. existé seul, et rien d'autre ...Puis, par Sa volonté et Sa volonté, Il a créé du néant tous les êtres tels qu'ils sont, le temps lui-même étant l'une des choses créées Car le temps est la conséquence du mouvement, et le mouvement est un accident de ce qui est déplacé De plus, ce qui est déplacé... est lui-même créé dans le temps...",logical_fallacies,"['Équivoque', 'Le recours à l'autorité', 'Incohérence', 'Une pente glissante']",2,"Question: Moïse Maïmonide, ""Le guide des perplexes"": Dieu, qu'Il soit exalté .. existé seul, et rien d'autre ...Puis, par Sa volonté et Sa volonté, Il a créé du néant tous les êtres tels qu'ils sont, le temps lui-même étant l'une des choses créées Car le temps est la conséquence du mouvement, et le mouvement est un accident de ce qui est déplacé De plus, ce qui est déplacé... est lui-même créé dans le temps...
+
+Choix: ['Équivoque', 'Le recours à l'autorité', 'Incohérence', 'Une pente glissante']
+
+Réponse: Incohérence"
+"John Stuart Mill: Le bonheur de chaque personne est un bien pour cette personne, et le bonheur général, par conséquent, un bien pour l'ensemble de toutes les personnes.",logical_fallacies,"['Erreur de composition', 'L'erreur de la division', 'L'erreur du joueur', 'Équivoque']",0,"Question: John Stuart Mill: Le bonheur de chaque personne est un bien pour cette personne, et le bonheur général, par conséquent, un bien pour l'ensemble de toutes les personnes.
+
+Choix: ['Erreur de composition', 'L'erreur de la division', 'L'erreur du joueur', 'Équivoque']
+
+Réponse: Erreur de composition"
+_Circulus in probando_ est un autre nom pour,logical_fallacies,"['L'erreur du hasard', 'Faux dilemme', 'Je me pose la question .', 'La culpabilité par association']",2,"Question: _Circulus in probando_ est un autre nom pour
+
+Choix: ['L'erreur du hasard', 'Faux dilemme', 'Je me pose la question .', 'La culpabilité par association']
+
+Réponse: Je me pose la question ."
+L'argument selon lequel une idée doit être acceptée ou rejetée uniquement en raison de la source de l'idée commet laquelle des erreurs suivantes?,logical_fallacies,"['erreur génétique', 'faire appel à la popularité', 'tactique de peur', 'faire appel aux émotions']",0,"Question: L'argument selon lequel une idée doit être acceptée ou rejetée uniquement en raison de la source de l'idée commet laquelle des erreurs suivantes?
+
+Choix: ['erreur génétique', 'faire appel à la popularité', 'tactique de peur', 'faire appel aux émotions']
+
+Réponse: erreur génétique"
+"À la fin du cours, le professeur Jones nous a dit que nous étions la meilleure classe qu'il ait jamais eue. C'est pourquoi je suis sûr que le 0,0 qui est apparu sur mon rapport de notes est une erreur. Si nous étions une aussi bonne classe que le professeur Jones le prétend, aucun de nous ne méritait d'échouer.",logical_fallacies,"['Erreur de composition', 'L'erreur de la division', 'Une cause douteuse', 'Appel à la galerie (provisionnisme)']",1,"Question: À la fin du cours, le professeur Jones nous a dit que nous étions la meilleure classe qu'il ait jamais eue. C'est pourquoi je suis sûr que le 0,0 qui est apparu sur mon rapport de notes est une erreur. Si nous étions une aussi bonne classe que le professeur Jones le prétend, aucun de nous ne méritait d'échouer.
+
+Choix: ['Erreur de composition', 'L'erreur de la division', 'Une cause douteuse', 'Appel à la galerie (provisionnisme)']
+
+Réponse: L'erreur de la division"
+Laquelle des affirmations suivantes décrit le mieux l'erreur de l'équivoque?,logical_fallacies,"['Une forme de langage chargé qui utilise une réaffirmation émotionnellement chargée de la revendication à la place de l'appui de la revendication.', 'Changer le sens d'un mot ou d'une phrase d'une partie de l'argument à une autre.', 'Confondre le langage figuré avec le langage littéral.', 'Se référer à un acte commis par un adversaire en termes négatifs tout en se référant au même acte commis par l'argueur ou les partisans en termes favorables.']",1,"Question: Laquelle des affirmations suivantes décrit le mieux l'erreur de l'équivoque?
+
+Choix: ['Une forme de langage chargé qui utilise une réaffirmation émotionnellement chargée de la revendication à la place de l'appui de la revendication.', 'Changer le sens d'un mot ou d'une phrase d'une partie de l'argument à une autre.', 'Confondre le langage figuré avec le langage littéral.', 'Se référer à un acte commis par un adversaire en termes négatifs tout en se référant au même acte commis par l'argueur ou les partisans en termes favorables.']
+
+Réponse: Changer le sens d'un mot ou d'une phrase d'une partie de l'argument à une autre."
+L'erreur d'appel aux émotions consiste à,logical_fallacies,"['en essayant de faire paraître ridicule l'argument d'un adversaire.', 'défendre un acte répréhensible en prétendant que l'adversaire fait la même chose', 'argumentant qu'un argument devrait être rejeté parce que la source de l'argument', 'essayer d'amener quelqu'un d'autre à accepter une revendication uniquement en suscitant les sentiments de cette personne sur le sujet']",3,"Question: L'erreur d'appel aux émotions consiste à
+
+Choix: ['en essayant de faire paraître ridicule l'argument d'un adversaire.', 'défendre un acte répréhensible en prétendant que l'adversaire fait la même chose', 'argumentant qu'un argument devrait être rejeté parce que la source de l'argument', 'essayer d'amener quelqu'un d'autre à accepter une revendication uniquement en suscitant les sentiments de cette personne sur le sujet']
+
+Réponse: essayer d'amener quelqu'un d'autre à accepter une revendication uniquement en suscitant les sentiments de cette personne sur le sujet"
+"""Pour être valable, la prémisse mineure doit soit être d'accord avec l'antécédent, soit être en désaccord avec la conséquence"" est une exigence pour",logical_fallacies,"['un syllogisme disjonctif', 'un syllogisme catégorique', 'un syllogisme conditionnel', 'enthymème disjonctif']",2,"Question: ""Pour être valable, la prémisse mineure doit soit être d'accord avec l'antécédent, soit être en désaccord avec la conséquence"" est une exigence pour
+
+Choix: ['un syllogisme disjonctif', 'un syllogisme catégorique', 'un syllogisme conditionnel', 'enthymème disjonctif']
+
+Réponse: un syllogisme conditionnel"
+Laquelle des erreurs suivantes se produit quand quelqu'un conclut que quelqu'un n'a pas pu faire quelque chose de bien parce qu'il ou elle a des qualités négatives?,logical_fallacies,"['Personnalité élogieuse', 'La culpabilité par association', 'Personnalité répréhensible', 'Le raisonnement circulaire']",2,"Question: Laquelle des erreurs suivantes se produit quand quelqu'un conclut que quelqu'un n'a pas pu faire quelque chose de bien parce qu'il ou elle a des qualités négatives?
+
+Choix: ['Personnalité élogieuse', 'La culpabilité par association', 'Personnalité répréhensible', 'Le raisonnement circulaire']
+
+Réponse: Personnalité répréhensible"
+Un autre nom pour l'appel du train est,logical_fallacies,"['appel aux croyances', 'appel à une autorité', 'appel au peuple', 'appel de l'homme du commun']",2,"Question: Un autre nom pour l'appel du train est
+
+Choix: ['appel aux croyances', 'appel à une autorité', 'appel au peuple', 'appel de l'homme du commun']
+
+Réponse: appel au peuple"
+Un syllogisme disjonctif valide a quelles des caractéristiques suivantes?,logical_fallacies,"['La prémisse mineure doit soit affirmer l'antécédent, soit nier la conséquence.', 'La prémisse mineure doit soit accepter une alternative, soit rejeter une alternative.', 'L'un des locaux est manquant.', 'Il arrive à une conclusion véridique']",1,"Question: Un syllogisme disjonctif valide a quelles des caractéristiques suivantes?
+
+Choix: ['La prémisse mineure doit soit affirmer l'antécédent, soit nier la conséquence.', 'La prémisse mineure doit soit accepter une alternative, soit rejeter une alternative.', 'L'un des locaux est manquant.', 'Il arrive à une conclusion véridique']
+
+Réponse: La prémisse mineure doit soit accepter une alternative, soit rejeter une alternative."
+L'appel aux croyances est un autre nom pour laquelle des erreurs suivantes?,logical_fallacies,"['à la nausée', 'appel à la tradition', 'inclinaison solide', 'des vérités évidentes']",3,"Question: L'appel aux croyances est un autre nom pour laquelle des erreurs suivantes?
+
+Choix: ['à la nausée', 'appel à la tradition', 'inclinaison solide', 'des vérités évidentes']
+
+Réponse: des vérités évidentes"
+"Lorsqu'une revendication n'est soutenue que par l'affirmation selon laquelle des experts non identifiés acceptent la revendication, laquelle des erreurs suivantes le plaignant a-t-il commise?",logical_fallacies,"['appel à la tradition', 'ad vericundiam ou ad vericundiam ou ad vericundiam', 'faire appel à une autorité anonyme', 'l'attrait du snobisme']",2,"Question: Lorsqu'une revendication n'est soutenue que par l'affirmation selon laquelle des experts non identifiés acceptent la revendication, laquelle des erreurs suivantes le plaignant a-t-il commise?
+
+Choix: ['appel à la tradition', 'ad vericundiam ou ad vericundiam ou ad vericundiam', 'faire appel à une autorité anonyme', 'l'attrait du snobisme']
+
+Réponse: faire appel à une autorité anonyme"
+L'erreur noir ou blanc est un autre nom pour,logical_fallacies,"['L'erreur du hasard', 'Faux dilemme', 'Je me pose la question .', 'Le raisonnement circulaire']",1,"Question: L'erreur noir ou blanc est un autre nom pour
+
+Choix: ['L'erreur du hasard', 'Faux dilemme', 'Je me pose la question .', 'Le raisonnement circulaire']
+
+Réponse: Faux dilemme"
+L'erreur de faux signe est,logical_fallacies,"['en faisant valoir que ce qui est vrai d'une partie d'un objet est nécessairement vrai de l'ensemble de l'objet', 'en faisant valoir que deux choses sont assez semblables que ce qui est vrai de l'un est vrai de l'autre', 'en faisant valoir que, puisque quelque chose est bon marché, il est nécessairement de mauvaise qualité', 'raisonnement par signe lorsqu'il n'existe pas réellement de lien direct entre le signe allégué et l'objet de l'argumentation']",3,"Question: L'erreur de faux signe est
+
+Choix: ['en faisant valoir que ce qui est vrai d'une partie d'un objet est nécessairement vrai de l'ensemble de l'objet', 'en faisant valoir que deux choses sont assez semblables que ce qui est vrai de l'un est vrai de l'autre', 'en faisant valoir que, puisque quelque chose est bon marché, il est nécessairement de mauvaise qualité', 'raisonnement par signe lorsqu'il n'existe pas réellement de lien direct entre le signe allégué et l'objet de l'argumentation']
+
+Réponse: raisonnement par signe lorsqu'il n'existe pas réellement de lien direct entre le signe allégué et l'objet de l'argumentation"
+""" _Ad novitatem_ "" est",logical_fallacies,"['en faisant valoir que ce qui est vrai de quelques membres d'une classe est vrai de tous les membres de la classe', 'tirer une conclusion en appliquant des critères non pertinents à un sujet', 'substituer des histoires individuelles à un échantillon plus large à l'appui d'une revendication', 'en faisant valoir que quelque chose doit être bon parce qu'il est nouveau, ou doit être mauvais parce qu'il est vieux']",3,"Question: "" _Ad novitatem_ "" est
+
+Choix: ['en faisant valoir que ce qui est vrai de quelques membres d'une classe est vrai de tous les membres de la classe', 'tirer une conclusion en appliquant des critères non pertinents à un sujet', 'substituer des histoires individuelles à un échantillon plus large à l'appui d'une revendication', 'en faisant valoir que quelque chose doit être bon parce qu'il est nouveau, ou doit être mauvais parce qu'il est vieux']
+
+Réponse: en faisant valoir que quelque chose doit être bon parce qu'il est nouveau, ou doit être mauvais parce qu'il est vieux"
+Quand quelqu'un essaie de soutenir une proposition avec des informations qui n'ont vraiment rien à voir avec l'affirmation faite Cette personne a probablement commis laquelle des erreurs suivantes ?,logical_fallacies,"['personne de paille', 'erreur génétique', 'conclusion non pertinente', 'Je ne sais pas.']",2,"Question: Quand quelqu'un essaie de soutenir une proposition avec des informations qui n'ont vraiment rien à voir avec l'affirmation faite Cette personne a probablement commis laquelle des erreurs suivantes ?
+
+Choix: ['personne de paille', 'erreur génétique', 'conclusion non pertinente', 'Je ne sais pas.']
+
+Réponse: conclusion non pertinente"
+L'application de critères non pertinents à l'objet de l'argumentation est l'erreur de,logical_fallacies,"['Nom de l'établissement', 'à l'ancienne', 'critères erronés', 'généralisation précipitée']",2,"Question: L'application de critères non pertinents à l'objet de l'argumentation est l'erreur de
+
+Choix: ['Nom de l'établissement', 'à l'ancienne', 'critères erronés', 'généralisation précipitée']
+
+Réponse: critères erronés"
+"Si vous soutenez que quelque chose est défectueux parce qu'il ne parvient pas à faire quelque chose, quand il n'a jamais eu l'intention de le faire, vous avez peut-être commis laquelle des erreurs suivantes?",logical_fallacies,"['à l'ignorance', 'Beaucoup de questions', 'Prolongation du délai', 'Proposition composée']",2,"Question: Si vous soutenez que quelque chose est défectueux parce qu'il ne parvient pas à faire quelque chose, quand il n'a jamais eu l'intention de le faire, vous avez peut-être commis laquelle des erreurs suivantes?
+
+Choix: ['à l'ignorance', 'Beaucoup de questions', 'Prolongation du délai', 'Proposition composée']
+
+Réponse: Prolongation du délai"
+""" _Ad antiquitatem_ "" est",logical_fallacies,"['un type spécifique de fausse erreur de cause qui soutient que puisque deux événements se sont produits en même temps, un événement doit avoir causé l'autre', 'un type spécifique d'erreur de faux signe qui explique que quelque chose est nécessairement meilleur parce qu'il est ancien, ou pire parce qu'il est nouveau', 'un type spécifique d'erreur de faux signe qui explique que quelque chose est nécessairement meilleur parce qu'il est nouveau, ou pire parce qu'il est ancien', 'en faisant valoir que ce qui est vrai d'une partie individuelle d'un objet doit être vrai de l'ensemble de l'objet']",1,"Question: "" _Ad antiquitatem_ "" est
+
+Choix: ['un type spécifique de fausse erreur de cause qui soutient que puisque deux événements se sont produits en même temps, un événement doit avoir causé l'autre', 'un type spécifique d'erreur de faux signe qui explique que quelque chose est nécessairement meilleur parce qu'il est ancien, ou pire parce qu'il est nouveau', 'un type spécifique d'erreur de faux signe qui explique que quelque chose est nécessairement meilleur parce qu'il est nouveau, ou pire parce qu'il est ancien', 'en faisant valoir que ce qui est vrai d'une partie individuelle d'un objet doit être vrai de l'ensemble de l'objet']
+
+Réponse: un type spécifique d'erreur de faux signe qui explique que quelque chose est nécessairement meilleur parce qu'il est ancien, ou pire parce qu'il est nouveau"
+""" _Ad crumenam_ "" est",logical_fallacies,"['baser une conclusion sur une analogie lorsque les éléments comparés ne sont pas suffisamment similaires pour soutenir l'analogie', 'un type spécifique d'erreur de faux signe qui justifie que quelqu'un est nécessairement meilleur parce qu'il ou elle est riche, ou pire parce qu'il ou elle est pauvre', 'tirer une conclusion ferme sans preuves suffisantes à l'appui de cette conclusion', 'un type spécifique de fausse cause qui implique d'attribuer par erreur la cause d'un événement à une cause simple alors que la cause est plus complexe.']",1,"Question: "" _Ad crumenam_ "" est
+
+Choix: ['baser une conclusion sur une analogie lorsque les éléments comparés ne sont pas suffisamment similaires pour soutenir l'analogie', 'un type spécifique d'erreur de faux signe qui justifie que quelqu'un est nécessairement meilleur parce qu'il ou elle est riche, ou pire parce qu'il ou elle est pauvre', 'tirer une conclusion ferme sans preuves suffisantes à l'appui de cette conclusion', 'un type spécifique de fausse cause qui implique d'attribuer par erreur la cause d'un événement à une cause simple alors que la cause est plus complexe.']
+
+Réponse: un type spécifique d'erreur de faux signe qui justifie que quelqu'un est nécessairement meilleur parce qu'il ou elle est riche, ou pire parce qu'il ou elle est pauvre"
+L'erreur de la personnalité laudatoire est un type spécifique de,logical_fallacies,"['L'erreur du hasard', 'Faux dilemme', 'Je me pose la question .', 'Le raisonnement circulaire']",0,"Question: L'erreur de la personnalité laudatoire est un type spécifique de
+
+Choix: ['L'erreur du hasard', 'Faux dilemme', 'Je me pose la question .', 'Le raisonnement circulaire']
+
+Réponse: L'erreur du hasard"
+L'appel à l'ignorance est une erreur qui implique,logical_fallacies,"['déterminer la conclusion que l'on veut d'abord, puis n'accepter que les preuves à l'appui de cette conclusion, ou interpréter toutes les preuves à l'appui de cette conclusion.', 'argumenter que quelque chose est inférieur juste parce qu'il ne fait pas quelque chose qu'il n'a jamais été destiné à faire.', 'argumentant qu'une affirmation doit être vraie parce qu'il n'y a aucune preuve qu'elle est fausse.', 'se disputer sur quelque chose alors que vous êtes ignorant sur le sujet']",2,"Question: L'appel à l'ignorance est une erreur qui implique
+
+Choix: ['déterminer la conclusion que l'on veut d'abord, puis n'accepter que les preuves à l'appui de cette conclusion, ou interpréter toutes les preuves à l'appui de cette conclusion.', 'argumenter que quelque chose est inférieur juste parce qu'il ne fait pas quelque chose qu'il n'a jamais été destiné à faire.', 'argumentant qu'une affirmation doit être vraie parce qu'il n'y a aucune preuve qu'elle est fausse.', 'se disputer sur quelque chose alors que vous êtes ignorant sur le sujet']
+
+Réponse: argumentant qu'une affirmation doit être vraie parce qu'il n'y a aucune preuve qu'elle est fausse."
+Lequel des énoncés suivants n'est pas vrai ?,logical_fallacies,"['Un syllogisme formellement valide peut être matériellement faux.', 'Un syllogisme formellement valide doit être matériellement vrai', 'Une conclusion matériellement vraie peut résulter d'un syllogisme formellement valide', 'La validité formelle d'un syllogisme ne garantit pas qu'il est matériellement vrai']",1,"Question: Lequel des énoncés suivants n'est pas vrai ?
+
+Choix: ['Un syllogisme formellement valide peut être matériellement faux.', 'Un syllogisme formellement valide doit être matériellement vrai', 'Une conclusion matériellement vraie peut résulter d'un syllogisme formellement valide', 'La validité formelle d'un syllogisme ne garantit pas qu'il est matériellement vrai']
+
+Réponse: Un syllogisme formellement valide doit être matériellement vrai"
+"""La prémisse mineure doit affirmer l'antécédent ou nier la conséquence"" est une exigence de validité de quel type d'argument ?",logical_fallacies,"['Autres huiles végétales', 'Catégorique', 'Disjonctif', 'Conditionnel (ou hypothétique)']",3,"Question: ""La prémisse mineure doit affirmer l'antécédent ou nier la conséquence"" est une exigence de validité de quel type d'argument ?
+
+Choix: ['Autres huiles végétales', 'Catégorique', 'Disjonctif', 'Conditionnel (ou hypothétique)']
+
+Réponse: Conditionnel (ou hypothétique)"
+Laquelle des affirmations suivantes dépeint la fausseté de l'appel à la loyauté?,logical_fallacies,"['en faisant valoir que quelqu'un devrait faire quelque chose parce que cela le rendra plus apprécié par les autres', 'répondre à un argument avec une expression de dérision', 'en faisant valoir qu'une idée ne devrait être acceptée qu'en raison de l'origine de l'idée', 'en faisant valoir que quelqu'un devrait faire quelque chose pour être fidèle à une personne ou à un groupe']",3,"Question: Laquelle des affirmations suivantes dépeint la fausseté de l'appel à la loyauté?
+
+Choix: ['en faisant valoir que quelqu'un devrait faire quelque chose parce que cela le rendra plus apprécié par les autres', 'répondre à un argument avec une expression de dérision', 'en faisant valoir qu'une idée ne devrait être acceptée qu'en raison de l'origine de l'idée', 'en faisant valoir que quelqu'un devrait faire quelque chose pour être fidèle à une personne ou à un groupe']
+
+Réponse: en faisant valoir que quelqu'un devrait faire quelque chose pour être fidèle à une personne ou à un groupe"
+Argumenter en faveur d'une affirmation basée uniquement sur l'évidence que certaines personnes ordinaires croient à cette affirmation est une façon de commettre laquelle des erreurs suivantes?,logical_fallacies,"['empoisonner le puits', 'appel de personne ordinaire', 'Nom et prénom', 'des preuves dissimulées']",1,"Question: Argumenter en faveur d'une affirmation basée uniquement sur l'évidence que certaines personnes ordinaires croient à cette affirmation est une façon de commettre laquelle des erreurs suivantes?
+
+Choix: ['empoisonner le puits', 'appel de personne ordinaire', 'Nom et prénom', 'des preuves dissimulées']
+
+Réponse: appel de personne ordinaire"
+L'appel à la peur implique,logical_fallacies,"['argumenter que quelque chose ne devrait être fait que parce que cela fera que la personne qui le fait se sente bien', 'argumenter que quelqu'un devrait faire quelque chose uniquement en raison d'une mauvaise volonté envers quelqu'un d'autre', 'l'argumentation selon laquelle des mesures devraient être prises pour éviter des résultats négatifs exagérés, peu probables ou non pertinents;', 'caractériser la position de l'adversaire d'une manière qui la rend stupide']",2,"Question: L'appel à la peur implique
+
+Choix: ['argumenter que quelque chose ne devrait être fait que parce que cela fera que la personne qui le fait se sente bien', 'argumenter que quelqu'un devrait faire quelque chose uniquement en raison d'une mauvaise volonté envers quelqu'un d'autre', 'l'argumentation selon laquelle des mesures devraient être prises pour éviter des résultats négatifs exagérés, peu probables ou non pertinents;', 'caractériser la position de l'adversaire d'une manière qui la rend stupide']
+
+Réponse: l'argumentation selon laquelle des mesures devraient être prises pour éviter des résultats négatifs exagérés, peu probables ou non pertinents;"
+"Il est stupide d'adopter des lois contre la discrimination, puisqu'il est évident que nous ne pouvons pas vivre sans elle. Quand nous choisissons notre nourriture, nous faisons la distinction entre les goûts agréables et les goûts désagréables. entre les sons agréables et désagréables dans la sélection de notre musique entre les couleurs harmonieuses et inharmonieuses dans la décoration de nos maisons entre les personnes intéressantes et inintéressantes dans le choix de nos amis et ainsi de suite. On ne peut pas vivre sans discriminer.",logical_fallacies,"['Un langage préjudiciable', 'Équivoque', 'Incohérence', 'L'homme de paille']",1,"Question: Il est stupide d'adopter des lois contre la discrimination, puisqu'il est évident que nous ne pouvons pas vivre sans elle. Quand nous choisissons notre nourriture, nous faisons la distinction entre les goûts agréables et les goûts désagréables. entre les sons agréables et désagréables dans la sélection de notre musique entre les couleurs harmonieuses et inharmonieuses dans la décoration de nos maisons entre les personnes intéressantes et inintéressantes dans le choix de nos amis et ainsi de suite. On ne peut pas vivre sans discriminer.
+
+Choix: ['Un langage préjudiciable', 'Équivoque', 'Incohérence', 'L'homme de paille']
+
+Réponse: Équivoque"
+L'erreur de culpabilité par association est un type spécifique de,logical_fallacies,"['Fallacité de l'accident', 'Personnalité élogieuse', 'Je me pose la question .', 'Le raisonnement circulaire']",0,"Question: L'erreur de culpabilité par association est un type spécifique de
+
+Choix: ['Fallacité de l'accident', 'Personnalité élogieuse', 'Je me pose la question .', 'Le raisonnement circulaire']
+
+Réponse: Fallacité de l'accident"
+L'appel à la compassion est,logical_fallacies,"['un appel à l'émotion qui plaide contre une position basée uniquement sur des sentiments personnels négatifs à l'égard de la position', 'un appel à l' émotion qui soutient une conclusion devrait être faite basée uniquement sur la pitié pour quelqu' un', 'un appel à l'émotion qui soutient qu'une action devrait être prise uniquement sur la base de la nécessité d'être fidèle à quelqu'un', 'argumentant qu'une idée ne devrait être acceptée que sur la base de l'origine de l'idée']",1,"Question: L'appel à la compassion est
+
+Choix: ['un appel à l'émotion qui plaide contre une position basée uniquement sur des sentiments personnels négatifs à l'égard de la position', 'un appel à l' émotion qui soutient une conclusion devrait être faite basée uniquement sur la pitié pour quelqu' un', 'un appel à l'émotion qui soutient qu'une action devrait être prise uniquement sur la base de la nécessité d'être fidèle à quelqu'un', 'argumentant qu'une idée ne devrait être acceptée que sur la base de l'origine de l'idée']
+
+Réponse: un appel à l' émotion qui soutient une conclusion devrait être faite basée uniquement sur la pitié pour quelqu' un"
+Quand quelqu'un utilise des termes très émotionnellement chargés pendant une dispute sans donner de raisons pour lesquelles ces termes correspondent au sujet quelle des erreurs suivantes cette personne a-t-elle pu commettre ?,logical_fallacies,"['Déclaration spéciale', 'Amphibole', 'Équivoque', 'Langue chargée']",3,"Question: Quand quelqu'un utilise des termes très émotionnellement chargés pendant une dispute sans donner de raisons pour lesquelles ces termes correspondent au sujet quelle des erreurs suivantes cette personne a-t-elle pu commettre ?
+
+Choix: ['Déclaration spéciale', 'Amphibole', 'Équivoque', 'Langue chargée']
+
+Réponse: Langue chargée"
+Argumenter que quelqu'un n'a pas pu faire quelque chose de bien parce qu'elle détient une position particulière commet l'erreur de,logical_fallacies,"['La culpabilité par association', 'Faux dilemme', 'Personnalité répréhensible', 'Fausse dichotomie']",2,"Question: Argumenter que quelqu'un n'a pas pu faire quelque chose de bien parce qu'elle détient une position particulière commet l'erreur de
+
+Choix: ['La culpabilité par association', 'Faux dilemme', 'Personnalité répréhensible', 'Fausse dichotomie']
+
+Réponse: Personnalité répréhensible"
+""" _Ad antiquitatem_ "" est un type spécifique de",logical_fallacies,"['Fausse cause', 'Faux signe', 'Fausse analogie', 'Une généralisation hâtive']",1,"Question: "" _Ad antiquitatem_ "" est un type spécifique de
+
+Choix: ['Fausse cause', 'Faux signe', 'Fausse analogie', 'Une généralisation hâtive']
+
+Réponse: Faux signe"
+L'erreur de conclusion hâtive est,logical_fallacies,"['argumentant qu'un seul événement en a causé un autre alors que la cause est en réalité plusieurs événements', 'faire un argument sans suffisamment de preuves pour soutenir la conclusion', 'substituer des histoires individuelles à un échantillon plus large à l'appui d'une revendication', 'raisonnement qui applique des critères non pertinents à l'objet de l'argument.']",1,"Question: L'erreur de conclusion hâtive est
+
+Choix: ['argumentant qu'un seul événement en a causé un autre alors que la cause est en réalité plusieurs événements', 'faire un argument sans suffisamment de preuves pour soutenir la conclusion', 'substituer des histoires individuelles à un échantillon plus large à l'appui d'une revendication', 'raisonnement qui applique des critères non pertinents à l'objet de l'argument.']
+
+Réponse: faire un argument sans suffisamment de preuves pour soutenir la conclusion"
+""" _Ad lazarum_ "" est",logical_fallacies,"['un type spécifique de faux signe qui soutient qu'il y a nécessairement une relation inverse entre le coût et la qualité, donc quelque chose est nécessairement une meilleure valeur parce qu'il coûte moins cher', 'en faisant valoir que ce qui est vrai d'un objet entier doit également être vrai de chaque partie individuelle de cet objet', 'un type spécifique de fausse analogie qui raisonne ce qui est vrai à propos de la nature doit être vrai à propos des humains', 'tirer une conclusion sans preuve suffisante à l'appui de cette conclusion']",0,"Question: "" _Ad lazarum_ "" est
+
+Choix: ['un type spécifique de faux signe qui soutient qu'il y a nécessairement une relation inverse entre le coût et la qualité, donc quelque chose est nécessairement une meilleure valeur parce qu'il coûte moins cher', 'en faisant valoir que ce qui est vrai d'un objet entier doit également être vrai de chaque partie individuelle de cet objet', 'un type spécifique de fausse analogie qui raisonne ce qui est vrai à propos de la nature doit être vrai à propos des humains', 'tirer une conclusion sans preuve suffisante à l'appui de cette conclusion']
+
+Réponse: un type spécifique de faux signe qui soutient qu'il y a nécessairement une relation inverse entre le coût et la qualité, donc quelque chose est nécessairement une meilleure valeur parce qu'il coûte moins cher"
+"Tout ce qui est gâté est immangeable. Timothy est gâté. Donc, Timothy est immangeable.",logical_fallacies,"['Équivoque', 'Attaquer la personne (ad hominem)', 'L'erreur de la division', 'Une cause douteuse']",0,"Question: Tout ce qui est gâté est immangeable. Timothy est gâté. Donc, Timothy est immangeable.
+
+Choix: ['Équivoque', 'Attaquer la personne (ad hominem)', 'L'erreur de la division', 'Une cause douteuse']
+
+Réponse: Équivoque"
+"Laquelle des affirmations suivantes est correcte au sujet de l'argument suivant ? "" Si le ciel est bleu, il ne pleuvra pas. Le ciel est bleu aujourd'hui. Par conséquent, il ne pleuvra pas. """,logical_fallacies,"['C' est un syllogisme catégorique formellement valide .', 'C' est un syllogisme disjonctif formellement invalide .', 'C' est un syllogisme conditionnel formellement valide .', 'C' est un syllogisme conditionnel formellement invalide .']",2,"Question: Laquelle des affirmations suivantes est correcte au sujet de l'argument suivant ? "" Si le ciel est bleu, il ne pleuvra pas. Le ciel est bleu aujourd'hui. Par conséquent, il ne pleuvra pas. ""
+
+Choix: ['C' est un syllogisme catégorique formellement valide .', 'C' est un syllogisme disjonctif formellement invalide .', 'C' est un syllogisme conditionnel formellement valide .', 'C' est un syllogisme conditionnel formellement invalide .']
+
+Réponse: C' est un syllogisme conditionnel formellement valide ."
+Laquelle des affirmations suivantes décrit le mieux l'illusion de l'attrait snob ?,logical_fallacies,"['raisonner qu'une affirmation est vraie en se basant uniquement sur l'évidence qu'elle a été faite si souvent.', 'argumentant que quelqu'un devrait accepter une affirmation basée uniquement sur l'évidence qu'il ou elle a les caractéristiques favorables pour comprendre la vérité de l'affirmation.', 'arguant qu'une revendication ne devrait être acceptée que sur la base de preuves que des autorités non identifiées l'acceptent.', 'argumentant que quelqu'un devrait accepter une idée ou un produit basé uniquement sur des preuves que des personnes prestigieuses l'acceptent, ou que des personnes non prestigieuses le rejettent.']",3,"Question: Laquelle des affirmations suivantes décrit le mieux l'illusion de l'attrait snob ?
+
+Choix: ['raisonner qu'une affirmation est vraie en se basant uniquement sur l'évidence qu'elle a été faite si souvent.', 'argumentant que quelqu'un devrait accepter une affirmation basée uniquement sur l'évidence qu'il ou elle a les caractéristiques favorables pour comprendre la vérité de l'affirmation.', 'arguant qu'une revendication ne devrait être acceptée que sur la base de preuves que des autorités non identifiées l'acceptent.', 'argumentant que quelqu'un devrait accepter une idée ou un produit basé uniquement sur des preuves que des personnes prestigieuses l'acceptent, ou que des personnes non prestigieuses le rejettent.']
+
+Réponse: argumentant que quelqu'un devrait accepter une idée ou un produit basé uniquement sur des preuves que des personnes prestigieuses l'acceptent, ou que des personnes non prestigieuses le rejettent."
+"""Chaque terme doit être utilisé deux fois, ni plus ni moins"", est un test de validité pour quel type de syllogisme ?",logical_fallacies,"['Enthymème', 'Catégorique', 'Disjonctif', 'Conditionnelle']",1,"Question: ""Chaque terme doit être utilisé deux fois, ni plus ni moins"", est un test de validité pour quel type de syllogisme ?
+
+Choix: ['Enthymème', 'Catégorique', 'Disjonctif', 'Conditionnelle']
+
+Réponse: Catégorique"
+"L'univers, comme une montre, doit avoir un créateur.",logical_fallacies,"['L'erreur du hasard', 'Une analogie douteuse', 'Une cause douteuse', 'Erreur de composition']",1,"Question: L'univers, comme une montre, doit avoir un créateur.
+
+Choix: ['L'erreur du hasard', 'Une analogie douteuse', 'Une cause douteuse', 'Erreur de composition']
+
+Réponse: Une analogie douteuse"
+L'erreur de la loi naturelle est un type spécifique de,logical_fallacies,"['fausse analogie', 'fausse cause', 'critères erronés', 'fausse marque']",0,"Question: L'erreur de la loi naturelle est un type spécifique de
+
+Choix: ['fausse analogie', 'fausse cause', 'critères erronés', 'fausse marque']
+
+Réponse: fausse analogie"
+"Compte tenu de l'hypothèse majeure suivante, laquelle des hypothèses mineures suivantes pourrait mener à une conclusion valable ? "" Soit je vais bien réussir ce test, soit je vais devenir fou. """,logical_fallacies,"['Je ne vais pas bien réussir l'examen', 'Je ne ferai pas le test', 'Mon anniversaire est aujourd'hui', 'les deux A et B']",0,"Question: Compte tenu de l'hypothèse majeure suivante, laquelle des hypothèses mineures suivantes pourrait mener à une conclusion valable ? "" Soit je vais bien réussir ce test, soit je vais devenir fou. ""
+
+Choix: ['Je ne vais pas bien réussir l'examen', 'Je ne ferai pas le test', 'Mon anniversaire est aujourd'hui', 'les deux A et B']
+
+Réponse: Je ne vais pas bien réussir l'examen"
+Les hommes sont de meilleurs conducteurs que les femmes. La preuve en est que les hommes sont plus capables que les femmes de conduire des voitures sur la route.,logical_fallacies,"['Je me pose la question .', 'Ad hominem (Attaquer la personne)', 'Faux dilemme', 'Un appel à la pitié']",0,"Question: Les hommes sont de meilleurs conducteurs que les femmes. La preuve en est que les hommes sont plus capables que les femmes de conduire des voitures sur la route.
+
+Choix: ['Je me pose la question .', 'Ad hominem (Attaquer la personne)', 'Faux dilemme', 'Un appel à la pitié']
+
+Réponse: Je me pose la question ."
+"Dans une analogie erronée, les choses qui sont comparées sont...",logical_fallacies,"['Suffisamment similaires', 'Suffisamment similaires à des égards non pertinents', 'Des opposés complets', 'Ne sont pas suffisamment similaires en ce qui concerne les aspects pertinents']",3,"Question: Dans une analogie erronée, les choses qui sont comparées sont...
+
+Choix: ['Suffisamment similaires', 'Suffisamment similaires à des égards non pertinents', 'Des opposés complets', 'Ne sont pas suffisamment similaires en ce qui concerne les aspects pertinents']
+
+Réponse: Ne sont pas suffisamment similaires en ce qui concerne les aspects pertinents"
+Lequel des éléments suivants décrit l'erreur _tu quoque_ ?,logical_fallacies,"['résumer la position d'un adversaire d'une manière qui le rend stupide', 'tenter d'obtenir un accord basé uniquement sur les sentiments suscités par l'argument', 'répondre aux accusations de mauvaise conduite en disant que l'accusateur fait la même chose', 'argumenter contre une position basée uniquement sur des sentiments personnels négatifs à l'égard de la position']",2,"Question: Lequel des éléments suivants décrit l'erreur _tu quoque_ ?
+
+Choix: ['résumer la position d'un adversaire d'une manière qui le rend stupide', 'tenter d'obtenir un accord basé uniquement sur les sentiments suscités par l'argument', 'répondre aux accusations de mauvaise conduite en disant que l'accusateur fait la même chose', 'argumenter contre une position basée uniquement sur des sentiments personnels négatifs à l'égard de la position']
+
+Réponse: répondre aux accusations de mauvaise conduite en disant que l'accusateur fait la même chose"
+Répondre à une accusation de mauvaise conduite en disant que l'accusateur ou d'autres font la même chose décrit laquelle des erreurs suivantes?,logical_fallacies,"['Je ne sais pas.', 'ad baculum ou ad baculum ou ad baculum', 'au nom de la miséricorde', 'Tu sais quoi ?']",3,"Question: Répondre à une accusation de mauvaise conduite en disant que l'accusateur ou d'autres font la même chose décrit laquelle des erreurs suivantes?
+
+Choix: ['Je ne sais pas.', 'ad baculum ou ad baculum ou ad baculum', 'au nom de la miséricorde', 'Tu sais quoi ?']
+
+Réponse: Tu sais quoi ?"
+L'erreur qui implique le raisonnement qui détermine la conclusion que l'on veut d'abord alors accepte uniquement les preuves à l'appui de cette conclusion ou interprète toutes les preuves à l'appui de cette conclusion est connu comme,logical_fallacies,"['à l'ignorance', 'à priori', 'le plurium interrogationum', 'Prolongation du délai']",1,"Question: L'erreur qui implique le raisonnement qui détermine la conclusion que l'on veut d'abord alors accepte uniquement les preuves à l'appui de cette conclusion ou interprète toutes les preuves à l'appui de cette conclusion est connu comme
+
+Choix: ['à l'ignorance', 'à priori', 'le plurium interrogationum', 'Prolongation du délai']
+
+Réponse: à priori"
+L'erreur génétique est la suivante:,logical_fallacies,"['en faisant valoir qu'une conclusion devrait être fondée sur la pitié pour quelqu'un lorsque ce sentiment n'est pas pertinent pour la conclusion', 'répondre aux accusations de mauvaise conduite en disant que l'accusateur fait quelque chose d'aussi mauvais', 'en faisant valoir qu'une idée doit être acceptée ou rejetée en se basant uniquement sur qui est à l'origine de l'idée.', 'causer de la confusion lors de la réfutation en raison d'un manque réel ou simulé de capacité à s'engager dans la réfutation']",2,"Question: L'erreur génétique est la suivante:
+
+Choix: ['en faisant valoir qu'une conclusion devrait être fondée sur la pitié pour quelqu'un lorsque ce sentiment n'est pas pertinent pour la conclusion', 'répondre aux accusations de mauvaise conduite en disant que l'accusateur fait quelque chose d'aussi mauvais', 'en faisant valoir qu'une idée doit être acceptée ou rejetée en se basant uniquement sur qui est à l'origine de l'idée.', 'causer de la confusion lors de la réfutation en raison d'un manque réel ou simulé de capacité à s'engager dans la réfutation']
+
+Réponse: en faisant valoir qu'une idée doit être acceptée ou rejetée en se basant uniquement sur qui est à l'origine de l'idée."
+Un autre nom pour l'erreur de demander la question est,logical_fallacies,"['Dit simplificateur', 'Bifurcation', 'Personnalité répréhensible', 'Le raisonnement circulaire']",3,"Question: Un autre nom pour l'erreur de demander la question est
+
+Choix: ['Dit simplificateur', 'Bifurcation', 'Personnalité répréhensible', 'Le raisonnement circulaire']
+
+Réponse: Le raisonnement circulaire"
+L'erreur de l'ignoratio elenchi est également connue sous le nom de,logical_fallacies,"['argument contre la personne', 'faire appel à la compassion', 'ignorance de la réfutation', 'l'erreur 'vous aussi'']",2,"Question: L'erreur de l'ignoratio elenchi est également connue sous le nom de
+
+Choix: ['argument contre la personne', 'faire appel à la compassion', 'ignorance de la réfutation', 'l'erreur 'vous aussi'']
+
+Réponse: ignorance de la réfutation"
+"William Safire dans le magazine American Heritage (décembre 1987): ... La grandeur de Lincoln était sa détermination Il a vu quelque chose que peu d'autres ont vu: que l'expérience démocratique était centrée sur l'Union et que la règle de la majorité était tout. Dès l'instant où vous avez autorisé la sécession, vous avez fait de la démocratie une absurdité - parce que ce qui arriverait serait une subdivision continue.",logical_fallacies,"['Une pente glissante', 'Une analogie douteuse', 'Le recours à l'autorité', 'L'homme de paille']",0,"Question: William Safire dans le magazine American Heritage (décembre 1987): ... La grandeur de Lincoln était sa détermination Il a vu quelque chose que peu d'autres ont vu: que l'expérience démocratique était centrée sur l'Union et que la règle de la majorité était tout. Dès l'instant où vous avez autorisé la sécession, vous avez fait de la démocratie une absurdité - parce que ce qui arriverait serait une subdivision continue.
+
+Choix: ['Une pente glissante', 'Une analogie douteuse', 'Le recours à l'autorité', 'L'homme de paille']
+
+Réponse: Une pente glissante"
+Depuis combien de temps battez-vous votre femme ?,logical_fallacies,"['Attaquer la personne (ad hominem)', 'Faux dilemme', 'Un langage préjudiciable', 'Le recours à la force']",2,"Question: Depuis combien de temps battez-vous votre femme ?
+
+Choix: ['Attaquer la personne (ad hominem)', 'Faux dilemme', 'Un langage préjudiciable', 'Le recours à la force']
+
+Réponse: Un langage préjudiciable"
+"""Utilisation abusive des statistiques"", ""statistiques douteuses"" et ""utilisation douteuse des statistiques"" sont tous d'autres noms pour l'erreur de",logical_fallacies,"['l'appel à une fierté', 'l'importance', 'empoisonner le puits', 'pente glissante']",1,"Question: ""Utilisation abusive des statistiques"", ""statistiques douteuses"" et ""utilisation douteuse des statistiques"" sont tous d'autres noms pour l'erreur de
+
+Choix: ['l'appel à une fierté', 'l'importance', 'empoisonner le puits', 'pente glissante']
+
+Réponse: l'importance"
+"Nom de l'entreprise: E.F. Nom de l'équipe: Schumacher économiste célèbre Dans un article paru dans l'Atlantic (avril 1979): Quinze mois [après que j'ai conseillé que l'Inde rurale devrait avoir une technologie intermédiaire entre la houe et le tracteur Une conférence panindienne sur les technologies intermédiaires a été organisée. (Ils n'aimaient toujours pas le terme [intermédiaire], alors ils l'ont appelé technologie appropriée Ce n'est pas grave: quand je viens en Inde et quelqu'un dit, ""Oh, M. Schumacher, je ne crois pas à la technologie appropriée"", je le regarde droit dans les yeux et lui dis, ""Oh, c'est splendide Croyez-vous à une technologie inappropriée ?"")",logical_fallacies,"['Équivoque', 'Incohérence', 'Le recours à l'autorité', 'Un langage préjudiciable']",0,"Question: Nom de l'entreprise: E.F. Nom de l'équipe: Schumacher économiste célèbre Dans un article paru dans l'Atlantic (avril 1979): Quinze mois [après que j'ai conseillé que l'Inde rurale devrait avoir une technologie intermédiaire entre la houe et le tracteur Une conférence panindienne sur les technologies intermédiaires a été organisée. (Ils n'aimaient toujours pas le terme [intermédiaire], alors ils l'ont appelé technologie appropriée Ce n'est pas grave: quand je viens en Inde et quelqu'un dit, ""Oh, M. Schumacher, je ne crois pas à la technologie appropriée"", je le regarde droit dans les yeux et lui dis, ""Oh, c'est splendide Croyez-vous à une technologie inappropriée ?"")
+
+Choix: ['Équivoque', 'Incohérence', 'Le recours à l'autorité', 'Un langage préjudiciable']
+
+Réponse: Équivoque"
+"Nous devons supposer qu'il est communiste, parce qu'il dit qu'il ne l'est pas, et nous savons que les communistes apprennent toujours à nier l'appartenance à un parti.",logical_fallacies,"['Un argument fondé sur l'ignorance', 'L'affirmation de la conséquence', 'Le déni de l'antécédent', 'La question est posée']",1,"Question: Nous devons supposer qu'il est communiste, parce qu'il dit qu'il ne l'est pas, et nous savons que les communistes apprennent toujours à nier l'appartenance à un parti.
+
+Choix: ['Un argument fondé sur l'ignorance', 'L'affirmation de la conséquence', 'Le déni de l'antécédent', 'La question est posée']
+
+Réponse: L'affirmation de la conséquence"
+"Si quelqu'un soutient que quelque chose devrait être fait d'une certaine manière parce que c'est la façon dont il a toujours été fait, cette personne a commis laquelle des erreurs suivantes?",logical_fallacies,"['pente glissante', 'appel à la tradition', 'l'argument de l'autorité', 'à la nausée']",1,"Question: Si quelqu'un soutient que quelque chose devrait être fait d'une certaine manière parce que c'est la façon dont il a toujours été fait, cette personne a commis laquelle des erreurs suivantes?
+
+Choix: ['pente glissante', 'appel à la tradition', 'l'argument de l'autorité', 'à la nausée']
+
+Réponse: appel à la tradition"
+Une fausse analogie est un autre nom pour quelle erreur ?,logical_fallacies,"['Une généralisation excessive', 'La composition', 'Variation concomitante', 'Une analogie imparfaite']",3,"Question: Une fausse analogie est un autre nom pour quelle erreur ?
+
+Choix: ['Une généralisation excessive', 'La composition', 'Variation concomitante', 'Une analogie imparfaite']
+
+Réponse: Une analogie imparfaite"
+"Laquelle des erreurs suivantes se produit si quelqu'un soutient que vous êtes une personne raisonnable et intelligente, donc bien sûr vous comprenez que sa prétention est vraie?",logical_fallacies,"['l'importance', 'l'argument de l'autorité', 'faire appel à l'orgueil', 'pente glissante']",2,"Question: Laquelle des erreurs suivantes se produit si quelqu'un soutient que vous êtes une personne raisonnable et intelligente, donc bien sûr vous comprenez que sa prétention est vraie?
+
+Choix: ['l'importance', 'l'argument de l'autorité', 'faire appel à l'orgueil', 'pente glissante']
+
+Réponse: faire appel à l'orgueil"
+Quelle erreur se produit quand quelqu'un plaide en faveur d'une proposition en deux parties ne soutient qu'une partie de la proposition alors affirme que l'ensemble de la proposition a été soutenue.,logical_fallacies,"['à priori', 'Proposition complexe', 'Prolongation du délai', 'Un appel à l'ignorance']",1,"Question: Quelle erreur se produit quand quelqu'un plaide en faveur d'une proposition en deux parties ne soutient qu'une partie de la proposition alors affirme que l'ensemble de la proposition a été soutenue.
+
+Choix: ['à priori', 'Proposition complexe', 'Prolongation du délai', 'Un appel à l'ignorance']
+
+Réponse: Proposition complexe"
+Lequel des éléments suivants est un test de la validité d'un syllogisme conditionnel ?,logical_fallacies,"['Chaque terme doit être utilisé deux fois - ni plus ni moins', 'Si une prémisse est négative, la conclusion doit être négative.', 'La prémisse mineure doit affirmer l'antécédent ou nier la conséquence.', 'Les alternatives présentées doivent s'exclure mutuellement.']",2,"Question: Lequel des éléments suivants est un test de la validité d'un syllogisme conditionnel ?
+
+Choix: ['Chaque terme doit être utilisé deux fois - ni plus ni moins', 'Si une prémisse est négative, la conclusion doit être négative.', 'La prémisse mineure doit affirmer l'antécédent ou nier la conséquence.', 'Les alternatives présentées doivent s'exclure mutuellement.']
+
+Réponse: La prémisse mineure doit affirmer l'antécédent ou nier la conséquence."
+Laquelle des erreurs suivantes se produit lorsque quelqu'un attribue la cause d'un événement à une cause simple alors que la cause est en fait plus compliquée?,logical_fallacies,"['cause complexe', 'généralisation précipitée', 'à titre provisoire', 'département']",0,"Question: Laquelle des erreurs suivantes se produit lorsque quelqu'un attribue la cause d'un événement à une cause simple alors que la cause est en fait plus compliquée?
+
+Choix: ['cause complexe', 'généralisation précipitée', 'à titre provisoire', 'département']
+
+Réponse: cause complexe"
+Laquelle des hypothèses suivantes est un autre nom pour l'erreur de l'amphibole ?,logical_fallacies,"['Une mauvaise utilisation de l'ambiguïté', 'Réalisation', 'Figure de style', 'Déclaration spéciale']",0,"Question: Laquelle des hypothèses suivantes est un autre nom pour l'erreur de l'amphibole ?
+
+Choix: ['Une mauvaise utilisation de l'ambiguïté', 'Réalisation', 'Figure de style', 'Déclaration spéciale']
+
+Réponse: Une mauvaise utilisation de l'ambiguïté"
+"Tan ah Tiat, 49 ans, originaire de Kuala Lumpar, en Malaisie, a été accusé de possession d'opium Plaidant pour l'acquittement, il a dit au juge que son addiction à l'opium n'était pas nuisible, car il était trop vieux pour travailler de toute façon. Quand on lui a demandé comment il vivait, il a répondu qu'il vivait des revenus de sa grand-mère.",logical_fallacies,"['L'homme de paille', 'Faux dilemme', 'Incohérence', 'Le recours à l'autorité']",2,"Question: Tan ah Tiat, 49 ans, originaire de Kuala Lumpar, en Malaisie, a été accusé de possession d'opium Plaidant pour l'acquittement, il a dit au juge que son addiction à l'opium n'était pas nuisible, car il était trop vieux pour travailler de toute façon. Quand on lui a demandé comment il vivait, il a répondu qu'il vivait des revenus de sa grand-mère.
+
+Choix: ['L'homme de paille', 'Faux dilemme', 'Incohérence', 'Le recours à l'autorité']
+
+Réponse: Incohérence"
+Laquelle des affirmations suivantes décrit le mieux l'erreur des vérités évidentes?,logical_fallacies,"['soutenir qu'une revendication est vraie uniquement sur la base de preuves qu'une figure d'autorité accepte la revendication.', 'arguant qu'une revendication ne devrait être acceptée que sur la base de preuves que des autorités non identifiées l'acceptent.', 'en faisant valoir qu'une allégation devrait être acceptée sur la base d'éléments de preuve qui ne sont pas présentés, mais dont on affirme qu'ils sont bien connus ou évidents.', 'argumentant que quelqu'un devrait accepter une affirmation basée uniquement sur l'évidence qu'il ou elle a les caractéristiques favorables pour comprendre la vérité de l'affirmation.']",2,"Question: Laquelle des affirmations suivantes décrit le mieux l'erreur des vérités évidentes?
+
+Choix: ['soutenir qu'une revendication est vraie uniquement sur la base de preuves qu'une figure d'autorité accepte la revendication.', 'arguant qu'une revendication ne devrait être acceptée que sur la base de preuves que des autorités non identifiées l'acceptent.', 'en faisant valoir qu'une allégation devrait être acceptée sur la base d'éléments de preuve qui ne sont pas présentés, mais dont on affirme qu'ils sont bien connus ou évidents.', 'argumentant que quelqu'un devrait accepter une affirmation basée uniquement sur l'évidence qu'il ou elle a les caractéristiques favorables pour comprendre la vérité de l'affirmation.']
+
+Réponse: en faisant valoir qu'une allégation devrait être acceptée sur la base d'éléments de preuve qui ne sont pas présentés, mais dont on affirme qu'ils sont bien connus ou évidents."
+""" _Ad lazarum_ "" est un type spécifique de",logical_fallacies,"['Des preuves anecdotiques', 'Cause complexe', 'Critères erronés', 'Faux signe']",3,"Question: "" _Ad lazarum_ "" est un type spécifique de
+
+Choix: ['Des preuves anecdotiques', 'Cause complexe', 'Critères erronés', 'Faux signe']
+
+Réponse: Faux signe"
+"Nous avons parfaitement le droit de croire qu'il y a un Dieu, après tout, tous les efforts des athées pour prouver le contraire ont échoué.",logical_fallacies,"['Le recours à l'autorité', 'Le déni de l'antécédent', 'Attaquer la personne (ad hominem)', 'Un argument fondé sur l'ignorance']",3,"Question: Nous avons parfaitement le droit de croire qu'il y a un Dieu, après tout, tous les efforts des athées pour prouver le contraire ont échoué.
+
+Choix: ['Le recours à l'autorité', 'Le déni de l'antécédent', 'Attaquer la personne (ad hominem)', 'Un argument fondé sur l'ignorance']
+
+Réponse: Un argument fondé sur l'ignorance"
+Quand quelqu'un fait un argument et la seule preuve qu'il ou elle utilise pour soutenir l'affirmation est le témoignage qu'une figure d'autorité croit l'affirmation Quelle erreur l'argumentateur a-t-il commise ?,logical_fallacies,"['Utilisation douteuse des statistiques', 'Polissage des pommes', 'Des vérités évidentes', 'Argument de l'autorité']",3,"Question: Quand quelqu'un fait un argument et la seule preuve qu'il ou elle utilise pour soutenir l'affirmation est le témoignage qu'une figure d'autorité croit l'affirmation Quelle erreur l'argumentateur a-t-il commise ?
+
+Choix: ['Utilisation douteuse des statistiques', 'Polissage des pommes', 'Des vérités évidentes', 'Argument de l'autorité']
+
+Réponse: Argument de l'autorité"
+Quand quelqu'un change le sens d'un mot ou d'une phrase d'une partie de l'argument à une autre personne peut avoir commis laquelle des erreurs suivantes?,logical_fallacies,"['Déclaration spéciale', 'L'hypostatisation', 'Des épithètes qui suscitent des interrogations', 'Équivoque']",3,"Question: Quand quelqu'un change le sens d'un mot ou d'une phrase d'une partie de l'argument à une autre personne peut avoir commis laquelle des erreurs suivantes?
+
+Choix: ['Déclaration spéciale', 'L'hypostatisation', 'Des épithètes qui suscitent des interrogations', 'Équivoque']
+
+Réponse: Équivoque"
+Un autre nom pour l'erreur de l'accident est,logical_fallacies,"['Personnalité élogieuse', 'La culpabilité par association', 'La fausseté de l'un ou l'autre', 'Dicto simplificateur']",3,"Question: Un autre nom pour l'erreur de l'accident est
+
+Choix: ['Personnalité élogieuse', 'La culpabilité par association', 'La fausseté de l'un ou l'autre', 'Dicto simplificateur']
+
+Réponse: Dicto simplificateur"
+"""Chaque terme doit être utilisé deux fois, ni plus ni moins"" est une exigence pour",logical_fallacies,"['syllogisme catégorique valide', 'un syllogisme disjonctif valide', 'un syllogisme conditionnel valide', 'un syllogisme hypothétique matériellement vrai']",0,"Question: ""Chaque terme doit être utilisé deux fois, ni plus ni moins"" est une exigence pour
+
+Choix: ['syllogisme catégorique valide', 'un syllogisme disjonctif valide', 'un syllogisme conditionnel valide', 'un syllogisme hypothétique matériellement vrai']
+
+Réponse: syllogisme catégorique valide"
+L'erreur de la fausse cause est,logical_fallacies,"['en faisant valoir que puisque quelqu'un est pauvre, elle doit avoir un caractère moral élevé', 'soutenir que deux choses sont liées de manière causale sans preuve d'une relation de cause à effet', 'en faisant valoir que, puisque quelque chose est nouveau, il est nécessairement mauvais', 'substituer des histoires individuelles à un échantillon plus large à l'appui d'une revendication']",1,"Question: L'erreur de la fausse cause est
+
+Choix: ['en faisant valoir que puisque quelqu'un est pauvre, elle doit avoir un caractère moral élevé', 'soutenir que deux choses sont liées de manière causale sans preuve d'une relation de cause à effet', 'en faisant valoir que, puisque quelque chose est nouveau, il est nécessairement mauvais', 'substituer des histoires individuelles à un échantillon plus large à l'appui d'une revendication']
+
+Réponse: soutenir que deux choses sont liées de manière causale sans preuve d'une relation de cause à effet"
+L'argument selon lequel quelqu'un devrait faire quelque chose parce que d'autres le font est une description de laquelle des erreurs suivantes?,logical_fallacies,"['appel à la pratique courante', 'l'attrait du snobisme', 'Argument par consensus', 'appel à la tradition']",0,"Question: L'argument selon lequel quelqu'un devrait faire quelque chose parce que d'autres le font est une description de laquelle des erreurs suivantes?
+
+Choix: ['appel à la pratique courante', 'l'attrait du snobisme', 'Argument par consensus', 'appel à la tradition']
+
+Réponse: appel à la pratique courante"
+Laquelle des affirmations suivantes décrit l'erreur de la fausse consolation?,logical_fallacies,"['argumenter contre une position basée uniquement sur des sentiments personnels négatifs à l'égard de la position', 'répondre à des accusations de mauvaise conduite en disant que les autres font des choses aussi mauvaises ou pires', 'en faisant valoir que quelqu'un n'est pas vraiment blessé parce que les choses pourraient être pires ou en soulignant ce pour quoi il doit être reconnaissant', 'utiliser des menaces de faire du mal au lieu de raisonner pour obtenir un accord']",2,"Question: Laquelle des affirmations suivantes décrit l'erreur de la fausse consolation?
+
+Choix: ['argumenter contre une position basée uniquement sur des sentiments personnels négatifs à l'égard de la position', 'répondre à des accusations de mauvaise conduite en disant que les autres font des choses aussi mauvaises ou pires', 'en faisant valoir que quelqu'un n'est pas vraiment blessé parce que les choses pourraient être pires ou en soulignant ce pour quoi il doit être reconnaissant', 'utiliser des menaces de faire du mal au lieu de raisonner pour obtenir un accord']
+
+Réponse: en faisant valoir que quelqu'un n'est pas vraiment blessé parce que les choses pourraient être pires ou en soulignant ce pour quoi il doit être reconnaissant"
+Laquelle des erreurs suivantes se produit lorsque quelqu'un conclut qu'une généralisation légitime s'applique nécessairement à un cas particulier?,logical_fallacies,"['Faux dilemme', 'Le raisonnement circulaire', 'Accident de voiture', 'Bifurcation']",2,"Question: Laquelle des erreurs suivantes se produit lorsque quelqu'un conclut qu'une généralisation légitime s'applique nécessairement à un cas particulier?
+
+Choix: ['Faux dilemme', 'Le raisonnement circulaire', 'Accident de voiture', 'Bifurcation']
+
+Réponse: Accident de voiture"
+Laquelle des affirmations suivantes décrit le mieux l'erreur d'empoisonner le puits?,logical_fallacies,"['un moyen de supprimer des preuves qui élimine une source de preuve de l'examen en affirmant que la source est erronée lorsqu'il n'existe pas de lien réel entre le défaut allégué et la fiabilité de la source', 'en faisant valoir qu'une allégation devrait être acceptée sur la base d'éléments de preuve qui ne sont pas présentés, mais dont il est affirmé qu'ils sont bien connus ou évidents.', 'argumenter que quelque chose devrait être fait uniquement sur la base de preuves qu'il a été fait de cette façon dans le passé, ou devrait être cru seulement parce qu'il a été cru pendant une longue période.', 'raisonner qu'une affirmation est vraie en se basant uniquement sur l'évidence qu'elle a été faite si souvent.']",0,"Question: Laquelle des affirmations suivantes décrit le mieux l'erreur d'empoisonner le puits?
+
+Choix: ['un moyen de supprimer des preuves qui élimine une source de preuve de l'examen en affirmant que la source est erronée lorsqu'il n'existe pas de lien réel entre le défaut allégué et la fiabilité de la source', 'en faisant valoir qu'une allégation devrait être acceptée sur la base d'éléments de preuve qui ne sont pas présentés, mais dont il est affirmé qu'ils sont bien connus ou évidents.', 'argumenter que quelque chose devrait être fait uniquement sur la base de preuves qu'il a été fait de cette façon dans le passé, ou devrait être cru seulement parce qu'il a été cru pendant une longue période.', 'raisonner qu'une affirmation est vraie en se basant uniquement sur l'évidence qu'elle a été faite si souvent.']
+
+Réponse: un moyen de supprimer des preuves qui élimine une source de preuve de l'examen en affirmant que la source est erronée lorsqu'il n'existe pas de lien réel entre le défaut allégué et la fiabilité de la source"
+Lequel des éléments suivants décrit l'erreur de la personne de paille ?,logical_fallacies,"['en faisant valoir que quelqu'un devrait faire quelque chose uniquement parce que cela le rendra plus apprécié.', 'dire qu'un adversaire a pris une position que vous pouvez facilement vaincre quand il ou elle n'a pas pris cette position puis en continuant à vaincre cette position et prétendre avoir fait des dommages significatifs à l'argument global de cet argument', 'attaquer le caractère ou les antécédents d'un adversaire au lieu de répondre aux arguments de cette personne avec de bonnes preuves et de bonnes raisons', 'répondre à un argument avec une expression de dérision au lieu d'un contre-argument']",1,"Question: Lequel des éléments suivants décrit l'erreur de la personne de paille ?
+
+Choix: ['en faisant valoir que quelqu'un devrait faire quelque chose uniquement parce que cela le rendra plus apprécié.', 'dire qu'un adversaire a pris une position que vous pouvez facilement vaincre quand il ou elle n'a pas pris cette position puis en continuant à vaincre cette position et prétendre avoir fait des dommages significatifs à l'argument global de cet argument', 'attaquer le caractère ou les antécédents d'un adversaire au lieu de répondre aux arguments de cette personne avec de bonnes preuves et de bonnes raisons', 'répondre à un argument avec une expression de dérision au lieu d'un contre-argument']
+
+Réponse: dire qu'un adversaire a pris une position que vous pouvez facilement vaincre quand il ou elle n'a pas pris cette position puis en continuant à vaincre cette position et prétendre avoir fait des dommages significatifs à l'argument global de cet argument"
+Lequel des mots suivants est un autre nom pour faire appel au peuple ?,logical_fallacies,"['Argument par consensus', 'appel aux croyances', 'pas un vrai Écossais', 'preuves négligées']",0,"Question: Lequel des mots suivants est un autre nom pour faire appel au peuple ?
+
+Choix: ['Argument par consensus', 'appel aux croyances', 'pas un vrai Écossais', 'preuves négligées']
+
+Réponse: Argument par consensus"
+Laquelle des affirmations suivantes décrit l'erreur consistant à faire appel à la tradition?,logical_fallacies,"['raisonnant qu'une affirmation doit être vraie parce qu'elle a été faite si souvent', 'raisonnement selon lequel une affirmation doit être vraie parce qu'une personne ordinaire la croit', 'raisonnant qu'une affirmation doit être vraie parce qu'elle a été crue dans le passé', 'raisonnement selon lequel une affirmation doit être vraie parce que beaucoup de gens la croient']",2,"Question: Laquelle des affirmations suivantes décrit l'erreur consistant à faire appel à la tradition?
+
+Choix: ['raisonnant qu'une affirmation doit être vraie parce qu'elle a été faite si souvent', 'raisonnement selon lequel une affirmation doit être vraie parce qu'une personne ordinaire la croit', 'raisonnant qu'une affirmation doit être vraie parce qu'elle a été crue dans le passé', 'raisonnement selon lequel une affirmation doit être vraie parce que beaucoup de gens la croient']
+
+Réponse: raisonnant qu'une affirmation doit être vraie parce qu'elle a été crue dans le passé"
+Laquelle des explications suivantes est la meilleure pour expliquer l'erreur du langage chargé ?,logical_fallacies,"['Utiliser un langage chargé d'émotion pour créer une impression sur le sujet d'une revendication, sans faire valoir que le langage correspond au sujet.', 'Se référer à un acte commis par un adversaire en termes négatifs tout en se référant au même acte commis par l'argueur ou les partisans en termes favorables.', 'Utiliser le langage et la ponctuation de manière à ce qu'une déclaration puisse avoir plusieurs interprétations, de sorte qu'il n'est pas vraiment clair de quoi il s'agit.', 'La confusion entre le langage figuré et le langage littéral']",0,"Question: Laquelle des explications suivantes est la meilleure pour expliquer l'erreur du langage chargé ?
+
+Choix: ['Utiliser un langage chargé d'émotion pour créer une impression sur le sujet d'une revendication, sans faire valoir que le langage correspond au sujet.', 'Se référer à un acte commis par un adversaire en termes négatifs tout en se référant au même acte commis par l'argueur ou les partisans en termes favorables.', 'Utiliser le langage et la ponctuation de manière à ce qu'une déclaration puisse avoir plusieurs interprétations, de sorte qu'il n'est pas vraiment clair de quoi il s'agit.', 'La confusion entre le langage figuré et le langage littéral']
+
+Réponse: Utiliser un langage chargé d'émotion pour créer une impression sur le sujet d'une revendication, sans faire valoir que le langage correspond au sujet."
+Refuser automatiquement une réclamation juste parce que c'est traditionnel est...,logical_fallacies,"['Ce n'est pas raisonnable.', 'Un appel à la tradition', 'Un appel aux masses', 'raisonnable']",0,"Question: Refuser automatiquement une réclamation juste parce que c'est traditionnel est...
+
+Choix: ['Ce n'est pas raisonnable.', 'Un appel à la tradition', 'Un appel aux masses', 'raisonnable']
+
+Réponse: Ce n'est pas raisonnable."
+Un modèle d'argumentation en pente glissante est fallacieux quand...,logical_fallacies,"['C' est hypothétique .', 'Il y a de bonnes raisons de penser qu'une action entraînera inévitablement une autre action indésirable.', 'Il n'y a que deux résultats possibles.', 'Il n'y a aucune bonne raison de penser qu'une action entraînera inévitablement une autre action indésirable.']",3,"Question: Un modèle d'argumentation en pente glissante est fallacieux quand...
+
+Choix: ['C' est hypothétique .', 'Il y a de bonnes raisons de penser qu'une action entraînera inévitablement une autre action indésirable.', 'Il n'y a que deux résultats possibles.', 'Il n'y a aucune bonne raison de penser qu'une action entraînera inévitablement une autre action indésirable.']
+
+Réponse: Il n'y a aucune bonne raison de penser qu'une action entraînera inévitablement une autre action indésirable."
+Laquelle des affirmations suivantes décrit le mieux l'erreur du plaidoyer spécial?,logical_fallacies,"['Raisonner que les idées présentées d'une manière attrayante sont correctes, quel que soit le contenu du message.', 'Utiliser le langage et la ponctuation de manière à ce qu'une déclaration puisse avoir plusieurs interprétations, de sorte qu'il n'est pas vraiment clair de quoi il s'agit.', 'Confondre le langage figuré avec le langage littéral.', 'Se référer à un acte commis par un adversaire en termes négatifs tout en se référant au même acte commis par l'argueur ou les partisans en termes favorables']",3,"Question: Laquelle des affirmations suivantes décrit le mieux l'erreur du plaidoyer spécial?
+
+Choix: ['Raisonner que les idées présentées d'une manière attrayante sont correctes, quel que soit le contenu du message.', 'Utiliser le langage et la ponctuation de manière à ce qu'une déclaration puisse avoir plusieurs interprétations, de sorte qu'il n'est pas vraiment clair de quoi il s'agit.', 'Confondre le langage figuré avec le langage littéral.', 'Se référer à un acte commis par un adversaire en termes négatifs tout en se référant au même acte commis par l'argueur ou les partisans en termes favorables']
+
+Réponse: Se référer à un acte commis par un adversaire en termes négatifs tout en se référant au même acte commis par l'argueur ou les partisans en termes favorables"
+Que quelqu'un soit hypocrite au sujet de ses revendications est...,logical_fallacies,"['Il n' a rien à voir avec son personnage .', 'Preuve que les allégations sont fausses', 'Indifférent à la véracité des allégations', 'Relevant uniquement devant les tribunaux']",2,"Question: Que quelqu'un soit hypocrite au sujet de ses revendications est...
+
+Choix: ['Il n' a rien à voir avec son personnage .', 'Preuve que les allégations sont fausses', 'Indifférent à la véracité des allégations', 'Relevant uniquement devant les tribunaux']
+
+Réponse: Indifférent à la véracité des allégations"
+"Si quelqu'un vous dit que si vous faites quelque chose, cela aura des conséquences extrêmes. mais ne vous fournit aucune preuve d'une relation de cause à effet entre votre acte et ces conséquences Cette personne a probablement commis laquelle des erreurs suivantes ?",logical_fallacies,"['à la nausée', 'des vérités évidentes', 'pente glissante', 'des preuves dissimulées']",2,"Question: Si quelqu'un vous dit que si vous faites quelque chose, cela aura des conséquences extrêmes. mais ne vous fournit aucune preuve d'une relation de cause à effet entre votre acte et ces conséquences Cette personne a probablement commis laquelle des erreurs suivantes ?
+
+Choix: ['à la nausée', 'des vérités évidentes', 'pente glissante', 'des preuves dissimulées']
+
+Réponse: pente glissante"
+L'erreur de variation concomitante est,logical_fallacies,"['attribuer la cause d'un événement à une seule cause quand la cause est plus compliquée', 'en faisant valoir que puisque deux événements se sont produits en même temps, un événement doit avoir causé l'autre', 'en faisant valoir que puisqu'un événement a précédé un autre événement, il doit avoir causé le deuxième événement', 'tirer une conclusion fondée sur le raisonnement du signe alors qu'il n'existe pas réellement de lien direct entre le signe allégué et l'objet de la conclusion']",1,"Question: L'erreur de variation concomitante est
+
+Choix: ['attribuer la cause d'un événement à une seule cause quand la cause est plus compliquée', 'en faisant valoir que puisque deux événements se sont produits en même temps, un événement doit avoir causé l'autre', 'en faisant valoir que puisqu'un événement a précédé un autre événement, il doit avoir causé le deuxième événement', 'tirer une conclusion fondée sur le raisonnement du signe alors qu'il n'existe pas réellement de lien direct entre le signe allégué et l'objet de la conclusion']
+
+Réponse: en faisant valoir que puisque deux événements se sont produits en même temps, un événement doit avoir causé l'autre"
+""" _Ad novitatem_ "" est un type spécifique d' erreur de",logical_fallacies,"['Département', 'Faux signe', 'Fausse cause', 'Une généralisation hâtive']",1,"Question: "" _Ad novitatem_ "" est un type spécifique d' erreur de
+
+Choix: ['Département', 'Faux signe', 'Fausse cause', 'Une généralisation hâtive']
+
+Réponse: Faux signe"
+Rejeter une revendication en critiquant la personne qui la fait plutôt que la revendication elle-même est connue comme l'erreur de...,logical_fallacies,"['Département', 'Appel à l'émotion', 'La composition', 'Appel à la personne']",3,"Question: Rejeter une revendication en critiquant la personne qui la fait plutôt que la revendication elle-même est connue comme l'erreur de...
+
+Choix: ['Département', 'Appel à l'émotion', 'La composition', 'Appel à la personne']
+
+Réponse: Appel à la personne"
+Laquelle des affirmations suivantes décrit le mieux l'erreur de l'amphibole ?,logical_fallacies,"['Utiliser des langages chargés d'émotion pour créer une impression sur le sujet d'une revendication, sans faire valoir que le langage correspond au sujet.', 'Se référer à un acte commis par un adversaire en termes négatifs tout en se référant au même acte commis par l'argueur ou les partisans en termes favorables.', 'Utiliser la grammaire et la ponctuation de manière à ce qu'une déclaration puisse avoir plusieurs interprétations, de sorte qu'il n'est pas vraiment clair de quoi il s'agit.', 'Changer le sens d'un mot ou d'une phrase d'une partie de l'argument à une autre.']",2,"Question: Laquelle des affirmations suivantes décrit le mieux l'erreur de l'amphibole ?
+
+Choix: ['Utiliser des langages chargés d'émotion pour créer une impression sur le sujet d'une revendication, sans faire valoir que le langage correspond au sujet.', 'Se référer à un acte commis par un adversaire en termes négatifs tout en se référant au même acte commis par l'argueur ou les partisans en termes favorables.', 'Utiliser la grammaire et la ponctuation de manière à ce qu'une déclaration puisse avoir plusieurs interprétations, de sorte qu'il n'est pas vraiment clair de quoi il s'agit.', 'Changer le sens d'un mot ou d'une phrase d'une partie de l'argument à une autre.']
+
+Réponse: Utiliser la grammaire et la ponctuation de manière à ce qu'une déclaration puisse avoir plusieurs interprétations, de sorte qu'il n'est pas vraiment clair de quoi il s'agit."
+Quand quelqu'un utilise la grammaire ou la ponctuation d'une manière qui fait une déclaration ont plus d'une interprétation possible quelle des erreurs suivantes cette personne a-t-elle pu commettre ?,logical_fallacies,"['Amphibole', 'L'hypostatisation', 'Des épithètes qui suscitent des interrogations', 'Le style avant la substance']",0,"Question: Quand quelqu'un utilise la grammaire ou la ponctuation d'une manière qui fait une déclaration ont plus d'une interprétation possible quelle des erreurs suivantes cette personne a-t-elle pu commettre ?
+
+Choix: ['Amphibole', 'L'hypostatisation', 'Des épithètes qui suscitent des interrogations', 'Le style avant la substance']
+
+Réponse: Amphibole"
+Dire aux gens qu'ils n'ont pas été blessés parce qu'il y a quelque chose pour lequel ils devraient être reconnaissants commet quelle des erreurs suivantes?,logical_fallacies,"['erreur génétique', 'le rire du cheval', 'une fausse consolation', 'faire appel à la joie']",2,"Question: Dire aux gens qu'ils n'ont pas été blessés parce qu'il y a quelque chose pour lequel ils devraient être reconnaissants commet quelle des erreurs suivantes?
+
+Choix: ['erreur génétique', 'le rire du cheval', 'une fausse consolation', 'faire appel à la joie']
+
+Réponse: une fausse consolation"
