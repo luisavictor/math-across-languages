@@ -1,0 +1,561 @@
+question,subject,choices,answer,qa
+Déclaration 1: L'estimateur de régression linéaire a la plus petite variance parmi tous les estimateurs impartiaux Les coefficients α attribués aux classificateurs assemblés par AdaBoost sont toujours non négatifs.,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",3,"Question: Déclaration 1: L'estimateur de régression linéaire a la plus petite variance parmi tous les estimateurs impartiaux Les coefficients α attribués aux classificateurs assemblés par AdaBoost sont toujours non négatifs.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Faux, vrai"
+Déclaration 1: ROBERTa pré-entraîne sur un corpus qui est approximativement 10 fois plus grand que le corpus BERT pré-entraîné. Déclaration 2: ResNeXts en 2018 utilisait généralement des fonctions d'activation Tanh.,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",2,"Question: Déclaration 1: ROBERTa pré-entraîne sur un corpus qui est approximativement 10 fois plus grand que le corpus BERT pré-entraîné. Déclaration 2: ResNeXts en 2018 utilisait généralement des fonctions d'activation Tanh.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Vrai ou faux"
+"Déclaration 1 Les machines vectorielles de support, comme les modèles de régression logistique, donnent une distribution de probabilité sur les étiquettes possibles compte tenu d'un exemple d'entrée Nous nous attendrions à ce que les vecteurs de support restent les mêmes en général lorsque nous passons d'un noyau linéaire à des noyaux polynomiaux d'ordre supérieur.",machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",1,"Question: Déclaration 1 Les machines vectorielles de support, comme les modèles de régression logistique, donnent une distribution de probabilité sur les étiquettes possibles compte tenu d'un exemple d'entrée Nous nous attendrions à ce que les vecteurs de support restent les mêmes en général lorsque nous passons d'un noyau linéaire à des noyaux polynomiaux d'ordre supérieur.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Faux, Faux"
+"Un problème d'apprentissage automatique implique quatre attributs plus une classe Les attributs ont chacun 3, 2, 2 et 2 valeurs possibles La classe a 3 valeurs possibles Combien d'exemples différents au maximum sont possibles ?",machine_learning,"['Nom de l'entreprise:', 'Il y en a vingt-quatre.', 'Il y en a quatre-vingt-huit.', 'Résolution du Parlement européen']",3,"Question: Un problème d'apprentissage automatique implique quatre attributs plus une classe Les attributs ont chacun 3, 2, 2 et 2 valeurs possibles La classe a 3 valeurs possibles Combien d'exemples différents au maximum sont possibles ?
+
+Choix: ['Nom de l'entreprise:', 'Il y en a vingt-quatre.', 'Il y en a quatre-vingt-huit.', 'Résolution du Parlement européen']
+
+Réponse: Résolution du Parlement européen"
+"À partir de 2020, quelle architecture est la meilleure pour classer les images haute résolution ?",machine_learning,"['réseaux convolutifs', 'réseaux de graphes', 'réseaux entièrement connectés', 'Réseaux RBF']",0,"Question: À partir de 2020, quelle architecture est la meilleure pour classer les images haute résolution ?
+
+Choix: ['réseaux convolutifs', 'réseaux de graphes', 'réseaux entièrement connectés', 'Réseaux RBF']
+
+Réponse: réseaux convolutifs"
+La probabilité logarithmique des données augmentera toujours au cours des itérations successives de l'algorithme de maximisation des attentes. L'un des inconvénients du Q-learning est qu'il ne peut être utilisé que lorsque l'apprenant a des connaissances préalables sur la façon dont ses actions affectent son environnement.,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",1,"Question: La probabilité logarithmique des données augmentera toujours au cours des itérations successives de l'algorithme de maximisation des attentes. L'un des inconvénients du Q-learning est qu'il ne peut être utilisé que lorsque l'apprenant a des connaissances préalables sur la façon dont ses actions affectent son environnement.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Faux, Faux"
+Disons que nous avons calculé le gradient de notre fonction de coût et l'avons stocké dans un vecteur g. Quel est le coût d'une mise à jour de la descente du gradient compte tenu du gradient?,machine_learning,"['Nom de l'établissement', 'Nom de l'établissement', 'Nom de l'établissement', 'Il s'agit d'un groupe d'experts.']",0,"Question: Disons que nous avons calculé le gradient de notre fonction de coût et l'avons stocké dans un vecteur g. Quel est le coût d'une mise à jour de la descente du gradient compte tenu du gradient?
+
+Choix: ['Nom de l'établissement', 'Nom de l'établissement', 'Nom de l'établissement', 'Il s'agit d'un groupe d'experts.']
+
+Réponse: Nom de l'établissement"
+"Pour une variable aléatoire continue x et sa fonction de distribution de probabilité p(x), il est considéré que 0 ≤ p(x) ≤ 1 pour tout x L'arbre de décision est appris en minimisant le gain d'information.",machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",1,"Question: Pour une variable aléatoire continue x et sa fonction de distribution de probabilité p(x), il est considéré que 0 ≤ p(x) ≤ 1 pour tout x L'arbre de décision est appris en minimisant le gain d'information.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Faux, Faux"
+Considérons le réseau bayésien donné ci-dessous. Combien de paramètres indépendants sont nécessaires pour ce réseau bayésien H -> U <- P <- W?,machine_learning,"['Nom de l'entreprise', 'Nom de l'entreprise:', 'Nom de l'entreprise', 'Nom de l'entreprise:']",2,"Question: Considérons le réseau bayésien donné ci-dessous. Combien de paramètres indépendants sont nécessaires pour ce réseau bayésien H -> U <- P <- W?
+
+Choix: ['Nom de l'entreprise', 'Nom de l'entreprise:', 'Nom de l'entreprise', 'Nom de l'entreprise:']
+
+Réponse: Nom de l'entreprise"
+"Comme le nombre d'exemples d'entraînement va à l'infini, votre modèle formé sur ces données aura:",machine_learning,"['Variance inférieure', 'Variance plus élevée', 'Même variance', 'Rien de ce qui précède']",0,"Question: Comme le nombre d'exemples d'entraînement va à l'infini, votre modèle formé sur ces données aura:
+
+Choix: ['Variance inférieure', 'Variance plus élevée', 'Même variance', 'Rien de ce qui précède']
+
+Réponse: Variance inférieure"
+L'ensemble de tous les rectangles dans le plan 2D (qui comprend les rectangles non alignés sur les axes) peut briser un ensemble de 5 points La dimension VC du classificateur de voisinage le plus proche k lorsque k = 1 est infini.,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",0,"Question: L'ensemble de tous les rectangles dans le plan 2D (qui comprend les rectangles non alignés sur les axes) peut briser un ensemble de 5 points La dimension VC du classificateur de voisinage le plus proche k lorsque k = 1 est infini.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: C'est vrai, c'est vrai"
+_ fait référence à un modèle qui ne peut ni modéliser les données d'entraînement ni généraliser à de nouvelles données.,machine_learning,"['une bonne tenue', 'dépassement', 'sous-ajustement', 'tout ce qui précède']",2,"Question: _ fait référence à un modèle qui ne peut ni modéliser les données d'entraînement ni généraliser à de nouvelles données.
+
+Choix: ['une bonne tenue', 'dépassement', 'sous-ajustement', 'tout ce qui précède']
+
+Réponse: sous-ajustement"
+Le score F1 peut être particulièrement utile pour les ensembles de données présentant un déséquilibre de classe élevé. La zone sous la courbe ROC est l'une des principales mesures utilisées pour évaluer les détecteurs d'anomalies.,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",0,"Question: Le score F1 peut être particulièrement utile pour les ensembles de données présentant un déséquilibre de classe élevé. La zone sous la courbe ROC est l'une des principales mesures utilisées pour évaluer les détecteurs d'anomalies.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: C'est vrai, c'est vrai"
+"L'algorithme de rétro-propagation apprend un réseau neuronal globalement optimal avec des couches cachées La dimension VC d'une ligne devrait être au plus 2, puisque je peux trouver au moins un cas de 3 points qui ne peuvent être brisés par aucune ligne.",machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",1,"Question: L'algorithme de rétro-propagation apprend un réseau neuronal globalement optimal avec des couches cachées La dimension VC d'une ligne devrait être au plus 2, puisque je peux trouver au moins un cas de 3 points qui ne peuvent être brisés par aucune ligne.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Faux, Faux"
+Une entropie élevée signifie que les partitions dans la classification sont,machine_learning,"['à l'état pur', 'pas pur', 'utiles', 'C' est inutile .']",1,"Question: Une entropie élevée signifie que les partitions dans la classification sont
+
+Choix: ['à l'état pur', 'pas pur', 'utiles', 'C' est inutile .']
+
+Réponse: pas pur"
+"Déclaration 1 La normalisation par couche est utilisée dans le document original de ResNet, et non la normalisation par lots. Déclaration 2 DCGANs utilisent l'auto-attention pour stabiliser l'entraînement.",machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",1,"Question: Déclaration 1 La normalisation par couche est utilisée dans le document original de ResNet, et non la normalisation par lots. Déclaration 2 DCGANs utilisent l'auto-attention pour stabiliser l'entraînement.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Faux, Faux"
+"En construisant un modèle de régression linéaire pour un ensemble de données particulier, vous observez le coefficient de l'une des caractéristiques ayant une valeur négative relativement élevée.",machine_learning,"['Cette caractéristique a un fort effet sur le modèle (doit être conservée)', 'Cette caractéristique n'a pas d'effet fort sur le modèle (doit être ignorée)', 'Il n'est pas possible de commenter l'importance de cette caractéristique sans des informations complémentaires.', 'Rien ne peut être déterminé.']",2,"Question: En construisant un modèle de régression linéaire pour un ensemble de données particulier, vous observez le coefficient de l'une des caractéristiques ayant une valeur négative relativement élevée.
+
+Choix: ['Cette caractéristique a un fort effet sur le modèle (doit être conservée)', 'Cette caractéristique n'a pas d'effet fort sur le modèle (doit être ignorée)', 'Il n'est pas possible de commenter l'importance de cette caractéristique sans des informations complémentaires.', 'Rien ne peut être déterminé.']
+
+Réponse: Il n'est pas possible de commenter l'importance de cette caractéristique sans des informations complémentaires."
+"Pour un réseau neuronal, laquelle de ces hypothèses structurelles est celle qui affecte le plus le compromis entre sous-adaptation (c'est-à-dire un modèle à forte inclinaison) et de surajustement (c'est-à-dire un modèle à forte variance):",machine_learning,"['Le nombre de nœuds cachés', 'Le taux d'apprentissage', 'Le choix initial des poids', 'L'utilisation d'une unité d'entrée à durée constante']",0,"Question: Pour un réseau neuronal, laquelle de ces hypothèses structurelles est celle qui affecte le plus le compromis entre sous-adaptation (c'est-à-dire un modèle à forte inclinaison) et de surajustement (c'est-à-dire un modèle à forte variance):
+
+Choix: ['Le nombre de nœuds cachés', 'Le taux d'apprentissage', 'Le choix initial des poids', 'L'utilisation d'une unité d'entrée à durée constante']
+
+Réponse: Le nombre de nœuds cachés"
+"Pour la régression polynomielle, laquelle de ces hypothèses structurelles est celle qui affecte le plus le compromis entre sous-ajustement et surajustement:",machine_learning,"['Le degré polynomial', 'Si nous apprenons les poids par inversion de matrice ou descente de gradient', 'La variance supposée du bruit gaussienne', 'L'utilisation d'une unité d'entrée à durée constante']",0,"Question: Pour la régression polynomielle, laquelle de ces hypothèses structurelles est celle qui affecte le plus le compromis entre sous-ajustement et surajustement:
+
+Choix: ['Le degré polynomial', 'Si nous apprenons les poids par inversion de matrice ou descente de gradient', 'La variance supposée du bruit gaussienne', 'L'utilisation d'une unité d'entrée à durée constante']
+
+Réponse: Le degré polynomial"
+"En 2020, certains modèles atteignent une précision supérieure à 98% sur CIFAR-10.",machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",0,"Question: En 2020, certains modèles atteignent une précision supérieure à 98% sur CIFAR-10.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: C'est vrai, c'est vrai"
+L'algorithme K signifie:,machine_learning,"['Exige que la dimension de l'espace de caractéristiques ne soit pas supérieure au nombre d'échantillons', 'A la plus petite valeur de la fonction d'objectif lorsque K = 1', 'Minimise la variance au sein de la classe pour un nombre donné de grappes', 'Converge vers l'optimum global si et seulement si les moyennes initiales sont choisies comme certains des échantillons eux-mêmes']",2,"Question: L'algorithme K signifie:
+
+Choix: ['Exige que la dimension de l'espace de caractéristiques ne soit pas supérieure au nombre d'échantillons', 'A la plus petite valeur de la fonction d'objectif lorsque K = 1', 'Minimise la variance au sein de la classe pour un nombre donné de grappes', 'Converge vers l'optimum global si et seulement si les moyennes initiales sont choisies comme certains des échantillons eux-mêmes']
+
+Réponse: Minimise la variance au sein de la classe pour un nombre donné de grappes"
+Les réseaux VGGN ont des noyaux convolutifs de plus petite largeur et hauteur que les noyaux de première couche d'AlexNet Déclaration 2 Des procédures d'initialisation du poids dépendant des données ont été introduites avant la normalisation des lots.,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",0,"Question: Les réseaux VGGN ont des noyaux convolutifs de plus petite largeur et hauteur que les noyaux de première couche d'AlexNet Déclaration 2 Des procédures d'initialisation du poids dépendant des données ont été introduites avant la normalisation des lots.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: C'est vrai, c'est vrai"
+"Quel est le rang de la matrice suivante? A = [[1, 1, 1], [1, 1, 1], [1, 1, 1]]",machine_learning,"['Nombre d'employés', 'Nom de l'établissement', 'Nom de l'entreprise', 'Nom de l'entreprise']",1,"Question: Quel est le rang de la matrice suivante? A = [[1, 1, 1], [1, 1, 1], [1, 1, 1]]
+
+Choix: ['Nombre d'employés', 'Nom de l'établissement', 'Nom de l'entreprise', 'Nom de l'entreprise']
+
+Réponse: Nom de l'établissement"
+"L'estimation de la densité (en utilisant, par exemple, l'estimateur de densité du noyau) peut être utilisée pour effectuer la classification. La correspondance entre la régression logistique et les Bayes naïfs gaussiens (avec des covariances de classe d'identité) signifie qu'il existe une correspondance un-à-un entre les paramètres des deux classificateurs.",machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",2,"Question: L'estimation de la densité (en utilisant, par exemple, l'estimateur de densité du noyau) peut être utilisée pour effectuer la classification. La correspondance entre la régression logistique et les Bayes naïfs gaussiens (avec des covariances de classe d'identité) signifie qu'il existe une correspondance un-à-un entre les paramètres des deux classificateurs.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Vrai ou faux"
+Supposons que nous voulons effectuer le regroupement sur des données spatiales telles que les emplacements géométriques des maisons Nous souhaitons produire des grappes de différentes tailles et formes Laquelle des méthodes suivantes est la plus appropriée?,machine_learning,"['Arbres de décision', 'Cluster basé sur la densité', 'Cluster basé sur un modèle', 'K-signifie le regroupement']",1,"Question: Supposons que nous voulons effectuer le regroupement sur des données spatiales telles que les emplacements géométriques des maisons Nous souhaitons produire des grappes de différentes tailles et formes Laquelle des méthodes suivantes est la plus appropriée?
+
+Choix: ['Arbres de décision', 'Cluster basé sur la densité', 'Cluster basé sur un modèle', 'K-signifie le regroupement']
+
+Réponse: Cluster basé sur la densité"
+"Dans AdaBoost, les poids des exemples mal classés augmentent par le même facteur multiplicatif. Dans AdaBoost, l'erreur d'entraînement pondérée e_t du th classifiant faible sur les données d'entraînement avec des poids D_t tend à augmenter en fonction de t.",machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",0,"Question: Dans AdaBoost, les poids des exemples mal classés augmentent par le même facteur multiplicatif. Dans AdaBoost, l'erreur d'entraînement pondérée e_t du th classifiant faible sur les données d'entraînement avec des poids D_t tend à augmenter en fonction de t.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: C'est vrai, c'est vrai"
+Les estimations de LEM sont souvent indésirables parce que,machine_learning,"['Ils sont partisans.', 'ils ont une variance élevée', 'ils ne sont pas des estimateurs cohérents', 'Rien de ce qui précède']",1,"Question: Les estimations de LEM sont souvent indésirables parce que
+
+Choix: ['Ils sont partisans.', 'ils ont une variance élevée', 'ils ne sont pas des estimateurs cohérents', 'Rien de ce qui précède']
+
+Réponse: ils ont une variance élevée"
+"La complexité de calcul de la descente de gradient est,",machine_learning,"['linéaire en D', 'linéaire en N', 'polynôme en D', 'dépendant du nombre d'itérations']",2,"Question: La complexité de calcul de la descente de gradient est,
+
+Choix: ['linéaire en D', 'linéaire en N', 'polynôme en D', 'dépendant du nombre d'itérations']
+
+Réponse: polynôme en D"
+La moyenne de la sortie de plusieurs arbres de décision aide _.,machine_learning,"['Augmenter le biais', 'Réduire le biais', 'Augmenter la variance', 'Réduire la variance']",3,"Question: La moyenne de la sortie de plusieurs arbres de décision aide _.
+
+Choix: ['Augmenter le biais', 'Réduire le biais', 'Augmenter la variance', 'Réduire la variance']
+
+Réponse: Réduire la variance"
+Le modèle obtenu en appliquant la régression linéaire sur le sous-ensemble identifié de caractéristiques peut différer du modèle obtenu à la fin du processus d'identification du sous-ensemble pendant,machine_learning,"['Sélection du meilleur sous-ensemble', 'Sélection progressive vers l'avant', 'Sélection judicieuse de l'étape suivante', 'Tout ce qui précède']",2,"Question: Le modèle obtenu en appliquant la régression linéaire sur le sous-ensemble identifié de caractéristiques peut différer du modèle obtenu à la fin du processus d'identification du sous-ensemble pendant
+
+Choix: ['Sélection du meilleur sous-ensemble', 'Sélection progressive vers l'avant', 'Sélection judicieuse de l'étape suivante', 'Tout ce qui précède']
+
+Réponse: Sélection judicieuse de l'étape suivante"
+Réseaux neuronaux:,machine_learning,"['Optimiser une fonction d'objectif convexe', 'Ne peut être entraîné qu'avec une descente de gradient stochastique', 'Peut utiliser une combinaison de différentes fonctions d'activation', 'Rien de ce qui précède']",2,"Question: Réseaux neuronaux:
+
+Choix: ['Optimiser une fonction d'objectif convexe', 'Ne peut être entraîné qu'avec une descente de gradient stochastique', 'Peut utiliser une combinaison de différentes fonctions d'activation', 'Rien de ce qui précède']
+
+Réponse: Peut utiliser une combinaison de différentes fonctions d'activation"
+"Disons que l'incidence d'une maladie D est d'environ 5 cas pour 100 personnes (c'est-à-dire, P(D) = 0,05) La variable aléatoire booléenne D signifie qu'un patient ""a la maladie D"" et la variable aléatoire booléenne TP signifie ""test positif"". Les tests pour la maladie D sont connus pour être très précis dans le sens où la probabilité d'un test positif lorsque vous avez la maladie est de 0,99 et la probabilité d'obtenir un résultat négatif quand vous n'avez pas la maladie est de 0,97 Quelle est P (TP), la probabilité préalable d'un test positif.",machine_learning,"['Nom de l'entreprise:', '0,473', 'Résultats de l'enquête', 'Rien de ce qui précède']",2,"Question: Disons que l'incidence d'une maladie D est d'environ 5 cas pour 100 personnes (c'est-à-dire, P(D) = 0,05) La variable aléatoire booléenne D signifie qu'un patient ""a la maladie D"" et la variable aléatoire booléenne TP signifie ""test positif"". Les tests pour la maladie D sont connus pour être très précis dans le sens où la probabilité d'un test positif lorsque vous avez la maladie est de 0,99 et la probabilité d'obtenir un résultat négatif quand vous n'avez pas la maladie est de 0,97 Quelle est P (TP), la probabilité préalable d'un test positif.
+
+Choix: ['Nom de l'entreprise:', '0,473', 'Résultats de l'enquête', 'Rien de ce qui précède']
+
+Réponse: Résultats de l'enquête"
+Déclaration 1: After mappé dans l'espace de caractéristiques Q à travers une fonction de noyau de base radiale 1-NN utilisant la distance euclidienne non pondérée peut être en mesure d'obtenir de meilleures performances de classification que dans l'espace d'origine (bien que nous ne pouvons pas garantir cela) La dimension VC d'un percepteur est plus petite que la dimension VC d'un SVM linéaire simple.,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",1,"Question: Déclaration 1: After mappé dans l'espace de caractéristiques Q à travers une fonction de noyau de base radiale 1-NN utilisant la distance euclidienne non pondérée peut être en mesure d'obtenir de meilleures performances de classification que dans l'espace d'origine (bien que nous ne pouvons pas garantir cela) La dimension VC d'un percepteur est plus petite que la dimension VC d'un SVM linéaire simple.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Faux, Faux"
+L'inconvénient de la recherche Grid est,machine_learning,"['Il ne peut pas être appliqué à des fonctions non différenciables.', 'Il ne peut pas être appliqué à des fonctions non continues.', 'C'est difficile à mettre en œuvre.', 'Il fonctionne assez lentement pour la régression linéaire multiple.']",3,"Question: L'inconvénient de la recherche Grid est
+
+Choix: ['Il ne peut pas être appliqué à des fonctions non différenciables.', 'Il ne peut pas être appliqué à des fonctions non continues.', 'C'est difficile à mettre en œuvre.', 'Il fonctionne assez lentement pour la régression linéaire multiple.']
+
+Réponse: Il fonctionne assez lentement pour la régression linéaire multiple."
+Prédire la quantité de précipitations dans une région en fonction de divers indices est un problème de ______.,machine_learning,"['Apprentissage supervisé', 'Apprentissage non supervisé', 'Le regroupement', 'Rien de ce qui précède']",0,"Question: Prédire la quantité de précipitations dans une région en fonction de divers indices est un problème de ______.
+
+Choix: ['Apprentissage supervisé', 'Apprentissage non supervisé', 'Le regroupement', 'Rien de ce qui précède']
+
+Réponse: Apprentissage supervisé"
+Laquelle des phrases suivantes est FAUX en ce qui concerne la régression?,machine_learning,"['Il relie les entrées aux sorties.', 'Il est utilisé pour la prédiction.', 'Il peut être utilisé pour l'interprétation.', 'Il découvre des relations causales']",3,"Question: Laquelle des phrases suivantes est FAUX en ce qui concerne la régression?
+
+Choix: ['Il relie les entrées aux sorties.', 'Il est utilisé pour la prédiction.', 'Il peut être utilisé pour l'interprétation.', 'Il découvre des relations causales']
+
+Réponse: Il découvre des relations causales"
+Laquelle des raisons suivantes est la principale pour l'élagage d'un arbre de décision?,machine_learning,"['Pour économiser du temps de calcul pendant les tests', 'Pour économiser de l'espace pour stocker l'arbre de décision', 'Pour réduire l'erreur de l'ensemble d'entraînement', 'Pour éviter de surmonter le jeu d'entraînement']",3,"Question: Laquelle des raisons suivantes est la principale pour l'élagage d'un arbre de décision?
+
+Choix: ['Pour économiser du temps de calcul pendant les tests', 'Pour économiser de l'espace pour stocker l'arbre de décision', 'Pour réduire l'erreur de l'ensemble d'entraînement', 'Pour éviter de surmonter le jeu d'entraînement']
+
+Réponse: Pour éviter de surmonter le jeu d'entraînement"
+L'estimateur de densité du noyau équivaut à effectuer une régression du noyau avec la valeur Yi = 1/n à chaque point Xi de l'ensemble de données d'origine La profondeur d'un arbre de décision appris peut être supérieure au nombre d'exemples de formation utilisés pour créer l'arbre.,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",1,"Question: L'estimateur de densité du noyau équivaut à effectuer une régression du noyau avec la valeur Yi = 1/n à chaque point Xi de l'ensemble de données d'origine La profondeur d'un arbre de décision appris peut être supérieure au nombre d'exemples de formation utilisés pour créer l'arbre.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Faux, Faux"
+Supposons que votre modèle est surajusté. Lequel des éléments suivants n'est PAS un moyen valable d'essayer de réduire le surajustement?,machine_learning,"['Augmenter la quantité de données de formation.', 'Améliorer l'algorithme d'optimisation utilisé pour minimiser les erreurs.', 'Réduire la complexité du modèle.', 'Réduire le bruit dans les données d'entraînement.']",1,"Question: Supposons que votre modèle est surajusté. Lequel des éléments suivants n'est PAS un moyen valable d'essayer de réduire le surajustement?
+
+Choix: ['Augmenter la quantité de données de formation.', 'Améliorer l'algorithme d'optimisation utilisé pour minimiser les erreurs.', 'Réduire la complexité du modèle.', 'Réduire le bruit dans les données d'entraînement.']
+
+Réponse: Améliorer l'algorithme d'optimisation utilisé pour minimiser les erreurs."
+Déclaration 1 La fonction softmax est couramment utilisée dans la régression logistique multiclasse. Déclaration 2 La température d'une distribution softmax non uniforme affecte son entropie.,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",0,"Question: Déclaration 1 La fonction softmax est couramment utilisée dans la régression logistique multiclasse. Déclaration 2 La température d'une distribution softmax non uniforme affecte son entropie.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: C'est vrai, c'est vrai"
+Laquelle des affirmations suivantes est vraie au sujet d'un SVM?,machine_learning,"['Pour les points de données bidimensionnelles, l'hyperplan de séparation appris par un SVM linéaire sera une ligne droite.', 'En théorie, un SVM de noyau gaussien ne peut modéliser aucun hyperplan de séparation complexe.', 'Pour chaque fonction de noyau utilisée dans un SVM, on peut obtenir une extension de base de forme fermée équivalente.', 'Le surajustement dans un SVM n'est pas une fonction du nombre de vecteurs de support.']",0,"Question: Laquelle des affirmations suivantes est vraie au sujet d'un SVM?
+
+Choix: ['Pour les points de données bidimensionnelles, l'hyperplan de séparation appris par un SVM linéaire sera une ligne droite.', 'En théorie, un SVM de noyau gaussien ne peut modéliser aucun hyperplan de séparation complexe.', 'Pour chaque fonction de noyau utilisée dans un SVM, on peut obtenir une extension de base de forme fermée équivalente.', 'Le surajustement dans un SVM n'est pas une fonction du nombre de vecteurs de support.']
+
+Réponse: Pour les points de données bidimensionnelles, l'hyperplan de séparation appris par un SVM linéaire sera une ligne droite."
+"Lequel des éléments suivants est la probabilité combinée de H, U, P et W décrite par le réseau bayésien donné H -> U <- P <- W? [note: comme le produit des probabilités conditionnelles]",machine_learning,"['P (H, U, P, W) = P (H) * P (W) * P (P) * P (U)', 'P (H, U, P, W) = P (H) * P (W) * P (P, W) * P (W) H, P', 'P (H, U, P, W) = P (H) * P (W) * P (P, W) * P (U, H, P)', 'Rien de ce qui précède']",2,"Question: Lequel des éléments suivants est la probabilité combinée de H, U, P et W décrite par le réseau bayésien donné H -> U <- P <- W? [note: comme le produit des probabilités conditionnelles]
+
+Choix: ['P (H, U, P, W) = P (H) * P (W) * P (P) * P (U)', 'P (H, U, P, W) = P (H) * P (W) * P (P, W) * P (W) H, P', 'P (H, U, P, W) = P (H) * P (W) * P (P, W) * P (U, H, P)', 'Rien de ce qui précède']
+
+Réponse: P (H, U, P, W) = P (H) * P (W) * P (P, W) * P (U, H, P)"
+"Étant donné que la dimension VC pour un SVM avec un noyau de base radiale est infinie, un tel SVM doit être pire qu'un SVM avec un noyau polynomial qui a une dimension VC finie Un réseau neuronal à deux couches avec des fonctions d'activation linéaire est essentiellement une combinaison pondérée de séparateurs linéaires. formé sur un ensemble de données donné; l'algorithme de renforcement construit sur des séparateurs linéaires trouve également une combinaison de séparateurs linéaires donc ces deux algorithmes donneront le même résultat.",machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",1,"Question: Étant donné que la dimension VC pour un SVM avec un noyau de base radiale est infinie, un tel SVM doit être pire qu'un SVM avec un noyau polynomial qui a une dimension VC finie Un réseau neuronal à deux couches avec des fonctions d'activation linéaire est essentiellement une combinaison pondérée de séparateurs linéaires. formé sur un ensemble de données donné; l'algorithme de renforcement construit sur des séparateurs linéaires trouve également une combinaison de séparateurs linéaires donc ces deux algorithmes donneront le même résultat.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Faux, Faux"
+L'algorithme ID3 est garanti pour trouver l'arbre de décision optimal Déclaration 2 Regardons une distribution de probabilité continue avec une densité f (() qui est non nulle partout La probabilité d'une valeur x est égale à f (x).,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",1,"Question: L'algorithme ID3 est garanti pour trouver l'arbre de décision optimal Déclaration 2 Regardons une distribution de probabilité continue avec une densité f (() qui est non nulle partout La probabilité d'une valeur x est égale à f (x).
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Faux, Faux"
+Étant donné un réseau neuronal avec N nœuds d'entrée pas de couches cachées un nœud de sortie avec des fonctions de perte d'entropie et d'activation sigmoïde lequel des algorithmes suivants (avec les hyperparamètres et l'initialisation appropriés) peut être utilisé pour trouver l'optimum global?,machine_learning,"['Déclin de gradient stochastique', 'Décès par dégradation en mini-groupe', 'Décès par gradient de lot', 'Tout ce qui précède']",3,"Question: Étant donné un réseau neuronal avec N nœuds d'entrée pas de couches cachées un nœud de sortie avec des fonctions de perte d'entropie et d'activation sigmoïde lequel des algorithmes suivants (avec les hyperparamètres et l'initialisation appropriés) peut être utilisé pour trouver l'optimum global?
+
+Choix: ['Déclin de gradient stochastique', 'Décès par dégradation en mini-groupe', 'Décès par gradient de lot', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+"Pour ajouter plus de fonctions de base dans un modèle linéaire, choisissez l'option la plus probable:",machine_learning,"['Réduit le biais du modèle', 'Réduit le biais d'estimation', 'Réduit la variance', 'N'affecte pas le biais et la variance']",0,"Question: Pour ajouter plus de fonctions de base dans un modèle linéaire, choisissez l'option la plus probable:
+
+Choix: ['Réduit le biais du modèle', 'Réduit le biais d'estimation', 'Réduit la variance', 'N'affecte pas le biais et la variance']
+
+Réponse: Réduit le biais du modèle"
+Considérons le réseau bayésien donné ci-dessous. Combien de paramètres indépendants aurions-nous besoin si nous ne faisions aucune hypothèse sur l'indépendance ou l'indépendance conditionnelle H -> U <- P <- W?,machine_learning,"['Nom de l'entreprise', 'Nom de l'entreprise:', 'Nom de l'entreprise:', 'Nom de l'entreprise:']",3,"Question: Considérons le réseau bayésien donné ci-dessous. Combien de paramètres indépendants aurions-nous besoin si nous ne faisions aucune hypothèse sur l'indépendance ou l'indépendance conditionnelle H -> U <- P <- W?
+
+Choix: ['Nom de l'entreprise', 'Nom de l'entreprise:', 'Nom de l'entreprise:', 'Nom de l'entreprise:']
+
+Réponse: Nom de l'entreprise:"
+Un autre terme pour détection hors distribution est ?,machine_learning,"['détection d'anomalies', 'détection d'une seule classe', 'robustesse de l'inadéquation entre le train et l'essai', 'détection d'arrière-plan']",0,"Question: Un autre terme pour détection hors distribution est ?
+
+Choix: ['détection d'anomalies', 'détection d'une seule classe', 'robustesse de l'inadéquation entre le train et l'essai', 'détection d'arrière-plan']
+
+Réponse: détection d'anomalies"
+"Nous apprenons un classificateur f en stimulant les apprenants faibles h La forme fonctionnelle de fs limite de décision est la même que hs, mais avec des paramètres différents (par exemple, si h était un classificateur linéaire, alors f est également un classificateur linéaire) La validation croisée peut être utilisée pour sélectionner le nombre d'itérations dans le boosting; cette procédure peut aider à réduire les surajustements.",machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",3,"Question: Nous apprenons un classificateur f en stimulant les apprenants faibles h La forme fonctionnelle de fs limite de décision est la même que hs, mais avec des paramètres différents (par exemple, si h était un classificateur linéaire, alors f est également un classificateur linéaire) La validation croisée peut être utilisée pour sélectionner le nombre d'itérations dans le boosting; cette procédure peut aider à réduire les surajustements.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Faux, vrai"
+Les réseaux Highway ont été introduits après les ResNets et ont évité la mise en commun maximale en faveur des convolutions.,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",3,"Question: Les réseaux Highway ont été introduits après les ResNets et ont évité la mise en commun maximale en faveur des convolutions.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Faux, vrai"
+"Si N est le nombre d'instances dans l'ensemble de données d'entraînement, les voisins les plus proches ont un temps d'exécution de classification de",machine_learning,"['Nom de l'établissement', 'Nom de l'établissement', 'O ((log N)', 'O{ N^2 )']",1,"Question: Si N est le nombre d'instances dans l'ensemble de données d'entraînement, les voisins les plus proches ont un temps d'exécution de classification de
+
+Choix: ['Nom de l'établissement', 'Nom de l'établissement', 'O ((log N)', 'O{ N^2 )']
+
+Réponse: Nom de l'établissement"
+"Déclaration 1 Les ResNets et Transformers d'origine sont des réseaux de neurones feedforward. Déclaration 2 Les Transformers d'origine utilisent l'auto-attention, mais le ResNet d'origine ne l'utilise pas.",machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",0,"Question: Déclaration 1 Les ResNets et Transformers d'origine sont des réseaux de neurones feedforward. Déclaration 2 Les Transformers d'origine utilisent l'auto-attention, mais le ResNet d'origine ne l'utilise pas.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: C'est vrai, c'est vrai"
+"Déclaration 1 RELU ne sont pas monotones, mais les sigmoïdes sont monotones. Déclaration 2 RELU Les réseaux neuronaux formés avec une descente de gradient avec une forte probabilité convergent vers l'optimum global.",machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",3,"Question: Déclaration 1 RELU ne sont pas monotones, mais les sigmoïdes sont monotones. Déclaration 2 RELU Les réseaux neuronaux formés avec une descente de gradient avec une forte probabilité convergent vers l'optimum global.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Faux, vrai"
+La sortie numérique d'un nœud sigmoïde dans un réseau neuronal:,machine_learning,"['est illimité, englobant tous les nombres réels.', 'est illimité, englobant tous les entiers.', 'Est délimité entre 0 et 1.', 'Est délimité entre -1 et 1.']",2,"Question: La sortie numérique d'un nœud sigmoïde dans un réseau neuronal:
+
+Choix: ['est illimité, englobant tous les nombres réels.', 'est illimité, englobant tous les entiers.', 'Est délimité entre 0 et 1.', 'Est délimité entre -1 et 1.']
+
+Réponse: Est délimité entre 0 et 1."
+Lequel des éléments suivants ne peut être utilisé que lorsque les données de formation sont séparables linéairement?,machine_learning,"['SVM linéaire à marge dure.', 'Régression logistique linéaire.', 'Marge molle linéaire SVM.', 'La méthode centroïde.']",0,"Question: Lequel des éléments suivants ne peut être utilisé que lorsque les données de formation sont séparables linéairement?
+
+Choix: ['SVM linéaire à marge dure.', 'Régression logistique linéaire.', 'Marge molle linéaire SVM.', 'La méthode centroïde.']
+
+Réponse: SVM linéaire à marge dure."
+Quels sont les algorithmes de regroupement spatial ?,machine_learning,"['Cluster basé sur le partitionnement', 'K-signifie le regroupement', 'Clustering basé sur une grille', 'Tout ce qui précède']",3,"Question: Quels sont les algorithmes de regroupement spatial ?
+
+Choix: ['Cluster basé sur le partitionnement', 'K-signifie le regroupement', 'Clustering basé sur une grille', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+Les limites de décision de marge maximale qui soutiennent la construction de machines vectorielles ont l'erreur de généralisation la plus faible parmi tous les classificateurs linéaires. Toute limite de décision que nous obtenons à partir d'un modèle génératif avec des distributions gaussiennes conditionnelles de classe pourrait en principe être reproduite avec un SVM et un noyau polynomial de degré inférieur ou égal à trois.,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",3,"Question: Les limites de décision de marge maximale qui soutiennent la construction de machines vectorielles ont l'erreur de généralisation la plus faible parmi tous les classificateurs linéaires. Toute limite de décision que nous obtenons à partir d'un modèle génératif avec des distributions gaussiennes conditionnelles de classe pourrait en principe être reproduite avec un SVM et un noyau polynomial de degré inférieur ou égal à trois.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Faux, vrai"
+La régularisation L2 des modèles linéaires tend à rendre les modèles plus rares que la régularisation L1. Les connexions résiduelles peuvent être trouvées dans ResNets et Transformers.,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",3,"Question: La régularisation L2 des modèles linéaires tend à rendre les modèles plus rares que la régularisation L1. Les connexions résiduelles peuvent être trouvées dans ResNets et Transformers.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Faux, vrai"
+"Supposons que nous voulons calculer P ((HHE, F) et que nous n'avons aucune information sur l'indépendance conditionnelle. Quels sont les ensembles de nombres suivants suffisants pour le calcul?",machine_learning,"['Il n'y a pas d'accord entre les deux parties.', 'Il n'y a pas d'exception à cette règle.', 'Il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y ait pas d'excuse pour le fait qu'il n'y ait pas d'excuse pour le fait qu'il n'y ait pas d'excuse.', 'Il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y ait pas d'excuse pour le fait qu'il n'y ait pas d'excuse pour le fait qu'il n'y ait pas d'excuse pour le fait qu'il n'y ait pas d'excuse.']",1,"Question: Supposons que nous voulons calculer P ((HHE, F) et que nous n'avons aucune information sur l'indépendance conditionnelle. Quels sont les ensembles de nombres suivants suffisants pour le calcul?
+
+Choix: ['Il n'y a pas d'accord entre les deux parties.', 'Il n'y a pas d'exception à cette règle.', 'Il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y ait pas d'excuse pour le fait qu'il n'y ait pas d'excuse pour le fait qu'il n'y ait pas d'excuse.', 'Il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y a pas d'excuse pour le fait qu'il n'y ait pas d'excuse pour le fait qu'il n'y ait pas d'excuse pour le fait qu'il n'y ait pas d'excuse pour le fait qu'il n'y ait pas d'excuse.']
+
+Réponse: Il n'y a pas d'exception à cette règle."
+Lequel des éléments suivants empêche l'excès d'ajustement lors de l'emballage?,machine_learning,"['Utilisation de l'échantillonnage avec remplacement comme technique d'échantillonnage', 'L'utilisation de classificateurs faibles', 'L'utilisation d'algorithmes de classification qui ne sont pas sujets à des surajustements', 'La pratique de la validation effectuée sur chaque classificateur formé']",1,"Question: Lequel des éléments suivants empêche l'excès d'ajustement lors de l'emballage?
+
+Choix: ['Utilisation de l'échantillonnage avec remplacement comme technique d'échantillonnage', 'L'utilisation de classificateurs faibles', 'L'utilisation d'algorithmes de classification qui ne sont pas sujets à des surajustements', 'La pratique de la validation effectuée sur chaque classificateur formé']
+
+Réponse: L'utilisation de classificateurs faibles"
+"Déclaration 1 PCA et le regroupement spectrale (comme Andrew Ngs) effectuent une autodécomposition sur deux matrices différentes Cependant, la taille de ces deux matrices sont les mêmes Étant donné que la classification est un cas particulier de régression, la régression logistique est un cas particulier de régression linéaire.",machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",1,"Question: Déclaration 1 PCA et le regroupement spectrale (comme Andrew Ngs) effectuent une autodécomposition sur deux matrices différentes Cependant, la taille de ces deux matrices sont les mêmes Étant donné que la classification est un cas particulier de régression, la régression logistique est un cas particulier de régression linéaire.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Faux, Faux"
+"La banque de sentiments de Stanford contenait des critiques de films, et non des critiques de livres.",machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",0,"Question: La banque de sentiments de Stanford contenait des critiques de films, et non des critiques de livres.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: C'est vrai, c'est vrai"
+"Quelle est la dimensionnalité de l'espace nul de la matrice suivante ? A = [[3, 2, −9], [−6, −4, 18], [12, 8, −36]]",machine_learning,"['Nombre d'employés', 'Nom de l'établissement', 'Nom de l'entreprise', 'Nom de l'entreprise']",2,"Question: Quelle est la dimensionnalité de l'espace nul de la matrice suivante ? A = [[3, 2, −9], [−6, −4, 18], [12, 8, −36]]
+
+Choix: ['Nombre d'employés', 'Nom de l'établissement', 'Nom de l'entreprise', 'Nom de l'entreprise']
+
+Réponse: Nom de l'entreprise"
+Quels sont les vecteurs de support?,machine_learning,"['Les exemples les plus éloignés de la frontière de la décision.', 'Les seuls exemples nécessaires pour calculer f (x) dans un SVM.', 'Le centre de données.', 'Tous les exemples qui ont un poids αk différent de zéro dans un SVM.']",1,"Question: Quels sont les vecteurs de support?
+
+Choix: ['Les exemples les plus éloignés de la frontière de la décision.', 'Les seuls exemples nécessaires pour calculer f (x) dans un SVM.', 'Le centre de données.', 'Tous les exemples qui ont un poids αk différent de zéro dans un SVM.']
+
+Réponse: Les seuls exemples nécessaires pour calculer f (x) dans un SVM."
+Les paramètres Word2Vec n'ont pas été initialisés à l'aide d'une machine Boltzman restreinte.,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",0,"Question: Les paramètres Word2Vec n'ont pas été initialisés à l'aide d'une machine Boltzman restreinte.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: C'est vrai, c'est vrai"
+"Si votre perte d'entraînement augmente avec le nombre d'époques, lequel des éléments suivants pourrait être un problème possible avec le processus d'apprentissage?",machine_learning,"['La régularisation est trop faible et le modèle est trop ajusté', 'La régularisation est trop élevée et le modèle est insuffisant', 'La taille de l'étape est trop grande', 'La taille de l'étape est trop petite']",2,"Question: Si votre perte d'entraînement augmente avec le nombre d'époques, lequel des éléments suivants pourrait être un problème possible avec le processus d'apprentissage?
+
+Choix: ['La régularisation est trop faible et le modèle est trop ajusté', 'La régularisation est trop élevée et le modèle est insuffisant', 'La taille de l'étape est trop grande', 'La taille de l'étape est trop petite']
+
+Réponse: La taille de l'étape est trop grande"
+"Disons que l'incidence d'une maladie D est d'environ 5 cas pour 100 personnes (c'est-à-dire, P(D) = 0,05) La variable aléatoire booléenne D signifie qu'un patient ""a la maladie D"" et la variable aléatoire booléenne TP signifie ""test positif"". Les tests pour la maladie D sont connus pour être très précis dans le sens où la probabilité d'un test positif lorsque vous avez la maladie est de 0,99 et la probabilité d'obtenir un résultat négatif quand vous n'avez pas la maladie est de 0,97 Quelle est la probabilité postérieure que vous ayez la maladie D quand le test est positif?",machine_learning,"['0,0495', 'Résultats de l'enquête', '0,635', 'de 0,97']",2,"Question: Disons que l'incidence d'une maladie D est d'environ 5 cas pour 100 personnes (c'est-à-dire, P(D) = 0,05) La variable aléatoire booléenne D signifie qu'un patient ""a la maladie D"" et la variable aléatoire booléenne TP signifie ""test positif"". Les tests pour la maladie D sont connus pour être très précis dans le sens où la probabilité d'un test positif lorsque vous avez la maladie est de 0,99 et la probabilité d'obtenir un résultat négatif quand vous n'avez pas la maladie est de 0,97 Quelle est la probabilité postérieure que vous ayez la maladie D quand le test est positif?
+
+Choix: ['0,0495', 'Résultats de l'enquête', '0,635', 'de 0,97']
+
+Réponse: 0,635"
+"Déclaration 1: Les résultats traditionnels de l'apprentissage automatique supposent que les ensembles de train et d'essai sont indépendants et identiquement répartis. En 2017, les modèles COCO étaient généralement pré-formés sur ImageNet.",machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",0,"Question: Déclaration 1: Les résultats traditionnels de l'apprentissage automatique supposent que les ensembles de train et d'essai sont indépendants et identiquement répartis. En 2017, les modèles COCO étaient généralement pré-formés sur ImageNet.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: C'est vrai, c'est vrai"
+Les valeurs des marges obtenues par deux noyaux différents x0) et K2 ((x x0) sur le même ensemble d'entraînement ne nous indiquent pas quel classificateur sera plus performant sur l'ensemble d'essai La fonction d'activation du BERT est le GELU.,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",0,"Question: Les valeurs des marges obtenues par deux noyaux différents x0) et K2 ((x x0) sur le même ensemble d'entraînement ne nous indiquent pas quel classificateur sera plus performant sur l'ensemble d'essai La fonction d'activation du BERT est le GELU.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: C'est vrai, c'est vrai"
+Lequel des éléments suivants est un algorithme de regroupement dans l'apprentissage automatique?,machine_learning,"['Maximisation des attentes', 'Le CART', 'Bayes naïf gaussienne', 'À l' avance']",0,"Question: Lequel des éléments suivants est un algorithme de regroupement dans l'apprentissage automatique?
+
+Choix: ['Maximisation des attentes', 'Le CART', 'Bayes naïf gaussienne', 'À l' avance']
+
+Réponse: Maximisation des attentes"
+"Vous venez de terminer l'entraînement d'un arbre de décision pour la classification du spam, et il obtient des performances anormalement mauvaises sur vos ensembles d'entraînement et de test Vous savez que votre mise en œuvre n'a pas de bogues, alors qu'est-ce qui pourrait causer le problème ?",machine_learning,"['Vos arbres de décision sont trop peu profonds.', 'Vous devez augmenter le taux d'apprentissage.', 'Tu dépasses les bornes.', 'Rien de tout cela.']",0,"Question: Vous venez de terminer l'entraînement d'un arbre de décision pour la classification du spam, et il obtient des performances anormalement mauvaises sur vos ensembles d'entraînement et de test Vous savez que votre mise en œuvre n'a pas de bogues, alors qu'est-ce qui pourrait causer le problème ?
+
+Choix: ['Vos arbres de décision sont trop peu profonds.', 'Vous devez augmenter le taux d'apprentissage.', 'Tu dépasses les bornes.', 'Rien de tout cela.']
+
+Réponse: Vos arbres de décision sont trop peu profonds."
+La validation croisée K-fold est,machine_learning,"['linéaire en K', 'quadratique en K', 'cube en K', 'l'exponentiel en K']",0,"Question: La validation croisée K-fold est
+
+Choix: ['linéaire en K', 'quadratique en K', 'cube en K', 'l'exponentiel en K']
+
+Réponse: linéaire en K"
+"Déclaration 1 Les réseaux de neurones à l'échelle industrielle sont normalement formés sur des CPU, pas sur des GPU. Déclaration 2 Le modèle ResNet-50 a plus d'un milliard de paramètres.",machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",1,"Question: Déclaration 1 Les réseaux de neurones à l'échelle industrielle sont normalement formés sur des CPU, pas sur des GPU. Déclaration 2 Le modèle ResNet-50 a plus d'un milliard de paramètres.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Faux, Faux"
+"Étant donné deux variables aléatoires booléennes, A et B, où P{\displaystyle A} = 1/2, P{\displaystyle B} = 1/3, et P{\displaystyle A} ¬B) = 1/4, quelle est la valeur de P{\displaystyle A} B ?",machine_learning,"['1 à 6', 'Un quart', 'Les trois-quarts', 'Nom de l'établissement']",3,"Question: Étant donné deux variables aléatoires booléennes, A et B, où P{\displaystyle A} = 1/2, P{\displaystyle B} = 1/3, et P{\displaystyle A} ¬B) = 1/4, quelle est la valeur de P{\displaystyle A} B ?
+
+Choix: ['1 à 6', 'Un quart', 'Les trois-quarts', 'Nom de l'établissement']
+
+Réponse: Nom de l'établissement"
+Les risques existentiels posés par l'IA sont le plus souvent associés à l'un des professeurs suivants?,machine_learning,"['Nando de Frietas est le père de Nando de Frietas.', 'Yann LeCun', 'Je suis Stuart Russell .', 'Je suis Jitendra Malik.']",2,"Question: Les risques existentiels posés par l'IA sont le plus souvent associés à l'un des professeurs suivants?
+
+Choix: ['Nando de Frietas est le père de Nando de Frietas.', 'Yann LeCun', 'Je suis Stuart Russell .', 'Je suis Jitendra Malik.']
+
+Réponse: Je suis Stuart Russell ."
+La maximisation de la probabilité d'un modèle de régression logistique donne des optimaux locaux multiples Aucun classificateur ne peut faire mieux qu'un classificateur naïf de Bayes si la distribution des données est connue.,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",1,"Question: La maximisation de la probabilité d'un modèle de régression logistique donne des optimaux locaux multiples Aucun classificateur ne peut faire mieux qu'un classificateur naïf de Bayes si la distribution des données est connue.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Faux, Faux"
+"Pour la régression du noyau, laquelle de ces hypothèses structurelles est celle qui affecte le plus le compromis entre sous-adaptation et suradaptation:",machine_learning,"['Si la fonction de noyau est gaussienne par rapport triangulaire par rapport en forme de boîte', 'Si nous utilisons Euclidien contre L1 contre L∞ métriques', 'La largeur du noyau', 'La hauteur maximale de la fonction de noyau']",2,"Question: Pour la régression du noyau, laquelle de ces hypothèses structurelles est celle qui affecte le plus le compromis entre sous-adaptation et suradaptation:
+
+Choix: ['Si la fonction de noyau est gaussienne par rapport triangulaire par rapport en forme de boîte', 'Si nous utilisons Euclidien contre L1 contre L∞ métriques', 'La largeur du noyau', 'La hauteur maximale de la fonction de noyau']
+
+Réponse: La largeur du noyau"
+L'algorithme d'apprentissage SVM est garanti pour trouver l'hypothèse globalement optimale par rapport à sa fonction d'objet Après avoir été cartographié dans l'espace de caractéristiques Q à travers une fonction de noyau de base radiale Un percepteur peut être en mesure d'obtenir de meilleures performances de classification que dans son espace d'origine (bien que nous ne puissions pas garantir cela).,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",0,"Question: L'algorithme d'apprentissage SVM est garanti pour trouver l'hypothèse globalement optimale par rapport à sa fonction d'objet Après avoir été cartographié dans l'espace de caractéristiques Q à travers une fonction de noyau de base radiale Un percepteur peut être en mesure d'obtenir de meilleures performances de classification que dans son espace d'origine (bien que nous ne puissions pas garantir cela).
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: C'est vrai, c'est vrai"
+"Pour un classificateur de Bayes gaussienne, laquelle de ces hypothèses structurelles est celle qui affecte le plus le compromis entre sous-ajustement et sur-ajustement:",machine_learning,"['Si nous apprenons les centres de classe par probabilité maximale ou descente dégradée', 'Si nous supposons des matrices de covariance de classe complète ou des matrices de covariance de classe diagonale', 'Si nous avons des priors de classe égaux ou des priors estimés à partir des données.', 'Que nous permettions aux classes d'avoir des vecteurs moyens différents ou que nous les forcions à partager le même vecteur moyen']",1,"Question: Pour un classificateur de Bayes gaussienne, laquelle de ces hypothèses structurelles est celle qui affecte le plus le compromis entre sous-ajustement et sur-ajustement:
+
+Choix: ['Si nous apprenons les centres de classe par probabilité maximale ou descente dégradée', 'Si nous supposons des matrices de covariance de classe complète ou des matrices de covariance de classe diagonale', 'Si nous avons des priors de classe égaux ou des priors estimés à partir des données.', 'Que nous permettions aux classes d'avoir des vecteurs moyens différents ou que nous les forcions à partager le même vecteur moyen']
+
+Réponse: Si nous supposons des matrices de covariance de classe complète ou des matrices de covariance de classe diagonale"
+L'affirmation 1 déclare que l'ajustement excessif est plus probable lorsque l'ensemble de données d'entraînement est petit L'affirmation 2 déclare que l'ajustement excessif est plus probable lorsque l'espace d'hypothèse est petit.,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",3,"Question: L'affirmation 1 déclare que l'ajustement excessif est plus probable lorsque l'ensemble de données d'entraînement est petit L'affirmation 2 déclare que l'ajustement excessif est plus probable lorsque l'espace d'hypothèse est petit.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Faux, vrai"
+"En plus de l'EM, la descente de gradient peut être utilisée pour effectuer des inférences ou de l'apprentissage sur le modèle de mélange gaussienne En supposant un nombre fixe d'attributs, un classificateur Bayes optimal basé sur Gauss peut être appris dans le temps linéaire dans le nombre d'enregistrements dans l'ensemble de données.",machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",0,"Question: En plus de l'EM, la descente de gradient peut être utilisée pour effectuer des inférences ou de l'apprentissage sur le modèle de mélange gaussienne En supposant un nombre fixe d'attributs, un classificateur Bayes optimal basé sur Gauss peut être appris dans le temps linéaire dans le nombre d'enregistrements dans l'ensemble de données.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: C'est vrai, c'est vrai"
+"Dans un réseau bayésien, les résultats d'inférence de l'algorithme de l'arbre de jonction sont les mêmes que les résultats d'inférence de l'élimination de la variable Si deux variables aléatoires X et Y sont conditionnellement indépendantes compte tenu d'une autre variable aléatoire Z puis dans le réseau bayésien correspondant les nœuds pour X et Y sont d-séparés étant donné Z.",machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",2,"Question: Dans un réseau bayésien, les résultats d'inférence de l'algorithme de l'arbre de jonction sont les mêmes que les résultats d'inférence de l'élimination de la variable Si deux variables aléatoires X et Y sont conditionnellement indépendantes compte tenu d'une autre variable aléatoire Z puis dans le réseau bayésien correspondant les nœuds pour X et Y sont d-séparés étant donné Z.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Vrai ou faux"
+Compte tenu d'un grand ensemble de données de dossiers médicaux de patients souffrant de maladies cardiaques essayer de savoir s'il pourrait y avoir différents groupes de ces patients pour lesquels nous pourrions adapter des traitements distincts C'est quoi ce problème d'apprentissage ?,machine_learning,"['Apprentissage supervisé', 'Apprentissage non supervisé', 'Les deux points a) et b)', 'Ni a) ni b)']",1,"Question: Compte tenu d'un grand ensemble de données de dossiers médicaux de patients souffrant de maladies cardiaques essayer de savoir s'il pourrait y avoir différents groupes de ces patients pour lesquels nous pourrions adapter des traitements distincts C'est quoi ce problème d'apprentissage ?
+
+Choix: ['Apprentissage supervisé', 'Apprentissage non supervisé', 'Les deux points a) et b)', 'Ni a) ni b)']
+
+Réponse: Apprentissage non supervisé"
+Que feriez-vous dans le PCA pour avoir la même projection que le SVD ?,machine_learning,"['Transformer les données en moyenne zéro', 'Transformer les données en médiane zéro', 'Ce n' est pas possible .', 'Rien de tout cela.']",0,"Question: Que feriez-vous dans le PCA pour avoir la même projection que le SVD ?
+
+Choix: ['Transformer les données en moyenne zéro', 'Transformer les données en médiane zéro', 'Ce n' est pas possible .', 'Rien de tout cela.']
+
+Réponse: Transformer les données en moyenne zéro"
+"L'erreur d'entraînement du classificateur de voisin le plus proche est égale à 0. Comme le nombre de points de données augmente à l'infini, l'estimation MAP s'approche de l'estimation MLE pour tous les priors possibles En d'autres termes, compte tenu de suffisamment de données, le choix de la priorité n'est pas pertinent.",machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",2,"Question: L'erreur d'entraînement du classificateur de voisin le plus proche est égale à 0. Comme le nombre de points de données augmente à l'infini, l'estimation MAP s'approche de l'estimation MLE pour tous les priors possibles En d'autres termes, compte tenu de suffisamment de données, le choix de la priorité n'est pas pertinent.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Vrai ou faux"
+Lors de la régression des moindres carrés avec régularisation (en supposant que l'optimisation peut être faite exactement) augmentant la valeur du paramètre de régularisation λ de l'erreur d'essai.,machine_learning,"['ne diminuera jamais l'erreur d'entraînement.', 'n'augmentera jamais l'erreur d'entraînement.', 'ne diminuera jamais l'erreur de test.', 'ne s'accroîtra jamais']",0,"Question: Lors de la régression des moindres carrés avec régularisation (en supposant que l'optimisation peut être faite exactement) augmentant la valeur du paramètre de régularisation λ de l'erreur d'essai.
+
+Choix: ['ne diminuera jamais l'erreur d'entraînement.', 'n'augmentera jamais l'erreur d'entraînement.', 'ne diminuera jamais l'erreur de test.', 'ne s'accroîtra jamais']
+
+Réponse: ne diminuera jamais l'erreur d'entraînement."
+Lequel des éléments suivants décrit le mieux ce que les approches discriminatives tentent de modéliser? (w sont les paramètres du modèle),machine_learning,"['Pour ce qui est de l'établissement et de l'organisation de l'établissement:', 'p (y, x)', 'Pour ce qui est de l'exécution de l'acte d'accusation, il s'agit de l'exécution de l'acte d'accusation.', 'Rien de ce qui précède']",0,"Question: Lequel des éléments suivants décrit le mieux ce que les approches discriminatives tentent de modéliser? (w sont les paramètres du modèle)
+
+Choix: ['Pour ce qui est de l'établissement et de l'organisation de l'établissement:', 'p (y, x)', 'Pour ce qui est de l'exécution de l'acte d'accusation, il s'agit de l'exécution de l'acte d'accusation.', 'Rien de ce qui précède']
+
+Réponse: Pour ce qui est de l'établissement et de l'organisation de l'établissement:"
+Déclaration 1 Les performances de classification CIFAR-10 pour les réseaux de neurones à convolution peuvent dépasser 95% Les ensembles de réseaux neuronaux n'améliorent pas la précision de la classification car les représentations qu'ils apprennent sont fortement corrélées.,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",2,"Question: Déclaration 1 Les performances de classification CIFAR-10 pour les réseaux de neurones à convolution peuvent dépasser 95% Les ensembles de réseaux neuronaux n'améliorent pas la précision de la classification car les représentations qu'ils apprennent sont fortement corrélées.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Vrai ou faux"
+Sur lequel des points suivants les bayésiens et les fréquentistes seraient en désaccord ?,machine_learning,"['L'utilisation d'un modèle de bruit non gaussien dans la régression probabiliste.', 'L'utilisation de la modélisation probabiliste pour la régression.', 'L'utilisation de distributions antérieures sur les paramètres dans un modèle probabiliste.', 'L'utilisation des priors de classe dans l'analyse discriminante gaussienne.']",2,"Question: Sur lequel des points suivants les bayésiens et les fréquentistes seraient en désaccord ?
+
+Choix: ['L'utilisation d'un modèle de bruit non gaussien dans la régression probabiliste.', 'L'utilisation de la modélisation probabiliste pour la régression.', 'L'utilisation de distributions antérieures sur les paramètres dans un modèle probabiliste.', 'L'utilisation des priors de classe dans l'analyse discriminante gaussienne.']
+
+Réponse: L'utilisation de distributions antérieures sur les paramètres dans un modèle probabiliste."
+"La métrique BLEU utilise la précision, tandis que la métrique ROGUE utilise le rappel.",machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",0,"Question: La métrique BLEU utilise la précision, tandis que la métrique ROGUE utilise le rappel.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: C'est vrai, c'est vrai"
+ImageNet contient des images de différentes résolutions. Caltech-101 contient plus d'images qu'ImageNet.,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",2,"Question: ImageNet contient des images de différentes résolutions. Caltech-101 contient plus d'images qu'ImageNet.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Vrai ou faux"
+Lequel des éléments suivants est le plus approprié pour la sélection des caractéristiques ?,machine_learning,"['La crête', 'Le Lasso', 'les deux points a) et b)', 'ni a) ni b)']",1,"Question: Lequel des éléments suivants est le plus approprié pour la sélection des caractéristiques ?
+
+Choix: ['La crête', 'Le Lasso', 'les deux points a) et b)', 'ni a) ni b)']
+
+Réponse: Le Lasso"
+Supposons que vous ayez un algorithme EM qui trouve des estimations de probabilité maximale pour un modèle avec des variables latentes Vous êtes invité à modifier l'algorithme de sorte qu'il trouve des estimations MAP à la place Quelle ou quelles étapes avez-vous besoin de modifier ?,machine_learning,"['Les attentes', 'Maximisation', 'Aucune modification nécessaire', 'Les deux .']",1,"Question: Supposons que vous ayez un algorithme EM qui trouve des estimations de probabilité maximale pour un modèle avec des variables latentes Vous êtes invité à modifier l'algorithme de sorte qu'il trouve des estimations MAP à la place Quelle ou quelles étapes avez-vous besoin de modifier ?
+
+Choix: ['Les attentes', 'Maximisation', 'Aucune modification nécessaire', 'Les deux .']
+
+Réponse: Maximisation"
+"Pour un classificateur de Bayes gaussienne, laquelle de ces hypothèses structurelles est celle qui affecte le plus le compromis entre sous-ajustement et sur-ajustement:",machine_learning,"['Si nous apprenons les centres de classe par probabilité maximale ou descente dégradée', 'Si nous supposons des matrices de covariance de classe complète ou des matrices de covariance de classe diagonale', 'Si nous avons des priors de classe égaux ou des priors estimés à partir des données', 'Que nous permettions aux classes d'avoir des vecteurs moyens différents ou que nous les forcions à partager le même vecteur moyen']",1,"Question: Pour un classificateur de Bayes gaussienne, laquelle de ces hypothèses structurelles est celle qui affecte le plus le compromis entre sous-ajustement et sur-ajustement:
+
+Choix: ['Si nous apprenons les centres de classe par probabilité maximale ou descente dégradée', 'Si nous supposons des matrices de covariance de classe complète ou des matrices de covariance de classe diagonale', 'Si nous avons des priors de classe égaux ou des priors estimés à partir des données', 'Que nous permettions aux classes d'avoir des vecteurs moyens différents ou que nous les forcions à partager le même vecteur moyen']
+
+Réponse: Si nous supposons des matrices de covariance de classe complète ou des matrices de covariance de classe diagonale"
+"Pour n'importe quelles deux variables x et y ayant une distribution commune p ((x, y), nous avons toujours H[x, y] ≥ H[x] + H[y] où H est la fonction d'entropie Pour certains graphes dirigés, la moralisation diminue le nombre d'arêtes présentes dans le graphe.",machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",1,"Question: Pour n'importe quelles deux variables x et y ayant une distribution commune p ((x, y), nous avons toujours H[x, y] ≥ H[x] + H[y] où H est la fonction d'entropie Pour certains graphes dirigés, la moralisation diminue le nombre d'arêtes présentes dans le graphe.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Faux, Faux"
+Lequel des éléments suivants n'est PAS un apprentissage supervisé?,machine_learning,"['Nom de l'établissement', 'Arbre de décision', 'Régression linéaire', 'Bayésien naïf']",0,"Question: Lequel des éléments suivants n'est PAS un apprentissage supervisé?
+
+Choix: ['Nom de l'établissement', 'Arbre de décision', 'Régression linéaire', 'Bayésien naïf']
+
+Réponse: Nom de l'établissement"
+Déclaration 1 La convergence d'un réseau neuronal dépend du taux d'apprentissage. Déclaration 2 Le décrochage multiplie les valeurs d'activation choisies au hasard par zéro.,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",0,"Question: Déclaration 1 La convergence d'un réseau neuronal dépend du taux d'apprentissage. Déclaration 2 Le décrochage multiplie les valeurs d'activation choisies au hasard par zéro.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: C'est vrai, c'est vrai"
+"Lequel des éléments suivants est égal à P ((A, B, C) compte tenu des variables aléatoires booléennes A, B et C et de l'absence d'indépendance ou d'hypothèses d'indépendance conditionnelle entre l'une d'entre elles?",machine_learning,"['Je ne sais pas ce que c'est, mais c'est ce que j'ai ressenti.', 'Je ne sais pas ce que c'est.', 'Je ne sais pas ce que c'est.', 'Je ne sais pas si c'est vrai, mais je suis sûr que c'est vrai.']",2,"Question: Lequel des éléments suivants est égal à P ((A, B, C) compte tenu des variables aléatoires booléennes A, B et C et de l'absence d'indépendance ou d'hypothèses d'indépendance conditionnelle entre l'une d'entre elles?
+
+Choix: ['Je ne sais pas ce que c'est, mais c'est ce que j'ai ressenti.', 'Je ne sais pas ce que c'est.', 'Je ne sais pas ce que c'est.', 'Je ne sais pas si c'est vrai, mais je suis sûr que c'est vrai.']
+
+Réponse: Je ne sais pas ce que c'est."
+Laquelle des tâches suivantes peut être résolue au mieux à l'aide du regroupement ?,machine_learning,"['Prédire la quantité de précipitations sur la base de divers indices', 'Détection de transactions frauduleuses par carte de crédit', 'Entraînement d'un robot à résoudre un labyrinthe', 'Tout ce qui précède']",1,"Question: Laquelle des tâches suivantes peut être résolue au mieux à l'aide du regroupement ?
+
+Choix: ['Prédire la quantité de précipitations sur la base de divers indices', 'Détection de transactions frauduleuses par carte de crédit', 'Entraînement d'un robot à résoudre un labyrinthe', 'Tout ce qui précède']
+
+Réponse: Détection de transactions frauduleuses par carte de crédit"
+"Après avoir appliqué une pénalité de régularisation en régression linéaire, vous trouvez que certains des coefficients de w sont réduits à zéro.",machine_learning,"['Norme L0', 'Norme L1', 'Norme L2', 'soit a) ou b)']",3,"Question: Après avoir appliqué une pénalité de régularisation en régression linéaire, vous trouvez que certains des coefficients de w sont réduits à zéro.
+
+Choix: ['Norme L0', 'Norme L1', 'Norme L2', 'soit a) ou b)']
+
+Réponse: soit a) ou b)"
+"A et B sont deux événements. Si P ((A, B) diminue tandis que P ((A) augmente, lequel des événements suivants est vrai ?",machine_learning,"['P (A ou B) diminue', 'P (B) décroît', 'P ((B) diminue', 'Tout ce qui précède']",1,"Question: A et B sont deux événements. Si P ((A, B) diminue tandis que P ((A) augmente, lequel des événements suivants est vrai ?
+
+Choix: ['P (A ou B) diminue', 'P (B) décroît', 'P ((B) diminue', 'Tout ce qui précède']
+
+Réponse: P (B) décroît"
+Déclaration 1: Lors de l'apprentissage d'un HMM pour un ensemble fixe d'observations supposons que nous ne connaissons pas le nombre réel d'états cachés (ce qui est souvent le cas) nous pouvons toujours augmenter la probabilité de données d'entraînement en permettant plus d'états cachés Le filtrage collaboratif est souvent un modèle utile pour modéliser les préférences cinématographiques des utilisateurs.,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",0,"Question: Déclaration 1: Lors de l'apprentissage d'un HMM pour un ensemble fixe d'observations supposons que nous ne connaissons pas le nombre réel d'états cachés (ce qui est souvent le cas) nous pouvons toujours augmenter la probabilité de données d'entraînement en permettant plus d'états cachés Le filtrage collaboratif est souvent un modèle utile pour modéliser les préférences cinématographiques des utilisateurs.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: C'est vrai, c'est vrai"
+"Vous entraînez un modèle de régression linéaire pour une tâche d'estimation simple, et remarquez que le modèle est suradapté aux données Vous décidez d'ajouter $\ell_2$ régularisation pour pénaliser les poids Au fur et à mesure que vous augmentez le coefficient de régularisation $\ell_2$, qu'adviendra-t-il du biais et de la variance du modèle ?",machine_learning,"['Augmentation du biais; augmentation de la variance', 'Augmentation du biais et diminution de la variance', 'Diminution du biais; augmentation de la variance', 'Diminution du biais; diminution de la variance']",1,"Question: Vous entraînez un modèle de régression linéaire pour une tâche d'estimation simple, et remarquez que le modèle est suradapté aux données Vous décidez d'ajouter $\ell_2$ régularisation pour pénaliser les poids Au fur et à mesure que vous augmentez le coefficient de régularisation $\ell_2$, qu'adviendra-t-il du biais et de la variance du modèle ?
+
+Choix: ['Augmentation du biais; augmentation de la variance', 'Augmentation du biais et diminution de la variance', 'Diminution du biais; augmentation de la variance', 'Diminution du biais; diminution de la variance']
+
+Réponse: Augmentation du biais et diminution de la variance"
+"Les commandes PyTorch 1.8 produisent une matrice gaussienne de 10 fois 5 avec chaque entrée i.i.d. est échantillonné à partir de $\mathcal{N}(\mu=5,\sigma^2=16) $ et d'une matrice uniforme $10\times 10$ avec chaque entrée i.i.d échantillonné à partir de $U[-1,1) $?",machine_learning,"['Il s'agit d'une série d'expériences réalisées à l'aide d'une méthode d'échantillonnage et d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage.', 'Il s'agit d'une série d'expériences et d'expériences réalisées par des chercheurs de l'Université de Montréal et de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal.', 'Il s'agit d'une série d'épreuves d'apprentissage et d'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage.', 'Il s'agit d'une série d'expériences et d'expériences qui ont été menées dans le cadre de l'expérience d'apprentissage et d'apprentissage dans le cadre de l'expérience d'apprentissage et d'apprentissage dans le cadre de l'expérience d'apprentissage dans le cadre de l'expérience d'apprentissage dans le cadre de l'expérience d'apprentissage dans le cadre de l'expérience d'apprentissage dans le cadre de l'expérience d'apprentissage dans le cadre de l'expérience d'apprentissage dans le cadre de l'expérience d'apprentissage dans le cadre de l'expérience d'apprentissage dans le cadre de l'expérience d'apprentissage dans le cadre de l'expérience d'apprentissage dans le cadre de l'expérience d'apprentissage.']",2,"Question: Les commandes PyTorch 1.8 produisent une matrice gaussienne de 10 fois 5 avec chaque entrée i.i.d. est échantillonné à partir de $\mathcal{N}(\mu=5,\sigma^2=16) $ et d'une matrice uniforme $10\times 10$ avec chaque entrée i.i.d échantillonné à partir de $U[-1,1) $?
+
+Choix: ['Il s'agit d'une série d'expériences réalisées à l'aide d'une méthode d'échantillonnage et d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage à l'aide d'une méthode d'échantillonnage.', 'Il s'agit d'une série d'expériences et d'expériences réalisées par des chercheurs de l'Université de Montréal et de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal en collaboration avec des chercheurs de l'Université de Montréal.', 'Il s'agit d'une série d'épreuves d'apprentissage et d'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage.', 'Il s'agit d'une série d'expériences et d'expériences qui ont été menées dans le cadre de l'expérience d'apprentissage et d'apprentissage dans le cadre de l'expérience d'apprentissage et d'apprentissage dans le cadre de l'expérience d'apprentissage dans le cadre de l'expérience d'apprentissage dans le cadre de l'expérience d'apprentissage dans le cadre de l'expérience d'apprentissage dans le cadre de l'expérience d'apprentissage dans le cadre de l'expérience d'apprentissage dans le cadre de l'expérience d'apprentissage dans le cadre de l'expérience d'apprentissage dans le cadre de l'expérience d'apprentissage dans le cadre de l'expérience d'apprentissage dans le cadre de l'expérience d'apprentissage.']
+
+Réponse: Il s'agit d'une série d'épreuves d'apprentissage et d'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage de l'apprentissage."
+"Le gradient de ReLU est égal à zéro pour $x<0$, et le gradient sigmoïde est égal à zéro pour $x<0$, et le gradient sigmoïde est égal à zéro pour $x<0$, et le gradient sigmoïde est égal à zéro pour $x<0$, et le gradient sigmoïde est égal à zéro pour $x<0$, et le gradient sigmoïde est égal à zéro pour $x<0$, et le gradient sigmoïde est égal à zéro pour $x<0$, et le gradient sigmoïde est égal à zéro pour $x<0$, et le gradient sigmoïde est égal à zéro pour $x<0$, et le gradient sigmoïde est égal à zéro pour $x<0$, et le gradient sigmoïde est égal à zéro pour $x<0$, et le gradient sigmoïde est égal à zéro pour $x<0$. Le sigmoïde a un gradient continu et le ReLU a un gradient discontinu.",machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",0,"Question: Le gradient de ReLU est égal à zéro pour $x<0$, et le gradient sigmoïde est égal à zéro pour $x<0$, et le gradient sigmoïde est égal à zéro pour $x<0$, et le gradient sigmoïde est égal à zéro pour $x<0$, et le gradient sigmoïde est égal à zéro pour $x<0$, et le gradient sigmoïde est égal à zéro pour $x<0$, et le gradient sigmoïde est égal à zéro pour $x<0$, et le gradient sigmoïde est égal à zéro pour $x<0$, et le gradient sigmoïde est égal à zéro pour $x<0$, et le gradient sigmoïde est égal à zéro pour $x<0$, et le gradient sigmoïde est égal à zéro pour $x<0$, et le gradient sigmoïde est égal à zéro pour $x<0$. Le sigmoïde a un gradient continu et le ReLU a un gradient discontinu.
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: C'est vrai, c'est vrai"
+Ce qui est vrai à propos de la normalisation par lots ?,machine_learning,"['Après l'application de la normalisation par lots, les activations des couches suivront une distribution gaussienne standard.', 'Le paramètre de biais des couches affines devient redondant si une couche de normalisation de lot suit immédiatement après.', 'L'initialisation standard du poids doit être modifiée lors de l'utilisation de la normalisation par lots.', 'La normalisation par lots est équivalente à la normalisation par couches pour les réseaux de neurones convolutifs.']",1,"Question: Ce qui est vrai à propos de la normalisation par lots ?
+
+Choix: ['Après l'application de la normalisation par lots, les activations des couches suivront une distribution gaussienne standard.', 'Le paramètre de biais des couches affines devient redondant si une couche de normalisation de lot suit immédiatement après.', 'L'initialisation standard du poids doit être modifiée lors de l'utilisation de la normalisation par lots.', 'La normalisation par lots est équivalente à la normalisation par couches pour les réseaux de neurones convolutifs.']
+
+Réponse: Le paramètre de biais des couches affines devient redondant si une couche de normalisation de lot suit immédiatement après."
+Supposons que nous ayons la fonction objective suivante: $\argmin_{w} \frac{1}{2} \norm{Xw-y}^2_2 + \frac{1}{2}\gamma \norm{w}^2_2$ Quel est le gradient de $\frac{1}{2} \norm{Xw-y}^2_2 + \frac{1}{2}\lambda \norm{w}^2_2$ par rapport à $w$ ?,machine_learning,"['- X^\top X + \lambda I) w - X^\top y + \lambda w$ = (X^\top X + \lambda I) w - X^\top y + \lambda w$ = (X^\top X + \lambda I) w - X^\top y + \lambda w$ = (X^\top X + \lambda I) w$ - X^\top y + \lambda I) w$ = (X^\top X + \lambda I) w$', '$\nabla_w f ((w) = X^\top X w - X^\top y + \lambda$', '$\nabla_w f ((w) = X^\top X w - X^\top y + \lambda w$', '$\nabla_w f(w) = X^\top X w - X^\top y + (\lambda+1) w$']",2,"Question: Supposons que nous ayons la fonction objective suivante: $\argmin_{w} \frac{1}{2} \norm{Xw-y}^2_2 + \frac{1}{2}\gamma \norm{w}^2_2$ Quel est le gradient de $\frac{1}{2} \norm{Xw-y}^2_2 + \frac{1}{2}\lambda \norm{w}^2_2$ par rapport à $w$ ?
+
+Choix: ['- X^\top X + \lambda I) w - X^\top y + \lambda w$ = (X^\top X + \lambda I) w - X^\top y + \lambda w$ = (X^\top X + \lambda I) w - X^\top y + \lambda w$ = (X^\top X + \lambda I) w$ - X^\top y + \lambda I) w$ = (X^\top X + \lambda I) w$', '$\nabla_w f ((w) = X^\top X w - X^\top y + \lambda$', '$\nabla_w f ((w) = X^\top X w - X^\top y + \lambda w$', '$\nabla_w f(w) = X^\top X w - X^\top y + (\lambda+1) w$']
+
+Réponse: $\nabla_w f ((w) = X^\top X w - X^\top y + \lambda w$"
+Laquelle des affirmations suivantes est vraie pour un noyau de convolution ?,machine_learning,"['L'enroulement d'une image avec $\begin{bmatrix}1 & 0 & 0\\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}$ ne modifierait pas l'image', 'L'enroulement d'une image avec $\begin{bmatrix}0 & 0 & 0\\ 0 & 1 & 0 \\ 0 & 0 & 0 \end{bmatrix}$ ne modifierait pas l'image', 'L'enroulement d'une image avec $\begin{bmatrix}1 & 1 & 1\\ 1 & 1 & 1 \\ 1 & 1 & 1 \end{bmatrix}$ ne modifierait pas l'image', 'L'enroulement d'une image avec $\begin{bmatrix}0 & 0 & 0\\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix}$ ne modifierait pas l'image']",1,"Question: Laquelle des affirmations suivantes est vraie pour un noyau de convolution ?
+
+Choix: ['L'enroulement d'une image avec $\begin{bmatrix}1 & 0 & 0\\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}$ ne modifierait pas l'image', 'L'enroulement d'une image avec $\begin{bmatrix}0 & 0 & 0\\ 0 & 1 & 0 \\ 0 & 0 & 0 \end{bmatrix}$ ne modifierait pas l'image', 'L'enroulement d'une image avec $\begin{bmatrix}1 & 1 & 1\\ 1 & 1 & 1 \\ 1 & 1 & 1 \end{bmatrix}$ ne modifierait pas l'image', 'L'enroulement d'une image avec $\begin{bmatrix}0 & 0 & 0\\ 0 & 0 & 0 \\ 0 & 0 & 0 \end{bmatrix}$ ne modifierait pas l'image']
+
+Réponse: L'enroulement d'une image avec $\begin{bmatrix}0 & 0 & 0\\ 0 & 1 & 0 \\ 0 & 0 & 0 \end{bmatrix}$ ne modifierait pas l'image"
+Laquelle des affirmations suivantes est fausse ?,machine_learning,"['Les modèles de segmentation sémantique prédisent la classe de chaque pixel, tandis que les classificateurs d'images multiclasses prédisent la classe de l'image entière.', 'Une boîte de délimitation avec un IoU (intersection sur union) égal à $96\%$ serait probablement considérée comme vraie positive.', 'Lorsqu'une boîte de délimitation prédite ne correspond à aucun objet de la scène, elle est considérée comme un faux positif.', 'Une boîte de délimitation avec un IoU (intersection sur union) égal à 3\%$ serait probablement considérée comme un faux négatif.']",3,"Question: Laquelle des affirmations suivantes est fausse ?
+
+Choix: ['Les modèles de segmentation sémantique prédisent la classe de chaque pixel, tandis que les classificateurs d'images multiclasses prédisent la classe de l'image entière.', 'Une boîte de délimitation avec un IoU (intersection sur union) égal à $96\%$ serait probablement considérée comme vraie positive.', 'Lorsqu'une boîte de délimitation prédite ne correspond à aucun objet de la scène, elle est considérée comme un faux positif.', 'Une boîte de délimitation avec un IoU (intersection sur union) égal à 3\%$ serait probablement considérée comme un faux négatif.']
+
+Réponse: Une boîte de délimitation avec un IoU (intersection sur union) égal à 3\%$ serait probablement considérée comme un faux négatif."
+Laquelle des affirmations suivantes est fausse ?,machine_learning,"['Le réseau entièrement connecté suivant sans fonctions d'activation est linéaire: $g_3(g_2(g_1(x))) $, où $g_i(x) = W_i x$ et $W_i$ sont des matrices.', 'La fuite ReLU $\max\{0.01x,x\}$ est convexe.', 'Une combinaison de ReLU telle que $ReLU(x) - ReLU(x-1) $ est convexe.', 'La perte $\log \sigma(x) = -\log(1+e^{-x}) $ est concave']",2,"Question: Laquelle des affirmations suivantes est fausse ?
+
+Choix: ['Le réseau entièrement connecté suivant sans fonctions d'activation est linéaire: $g_3(g_2(g_1(x))) $, où $g_i(x) = W_i x$ et $W_i$ sont des matrices.', 'La fuite ReLU $\max\{0.01x,x\}$ est convexe.', 'Une combinaison de ReLU telle que $ReLU(x) - ReLU(x-1) $ est convexe.', 'La perte $\log \sigma(x) = -\log(1+e^{-x}) $ est concave']
+
+Réponse: Une combinaison de ReLU telle que $ReLU(x) - ReLU(x-1) $ est convexe."
+"Nous formons un réseau entièrement connecté avec deux couches cachées pour prédire les prix du logement Les entrées ont une dimension de 100 $ et ont plusieurs caractéristiques telles que le nombre de pieds carrés, le revenu médian de la famille, etc. La première couche cachée a des activations $ 1000 $ La deuxième couche cachée a activations $10$ La sortie est un scalaire représentant le prix de la maison En supposant un réseau vanille avec des transformations affines et sans normalisation de lot et sans paramètres appréciables dans la fonction d'activation Combien de paramètres ce réseau a-t-il ?",machine_learning,"['Produits à base de céréales', 'Produits à base de céréales', 'Produits à base de céréales', 'Nom de l'entreprise']",0,"Question: Nous formons un réseau entièrement connecté avec deux couches cachées pour prédire les prix du logement Les entrées ont une dimension de 100 $ et ont plusieurs caractéristiques telles que le nombre de pieds carrés, le revenu médian de la famille, etc. La première couche cachée a des activations $ 1000 $ La deuxième couche cachée a activations $10$ La sortie est un scalaire représentant le prix de la maison En supposant un réseau vanille avec des transformations affines et sans normalisation de lot et sans paramètres appréciables dans la fonction d'activation Combien de paramètres ce réseau a-t-il ?
+
+Choix: ['Produits à base de céréales', 'Produits à base de céréales', 'Produits à base de céréales', 'Nom de l'entreprise']
+
+Réponse: Produits à base de céréales"
+La dérivée du sigmoïde $\sigma(x)=(1+e^{-x})^{-1}$ par rapport à $x$ est égale à $\text{Var}(B)$ où $B\sim \text{Bern}(\sigma(x))$ est une variable aléatoire de Bernoulli La définition des paramètres de biais dans chaque couche de réseau neuronal à 0 modifie le compromis biais-variance de telle sorte que la variance du modèle augmente et que le biais du modèle diminue,machine_learning,"['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']",2,"Question: La dérivée du sigmoïde $\sigma(x)=(1+e^{-x})^{-1}$ par rapport à $x$ est égale à $\text{Var}(B)$ où $B\sim \text{Bern}(\sigma(x))$ est une variable aléatoire de Bernoulli La définition des paramètres de biais dans chaque couche de réseau neuronal à 0 modifie le compromis biais-variance de telle sorte que la variance du modèle augmente et que le biais du modèle diminue
+
+Choix: ['C'est vrai, c'est vrai', 'Faux, Faux', 'Vrai ou faux', 'Faux, vrai']
+
+Réponse: Vrai ou faux"

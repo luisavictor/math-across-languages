@@ -1,0 +1,501 @@
+question,subject,choices,answer,qa
+"En 2016, environ quel pourcentage d'adultes âgés de 18 ans ou plus étaient en surpoids?",global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']",2,"Question: En 2016, environ quel pourcentage d'adultes âgés de 18 ans ou plus étaient en surpoids?
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']
+
+Réponse: Pourcentage"
+Quel était le PIB par habitant aux États-Unis en 1850 en tenant compte de l'inflation et de la PPA aux prix de 2011 ?,global_facts,"['À peu près 300 dollars.', 'À peu près 3 000 dollars.', 'À peu près 8 000 $ .', 'À peu près 15 000 $ .']",1,"Question: Quel était le PIB par habitant aux États-Unis en 1850 en tenant compte de l'inflation et de la PPA aux prix de 2011 ?
+
+Choix: ['À peu près 300 dollars.', 'À peu près 3 000 dollars.', 'À peu près 8 000 $ .', 'À peu près 15 000 $ .']
+
+Réponse: À peu près 3 000 dollars."
+"En 2019, à peu près quel pourcentage de personnes aux États-Unis disent que l'homosexualité devrait être acceptée par la société ?",global_facts,"['Pourcentage de 52%', '62 pour cent', 'à 72%', '82% de la population']",2,"Question: En 2019, à peu près quel pourcentage de personnes aux États-Unis disent que l'homosexualité devrait être acceptée par la société ?
+
+Choix: ['Pourcentage de 52%', '62 pour cent', 'à 72%', '82% de la population']
+
+Réponse: à 72%"
+Lequel des pays suivants a généré le plus d'énergie totale à partir de sources solaires en 2019?,global_facts,"['États-Unis', 'États-Unis', 'Autriche', 'États-Unis']",0,"Question: Lequel des pays suivants a généré le plus d'énergie totale à partir de sources solaires en 2019?
+
+Choix: ['États-Unis', 'États-Unis', 'Autriche', 'États-Unis']
+
+Réponse: États-Unis"
+"En tenant compte de l'inflation et de l'ajustement PPA, de combien le PIB par habitant a-t-il augmenté de 1950 à 2016 au Japon ?",global_facts,"['par 5 fois', 'par 10 fois', 'par 15 fois', 'par 20 fois']",2,"Question: En tenant compte de l'inflation et de l'ajustement PPA, de combien le PIB par habitant a-t-il augmenté de 1950 à 2016 au Japon ?
+
+Choix: ['par 5 fois', 'par 10 fois', 'par 15 fois', 'par 20 fois']
+
+Réponse: par 15 fois"
+Quelle est la principale cause de décès chez les enfants de moins de cinq ans (en 2017)?,global_facts,"['Infections des voies respiratoires inférieures', 'Complications liées à l' accouchement prématuré', 'Maladies diarrhéiques', 'Le paludisme']",0,"Question: Quelle est la principale cause de décès chez les enfants de moins de cinq ans (en 2017)?
+
+Choix: ['Infections des voies respiratoires inférieures', 'Complications liées à l' accouchement prématuré', 'Maladies diarrhéiques', 'Le paludisme']
+
+Réponse: Infections des voies respiratoires inférieures"
+"En 2019, à peu près quel pourcentage de la population mondiale n'a pas accès à de l'eau potable ?",global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']",2,"Question: En 2019, à peu près quel pourcentage de la population mondiale n'a pas accès à de l'eau potable ?
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']
+
+Réponse: Pourcentage"
+"Environ quel pourcentage des personnes interrogées en Inde ont déclaré avoir payé un pot-de-vin au cours de la dernière année pour accéder à des services publics (tels que l'éducation, le système judiciaire, les services médicaux et de santé, la police, les services d'enregistrement et de permis, les services publics, les recettes fiscales et les douanes et les services fonciers) en 2017?",global_facts,"['Pourcentage de 29%', '49 pour cent', '69 pour cent', '89 pour cent']",2,"Question: Environ quel pourcentage des personnes interrogées en Inde ont déclaré avoir payé un pot-de-vin au cours de la dernière année pour accéder à des services publics (tels que l'éducation, le système judiciaire, les services médicaux et de santé, la police, les services d'enregistrement et de permis, les services publics, les recettes fiscales et les douanes et les services fonciers) en 2017?
+
+Choix: ['Pourcentage de 29%', '49 pour cent', '69 pour cent', '89 pour cent']
+
+Réponse: 69 pour cent"
+"En 2017, quelle fraction de la population brésilienne a utilisé Internet au cours des trois derniers mois ?",global_facts,"['Pourcentage', 'Pourcentage', '58 pour cent', '78 pour cent']",2,"Question: En 2017, quelle fraction de la population brésilienne a utilisé Internet au cours des trois derniers mois ?
+
+Choix: ['Pourcentage', 'Pourcentage', '58 pour cent', '78 pour cent']
+
+Réponse: 58 pour cent"
+"En 2017, quelle fraction de la population indienne a utilisé Internet au cours des trois derniers mois ?",global_facts,"['Pourcentage', 'Pourcentage', '41 pour cent', 'Pourcentage de 56%']",1,"Question: En 2017, quelle fraction de la population indienne a utilisé Internet au cours des trois derniers mois ?
+
+Choix: ['Pourcentage', 'Pourcentage', '41 pour cent', 'Pourcentage de 56%']
+
+Réponse: Pourcentage"
+À compter de 2018 à propos de quel pourcentage d'Indiens disent qu'avoir un nombre croissant de personnes de nombreuses races différentes Les groupes ethniques et les nationalités dans leur pays en font-ils un meilleur endroit pour vivre (par opposition à pire ou aucune différence)?,global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage de 53%', 'Pourcentage']",3,"Question: À compter de 2018 à propos de quel pourcentage d'Indiens disent qu'avoir un nombre croissant de personnes de nombreuses races différentes Les groupes ethniques et les nationalités dans leur pays en font-ils un meilleur endroit pour vivre (par opposition à pire ou aucune différence)?
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage de 53%', 'Pourcentage']
+
+Réponse: Pourcentage"
+"En 2019, à peu près quel pourcentage de la population mondiale vit dans l'extrême pauvreté (moins de 1,90 $ par jour)?",global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']",1,"Question: En 2019, à peu près quel pourcentage de la population mondiale vit dans l'extrême pauvreté (moins de 1,90 $ par jour)?
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']
+
+Réponse: Pourcentage"
+"En 2020, à peu près quel pourcentage de la population mondiale pratique la défécation en plein air ?",global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']",2,"Question: En 2020, à peu près quel pourcentage de la population mondiale pratique la défécation en plein air ?
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']
+
+Réponse: Pourcentage"
+Lequel des éléments suivants ne fait pas partie de l'approche de la politique de redistribution avec croissance?,global_facts,"['législation sur le salaire minimum', 'réforme agraire', 'l'imposition progressive', 'accroissement de l'accès à l'éducation']",0,"Question: Lequel des éléments suivants ne fait pas partie de l'approche de la politique de redistribution avec croissance?
+
+Choix: ['législation sur le salaire minimum', 'réforme agraire', 'l'imposition progressive', 'accroissement de l'accès à l'éducation']
+
+Réponse: législation sur le salaire minimum"
+Quel pourcentage de la population mondiale était alphabétisée en 1950?,global_facts,"['Pourcentage', 'Pourcentage de 56%', 'Pourcentage de 76%', 'Résistance à l'humidité']",1,"Question: Quel pourcentage de la population mondiale était alphabétisée en 1950?
+
+Choix: ['Pourcentage', 'Pourcentage de 56%', 'Pourcentage de 76%', 'Résistance à l'humidité']
+
+Réponse: Pourcentage de 56%"
+"En 2016, environ quel pourcentage d'adultes âgés de 18 ans ou plus étaient obèses ?",global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']",1,"Question: En 2016, environ quel pourcentage d'adultes âgés de 18 ans ou plus étaient obèses ?
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']
+
+Réponse: Pourcentage"
+"En 2019, environ quel pourcentage d'Allemands disent que la relation entre les États-Unis et l'Allemagne est bonne ?",global_facts,"['Pourcentage', '49 pour cent', 'Pourcentage', 'Pourcentage de 79%']",0,"Question: En 2019, environ quel pourcentage d'Allemands disent que la relation entre les États-Unis et l'Allemagne est bonne ?
+
+Choix: ['Pourcentage', '49 pour cent', 'Pourcentage', 'Pourcentage de 79%']
+
+Réponse: Pourcentage"
+"En 2017, quel pourcentage d'Américains vivent dans les zones urbaines ?",global_facts,"['62 pour cent', 'à 72%', '82% de la population', 'Pourcentage de 92%']",2,"Question: En 2017, quel pourcentage d'Américains vivent dans les zones urbaines ?
+
+Choix: ['62 pour cent', 'à 72%', '82% de la population', 'Pourcentage de 92%']
+
+Réponse: 82% de la population"
+Quel était le PIB par habitant aux États-Unis en 1950 en tenant compte de l'inflation et de la PPA aux prix de 2011 ?,global_facts,"['À peu près 3 000 dollars.', 'À peu près 8 000 $ .', 'À peu près 15 000 $ .', 'À peu près 30 000 $ .']",2,"Question: Quel était le PIB par habitant aux États-Unis en 1950 en tenant compte de l'inflation et de la PPA aux prix de 2011 ?
+
+Choix: ['À peu près 3 000 dollars.', 'À peu près 8 000 $ .', 'À peu près 15 000 $ .', 'À peu près 30 000 $ .']
+
+Réponse: À peu près 15 000 $ ."
+"En 2016, combien de personnes aux États-Unis étaient sans-abri ?",global_facts,"['55 000 personnes', 'cinq cent cinquante mille', '5 millions et demi', '55 millions']",1,"Question: En 2016, combien de personnes aux États-Unis étaient sans-abri ?
+
+Choix: ['55 000 personnes', 'cinq cent cinquante mille', '5 millions et demi', '55 millions']
+
+Réponse: cinq cent cinquante mille"
+"En 1965, combien d'Américains pensaient que l'envoi de troupes au Vietnam était une erreur ?",global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']",0,"Question: En 1965, combien d'Américains pensaient que l'envoi de troupes au Vietnam était une erreur ?
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']
+
+Réponse: Pourcentage"
+"En 2013, la proportion de personnes en Éthiopie qui pensent que les partis politiques sont corrompus est de",global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage de 84%']",0,"Question: En 2013, la proportion de personnes en Éthiopie qui pensent que les partis politiques sont corrompus est de
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage de 84%']
+
+Réponse: Pourcentage"
+"Au cours de l'année 1997 La Banque mondiale a constaté que la fraction de la population mondiale vivant dans des pays à revenu faible ou intermédiaire inférieur, c'est-à-dire pays dont le revenu par habitant est inférieur ou égal à 1230 dollars",global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage de 55%', 'Pourcentage']",3,"Question: Au cours de l'année 1997 La Banque mondiale a constaté que la fraction de la population mondiale vivant dans des pays à revenu faible ou intermédiaire inférieur, c'est-à-dire pays dont le revenu par habitant est inférieur ou égal à 1230 dollars
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage de 55%', 'Pourcentage']
+
+Réponse: Pourcentage"
+"En 2015, l'agriculture représentait environ quel pourcentage du PIB total de l'Inde?",global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']",1,"Question: En 2015, l'agriculture représentait environ quel pourcentage du PIB total de l'Inde?
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']
+
+Réponse: Pourcentage"
+Laquelle des affirmations suivantes est vraie en 2020?,global_facts,"['Les hommes sont plus susceptibles de souffrir de dépression et d'un trouble lié à la consommation d'alcool que les femmes.', 'les femmes sont plus susceptibles d'avoir une dépression et sont plus susceptibles d'avoir un trouble de la consommation d'alcool que les hommes.', 'les hommes sont plus susceptibles que les femmes de souffrir de dépression, tandis que les femmes sont plus susceptibles que les hommes de souffrir d'un trouble lié à la consommation d'alcool.', 'les femmes sont plus susceptibles que les hommes de souffrir de dépression, tandis que les hommes sont plus susceptibles que les femmes de souffrir d'un trouble lié à la consommation d'alcool.']",3,"Question: Laquelle des affirmations suivantes est vraie en 2020?
+
+Choix: ['Les hommes sont plus susceptibles de souffrir de dépression et d'un trouble lié à la consommation d'alcool que les femmes.', 'les femmes sont plus susceptibles d'avoir une dépression et sont plus susceptibles d'avoir un trouble de la consommation d'alcool que les hommes.', 'les hommes sont plus susceptibles que les femmes de souffrir de dépression, tandis que les femmes sont plus susceptibles que les hommes de souffrir d'un trouble lié à la consommation d'alcool.', 'les femmes sont plus susceptibles que les hommes de souffrir de dépression, tandis que les hommes sont plus susceptibles que les femmes de souffrir d'un trouble lié à la consommation d'alcool.']
+
+Réponse: les femmes sont plus susceptibles que les hommes de souffrir de dépression, tandis que les hommes sont plus susceptibles que les femmes de souffrir d'un trouble lié à la consommation d'alcool."
+"En 2019, à peu près quel pourcentage de Brésiliens pensent que l'homosexualité devrait être acceptée par la société ?",global_facts,"['37 pour cent', 'Pourcentage', 'Pourcentage de 57%', 'Pourcentage de 67%']",3,"Question: En 2019, à peu près quel pourcentage de Brésiliens pensent que l'homosexualité devrait être acceptée par la société ?
+
+Choix: ['37 pour cent', 'Pourcentage', 'Pourcentage de 57%', 'Pourcentage de 67%']
+
+Réponse: Pourcentage de 67%"
+"En 2017, la part du PIB consacrée à l'armée par l'Arabie saoudite est d'environ",global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']",3,"Question: En 2017, la part du PIB consacrée à l'armée par l'Arabie saoudite est d'environ
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']
+
+Réponse: Pourcentage"
+"En 2019, quelle part de l'électricité provient des combustibles fossiles aux États-Unis ?",global_facts,"['Pourcentage', 'Pourcentage', '63 pour cent', '83 pour cent']",2,"Question: En 2019, quelle part de l'électricité provient des combustibles fossiles aux États-Unis ?
+
+Choix: ['Pourcentage', 'Pourcentage', '63 pour cent', '83 pour cent']
+
+Réponse: 63 pour cent"
+Quel est le pourcentage d'enfants âgés de 13 à 15 ans en Égypte qui ont déclaré avoir été victimes d'intimidation au moins une fois au cours des deux derniers mois en 2015 ?,global_facts,"['Pourcentage', 'Pourcentage', '50% du chiffre d'affaires', 'Pourcentage']",3,"Question: Quel est le pourcentage d'enfants âgés de 13 à 15 ans en Égypte qui ont déclaré avoir été victimes d'intimidation au moins une fois au cours des deux derniers mois en 2015 ?
+
+Choix: ['Pourcentage', 'Pourcentage', '50% du chiffre d'affaires', 'Pourcentage']
+
+Réponse: Pourcentage"
+"En 2018, environ quel pourcentage d'adultes américains disent que l'évaluation du risque criminel pour les personnes en liberté conditionnelle est une application déraisonnable de la prise de décision algorithmique ?",global_facts,"['Pourcentage', '41 pour cent', 'Pourcentage de 56%', '71 pour cent']",2,"Question: En 2018, environ quel pourcentage d'adultes américains disent que l'évaluation du risque criminel pour les personnes en liberté conditionnelle est une application déraisonnable de la prise de décision algorithmique ?
+
+Choix: ['Pourcentage', '41 pour cent', 'Pourcentage de 56%', '71 pour cent']
+
+Réponse: Pourcentage de 56%"
+"En 2018, combien de poulets ont été tués pour la production de viande ?",global_facts,"['690 millions d'écus', '6,9 milliards', '69 milliards', '690 milliards']",2,"Question: En 2018, combien de poulets ont été tués pour la production de viande ?
+
+Choix: ['690 millions d'écus', '6,9 milliards', '69 milliards', '690 milliards']
+
+Réponse: 69 milliards"
+"En 2016, quel pourcentage de la population du Soudan du Sud avait accès à l'électricité ?",global_facts,"['Pourcentage', 'Pourcentage de 29%', 'Pourcentage de 59%', 'Pourcentage de 79%']",0,"Question: En 2016, quel pourcentage de la population du Soudan du Sud avait accès à l'électricité ?
+
+Choix: ['Pourcentage', 'Pourcentage de 29%', 'Pourcentage de 59%', 'Pourcentage de 79%']
+
+Réponse: Pourcentage"
+"Environ quel pourcentage des personnes interrogées au Mexique ont déclaré avoir payé un pot-de-vin au cours de la dernière année pour accéder à des services publics (tels que l'éducation, le système judiciaire, les services médicaux et de santé, la police, les services d'enregistrement et de permis, les services publics, les recettes fiscales et douanières et les services fonciers) en 2017 ?",global_facts,"['Pourcentage de 31%', 'Pourcentage', '71 pour cent', 'Pourcentage de 91%']",1,"Question: Environ quel pourcentage des personnes interrogées au Mexique ont déclaré avoir payé un pot-de-vin au cours de la dernière année pour accéder à des services publics (tels que l'éducation, le système judiciaire, les services médicaux et de santé, la police, les services d'enregistrement et de permis, les services publics, les recettes fiscales et douanières et les services fonciers) en 2017 ?
+
+Choix: ['Pourcentage de 31%', 'Pourcentage', '71 pour cent', 'Pourcentage de 91%']
+
+Réponse: Pourcentage"
+"En tenant compte de l'inflation et de l'ajustement PPA, de combien le PIB par habitant a-t-il augmenté de 1950 à 2016 en Chine ?",global_facts,"['par 4 fois', 'par 8 fois', 'par 16 fois', 'par 32 fois']",2,"Question: En tenant compte de l'inflation et de l'ajustement PPA, de combien le PIB par habitant a-t-il augmenté de 1950 à 2016 en Chine ?
+
+Choix: ['par 4 fois', 'par 8 fois', 'par 16 fois', 'par 32 fois']
+
+Réponse: par 16 fois"
+Ross Perot fait l'histoire des sondages en menant brièvement la course présidentielle en juin en tant que candidat du troisième parti avec 39%.,global_facts,"['Nom de l'établissement', 'Nom de l'entreprise:', 'Il y en a 13 .', '19 de l'année précédente.']",3,"Question: Ross Perot fait l'histoire des sondages en menant brièvement la course présidentielle en juin en tant que candidat du troisième parti avec 39%.
+
+Choix: ['Nom de l'établissement', 'Nom de l'entreprise:', 'Il y en a 13 .', '19 de l'année précédente.']
+
+Réponse: 19 de l'année précédente."
+"En 2019, environ quel pourcentage de Turcs disent que Dieu joue un rôle important dans leur vie ?",global_facts,"['Pourcentage de 59%', '69 pour cent', 'Pourcentage de 79%', '89 pour cent']",3,"Question: En 2019, environ quel pourcentage de Turcs disent que Dieu joue un rôle important dans leur vie ?
+
+Choix: ['Pourcentage de 59%', '69 pour cent', 'Pourcentage de 79%', '89 pour cent']
+
+Réponse: 89 pour cent"
+Laquelle des causes suivantes a causé le plus de morts au XXe siècle?,global_facts,"['Les tremblements de terre', 'Activité volcanique', 'Feux de forêt', 'Inondations']",3,"Question: Laquelle des causes suivantes a causé le plus de morts au XXe siècle?
+
+Choix: ['Les tremblements de terre', 'Activité volcanique', 'Feux de forêt', 'Inondations']
+
+Réponse: Inondations"
+"Quel est le pourcentage d'enfants âgés de 13 à 15 ans aux États-Unis qui ont déclaré avoir été impliqués dans une bagarre physique à l'école, une ou plusieurs fois au cours des 12 derniers mois en 2015?",global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage de 55%', 'Pourcentage']",1,"Question: Quel est le pourcentage d'enfants âgés de 13 à 15 ans aux États-Unis qui ont déclaré avoir été impliqués dans une bagarre physique à l'école, une ou plusieurs fois au cours des 12 derniers mois en 2015?
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage de 55%', 'Pourcentage']
+
+Réponse: Pourcentage"
+"En tenant compte de l'inflation et de l'ajustement de la PPA, de combien le PIB par habitant a-t-il augmenté de 1950 à 2016 en Corée du Sud ?",global_facts,"['par 4 fois', 'par 8 fois', 'par 16 fois', 'par 32 fois']",3,"Question: En tenant compte de l'inflation et de l'ajustement de la PPA, de combien le PIB par habitant a-t-il augmenté de 1950 à 2016 en Corée du Sud ?
+
+Choix: ['par 4 fois', 'par 8 fois', 'par 16 fois', 'par 32 fois']
+
+Réponse: par 32 fois"
+"En 2019, à peu près quel pourcentage de personnes en Turquie sont d'accord pour dire que l'État est dirigé pour le bénéfice de tous les citoyens ?",global_facts,"['Pourcentage', 'Pourcentage', '66 pour cent', '81% de la population']",2,"Question: En 2019, à peu près quel pourcentage de personnes en Turquie sont d'accord pour dire que l'État est dirigé pour le bénéfice de tous les citoyens ?
+
+Choix: ['Pourcentage', 'Pourcentage', '66 pour cent', '81% de la population']
+
+Réponse: 66 pour cent"
+"En 2015, quel pourcentage de la population mondiale de plus de 15 ans était alphabétisé ?",global_facts,"['81% de la population', '86 pour cent', 'Pourcentage de 91%', 'Résistance à l'humidité']",1,"Question: En 2015, quel pourcentage de la population mondiale de plus de 15 ans était alphabétisé ?
+
+Choix: ['81% de la population', '86 pour cent', 'Pourcentage de 91%', 'Résistance à l'humidité']
+
+Réponse: 86 pour cent"
+"Environ quel pourcentage des personnes interrogées en Chine ont déclaré avoir payé un pot-de-vin au cours de la dernière année pour accéder à des services publics (tels que l'éducation, le système judiciaire, les services médicaux et de santé, la police, les services d'enregistrement et de permis, les services publics, les recettes fiscales et douanières et les services fonciers) en 2017 ?",global_facts,"['Pourcentage', 'Pourcentage', '66 pour cent', '86 pour cent']",0,"Question: Environ quel pourcentage des personnes interrogées en Chine ont déclaré avoir payé un pot-de-vin au cours de la dernière année pour accéder à des services publics (tels que l'éducation, le système judiciaire, les services médicaux et de santé, la police, les services d'enregistrement et de permis, les services publics, les recettes fiscales et douanières et les services fonciers) en 2017 ?
+
+Choix: ['Pourcentage', 'Pourcentage', '66 pour cent', '86 pour cent']
+
+Réponse: Pourcentage"
+"En 2019, lequel des pays suivants avait l'espérance de vie la plus basse ?",global_facts,"['Brésil', 'États-Unis', 'États-Unis', 'États-Unis']",2,"Question: En 2019, lequel des pays suivants avait l'espérance de vie la plus basse ?
+
+Choix: ['Brésil', 'États-Unis', 'États-Unis', 'États-Unis']
+
+Réponse: États-Unis"
+"En 2019, l'eau dangereuse est responsable d'environ combien de décès chaque année ?",global_facts,"['1,2 millions', '2,4 millions', '3,6 millions', '4,8 millions']",0,"Question: En 2019, l'eau dangereuse est responsable d'environ combien de décès chaque année ?
+
+Choix: ['1,2 millions', '2,4 millions', '3,6 millions', '4,8 millions']
+
+Réponse: 1,2 millions"
+Laquelle des causes suivantes cause plus de décès dans le monde chaque année (en 2017)?,global_facts,"['Maladies diarrhéiques', 'Diabète sucré', 'Démence', 'Les accidents de la route']",2,"Question: Laquelle des causes suivantes cause plus de décès dans le monde chaque année (en 2017)?
+
+Choix: ['Maladies diarrhéiques', 'Diabète sucré', 'Démence', 'Les accidents de la route']
+
+Réponse: Démence"
+Environ combien de personnes sont infectées par le VIH/SIDA en 2020 ?,global_facts,"['3 millions', '14 millions', '42 millions', '124 millions d'écus']",2,"Question: Environ combien de personnes sont infectées par le VIH/SIDA en 2020 ?
+
+Choix: ['3 millions', '14 millions', '42 millions', '124 millions d'écus']
+
+Réponse: 42 millions"
+Quel est le pourcentage d'enfants âgés de 13 à 15 ans aux États-Unis qui ont déclaré avoir été victime d'intimidation au moins une fois au cours des deux derniers mois en 2015 ?,global_facts,"['Pourcentage', 'Pourcentage', '66 pour cent', '86 pour cent']",0,"Question: Quel est le pourcentage d'enfants âgés de 13 à 15 ans aux États-Unis qui ont déclaré avoir été victime d'intimidation au moins une fois au cours des deux derniers mois en 2015 ?
+
+Choix: ['Pourcentage', 'Pourcentage', '66 pour cent', '86 pour cent']
+
+Réponse: Pourcentage"
+"En 2019, environ quel pourcentage de Sud-Coréens disent qu'il est nécessaire de croire en Dieu pour être moral et avoir de bonnes valeurs ?",global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']",1,"Question: En 2019, environ quel pourcentage de Sud-Coréens disent qu'il est nécessaire de croire en Dieu pour être moral et avoir de bonnes valeurs ?
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']
+
+Réponse: Pourcentage"
+Quel est le pourcentage d'enfants âgés de 13 à 15 ans au Japon qui ont déclaré avoir été victimes d'intimidation au moins une fois au cours des deux derniers mois en 2015 ?,global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage', '66 pour cent']",2,"Question: Quel est le pourcentage d'enfants âgés de 13 à 15 ans au Japon qui ont déclaré avoir été victimes d'intimidation au moins une fois au cours des deux derniers mois en 2015 ?
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage', '66 pour cent']
+
+Réponse: Pourcentage"
+"En 2018, environ quel pourcentage d'adultes américains disent que les programmes informatiques refléteront toujours les préjugés humains ?",global_facts,"['Pourcentage', '58 pour cent', 'Pourcentage de 73%', 'Pourcentage de 88%']",1,"Question: En 2018, environ quel pourcentage d'adultes américains disent que les programmes informatiques refléteront toujours les préjugés humains ?
+
+Choix: ['Pourcentage', '58 pour cent', 'Pourcentage de 73%', 'Pourcentage de 88%']
+
+Réponse: 58 pour cent"
+"En 2017, la part du PIB consacrée à l'armée par la Chine est d'environ",global_facts,"['0,50% du chiffre d'affaires', 'Pourcentage', 'Pourcentage', 'Pourcentage']",1,"Question: En 2017, la part du PIB consacrée à l'armée par la Chine est d'environ
+
+Choix: ['0,50% du chiffre d'affaires', 'Pourcentage', 'Pourcentage', 'Pourcentage']
+
+Réponse: Pourcentage"
+"La conjecture selon laquelle l'inégalité augmente d'abord avec le développement, puis diminue avec un développement ultérieur (connue sous le nom de ""hypothèse U inversée"") a été, à partir de 2020,",global_facts,"['fortement soutenu par la plupart des études', 'soutenu principalement par des études de section transversale et non par des séries chronologiques', 'soutenu principalement par des séries chronologiques et non par des études transversales', 'généralement répudié par des études empiriques']",1,"Question: La conjecture selon laquelle l'inégalité augmente d'abord avec le développement, puis diminue avec un développement ultérieur (connue sous le nom de ""hypothèse U inversée"") a été, à partir de 2020,
+
+Choix: ['fortement soutenu par la plupart des études', 'soutenu principalement par des études de section transversale et non par des séries chronologiques', 'soutenu principalement par des séries chronologiques et non par des études transversales', 'généralement répudié par des études empiriques']
+
+Réponse: soutenu principalement par des études de section transversale et non par des séries chronologiques"
+"Dans le monde entier, les hommes de 30 ans ont passé en moyenne 10 ans à l'école. Combien d'années les femmes du même âge ont-elles passé à l'école, en 2020 ?",global_facts,"['12 ans', '9 ans', '6 ans', '3 ans']",1,"Question: Dans le monde entier, les hommes de 30 ans ont passé en moyenne 10 ans à l'école. Combien d'années les femmes du même âge ont-elles passé à l'école, en 2020 ?
+
+Choix: ['12 ans', '9 ans', '6 ans', '3 ans']
+
+Réponse: 9 ans"
+"En 2017, la part des décès par suicide au Groenland est d'environ",global_facts,"['0,90% par an', 'Pourcentage', 'Résultats de l'enquête', '7 à 20%']",3,"Question: En 2017, la part des décès par suicide au Groenland est d'environ
+
+Choix: ['0,90% par an', 'Pourcentage', 'Résultats de l'enquête', '7 à 20%']
+
+Réponse: 7 à 20%"
+"En 2019, à peu près quel pourcentage de personnes en Russie pensent que l'homosexualité devrait être acceptée par la société ?",global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']",0,"Question: En 2019, à peu près quel pourcentage de personnes en Russie pensent que l'homosexualité devrait être acceptée par la société ?
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']
+
+Réponse: Pourcentage"
+"En 2019, environ quel pourcentage d'Américains disent que la relation entre les États-Unis et l'Allemagne est bonne ?",global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']",1,"Question: En 2019, environ quel pourcentage d'Américains disent que la relation entre les États-Unis et l'Allemagne est bonne ?
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']
+
+Réponse: Pourcentage"
+"En 2019, environ quel pourcentage d'Américains disent qu'il est très important d'avoir des médias libres dans notre pays sans censure du gouvernement ou de l'État ?",global_facts,"['50% du chiffre d'affaires', 'Pourcentage', 'Pourcentage', 'Pourcentage']",3,"Question: En 2019, environ quel pourcentage d'Américains disent qu'il est très important d'avoir des médias libres dans notre pays sans censure du gouvernement ou de l'État ?
+
+Choix: ['50% du chiffre d'affaires', 'Pourcentage', 'Pourcentage', 'Pourcentage']
+
+Réponse: Pourcentage"
+"En 1987, pendant l'Iran Contra, quel pourcentage d'Américains croient que Reagan cachait des informations ?",global_facts,"['Pourcentage', 'Pourcentage', '50% du chiffre d'affaires', 'Pourcentage']",3,"Question: En 1987, pendant l'Iran Contra, quel pourcentage d'Américains croient que Reagan cachait des informations ?
+
+Choix: ['Pourcentage', 'Pourcentage', '50% du chiffre d'affaires', 'Pourcentage']
+
+Réponse: Pourcentage"
+"En Afrique subsaharienne, à compter de 2020,",global_facts,"['Aucune nation n'a été capable de se développer ces dernières années.', 'La République démocratique du Congo est devenue plus pauvre qu'elle ne l'était initialement en 1980.', 'Certains pays ont enregistré des taux de croissance relativement élevés.', 'Certains pays ont connu des taux de croissance relativement importants, mais la République démocratique du Congo est devenue plus pauvre qu'elle ne l'était initialement en 1980.']",2,"Question: En Afrique subsaharienne, à compter de 2020,
+
+Choix: ['Aucune nation n'a été capable de se développer ces dernières années.', 'La République démocratique du Congo est devenue plus pauvre qu'elle ne l'était initialement en 1980.', 'Certains pays ont enregistré des taux de croissance relativement élevés.', 'Certains pays ont connu des taux de croissance relativement importants, mais la République démocratique du Congo est devenue plus pauvre qu'elle ne l'était initialement en 1980.']
+
+Réponse: Certains pays ont enregistré des taux de croissance relativement élevés."
+"Les données de la Banque mondiale montrent qu'en 1995 les 20% des ménages les plus pauvres représentaient 7,5% du revenu des ménages au Niger les 20% suivants des ménages représentaient 11,8% du revenu les 20% du milieu représentaient 15,5% du revenu le deuxième 20% le plus riche représentait 21,1% du revenu et les 20% les plus riches représentaient 44,1% du revenu Quelle était la part cumulée du revenu des 60% des ménages les plus pauvres du Niger?",global_facts,"['15 à 50%', 'Résultats de l'enquête', 'Résultats de l'enquête', 'Nombre d'employés']",1,"Question: Les données de la Banque mondiale montrent qu'en 1995 les 20% des ménages les plus pauvres représentaient 7,5% du revenu des ménages au Niger les 20% suivants des ménages représentaient 11,8% du revenu les 20% du milieu représentaient 15,5% du revenu le deuxième 20% le plus riche représentait 21,1% du revenu et les 20% les plus riches représentaient 44,1% du revenu Quelle était la part cumulée du revenu des 60% des ménages les plus pauvres du Niger?
+
+Choix: ['15 à 50%', 'Résultats de l'enquête', 'Résultats de l'enquête', 'Nombre d'employés']
+
+Réponse: Résultats de l'enquête"
+Combien d'enfants âgés de 5 à 14 ans travaillaient dans le monde en 2012 ?,global_facts,"['5 millions', '30 millions', '150 millions d'écus', '500 millions']",2,"Question: Combien d'enfants âgés de 5 à 14 ans travaillaient dans le monde en 2012 ?
+
+Choix: ['5 millions', '30 millions', '150 millions d'écus', '500 millions']
+
+Réponse: 150 millions d'écus"
+Différents pays moins développés ont des niveaux différents d'inscription à l'école secondaire.,global_facts,"['La Colombie, le Pérou, l'Uruguay et le Costa Rica.', 'Le Bhoutan, le Niger, le Cambodge et le Costa Rica.', 'L'Uruguay, le Costa Rica, le Timor-Leste et le Pakistan.', 'Le Bhoutan, le Cambodge, l'Uruguay et le Costa Rica.']",0,"Question: Différents pays moins développés ont des niveaux différents d'inscription à l'école secondaire.
+
+Choix: ['La Colombie, le Pérou, l'Uruguay et le Costa Rica.', 'Le Bhoutan, le Niger, le Cambodge et le Costa Rica.', 'L'Uruguay, le Costa Rica, le Timor-Leste et le Pakistan.', 'Le Bhoutan, le Cambodge, l'Uruguay et le Costa Rica.']
+
+Réponse: La Colombie, le Pérou, l'Uruguay et le Costa Rica."
+Quel est le pourcentage d'enfants (de 8 ans) au Vietnam qui ont déclaré avoir subi des châtiments physiques de la part d'enseignants au cours de la semaine écoulée en 2009 ?,global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']",1,"Question: Quel est le pourcentage d'enfants (de 8 ans) au Vietnam qui ont déclaré avoir subi des châtiments physiques de la part d'enseignants au cours de la semaine écoulée en 2009 ?
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']
+
+Réponse: Pourcentage"
+Quel est le pourcentage d'enfants en Inde (de 8 ans) qui ont déclaré avoir été punis physiquement par des enseignants au cours de la semaine écoulée en 2009?,global_facts,"['Pourcentage', '58 pour cent', '78 pour cent', 'Pourcentage']",2,"Question: Quel est le pourcentage d'enfants en Inde (de 8 ans) qui ont déclaré avoir été punis physiquement par des enseignants au cours de la semaine écoulée en 2009?
+
+Choix: ['Pourcentage', '58 pour cent', '78 pour cent', 'Pourcentage']
+
+Réponse: 78 pour cent"
+"Considérez les déclarations suivantes: 1) Dans tous les pays, les gens pensent que d'autres personnes dans leur pays sont moins heureuses qu'elles ne le sont en réalité. (2) Aux États-Unis, le bonheur des femmes a augmenté à la fois absolument et par rapport aux hommes Laquelle de ces affirmations est vraie ou fausse ?",global_facts,"['C'est vrai, c'est vrai', 'Vrai ou faux', 'Faux, vrai', 'Faux, Faux']",1,"Question: Considérez les déclarations suivantes: 1) Dans tous les pays, les gens pensent que d'autres personnes dans leur pays sont moins heureuses qu'elles ne le sont en réalité. (2) Aux États-Unis, le bonheur des femmes a augmenté à la fois absolument et par rapport aux hommes Laquelle de ces affirmations est vraie ou fausse ?
+
+Choix: ['C'est vrai, c'est vrai', 'Vrai ou faux', 'Faux, vrai', 'Faux, Faux']
+
+Réponse: Vrai ou faux"
+"En 2017, combien de personnes sont mortes du terrorisme dans le monde ?",global_facts,"['Nombre d'employés', 'Deux mille six cents', '26 000 personnes', '260 000 personnes']",2,"Question: En 2017, combien de personnes sont mortes du terrorisme dans le monde ?
+
+Choix: ['Nombre d'employés', 'Deux mille six cents', '26 000 personnes', '260 000 personnes']
+
+Réponse: 26 000 personnes"
+"En 1935, à peu près combien d'Américains étaient en faveur de la loi sur la sécurité sociale ?",global_facts,"['Pourcentage', 'Pourcentage', '50% du chiffre d'affaires', 'Pourcentage']",0,"Question: En 1935, à peu près combien d'Américains étaient en faveur de la loi sur la sécurité sociale ?
+
+Choix: ['Pourcentage', 'Pourcentage', '50% du chiffre d'affaires', 'Pourcentage']
+
+Réponse: Pourcentage"
+Lequel des pays suivants a émis le plus de CO2 par habitant en 2017?,global_facts,"['États-Unis', 'États-Unis', 'États-Unis', 'États-Unis']",1,"Question: Lequel des pays suivants a émis le plus de CO2 par habitant en 2017?
+
+Choix: ['États-Unis', 'États-Unis', 'États-Unis', 'États-Unis']
+
+Réponse: États-Unis"
+"En 2019, environ quel pourcentage d'Indiens disent qu'il est nécessaire de croire en Dieu pour être moral et avoir de bonnes valeurs ?",global_facts,"['Pourcentage de 59%', '69 pour cent', 'Pourcentage de 79%', '89 pour cent']",2,"Question: En 2019, environ quel pourcentage d'Indiens disent qu'il est nécessaire de croire en Dieu pour être moral et avoir de bonnes valeurs ?
+
+Choix: ['Pourcentage de 59%', '69 pour cent', 'Pourcentage de 79%', '89 pour cent']
+
+Réponse: Pourcentage de 79%"
+"Quel est le pourcentage d'enfants âgés de 13 à 15 ans en Chine qui ont déclaré avoir été impliqués dans une bagarre physique à l'école, une ou plusieurs fois au cours des 12 derniers mois en 2015 ?",global_facts,"['Pourcentage', 'Pourcentage', '39 pour cent', 'Pourcentage de 59%']",1,"Question: Quel est le pourcentage d'enfants âgés de 13 à 15 ans en Chine qui ont déclaré avoir été impliqués dans une bagarre physique à l'école, une ou plusieurs fois au cours des 12 derniers mois en 2015 ?
+
+Choix: ['Pourcentage', 'Pourcentage', '39 pour cent', 'Pourcentage de 59%']
+
+Réponse: Pourcentage"
+Quel était le pourcentage d'enfants en Éthiopie (de 8 ans) qui ont signalé des châtiments physiques par des enseignants au cours de la semaine écoulée en 2009 ?,global_facts,"['Pourcentage', 'Pourcentage', '58 pour cent', '78 pour cent']",1,"Question: Quel était le pourcentage d'enfants en Éthiopie (de 8 ans) qui ont signalé des châtiments physiques par des enseignants au cours de la semaine écoulée en 2009 ?
+
+Choix: ['Pourcentage', 'Pourcentage', '58 pour cent', '78 pour cent']
+
+Réponse: Pourcentage"
+À compter de 2018 sur le pourcentage de Tunisiens qui disent que le fait d'avoir un nombre croissant de personnes de races différentes Les groupes ethniques et les nationalités dans leur pays en font-ils un meilleur endroit pour vivre (par opposition à pire ou aucune différence)?,global_facts,"['Pourcentage', '39 pour cent', '54 pour cent', '69 pour cent']",0,"Question: À compter de 2018 sur le pourcentage de Tunisiens qui disent que le fait d'avoir un nombre croissant de personnes de races différentes Les groupes ethniques et les nationalités dans leur pays en font-ils un meilleur endroit pour vivre (par opposition à pire ou aucune différence)?
+
+Choix: ['Pourcentage', '39 pour cent', '54 pour cent', '69 pour cent']
+
+Réponse: Pourcentage"
+"En 2015, le taux de fécondité mondial était d'environ",global_facts,"['1,5 enfants par femme', '2,5 enfants par femme', '3,5 enfants par femme', '4,5 enfants par femme']",1,"Question: En 2015, le taux de fécondité mondial était d'environ
+
+Choix: ['1,5 enfants par femme', '2,5 enfants par femme', '3,5 enfants par femme', '4,5 enfants par femme']
+
+Réponse: 2,5 enfants par femme"
+Quel est le revenu international médian en 2020 ?,global_facts,"['Ça coûte 300 $ .', 'Un millier de dollars.', 'Dix mille dollars.', 'Ça coûte 30 000 dollars.']",2,"Question: Quel est le revenu international médian en 2020 ?
+
+Choix: ['Ça coûte 300 $ .', 'Un millier de dollars.', 'Dix mille dollars.', 'Ça coûte 30 000 dollars.']
+
+Réponse: Dix mille dollars."
+"Avant d'être réélu pour un troisième mandat, combien d'Américains ont accepté de se présenter pour un troisième mandat ?",global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']",2,"Question: Avant d'être réélu pour un troisième mandat, combien d'Américains ont accepté de se présenter pour un troisième mandat ?
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']
+
+Réponse: Pourcentage"
+"En 2019, environ quel pourcentage d'Italiens disent qu'il est très important d'avoir des médias libres dans notre pays sans censure gouvernementale/étatique ?",global_facts,"['41 pour cent', 'Pourcentage de 56%', '71 pour cent', '86 pour cent']",1,"Question: En 2019, environ quel pourcentage d'Italiens disent qu'il est très important d'avoir des médias libres dans notre pays sans censure gouvernementale/étatique ?
+
+Choix: ['41 pour cent', 'Pourcentage de 56%', '71 pour cent', '86 pour cent']
+
+Réponse: Pourcentage de 56%"
+Les dépenses publiques consacrées à l'éducation dans le monde représentent environ quel pourcentage du PIB mondial en 2017 ?,global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']",2,"Question: Les dépenses publiques consacrées à l'éducation dans le monde représentent environ quel pourcentage du PIB mondial en 2017 ?
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']
+
+Réponse: Pourcentage"
+"En 2013, lequel des pays suivants affichait le taux le plus élevé d'itinérance par habitant ?",global_facts,"['États-Unis', 'États-Unis', 'États-Unis', 'Espagne']",0,"Question: En 2013, lequel des pays suivants affichait le taux le plus élevé d'itinérance par habitant ?
+
+Choix: ['États-Unis', 'États-Unis', 'États-Unis', 'Espagne']
+
+Réponse: États-Unis"
+"Dans l'ensemble, le taux de croissance des revenus moyens dans les pays moins développés entre 1960 et 1995",global_facts,"['était approximativement de zéro', 'a dépassé celui des pays à revenu élevé', 'a dépassé celle de la Grande-Bretagne pendant la révolution industrielle', 'était d'environ 3,0% par an']",2,"Question: Dans l'ensemble, le taux de croissance des revenus moyens dans les pays moins développés entre 1960 et 1995
+
+Choix: ['était approximativement de zéro', 'a dépassé celui des pays à revenu élevé', 'a dépassé celle de la Grande-Bretagne pendant la révolution industrielle', 'était d'environ 3,0% par an']
+
+Réponse: a dépassé celle de la Grande-Bretagne pendant la révolution industrielle"
+"En 2015, à peu près quel pourcentage de la surface terrestre du monde est couvert de forêts ?",global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']",1,"Question: En 2015, à peu près quel pourcentage de la surface terrestre du monde est couvert de forêts ?
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']
+
+Réponse: Pourcentage"
+Le taux de croissance démographique le plus élevé a eu lieu,global_facts,"['en Afrique, qui est la région la plus pauvre du monde avec la plus faible croissance économique globale.', 'en Asie, qui est la région la plus pauvre du monde avec une croissance économique globale régulière.', 'en Asie, qui est la région la plus pauvre du monde avec la plus faible croissance économique globale.', 'en Afrique, qui est la région la plus pauvre du monde avec une croissance économique globale régulière.']",2,"Question: Le taux de croissance démographique le plus élevé a eu lieu
+
+Choix: ['en Afrique, qui est la région la plus pauvre du monde avec la plus faible croissance économique globale.', 'en Asie, qui est la région la plus pauvre du monde avec une croissance économique globale régulière.', 'en Asie, qui est la région la plus pauvre du monde avec la plus faible croissance économique globale.', 'en Afrique, qui est la région la plus pauvre du monde avec une croissance économique globale régulière.']
+
+Réponse: en Asie, qui est la région la plus pauvre du monde avec la plus faible croissance économique globale."
+Le taux mondial de mortalité par le VIH/SIDA est le plus élevé pour quel groupe d'âge?,global_facts,"['Moins de 5 ans', 'Le 14 mai', '15 à 49', 'plus de 50 ans']",2,"Question: Le taux mondial de mortalité par le VIH/SIDA est le plus élevé pour quel groupe d'âge?
+
+Choix: ['Moins de 5 ans', 'Le 14 mai', '15 à 49', 'plus de 50 ans']
+
+Réponse: 15 à 49"
+"En 2015, l'agriculture représentait environ quel pourcentage du PIB total des États-Unis ?",global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']",0,"Question: En 2015, l'agriculture représentait environ quel pourcentage du PIB total des États-Unis ?
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']
+
+Réponse: Pourcentage"
+"En 2017, quel pourcentage d'Indiens vivent dans les zones urbaines ?",global_facts,"['Pourcentage', 'Pourcentage', '49 pour cent', 'Pourcentage']",1,"Question: En 2017, quel pourcentage d'Indiens vivent dans les zones urbaines ?
+
+Choix: ['Pourcentage', 'Pourcentage', '49 pour cent', 'Pourcentage']
+
+Réponse: Pourcentage"
+"Considérez les déclarations suivantes: 1) À mesure que les pays s'enrichissent, la population a tendance à déclarer une satisfaction moyenne de la vie plus élevée. 2) Les événements importants de la vie tels que le mariage ou le divorce affectent notre bonheur, mais ont étonnamment peu d'impact à long terme. Laquelle de ces déclarations est vraie/fausse, à partir de 2020?",global_facts,"['C'est vrai, c'est vrai', 'Vrai ou faux', 'Faux, vrai', 'Faux, Faux']",0,"Question: Considérez les déclarations suivantes: 1) À mesure que les pays s'enrichissent, la population a tendance à déclarer une satisfaction moyenne de la vie plus élevée. 2) Les événements importants de la vie tels que le mariage ou le divorce affectent notre bonheur, mais ont étonnamment peu d'impact à long terme. Laquelle de ces déclarations est vraie/fausse, à partir de 2020?
+
+Choix: ['C'est vrai, c'est vrai', 'Vrai ou faux', 'Faux, vrai', 'Faux, Faux']
+
+Réponse: C'est vrai, c'est vrai"
+"À son apogée, quelle était la différence approximative dans l'approbation de la déségrégation scolaire du Sud et du reste des États-Unis ?",global_facts,"['Pourcentage', 'Pourcentage', '- À 40%.', '- à 80%']",1,"Question: À son apogée, quelle était la différence approximative dans l'approbation de la déségrégation scolaire du Sud et du reste des États-Unis ?
+
+Choix: ['Pourcentage', 'Pourcentage', '- À 40%.', '- à 80%']
+
+Réponse: Pourcentage"
+"En 2013, la proportion de personnes aux États-Unis qui pensent que les partis politiques sont corrompus est",global_facts,"['Pourcentage', 'Pourcentage de 56%', 'Pourcentage de 76%', 'Résistance à l'humidité']",2,"Question: En 2013, la proportion de personnes aux États-Unis qui pensent que les partis politiques sont corrompus est
+
+Choix: ['Pourcentage', 'Pourcentage de 56%', 'Pourcentage de 76%', 'Résistance à l'humidité']
+
+Réponse: Pourcentage de 76%"
+"Parmi les pays suivants, lequel a investi la plus grande partie de son PIB dans les énergies renouvelables en 2015?",global_facts,"['États-Unis', 'États-Unis', 'États-Unis', 'États-Unis']",2,"Question: Parmi les pays suivants, lequel a investi la plus grande partie de son PIB dans les énergies renouvelables en 2015?
+
+Choix: ['États-Unis', 'États-Unis', 'États-Unis', 'États-Unis']
+
+Réponse: États-Unis"
+"En 2020, à peu près combien avez-vous besoin de gagner chaque année pour être parmi les 1% les plus riches du monde ?",global_facts,"['Une centaine de milliers de dollars.', 'Ça coûte 75 000 dollars.', '35 000 dollars américains.', 'Ça coûte 15 000 dollars.']",2,"Question: En 2020, à peu près combien avez-vous besoin de gagner chaque année pour être parmi les 1% les plus riches du monde ?
+
+Choix: ['Une centaine de milliers de dollars.', 'Ça coûte 75 000 dollars.', '35 000 dollars américains.', 'Ça coûte 15 000 dollars.']
+
+Réponse: 35 000 dollars américains."
+"En 1943, combien d'Américains croyaient à l'Holocauste ?",global_facts,"['Pourcentage', '50% du chiffre d'affaires', 'Pourcentage', 'Pourcentage']",1,"Question: En 1943, combien d'Américains croyaient à l'Holocauste ?
+
+Choix: ['Pourcentage', '50% du chiffre d'affaires', 'Pourcentage', 'Pourcentage']
+
+Réponse: 50% du chiffre d'affaires"
+Lequel des pays suivants a émis le plus de CO2 en 2017?,global_facts,"['États-Unis', 'États-Unis', 'États-Unis', 'États-Unis']",3,"Question: Lequel des pays suivants a émis le plus de CO2 en 2017?
+
+Choix: ['États-Unis', 'États-Unis', 'États-Unis', 'États-Unis']
+
+Réponse: États-Unis"
+"Au moment de l'indépendance, il y avait déjà des centaines de milliers de diplômés universitaires à ____, mais presque aucun à ____.",global_facts,"['L'Inde et le Congo', 'Inde, Corée du Sud', 'Congo, Corée du Sud', 'Corée du Sud, Inde']",0,"Question: Au moment de l'indépendance, il y avait déjà des centaines de milliers de diplômés universitaires à ____, mais presque aucun à ____.
+
+Choix: ['L'Inde et le Congo', 'Inde, Corée du Sud', 'Congo, Corée du Sud', 'Corée du Sud, Inde']
+
+Réponse: L'Inde et le Congo"
+"En 2013, la proportion de personnes en Inde qui pensent que les partis politiques sont corrompus est",global_facts,"['Pourcentage', 'Pourcentage', '66 pour cent', '86 pour cent']",3,"Question: En 2013, la proportion de personnes en Inde qui pensent que les partis politiques sont corrompus est
+
+Choix: ['Pourcentage', 'Pourcentage', '66 pour cent', '86 pour cent']
+
+Réponse: 86 pour cent"
+"En 2019, environ quel pourcentage de Français disent que Dieu joue un rôle important dans leur vie ?",global_facts,"['Pourcentage', 'Pourcentage de 31%', 'Pourcentage', '71 pour cent']",1,"Question: En 2019, environ quel pourcentage de Français disent que Dieu joue un rôle important dans leur vie ?
+
+Choix: ['Pourcentage', 'Pourcentage de 31%', 'Pourcentage', '71 pour cent']
+
+Réponse: Pourcentage de 31%"
+"En 2017, la part du PIB consacrée à l'armée par les États-Unis est d'environ",global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']",1,"Question: En 2017, la part du PIB consacrée à l'armée par les États-Unis est d'environ
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']
+
+Réponse: Pourcentage"
+"En 2017, la part des décès par suicide dans le monde est d'environ",global_facts,"['0,70% par an', 'Pourcentage', 'Pourcentage', 'Résultats de l'enquête']",1,"Question: En 2017, la part des décès par suicide dans le monde est d'environ
+
+Choix: ['0,70% par an', 'Pourcentage', 'Pourcentage', 'Résultats de l'enquête']
+
+Réponse: Pourcentage"
+De nombreux pays devenus indépendants après la Seconde Guerre mondiale ont constaté que l'héritage du colonialisme entrave leur développement économique.,global_facts,"['frontières politiques artificielles qui couvraient divers groupes ethniques avec peu en commun', 'accès insuffisant à l'enseignement supérieur et à la formation pour les ressortissants sous l'administration coloniale', 'le contrôle du commerce intérieur par des groupes minoritaires étrangers qui avaient été introduits par la puissance coloniale', 'tout ce qui précède']",3,"Question: De nombreux pays devenus indépendants après la Seconde Guerre mondiale ont constaté que l'héritage du colonialisme entrave leur développement économique.
+
+Choix: ['frontières politiques artificielles qui couvraient divers groupes ethniques avec peu en commun', 'accès insuffisant à l'enseignement supérieur et à la formation pour les ressortissants sous l'administration coloniale', 'le contrôle du commerce intérieur par des groupes minoritaires étrangers qui avaient été introduits par la puissance coloniale', 'tout ce qui précède']
+
+Réponse: tout ce qui précède"
+Lequel des troubles mentaux suivants est le plus répandu dans le monde?,global_facts,"['Trouble bipolaire', 'Schizophrénie', 'Troubles liés à la consommation d'alcool', 'Troubles anxieux']",3,"Question: Lequel des troubles mentaux suivants est le plus répandu dans le monde?
+
+Choix: ['Trouble bipolaire', 'Schizophrénie', 'Troubles liés à la consommation d'alcool', 'Troubles anxieux']
+
+Réponse: Troubles anxieux"
+"En 2017, combien de personnes dans le monde ont accès à l'électricité ?",global_facts,"['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']",2,"Question: En 2017, combien de personnes dans le monde ont accès à l'électricité ?
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']
+
+Réponse: Pourcentage"
+"Avant la démission de Nixon, combien pensaient qu'il devrait être démis de ses fonctions ?",global_facts,"['Pourcentage de 79%', 'Pourcentage', 'Pourcentage', 'Pourcentage de 57%']",3,"Question: Avant la démission de Nixon, combien pensaient qu'il devrait être démis de ses fonctions ?
+
+Choix: ['Pourcentage de 79%', 'Pourcentage', 'Pourcentage', 'Pourcentage de 57%']
+
+Réponse: Pourcentage de 57%"

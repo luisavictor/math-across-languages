@@ -1,0 +1,631 @@
+question,subject,choices,answer,qa
+"Identifiez la conclusion de l'argument suivant Il est difficile de ne pas vérifier chez nos pairs la même intelligence affaiblie due aux émotions que nous observons chez nos patients de tous les jours L'arrogance de notre conscience, qui en général, appartient aux mécanismes de défense les plus forts, bloque les complexes inconscients Pour cette raison, il est difficile de convaincre les gens de l'inconscient, et à son tour de leur enseigner ce que leur connaissance consciente contredit (Sigmund Freud, L'origine et le développement de la psychanalyse)",formal_logic,"['Il est difficile de ne pas constater chez nos pairs le même affaiblissement de l'intelligence dû aux émotions que nous observons chez nos patients de tous les jours.', 'L'arrogance de notre conscience, qui, en général, appartient aux mécanismes de défense les plus forts, bloque les complexes inconscients.', 'Pour cette raison, il est difficile de convaincre les gens de l'inconscient, et à son tour de leur enseigner ce que leur connaissance consciente contredit.', 'Il est difficile de convaincre les gens de l'inconscient, et à son tour de leur enseigner ce que leur connaissance consciente contredit.']",3,"Question: Identifiez la conclusion de l'argument suivant Il est difficile de ne pas vérifier chez nos pairs la même intelligence affaiblie due aux émotions que nous observons chez nos patients de tous les jours L'arrogance de notre conscience, qui en général, appartient aux mécanismes de défense les plus forts, bloque les complexes inconscients Pour cette raison, il est difficile de convaincre les gens de l'inconscient, et à son tour de leur enseigner ce que leur connaissance consciente contredit (Sigmund Freud, L'origine et le développement de la psychanalyse)
+
+Choix: ['Il est difficile de ne pas constater chez nos pairs le même affaiblissement de l'intelligence dû aux émotions que nous observons chez nos patients de tous les jours.', 'L'arrogance de notre conscience, qui, en général, appartient aux mécanismes de défense les plus forts, bloque les complexes inconscients.', 'Pour cette raison, il est difficile de convaincre les gens de l'inconscient, et à son tour de leur enseigner ce que leur connaissance consciente contredit.', 'Il est difficile de convaincre les gens de l'inconscient, et à son tour de leur enseigner ce que leur connaissance consciente contredit.']
+
+Réponse: Il est difficile de convaincre les gens de l'inconscient, et à son tour de leur enseigner ce que leur connaissance consciente contredit."
+Sélectionnez la meilleure traduction en logique de prédicat. David enseigne à Chris. (c: Chris; d: David; Txy: x enseigne à y),formal_logic,"['Tdc', 'Tcd', 'Nom de l'établissement', 'dTc']",0,"Question: Sélectionnez la meilleure traduction en logique de prédicat. David enseigne à Chris. (c: Chris; d: David; Txy: x enseigne à y)
+
+Choix: ['Tdc', 'Tcd', 'Nom de l'établissement', 'dTc']
+
+Réponse: Tdc"
+Sélectionner la meilleure interprétation anglaise de la proposition donnée en utilisant la clé de traduction suivante: Ax: x est un appartement Hx: x est une maison Lx: x est grand Bxy: x est plus grand que y (x),formal_logic,"['Certaines grandes maisons sont plus grandes que certains appartements.', 'Certaines maisons sont plus grandes que tous les grands appartements.', 'Certains grands appartements sont plus grands que certaines maisons.', 'Certaines maisons sont plus grandes que certains grands appartements.']",2,"Question: Sélectionner la meilleure interprétation anglaise de la proposition donnée en utilisant la clé de traduction suivante: Ax: x est un appartement Hx: x est une maison Lx: x est grand Bxy: x est plus grand que y (x)
+
+Choix: ['Certaines grandes maisons sont plus grandes que certains appartements.', 'Certaines maisons sont plus grandes que tous les grands appartements.', 'Certains grands appartements sont plus grands que certaines maisons.', 'Certaines maisons sont plus grandes que certains grands appartements.']
+
+Réponse: Certains grands appartements sont plus grands que certaines maisons."
+"Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.)",formal_logic,"['Vérifié', 'Invalide. Contre-exemple lorsque G et H sont vrais', 'Invalide. Contre-exemple lorsque G est vrai et H est faux', 'Invalide. Contre-exemple lorsque H est vrai et G est faux']",0,"Question: Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.)
+
+Choix: ['Vérifié', 'Invalide. Contre-exemple lorsque G et H sont vrais', 'Invalide. Contre-exemple lorsque G est vrai et H est faux', 'Invalide. Contre-exemple lorsque H est vrai et G est faux']
+
+Réponse: Vérifié"
+Utilisez la clé suivante pour traduire la formule donnée de PL en naturel Des phrases en anglais. A: Marina lit un livre de Percy Jackson. B: Izzy joue à Minecraft. C: Emily arrête de travailler. D: Russell fait le dîner. E: Ashleigh passe par là.,formal_logic,"['Si ce n'est pas le cas que Izzy joue à Minecraft et Ashleigh s'arrête alors Russell fait le dîner.', 'Si ce n'est pas le cas que Izzy joue à Minecraft et Ashleigh s'arrête alors Russell fait le dîner.', 'Izzy qui joue à Minecraft et Ashleigh qui passe implique que Russell prépare le dîner.', 'Le fait que Russell prépare le dîner est une condition suffisante pour qu'Izzy ne joue pas à Minecraft et pour qu'Ashleigh passe.']",1,"Question: Utilisez la clé suivante pour traduire la formule donnée de PL en naturel Des phrases en anglais. A: Marina lit un livre de Percy Jackson. B: Izzy joue à Minecraft. C: Emily arrête de travailler. D: Russell fait le dîner. E: Ashleigh passe par là.
+
+Choix: ['Si ce n'est pas le cas que Izzy joue à Minecraft et Ashleigh s'arrête alors Russell fait le dîner.', 'Si ce n'est pas le cas que Izzy joue à Minecraft et Ashleigh s'arrête alors Russell fait le dîner.', 'Izzy qui joue à Minecraft et Ashleigh qui passe implique que Russell prépare le dîner.', 'Le fait que Russell prépare le dîner est une condition suffisante pour qu'Izzy ne joue pas à Minecraft et pour qu'Ashleigh passe.']
+
+Réponse: Si ce n'est pas le cas que Izzy joue à Minecraft et Ashleigh s'arrête alors Russell fait le dîner."
+Sélectionner la meilleure interprétation anglaise de la proposition donnée en utilisant la clé de traduction suivante: Ax: x est un appartement Hx: x est une maison Lx: x est grand Bxy: x est plus grand que y (x) [Hx • (∀y) ((Ay  Bxy) ],formal_logic,"['Certaines maisons sont plus petites que tous les appartements.', 'Chaque maison est plus grande que chaque appartement.', 'Certains appartements sont plus petits que toutes les maisons.', 'Certaines maisons sont plus grandes que tous les appartements.']",3,"Question: Sélectionner la meilleure interprétation anglaise de la proposition donnée en utilisant la clé de traduction suivante: Ax: x est un appartement Hx: x est une maison Lx: x est grand Bxy: x est plus grand que y (x) [Hx • (∀y) ((Ay  Bxy) ]
+
+Choix: ['Certaines maisons sont plus petites que tous les appartements.', 'Chaque maison est plus grande que chaque appartement.', 'Certains appartements sont plus petits que toutes les maisons.', 'Certaines maisons sont plus grandes que tous les appartements.']
+
+Réponse: Certaines maisons sont plus grandes que tous les appartements."
+"Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) ~K  L / (K · L)  (K · ~L)",formal_logic,"['Vérifié', 'Invalide. Contre-exemple lorsque K et L sont vrais', 'Invalide. Contre-exemple lorsque K est vrai et L est faux', 'Invalide. Contre-exemple lorsque L est vrai et K est faux']",3,"Question: Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) ~K  L / (K · L)  (K · ~L)
+
+Choix: ['Vérifié', 'Invalide. Contre-exemple lorsque K et L sont vrais', 'Invalide. Contre-exemple lorsque K est vrai et L est faux', 'Invalide. Contre-exemple lorsque L est vrai et K est faux']
+
+Réponse: Invalide. Contre-exemple lorsque L est vrai et K est faux"
+"Identifiez l'antécédent de la proposition conditionnelle suivante: Si l'université n'augmente pas l'aide financière Soit le président ne l'approuve pas, soit le conseil d'administration l'empêche.",formal_logic,"['L'université augmente l'aide financière.', 'L'université n'augmente pas l'aide financière.', 'Le conseil d'administration l'empêche.', 'Le président ne l'approuve pas.']",1,"Question: Identifiez l'antécédent de la proposition conditionnelle suivante: Si l'université n'augmente pas l'aide financière Soit le président ne l'approuve pas, soit le conseil d'administration l'empêche.
+
+Choix: ['L'université augmente l'aide financière.', 'L'université n'augmente pas l'aide financière.', 'Le conseil d'administration l'empêche.', 'Le président ne l'approuve pas.']
+
+Réponse: L'université n'augmente pas l'aide financière."
+Laquelle des propositions suivantes est une conséquence immédiate (en une étape) dans PL des prémisses données? ~E  ~F G  F H  ~E H  I ~I,formal_logic,"['E  F', 'F  G', 'H  ~E', '- Je ne sais pas.']",3,"Question: Laquelle des propositions suivantes est une conséquence immédiate (en une étape) dans PL des prémisses données? ~E  ~F G  F H  ~E H  I ~I
+
+Choix: ['E  F', 'F  G', 'H  ~E', '- Je ne sais pas.']
+
+Réponse: - Je ne sais pas."
+"Laquelle des formules données de PL est la meilleure symbolisation de la phrase suivante? Tout le monde aime Raymond, ou pas.",formal_logic,"['L', '- Je ne sais pas.', 'L • ~L', 'L  ~L']",3,"Question: Laquelle des formules données de PL est la meilleure symbolisation de la phrase suivante? Tout le monde aime Raymond, ou pas.
+
+Choix: ['L', '- Je ne sais pas.', 'L • ~L', 'L  ~L']
+
+Réponse: L  ~L"
+Sélectionnez la meilleure traduction en logique de prédicat. Tous les rois sont plus chanceux que tous les pauvres. (Kx: x est un roi; Px: x est un pauvre; Lxy: x est plus chanceux que y),formal_logic,"['(∀x) [Kx  (∀y) ((Py  Lxy) ]', '(∀x) [Kx  (∀y) ((Lxy  Py) ]', '(∀x) ((∀y) ((Kx • Py)  Lyx)', '(∀x) [(Kx • (∀y) ((Py))  Lxy]']",0,"Question: Sélectionnez la meilleure traduction en logique de prédicat. Tous les rois sont plus chanceux que tous les pauvres. (Kx: x est un roi; Px: x est un pauvre; Lxy: x est plus chanceux que y)
+
+Choix: ['(∀x) [Kx  (∀y) ((Py  Lxy) ]', '(∀x) [Kx  (∀y) ((Lxy  Py) ]', '(∀x) ((∀y) ((Kx • Py)  Lyx)', '(∀x) [(Kx • (∀y) ((Py))  Lxy]']
+
+Réponse: (∀x) [Kx  (∀y) ((Py  Lxy) ]"
+"Construisez une table de vérité complète pour les paires de propositions suivantes Puis, à l'aide des tableaux de vérité, déterminez si les énoncés sont logiquement équivalents ou contradictoires. Si ni l'un ni l'autre, déterminez s'ils sont cohérents ou incohérents Justifiez vos réponses. (~M  ~N)  (O  N) et (~M · N) · [(~O  ~N) · (O  N) ]",formal_logic,"['Équivalent logique', 'C' est contradictoire .', 'Ni logiquement équivalents ni contradictoires, mais cohérents', 'Incohérent']",1,"Question: Construisez une table de vérité complète pour les paires de propositions suivantes Puis, à l'aide des tableaux de vérité, déterminez si les énoncés sont logiquement équivalents ou contradictoires. Si ni l'un ni l'autre, déterminez s'ils sont cohérents ou incohérents Justifiez vos réponses. (~M  ~N)  (O  N) et (~M · N) · [(~O  ~N) · (O  N) ]
+
+Choix: ['Équivalent logique', 'C' est contradictoire .', 'Ni logiquement équivalents ni contradictoires, mais cohérents', 'Incohérent']
+
+Réponse: C' est contradictoire ."
+Laquelle des propositions suivantes est une conséquence immédiate (en une étape) dans PL des prémisses données ?,formal_logic,"['E  F', 'F  G', 'G  E', 'Je suis désolée.']",3,"Question: Laquelle des propositions suivantes est une conséquence immédiate (en une étape) dans PL des prémisses données ?
+
+Choix: ['E  F', 'F  G', 'G  E', 'Je suis désolée.']
+
+Réponse: Je suis désolée."
+"Utilisez des tables de vérité indirectes pour déterminer si l'argument suivant est valide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) E  (F  ~G) F  (~E  ~G) / ~(E  F)",formal_logic,"['Vérifié', 'Contre-exemple lorsque E, F et G sont vrais', 'Invalide. Contre-exemple lorsque E et F sont vrais et G est faux', 'Invalide. Contre-exemple lorsque E, F et G sont faux']",2,"Question: Utilisez des tables de vérité indirectes pour déterminer si l'argument suivant est valide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) E  (F  ~G) F  (~E  ~G) / ~(E  F)
+
+Choix: ['Vérifié', 'Contre-exemple lorsque E, F et G sont vrais', 'Invalide. Contre-exemple lorsque E et F sont vrais et G est faux', 'Invalide. Contre-exemple lorsque E, F et G sont faux']
+
+Réponse: Invalide. Contre-exemple lorsque E et F sont vrais et G est faux"
+"Utilisez des tables de vérité indirectes pour déterminer si l'argument suivant est valide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) H  (~I  J) H  ~J / ~I",formal_logic,"['Vérifié', 'Contre-exemple lorsque H, I et J sont faux', 'Contre-exemple lorsque H et I sont vrais et J est faux', 'Contre-exemple lorsque I est vrai et H et J sont faux']",3,"Question: Utilisez des tables de vérité indirectes pour déterminer si l'argument suivant est valide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) H  (~I  J) H  ~J / ~I
+
+Choix: ['Vérifié', 'Contre-exemple lorsque H, I et J sont faux', 'Contre-exemple lorsque H et I sont vrais et J est faux', 'Contre-exemple lorsque I est vrai et H et J sont faux']
+
+Réponse: Contre-exemple lorsque I est vrai et H et J sont faux"
+Sélectionnez la meilleure traduction en logique de prédicat Certains pompiers sauvent des victimes d'un danger. (Dx: x est un danger; Fx: x est un pompier; Vx: x est une victime; Rxyz: x sauve y de z),formal_logic,"['(x) {Fx • (∀y) [Dy  (z) ((Vz • Rxyz) ]}', '(x) {Fx • (y) [Vy • (z) {Dz • Rxyz) ]}', '(x) {Fx • (y) z) [Vy • Dz)  Rxzy]} Il s'agit de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent', '(∀x) {Fx  (y) [Vy . (z) {Dz • Rxyz) ]}']",1,"Question: Sélectionnez la meilleure traduction en logique de prédicat Certains pompiers sauvent des victimes d'un danger. (Dx: x est un danger; Fx: x est un pompier; Vx: x est une victime; Rxyz: x sauve y de z)
+
+Choix: ['(x) {Fx • (∀y) [Dy  (z) ((Vz • Rxyz) ]}', '(x) {Fx • (y) [Vy • (z) {Dz • Rxyz) ]}', '(x) {Fx • (y) z) [Vy • Dz)  Rxzy]} Il s'agit de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent de l'équivalent', '(∀x) {Fx  (y) [Vy . (z) {Dz • Rxyz) ]}']
+
+Réponse: (x) {Fx • (y) [Vy • (z) {Dz • Rxyz) ]}"
+Identifiez l'antécédent de la proposition conditionnelle suivante: L'université augmente les frais de scolarité si et uniquement si le gouverneur l'approuve et le conseil d'administration le recommande.,formal_logic,"['L'université augmente les frais de scolarité.', 'Le gouverneur l'approuve.', 'Le conseil d'administration le recommande.', 'Rien de ce qui précède']",3,"Question: Identifiez l'antécédent de la proposition conditionnelle suivante: L'université augmente les frais de scolarité si et uniquement si le gouverneur l'approuve et le conseil d'administration le recommande.
+
+Choix: ['L'université augmente les frais de scolarité.', 'Le gouverneur l'approuve.', 'Le conseil d'administration le recommande.', 'Rien de ce qui précède']
+
+Réponse: Rien de ce qui précède"
+Sélectionnez la meilleure traduction en logique de prédicat. Toutes les planètes sont plus petites que Jupiter. (j: Jupiter; Px: x est une planète; Sxy: x est plus petit que y),formal_logic,"['(x) (Px) (Px) (Px) (Px) (Px) (Px) (Px) (Px) (Px) (Px) (Px) (Px) (Px) (Px)', '(∀x) (Px • Sxj) (Px • Sxj) (Px • Sxj) (Px • Sxj) (Px • Sxj)', '(∀x) (Px  Sjx) (Px  Sjx) (Px  Sjx) (Px  Sjx)', '(∀x) (Px  Sxj) (Px  Sxj) (Px  Sxj) (Px  Sxj)']",3,"Question: Sélectionnez la meilleure traduction en logique de prédicat. Toutes les planètes sont plus petites que Jupiter. (j: Jupiter; Px: x est une planète; Sxy: x est plus petit que y)
+
+Choix: ['(x) (Px) (Px) (Px) (Px) (Px) (Px) (Px) (Px) (Px) (Px) (Px) (Px) (Px) (Px)', '(∀x) (Px • Sxj) (Px • Sxj) (Px • Sxj) (Px • Sxj) (Px • Sxj)', '(∀x) (Px  Sjx) (Px  Sjx) (Px  Sjx) (Px  Sjx)', '(∀x) (Px  Sxj) (Px  Sxj) (Px  Sxj) (Px  Sxj)']
+
+Réponse: (∀x) (Px  Sxj) (Px  Sxj) (Px  Sxj) (Px  Sxj)"
+Sélectionnez la meilleure traduction en logique de prédicat. José présente Wilma à Kevin. (j: José; k: Kevin; w: Wilma; Ixyz: x présente y à z),formal_logic,"['Nom de l'entreprise', 'Je suis désolée.', 'Je vous en prie.', 'Nom de l'entreprise']",1,"Question: Sélectionnez la meilleure traduction en logique de prédicat. José présente Wilma à Kevin. (j: José; k: Kevin; w: Wilma; Ixyz: x présente y à z)
+
+Choix: ['Nom de l'entreprise', 'Je suis désolée.', 'Je vous en prie.', 'Nom de l'entreprise']
+
+Réponse: Je suis désolée."
+Sélectionnez la meilleure traduction en logique de prédicat: Aucun artefact n'est une personne.,formal_logic,"['- Je suis désolée.', '(∀x) ((Ax  ~Px)', '- Je ne sais pas.', '(∀x) ((Ax • ~Px)']",1,"Question: Sélectionnez la meilleure traduction en logique de prédicat: Aucun artefact n'est une personne.
+
+Choix: ['- Je suis désolée.', '(∀x) ((Ax  ~Px)', '- Je ne sais pas.', '(∀x) ((Ax • ~Px)']
+
+Réponse: (∀x) ((Ax  ~Px)"
+"Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) P  Q Q · R / ~P · R",formal_logic,"['Vérifié', 'Contre-exemple lorsque P, R et Q sont vrais', 'Invalide. Contre-exemple lorsque P et Q sont vrais et R est faux', 'Invalide. Contre-exemple lorsque R et Q sont vrais et P est faux']",1,"Question: Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) P  Q Q · R / ~P · R
+
+Choix: ['Vérifié', 'Contre-exemple lorsque P, R et Q sont vrais', 'Invalide. Contre-exemple lorsque P et Q sont vrais et R est faux', 'Invalide. Contre-exemple lorsque R et Q sont vrais et P est faux']
+
+Réponse: Contre-exemple lorsque P, R et Q sont vrais"
+Sélectionnez la meilleure traduction en logique de prédicat. Marco passe de l'Italie à l'Espagne. (i: Italie; m: Marco; s: Espagne; Mxyz: x passe de z à y),formal_logic,"['Je suis désolée.', 'Mmis', 'Mims', 'Je vous en prie .']",3,"Question: Sélectionnez la meilleure traduction en logique de prédicat. Marco passe de l'Italie à l'Espagne. (i: Italie; m: Marco; s: Espagne; Mxyz: x passe de z à y)
+
+Choix: ['Je suis désolée.', 'Mmis', 'Mims', 'Je vous en prie .']
+
+Réponse: Je vous en prie ."
+Sélectionner la meilleure interprétation anglaise de la proposition donnée en utilisant la clé de traduction suivante: Ax: x est un appartement Hx: x est une maison Lx: x est grand Bxy: x est plus grand que y (∀x) {Ax  (∀y) [(Hy • Ly)  ∼Bxy]},formal_logic,"['Tous les appartements ne sont pas plus grands qu'une grande maison.', 'Aucun appartement n'est plus grand qu'une grande maison.', 'Toutes les grandes maisons ne sont pas plus grandes qu'un appartement.', 'Aucune grande maison n'est plus grande que tous les appartements.']",1,"Question: Sélectionner la meilleure interprétation anglaise de la proposition donnée en utilisant la clé de traduction suivante: Ax: x est un appartement Hx: x est une maison Lx: x est grand Bxy: x est plus grand que y (∀x) {Ax  (∀y) [(Hy • Ly)  ∼Bxy]}
+
+Choix: ['Tous les appartements ne sont pas plus grands qu'une grande maison.', 'Aucun appartement n'est plus grand qu'une grande maison.', 'Toutes les grandes maisons ne sont pas plus grandes qu'un appartement.', 'Aucune grande maison n'est plus grande que tous les appartements.']
+
+Réponse: Aucun appartement n'est plus grand qu'une grande maison."
+"Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) J  ~K J  L ~K / L",formal_logic,"['Vérifié', 'Invalide. Contre-exemple lorsque J et K sont vrais et L est faux', 'Invalide. Contre-exemple lorsque J est vrai et K et L sont faux', 'Invalide. Contre-exemple lorsque K est vrai et J et L sont faux']",2,"Question: Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) J  ~K J  L ~K / L
+
+Choix: ['Vérifié', 'Invalide. Contre-exemple lorsque J et K sont vrais et L est faux', 'Invalide. Contre-exemple lorsque J est vrai et K et L sont faux', 'Invalide. Contre-exemple lorsque K est vrai et J et L sont faux']
+
+Réponse: Invalide. Contre-exemple lorsque J est vrai et K et L sont faux"
+"Laquelle des formules données de PL est la meilleure représentation de la phrase suivante? Pablo ira au magasin si, et seulement si, son frère le conduit et paie l'essence.",formal_logic,"['(P  D)  G', '(D • G)  P', 'P  (D • G)', 'P  (D • G)']",3,"Question: Laquelle des formules données de PL est la meilleure représentation de la phrase suivante? Pablo ira au magasin si, et seulement si, son frère le conduit et paie l'essence.
+
+Choix: ['(P  D)  G', '(D • G)  P', 'P  (D • G)', 'P  (D • G)']
+
+Réponse: P  (D • G)"
+"Utilisez des tables de vérité indirectes pour déterminer si chaque ensemble de propositions est cohérent Si l'ensemble est cohérent, choisir une option dont l'évaluation est cohérente (Il peut y avoir d'autres évaluations cohérentes.) D  E F  D ~E · ~F",formal_logic,"['Incohérent', 'Évaluation cohérente lorsque D, E et F sont vrais', 'Évaluation cohérente lorsque D et E sont vrais et F est faux', 'Évaluation cohérente lorsque D et F sont vraies et E est fausse']",0,"Question: Utilisez des tables de vérité indirectes pour déterminer si chaque ensemble de propositions est cohérent Si l'ensemble est cohérent, choisir une option dont l'évaluation est cohérente (Il peut y avoir d'autres évaluations cohérentes.) D  E F  D ~E · ~F
+
+Choix: ['Incohérent', 'Évaluation cohérente lorsque D, E et F sont vrais', 'Évaluation cohérente lorsque D et E sont vrais et F est faux', 'Évaluation cohérente lorsque D et F sont vraies et E est fausse']
+
+Réponse: Incohérent"
+Le restaurant sert une tarte ou un gâteau au fromage ou de la crème glacée comme dessert.,formal_logic,"['P  (C  I) P  (C  I) P  (C  I)', '(P  C)  I', 'P  C  I', 'Options A et B']",3,"Question: Le restaurant sert une tarte ou un gâteau au fromage ou de la crème glacée comme dessert.
+
+Choix: ['P  (C  I) P  (C  I) P  (C  I)', '(P  C)  I', 'P  C  I', 'Options A et B']
+
+Réponse: Options A et B"
+"Laquelle des formules données de PL est la meilleure symbolisation de la phrase suivante? Si Beth fait du vélo, elle arrive plus tôt au travail.",formal_logic,"['B  W', 'Nom de l'établissement', 'B  W', 'Les deux A et B']",0,"Question: Laquelle des formules données de PL est la meilleure symbolisation de la phrase suivante? Si Beth fait du vélo, elle arrive plus tôt au travail.
+
+Choix: ['B  W', 'Nom de l'établissement', 'B  W', 'Les deux A et B']
+
+Réponse: B  W"
+Sélectionnez la meilleure traduction en logique de prédicat: soit Taylor ou Eric est un latte boy.,formal_logic,"['Lt  Le', 'Lx  Ly', 'tL  eL', 'T1']",0,"Question: Sélectionnez la meilleure traduction en logique de prédicat: soit Taylor ou Eric est un latte boy.
+
+Choix: ['Lt  Le', 'Lx  Ly', 'tL  eL', 'T1']
+
+Réponse: Lt  Le"
+"Utilisez des tables de vérité indirectes pour déterminer si l'argument suivant est valide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) E  F G  ~F / ~G  ~E",formal_logic,"['Vérifié', 'Contre-exemple lorsque E, F et G sont vrais', 'Invalide. Contre-exemple lorsque E et G sont vrais et F est faux', 'Invalide. Contre-exemple lorsque F et G sont vrais et E est faux']",0,"Question: Utilisez des tables de vérité indirectes pour déterminer si l'argument suivant est valide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) E  F G  ~F / ~G  ~E
+
+Choix: ['Vérifié', 'Contre-exemple lorsque E, F et G sont vrais', 'Invalide. Contre-exemple lorsque E et G sont vrais et F est faux', 'Invalide. Contre-exemple lorsque F et G sont vrais et E est faux']
+
+Réponse: Vérifié"
+"Utilisez des tables de vérité indirectes pour déterminer si chaque ensemble de propositions est cohérent Si l'ensemble est cohérent, choisir une option dont l'évaluation est cohérente (Il peut y avoir d'autres évaluations cohérentes.) A  (~B  C) C  D A  (B · ~D) A  (B  D)",formal_logic,"['Incohérent', 'Évaluation cohérente lorsque A et D sont vraies et B et C sont fausses', 'Évaluation cohérente lorsque A, B et D sont vrais et C est faux', 'Évaluation cohérente lorsque C et D sont vrais et A et B sont fausses']",1,"Question: Utilisez des tables de vérité indirectes pour déterminer si chaque ensemble de propositions est cohérent Si l'ensemble est cohérent, choisir une option dont l'évaluation est cohérente (Il peut y avoir d'autres évaluations cohérentes.) A  (~B  C) C  D A  (B · ~D) A  (B  D)
+
+Choix: ['Incohérent', 'Évaluation cohérente lorsque A et D sont vraies et B et C sont fausses', 'Évaluation cohérente lorsque A, B et D sont vrais et C est faux', 'Évaluation cohérente lorsque C et D sont vrais et A et B sont fausses']
+
+Réponse: Évaluation cohérente lorsque A et D sont vraies et B et C sont fausses"
+"Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) M  N ~ M · O / N",formal_logic,"['Vérifié', 'Invalide. Contre-exemple lorsque M et O sont vrais et N est faux', 'Invalide. Contre-exemple lorsque M est vrai et O et N sont faux', 'Invalide. Contre-exemple lorsque O est vrai et M et N sont faux']",0,"Question: Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) M  N ~ M · O / N
+
+Choix: ['Vérifié', 'Invalide. Contre-exemple lorsque M et O sont vrais et N est faux', 'Invalide. Contre-exemple lorsque M est vrai et O et N sont faux', 'Invalide. Contre-exemple lorsque O est vrai et M et N sont faux']
+
+Réponse: Vérifié"
+Laquelle des propositions suivantes est une conséquence immédiate (en une étape) dans PL des prémisses données? U  W W  (X  ~ Y) (X  ~ Y)  Z ~ Z,formal_logic,"['U  Z', 'U  W', '- Je ne sais pas.', 'Je ne sais pas.']",3,"Question: Laquelle des propositions suivantes est une conséquence immédiate (en une étape) dans PL des prémisses données? U  W W  (X  ~ Y) (X  ~ Y)  Z ~ Z
+
+Choix: ['U  Z', 'U  W', '- Je ne sais pas.', 'Je ne sais pas.']
+
+Réponse: Je ne sais pas."
+"Identifiez l'antécédent de la proposition conditionnelle suivante: Si les Bees ne gagnent pas leur premier match, alors les Aardvarks et les Chipmunks gagnent leurs premiers matchs.",formal_logic,"['Les Aardvarks gagnent leur premier match.', 'Les Bees ne gagnent pas leur premier match.', 'Les Chipmunks gagnent leur premier match.', 'Les Aardvarks et les Chipmunks remportent leurs premiers matchs.']",1,"Question: Identifiez l'antécédent de la proposition conditionnelle suivante: Si les Bees ne gagnent pas leur premier match, alors les Aardvarks et les Chipmunks gagnent leurs premiers matchs.
+
+Choix: ['Les Aardvarks gagnent leur premier match.', 'Les Bees ne gagnent pas leur premier match.', 'Les Chipmunks gagnent leur premier match.', 'Les Aardvarks et les Chipmunks remportent leurs premiers matchs.']
+
+Réponse: Les Bees ne gagnent pas leur premier match."
+Sélectionnez la meilleure traduction en logique de prédicat. Holly aime Frances. (f: Frances; h: Holly; Lxy: x aime y),formal_logic,"['hLf', 'Nom de l'établissement', 'Nom de l'établissement', 'Si c' est le cas .']",3,"Question: Sélectionnez la meilleure traduction en logique de prédicat. Holly aime Frances. (f: Frances; h: Holly; Lxy: x aime y)
+
+Choix: ['hLf', 'Nom de l'établissement', 'Nom de l'établissement', 'Si c' est le cas .']
+
+Réponse: Si c' est le cas ."
+"Utilisez des tables de vérité indirectes pour déterminer si l'argument suivant est valide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) P  (Q  R) (Q · S)  ~P ~(~Q  R) / ~P",formal_logic,"['Vérifié', 'Contre-exemple lorsque P, Q, R et S sont vrais', 'Invalide. Contre-exemple lorsque P et Q sont vrais et R et S sont faux', 'Invalide. Contre-exemple lorsque P, R et S sont vrais et Q est faux']",2,"Question: Utilisez des tables de vérité indirectes pour déterminer si l'argument suivant est valide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) P  (Q  R) (Q · S)  ~P ~(~Q  R) / ~P
+
+Choix: ['Vérifié', 'Contre-exemple lorsque P, Q, R et S sont vrais', 'Invalide. Contre-exemple lorsque P et Q sont vrais et R et S sont faux', 'Invalide. Contre-exemple lorsque P, R et S sont vrais et Q est faux']
+
+Réponse: Invalide. Contre-exemple lorsque P et Q sont vrais et R et S sont faux"
+"Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) T  U W · T / U",formal_logic,"['Vérifié', 'Invalide. Contre-exemple lorsque T et W sont vrais et U est faux', 'Invalide. Contre-exemple lorsque T est vrai et W et U sont faux', 'Invalide. Contre-exemple lorsque W est vrai et T et U sont faux']",1,"Question: Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) T  U W · T / U
+
+Choix: ['Vérifié', 'Invalide. Contre-exemple lorsque T et W sont vrais et U est faux', 'Invalide. Contre-exemple lorsque T est vrai et W et U sont faux', 'Invalide. Contre-exemple lorsque W est vrai et T et U sont faux']
+
+Réponse: Invalide. Contre-exemple lorsque T et W sont vrais et U est faux"
+Identifiez l'antécédent de la proposition conditionnelle suivante: L'université augmente les frais de scolarité si le gouverneur l'approuve et si le conseil d'administration le recommande.,formal_logic,"['L'université augmente les frais de scolarité.', 'Le gouverneur l'approuve.', 'Le conseil d'administration le recommande.', 'Le gouverneur l'approuve et le conseil d'administration le recommande.']",3,"Question: Identifiez l'antécédent de la proposition conditionnelle suivante: L'université augmente les frais de scolarité si le gouverneur l'approuve et si le conseil d'administration le recommande.
+
+Choix: ['L'université augmente les frais de scolarité.', 'Le gouverneur l'approuve.', 'Le conseil d'administration le recommande.', 'Le gouverneur l'approuve et le conseil d'administration le recommande.']
+
+Réponse: Le gouverneur l'approuve et le conseil d'administration le recommande."
+"Identifiez l'antécédent de la proposition conditionnelle suivante: Le restaurant n'a pas de pois, alors au lieu de cela, ils servent du maïs et des pommes de terre.",formal_logic,"['Le restaurant a des pois.', 'Le restaurant n'a pas de pois.', 'Le restaurant sert du maïs.', 'Le restaurant sert des pommes de terre.']",1,"Question: Identifiez l'antécédent de la proposition conditionnelle suivante: Le restaurant n'a pas de pois, alors au lieu de cela, ils servent du maïs et des pommes de terre.
+
+Choix: ['Le restaurant a des pois.', 'Le restaurant n'a pas de pois.', 'Le restaurant sert du maïs.', 'Le restaurant sert des pommes de terre.']
+
+Réponse: Le restaurant n'a pas de pois."
+Sélectionnez la meilleure traduction en logique de prédicat. Toutes les confitures sont plus sucrées que tous les fruits. (Fx: x est un fruit; Jx: x est une confiture; Sxy: x est plus sucré que y),formal_logic,"['(∀x) [Fx  (∀y) ((Jy  Sxy) ]', '(∀x) (∀y) (Fx) (Jy) (Sxy) (Fx) (Yy) (Sxy) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X)', '(∀x) (∀y) (Sxy  (Fy • Jx)', '(∀x) [Jx  (∀y) ((Fy  Sxy) ]']",3,"Question: Sélectionnez la meilleure traduction en logique de prédicat. Toutes les confitures sont plus sucrées que tous les fruits. (Fx: x est un fruit; Jx: x est une confiture; Sxy: x est plus sucré que y)
+
+Choix: ['(∀x) [Fx  (∀y) ((Jy  Sxy) ]', '(∀x) (∀y) (Fx) (Jy) (Sxy) (Fx) (Yy) (Sxy) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X)', '(∀x) (∀y) (Sxy  (Fy • Jx)', '(∀x) [Jx  (∀y) ((Fy  Sxy) ]']
+
+Réponse: (∀x) [Jx  (∀y) ((Fy  Sxy) ]"
+"Identifiez la conclusion de l'argument suivant Que le monde est mon idée est une vérité valable pour toute créature vivante, bien que seul l'homme puisse la contempler. Ce faisant, il atteint la sagesse philosophique. Aucune vérité n'est plus absolument certaine que tout ce qui existe pour la connaissance et donc ce monde n'est que l'objet par rapport au sujet, la perception d'un percepteur Le monde est une idée (Arthur Schopenhauer, Le monde comme volonté et idée)",formal_logic,"['Le monde est une idée.', 'Que le monde est mon idée est une vérité valable pour toute créature vivante, bien que seul l'homme puisse la contempler.', 'Ce faisant, il acquiert la sagesse philosophique.', 'Aucune vérité n'est plus absolument certaine que tout ce qui existe pour la connaissance et donc ce monde n'est qu'un objet par rapport au sujet, la perception d'un percepteur.']",0,"Question: Identifiez la conclusion de l'argument suivant Que le monde est mon idée est une vérité valable pour toute créature vivante, bien que seul l'homme puisse la contempler. Ce faisant, il atteint la sagesse philosophique. Aucune vérité n'est plus absolument certaine que tout ce qui existe pour la connaissance et donc ce monde n'est que l'objet par rapport au sujet, la perception d'un percepteur Le monde est une idée (Arthur Schopenhauer, Le monde comme volonté et idée)
+
+Choix: ['Le monde est une idée.', 'Que le monde est mon idée est une vérité valable pour toute créature vivante, bien que seul l'homme puisse la contempler.', 'Ce faisant, il acquiert la sagesse philosophique.', 'Aucune vérité n'est plus absolument certaine que tout ce qui existe pour la connaissance et donc ce monde n'est qu'un objet par rapport au sujet, la perception d'un percepteur.']
+
+Réponse: Le monde est une idée."
+Sélectionnez la meilleure traduction en logique de prédicat. Léo est plus grand que Cathy. (c: Cathy; l: Léo; Txy: x est plus grand que y),formal_logic,"['Téléscripteur', 'Tcl', 'lTc', 'le cTl']",0,"Question: Sélectionnez la meilleure traduction en logique de prédicat. Léo est plus grand que Cathy. (c: Cathy; l: Léo; Txy: x est plus grand que y)
+
+Choix: ['Téléscripteur', 'Tcl', 'lTc', 'le cTl']
+
+Réponse: Téléscripteur"
+"Construisez une table de vérité complète pour les paires de propositions suivantes Puis, à l'aide des tableaux de vérité, déterminez si les énoncés sont logiquement équivalents ou contradictoires. Si ni l'un ni l'autre, déterminez s'ils sont cohérents ou incohérents Justifiez vos réponses.",formal_logic,"['Équivalent logique', 'C' est contradictoire .', 'Ni logiquement équivalents ni contradictoires, mais cohérents', 'Incohérent']",2,"Question: Construisez une table de vérité complète pour les paires de propositions suivantes Puis, à l'aide des tableaux de vérité, déterminez si les énoncés sont logiquement équivalents ou contradictoires. Si ni l'un ni l'autre, déterminez s'ils sont cohérents ou incohérents Justifiez vos réponses.
+
+Choix: ['Équivalent logique', 'C' est contradictoire .', 'Ni logiquement équivalents ni contradictoires, mais cohérents', 'Incohérent']
+
+Réponse: Ni logiquement équivalents ni contradictoires, mais cohérents"
+"Construisez une table de vérité complète pour les paires de propositions suivantes Puis, à l'aide des tableaux de vérité, déterminez si les énoncés sont logiquement équivalents ou contradictoires. Si ni l'un ni l'autre, déterminez s'ils sont cohérents ou incohérents Justifiez vos réponses.",formal_logic,"['Équivalent logique', 'C' est contradictoire .', 'Ni logiquement équivalents ni contradictoires, mais cohérents', 'Incohérent']",0,"Question: Construisez une table de vérité complète pour les paires de propositions suivantes Puis, à l'aide des tableaux de vérité, déterminez si les énoncés sont logiquement équivalents ou contradictoires. Si ni l'un ni l'autre, déterminez s'ils sont cohérents ou incohérents Justifiez vos réponses.
+
+Choix: ['Équivalent logique', 'C' est contradictoire .', 'Ni logiquement équivalents ni contradictoires, mais cohérents', 'Incohérent']
+
+Réponse: Équivalent logique"
+"Utilisez des tables de vérité indirectes pour déterminer si l'argument suivant est valide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) (T · ~U)  ~W ~W  X ~Z  W ~(X · Z) / T  U",formal_logic,"['Vérifié', 'Invalide. Contre-exemple lorsque T, X et Z sont vrais et U et W sont faux', 'Invalide. Contre-exemple lorsque T et X sont vrais et U, W et Z sont faux', 'Invalide. Contre-exemple lorsque T, W et Z sont vrais et U et X sont faux']",0,"Question: Utilisez des tables de vérité indirectes pour déterminer si l'argument suivant est valide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) (T · ~U)  ~W ~W  X ~Z  W ~(X · Z) / T  U
+
+Choix: ['Vérifié', 'Invalide. Contre-exemple lorsque T, X et Z sont vrais et U et W sont faux', 'Invalide. Contre-exemple lorsque T et X sont vrais et U, W et Z sont faux', 'Invalide. Contre-exemple lorsque T, W et Z sont vrais et U et X sont faux']
+
+Réponse: Vérifié"
+"Choisissez la meilleure traduction en logique de prédicat: Cecilia me brise le cœur si, et seulement si, Maria est un problème ou une fille.",formal_logic,"['Bc  (Pm  Gm)', 'Bc  (Pm • Gm)', 'Bc  (Pm  Gm)', 'Cb  (Pm • Gm) Cb  (Pm • Gm) Cb  (Pm • Gm)']",0,"Question: Choisissez la meilleure traduction en logique de prédicat: Cecilia me brise le cœur si, et seulement si, Maria est un problème ou une fille.
+
+Choix: ['Bc  (Pm  Gm)', 'Bc  (Pm • Gm)', 'Bc  (Pm  Gm)', 'Cb  (Pm • Gm) Cb  (Pm • Gm) Cb  (Pm • Gm)']
+
+Réponse: Bc  (Pm  Gm)"
+"Sélectionnez la meilleure traduction en logique de prédicat: Si Delilah est à New York, alors Juana est à Bogota ou Layla est à San Juan.",formal_logic,"['(Bj • Sl)  (Bj • Sl)  (Bj • Sl)  (Bj • Sl)', 'Dn  (Bx • Ly)', '(Bj • Sl)  (Bj • Sl)  (Bj • Sl)  (Bj • Sl)', 'Nom de l'établissement']",3,"Question: Sélectionnez la meilleure traduction en logique de prédicat: Si Delilah est à New York, alors Juana est à Bogota ou Layla est à San Juan.
+
+Choix: ['(Bj • Sl)  (Bj • Sl)  (Bj • Sl)  (Bj • Sl)', 'Dn  (Bx • Ly)', '(Bj • Sl)  (Bj • Sl)  (Bj • Sl)  (Bj • Sl)', 'Nom de l'établissement']
+
+Réponse: Nom de l'établissement"
+Utilisez la clé suivante pour traduire la formule donnée de PL en naturel Des phrases en anglais. A: Marina lit un livre de Percy Jackson. B: Izzy joue à Minecraft. C: Emily arrête de travailler. D: Russell fait le dîner. E: Ashleigh s'arrête.,formal_logic,"['Ce n'est pas que le fait que Marina lise un livre de Percy Jackson implique qu'Izzy joue à Minecraft, mais le fait qu'Izzy joue à Minecraft implique qu'Ashleigh ne passe pas par là.', 'Si Marina ne lit pas un livre de Percy Jackson, alors Izzy joue à Minecraft, ce qui implique qu'Ashleigh ne passe pas par là.', 'Le fait que Marina lise un livre de Percy Jackson n'implique pas qu'Izzy joue à Minecraft, mais Izzy joue à Minecraft à condition qu'Ashleigh ne s'arrête pas.', 'Ce n'est pas vrai que Marina lit un livre de Percy Jackson seulement quand Izzy joue à Minecraft, mais Izzy joue à Minecraft seulement quand Ashleigh s'arrête.']",0,"Question: Utilisez la clé suivante pour traduire la formule donnée de PL en naturel Des phrases en anglais. A: Marina lit un livre de Percy Jackson. B: Izzy joue à Minecraft. C: Emily arrête de travailler. D: Russell fait le dîner. E: Ashleigh s'arrête.
+
+Choix: ['Ce n'est pas que le fait que Marina lise un livre de Percy Jackson implique qu'Izzy joue à Minecraft, mais le fait qu'Izzy joue à Minecraft implique qu'Ashleigh ne passe pas par là.', 'Si Marina ne lit pas un livre de Percy Jackson, alors Izzy joue à Minecraft, ce qui implique qu'Ashleigh ne passe pas par là.', 'Le fait que Marina lise un livre de Percy Jackson n'implique pas qu'Izzy joue à Minecraft, mais Izzy joue à Minecraft à condition qu'Ashleigh ne s'arrête pas.', 'Ce n'est pas vrai que Marina lit un livre de Percy Jackson seulement quand Izzy joue à Minecraft, mais Izzy joue à Minecraft seulement quand Ashleigh s'arrête.']
+
+Réponse: Ce n'est pas que le fait que Marina lise un livre de Percy Jackson implique qu'Izzy joue à Minecraft, mais le fait qu'Izzy joue à Minecraft implique qu'Ashleigh ne passe pas par là."
+"Utilisez des tables de vérité indirectes pour déterminer si l'argument suivant est valide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) (A  B)  C C  ~D / D  A",formal_logic,"['Vérifié', 'Invalide. Contre-exemple lorsque B, C et D sont vrais et A est faux', 'Invalide. Contre-exemple lorsque B et D sont vrais et A et C sont faux', 'Invalide. Contre-exemple lorsque A, B et C sont faux et D est vrai']",3,"Question: Utilisez des tables de vérité indirectes pour déterminer si l'argument suivant est valide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) (A  B)  C C  ~D / D  A
+
+Choix: ['Vérifié', 'Invalide. Contre-exemple lorsque B, C et D sont vrais et A est faux', 'Invalide. Contre-exemple lorsque B et D sont vrais et A et C sont faux', 'Invalide. Contre-exemple lorsque A, B et C sont faux et D est vrai']
+
+Réponse: Invalide. Contre-exemple lorsque A, B et C sont faux et D est vrai"
+Sélectionnez la meilleure interprétation anglaise des arguments donnés dans la logique de prédicat. Dh  ~Pt (∀x)Px  (∀x)Mx ~Mb / ~Dh,formal_logic,"['Si mon mal de tête est un état dualiste, alors votre chatouillement est un état physique. Soit tout est physique, soit tout est mental. Mais mon orteil cassé n' est pas un état mental . Donc mon mal de tête n'est pas un état dualiste.', 'Si mon mal de tête est un état dualiste, alors votre chatouillement n'est pas un état physique. Soit tout est physique, soit tout est mental. Mais mon orteil cassé n' est pas un état mental . Donc mon mal de tête n'est pas un état dualiste.', 'Si mon mal de tête est un état dualiste, alors votre chatouillement n'est pas un état physique. Si tout est physique, alors tout est mental. Mais mon orteil cassé n' est pas un état mental . Donc mon mal de tête n'est pas un état dualiste.', 'Si mon mal de tête est un état dualiste, alors votre chatouillement n'est pas un état physique. Tout est physique ou mental. Mais mon orteil cassé n' est pas un état mental . Donc mon mal de tête n'est pas un état dualiste.']",1,"Question: Sélectionnez la meilleure interprétation anglaise des arguments donnés dans la logique de prédicat. Dh  ~Pt (∀x)Px  (∀x)Mx ~Mb / ~Dh
+
+Choix: ['Si mon mal de tête est un état dualiste, alors votre chatouillement est un état physique. Soit tout est physique, soit tout est mental. Mais mon orteil cassé n' est pas un état mental . Donc mon mal de tête n'est pas un état dualiste.', 'Si mon mal de tête est un état dualiste, alors votre chatouillement n'est pas un état physique. Soit tout est physique, soit tout est mental. Mais mon orteil cassé n' est pas un état mental . Donc mon mal de tête n'est pas un état dualiste.', 'Si mon mal de tête est un état dualiste, alors votre chatouillement n'est pas un état physique. Si tout est physique, alors tout est mental. Mais mon orteil cassé n' est pas un état mental . Donc mon mal de tête n'est pas un état dualiste.', 'Si mon mal de tête est un état dualiste, alors votre chatouillement n'est pas un état physique. Tout est physique ou mental. Mais mon orteil cassé n' est pas un état mental . Donc mon mal de tête n'est pas un état dualiste.']
+
+Réponse: Si mon mal de tête est un état dualiste, alors votre chatouillement n'est pas un état physique. Soit tout est physique, soit tout est mental. Mais mon orteil cassé n' est pas un état mental . Donc mon mal de tête n'est pas un état dualiste."
+Laquelle des propositions suivantes est une conséquence immédiate (en une étape) dans PL des prémisses données? A  (B • C) ~(B • C) A  (D  B),formal_logic,"['Nom de l'entreprise', '- Une', 'Nom de l'entreprise', '- Le B.']",1,"Question: Laquelle des propositions suivantes est une conséquence immédiate (en une étape) dans PL des prémisses données? A  (B • C) ~(B • C) A  (D  B)
+
+Choix: ['Nom de l'entreprise', '- Une', 'Nom de l'entreprise', '- Le B.']
+
+Réponse: - Une"
+Laquelle des propositions suivantes est une conséquence immédiate (en une étape) dans PL des prémisses données? (N  ~ O)  (O  Q) P  (N  ~ O) N  P,formal_logic,"['Nom de l'entreprise', 'N  ~O N  ~O N  ~O', 'O  Q', '- Je ne sais pas.']",0,"Question: Laquelle des propositions suivantes est une conséquence immédiate (en une étape) dans PL des prémisses données? (N  ~ O)  (O  Q) P  (N  ~ O) N  P
+
+Choix: ['Nom de l'entreprise', 'N  ~O N  ~O N  ~O', 'O  Q', '- Je ne sais pas.']
+
+Réponse: Nom de l'entreprise"
+Sélectionnez la meilleure traduction en logique de prédicat. La Terre n'est pas plus grande que Jupiter. (e: Terre; j: Jupiter; Bxy: x est plus grand que y),formal_logic,"['- Je suis désolée.', 'Autres espèces', 'Je vous en prie.', '- Je suis désolée.']",3,"Question: Sélectionnez la meilleure traduction en logique de prédicat. La Terre n'est pas plus grande que Jupiter. (e: Terre; j: Jupiter; Bxy: x est plus grand que y)
+
+Choix: ['- Je suis désolée.', 'Autres espèces', 'Je vous en prie.', '- Je suis désolée.']
+
+Réponse: - Je suis désolée."
+Identifiez l'antécédent de la proposition conditionnelle suivante: Le fait que les Bees gagnent leur premier match est nécessaire pour que les Aardvarks ou les Chipmunks ne gagnent pas leur premier match.,formal_logic,"['Les Aardvarks ne gagnent pas leur premier match.', 'Les Bees gagnent leur premier match.', 'Les Chipmunks ne gagnent pas leur premier match.', 'Soit les Aardvarks ou les Chipmunks ne gagnent pas leur premier match.']",3,"Question: Identifiez l'antécédent de la proposition conditionnelle suivante: Le fait que les Bees gagnent leur premier match est nécessaire pour que les Aardvarks ou les Chipmunks ne gagnent pas leur premier match.
+
+Choix: ['Les Aardvarks ne gagnent pas leur premier match.', 'Les Bees gagnent leur premier match.', 'Les Chipmunks ne gagnent pas leur premier match.', 'Soit les Aardvarks ou les Chipmunks ne gagnent pas leur premier match.']
+
+Réponse: Soit les Aardvarks ou les Chipmunks ne gagnent pas leur premier match."
+Identifiez l'antécédent de la proposition conditionnelle suivante: Les Bees ne gagnent leur premier match que si les Aardvarks ou les Chipmunks ne gagnent pas leurs premiers matchs.,formal_logic,"['Les Aardvarks ne gagnent pas leur premier match.', 'Les Bees gagnent leur premier match.', 'Les Chipmunks ne gagnent pas leur premier match.', 'Les Aardvarks ou les Chipmunks ne gagnent pas leurs premiers matchs.']",1,"Question: Identifiez l'antécédent de la proposition conditionnelle suivante: Les Bees ne gagnent leur premier match que si les Aardvarks ou les Chipmunks ne gagnent pas leurs premiers matchs.
+
+Choix: ['Les Aardvarks ne gagnent pas leur premier match.', 'Les Bees gagnent leur premier match.', 'Les Chipmunks ne gagnent pas leur premier match.', 'Les Aardvarks ou les Chipmunks ne gagnent pas leurs premiers matchs.']
+
+Réponse: Les Bees gagnent leur premier match."
+Sélectionnez la meilleure traduction en logique de prédicat: Certains athlètes ne se blessent pas.,formal_logic,"['- Je sais.', '(x) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax)', '- Je suis désolée.', '(x) (Ix  ~Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax)']",1,"Question: Sélectionnez la meilleure traduction en logique de prédicat: Certains athlètes ne se blessent pas.
+
+Choix: ['- Je sais.', '(x) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax)', '- Je suis désolée.', '(x) (Ix  ~Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax)']
+
+Réponse: (x) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax) (Ax)"
+"Construisez une table de vérité complète pour les paires de propositions suivantes Puis, à l'aide des tableaux de vérité, déterminez si les énoncés sont logiquement équivalents ou contradictoires. Si ni l'un ni l'autre, déterminez s'ils sont cohérents ou incohérents Justifiez vos réponses.",formal_logic,"['Équivalent logique', 'C' est contradictoire .', 'Ni logiquement équivalents ni contradictoires, mais cohérents', 'Incohérent']",1,"Question: Construisez une table de vérité complète pour les paires de propositions suivantes Puis, à l'aide des tableaux de vérité, déterminez si les énoncés sont logiquement équivalents ou contradictoires. Si ni l'un ni l'autre, déterminez s'ils sont cohérents ou incohérents Justifiez vos réponses.
+
+Choix: ['Équivalent logique', 'C' est contradictoire .', 'Ni logiquement équivalents ni contradictoires, mais cohérents', 'Incohérent']
+
+Réponse: C' est contradictoire ."
+"Utilisez des tables de vérité indirectes pour déterminer si chaque ensemble de propositions est cohérent Si l'ensemble est cohérent, choisir une option dont l'évaluation est cohérente (Il peut y avoir d'autres évaluations cohérentes.) (T  U)  (W  U) T  ~(U  X) (T  ~X)  W",formal_logic,"['Incohérent', 'Évaluation cohérente lorsque U, W et X sont vrais et T est faux', 'Évaluation cohérente lorsque W et X sont vrais et T et U sont faux', 'Évaluation cohérente lorsque T et U sont vrais et W et X sont faux']",1,"Question: Utilisez des tables de vérité indirectes pour déterminer si chaque ensemble de propositions est cohérent Si l'ensemble est cohérent, choisir une option dont l'évaluation est cohérente (Il peut y avoir d'autres évaluations cohérentes.) (T  U)  (W  U) T  ~(U  X) (T  ~X)  W
+
+Choix: ['Incohérent', 'Évaluation cohérente lorsque U, W et X sont vrais et T est faux', 'Évaluation cohérente lorsque W et X sont vrais et T et U sont faux', 'Évaluation cohérente lorsque T et U sont vrais et W et X sont faux']
+
+Réponse: Évaluation cohérente lorsque U, W et X sont vrais et T est faux"
+"Choisissez la meilleure traduction en logique de prédicat: Caroline est douce si, et seulement si, Janet est fiancée à Brad.",formal_logic,"['C', 'Nom et prénom de l'employeur', 'sC  eJ', 'Sx  Jy']",1,"Question: Choisissez la meilleure traduction en logique de prédicat: Caroline est douce si, et seulement si, Janet est fiancée à Brad.
+
+Choix: ['C', 'Nom et prénom de l'employeur', 'sC  eJ', 'Sx  Jy']
+
+Réponse: Nom et prénom de l'employeur"
+"Parmi les formules de PL données, quelle est la meilleure représentation de la phrase suivante: soit l'importation de viande bovine par l'Angleterre est une condition suffisante pour que la France subventionne l'agriculture ou la Chine ne promeut pas les droits de l'homme quand et seulement quand l'Afrique du Sud fournit des diamants.",formal_logic,"['(E  F)  (~C  S)  (E  F)  (~C  S)  (E  F)  (~C  S)', '(F  E)  (S  ~C) (F  E)  (S  ~C) (F  E)  (S  ~C)', '(E  F)  ~(S  C)', '(E  F)  (~C  S)  (E  F)  (~C  S)  (E  F)  (~C  S)']",3,"Question: Parmi les formules de PL données, quelle est la meilleure représentation de la phrase suivante: soit l'importation de viande bovine par l'Angleterre est une condition suffisante pour que la France subventionne l'agriculture ou la Chine ne promeut pas les droits de l'homme quand et seulement quand l'Afrique du Sud fournit des diamants.
+
+Choix: ['(E  F)  (~C  S)  (E  F)  (~C  S)  (E  F)  (~C  S)', '(F  E)  (S  ~C) (F  E)  (S  ~C) (F  E)  (S  ~C)', '(E  F)  ~(S  C)', '(E  F)  (~C  S)  (E  F)  (~C  S)  (E  F)  (~C  S)']
+
+Réponse: (E  F)  (~C  S)  (E  F)  (~C  S)  (E  F)  (~C  S)"
+Utilisez la clé suivante pour traduire la formule donnée de PL en naturel Des phrases en anglais. A: Marina lit un livre de Percy Jackson. B: Izzy joue à Minecraft. C: Emily arrête de travailler. D: Russell fait le dîner. E: Ashleigh passe par là.,formal_logic,"['Si ni Marina ne lit un livre de Percy Jackson ni Izzy ne joue à Minecraft, alors Emily arrête de travailler.', 'Si ce n'est pas le cas que Marina lit un livre de Percy Jackson et Izzy joue à Minecraft, alors Emily arrête de travailler.', 'Soit Marina ne lit pas un livre de Percy Jackson ou Izzy ne joue pas à Minecraft implique qu'Emily arrête de travailler.', 'L'arrêt du travail d'Emily est une condition suffisante pour que Marina ne lise pas un livre de Percy Jackson ou pour qu'Izzy ne joue pas à Minecraft.']",2,"Question: Utilisez la clé suivante pour traduire la formule donnée de PL en naturel Des phrases en anglais. A: Marina lit un livre de Percy Jackson. B: Izzy joue à Minecraft. C: Emily arrête de travailler. D: Russell fait le dîner. E: Ashleigh passe par là.
+
+Choix: ['Si ni Marina ne lit un livre de Percy Jackson ni Izzy ne joue à Minecraft, alors Emily arrête de travailler.', 'Si ce n'est pas le cas que Marina lit un livre de Percy Jackson et Izzy joue à Minecraft, alors Emily arrête de travailler.', 'Soit Marina ne lit pas un livre de Percy Jackson ou Izzy ne joue pas à Minecraft implique qu'Emily arrête de travailler.', 'L'arrêt du travail d'Emily est une condition suffisante pour que Marina ne lise pas un livre de Percy Jackson ou pour qu'Izzy ne joue pas à Minecraft.']
+
+Réponse: Soit Marina ne lit pas un livre de Percy Jackson ou Izzy ne joue pas à Minecraft implique qu'Emily arrête de travailler."
+"Identifiez la conclusion de l'argument suivant Il y a ceux qui utilisent des variables prédicates; les valeurs de ces variables sont des attributs Les prédicats sont nécessaires dans toutes les phrases, indépendamment du fait qu'il y ait des attributs auxquels se référer. Le prédicat factice ""F"" est généralement recherché à des fins expositives. Si nous allons quantifier sur les attributs et se référer à eux alors la clarté est assurée par l'utilisation de variables reconnaissables et de noms distinctifs aux fins et ne pas mélanger ceux-ci avec les prédicats (Quine, philosophie de la logique)",formal_logic,"['Il y a ceux qui utilisent des variables de prédicat; les valeurs de ces variables sont des attributs.', 'Les prédicats sont recherchés dans toutes les phrases, indépendamment du fait qu'il y ait ou non des attributs auxquels se référer.', 'Le prédicat factice 'F' est généralement recherché à des fins expositives.', 'Si nous allons quantifier sur les attributs et se référer à eux alors la clarté est assurée par l'utilisation de variables reconnaissables et de noms distinctifs aux fins et ne pas les mélanger avec les prédicats.']",3,"Question: Identifiez la conclusion de l'argument suivant Il y a ceux qui utilisent des variables prédicates; les valeurs de ces variables sont des attributs Les prédicats sont nécessaires dans toutes les phrases, indépendamment du fait qu'il y ait des attributs auxquels se référer. Le prédicat factice ""F"" est généralement recherché à des fins expositives. Si nous allons quantifier sur les attributs et se référer à eux alors la clarté est assurée par l'utilisation de variables reconnaissables et de noms distinctifs aux fins et ne pas mélanger ceux-ci avec les prédicats (Quine, philosophie de la logique)
+
+Choix: ['Il y a ceux qui utilisent des variables de prédicat; les valeurs de ces variables sont des attributs.', 'Les prédicats sont recherchés dans toutes les phrases, indépendamment du fait qu'il y ait ou non des attributs auxquels se référer.', 'Le prédicat factice 'F' est généralement recherché à des fins expositives.', 'Si nous allons quantifier sur les attributs et se référer à eux alors la clarté est assurée par l'utilisation de variables reconnaissables et de noms distinctifs aux fins et ne pas les mélanger avec les prédicats.']
+
+Réponse: Si nous allons quantifier sur les attributs et se référer à eux alors la clarté est assurée par l'utilisation de variables reconnaissables et de noms distinctifs aux fins et ne pas les mélanger avec les prédicats."
+Utilisez la clé suivante pour traduire la formule donnée de PL en naturel Des phrases en anglais. A: Marina lit un livre de Percy Jackson. B: Izzy joue à Minecraft. C: Emily arrête de travailler. D: Russell fait le dîner. E: Ashleigh passe par là. ~C  D,formal_logic,"['Si Emily n'arrête pas de travailler, alors Russell prépare le dîner.', 'Emily arrête de travailler à moins que Russell ne prépare le dîner.', 'Emily arrête de travailler à moins que Russell ne prépare le dîner.', 'Emily ne s'arrête pas de travailler à moins que Russell ne prépare le dîner.']",3,"Question: Utilisez la clé suivante pour traduire la formule donnée de PL en naturel Des phrases en anglais. A: Marina lit un livre de Percy Jackson. B: Izzy joue à Minecraft. C: Emily arrête de travailler. D: Russell fait le dîner. E: Ashleigh passe par là. ~C  D
+
+Choix: ['Si Emily n'arrête pas de travailler, alors Russell prépare le dîner.', 'Emily arrête de travailler à moins que Russell ne prépare le dîner.', 'Emily arrête de travailler à moins que Russell ne prépare le dîner.', 'Emily ne s'arrête pas de travailler à moins que Russell ne prépare le dîner.']
+
+Réponse: Emily ne s'arrête pas de travailler à moins que Russell ne prépare le dîner."
+Sélectionnez la meilleure traduction en logique de prédicat: Abdul et Cléopâtre sont égyptiens.,formal_logic,"['Résultats de l'enquête', 'Évaluation de la compétitivité', 'A  Ce', 'Exécuteur']",0,"Question: Sélectionnez la meilleure traduction en logique de prédicat: Abdul et Cléopâtre sont égyptiens.
+
+Choix: ['Résultats de l'enquête', 'Évaluation de la compétitivité', 'A  Ce', 'Exécuteur']
+
+Réponse: Résultats de l'enquête"
+Sélectionnez la meilleure traduction en logique de prédicat: Sheena est un punk rocker.,formal_logic,"['Nom de l'établissement', 'Nom de l'expéditeur:', 'Spécifiquement:', 'Nom de l'entreprise']",3,"Question: Sélectionnez la meilleure traduction en logique de prédicat: Sheena est un punk rocker.
+
+Choix: ['Nom de l'établissement', 'Nom de l'expéditeur:', 'Spécifiquement:', 'Nom de l'entreprise']
+
+Réponse: Nom de l'entreprise"
+Sélectionnez la meilleure traduction en logique de prédicat. Kevin est présenté à José par Wilma. (j: José; k: Kevin; w: Wilma; Ixyz: x introduit y à z),formal_logic,"['Je vous en prie.', 'Nom de l'entreprise', 'Je vous en prie .', 'Nom de l'entreprise']",3,"Question: Sélectionnez la meilleure traduction en logique de prédicat. Kevin est présenté à José par Wilma. (j: José; k: Kevin; w: Wilma; Ixyz: x introduit y à z)
+
+Choix: ['Je vous en prie.', 'Nom de l'entreprise', 'Je vous en prie .', 'Nom de l'entreprise']
+
+Réponse: Nom de l'entreprise"
+"Sélectionnez la meilleure traduction en logique de prédicat: Si Eileen joue du violon, alors Sherri chante.",formal_logic,"['Fe  Ss', 'eF', 'Fe  Es', 'Fe  Ss']",3,"Question: Sélectionnez la meilleure traduction en logique de prédicat: Si Eileen joue du violon, alors Sherri chante.
+
+Choix: ['Fe  Ss', 'eF', 'Fe  Es', 'Fe  Ss']
+
+Réponse: Fe  Ss"
+"Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) ~C  D D  C / C",formal_logic,"['Vérifié', 'Invalide. Contre-exemple lorsque C et D sont vrais', 'Invalide. Contre-exemple lorsque C est vrai et D est faux', 'Invalide. Contre-exemple lorsque D est vrai et C est faux']",0,"Question: Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) ~C  D D  C / C
+
+Choix: ['Vérifié', 'Invalide. Contre-exemple lorsque C et D sont vrais', 'Invalide. Contre-exemple lorsque C est vrai et D est faux', 'Invalide. Contre-exemple lorsque D est vrai et C est faux']
+
+Réponse: Vérifié"
+Sélectionnez la meilleure traduction en logique de prédicat:: Certains hérons bleus migrent.,formal_logic,"['(∀x) [(Hx • Bx) • Mx]', '(x) [(Hx • Bx)  Mx]', '(∀x) [(Hx • Bx)  Mx]', '(x) [(Hx • Bx) • Mx]']",3,"Question: Sélectionnez la meilleure traduction en logique de prédicat:: Certains hérons bleus migrent.
+
+Choix: ['(∀x) [(Hx • Bx) • Mx]', '(x) [(Hx • Bx)  Mx]', '(∀x) [(Hx • Bx)  Mx]', '(x) [(Hx • Bx) • Mx]']
+
+Réponse: (x) [(Hx • Bx) • Mx]"
+Sélectionnez la meilleure interprétation anglaise des arguments donnés dans la logique de prédicat. (x) ((Cx • Ox) (∀x) [(~Cx  ~Bx)  ~Og] / ~Og,formal_logic,"['Certains biscuits ont de la farine d'avoine . Si quelque chose n'est pas un biscuit implique qu'il n'a pas de pépites de chocolat, alors ce biscuit n'a pas de farine d'avoine Donc ce gâteau n'a pas de farine d'avoine.', 'Certains biscuits ont de la farine d'avoine. Si quelque chose n'est pas un biscuit et n'a pas de pépites de chocolat, il n'a pas de farine d'avoine. Donc ce biscuit n'a pas de farine d'avoine.', 'Certains biscuits ont de la farine d'avoine. Si quelque chose n'a pas de farine d'avoine, alors ce n'est pas un biscuit et il n'y a pas de pépites de chocolat. Donc ce biscuit n'a pas de farine d'avoine.', 'Certains biscuits ont de la farine d'avoine. Si quelque chose n'a pas de pépites de chocolat implique qu'il ne s'agit pas d'un biscuit, alors il n'a pas de farine d'avoine. Donc ce biscuit n'a pas de farine d'avoine.']",0,"Question: Sélectionnez la meilleure interprétation anglaise des arguments donnés dans la logique de prédicat. (x) ((Cx • Ox) (∀x) [(~Cx  ~Bx)  ~Og] / ~Og
+
+Choix: ['Certains biscuits ont de la farine d'avoine . Si quelque chose n'est pas un biscuit implique qu'il n'a pas de pépites de chocolat, alors ce biscuit n'a pas de farine d'avoine Donc ce gâteau n'a pas de farine d'avoine.', 'Certains biscuits ont de la farine d'avoine. Si quelque chose n'est pas un biscuit et n'a pas de pépites de chocolat, il n'a pas de farine d'avoine. Donc ce biscuit n'a pas de farine d'avoine.', 'Certains biscuits ont de la farine d'avoine. Si quelque chose n'a pas de farine d'avoine, alors ce n'est pas un biscuit et il n'y a pas de pépites de chocolat. Donc ce biscuit n'a pas de farine d'avoine.', 'Certains biscuits ont de la farine d'avoine. Si quelque chose n'a pas de pépites de chocolat implique qu'il ne s'agit pas d'un biscuit, alors il n'a pas de farine d'avoine. Donc ce biscuit n'a pas de farine d'avoine.']
+
+Réponse: Certains biscuits ont de la farine d'avoine . Si quelque chose n'est pas un biscuit implique qu'il n'a pas de pépites de chocolat, alors ce biscuit n'a pas de farine d'avoine Donc ce gâteau n'a pas de farine d'avoine."
+"Identifiez la conclusion de l'argument suivant Toute la psychologie est coincée dans des préjugés et des peurs morales. Personne ne s'est approché de la compréhension comme le développement de la volonté de pouvoir Toutefois, si une personne commence même à considérer les effets de la haine la jalousie la cupidité et le désir de régner comme conditions de vie et de plus comme facteurs essentiels à l'économie générale de la vie Il va commencer à avoir le mal de mer . À ce stade, il commence à se perdre, et à naviguer sur la moralité Ainsi, la psychologie devient à nouveau le chemin vers des problèmes fondamentaux. (Friedrich Nietzsche, Au-delà du bien et du mal)",formal_logic,"['Toute la psychologie est coincée dans des préjugés et des peurs morales.', 'Personne n'est parvenu à la comprendre comme le développement de la volonté de pouvoir.', 'Si une personne commence même à considérer les effets de la haine la jalousie la cupidité et le désir de régner comme conditions de vie et de plus comme facteurs essentiels à l'économie générale de la vie Il va commencer à avoir le mal de mer.', 'La psychologie devient à nouveau le chemin des problèmes fondamentaux.']",3,"Question: Identifiez la conclusion de l'argument suivant Toute la psychologie est coincée dans des préjugés et des peurs morales. Personne ne s'est approché de la compréhension comme le développement de la volonté de pouvoir Toutefois, si une personne commence même à considérer les effets de la haine la jalousie la cupidité et le désir de régner comme conditions de vie et de plus comme facteurs essentiels à l'économie générale de la vie Il va commencer à avoir le mal de mer . À ce stade, il commence à se perdre, et à naviguer sur la moralité Ainsi, la psychologie devient à nouveau le chemin vers des problèmes fondamentaux. (Friedrich Nietzsche, Au-delà du bien et du mal)
+
+Choix: ['Toute la psychologie est coincée dans des préjugés et des peurs morales.', 'Personne n'est parvenu à la comprendre comme le développement de la volonté de pouvoir.', 'Si une personne commence même à considérer les effets de la haine la jalousie la cupidité et le désir de régner comme conditions de vie et de plus comme facteurs essentiels à l'économie générale de la vie Il va commencer à avoir le mal de mer.', 'La psychologie devient à nouveau le chemin des problèmes fondamentaux.']
+
+Réponse: La psychologie devient à nouveau le chemin des problèmes fondamentaux."
+"Utilisez des tables de vérité indirectes pour déterminer si chaque ensemble de propositions est cohérent Si l'ensemble est cohérent, choisir une option dont l'évaluation est cohérente (Il peut y avoir d'autres évaluations cohérentes.) ~N  (O · P) ~O  Q N · ~Q",formal_logic,"['Incohérent', 'Évaluation cohérente lorsque N, O et P sont vrais et Q est faux', 'Évaluation cohérente lorsque N et O sont vrais et P et Q sont faux', 'Évaluation cohérente lorsque N et P sont vrais et O et Q sont faux']",2,"Question: Utilisez des tables de vérité indirectes pour déterminer si chaque ensemble de propositions est cohérent Si l'ensemble est cohérent, choisir une option dont l'évaluation est cohérente (Il peut y avoir d'autres évaluations cohérentes.) ~N  (O · P) ~O  Q N · ~Q
+
+Choix: ['Incohérent', 'Évaluation cohérente lorsque N, O et P sont vrais et Q est faux', 'Évaluation cohérente lorsque N et O sont vrais et P et Q sont faux', 'Évaluation cohérente lorsque N et P sont vrais et O et Q sont faux']
+
+Réponse: Évaluation cohérente lorsque N et O sont vrais et P et Q sont faux"
+Laquelle des formules données de PL est la meilleure symbolisation de la phrase suivante? Une personne est considérée comme ayant vécu avec vous pendant toute l'année en cours si la personne est née ou est décédée dans l'année en cours et que votre maison était la maison de cette personne pendant tout le temps que cette personne était en vie.,formal_logic,"['[B  D] • H]  L [B  D] • H]  L [B  D] • H]  L', '[L  (B  D) ] • H', 'L  [(B  D) • H]', '(B  D • H)  L']",0,"Question: Laquelle des formules données de PL est la meilleure symbolisation de la phrase suivante? Une personne est considérée comme ayant vécu avec vous pendant toute l'année en cours si la personne est née ou est décédée dans l'année en cours et que votre maison était la maison de cette personne pendant tout le temps que cette personne était en vie.
+
+Choix: ['[B  D] • H]  L [B  D] • H]  L [B  D] • H]  L', '[L  (B  D) ] • H', 'L  [(B  D) • H]', '(B  D • H)  L']
+
+Réponse: [B  D] • H]  L [B  D] • H]  L [B  D] • H]  L"
+"Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) (O  P)  P / P  ~O",formal_logic,"['Vérifié', 'Invalide. Contre-exemple lorsque O et P sont vrais', 'Invalide. Contre-exemple lorsque O est vrai et P est faux', 'Invalide. Contre-exemple lorsque P est vrai et O est faux']",0,"Question: Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) (O  P)  P / P  ~O
+
+Choix: ['Vérifié', 'Invalide. Contre-exemple lorsque O et P sont vrais', 'Invalide. Contre-exemple lorsque O est vrai et P est faux', 'Invalide. Contre-exemple lorsque P est vrai et O est faux']
+
+Réponse: Vérifié"
+Choisissez la meilleure traduction en logique de prédicat: Leroy est mauvais seulement si DJ Khaled crie son nom.,formal_logic,"['', 'Nom et prénom de l'employeur', 'Bx  Sy', 'Nom et prénom de l'employeur']",3,"Question: Choisissez la meilleure traduction en logique de prédicat: Leroy est mauvais seulement si DJ Khaled crie son nom.
+
+Choix: ['', 'Nom et prénom de l'employeur', 'Bx  Sy', 'Nom et prénom de l'employeur']
+
+Réponse: Nom et prénom de l'employeur"
+"Laquelle des formules données de PL est la meilleure symbolisation de la phrase suivante? Si George s'inscrit ou Harry s'inscrit, alors Ira ne s'inscrit pas.",formal_logic,"['(G  H)  I (G  H)  I (G  H)  I (G  H)', '(G  H)  I (G  H)  I (G  H)  I (G  H)', '(G  H)  ~I (G  H)  ~I (G  H)', '(G  H)  ~I (G  H)  ~I (G  H)']",3,"Question: Laquelle des formules données de PL est la meilleure symbolisation de la phrase suivante? Si George s'inscrit ou Harry s'inscrit, alors Ira ne s'inscrit pas.
+
+Choix: ['(G  H)  I (G  H)  I (G  H)  I (G  H)', '(G  H)  I (G  H)  I (G  H)  I (G  H)', '(G  H)  ~I (G  H)  ~I (G  H)', '(G  H)  ~I (G  H)  ~I (G  H)']
+
+Réponse: (G  H)  ~I (G  H)  ~I (G  H)"
+"Choisissez la meilleure traduction en logique de prédicat: Mme Jackson m'a prêté du sucre, mais ni Janet ni Latoya ne l'ont fait.",formal_logic,"['Lm  ~(Jl  Ll)', 'Lm • ~(Lj • Ll) Lm • ~(Lj • Ll)', 'Lm • ~(Lj  Ll) Lm • ~(Lj  Ll)', 'Lm  ~(Lj • Ll) Lm  ~(Lj • Ll)']",2,"Question: Choisissez la meilleure traduction en logique de prédicat: Mme Jackson m'a prêté du sucre, mais ni Janet ni Latoya ne l'ont fait.
+
+Choix: ['Lm  ~(Jl  Ll)', 'Lm • ~(Lj • Ll) Lm • ~(Lj • Ll)', 'Lm • ~(Lj  Ll) Lm • ~(Lj  Ll)', 'Lm  ~(Lj • Ll) Lm  ~(Lj • Ll)']
+
+Réponse: Lm • ~(Lj  Ll) Lm • ~(Lj  Ll)"
+Sélectionnez la meilleure traduction en logique de prédicat. Certains animaux sont négligés par des gens cruels. (Ax: x est un animal; Cx: x est cruel; Px: x est une personne; Nxy: x néglige y),formal_logic,"['(x) (Ax • Cx) (y) (Py • Nyx)', '(x) (Cx • Px) (y) (Ay • Nxy)', '(x) (Ax • Px) (y) (Cy • Nxy)', '(x) ((y) {[(Ax • Cy) • Py] • Nxy) ]}']",1,"Question: Sélectionnez la meilleure traduction en logique de prédicat. Certains animaux sont négligés par des gens cruels. (Ax: x est un animal; Cx: x est cruel; Px: x est une personne; Nxy: x néglige y)
+
+Choix: ['(x) (Ax • Cx) (y) (Py • Nyx)', '(x) (Cx • Px) (y) (Ay • Nxy)', '(x) (Ax • Px) (y) (Cy • Nxy)', '(x) ((y) {[(Ax • Cy) • Py] • Nxy) ]}']
+
+Réponse: (x) (Cx • Px) (y) (Ay • Nxy)"
+"Utilisez des tables de vérité indirectes pour déterminer si chaque ensemble de propositions est cohérent Si l'ensemble est cohérent, choisir une option dont l'évaluation est cohérente (Il peut y avoir d' autres évaluations cohérentes.) (E  F)  G (~E  F)  (H  I) I  (J  ~H) ~G  ~J",formal_logic,"['Incohérent', 'Évaluation cohérente lorsque E est vraie et F, G, H, I et J sont fausses', 'Évaluation cohérente lorsque E et H sont vrais et F, G, I et J sont faux', 'Évaluation cohérente lorsque E et I sont vrais et F, G, H et J sont faux']",1,"Question: Utilisez des tables de vérité indirectes pour déterminer si chaque ensemble de propositions est cohérent Si l'ensemble est cohérent, choisir une option dont l'évaluation est cohérente (Il peut y avoir d' autres évaluations cohérentes.) (E  F)  G (~E  F)  (H  I) I  (J  ~H) ~G  ~J
+
+Choix: ['Incohérent', 'Évaluation cohérente lorsque E est vraie et F, G, H, I et J sont fausses', 'Évaluation cohérente lorsque E et H sont vrais et F, G, I et J sont faux', 'Évaluation cohérente lorsque E et I sont vrais et F, G, H et J sont faux']
+
+Réponse: Évaluation cohérente lorsque E est vraie et F, G, H, I et J sont fausses"
+Sélectionnez la meilleure traduction en logique de prédicat: Certains étudiants travaillent dur.,formal_logic,"['(x) (Wx  Sx) (x) (Wx  Sx) (x) (Wx  Sx)', '(x) (Sx  Wx) (x) (Sx  Wx) (x) (Sx  Wx)', '(x) ((Sx • Wx)', '(x) (Sx  Wx) (x) (Sx  Wx) (x) (Sx  Wx)']",2,"Question: Sélectionnez la meilleure traduction en logique de prédicat: Certains étudiants travaillent dur.
+
+Choix: ['(x) (Wx  Sx) (x) (Wx  Sx) (x) (Wx  Sx)', '(x) (Sx  Wx) (x) (Sx  Wx) (x) (Sx  Wx)', '(x) ((Sx • Wx)', '(x) (Sx  Wx) (x) (Sx  Wx) (x) (Sx  Wx)']
+
+Réponse: (x) ((Sx • Wx)"
+"Parmi les formules de PL données, quelle est la meilleure représentation de la phrase suivante: soit l'importation de viande bovine par l'Angleterre n'est pas une condition nécessaire à la subvention de l'agriculture par la France ou la Chine promeut les droits de l'homme si l'Afrique du Sud fournit des diamants.",formal_logic,"['(~F  E)  (C  ~S) (~F  E)  (C  ~S) (~F  E)  (C  ~S)', '(~E  F)  (C  S)', '(~F  E)  (C  S) (~F  E)  (C  S) (~F  E)  (C  S)', 'Il s'agit d'un projet d'aménagement et d'aménagement de l'espace urbain.']",3,"Question: Parmi les formules de PL données, quelle est la meilleure représentation de la phrase suivante: soit l'importation de viande bovine par l'Angleterre n'est pas une condition nécessaire à la subvention de l'agriculture par la France ou la Chine promeut les droits de l'homme si l'Afrique du Sud fournit des diamants.
+
+Choix: ['(~F  E)  (C  ~S) (~F  E)  (C  ~S) (~F  E)  (C  ~S)', '(~E  F)  (C  S)', '(~F  E)  (C  S) (~F  E)  (C  S) (~F  E)  (C  S)', 'Il s'agit d'un projet d'aménagement et d'aménagement de l'espace urbain.']
+
+Réponse: Il s'agit d'un projet d'aménagement et d'aménagement de l'espace urbain."
+"Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) ~A · ~B (A  C)  B / C",formal_logic,"['Vérifié', 'Invalide. Contre-exemple lorsque A et B sont vrais et C est faux', 'Invalide. Contre-exemple lorsque A est vrai et B et C sont faux', 'Invalide. Contre-exemple lorsque B est vrai et A et C sont faux']",0,"Question: Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) ~A · ~B (A  C)  B / C
+
+Choix: ['Vérifié', 'Invalide. Contre-exemple lorsque A et B sont vrais et C est faux', 'Invalide. Contre-exemple lorsque A est vrai et B et C sont faux', 'Invalide. Contre-exemple lorsque B est vrai et A et C sont faux']
+
+Réponse: Vérifié"
+Sélectionnez la meilleure traduction en logique de prédicat. Tous les oiseaux vivent dans un nid. (Bx: x est un oiseau; Nx: x est un nid; Lxy: x vit dans y),formal_logic,"['(∀x) ((∀y) (((Bx • Ny)  Lxy)', '(∀x) [Bx  (y) (Ny • Lxy) ]', '(∀x) [(y) (Ny • Bx)  Lxy]', '(∀x) y) [Bx • Ny)  Lxy]']",1,"Question: Sélectionnez la meilleure traduction en logique de prédicat. Tous les oiseaux vivent dans un nid. (Bx: x est un oiseau; Nx: x est un nid; Lxy: x vit dans y)
+
+Choix: ['(∀x) ((∀y) (((Bx • Ny)  Lxy)', '(∀x) [Bx  (y) (Ny • Lxy) ]', '(∀x) [(y) (Ny • Bx)  Lxy]', '(∀x) y) [Bx • Ny)  Lxy]']
+
+Réponse: (∀x) [Bx  (y) (Ny • Lxy) ]"
+"Identifiez la conclusion de l'argument suivant La théorie utilitariste est gênée par la possibilité de monstres utilitaires Un monstre d'utilité obtient d'énormes gains d'utilité, plus grands que l'utilité perdue par les sacrifices des autres Les sacrifices même d'un grand nombre d'autres personnes sont compensés par les gains du monstre de l'utilité La théorie semble exiger que nous soyons tous sacrifiés dans la gueule du monstre afin d'augmenter l'utilité totale (Robert Nozick, Anarchie, État et utopie)",formal_logic,"['La théorie utilitariste est gênée par la possibilité de monstres utilitaires.', 'Un monstre d'utilité obtient d'énormes gains d'utilité.', 'Un monstre d'utilité obtient des gains d'utilité supérieurs à l'utilité perdue par les sacrifices des autres.', 'Les sacrifices même d'un grand nombre d'autres personnes sont compensés par les gains du monstre de l'utilité.']",0,"Question: Identifiez la conclusion de l'argument suivant La théorie utilitariste est gênée par la possibilité de monstres utilitaires Un monstre d'utilité obtient d'énormes gains d'utilité, plus grands que l'utilité perdue par les sacrifices des autres Les sacrifices même d'un grand nombre d'autres personnes sont compensés par les gains du monstre de l'utilité La théorie semble exiger que nous soyons tous sacrifiés dans la gueule du monstre afin d'augmenter l'utilité totale (Robert Nozick, Anarchie, État et utopie)
+
+Choix: ['La théorie utilitariste est gênée par la possibilité de monstres utilitaires.', 'Un monstre d'utilité obtient d'énormes gains d'utilité.', 'Un monstre d'utilité obtient des gains d'utilité supérieurs à l'utilité perdue par les sacrifices des autres.', 'Les sacrifices même d'un grand nombre d'autres personnes sont compensés par les gains du monstre de l'utilité.']
+
+Réponse: La théorie utilitariste est gênée par la possibilité de monstres utilitaires."
+Utilisez la clé suivante pour traduire la formule donnée de PL en naturel Des phrases en anglais. A: Marina lit un livre de Percy Jackson. B: Izzy joue à Minecraft. C: Emily arrête de travailler. D: Russell fait le dîner. E: Ashleigh passe par là.,formal_logic,"['Que Marina lise un livre de Percy Jackson ou qu'Ashleigh ne vienne pas, c'est une condition nécessaire pour que Russell prépare le dîner et pour qu'Izzy ne joue pas à Minecraft.', 'Que Marina lise un livre de Percy Jackson ou qu'Ashleigh ne s'arrête pas est une condition nécessaire et suffisante pour que Russell prépare le dîner et Izzy joue à Minecraft.', 'Marina lit un livre de Percy Jackson à moins qu'Ashleigh ne passe si, et seulement si, à la fois Russell fait le dîner et Izzy ne joue pas à Minecraft.', 'Soit Marina lit un livre de Percy Jackson ou Ashleigh ne s'arrête pas au cas où Russell prépare le dîner et Izzy ne joue pas à Minecraft.']",3,"Question: Utilisez la clé suivante pour traduire la formule donnée de PL en naturel Des phrases en anglais. A: Marina lit un livre de Percy Jackson. B: Izzy joue à Minecraft. C: Emily arrête de travailler. D: Russell fait le dîner. E: Ashleigh passe par là.
+
+Choix: ['Que Marina lise un livre de Percy Jackson ou qu'Ashleigh ne vienne pas, c'est une condition nécessaire pour que Russell prépare le dîner et pour qu'Izzy ne joue pas à Minecraft.', 'Que Marina lise un livre de Percy Jackson ou qu'Ashleigh ne s'arrête pas est une condition nécessaire et suffisante pour que Russell prépare le dîner et Izzy joue à Minecraft.', 'Marina lit un livre de Percy Jackson à moins qu'Ashleigh ne passe si, et seulement si, à la fois Russell fait le dîner et Izzy ne joue pas à Minecraft.', 'Soit Marina lit un livre de Percy Jackson ou Ashleigh ne s'arrête pas au cas où Russell prépare le dîner et Izzy ne joue pas à Minecraft.']
+
+Réponse: Soit Marina lit un livre de Percy Jackson ou Ashleigh ne s'arrête pas au cas où Russell prépare le dîner et Izzy ne joue pas à Minecraft."
+"Laquelle des formules données de PL est la meilleure symbolisation de la phrase suivante? Brittany aime les poissons et les lézards, mais pas les chats.",formal_logic,"['F • L • ~C', '(F) (L) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C)', '(F • L)  ~C', 'C • (F • L)']",1,"Question: Laquelle des formules données de PL est la meilleure symbolisation de la phrase suivante? Brittany aime les poissons et les lézards, mais pas les chats.
+
+Choix: ['F • L • ~C', '(F) (L) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C)', '(F • L)  ~C', 'C • (F • L)']
+
+Réponse: (F) (L) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C)"
+"Laquelle des formules données de PL est la meilleure symbolisation de la phrase suivante? Si Harry s'inscrit ou George ne s'inscrit pas, alors Jim s'inscrit.",formal_logic,"['H  (~G  J)', 'Il n'y a pas d'exception à cette règle.', '(H  ~G)  J', '(H  ~G)  J']",2,"Question: Laquelle des formules données de PL est la meilleure symbolisation de la phrase suivante? Si Harry s'inscrit ou George ne s'inscrit pas, alors Jim s'inscrit.
+
+Choix: ['H  (~G  J)', 'Il n'y a pas d'exception à cette règle.', '(H  ~G)  J', '(H  ~G)  J']
+
+Réponse: (H  ~G)  J"
+"Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) ~X  Y Y  Z ~Z / ~X",formal_logic,"['Vérifié', 'Contre-exemple lorsque X, Y et Z sont vrais', 'Invalide. Contre-exemple lorsque Y et Z sont vrais et Z est faux', 'Invalide. Contre-exemple lorsque X est vrai et Y et Z sont faux']",3,"Question: Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) ~X  Y Y  Z ~Z / ~X
+
+Choix: ['Vérifié', 'Contre-exemple lorsque X, Y et Z sont vrais', 'Invalide. Contre-exemple lorsque Y et Z sont vrais et Z est faux', 'Invalide. Contre-exemple lorsque X est vrai et Y et Z sont faux']
+
+Réponse: Invalide. Contre-exemple lorsque X est vrai et Y et Z sont faux"
+S Sélectionner la meilleure traduction en logique de prédicat Des gens gentils aident des espèces en voie de disparition. (Ex: x est en voie de disparition; Kx: x est gentil; Px: x est une personne; Sx: x est une espèce; Hxy: x aide y),formal_logic,"['(x) {(Kx • Px) • (y) [(Ey • Sy) • Hxy]}', '(x) ((y) {[(Kx • Sx) • (Ey • Py) ] • Hxy}', '(x) ((y) {[(Kx • Sx) • (Ey • Py) ] • Hyx}', '(x) y) {[(Kx • Px) • (Ey • Sy)  Hxy}']",0,"Question: S Sélectionner la meilleure traduction en logique de prédicat Des gens gentils aident des espèces en voie de disparition. (Ex: x est en voie de disparition; Kx: x est gentil; Px: x est une personne; Sx: x est une espèce; Hxy: x aide y)
+
+Choix: ['(x) {(Kx • Px) • (y) [(Ey • Sy) • Hxy]}', '(x) ((y) {[(Kx • Sx) • (Ey • Py) ] • Hxy}', '(x) ((y) {[(Kx • Sx) • (Ey • Py) ] • Hyx}', '(x) y) {[(Kx • Px) • (Ey • Sy)  Hxy}']
+
+Réponse: (x) {(Kx • Px) • (y) [(Ey • Sy) • Hxy]}"
+Sélectionner la meilleure interprétation anglaise de la proposition donnée en utilisant la clé de traduction suivante: Ax: x est un appartement Hx: x est une maison Lx: x est grand Bxy: x est plus grand que y (∀x) [Ax  (y) ((Hy • Bxy) ],formal_logic,"['Chaque appartement est plus grand qu'une maison.', 'Chaque maison est plus grande que tous les appartements.', 'Chaque maison est plus grande qu'un appartement.', 'Certaines maisons sont plus grandes que tous les appartements.']",0,"Question: Sélectionner la meilleure interprétation anglaise de la proposition donnée en utilisant la clé de traduction suivante: Ax: x est un appartement Hx: x est une maison Lx: x est grand Bxy: x est plus grand que y (∀x) [Ax  (y) ((Hy • Bxy) ]
+
+Choix: ['Chaque appartement est plus grand qu'une maison.', 'Chaque maison est plus grande que tous les appartements.', 'Chaque maison est plus grande qu'un appartement.', 'Certaines maisons sont plus grandes que tous les appartements.']
+
+Réponse: Chaque appartement est plus grand qu'une maison."
+"Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) Q  R ~(S  Q) / R",formal_logic,"['Vérifié', 'Invalide. Contre-exemple lorsque Q et S sont vrais et R est faux', 'Invalide. Contre-exemple lorsque Q est vrai et S et R sont faux', 'Invalide. Contre-exemple lorsque Q, S et R sont faux']",3,"Question: Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) Q  R ~(S  Q) / R
+
+Choix: ['Vérifié', 'Invalide. Contre-exemple lorsque Q et S sont vrais et R est faux', 'Invalide. Contre-exemple lorsque Q est vrai et S et R sont faux', 'Invalide. Contre-exemple lorsque Q, S et R sont faux']
+
+Réponse: Invalide. Contre-exemple lorsque Q, S et R sont faux"
+Identifiez l'antécédent de la proposition conditionnelle suivante: L'université augmente les frais de scolarité uniquement si le gouverneur l'approuve et si le conseil d'administration le recommande.,formal_logic,"['L'université augmente les frais de scolarité.', 'Le gouverneur l'approuve.', 'Le conseil d'administration le recommande.', 'Le gouverneur l'approuve et le conseil d'administration le recommande.']",0,"Question: Identifiez l'antécédent de la proposition conditionnelle suivante: L'université augmente les frais de scolarité uniquement si le gouverneur l'approuve et si le conseil d'administration le recommande.
+
+Choix: ['L'université augmente les frais de scolarité.', 'Le gouverneur l'approuve.', 'Le conseil d'administration le recommande.', 'Le gouverneur l'approuve et le conseil d'administration le recommande.']
+
+Réponse: L'université augmente les frais de scolarité."
+Laquelle des propositions suivantes est une conséquence immédiate (en une étape) dans PL des prémisses données? (A  B)  (C  D) A  B ~ C,formal_logic,"['~A  ~B Je ne sais pas ce que c'est', 'Je suis désolée.', 'C  D', '(A  B)  D']",2,"Question: Laquelle des propositions suivantes est une conséquence immédiate (en une étape) dans PL des prémisses données? (A  B)  (C  D) A  B ~ C
+
+Choix: ['~A  ~B Je ne sais pas ce que c'est', 'Je suis désolée.', 'C  D', '(A  B)  D']
+
+Réponse: C  D"
+"Identifiez l'antécédent de la proposition conditionnelle suivante: Lorsque l'université augmente les frais de scolarité alors soit le gouverneur l'approuve, soit le conseil d'administration ne l'empêche pas.",formal_logic,"['L'université augmente les frais de scolarité.', 'Le gouverneur l'approuve.', 'Le conseil d'administration l'empêche.', 'Le conseil d'administration ne l'empêche pas.']",0,"Question: Identifiez l'antécédent de la proposition conditionnelle suivante: Lorsque l'université augmente les frais de scolarité alors soit le gouverneur l'approuve, soit le conseil d'administration ne l'empêche pas.
+
+Choix: ['L'université augmente les frais de scolarité.', 'Le gouverneur l'approuve.', 'Le conseil d'administration l'empêche.', 'Le conseil d'administration ne l'empêche pas.']
+
+Réponse: L'université augmente les frais de scolarité."
+Sélectionnez la meilleure traduction en logique de prédicat. Marco ne se déplace pas de l'Espagne vers l'Italie. (i: Italie; m: Marco; s: Espagne; Mxyz: x se déplace de z vers y),formal_logic,"['- Je vous en prie.', 'Je suis désolée.', '- Je suis désolée.', 'Je suis désolée.']",2,"Question: Sélectionnez la meilleure traduction en logique de prédicat. Marco ne se déplace pas de l'Espagne vers l'Italie. (i: Italie; m: Marco; s: Espagne; Mxyz: x se déplace de z vers y)
+
+Choix: ['- Je vous en prie.', 'Je suis désolée.', '- Je suis désolée.', 'Je suis désolée.']
+
+Réponse: - Je suis désolée."
+"Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.)",formal_logic,"['Vérifié', 'Contre-exemple lorsque S, T et U sont vrais', 'Invalide. Contre-exemple lorsque S et U sont vrais et T est faux', 'Invalide. Contre-exemple lorsque U est vrai et S et T sont faux']",3,"Question: Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.)
+
+Choix: ['Vérifié', 'Contre-exemple lorsque S, T et U sont vrais', 'Invalide. Contre-exemple lorsque S et U sont vrais et T est faux', 'Invalide. Contre-exemple lorsque U est vrai et S et T sont faux']
+
+Réponse: Invalide. Contre-exemple lorsque U est vrai et S et T sont faux"
+Laquelle des formules données de PL est la meilleure symbolisation de la phrase suivante? Les médecins sont utiles à moins que leurs patients ne soient grossiers.,formal_logic,"['H  R', 'H • R', 'H  ~R', 'H  R']",3,"Question: Laquelle des formules données de PL est la meilleure symbolisation de la phrase suivante? Les médecins sont utiles à moins que leurs patients ne soient grossiers.
+
+Choix: ['H  R', 'H • R', 'H  ~R', 'H  R']
+
+Réponse: H  R"
+"Utilisez des tables de vérité indirectes pour déterminer si l'argument suivant est valide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) L  [(M  ~N)  O] (N  O)  (~P  Q) R  ~Q / L  (R  P)",formal_logic,"['Vérifié', 'Invalide. Contre-exemple lorsque L, M, O, Q et R sont vrais et N et P sont faux', 'Invalide. Contre-exemple lorsque L, N, O, Q et R sont vrais et M et P sont faux', 'Invalide. Contre-exemple lorsque L, N et R sont vrais et M, O, P et Q sont faux']",3,"Question: Utilisez des tables de vérité indirectes pour déterminer si l'argument suivant est valide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) L  [(M  ~N)  O] (N  O)  (~P  Q) R  ~Q / L  (R  P)
+
+Choix: ['Vérifié', 'Invalide. Contre-exemple lorsque L, M, O, Q et R sont vrais et N et P sont faux', 'Invalide. Contre-exemple lorsque L, N, O, Q et R sont vrais et M et P sont faux', 'Invalide. Contre-exemple lorsque L, N et R sont vrais et M, O, P et Q sont faux']
+
+Réponse: Invalide. Contre-exemple lorsque L, N et R sont vrais et M, O, P et Q sont faux"
+"Identifiez la conclusion de l'argument suivant Le sens d'un terme est censé déterminer sa référence Mais la référence peut varier sans aucune différence de pensée Donc, les sens des termes doivent être capables de varier sans variation dans la pensée Ainsi, nos pensées ne déterminent pas les significations de nos termes; les significations ne sont pas dans la tête (Hilary Putnam) Je suis désolée.",formal_logic,"['Le sens d'un terme est censé déterminer sa référence.', 'Mais la référence peut varier sans aucune différence de pensée.', 'La référence peut varier sans aucune différence de pensée.', 'Nos pensées ne déterminent pas le sens de nos termes; le sens n'est pas dans la tête.']",3,"Question: Identifiez la conclusion de l'argument suivant Le sens d'un terme est censé déterminer sa référence Mais la référence peut varier sans aucune différence de pensée Donc, les sens des termes doivent être capables de varier sans variation dans la pensée Ainsi, nos pensées ne déterminent pas les significations de nos termes; les significations ne sont pas dans la tête (Hilary Putnam) Je suis désolée.
+
+Choix: ['Le sens d'un terme est censé déterminer sa référence.', 'Mais la référence peut varier sans aucune différence de pensée.', 'La référence peut varier sans aucune différence de pensée.', 'Nos pensées ne déterminent pas le sens de nos termes; le sens n'est pas dans la tête.']
+
+Réponse: Nos pensées ne déterminent pas le sens de nos termes; le sens n'est pas dans la tête."
+"Construisez une table de vérité complète pour les paires de propositions suivantes Puis, à l'aide des tableaux de vérité, déterminez si les énoncés sont logiquement équivalents ou contradictoires. Si ni l'un ni l'autre, déterminez s'ils sont cohérents ou incohérents Justifiez vos réponses. (G  ~H)  G et ~G  (~H · G)",formal_logic,"['Équivalent logique', 'C' est contradictoire .', 'Ni logiquement équivalents ni contradictoires, mais cohérents', 'Incohérent']",2,"Question: Construisez une table de vérité complète pour les paires de propositions suivantes Puis, à l'aide des tableaux de vérité, déterminez si les énoncés sont logiquement équivalents ou contradictoires. Si ni l'un ni l'autre, déterminez s'ils sont cohérents ou incohérents Justifiez vos réponses. (G  ~H)  G et ~G  (~H · G)
+
+Choix: ['Équivalent logique', 'C' est contradictoire .', 'Ni logiquement équivalents ni contradictoires, mais cohérents', 'Incohérent']
+
+Réponse: Ni logiquement équivalents ni contradictoires, mais cohérents"
+"Soit l'importation de viande bovine par l'Angleterre est une condition nécessaire pour que la France subventionne l'agriculture, soit la promotion des droits de l'homme par la Chine n'est pas une condition suffisante pour que l'Afrique du Sud fournisse des diamants.",formal_logic,"['(E  F)  ~(C  S)', '(E  F)  (~C  S)  (E  F)  (~C  S)  (E  F)  (~C  S)', '(E  F)  ~(C  S)', '(F  E)  ~(C  S) (F  E)  ~(C  S) (F  E)  ~(C  S)']",3,"Question: Soit l'importation de viande bovine par l'Angleterre est une condition nécessaire pour que la France subventionne l'agriculture, soit la promotion des droits de l'homme par la Chine n'est pas une condition suffisante pour que l'Afrique du Sud fournisse des diamants.
+
+Choix: ['(E  F)  ~(C  S)', '(E  F)  (~C  S)  (E  F)  (~C  S)  (E  F)  (~C  S)', '(E  F)  ~(C  S)', '(F  E)  ~(C  S) (F  E)  ~(C  S) (F  E)  ~(C  S)']
+
+Réponse: (F  E)  ~(C  S) (F  E)  ~(C  S) (F  E)  ~(C  S)"
+Sélectionnez la meilleure interprétation anglaise des arguments donnés dans la logique de prédicat. Wn  Wm (∀x) [Lx  (Dx  ~Wx) ] Ln • Dn / ~(∀x) ~Wx,formal_logic,"['Nancy ou Marvin sont au travail. Tous les avocats ne sont pas au travail s'ils sont au dîner. Nancy est avocate et au dîner. Donc tout n'est pas au travail.', 'Nancy ou Marvin sont au travail. Tous les avocats sont au dîner s'ils ne sont pas au travail. Nancy est avocate et au dîner. Donc tout n'est pas au travail.', 'Nancy ou Marvin sont au travail. Tous les avocats sont au dîner s'ils ne sont pas au travail. Nancy est avocate et au dîner. Donc tout n'est pas au travail.', 'Nancy ou Marvin sont au travail. Tous les avocats ne sont pas au travail s'ils sont au dîner. Nancy est avocate et au dîner. Donc tout n'est pas au travail.']",0,"Question: Sélectionnez la meilleure interprétation anglaise des arguments donnés dans la logique de prédicat. Wn  Wm (∀x) [Lx  (Dx  ~Wx) ] Ln • Dn / ~(∀x) ~Wx
+
+Choix: ['Nancy ou Marvin sont au travail. Tous les avocats ne sont pas au travail s'ils sont au dîner. Nancy est avocate et au dîner. Donc tout n'est pas au travail.', 'Nancy ou Marvin sont au travail. Tous les avocats sont au dîner s'ils ne sont pas au travail. Nancy est avocate et au dîner. Donc tout n'est pas au travail.', 'Nancy ou Marvin sont au travail. Tous les avocats sont au dîner s'ils ne sont pas au travail. Nancy est avocate et au dîner. Donc tout n'est pas au travail.', 'Nancy ou Marvin sont au travail. Tous les avocats ne sont pas au travail s'ils sont au dîner. Nancy est avocate et au dîner. Donc tout n'est pas au travail.']
+
+Réponse: Nancy ou Marvin sont au travail. Tous les avocats ne sont pas au travail s'ils sont au dîner. Nancy est avocate et au dîner. Donc tout n'est pas au travail."
+"Identifiez la conclusion de l'argument suivant N'oubliez pas de supprimer tous les indicateurs de conclusion C' est mal pour la société de tuer un meurtrier . Cela s'explique par le fait que si un meurtrier a tort de tuer sa victime, alors la société a également tort de tuer le meurtrier. Et un meurtrier a tort de tuer sa victime.",formal_logic,"['Il est mal pour la société de tuer un meurtrier.', 'Cela s'explique par le fait que si un meurtrier a tort de tuer sa victime, alors la société a aussi tort de tuer le meurtrier.', 'Si un meurtrier a tort de tuer sa victime, alors la société a aussi tort de tuer le meurtrier.', 'Et un meurtrier a tort de tuer sa victime.']",0,"Question: Identifiez la conclusion de l'argument suivant N'oubliez pas de supprimer tous les indicateurs de conclusion C' est mal pour la société de tuer un meurtrier . Cela s'explique par le fait que si un meurtrier a tort de tuer sa victime, alors la société a également tort de tuer le meurtrier. Et un meurtrier a tort de tuer sa victime.
+
+Choix: ['Il est mal pour la société de tuer un meurtrier.', 'Cela s'explique par le fait que si un meurtrier a tort de tuer sa victime, alors la société a aussi tort de tuer le meurtrier.', 'Si un meurtrier a tort de tuer sa victime, alors la société a aussi tort de tuer le meurtrier.', 'Et un meurtrier a tort de tuer sa victime.']
+
+Réponse: Il est mal pour la société de tuer un meurtrier."
+Laquelle des propositions suivantes n'est pas une conséquence immédiate (en une étape) dans PL des prémisses données ?,formal_logic,"['- Je ne sais pas.', 'J  K', 'L  (L  M)', '~L  (J  K) ~L  (J  K) ~L  (J  K)']",3,"Question: Laquelle des propositions suivantes n'est pas une conséquence immédiate (en une étape) dans PL des prémisses données ?
+
+Choix: ['- Je ne sais pas.', 'J  K', 'L  (L  M)', '~L  (J  K) ~L  (J  K) ~L  (J  K)']
+
+Réponse: ~L  (J  K) ~L  (J  K) ~L  (J  K)"
+"Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.)",formal_logic,"['Vérifié', 'Contre-exemple lorsque I et J sont vrais', 'Invalide. Contre-exemple lorsque I est vrai et J est faux', 'Contre-exemple lorsque J est vrai et I est faux']",3,"Question: Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.)
+
+Choix: ['Vérifié', 'Contre-exemple lorsque I et J sont vrais', 'Invalide. Contre-exemple lorsque I est vrai et J est faux', 'Contre-exemple lorsque J est vrai et I est faux']
+
+Réponse: Contre-exemple lorsque J est vrai et I est faux"
+Sélectionnez la meilleure traduction en logique de prédicat: Certaines personnes ont de la chance.,formal_logic,"['(x) (Fx) (Lx) (Lx) (Lx) (Lx) (Lx) (Lx) (Lx) (Lx) (Lx) (Lx) (Lx) (Lx)', 'Nom de l'établissement:', 'Si c' est le cas.', '(∀x) ((Fx • Lx)']",0,"Question: Sélectionnez la meilleure traduction en logique de prédicat: Certaines personnes ont de la chance.
+
+Choix: ['(x) (Fx) (Lx) (Lx) (Lx) (Lx) (Lx) (Lx) (Lx) (Lx) (Lx) (Lx) (Lx) (Lx)', 'Nom de l'établissement:', 'Si c' est le cas.', '(∀x) ((Fx • Lx)']
+
+Réponse: (x) (Fx) (Lx) (Lx) (Lx) (Lx) (Lx) (Lx) (Lx) (Lx) (Lx) (Lx) (Lx) (Lx)"
+Sélectionnez la meilleure traduction en logique de prédicat. Alexis est accueilli par Ben. (a: Alexis; b: Ben; Gxy: x salue y),formal_logic,"['Je suis désolée.', '- Je suis désolée.', 'Nom de l'établissement', 'Nom de l'entreprise']",3,"Question: Sélectionnez la meilleure traduction en logique de prédicat. Alexis est accueilli par Ben. (a: Alexis; b: Ben; Gxy: x salue y)
+
+Choix: ['Je suis désolée.', '- Je suis désolée.', 'Nom de l'établissement', 'Nom de l'entreprise']
+
+Réponse: Nom de l'entreprise"
+Sélectionnez la meilleure traduction en logique de prédicat: Tous les homards ne sont pas rouges.,formal_logic,"['Je ne sais pas ce que c'est.', 'Je ne sais pas ce que c'est.', 'Il n'y a pas de problème.', 'Je ne sais pas ce que c'est.']",0,"Question: Sélectionnez la meilleure traduction en logique de prédicat: Tous les homards ne sont pas rouges.
+
+Choix: ['Je ne sais pas ce que c'est.', 'Je ne sais pas ce que c'est.', 'Il n'y a pas de problème.', 'Je ne sais pas ce que c'est.']
+
+Réponse: Je ne sais pas ce que c'est."
+"Utilisez des tables de vérité indirectes pour déterminer si l'argument suivant est valide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) H  (I · ~J) K  ~H ~(K  J) / I  J",formal_logic,"['Vérifié', 'Contre-exemple lorsque I, H et K sont vrais et J est faux', 'Contre-exemple lorsque I et H sont vrais et J et K sont faux', 'Contre-exemple lorsque K est vrai et I, H et J sont faux']",0,"Question: Utilisez des tables de vérité indirectes pour déterminer si l'argument suivant est valide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) H  (I · ~J) K  ~H ~(K  J) / I  J
+
+Choix: ['Vérifié', 'Contre-exemple lorsque I, H et K sont vrais et J est faux', 'Contre-exemple lorsque I et H sont vrais et J et K sont faux', 'Contre-exemple lorsque K est vrai et I, H et J sont faux']
+
+Réponse: Vérifié"
+"Construisez une table de vérité complète pour les paires de propositions suivantes Puis, à l'aide des tableaux de vérité, déterminez si les énoncés sont logiquement équivalents ou contradictoires. Si ni l'un ni l'autre, déterminez s'ils sont cohérents ou incohérents Justifiez vos réponses.",formal_logic,"['Équivalent logique', 'C' est contradictoire .', 'Ni logiquement équivalents ni contradictoires, mais cohérents', 'Incohérent']",3,"Question: Construisez une table de vérité complète pour les paires de propositions suivantes Puis, à l'aide des tableaux de vérité, déterminez si les énoncés sont logiquement équivalents ou contradictoires. Si ni l'un ni l'autre, déterminez s'ils sont cohérents ou incohérents Justifiez vos réponses.
+
+Choix: ['Équivalent logique', 'C' est contradictoire .', 'Ni logiquement équivalents ni contradictoires, mais cohérents', 'Incohérent']
+
+Réponse: Incohérent"
+Sélectionnez la meilleure traduction en logique de prédicat: Tous les étudiants de première année passent un test de natation.,formal_logic,"['(∀x) (Sx  Fx) (∀x) (Sx  Fx) (∀x) (Sx  Fx)', '(∀x) ((Fx  Sx)', '(∀x) ((Fx  Sx)', '(∀x) ((Fx  Sx)']",1,"Question: Sélectionnez la meilleure traduction en logique de prédicat: Tous les étudiants de première année passent un test de natation.
+
+Choix: ['(∀x) (Sx  Fx) (∀x) (Sx  Fx) (∀x) (Sx  Fx)', '(∀x) ((Fx  Sx)', '(∀x) ((Fx  Sx)', '(∀x) ((Fx  Sx)']
+
+Réponse: (∀x) ((Fx  Sx)"
+Sélectionnez la meilleure traduction en logique de prédicat: Johnny est arrivé en retard.,formal_logic,"['JL (en anglais)', 'Je vous en prie.', 'Cj  Lj', 'Nom de l'expéditeur:']",1,"Question: Sélectionnez la meilleure traduction en logique de prédicat: Johnny est arrivé en retard.
+
+Choix: ['JL (en anglais)', 'Je vous en prie.', 'Cj  Lj', 'Nom de l'expéditeur:']
+
+Réponse: Je vous en prie."
+Sélectionnez la meilleure traduction en logique de prédicat: Pas de diplômés seniors sans une majeure.,formal_logic,"['(∀x) (Sx  ~Gx)', 'Je ne sais pas ce que c'est.', '(∀x) (Sx) (Gx) (Sx) (Gx) (Gx) (Gx) (Gx) (Gx) (Gx) (Gx) (Gx) (Gx) (Gx) (Gx) (Gx) (Gx)', '(∀x) ~(Sx  ~Gx)']",0,"Question: Sélectionnez la meilleure traduction en logique de prédicat: Pas de diplômés seniors sans une majeure.
+
+Choix: ['(∀x) (Sx  ~Gx)', 'Je ne sais pas ce que c'est.', '(∀x) (Sx) (Gx) (Sx) (Gx) (Gx) (Gx) (Gx) (Gx) (Gx) (Gx) (Gx) (Gx) (Gx) (Gx) (Gx) (Gx)', '(∀x) ~(Sx  ~Gx)']
+
+Réponse: (∀x) (Sx  ~Gx)"
+"Identifiez la conclusion de l'argument suivant D'un point de vue historique, la génétique est une science jeune. Les principes qui régissent l'hérédité ont été décrits il y a moins de 150 ans. En outre, vers le début du XXe siècle, les lois de l'héritage ont été redécouvertes. Mais même alors, l'importance de l'ADN n'a pas été vraiment comprise avant les années 1950.",formal_logic,"['Mais même alors, l'importance de l'ADN n'a pas été vraiment comprise avant les années 1950.', 'L'importance de l'ADN n'a pas été vraiment comprise avant les années 1950.', 'D'un point de vue historique, la génétique est une science jeune.', 'Les principes qui régissent l'hérédité ont été décrits il y a moins de 150 ans.']",2,"Question: Identifiez la conclusion de l'argument suivant D'un point de vue historique, la génétique est une science jeune. Les principes qui régissent l'hérédité ont été décrits il y a moins de 150 ans. En outre, vers le début du XXe siècle, les lois de l'héritage ont été redécouvertes. Mais même alors, l'importance de l'ADN n'a pas été vraiment comprise avant les années 1950.
+
+Choix: ['Mais même alors, l'importance de l'ADN n'a pas été vraiment comprise avant les années 1950.', 'L'importance de l'ADN n'a pas été vraiment comprise avant les années 1950.', 'D'un point de vue historique, la génétique est une science jeune.', 'Les principes qui régissent l'hérédité ont été décrits il y a moins de 150 ans.']
+
+Réponse: D'un point de vue historique, la génétique est une science jeune."
+"Laquelle des formules données de PL est la meilleure symbolisation de la phrase suivante? Soit l'importation de viande bovine de l'Angleterre est une condition nécessaire pour la subvention de l'agriculture de la France, soit la Chine promeut les droits de l'homme étant donné que l'Afrique du Sud ne fournit pas de diamants.",formal_logic,"['(E  F)  (C  ~S)  (E  F)  (C  ~S)  (E  F)  (C  ~S)', '(F  E)  (~S  C) (F  E)  (~S  C) (F  E)  (~S  C)', '(E  F)  (S ~C)  (E  F)  (S ~C)  (E  F)  (S ~C)', '(F  E)  (~S  C) (F  E)  (~S  C) (F  E)  (~S  C)']",3,"Question: Laquelle des formules données de PL est la meilleure symbolisation de la phrase suivante? Soit l'importation de viande bovine de l'Angleterre est une condition nécessaire pour la subvention de l'agriculture de la France, soit la Chine promeut les droits de l'homme étant donné que l'Afrique du Sud ne fournit pas de diamants.
+
+Choix: ['(E  F)  (C  ~S)  (E  F)  (C  ~S)  (E  F)  (C  ~S)', '(F  E)  (~S  C) (F  E)  (~S  C) (F  E)  (~S  C)', '(E  F)  (S ~C)  (E  F)  (S ~C)  (E  F)  (S ~C)', '(F  E)  (~S  C) (F  E)  (~S  C) (F  E)  (~S  C)']
+
+Réponse: (F  E)  (~S  C) (F  E)  (~S  C) (F  E)  (~S  C)"
+L'importation de viande bovine par l'Angleterre est une condition suffisante pour que la France subventionne l'agriculture ou la promotion des droits de l'homme par la Chine est une condition nécessaire pour que l'Afrique du Sud fournisse des diamants.,formal_logic,"['(E  F)  (S  C)', '(F  E)  (C  S)  (F  E)  (C  S)  (F  E)  (C  S)', '(E  F)  (C  S)  (E  F)  (C  S)  (E  F)  (C  S)', '(F  E)  (S  C)']",0,"Question: L'importation de viande bovine par l'Angleterre est une condition suffisante pour que la France subventionne l'agriculture ou la promotion des droits de l'homme par la Chine est une condition nécessaire pour que l'Afrique du Sud fournisse des diamants.
+
+Choix: ['(E  F)  (S  C)', '(F  E)  (C  S)  (F  E)  (C  S)  (F  E)  (C  S)', '(E  F)  (C  S)  (E  F)  (C  S)  (E  F)  (C  S)', '(F  E)  (S  C)']
+
+Réponse: (E  F)  (S  C)"
+Laquelle des formules données de PL est la meilleure symbolisation de la phrase suivante? Dylan n'aime ni les mathématiques ni les sciences.,formal_logic,"['M  S', '- Je ne sais pas.', '- Je ne sais pas.', 'Je suis désolée.']",2,"Question: Laquelle des formules données de PL est la meilleure symbolisation de la phrase suivante? Dylan n'aime ni les mathématiques ni les sciences.
+
+Choix: ['M  S', '- Je ne sais pas.', '- Je ne sais pas.', 'Je suis désolée.']
+
+Réponse: - Je ne sais pas."
+Sélectionnez la meilleure traduction en logique de prédicat: Tous les robots sont des artefacts.,formal_logic,"['(∀x) ((Ax  Rx)', '(∀x) ((Ax • Rx)', '(∀x) ((Rx  Ax)', '(∀x) (Rx) (Rx) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X)']",2,"Question: Sélectionnez la meilleure traduction en logique de prédicat: Tous les robots sont des artefacts.
+
+Choix: ['(∀x) ((Ax  Rx)', '(∀x) ((Ax • Rx)', '(∀x) ((Rx  Ax)', '(∀x) (Rx) (Rx) (X) (X) (X) (X) (X) (X) (X) (X) (X) (X)']
+
+Réponse: (∀x) ((Rx  Ax)"
+Quelle des formules de PL est la meilleure représentation de la phrase suivante ? Le président l'a approuvé et le conseil ne l'a pas empêché.,formal_logic,"['(P • ~B)  U', '(U  P) • B', 'U  (P • ~B) U  (P • ~B) U  (P • ~B)', 'U  (P  ~B) U  (P  ~B) U  (P  ~B)']",2,"Question: Quelle des formules de PL est la meilleure représentation de la phrase suivante ? Le président l'a approuvé et le conseil ne l'a pas empêché.
+
+Choix: ['(P • ~B)  U', '(U  P) • B', 'U  (P • ~B) U  (P • ~B) U  (P • ~B)', 'U  (P  ~B) U  (P  ~B) U  (P  ~B)']
+
+Réponse: U  (P • ~B) U  (P • ~B) U  (P • ~B)"
+"Identifiez la conclusion de l'argument suivant Nous ne devrions pas abolir la peine capitale. Si nous le faisons, les prisons deviendront plus encombrées. Si les prisons deviennent plus encombrées, alors nous devrons construire plus de prisons. Et nous ne voulons pas construire plus de prisons.",formal_logic,"['Nous ne devrions pas abolir la peine capitale.', 'Si nous le faisons, les prisons deviendront plus encombrées.', 'Si les prisons deviennent plus encombrées, alors nous devrons construire plus de prisons.', 'Nous devrons construire plus de prisons.']",0,"Question: Identifiez la conclusion de l'argument suivant Nous ne devrions pas abolir la peine capitale. Si nous le faisons, les prisons deviendront plus encombrées. Si les prisons deviennent plus encombrées, alors nous devrons construire plus de prisons. Et nous ne voulons pas construire plus de prisons.
+
+Choix: ['Nous ne devrions pas abolir la peine capitale.', 'Si nous le faisons, les prisons deviendront plus encombrées.', 'Si les prisons deviennent plus encombrées, alors nous devrons construire plus de prisons.', 'Nous devrons construire plus de prisons.']
+
+Réponse: Nous ne devrions pas abolir la peine capitale."
+"Parmi les formules de PL données, quelle est la meilleure représentation de la phrase suivante: soit le fait que l'Angleterre n'importe pas de viande bovine est une condition nécessaire pour que la France subventionne l'agriculture ou la Chine promeut les droits de l'homme si et seulement si l'Afrique du Sud ne fournit pas de diamants.",formal_logic,"['(F  ~E)  (C  ~S)  (F  ~E)  (C  ~S)  (F  ~E)  (C  ~S)', '(~E  F)  (C  ~S) (~E  F)  (C  ~S) (~E  F)  (C  ~S)', 'Il s'agit d'un groupe de travail composé de représentants des ministres des Affaires étrangères, des ministres des Affaires étrangères, des ministres des Affaires étrangères, des ministres des Affaires étrangères, des ministres des Affaires étrangères, des ministres des Affaires étrangères, des ministres des Affaires étrangères et des ministres des Affaires étrangères.', '(F  E)  (C  ~S) (F  E)  (C  ~S) (F  E)  (C  ~S)']",0,"Question: Parmi les formules de PL données, quelle est la meilleure représentation de la phrase suivante: soit le fait que l'Angleterre n'importe pas de viande bovine est une condition nécessaire pour que la France subventionne l'agriculture ou la Chine promeut les droits de l'homme si et seulement si l'Afrique du Sud ne fournit pas de diamants.
+
+Choix: ['(F  ~E)  (C  ~S)  (F  ~E)  (C  ~S)  (F  ~E)  (C  ~S)', '(~E  F)  (C  ~S) (~E  F)  (C  ~S) (~E  F)  (C  ~S)', 'Il s'agit d'un groupe de travail composé de représentants des ministres des Affaires étrangères, des ministres des Affaires étrangères, des ministres des Affaires étrangères, des ministres des Affaires étrangères, des ministres des Affaires étrangères, des ministres des Affaires étrangères, des ministres des Affaires étrangères et des ministres des Affaires étrangères.', '(F  E)  (C  ~S) (F  E)  (C  ~S) (F  E)  (C  ~S)']
+
+Réponse: (F  ~E)  (C  ~S)  (F  ~E)  (C  ~S)  (F  ~E)  (C  ~S)"
+"Utilisez des tables de vérité indirectes pour déterminer si l'argument suivant est valide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) (K · L)  M N  ~M N  K / L  K",formal_logic,"['Vérifié', 'Invalide. Contre-exemple lorsque L, M et N sont vrais et K est faux', 'Invalide. Contre-exemple lorsque L et M sont vrais et K et N sont faux', 'Invalide. Contre-exemple lorsque L et N sont vrais et K et M sont faux']",3,"Question: Utilisez des tables de vérité indirectes pour déterminer si l'argument suivant est valide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) (K · L)  M N  ~M N  K / L  K
+
+Choix: ['Vérifié', 'Invalide. Contre-exemple lorsque L, M et N sont vrais et K est faux', 'Invalide. Contre-exemple lorsque L et M sont vrais et K et N sont faux', 'Invalide. Contre-exemple lorsque L et N sont vrais et K et M sont faux']
+
+Réponse: Invalide. Contre-exemple lorsque L et N sont vrais et K et M sont faux"
+"Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) (G  H) · ~I ~G  (~H  I) / G",formal_logic,"['Vérifié', 'Contre-exemple lorsque H et I sont vrais et G est faux', 'Invalide. Contre-exemple lorsque H est vrai et I et G sont faux', 'Contre-exemple lorsque H, I et G sont faux']",3,"Question: Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.) (G  H) · ~I ~G  (~H  I) / G
+
+Choix: ['Vérifié', 'Contre-exemple lorsque H et I sont vrais et G est faux', 'Invalide. Contre-exemple lorsque H est vrai et I et G sont faux', 'Contre-exemple lorsque H, I et G sont faux']
+
+Réponse: Contre-exemple lorsque H, I et G sont faux"
+"Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.)",formal_logic,"['Vérifié', 'Invalide. Contre-exemple lorsque M et N sont vrais', 'Invalide. Contre-exemple lorsque M est vrai et N est faux', 'Invalide. Contre-exemple lorsque N est vrai et M est faux']",0,"Question: Construire une table de vérité complète pour l'argument suivant Ensuite, en utilisant la table de vérité, déterminer si l'argument est valide ou invalide Si l'argument est invalide, choisissez une option qui présente un contre-exemple (Il peut y avoir d'autres contre-exemples aussi.)
+
+Choix: ['Vérifié', 'Invalide. Contre-exemple lorsque M et N sont vrais', 'Invalide. Contre-exemple lorsque M est vrai et N est faux', 'Invalide. Contre-exemple lorsque N est vrai et M est faux']
+
+Réponse: Vérifié"
+Sélectionnez la meilleure traduction en logique de prédicat. Un PDG est plus riche que tout le monde. (Cx: x est un PDG; Px: x est une personne; Wxy: x est plus riche que y),formal_logic,"['(x) [Cx • (∀y) ((Py • Wxy) ]', '(x) [Cx  (∀y) ((Py  Wxy) ]', '(x) [Cx • (∀y) ((Py  Wxy) ]', '(∀x) [Px  (y) ((Cy  Wxy) ]']",2,"Question: Sélectionnez la meilleure traduction en logique de prédicat. Un PDG est plus riche que tout le monde. (Cx: x est un PDG; Px: x est une personne; Wxy: x est plus riche que y)
+
+Choix: ['(x) [Cx • (∀y) ((Py • Wxy) ]', '(x) [Cx  (∀y) ((Py  Wxy) ]', '(x) [Cx • (∀y) ((Py  Wxy) ]', '(∀x) [Px  (y) ((Cy  Wxy) ]']
+
+Réponse: (x) [Cx • (∀y) ((Py  Wxy) ]"
+Sélectionnez la meilleure traduction en logique de prédicat. Tous les enfants vont à une école. (Cx: x est un enfant; Sx: x est une école; Gxy: x va à y),formal_logic,"['(∀x) y) Cx • Sy) • Gxy)', '(∀x) [Sx  (y) ((Cy • Gxy) ]', '(∀x) [Cx  (y) ((Sy • Gxy) ]', '(∀x) [Sx • (y) ((Cy • Gxy) ]']",2,"Question: Sélectionnez la meilleure traduction en logique de prédicat. Tous les enfants vont à une école. (Cx: x est un enfant; Sx: x est une école; Gxy: x va à y)
+
+Choix: ['(∀x) y) Cx • Sy) • Gxy)', '(∀x) [Sx  (y) ((Cy • Gxy) ]', '(∀x) [Cx  (y) ((Sy • Gxy) ]', '(∀x) [Sx • (y) ((Cy • Gxy) ]']
+
+Réponse: (∀x) [Cx  (y) ((Sy • Gxy) ]"

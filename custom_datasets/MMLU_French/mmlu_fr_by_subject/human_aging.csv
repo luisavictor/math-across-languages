@@ -1,0 +1,1116 @@
+question,subject,choices,answer,qa
+L'étude des personnes âgées et du vieillissement est appelée,human_aging,"['Gérontologie', 'Géropsychiatrie', 'Santé des personnes âgées', 'L'éducation des personnes âgées']",0,"Question: L'étude des personnes âgées et du vieillissement est appelée
+
+Choix: ['Gérontologie', 'Géropsychiatrie', 'Santé des personnes âgées', 'L'éducation des personnes âgées']
+
+Réponse: Gérontologie"
+Lequel des facteurs suivants est associé à une diminution du risque de maladie d'Alzheimer?,human_aging,"['Être afro-américain ou hispanique', 'Manger du poisson', 'Un niveau d'éducation inférieur', 'Être marié']",1,"Question: Lequel des facteurs suivants est associé à une diminution du risque de maladie d'Alzheimer?
+
+Choix: ['Être afro-américain ou hispanique', 'Manger du poisson', 'Un niveau d'éducation inférieur', 'Être marié']
+
+Réponse: Manger du poisson"
+L'hypothèse de la docilité est que,human_aging,"['Ceux qui ont de faibles capacités sont plus vulnérables aux exigences environnementales', 'Ceux qui font face à des exigences environnementales élevées deviennent plus dociles.', 'Ceux qui font face à des exigences environnementales élevées deviennent moins dociles.', 'Ceux qui ont moins de capacités sont moins vulnérables aux exigences environnementales']",0,"Question: L'hypothèse de la docilité est que
+
+Choix: ['Ceux qui ont de faibles capacités sont plus vulnérables aux exigences environnementales', 'Ceux qui font face à des exigences environnementales élevées deviennent plus dociles.', 'Ceux qui font face à des exigences environnementales élevées deviennent moins dociles.', 'Ceux qui ont moins de capacités sont moins vulnérables aux exigences environnementales']
+
+Réponse: Ceux qui ont de faibles capacités sont plus vulnérables aux exigences environnementales"
+La mémoire normale semble être améliorée par,human_aging,"['Exercice aérobie', 'Utilisation de l'acétylcholine', 'Prendre du gingko', 'Renforcement des contacts sociaux']",0,"Question: La mémoire normale semble être améliorée par
+
+Choix: ['Exercice aérobie', 'Utilisation de l'acétylcholine', 'Prendre du gingko', 'Renforcement des contacts sociaux']
+
+Réponse: Exercice aérobie"
+La perspective selon laquelle le développement est ancré dans l'histoire signifie que,human_aging,"['Le changement peut toujours se produire indépendamment de l'âge.', 'Les conditions socioculturelles doivent toujours être prises en considération', 'Le développement dans un domaine particulier (par exemple, social) est lié au développement dans d'autres domaines (par exemple, cognitif)', 'Certaines caractéristiques changent avec l'âge tandis que d'autres ne le font pas.']",1,"Question: La perspective selon laquelle le développement est ancré dans l'histoire signifie que
+
+Choix: ['Le changement peut toujours se produire indépendamment de l'âge.', 'Les conditions socioculturelles doivent toujours être prises en considération', 'Le développement dans un domaine particulier (par exemple, social) est lié au développement dans d'autres domaines (par exemple, cognitif)', 'Certaines caractéristiques changent avec l'âge tandis que d'autres ne le font pas.']
+
+Réponse: Les conditions socioculturelles doivent toujours être prises en considération"
+"La réponse ""les deux jouent un rôle important"" s'applique clairement à la question suivante:",human_aging,"['La nature contre l'éducation', 'Le mécanisme contre l'organisme', 'Continuité ou discontinuité', 'Toutes ces questions']",3,"Question: La réponse ""les deux jouent un rôle important"" s'applique clairement à la question suivante:
+
+Choix: ['La nature contre l'éducation', 'Le mécanisme contre l'organisme', 'Continuité ou discontinuité', 'Toutes ces questions']
+
+Réponse: Toutes ces questions"
+Lequel des éléments suivants n'apparaît PAS habituellement dans la lentille de l'œil à mesure que l'on vieillit?,human_aging,"['Il devient plus épais.', 'Il est jaune .', 'Il devient nuageux', 'Il se remplit de liquide .']",3,"Question: Lequel des éléments suivants n'apparaît PAS habituellement dans la lentille de l'œil à mesure que l'on vieillit?
+
+Choix: ['Il devient plus épais.', 'Il est jaune .', 'Il devient nuageux', 'Il se remplit de liquide .']
+
+Réponse: Il se remplit de liquide ."
+Les maisons du futur peuvent vous permettre de faire fonctionner pratiquement tout dans la maison à partir d'un terminal central; une telle maison est déjà en production et est appelée,human_aging,"['Technohouse', 'Maison de comptoir', 'La maison du futur', 'Maison éclairée']",3,"Question: Les maisons du futur peuvent vous permettre de faire fonctionner pratiquement tout dans la maison à partir d'un terminal central; une telle maison est déjà en production et est appelée
+
+Choix: ['Technohouse', 'Maison de comptoir', 'La maison du futur', 'Maison éclairée']
+
+Réponse: Maison éclairée"
+La différence de temps de réaction entre les adultes plus jeunes et les adultes plus âgés est réduite lorsque les adultes plus âgés,human_aging,"['Faites régulièrement de l'exercice aérobie.', 'Soulever des poids selon un horaire régulier', 'Consommer de grandes quantités de vitamines', 'Pratiquez le Tai Chi']",0,"Question: La différence de temps de réaction entre les adultes plus jeunes et les adultes plus âgés est réduite lorsque les adultes plus âgés
+
+Choix: ['Faites régulièrement de l'exercice aérobie.', 'Soulever des poids selon un horaire régulier', 'Consommer de grandes quantités de vitamines', 'Pratiquez le Tai Chi']
+
+Réponse: Faites régulièrement de l'exercice aérobie."
+Une différence majeure entre les théories programmées et non programmées de la sénescence est que les théories programmées,human_aging,"['Attribuer la sénescence uniquement à des facteurs environnementaux', 'Sont beaucoup trop difficiles à tester', 'L'affirmation selon laquelle la sénescence suit un plan prédéterminé', 'Faire trop confiance aux modèles informatiques']",2,"Question: Une différence majeure entre les théories programmées et non programmées de la sénescence est que les théories programmées
+
+Choix: ['Attribuer la sénescence uniquement à des facteurs environnementaux', 'Sont beaucoup trop difficiles à tester', 'L'affirmation selon laquelle la sénescence suit un plan prédéterminé', 'Faire trop confiance aux modèles informatiques']
+
+Réponse: L'affirmation selon laquelle la sénescence suit un plan prédéterminé"
+Une des raisons pour lesquelles les personnes âgées font preuve d'un haut niveau d'optimisme est que,human_aging,"['Beaucoup de pessimistes meurent plus jeunes.', 'Ils ne savent pas vraiment ce qui se passe.', 'C' est peut-être un signe avant-coureur de démence .', 'Nos mesures ont une faible validité.']",0,"Question: Une des raisons pour lesquelles les personnes âgées font preuve d'un haut niveau d'optimisme est que
+
+Choix: ['Beaucoup de pessimistes meurent plus jeunes.', 'Ils ne savent pas vraiment ce qui se passe.', 'C' est peut-être un signe avant-coureur de démence .', 'Nos mesures ont une faible validité.']
+
+Réponse: Beaucoup de pessimistes meurent plus jeunes."
+Bu est souvent en retard aux rendez-vous mais dit que c'est parce qu'elle avait des choses plus importantes à l'esprit.,human_aging,"['Immunisation', 'Hébergement', 'Évitement', 'L'assimilation']",0,"Question: Bu est souvent en retard aux rendez-vous mais dit que c'est parce qu'elle avait des choses plus importantes à l'esprit.
+
+Choix: ['Immunisation', 'Hébergement', 'Évitement', 'L'assimilation']
+
+Réponse: Immunisation"
+Lequel des éléments suivants est le plus fortement associé à la perte de densité osseuse ?,human_aging,"['Facteurs génétiques', 'Facteurs liés au mode de vie tels que le fait de ne pas faire d'exercice', 'Facteurs hormonaux tels que la perte d'œstrogènes', 'Facteurs de cohorte']",1,"Question: Lequel des éléments suivants est le plus fortement associé à la perte de densité osseuse ?
+
+Choix: ['Facteurs génétiques', 'Facteurs liés au mode de vie tels que le fait de ne pas faire d'exercice', 'Facteurs hormonaux tels que la perte d'œstrogènes', 'Facteurs de cohorte']
+
+Réponse: Facteurs liés au mode de vie tels que le fait de ne pas faire d'exercice"
+Ce thé glacé super sucré que ta grand-mère te donne pourrait être comme ça parce qu'elle,human_aging,"['Il a perdu beaucoup de papilles sucrées et ne peut plus goûter la douceur.', 'Est un membre de cette cohorte qui aime vraiment les bonbons', 'Est d'essayer de vous obtenir d'être un peu plus doux que vous avez été dans le passé', 'A subi des dommages dans son lobe pariétal où les sensations sucrées sont dirigées']",0,"Question: Ce thé glacé super sucré que ta grand-mère te donne pourrait être comme ça parce qu'elle
+
+Choix: ['Il a perdu beaucoup de papilles sucrées et ne peut plus goûter la douceur.', 'Est un membre de cette cohorte qui aime vraiment les bonbons', 'Est d'essayer de vous obtenir d'être un peu plus doux que vous avez été dans le passé', 'A subi des dommages dans son lobe pariétal où les sensations sucrées sont dirigées']
+
+Réponse: Il a perdu beaucoup de papilles sucrées et ne peut plus goûter la douceur."
+Une carence en ces deux vitamines peut produire des symptômes qui imitent la démence:,human_aging,"['A et C', 'B6 et B12', 'B6 et D', 'B12 et E']",1,"Question: Une carence en ces deux vitamines peut produire des symptômes qui imitent la démence:
+
+Choix: ['A et C', 'B6 et B12', 'B6 et D', 'B12 et E']
+
+Réponse: B6 et B12"
+Lequel des éléments suivants est l'un des niveaux de personnalité de McAdam ?,human_aging,"['Le contrôle', 'Nom de l'établissement', 'La générativité', 'L'assimilation']",1,"Question: Lequel des éléments suivants est l'un des niveaux de personnalité de McAdam ?
+
+Choix: ['Le contrôle', 'Nom de l'établissement', 'La générativité', 'L'assimilation']
+
+Réponse: Nom de l'établissement"
+"Dans le présent chapitre, le docteur Donham nous a dit que la stimulation mentale, l'exercice physique, l'alimentation et quel autre facteur sont importants pour vivre longtemps?",human_aging,"['Des quantités modérées d'alcool', 'Soutien social', 'Les bons gènes', 'Éviter le stress']",2,"Question: Dans le présent chapitre, le docteur Donham nous a dit que la stimulation mentale, l'exercice physique, l'alimentation et quel autre facteur sont importants pour vivre longtemps?
+
+Choix: ['Des quantités modérées d'alcool', 'Soutien social', 'Les bons gènes', 'Éviter le stress']
+
+Réponse: Les bons gènes"
+Des enquêtes menées auprès d'adultes âgés qui vivent ensemble montrent qu'ils ont tendance à considérer la cohabitation comme,human_aging,"['Un premier pas vers le mariage', 'Une alternative au mariage', 'Une façon d'économiser sur les dépenses', 'Leur chant du cygne']",1,"Question: Des enquêtes menées auprès d'adultes âgés qui vivent ensemble montrent qu'ils ont tendance à considérer la cohabitation comme
+
+Choix: ['Un premier pas vers le mariage', 'Une alternative au mariage', 'Une façon d'économiser sur les dépenses', 'Leur chant du cygne']
+
+Réponse: Une alternative au mariage"
+Les personnes âgées peuvent être plus attachées à un lieu que les jeunes adultes parce que,human_aging,"['Cet endroit me rappelle beaucoup de choses.', 'C'est plus difficile de bouger quand on est plus vieux.', 'Les jeunes adultes accordent moins d'attention à la place que les adultes plus âgés', 'Cet endroit représente la transcendance.']",0,"Question: Les personnes âgées peuvent être plus attachées à un lieu que les jeunes adultes parce que
+
+Choix: ['Cet endroit me rappelle beaucoup de choses.', 'C'est plus difficile de bouger quand on est plus vieux.', 'Les jeunes adultes accordent moins d'attention à la place que les adultes plus âgés', 'Cet endroit représente la transcendance.']
+
+Réponse: Cet endroit me rappelle beaucoup de choses."
+Le nombre de Hayflick pour les cellules humaines est,human_aging,"['Inconnue', 'Entre 45 et 55 ans', 'Moins de 30', 'Plus de 60']",1,"Question: Le nombre de Hayflick pour les cellules humaines est
+
+Choix: ['Inconnue', 'Entre 45 et 55 ans', 'Moins de 30', 'Plus de 60']
+
+Réponse: Entre 45 et 55 ans"
+Des niveaux élevés de comportements d'auto-soins ont été associés à des niveaux élevés de,human_aging,"['Neuroticisme', 'L'extraversion', 'La facilité d'accès', 'Contrôle secondaire']",2,"Question: Des niveaux élevés de comportements d'auto-soins ont été associés à des niveaux élevés de
+
+Choix: ['Neuroticisme', 'L'extraversion', 'La facilité d'accès', 'Contrôle secondaire']
+
+Réponse: La facilité d'accès"
+La recherche a apporté un soutien à la fois longitudinal et transversal à la théorie avancée par,human_aging,"['Peck (en espagnol)', 'Nom de l'établissement', 'Nom de famille Levenson', 'Je ne sais pas.']",3,"Question: La recherche a apporté un soutien à la fois longitudinal et transversal à la théorie avancée par
+
+Choix: ['Peck (en espagnol)', 'Nom de l'établissement', 'Nom de famille Levenson', 'Je ne sais pas.']
+
+Réponse: Je ne sais pas."
+"Lequel des éléments suivants est plus susceptible d'être une cohorte, plutôt qu'une différence d'âge ?",human_aging,"['Une proportion plus élevée de femmes âgées ont atteint la ménopause.', 'Une plus petite proportion de femmes âgées déclarent avoir des rêves sexuels.', 'Une proportion plus élevée d'hommes âgés sont chauves', 'Une proportion plus élevée d'hommes et de femmes âgés sont victimes du cancer']",1,"Question: Lequel des éléments suivants est plus susceptible d'être une cohorte, plutôt qu'une différence d'âge ?
+
+Choix: ['Une proportion plus élevée de femmes âgées ont atteint la ménopause.', 'Une plus petite proportion de femmes âgées déclarent avoir des rêves sexuels.', 'Une proportion plus élevée d'hommes âgés sont chauves', 'Une proportion plus élevée d'hommes et de femmes âgés sont victimes du cancer']
+
+Réponse: Une plus petite proportion de femmes âgées déclarent avoir des rêves sexuels."
+La peur du vieillissement a été associée à des niveaux élevés de,human_aging,"['Elle est introvertie.', 'Neuroticisme', 'Rigidité', 'Crise de la quarantaine']",1,"Question: La peur du vieillissement a été associée à des niveaux élevés de
+
+Choix: ['Elle est introvertie.', 'Neuroticisme', 'Rigidité', 'Crise de la quarantaine']
+
+Réponse: Neuroticisme"
+Dans quelle démence les symptômes cognitifs sont moins probables ?,human_aging,"['Maladie de Parkinson', 'Choisissez le', 'Le syndrome de Huntington', 'Neuro-sida']",0,"Question: Dans quelle démence les symptômes cognitifs sont moins probables ?
+
+Choix: ['Maladie de Parkinson', 'Choisissez le', 'Le syndrome de Huntington', 'Neuro-sida']
+
+Réponse: Maladie de Parkinson"
+"Dans ce chapitre, le Dr Shealy vous conseille de",human_aging,"['Reste à l' école .', 'Mangez les bons aliments', 'Faites beaucoup d'exercice.', 'Trouver un emploi bien rémunéré']",0,"Question: Dans ce chapitre, le Dr Shealy vous conseille de
+
+Choix: ['Reste à l' école .', 'Mangez les bons aliments', 'Faites beaucoup d'exercice.', 'Trouver un emploi bien rémunéré']
+
+Réponse: Reste à l' école ."
+"Quand votre sœur Patricia était déprimée, vous l'avez réconfortée en lui rappelant des moments plus heureux.",human_aging,"['Émotionnel', 'Pièces et pièces détachées', 'À titre d'information', 'Il est sympathique .']",0,"Question: Quand votre sœur Patricia était déprimée, vous l'avez réconfortée en lui rappelant des moments plus heureux.
+
+Choix: ['Émotionnel', 'Pièces et pièces détachées', 'À titre d'information', 'Il est sympathique .']
+
+Réponse: Émotionnel"
+La perte auditive est plus fréquente chez,human_aging,"['Les hommes sont plus nombreux que les femmes', 'Les femmes sont plus nombreuses que les hommes', 'Les personnes qui ont déjà une certaine perte de vision', 'Les personnes obèses']",0,"Question: La perte auditive est plus fréquente chez
+
+Choix: ['Les hommes sont plus nombreux que les femmes', 'Les femmes sont plus nombreuses que les hommes', 'Les personnes qui ont déjà une certaine perte de vision', 'Les personnes obèses']
+
+Réponse: Les hommes sont plus nombreux que les femmes"
+"Le stress continu est préjudiciable à la santé et à la longévité, car il conduit à",human_aging,"['Trop d'exercice entraînant des dommages physiques', 'Suppression du système immunitaire', 'Une diminution de l'appétit et, dans de nombreux cas, de graves troubles de l'alimentation', 'Les comportements à risque tels que l'excès de vitesse et l'absence de ceinture de sécurité']",1,"Question: Le stress continu est préjudiciable à la santé et à la longévité, car il conduit à
+
+Choix: ['Trop d'exercice entraînant des dommages physiques', 'Suppression du système immunitaire', 'Une diminution de l'appétit et, dans de nombreux cas, de graves troubles de l'alimentation', 'Les comportements à risque tels que l'excès de vitesse et l'absence de ceinture de sécurité']
+
+Réponse: Suppression du système immunitaire"
+Une différence qui semble être principalement liée à la cohorte plutôt qu'à l'âge est la différence de ____ pour différents groupes d'âge,human_aging,"['Stratégies d'adaptation', 'Productivité du travail', 'Taux de démence', 'Les traits de personnalité']",3,"Question: Une différence qui semble être principalement liée à la cohorte plutôt qu'à l'âge est la différence de ____ pour différents groupes d'âge
+
+Choix: ['Stratégies d'adaptation', 'Productivité du travail', 'Taux de démence', 'Les traits de personnalité']
+
+Réponse: Les traits de personnalité"
+"Selon Tat Kleckley, du Senior View de ce chapitre, la partie la plus importante du processus de guérison pour ceux qui sont en deuil est de",human_aging,"['Restez à l'écart des autres pendant un moment.', 'Sortez et soyez actifs.', 'Parlez de votre perte', 'Faire de nouveaux amis qui ne sont pas au courant de votre perte']",2,"Question: Selon Tat Kleckley, du Senior View de ce chapitre, la partie la plus importante du processus de guérison pour ceux qui sont en deuil est de
+
+Choix: ['Restez à l'écart des autres pendant un moment.', 'Sortez et soyez actifs.', 'Parlez de votre perte', 'Faire de nouveaux amis qui ne sont pas au courant de votre perte']
+
+Réponse: Parlez de votre perte"
+Le soutien social est plus susceptible d'avoir une influence positive sur la santé et le bien-être lorsqu'il est,human_aging,"['Très émouvant .', 'Perçu comme un soutien', 'Je ne m' y attendais pas .', 'Externe plutôt qu'interne']",1,"Question: Le soutien social est plus susceptible d'avoir une influence positive sur la santé et le bien-être lorsqu'il est
+
+Choix: ['Très émouvant .', 'Perçu comme un soutien', 'Je ne m' y attendais pas .', 'Externe plutôt qu'interne']
+
+Réponse: Perçu comme un soutien"
+Les radicaux libres sont produits par,human_aging,"['Métabolisme normal', 'Consommation excessive de vitamines A et C', 'Le manque de lumière solaire', 'Un système immunitaire affaibli']",0,"Question: Les radicaux libres sont produits par
+
+Choix: ['Métabolisme normal', 'Consommation excessive de vitamines A et C', 'Le manque de lumière solaire', 'Un système immunitaire affaibli']
+
+Réponse: Métabolisme normal"
+Les préjugés ou les préjugés à l'égard des personnes âgées sont appelés:,human_aging,"['La discrimination fondée sur l'âge', 'Vieillissement', 'Fanatisme lié à l'âge', 'Sénilité']",0,"Question: Les préjugés ou les préjugés à l'égard des personnes âgées sont appelés:
+
+Choix: ['La discrimination fondée sur l'âge', 'Vieillissement', 'Fanatisme lié à l'âge', 'Sénilité']
+
+Réponse: La discrimination fondée sur l'âge"
+"Le programme qui prend en charge les soins pour ceux qui ont 6 mois ou moins à vivre, tente de les garder à la maison, fournit un soulagement de la douleur, et met fin à toutes les technologies de prolongation de la vie est appelé",human_aging,"['L'euthanasie', 'Cryonie', 'Régime d'assurance maladie', 'Les soins palliatifs']",3,"Question: Le programme qui prend en charge les soins pour ceux qui ont 6 mois ou moins à vivre, tente de les garder à la maison, fournit un soulagement de la douleur, et met fin à toutes les technologies de prolongation de la vie est appelé
+
+Choix: ['L'euthanasie', 'Cryonie', 'Régime d'assurance maladie', 'Les soins palliatifs']
+
+Réponse: Les soins palliatifs"
+La perte d' olfaction chez les adultes de 80 ans et plus est,human_aging,"['Très peu fréquent (moins de 15%)', 'Très fréquent (plus de 75%)', 'Rare (moins de 40%)', 'Fréquent (près de 50%)']",1,"Question: La perte d' olfaction chez les adultes de 80 ans et plus est
+
+Choix: ['Très peu fréquent (moins de 15%)', 'Très fréquent (plus de 75%)', 'Rare (moins de 40%)', 'Fréquent (près de 50%)']
+
+Réponse: Très fréquent (plus de 75%)"
+L' activation d' une classe de gènes appelés sirtuines peut aider à,human_aging,"['Prévenir certaines maladies', 'Prévenir les démences', 'Augmenter la mémoire et l' intelligence', 'Produire une stabilité émotionnelle']",0,"Question: L' activation d' une classe de gènes appelés sirtuines peut aider à
+
+Choix: ['Prévenir certaines maladies', 'Prévenir les démences', 'Augmenter la mémoire et l' intelligence', 'Produire une stabilité émotionnelle']
+
+Réponse: Prévenir certaines maladies"
+La maltraitance des personnes âgées provient le plus souvent de,human_aging,"['Le conjoint', 'Les enfants', 'Les petits-enfants', 'Les voisins']",1,"Question: La maltraitance des personnes âgées provient le plus souvent de
+
+Choix: ['Le conjoint', 'Les enfants', 'Les petits-enfants', 'Les voisins']
+
+Réponse: Les enfants"
+Les tests projectifs sont généralement plus efficaces que les tests objectifs de la personnalité.,human_aging,"['Avoir une fiabilité plus élevée', 'Sont plus visuels', 'sont plus valables', 'Fournir plus d'informations']",1,"Question: Les tests projectifs sont généralement plus efficaces que les tests objectifs de la personnalité.
+
+Choix: ['Avoir une fiabilité plus élevée', 'Sont plus visuels', 'sont plus valables', 'Fournir plus d'informations']
+
+Réponse: Sont plus visuels"
+Les cellules de l'œil qui réagissent à de faibles niveaux d'éclairage sont appelées,human_aging,"['Les bâtonnets', 'Les cônes', 'Cellules de la rétine', 'Détecteurs nocturnes']",0,"Question: Les cellules de l'œil qui réagissent à de faibles niveaux d'éclairage sont appelées
+
+Choix: ['Les bâtonnets', 'Les cônes', 'Cellules de la rétine', 'Détecteurs nocturnes']
+
+Réponse: Les bâtonnets"
+Certains travaux sur les stéréotypes liés à l'âge suggèrent que,human_aging,"['Les positifs sont plus forts.', 'Les négatifs sont plus forts.', 'Ils ne durent jamais très longtemps .', 'Ils sont très rares .']",1,"Question: Certains travaux sur les stéréotypes liés à l'âge suggèrent que
+
+Choix: ['Les positifs sont plus forts.', 'Les négatifs sont plus forts.', 'Ils ne durent jamais très longtemps .', 'Ils sont très rares .']
+
+Réponse: Les négatifs sont plus forts."
+Lequel des éléments suivants pourrait très bien être une différence de cohorte plutôt qu'un changement qui se produit avec l'âge?,human_aging,"['Différences de poids', 'Rétrécissement du thymus', 'Élargissement du cœur', 'Augmentation de la taille du nez et des oreilles']",0,"Question: Lequel des éléments suivants pourrait très bien être une différence de cohorte plutôt qu'un changement qui se produit avec l'âge?
+
+Choix: ['Différences de poids', 'Rétrécissement du thymus', 'Élargissement du cœur', 'Augmentation de la taille du nez et des oreilles']
+
+Réponse: Différences de poids"
+La question majeure concernant le vieillissement et la personnalité est:,human_aging,"['Les personnes âgées ont-elles encore des personnalités ?', 'La personnalité change- t- elle avec l'âge?', 'La personnalité décline- t- elle avec l'âge?', 'La personnalité augmente-t-elle ou diminue-t-elle avec l'âge?']",1,"Question: La question majeure concernant le vieillissement et la personnalité est:
+
+Choix: ['Les personnes âgées ont-elles encore des personnalités ?', 'La personnalité change- t- elle avec l'âge?', 'La personnalité décline- t- elle avec l'âge?', 'La personnalité augmente-t-elle ou diminue-t-elle avec l'âge?']
+
+Réponse: La personnalité change- t- elle avec l'âge?"
+Un chercheur qui souhaite examiner à la fois les différences d'âge et de cohorte est conseillé d'utiliser un modèle _____.,human_aging,"['à section transversale', 'Séquence transversale', 'Corrélationnelle', 'Quasi expérimentale']",1,"Question: Un chercheur qui souhaite examiner à la fois les différences d'âge et de cohorte est conseillé d'utiliser un modèle _____.
+
+Choix: ['à section transversale', 'Séquence transversale', 'Corrélationnelle', 'Quasi expérimentale']
+
+Réponse: Séquence transversale"
+"Selon les grands-parents, lequel des éléments suivants n'est PAS l'un des aspects les plus gratifiants de la vie de grand-parent?",human_aging,"['Des sentiments d' immortalité', 'On gâte les petits-enfants .', 'Avoir d'autres pour vous servir', 'Rappelant quand ils étaient petits-enfants']",2,"Question: Selon les grands-parents, lequel des éléments suivants n'est PAS l'un des aspects les plus gratifiants de la vie de grand-parent?
+
+Choix: ['Des sentiments d' immortalité', 'On gâte les petits-enfants .', 'Avoir d'autres pour vous servir', 'Rappelant quand ils étaient petits-enfants']
+
+Réponse: Avoir d'autres pour vous servir"
+"Parmi les animaux suivants, lequel a la plus longue durée de vie selon les mesures actuelles?",human_aging,"['Un gorille .', 'La baleine bleue', 'Le chien', 'La reine des abeilles']",1,"Question: Parmi les animaux suivants, lequel a la plus longue durée de vie selon les mesures actuelles?
+
+Choix: ['Un gorille .', 'La baleine bleue', 'Le chien', 'La reine des abeilles']
+
+Réponse: La baleine bleue"
+Un avantage d'une mort prévue par rapport à une mort inattendue est que,human_aging,"['On peut utiliser un peu de chagrin avant la perte réelle', 'On peut faire des plans funéraires et patrimoniaux avec la personne aimée.', 'On peut trouver des moyens d'éviter d'avoir la même mort pour soi-même', 'On peut aider la personne en phase terminale à accélérer sa mort.']",1,"Question: Un avantage d'une mort prévue par rapport à une mort inattendue est que
+
+Choix: ['On peut utiliser un peu de chagrin avant la perte réelle', 'On peut faire des plans funéraires et patrimoniaux avec la personne aimée.', 'On peut trouver des moyens d'éviter d'avoir la même mort pour soi-même', 'On peut aider la personne en phase terminale à accélérer sa mort.']
+
+Réponse: On peut faire des plans funéraires et patrimoniaux avec la personne aimée."
+Les changements dans le système reproducteur sont plus _____ pour les hommes mais pas pour les femmes,human_aging,"['Mécanique', 'En continu', 'À caractère organique', 'Nourricier']",1,"Question: Les changements dans le système reproducteur sont plus _____ pour les hommes mais pas pour les femmes
+
+Choix: ['Mécanique', 'En continu', 'À caractère organique', 'Nourricier']
+
+Réponse: En continu"
+Laquelle des hormones suivantes n'a pas encore été affirmée pour prévenir le vieillissement?,human_aging,"['Déshydraté d'hydrogène', 'Hormone de croissance humaine', 'La mélatonine', 'Viastérol']",3,"Question: Laquelle des hormones suivantes n'a pas encore été affirmée pour prévenir le vieillissement?
+
+Choix: ['Déshydraté d'hydrogène', 'Hormone de croissance humaine', 'La mélatonine', 'Viastérol']
+
+Réponse: Viastérol"
+La majorité des veuves âgées vivent,human_aging,"['Seul', 'Avec des enfants', 'Avec une amie .', 'Dans une institution']",0,"Question: La majorité des veuves âgées vivent
+
+Choix: ['Seul', 'Avec des enfants', 'Avec une amie .', 'Dans une institution']
+
+Réponse: Seul"
+Les centenaires sont des gens qui,human_aging,"['Nés avant le centenaire', 'Étude sur la vieillesse et les personnes âgées', 'Avoir 100 ans ou plus', 'N'ont pas encore atteint la vieillesse']",2,"Question: Les centenaires sont des gens qui
+
+Choix: ['Nés avant le centenaire', 'Étude sur la vieillesse et les personnes âgées', 'Avoir 100 ans ou plus', 'N'ont pas encore atteint la vieillesse']
+
+Réponse: Avoir 100 ans ou plus"
+Les analyses quantitatives des émissions de télévision ont montré que,human_aging,"['Les personnes âgées sont presque toujours dépeintes de façon négative.', 'Les représentations les plus positives se produisent pendant les publicités', 'La proportion d'hommes âgés est particulièrement faible.', 'La proportion de femmes âgées est particulièrement faible.']",3,"Question: Les analyses quantitatives des émissions de télévision ont montré que
+
+Choix: ['Les personnes âgées sont presque toujours dépeintes de façon négative.', 'Les représentations les plus positives se produisent pendant les publicités', 'La proportion d'hommes âgés est particulièrement faible.', 'La proportion de femmes âgées est particulièrement faible.']
+
+Réponse: La proportion de femmes âgées est particulièrement faible."
+Lequel des groupes d'Américains suivants a le taux le plus faible d'abus d'alcool?,human_aging,"['Afro-américain', 'Blanc', 'Amérindien', 'Américain d'origine asiatique']",3,"Question: Lequel des groupes d'Américains suivants a le taux le plus faible d'abus d'alcool?
+
+Choix: ['Afro-américain', 'Blanc', 'Amérindien', 'Américain d'origine asiatique']
+
+Réponse: Américain d'origine asiatique"
+"Si vous croyez que les changements se produisent lentement et régulièrement tout au long de la vie, vous serez du _____ côté de cette conception du développement.",human_aging,"['Mécanique', 'À caractère organique', 'La continuité', 'La stabilité']",2,"Question: Si vous croyez que les changements se produisent lentement et régulièrement tout au long de la vie, vous serez du _____ côté de cette conception du développement.
+
+Choix: ['Mécanique', 'À caractère organique', 'La continuité', 'La stabilité']
+
+Réponse: La continuité"
+"Toutes les autres choses étant égales, laquelle des personnes suivantes est susceptible de vivre le plus longtemps?",human_aging,"['Un homme noir .', 'Un homme blanc .', 'Une femme noire .', 'Une femme blanche .']",3,"Question: Toutes les autres choses étant égales, laquelle des personnes suivantes est susceptible de vivre le plus longtemps?
+
+Choix: ['Un homme noir .', 'Un homme blanc .', 'Une femme noire .', 'Une femme blanche .']
+
+Réponse: Une femme blanche ."
+"Quelle des différences d'âge suivantes pourrait être, en partie, un effet de cohorte?",human_aging,"['Dépression', 'Alcoolisme', 'Démence', 'Il s'est suicidé .']",1,"Question: Quelle des différences d'âge suivantes pourrait être, en partie, un effet de cohorte?
+
+Choix: ['Dépression', 'Alcoolisme', 'Démence', 'Il s'est suicidé .']
+
+Réponse: Alcoolisme"
+"Clifford et Lucia Pauling, de Senior View, nous ont dit que les changements physiques",human_aging,"['Ils sont rapides et effrayants', 'Peut être compensé par la méditation', 'Ça prend du temps .', 'Ne doit pas être discuté en public']",2,"Question: Clifford et Lucia Pauling, de Senior View, nous ont dit que les changements physiques
+
+Choix: ['Ils sont rapides et effrayants', 'Peut être compensé par la méditation', 'Ça prend du temps .', 'Ne doit pas être discuté en public']
+
+Réponse: Ça prend du temps ."
+Les changements les plus importants et les plus dangereux dans le système cardiovasculaire se produisent,human_aging,"['Le cœur', 'Les vaisseaux sanguins', 'Les globules rouges', 'Le plasma']",1,"Question: Les changements les plus importants et les plus dangereux dans le système cardiovasculaire se produisent
+
+Choix: ['Le cœur', 'Les vaisseaux sanguins', 'Les globules rouges', 'Le plasma']
+
+Réponse: Les vaisseaux sanguins"
+Les personnes âgées obtiennent généralement de très bons résultats lorsque leur mémoire _____ est mise à l'épreuve.,human_aging,"['Épisodique', 'Travail', 'Rétrospective', 'Sémantique']",3,"Question: Les personnes âgées obtiennent généralement de très bons résultats lorsque leur mémoire _____ est mise à l'épreuve.
+
+Choix: ['Épisodique', 'Travail', 'Rétrospective', 'Sémantique']
+
+Réponse: Sémantique"
+"En ce qui concerne la satisfaction conjugale, la plupart des mariages de longue durée",human_aging,"['Manifestez une grande satisfaction tout au long de vos années de mariage.', 'Manifestez une grande satisfaction qui diminue progressivement au fil des années.', 'Afficher des niveaux inférieurs pendant les années où les enfants sont présents', 'Des hauts et des bas tout au long du mariage.']",2,"Question: En ce qui concerne la satisfaction conjugale, la plupart des mariages de longue durée
+
+Choix: ['Manifestez une grande satisfaction tout au long de vos années de mariage.', 'Manifestez une grande satisfaction qui diminue progressivement au fil des années.', 'Afficher des niveaux inférieurs pendant les années où les enfants sont présents', 'Des hauts et des bas tout au long du mariage.']
+
+Réponse: Afficher des niveaux inférieurs pendant les années où les enfants sont présents"
+Les théories,human_aging,"['Ne sont pas très importants dans la recherche sur le vieillissement', 'Essayer d'expliquer les résultats et de guider les recherches futures', 'n'ont jamais fait l'objet d'un test adéquat', 'Ils existent depuis longtemps mais n'ont été testés que récemment']",1,"Question: Les théories
+
+Choix: ['Ne sont pas très importants dans la recherche sur le vieillissement', 'Essayer d'expliquer les résultats et de guider les recherches futures', 'n'ont jamais fait l'objet d'un test adéquat', 'Ils existent depuis longtemps mais n'ont été testés que récemment']
+
+Réponse: Essayer d'expliquer les résultats et de guider les recherches futures"
+La théorie de la sénescence la moins appréciée par les chercheurs est la théorie du _____,human_aging,"['Radicaux libres', 'Horloge biologique', 'Usure et déchirure', 'Accumulation de déchets']",2,"Question: La théorie de la sénescence la moins appréciée par les chercheurs est la théorie du _____
+
+Choix: ['Radicaux libres', 'Horloge biologique', 'Usure et déchirure', 'Accumulation de déchets']
+
+Réponse: Usure et déchirure"
+Un chercheur constate que l'âge est en corrélation négative avec le tabagisme; cela signifie que,human_aging,"['Les personnes âgées subissent plus d'effets négatifs du tabagisme que les jeunes adultes.', 'Les personnes âgées fument plus que les jeunes adultes', 'Les personnes âgées fument moins que les jeunes adultes', 'Les adultes plus âgés et les plus jeunes fument à peu près le même nombre de cigarettes et ressentent tous les deux des effets négatifs.']",2,"Question: Un chercheur constate que l'âge est en corrélation négative avec le tabagisme; cela signifie que
+
+Choix: ['Les personnes âgées subissent plus d'effets négatifs du tabagisme que les jeunes adultes.', 'Les personnes âgées fument plus que les jeunes adultes', 'Les personnes âgées fument moins que les jeunes adultes', 'Les adultes plus âgés et les plus jeunes fument à peu près le même nombre de cigarettes et ressentent tous les deux des effets négatifs.']
+
+Réponse: Les personnes âgées fument moins que les jeunes adultes"
+"Lorsqu'un chercheur participe à la situation qu'il observe, on dit qu'il est un observateur.",human_aging,"['Observateur actif', 'Observateur participant', 'Un observateur indiscret', 'Observateur de l'ingérence']",1,"Question: Lorsqu'un chercheur participe à la situation qu'il observe, on dit qu'il est un observateur.
+
+Choix: ['Observateur actif', 'Observateur participant', 'Un observateur indiscret', 'Observateur de l'ingérence']
+
+Réponse: Observateur participant"
+"Le terme ""conflit travail-famille"" pour les adultes d'âge moyen peut apparaître lorsqu'ils doivent",human_aging,"['Prendre soin d'un parent malade tout en continuant à travailler', 'Faire un travail stressant pendant que leurs enfants sont à la maison', 'Payer pour les soins à domicile en sacrifiant leurs propres soins', 'Servir d'exécuteur de la succession de leurs parents tout en travaillant à plein temps']",0,"Question: Le terme ""conflit travail-famille"" pour les adultes d'âge moyen peut apparaître lorsqu'ils doivent
+
+Choix: ['Prendre soin d'un parent malade tout en continuant à travailler', 'Faire un travail stressant pendant que leurs enfants sont à la maison', 'Payer pour les soins à domicile en sacrifiant leurs propres soins', 'Servir d'exécuteur de la succession de leurs parents tout en travaillant à plein temps']
+
+Réponse: Prendre soin d'un parent malade tout en continuant à travailler"
+Les traits changent-ils avec l'âge ?,human_aging,"['Ce n' est pas le cas .', 'Ils changent un peu.', 'Uniquement pour les femmes', 'Ils changent beaucoup .']",1,"Question: Les traits changent-ils avec l'âge ?
+
+Choix: ['Ce n' est pas le cas .', 'Ils changent un peu.', 'Uniquement pour les femmes', 'Ils changent beaucoup .']
+
+Réponse: Ils changent un peu."
+La cause de la maladie d'Alzheimer semble être,human_aging,"['Principalement environnementale', 'Pièces et pièces détachées', 'Principalement génétique', 'Nom de l'expéditeur:']",2,"Question: La cause de la maladie d'Alzheimer semble être
+
+Choix: ['Principalement environnementale', 'Pièces et pièces détachées', 'Principalement génétique', 'Nom de l'expéditeur:']
+
+Réponse: Principalement génétique"
+Les hommes plus âgés mariés ont été trouvés pour avoir,human_aging,"['Des niveaux plus élevés d'émotions positives', 'Moins d'émotions positives', 'Niveaux plus élevés d'émotions négatives', 'Moins d'émotions négatives']",3,"Question: Les hommes plus âgés mariés ont été trouvés pour avoir
+
+Choix: ['Des niveaux plus élevés d'émotions positives', 'Moins d'émotions positives', 'Niveaux plus élevés d'émotions négatives', 'Moins d'émotions négatives']
+
+Réponse: Moins d'émotions négatives"
+"Aux États-Unis, quel est l'endroit où l'espérance de vie est la plus élevée ?",human_aging,"['Californie', 'La Floride', 'État de l'Alaska', 'Hawaï']",3,"Question: Aux États-Unis, quel est l'endroit où l'espérance de vie est la plus élevée ?
+
+Choix: ['Californie', 'La Floride', 'État de l'Alaska', 'Hawaï']
+
+Réponse: Hawaï"
+La plus grande proportion d'adultes âgés vivant seuls réside dans,human_aging,"['Hawaï', 'États-Unis d'Amérique', 'La Floride', 'Californie']",1,"Question: La plus grande proportion d'adultes âgés vivant seuls réside dans
+
+Choix: ['Hawaï', 'États-Unis d'Amérique', 'La Floride', 'Californie']
+
+Réponse: États-Unis d'Amérique"
+Quel niveau de description de la personnalité semble montrer le plus de changement avec l'âge?,human_aging,"['Caractéristiques', 'Des préoccupations personnelles', 'Stratégies d'adaptation', 'Nom de l'établissement']",1,"Question: Quel niveau de description de la personnalité semble montrer le plus de changement avec l'âge?
+
+Choix: ['Caractéristiques', 'Des préoccupations personnelles', 'Stratégies d'adaptation', 'Nom de l'établissement']
+
+Réponse: Des préoccupations personnelles"
+La relation positive entre la religion et la santé physique n'est PAS supposée être due à,human_aging,"['Soutien social provenant d'une communauté religieuse', 'Les règles de certaines religions qui interdisent les comportements malsains', 'Les effets de la méditation dans la prière sur la réduction du stress', 'Les bienfaits que procure le fait de savoir que d'autres prient pour nous.']",3,"Question: La relation positive entre la religion et la santé physique n'est PAS supposée être due à
+
+Choix: ['Soutien social provenant d'une communauté religieuse', 'Les règles de certaines religions qui interdisent les comportements malsains', 'Les effets de la méditation dans la prière sur la réduction du stress', 'Les bienfaits que procure le fait de savoir que d'autres prient pour nous.']
+
+Réponse: Les bienfaits que procure le fait de savoir que d'autres prient pour nous."
+Les facteurs humains examinent l'exécution de différentes tâches en examinant,human_aging,"['Les facteurs qui influencent les performances', 'L'interaction entre l'homme et l'environnement', 'Le côté humain de l'équation', 'Les effets des changements environnementaux sur l'homme']",1,"Question: Les facteurs humains examinent l'exécution de différentes tâches en examinant
+
+Choix: ['Les facteurs qui influencent les performances', 'L'interaction entre l'homme et l'environnement', 'Le côté humain de l'équation', 'Les effets des changements environnementaux sur l'homme']
+
+Réponse: L'interaction entre l'homme et l'environnement"
+La mémoire prospective fait référence à la mémoire,human_aging,"['Pour un événement récent', 'Pour quelque chose qui s' est passé il y a longtemps .', 'Pour faire quelque chose dans le futur', 'Pour le contexte et la source de l'information mémorisée']",2,"Question: La mémoire prospective fait référence à la mémoire
+
+Choix: ['Pour un événement récent', 'Pour quelque chose qui s' est passé il y a longtemps .', 'Pour faire quelque chose dans le futur', 'Pour le contexte et la source de l'information mémorisée']
+
+Réponse: Pour faire quelque chose dans le futur"
+Le nombre total de personnes qui ont un trouble divisé par le nombre total de personnes vous donne le taux de ____.,human_aging,"['Prévalence', 'Incidence de la maladie', 'Débutant', 'Malade']",0,"Question: Le nombre total de personnes qui ont un trouble divisé par le nombre total de personnes vous donne le taux de ____.
+
+Choix: ['Prévalence', 'Incidence de la maladie', 'Débutant', 'Malade']
+
+Réponse: Prévalence"
+Les remariages sont,human_aging,"['Plus fréquent chez les femmes que chez les hommes', 'Généralement plus réussi', 'Généralement moins réussi', 'Le plus fréquent chez ceux qui n'ont jamais été mariés auparavant']",2,"Question: Les remariages sont
+
+Choix: ['Plus fréquent chez les femmes que chez les hommes', 'Généralement plus réussi', 'Généralement moins réussi', 'Le plus fréquent chez ceux qui n'ont jamais été mariés auparavant']
+
+Réponse: Généralement moins réussi"
+"En ce qui concerne la formation professionnelle, les jeunes travailleurs",human_aging,"['Obtenir plus d'opportunités que les travailleurs plus âgés', 'Avoir de meilleures performances au travail que les travailleurs plus âgés formés', 'Apprendre toujours plus vite que les travailleurs plus âgés', 'Préfèrent avoir des cours par eux-mêmes']",0,"Question: En ce qui concerne la formation professionnelle, les jeunes travailleurs
+
+Choix: ['Obtenir plus d'opportunités que les travailleurs plus âgés', 'Avoir de meilleures performances au travail que les travailleurs plus âgés formés', 'Apprendre toujours plus vite que les travailleurs plus âgés', 'Préfèrent avoir des cours par eux-mêmes']
+
+Réponse: Obtenir plus d'opportunités que les travailleurs plus âgés"
+Combien de personnes affligées semblent avoir besoin d'une aide professionnelle?,human_aging,"['Moins de 10%', 'Environ 25%', 'Près de la moitié', 'Plus de 50%']",1,"Question: Combien de personnes affligées semblent avoir besoin d'une aide professionnelle?
+
+Choix: ['Moins de 10%', 'Environ 25%', 'Près de la moitié', 'Plus de 50%']
+
+Réponse: Environ 25%"
+Les personnes ayant quelles des formes de contrôle suivantes sont les moins susceptibles d'avoir des problèmes d'accessibilité là où elles vivent?,human_aging,"['À l'extérieur', 'À l'intérieur', 'Première étape', 'Nombre total']",1,"Question: Les personnes ayant quelles des formes de contrôle suivantes sont les moins susceptibles d'avoir des problèmes d'accessibilité là où elles vivent?
+
+Choix: ['À l'extérieur', 'À l'intérieur', 'Première étape', 'Nombre total']
+
+Réponse: À l'intérieur"
+Qu'est- ce qui améliore l'équilibre chez les personnes âgées?,human_aging,"['Le tai-chi', 'Exercice aérobie', 'Soulever des poids', 'Marcher à toute allure']",0,"Question: Qu'est- ce qui améliore l'équilibre chez les personnes âgées?
+
+Choix: ['Le tai-chi', 'Exercice aérobie', 'Soulever des poids', 'Marcher à toute allure']
+
+Réponse: Le tai-chi"
+La maladie chronique la plus fréquente chez les personnes âgées est,human_aging,"['Hypertension artérielle', 'Insuffisance cardiaque', 'Diabète sucré', 'Les cataractes']",1,"Question: La maladie chronique la plus fréquente chez les personnes âgées est
+
+Choix: ['Hypertension artérielle', 'Insuffisance cardiaque', 'Diabète sucré', 'Les cataractes']
+
+Réponse: Insuffisance cardiaque"
+L'hypokinésie se réfère à,human_aging,"['Obésité sévère', 'Perte de force musculaire et de densité osseuse', 'Sensibilité accrue au stress', 'Isolement social et manque de soutien']",1,"Question: L'hypokinésie se réfère à
+
+Choix: ['Obésité sévère', 'Perte de force musculaire et de densité osseuse', 'Sensibilité accrue au stress', 'Isolement social et manque de soutien']
+
+Réponse: Perte de force musculaire et de densité osseuse"
+Quel pourcentage de personnes âgées se sentent très ou souvent seules?,human_aging,"['Pourcentage', 'Pourcentage', '50% du chiffre d'affaires', 'Pourcentage']",0,"Question: Quel pourcentage de personnes âgées se sentent très ou souvent seules?
+
+Choix: ['Pourcentage', 'Pourcentage', '50% du chiffre d'affaires', 'Pourcentage']
+
+Réponse: Pourcentage"
+Un exemple d'un changement discontinu au cours de l'âge adulte est le changement de,human_aging,"['Personnalité', 'Mémoire de travail', 'Taux d'hormones féminines', 'La sexualité masculine']",2,"Question: Un exemple d'un changement discontinu au cours de l'âge adulte est le changement de
+
+Choix: ['Personnalité', 'Mémoire de travail', 'Taux d'hormones féminines', 'La sexualité masculine']
+
+Réponse: Taux d'hormones féminines"
+Quelle jambe du tabouret à trois jambes la plupart des retraités ont-ils ?,human_aging,"['Retraite', 'Sécurité sociale', 'Économies réalisées', 'Actifs']",1,"Question: Quelle jambe du tabouret à trois jambes la plupart des retraités ont-ils ?
+
+Choix: ['Retraite', 'Sécurité sociale', 'Économies réalisées', 'Actifs']
+
+Réponse: Sécurité sociale"
+L'un des points les plus importants de ce chapitre est que les changements physiques,human_aging,"['Se produire pour tout le monde', 'Se produisent plus pour certains et moins pour d'autres et, au sein d'une même personne, plus pour certains systèmes et moins pour d'autres', 'Se produit généralement chez les personnes très âgées, mais pas chez les très jeunes.', 'Peut être totalement évité si l'on apprend suffisamment sur la gérontologie']",1,"Question: L'un des points les plus importants de ce chapitre est que les changements physiques
+
+Choix: ['Se produire pour tout le monde', 'Se produisent plus pour certains et moins pour d'autres et, au sein d'une même personne, plus pour certains systèmes et moins pour d'autres', 'Se produit généralement chez les personnes très âgées, mais pas chez les très jeunes.', 'Peut être totalement évité si l'on apprend suffisamment sur la gérontologie']
+
+Réponse: Se produisent plus pour certains et moins pour d'autres et, au sein d'une même personne, plus pour certains systèmes et moins pour d'autres"
+Laquelle des formes suivantes de démence a le taux de prévalence le plus élevé ?,human_aging,"['Maladie d'Alzheimer', 'Le système vasculaire', 'Maladie de Parkinson', 'Le lobe fronto-temporal']",0,"Question: Laquelle des formes suivantes de démence a le taux de prévalence le plus élevé ?
+
+Choix: ['Maladie d'Alzheimer', 'Le système vasculaire', 'Maladie de Parkinson', 'Le lobe fronto-temporal']
+
+Réponse: Maladie d'Alzheimer"
+Des niveaux élevés de soutien social sont fortement associés à,human_aging,"['Longévité', 'Contrôle interne', 'La culture', 'Le secteur de l'éducation']",0,"Question: Des niveaux élevés de soutien social sont fortement associés à
+
+Choix: ['Longévité', 'Contrôle interne', 'La culture', 'Le secteur de l'éducation']
+
+Réponse: Longévité"
+"Le terme ""cohorte"" désigne:",human_aging,"['L'âge chronologique d'une personne', 'Une génération de gens qui ont vécu des événements majeurs', 'Le sexe d'une personne', 'Un groupe de personnes vivant dans la même culture']",1,"Question: Le terme ""cohorte"" désigne:
+
+Choix: ['L'âge chronologique d'une personne', 'Une génération de gens qui ont vécu des événements majeurs', 'Le sexe d'une personne', 'Un groupe de personnes vivant dans la même culture']
+
+Réponse: Une génération de gens qui ont vécu des événements majeurs"
+Les adultes d'âge moyen semblent être plus ____ que les adultes plus âgés ou plus jeunes,human_aging,"['Génératif', 'Neurotique', 'Je suis d' accord .', 'Certain']",0,"Question: Les adultes d'âge moyen semblent être plus ____ que les adultes plus âgés ou plus jeunes
+
+Choix: ['Génératif', 'Neurotique', 'Je suis d' accord .', 'Certain']
+
+Réponse: Génératif"
+Lequel des points suivants améliore l'attitude à l'égard des personnes âgées et des personnes âgées?,human_aging,"['Se tenir à l'écart des personnes âgées', 'Éducation à l'égard des personnes âgées', 'Voyage dans les communautés plus âgées', 'Regarder les portraits de personnes âgées dans les films et à la télévision']",1,"Question: Lequel des points suivants améliore l'attitude à l'égard des personnes âgées et des personnes âgées?
+
+Choix: ['Se tenir à l'écart des personnes âgées', 'Éducation à l'égard des personnes âgées', 'Voyage dans les communautés plus âgées', 'Regarder les portraits de personnes âgées dans les films et à la télévision']
+
+Réponse: Éducation à l'égard des personnes âgées"
+Un problème pour les théories du système immunitaire de la sénescence est,human_aging,"['Déterminer la première cause de la sénescence dans le système immunitaire', 'Les maladies auto-immunes sont bien trop rares.', 'Que le système immunitaire ne se détériore pas avec l'âge', 'Le manque d'informations sur la sénescence en général']",0,"Question: Un problème pour les théories du système immunitaire de la sénescence est
+
+Choix: ['Déterminer la première cause de la sénescence dans le système immunitaire', 'Les maladies auto-immunes sont bien trop rares.', 'Que le système immunitaire ne se détériore pas avec l'âge', 'Le manque d'informations sur la sénescence en général']
+
+Réponse: Déterminer la première cause de la sénescence dans le système immunitaire"
+Ceux qui sont plus susceptibles de souffrir de dépression après une perte sont ceux qui,human_aging,"['Sont de jeunes survivants', 'Ne pas avoir déjà souffert de dépression', 'Mariés depuis plus de 40 ans', 'Sont en mauvaise santé eux-mêmes']",0,"Question: Ceux qui sont plus susceptibles de souffrir de dépression après une perte sont ceux qui
+
+Choix: ['Sont de jeunes survivants', 'Ne pas avoir déjà souffert de dépression', 'Mariés depuis plus de 40 ans', 'Sont en mauvaise santé eux-mêmes']
+
+Réponse: Sont de jeunes survivants"
+Lequel des éléments suivants semble abaisser le taux de mauvais cholestérol?,human_aging,"['Vitamine D', 'La niacine', 'La thiamine', 'Riboflavine et ses dérivés']",1,"Question: Lequel des éléments suivants semble abaisser le taux de mauvais cholestérol?
+
+Choix: ['Vitamine D', 'La niacine', 'La thiamine', 'Riboflavine et ses dérivés']
+
+Réponse: La niacine"
+La plupart des personnes qui ont eu recours à l'aide médicale au suicide ont eu,human_aging,"['Maladie d'Alzheimer', 'Assurance maladie', 'Pas de famille .', 'Dépression clinique']",1,"Question: La plupart des personnes qui ont eu recours à l'aide médicale au suicide ont eu
+
+Choix: ['Maladie d'Alzheimer', 'Assurance maladie', 'Pas de famille .', 'Dépression clinique']
+
+Réponse: Assurance maladie"
+Laquelle des approches suivantes est la plus susceptible d'être utilisée par un chercheur qui s'intéresse aux différences entre deux ou plusieurs groupes de personnes?,human_aging,"['Quasi expérimentale', 'Nom de l'établissement', 'Corrélationnelle', 'Séquence transversale']",0,"Question: Laquelle des approches suivantes est la plus susceptible d'être utilisée par un chercheur qui s'intéresse aux différences entre deux ou plusieurs groupes de personnes?
+
+Choix: ['Quasi expérimentale', 'Nom de l'établissement', 'Corrélationnelle', 'Séquence transversale']
+
+Réponse: Quasi expérimentale"
+Être dans la lumière vive au cours des dernières parties de la journée semble,human_aging,"['Rétablir le rythme circadien normal', 'Augmentation de l' insomnie', 'Rétablir un sommeil profond', 'N'ont aucune influence réelle sur le sommeil ou les rêves']",0,"Question: Être dans la lumière vive au cours des dernières parties de la journée semble
+
+Choix: ['Rétablir le rythme circadien normal', 'Augmentation de l' insomnie', 'Rétablir un sommeil profond', 'N'ont aucune influence réelle sur le sommeil ou les rêves']
+
+Réponse: Rétablir le rythme circadien normal"
+Une des principales raisons d'étudier le vieillissement humain est que,human_aging,"['Nous vieillissons tous.', 'Le nombre et la proportion de personnes âgées augmentent', 'Plus d'opportunités d'emploi s'offrent à ceux qui ont une certaine connaissance du vieillissement', 'Tout ce qui précède']",3,"Question: Une des principales raisons d'étudier le vieillissement humain est que
+
+Choix: ['Nous vieillissons tous.', 'Le nombre et la proportion de personnes âgées augmentent', 'Plus d'opportunités d'emploi s'offrent à ceux qui ont une certaine connaissance du vieillissement', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+Le modèle de soutien social qui dit que ceux qui sont proches de vous maintenant sont susceptibles d'être proches pour le reste de vos jours s'appelle le modèle ____,human_aging,"['La cohérence', 'Le convoi', 'Accompagnement', 'Le train']",1,"Question: Le modèle de soutien social qui dit que ceux qui sont proches de vous maintenant sont susceptibles d'être proches pour le reste de vos jours s'appelle le modèle ____
+
+Choix: ['La cohérence', 'Le convoi', 'Accompagnement', 'Le train']
+
+Réponse: Le convoi"
+"Lorsque des travailleurs plus âgés et des travailleurs plus jeunes ont perdu leur emploi, les travailleurs plus âgés ont généralement",human_aging,"['Trouver un emploi plus rapidement grâce à leur plus grande expérience', 'Il faut plus de temps pour trouver un nouvel emploi.', 'Prendre sa retraite plutôt que de chercher un nouvel emploi', 'Poursuis l'entreprise en utilisant l'ADEA']",1,"Question: Lorsque des travailleurs plus âgés et des travailleurs plus jeunes ont perdu leur emploi, les travailleurs plus âgés ont généralement
+
+Choix: ['Trouver un emploi plus rapidement grâce à leur plus grande expérience', 'Il faut plus de temps pour trouver un nouvel emploi.', 'Prendre sa retraite plutôt que de chercher un nouvel emploi', 'Poursuis l'entreprise en utilisant l'ADEA']
+
+Réponse: Il faut plus de temps pour trouver un nouvel emploi."
+Notre réseau social se réfère à,human_aging,"['Tous ceux que nous connaissons', 'Ceux qui sont les plus proches de nous', 'Ceux que nous n'avons pas encore rencontrés', 'Membres de la famille']",1,"Question: Notre réseau social se réfère à
+
+Choix: ['Tous ceux que nous connaissons', 'Ceux qui sont les plus proches de nous', 'Ceux que nous n'avons pas encore rencontrés', 'Membres de la famille']
+
+Réponse: Ceux qui sont les plus proches de nous"
+Ceux qui survivent à la perte d' un autre sont appelés les,human_aging,"['Les survivants', 'Le deuil', 'En deuil', 'Famille et amis']",2,"Question: Ceux qui survivent à la perte d' un autre sont appelés les
+
+Choix: ['Les survivants', 'Le deuil', 'En deuil', 'Famille et amis']
+
+Réponse: En deuil"
+L'ajustement financier à la retraite a été le plus difficile pour,human_aging,"['Les couples mariés', 'Les hommes célibataires', 'Femmes célibataires', 'Personnes âgées']",2,"Question: L'ajustement financier à la retraite a été le plus difficile pour
+
+Choix: ['Les couples mariés', 'Les hommes célibataires', 'Femmes célibataires', 'Personnes âgées']
+
+Réponse: Femmes célibataires"
+La théorie de la sélectivité socio-émotionnelle dit que les personnes âgées ont des réseaux sociaux plus petits parce qu'ils,human_aging,"['Sont plus préoccupés par ceux qui sont les plus proches d'eux', 'Sélectionner les nouveaux membres du réseau en fonction de facteurs émotionnels', 'Ne peut plus sortir pour sélectionner de nouveaux membres du réseau', 'Être trop impliqué émotionnellement pour passer du temps avec les autres']",0,"Question: La théorie de la sélectivité socio-émotionnelle dit que les personnes âgées ont des réseaux sociaux plus petits parce qu'ils
+
+Choix: ['Sont plus préoccupés par ceux qui sont les plus proches d'eux', 'Sélectionner les nouveaux membres du réseau en fonction de facteurs émotionnels', 'Ne peut plus sortir pour sélectionner de nouveaux membres du réseau', 'Être trop impliqué émotionnellement pour passer du temps avec les autres']
+
+Réponse: Sont plus préoccupés par ceux qui sont les plus proches d'eux"
+L'écart entre les sexes est vraisemblablement associé à des différences entre les hommes et les femmes,human_aging,"['Les hormones', 'Comportements et professions à risque', 'Proportion de fumeurs', 'Tout ce qui précède']",3,"Question: L'écart entre les sexes est vraisemblablement associé à des différences entre les hommes et les femmes
+
+Choix: ['Les hormones', 'Comportements et professions à risque', 'Proportion de fumeurs', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+Ces cellules qui forment l' os sont appelées,human_aging,"['Les ostéoblastes', 'Les ostéoclastes', 'Les ostéostructs', 'Osteoporique']",0,"Question: Ces cellules qui forment l' os sont appelées
+
+Choix: ['Les ostéoblastes', 'Les ostéoclastes', 'Les ostéostructs', 'Osteoporique']
+
+Réponse: Les ostéoblastes"
+Une augmentation du névrosisme plus tard dans la vie est un fort prédicteur de,human_aging,"['Le taux de mortalité', 'Perte de soutien social', 'Déclin cognitif', 'Indépendance']",0,"Question: Une augmentation du névrosisme plus tard dans la vie est un fort prédicteur de
+
+Choix: ['Le taux de mortalité', 'Perte de soutien social', 'Déclin cognitif', 'Indépendance']
+
+Réponse: Le taux de mortalité"
+Lequel des pays suivants a l'espérance de vie la plus longue?,human_aging,"['États-Unis', 'Suède', 'États-Unis', 'États-Unis d'Amérique']",2,"Question: Lequel des pays suivants a l'espérance de vie la plus longue?
+
+Choix: ['États-Unis', 'Suède', 'États-Unis', 'États-Unis d'Amérique']
+
+Réponse: États-Unis"
+Quel type de temps de réaction entraîne les plus grandes différences d'âge ?,human_aging,"['C' est simple .', 'Le choix', 'Complexe', 'Détails']",2,"Question: Quel type de temps de réaction entraîne les plus grandes différences d'âge ?
+
+Choix: ['C' est simple .', 'Le choix', 'Complexe', 'Détails']
+
+Réponse: Complexe"
+Gary dit qu'il a gagné 1000 $ à la loterie parce qu'il sait vraiment comment choisir ces numéros.,human_aging,"['Extérieurs, puissants autres', 'À l'intérieur', 'Externe, le hasard', 'Secondaire']",1,"Question: Gary dit qu'il a gagné 1000 $ à la loterie parce qu'il sait vraiment comment choisir ces numéros.
+
+Choix: ['Extérieurs, puissants autres', 'À l'intérieur', 'Externe, le hasard', 'Secondaire']
+
+Réponse: À l'intérieur"
+La directive avancée où l'on spécifie les types d'interventions médicales qui sont et qui ne sont pas souhaitées s'appelle une directive avancée.,human_aging,"['Déclaration de décès', 'Le DNH', 'Délivrance de la vie privée', 'Mandat à durée indéterminée']",0,"Question: La directive avancée où l'on spécifie les types d'interventions médicales qui sont et qui ne sont pas souhaitées s'appelle une directive avancée.
+
+Choix: ['Déclaration de décès', 'Le DNH', 'Délivrance de la vie privée', 'Mandat à durée indéterminée']
+
+Réponse: Déclaration de décès"
+"Si l'on trouve des liens entre diverses maladies, il est probable que les futurs adultes âgés",human_aging,"['Prenez moins de médicaments.', 'Être en mesure d'éviter certaines maladies', 'Payer beaucoup moins pour les produits pharmaceutiques', 'Choisissez et sélectionnez la maladie (s) qu'ils veulent']",0,"Question: Si l'on trouve des liens entre diverses maladies, il est probable que les futurs adultes âgés
+
+Choix: ['Prenez moins de médicaments.', 'Être en mesure d'éviter certaines maladies', 'Payer beaucoup moins pour les produits pharmaceutiques', 'Choisissez et sélectionnez la maladie (s) qu'ils veulent']
+
+Réponse: Prenez moins de médicaments."
+En ce qui concerne la perte de cheveux,human_aging,"['Les hommes perdent mais pas les femmes .', 'Les hommes sont plus systématiques que les femmes.', 'Les femmes perdent leurs cheveux moins souvent, mais plus rapidement que les hommes.', 'Les facteurs environnementaux sont les principales causes']",1,"Question: En ce qui concerne la perte de cheveux
+
+Choix: ['Les hommes perdent mais pas les femmes .', 'Les hommes sont plus systématiques que les femmes.', 'Les femmes perdent leurs cheveux moins souvent, mais plus rapidement que les hommes.', 'Les facteurs environnementaux sont les principales causes']
+
+Réponse: Les hommes sont plus systématiques que les femmes."
+"Dans ce chapitre de Senior View, Pat Shelley nous a dit que vous ne devriez pas prendre votre retraite si",human_aging,"['Tu ne peux pas le faire correctement.', 'Vous avez moins de 60 ans.', 'Ta famille veut que tu continues à travailler .', 'Tu n' as pas de passe-temps .']",0,"Question: Dans ce chapitre de Senior View, Pat Shelley nous a dit que vous ne devriez pas prendre votre retraite si
+
+Choix: ['Tu ne peux pas le faire correctement.', 'Vous avez moins de 60 ans.', 'Ta famille veut que tu continues à travailler .', 'Tu n' as pas de passe-temps .']
+
+Réponse: Tu ne peux pas le faire correctement."
+"Quelle qualité serait déficiente chez quelqu'un qui n'est pas très organisé, qui se fixe rarement des objectifs et qui remet souvent les choses à plus tard?",human_aging,"['La facilité d'accès', 'Un travail consciencieux', 'La transparence', 'Neuroticisme']",1,"Question: Quelle qualité serait déficiente chez quelqu'un qui n'est pas très organisé, qui se fixe rarement des objectifs et qui remet souvent les choses à plus tard?
+
+Choix: ['La facilité d'accès', 'Un travail consciencieux', 'La transparence', 'Neuroticisme']
+
+Réponse: Un travail consciencieux"
+"Au fur et à mesure que les travailleurs se rapprochent de la retraite, ils sont plus susceptibles de",human_aging,"['Être absent du travail', 'Investir dans des livres sur l'artisanat et les loisirs', 'Faire un peu de planification informelle', 'Être irrité et anxieux']",2,"Question: Au fur et à mesure que les travailleurs se rapprochent de la retraite, ils sont plus susceptibles de
+
+Choix: ['Être absent du travail', 'Investir dans des livres sur l'artisanat et les loisirs', 'Faire un peu de planification informelle', 'Être irrité et anxieux']
+
+Réponse: Faire un peu de planification informelle"
+Les personnes âgées peuvent présenter moins de dépression majeure que les jeunes adultes parce qu' elles,human_aging,"['J'ai appris à faire face à la perte', 'Voir la dépression majeure comme une stigmatisation', 'Ils ont une biochimie cérébrale très différente.', 'Ne sont plus préoccupés par les questions émotionnelles']",0,"Question: Les personnes âgées peuvent présenter moins de dépression majeure que les jeunes adultes parce qu' elles
+
+Choix: ['J'ai appris à faire face à la perte', 'Voir la dépression majeure comme une stigmatisation', 'Ils ont une biochimie cérébrale très différente.', 'Ne sont plus préoccupés par les questions émotionnelles']
+
+Réponse: J'ai appris à faire face à la perte"
+Les différentes composantes de la mémoire doivent être considérées comme,human_aging,"['Être très indépendant', 'Travailler un à la fois', 'Travailler en tant que système', 'À tour de rôle']",2,"Question: Les différentes composantes de la mémoire doivent être considérées comme
+
+Choix: ['Être très indépendant', 'Travailler un à la fois', 'Travailler en tant que système', 'À tour de rôle']
+
+Réponse: Travailler en tant que système"
+"L'élimination très rapide du corps, avant le coucher du soleil le jour du décès, est typique de quelle religion?",human_aging,"['Nom et prénom', 'Les hindous', 'Juif', 'Le Tao']",1,"Question: L'élimination très rapide du corps, avant le coucher du soleil le jour du décès, est typique de quelle religion?
+
+Choix: ['Nom et prénom', 'Les hindous', 'Juif', 'Le Tao']
+
+Réponse: Les hindous"
+Un exemple d'un test objectif de la personnalité est le,human_aging,"['Le TAT', 'Indicateur MMPI', 'Épreuve de Rorschach sur les taches d'encre', 'Test des niveaux de McAdams']",1,"Question: Un exemple d'un test objectif de la personnalité est le
+
+Choix: ['Le TAT', 'Indicateur MMPI', 'Épreuve de Rorschach sur les taches d'encre', 'Test des niveaux de McAdams']
+
+Réponse: Indicateur MMPI"
+"Lorsqu'une mesure quantifie réellement ce qu'elle prétend mesurer, nous disons qu'elle a une bonne",human_aging,"['Précision', 'Validité', 'La fiabilité', 'Valeur associative']",1,"Question: Lorsqu'une mesure quantifie réellement ce qu'elle prétend mesurer, nous disons qu'elle a une bonne
+
+Choix: ['Précision', 'Validité', 'La fiabilité', 'Valeur associative']
+
+Réponse: Validité"
+Dans quel pays la plupart des personnes choisissent d'être incinérées?,human_aging,"['États-Unis', 'États-Unis', 'Afrique du Sud', 'États-Unis']",0,"Question: Dans quel pays la plupart des personnes choisissent d'être incinérées?
+
+Choix: ['États-Unis', 'États-Unis', 'Afrique du Sud', 'États-Unis']
+
+Réponse: États-Unis"
+Un effet positif possible de la consommation modérée d'alcool est qu'elle peut,human_aging,"['Inhibent la croissance des cancers', 'Promouvoir la guérison des blessures et des maladies', 'Prévenir le durcissement des vaisseaux sanguins', 'Résultat: relaxation et diminution de la pression artérielle']",2,"Question: Un effet positif possible de la consommation modérée d'alcool est qu'elle peut
+
+Choix: ['Inhibent la croissance des cancers', 'Promouvoir la guérison des blessures et des maladies', 'Prévenir le durcissement des vaisseaux sanguins', 'Résultat: relaxation et diminution de la pression artérielle']
+
+Réponse: Prévenir le durcissement des vaisseaux sanguins"
+La conception environnementale qui amène les animaux de compagnie et les plantes dans les maisons de retraite et les jeunes et les enfants en tant que visiteurs réguliers est appelée,human_aging,"['La conception de la vie à l'aide d'instruments', 'Le choix humaniste', 'La congruence entre l'homme et l'environnement', 'L'alternative à l'Éden']",3,"Question: La conception environnementale qui amène les animaux de compagnie et les plantes dans les maisons de retraite et les jeunes et les enfants en tant que visiteurs réguliers est appelée
+
+Choix: ['La conception de la vie à l'aide d'instruments', 'Le choix humaniste', 'La congruence entre l'homme et l'environnement', 'L'alternative à l'Éden']
+
+Réponse: L'alternative à l'Éden"
+L'excès d'invalidité fait référence à des symptômes qui sont,human_aging,"['Pas à cause de la maladie, mais à cause d'une psychologie sociale maligne.', 'Au-delà de la moyenne pour ce trouble particulier', 'On ne le trouve qu'au dernier stade de la maladie d'Alzheimer.', 'Ceux qui peuvent être traités avec succès par des médicaments s'ils sont détectés suffisamment tôt']",0,"Question: L'excès d'invalidité fait référence à des symptômes qui sont
+
+Choix: ['Pas à cause de la maladie, mais à cause d'une psychologie sociale maligne.', 'Au-delà de la moyenne pour ce trouble particulier', 'On ne le trouve qu'au dernier stade de la maladie d'Alzheimer.', 'Ceux qui peuvent être traités avec succès par des médicaments s'ils sont détectés suffisamment tôt']
+
+Réponse: Pas à cause de la maladie, mais à cause d'une psychologie sociale maligne."
+Le bien-être des jeunes adultes est positivement lié à quelle forme de contrôle ?,human_aging,"['Réévaluation positive', 'Réduction des aspirations', 'Première étape', 'À l'intérieur']",2,"Question: Le bien-être des jeunes adultes est positivement lié à quelle forme de contrôle ?
+
+Choix: ['Réévaluation positive', 'Réduction des aspirations', 'Première étape', 'À l'intérieur']
+
+Réponse: Première étape"
+Lequel des éléments suivants n'est PAS l'une des principales raisons de l'augmentation du nombre de personnes âgées?,human_aging,"['La génération du baby-boom', 'L'augmentation constante du taux de natalité', 'Augmentation de l'espérance de vie à la naissance', 'Augmentation de l'espérance de vie à un âge donné']",1,"Question: Lequel des éléments suivants n'est PAS l'une des principales raisons de l'augmentation du nombre de personnes âgées?
+
+Choix: ['La génération du baby-boom', 'L'augmentation constante du taux de natalité', 'Augmentation de l'espérance de vie à la naissance', 'Augmentation de l'espérance de vie à un âge donné']
+
+Réponse: L'augmentation constante du taux de natalité"
+"Avant de pouvoir recueillir des données d'autres êtres humains, nous devons nous assurer qu'ils",human_aging,"['Avoir des informations qui mériteront nos efforts pour les recueillir', 'Ils vont être honnêtes et francs', 'Sont informés de notre étude et donnent leur consentement à participer', 'Avoir obtenu l'autorisation de participer par le CRI']",2,"Question: Avant de pouvoir recueillir des données d'autres êtres humains, nous devons nous assurer qu'ils
+
+Choix: ['Avoir des informations qui mériteront nos efforts pour les recueillir', 'Ils vont être honnêtes et francs', 'Sont informés de notre étude et donnent leur consentement à participer', 'Avoir obtenu l'autorisation de participer par le CRI']
+
+Réponse: Sont informés de notre étude et donnent leur consentement à participer"
+"Dans la vue des aînés de ce chapitre, May Lee nous a dit que nous devrions tous respecter nos aînés parce que",human_aging,"['Ils sont beaucoup plus âgés que nous.', 'Ils nous ont élevés .', 'Ils ont vécu des moments difficiles.', 'Ils ne demandent rien en retour.']",1,"Question: Dans la vue des aînés de ce chapitre, May Lee nous a dit que nous devrions tous respecter nos aînés parce que
+
+Choix: ['Ils sont beaucoup plus âgés que nous.', 'Ils nous ont élevés .', 'Ils ont vécu des moments difficiles.', 'Ils ne demandent rien en retour.']
+
+Réponse: Ils nous ont élevés ."
+Une ligne de preuve contre la pléiotropie antagoniste est que,human_aging,"['Les femmes qui ont plus d'enfants ont tendance à vivre plus longtemps.', 'Certains animaux présentent peu ou pas de senescence.', 'Même les cellules tissulaires aux télomères plus longs peuvent présenter des signes de sénescence.', 'L'exercice augmente plutôt que diminue la longévité']",0,"Question: Une ligne de preuve contre la pléiotropie antagoniste est que
+
+Choix: ['Les femmes qui ont plus d'enfants ont tendance à vivre plus longtemps.', 'Certains animaux présentent peu ou pas de senescence.', 'Même les cellules tissulaires aux télomères plus longs peuvent présenter des signes de sénescence.', 'L'exercice augmente plutôt que diminue la longévité']
+
+Réponse: Les femmes qui ont plus d'enfants ont tendance à vivre plus longtemps."
+La perte de fibres musculaires peut être due à la perte de neurones qui peut être due à,human_aging,"['Obstruction des vaisseaux sanguins', 'Perte de densité osseuse', 'Changements des taux d' hormones', 'Perte de collagène']",0,"Question: La perte de fibres musculaires peut être due à la perte de neurones qui peut être due à
+
+Choix: ['Obstruction des vaisseaux sanguins', 'Perte de densité osseuse', 'Changements des taux d' hormones', 'Perte de collagène']
+
+Réponse: Obstruction des vaisseaux sanguins"
+"Après la perte d'un conjoint, le conjoint survivant décède souvent au cours de la première année en raison de:",human_aging,"['Le stress et la perte de soutien social', 'Avoir le même trouble que le défunt', 'L'incapacité de se remarier rapidement', 'Ils ont les mêmes gènes défectueux.']",0,"Question: Après la perte d'un conjoint, le conjoint survivant décède souvent au cours de la première année en raison de:
+
+Choix: ['Le stress et la perte de soutien social', 'Avoir le même trouble que le défunt', 'L'incapacité de se remarier rapidement', 'Ils ont les mêmes gènes défectueux.']
+
+Réponse: Le stress et la perte de soutien social"
+Lequel des facteurs suivants n'a PAS reçu autant de soutien que les autres dans la recherche sur les raisons pour lesquelles le soutien social est lié à une meilleure santé?,human_aging,"['Sociaux', 'Le comportement', 'psychologique', 'Gérontologie']",1,"Question: Lequel des facteurs suivants n'a PAS reçu autant de soutien que les autres dans la recherche sur les raisons pour lesquelles le soutien social est lié à une meilleure santé?
+
+Choix: ['Sociaux', 'Le comportement', 'psychologique', 'Gérontologie']
+
+Réponse: Le comportement"
+Les stratégies d'adaptation des personnes âgées sont généralement,human_aging,"['Inefficace à résoudre les problèmes', 'Variable car ils ont plus de stratégies', 'Persévérant car ils utilisent la même stratégie encore et encore', 'Restreint car ils ignorent de nombreux aspects du problème']",1,"Question: Les stratégies d'adaptation des personnes âgées sont généralement
+
+Choix: ['Inefficace à résoudre les problèmes', 'Variable car ils ont plus de stratégies', 'Persévérant car ils utilisent la même stratégie encore et encore', 'Restreint car ils ignorent de nombreux aspects du problème']
+
+Réponse: Variable car ils ont plus de stratégies"
+Les hommes sont plus susceptibles que les femmes de mourir de,human_aging,"['Septicémie', 'Accident vasculaire cérébral', 'Il s'est suicidé .', 'Infection par le virus de la grippe']",2,"Question: Les hommes sont plus susceptibles que les femmes de mourir de
+
+Choix: ['Septicémie', 'Accident vasculaire cérébral', 'Il s'est suicidé .', 'Infection par le virus de la grippe']
+
+Réponse: Il s'est suicidé ."
+Le ralentissement qui survient avec l'âge semble être centré sur,human_aging,"['Les organes des sens eux-mêmes', 'Le cerveau', 'Les fibres musculaires', 'Le système nerveux périphérique']",1,"Question: Le ralentissement qui survient avec l'âge semble être centré sur
+
+Choix: ['Les organes des sens eux-mêmes', 'Le cerveau', 'Les fibres musculaires', 'Le système nerveux périphérique']
+
+Réponse: Le cerveau"
+L'une des raisons possibles pour lesquelles le temps semble passer plus vite chez les personnes âgées est que,human_aging,"['Leur mémoire est si mauvaise qu'ils oublient de regarder l'heure.', 'Ils ont moins d'expériences inédites.', 'Ils accordent moins d'attention aux événements importants de la vie.', 'Leurs vies sont pleines d'événements dont ils ne se souviennent pas plus tard.']",1,"Question: L'une des raisons possibles pour lesquelles le temps semble passer plus vite chez les personnes âgées est que
+
+Choix: ['Leur mémoire est si mauvaise qu'ils oublient de regarder l'heure.', 'Ils ont moins d'expériences inédites.', 'Ils accordent moins d'attention aux événements importants de la vie.', 'Leurs vies sont pleines d'événements dont ils ne se souviennent pas plus tard.']
+
+Réponse: Ils ont moins d'expériences inédites."
+"Si nous trouvions que l'âge adulte était significativement et positivement corrélé à la consommation de tisanes, nous pourrions conclure que",human_aging,"['En buvant des tisanes, on vieillit plus lentement.', 'En vieillissant, on commence ou on augmente sa consommation de thés à base de plantes.', 'Les personnes âgées boivent moins de tisanes que les jeunes adultes.', 'Les personnes âgées boivent plus de tisanes que les jeunes adultes.']",3,"Question: Si nous trouvions que l'âge adulte était significativement et positivement corrélé à la consommation de tisanes, nous pourrions conclure que
+
+Choix: ['En buvant des tisanes, on vieillit plus lentement.', 'En vieillissant, on commence ou on augmente sa consommation de thés à base de plantes.', 'Les personnes âgées boivent moins de tisanes que les jeunes adultes.', 'Les personnes âgées boivent plus de tisanes que les jeunes adultes.']
+
+Réponse: Les personnes âgées boivent plus de tisanes que les jeunes adultes."
+Les initiales ADL signifient,human_aging,"['Les activités de la vie quotidienne', 'Légion américaine des maladies', 'Toujours retarder l'apprentissage', 'Des dames dépendantes dans l'Antiquité']",0,"Question: Les initiales ADL signifient
+
+Choix: ['Les activités de la vie quotidienne', 'Légion américaine des maladies', 'Toujours retarder l'apprentissage', 'Des dames dépendantes dans l'Antiquité']
+
+Réponse: Les activités de la vie quotidienne"
+La démence qui résulte d'une carence à long terme en thiamine est un type de démence ____,human_aging,"['Maladie d'Alzheimer', 'Il est de Korsakoff.', 'Créutzfeldt-Jakob est une ville de l'Est de l'Allemagne.', 'Corps de Lewy']",1,"Question: La démence qui résulte d'une carence à long terme en thiamine est un type de démence ____
+
+Choix: ['Maladie d'Alzheimer', 'Il est de Korsakoff.', 'Créutzfeldt-Jakob est une ville de l'Est de l'Allemagne.', 'Corps de Lewy']
+
+Réponse: Il est de Korsakoff."
+La longueur initiale de la télomère pour les membres d'une espèce est,human_aging,"['C' est toujours pareil .', 'Déterminé génétiquement', 'Dépend du climat et de la période de l'année à la naissance', 'Déterminé par le régime alimentaire et l'exercice des parents']",1,"Question: La longueur initiale de la télomère pour les membres d'une espèce est
+
+Choix: ['C' est toujours pareil .', 'Déterminé génétiquement', 'Dépend du climat et de la période de l'année à la naissance', 'Déterminé par le régime alimentaire et l'exercice des parents']
+
+Réponse: Déterminé génétiquement"
+Le record actuel de l'être humain ayant vécu le plus longtemps est détenu par,human_aging,"['Jeanne Calment', 'Je ne sais pas.', 'Elle s'appelle Marie Esther de Capovilla.', 'M. Chérie Clark']",0,"Question: Le record actuel de l'être humain ayant vécu le plus longtemps est détenu par
+
+Choix: ['Jeanne Calment', 'Je ne sais pas.', 'Elle s'appelle Marie Esther de Capovilla.', 'M. Chérie Clark']
+
+Réponse: Jeanne Calment"
+Le glaucome se réfère à l'état dans lequel,human_aging,"['La pression du liquide dans l' œil est supérieure à la normale.', 'Les couches intérieure et extérieure de la rétine sont séparées.', 'La lentille devient trouble et opaque', 'La partie centrale de la rétine ne fonctionne plus.']",0,"Question: Le glaucome se réfère à l'état dans lequel
+
+Choix: ['La pression du liquide dans l' œil est supérieure à la normale.', 'Les couches intérieure et extérieure de la rétine sont séparées.', 'La lentille devient trouble et opaque', 'La partie centrale de la rétine ne fonctionne plus.']
+
+Réponse: La pression du liquide dans l' œil est supérieure à la normale."
+Dans lequel des emplois suivants les travailleurs bénéficient-ils encore d'une retraite obligatoire lorsqu'ils atteignent un certain âge?,human_aging,"['Chauffeurs de taxi', 'Les pompiers', 'Autorités de réglementation des assurances', 'Programmeurs informatiques']",1,"Question: Dans lequel des emplois suivants les travailleurs bénéficient-ils encore d'une retraite obligatoire lorsqu'ils atteignent un certain âge?
+
+Choix: ['Chauffeurs de taxi', 'Les pompiers', 'Autorités de réglementation des assurances', 'Programmeurs informatiques']
+
+Réponse: Les pompiers"
+La thérapie de validation fait référence aux traitements dans lesquels la personne atteinte de démence,human_aging,"['Il est soigneusement surveillé jour et nuit.', 'Est traité comme un être humain', 'Est laissé seul à mourir paisiblement', 'On lui donne des doses doubles ou triples de médicaments']",1,"Question: La thérapie de validation fait référence aux traitements dans lesquels la personne atteinte de démence
+
+Choix: ['Il est soigneusement surveillé jour et nuit.', 'Est traité comme un être humain', 'Est laissé seul à mourir paisiblement', 'On lui donne des doses doubles ou triples de médicaments']
+
+Réponse: Est traité comme un être humain"
+Des enquêtes menées auprès de personnes endeuillées ont révélé que l'une des choses les plus utiles est que d'autres,human_aging,"['Évitez toute discussion sur le défunt.', 'Restez en contact étroit.', 'Restez à l'écart et laissez la personne pleurer.', 'Modifiez l'environnement familial pour les personnes endeuillées.']",1,"Question: Des enquêtes menées auprès de personnes endeuillées ont révélé que l'une des choses les plus utiles est que d'autres
+
+Choix: ['Évitez toute discussion sur le défunt.', 'Restez en contact étroit.', 'Restez à l'écart et laissez la personne pleurer.', 'Modifiez l'environnement familial pour les personnes endeuillées.']
+
+Réponse: Restez en contact étroit."
+"Un exemple d'un gain, plutôt que d'une perte, qui se produit au fur et à mesure que nous vieillissons est notre gain en",human_aging,"['Perspectives', 'Rapidité', 'La taille de nos réseaux sociaux', 'La certitude']",0,"Question: Un exemple d'un gain, plutôt que d'une perte, qui se produit au fur et à mesure que nous vieillissons est notre gain en
+
+Choix: ['Perspectives', 'Rapidité', 'La taille de nos réseaux sociaux', 'La certitude']
+
+Réponse: Perspectives"
+Lequel des éléments suivants semble demeurer relativement stable au cours de l'âge adulte?,human_aging,"['Les souvenirs sensoriels', 'Des préoccupations personnelles', 'Les tensions conjugales', 'Satisfaction au travail']",0,"Question: Lequel des éléments suivants semble demeurer relativement stable au cours de l'âge adulte?
+
+Choix: ['Les souvenirs sensoriels', 'Des préoccupations personnelles', 'Les tensions conjugales', 'Satisfaction au travail']
+
+Réponse: Les souvenirs sensoriels"
+Lequel des éléments suivants est toujours le plus long ?,human_aging,"['Espérance de vie à la naissance (LEAB)', 'Durée de vie', 'Espérance de vie à un âge donné (LEASA)', 'Il n' y a aucun moyen de savoir']",1,"Question: Lequel des éléments suivants est toujours le plus long ?
+
+Choix: ['Espérance de vie à la naissance (LEAB)', 'Durée de vie', 'Espérance de vie à un âge donné (LEASA)', 'Il n' y a aucun moyen de savoir']
+
+Réponse: Durée de vie"
+Lequel des stéréotypes suivants concerne le plus souvent les personnes âgées?,human_aging,"['Pleine de sagesse et de connaissance', 'Saine et indépendante', 'Confuse et désorientée', 'Somnolent et paresseux']",2,"Question: Lequel des stéréotypes suivants concerne le plus souvent les personnes âgées?
+
+Choix: ['Pleine de sagesse et de connaissance', 'Saine et indépendante', 'Confuse et désorientée', 'Somnolent et paresseux']
+
+Réponse: Confuse et désorientée"
+Une des raisons pour lesquelles les personnes âgées peuvent avoir des difficultés à récupérer des souvenirs est que,human_aging,"['La mémoire à long terme élimine souvent les souvenirs plus anciens et inutilisés.', 'Il y a beaucoup plus de souvenirs à fouiller pour trouver celui qui est recherché', 'Les adultes plus âgés cessent de chercher parce qu'ils ont des choses plus importantes à faire.', 'La mémoire est moins bien organisée à mesure que nous vieillissons et trouver un souvenir peut être assez difficile']",1,"Question: Une des raisons pour lesquelles les personnes âgées peuvent avoir des difficultés à récupérer des souvenirs est que
+
+Choix: ['La mémoire à long terme élimine souvent les souvenirs plus anciens et inutilisés.', 'Il y a beaucoup plus de souvenirs à fouiller pour trouver celui qui est recherché', 'Les adultes plus âgés cessent de chercher parce qu'ils ont des choses plus importantes à faire.', 'La mémoire est moins bien organisée à mesure que nous vieillissons et trouver un souvenir peut être assez difficile']
+
+Réponse: Il y a beaucoup plus de souvenirs à fouiller pour trouver celui qui est recherché"
+Même une petite quantité de privation de sommeil semble,human_aging,"['Augmentation du poids', 'Améliorer la qualité du sommeil', 'Interrompre l'attention le lendemain', 'Augmentation de l' irritabilité']",1,"Question: Même une petite quantité de privation de sommeil semble
+
+Choix: ['Augmentation du poids', 'Améliorer la qualité du sommeil', 'Interrompre l'attention le lendemain', 'Augmentation de l' irritabilité']
+
+Réponse: Améliorer la qualité du sommeil"
+NEAT peut être un moyen par lequel certaines personnes sont en mesure de maintenir un IMC sain; NEAT se réfère à,human_aging,"['Manger les bons types d'aliments à faible teneur en calories', 'Activités quotidiennes comme marcher, faire des gestes et même bouger.', 'Exercice d'aérobie intense pratiqué au moins 3 fois par semaine', 'Suppression chirurgicale du tissu adipeux']",1,"Question: NEAT peut être un moyen par lequel certaines personnes sont en mesure de maintenir un IMC sain; NEAT se réfère à
+
+Choix: ['Manger les bons types d'aliments à faible teneur en calories', 'Activités quotidiennes comme marcher, faire des gestes et même bouger.', 'Exercice d'aérobie intense pratiqué au moins 3 fois par semaine', 'Suppression chirurgicale du tissu adipeux']
+
+Réponse: Activités quotidiennes comme marcher, faire des gestes et même bouger."
+"Au cours de la dernière décennie ou deux, laquelle des causes de décès suivantes a montré une énorme augmentation?",human_aging,"['Maladie d'Alzheimer', 'Le cancer', 'Maladies cardiovasculaires', 'Le meurtre']",0,"Question: Au cours de la dernière décennie ou deux, laquelle des causes de décès suivantes a montré une énorme augmentation?
+
+Choix: ['Maladie d'Alzheimer', 'Le cancer', 'Maladies cardiovasculaires', 'Le meurtre']
+
+Réponse: Maladie d'Alzheimer"
+Lequel des énoncés suivants est VRAI en ce qui concerne les performances professionnelles des travailleurs âgés?,human_aging,"['Les travailleurs plus âgés obtiennent toujours de meilleurs résultats en raison de leur vaste expérience.', 'Les travailleurs plus âgés n'ont jamais de meilleurs résultats que les travailleurs plus jeunes parce qu'avec l'âge, les compétences d'un travailleur diminuent.', 'La performance professionnelle des travailleurs âgés dépend à la fois du déclin des compétences et des avantages de l'expérience', 'La plupart des tâches sont mieux accomplies par les jeunes adultes, mais quelques-unes sont mieux accomplies par les personnes âgées.']",2,"Question: Lequel des énoncés suivants est VRAI en ce qui concerne les performances professionnelles des travailleurs âgés?
+
+Choix: ['Les travailleurs plus âgés obtiennent toujours de meilleurs résultats en raison de leur vaste expérience.', 'Les travailleurs plus âgés n'ont jamais de meilleurs résultats que les travailleurs plus jeunes parce qu'avec l'âge, les compétences d'un travailleur diminuent.', 'La performance professionnelle des travailleurs âgés dépend à la fois du déclin des compétences et des avantages de l'expérience', 'La plupart des tâches sont mieux accomplies par les jeunes adultes, mais quelques-unes sont mieux accomplies par les personnes âgées.']
+
+Réponse: La performance professionnelle des travailleurs âgés dépend à la fois du déclin des compétences et des avantages de l'expérience"
+Les croyances négatives des personnes âgées à propos de leurs propres souvenirs semblent être davantage influencées par _____ que par leurs résultats réels aux tests de mémoire.,human_aging,"['Stéréotypes négatifs sur la mémoire des personnes âgées', 'Heure de la journée et conditions météorologiques', 'À qui parlent-ils ?', 'Leur vitesse de traitement plus lente']",0,"Question: Les croyances négatives des personnes âgées à propos de leurs propres souvenirs semblent être davantage influencées par _____ que par leurs résultats réels aux tests de mémoire.
+
+Choix: ['Stéréotypes négatifs sur la mémoire des personnes âgées', 'Heure de la journée et conditions météorologiques', 'À qui parlent-ils ?', 'Leur vitesse de traitement plus lente']
+
+Réponse: Stéréotypes négatifs sur la mémoire des personnes âgées"
+Laquelle des activités suivantes n'est PAS l'une des activités les plus fréquemment mentionnées par les retraités?,human_aging,"['Le bénévolat', 'Les voyages', 'Le remodelage de la maison', 'Les tâches ménagères']",2,"Question: Laquelle des activités suivantes n'est PAS l'une des activités les plus fréquemment mentionnées par les retraités?
+
+Choix: ['Le bénévolat', 'Les voyages', 'Le remodelage de la maison', 'Les tâches ménagères']
+
+Réponse: Le remodelage de la maison"
+La phase de retraite qui survient le moins souvent est la phase ____,human_aging,"['Désenchantement', 'La lune de miel', 'La routine de la retraite', 'Pré-retraite']",0,"Question: La phase de retraite qui survient le moins souvent est la phase ____
+
+Choix: ['Désenchantement', 'La lune de miel', 'La routine de la retraite', 'Pré-retraite']
+
+Réponse: Désenchantement"
+Laquelle des variables suivantes est la plus importante pour les chercheurs en gérontologie ?,human_aging,"['Âge', 'Le sexe', 'Cohorte', 'Temps de mesure']",0,"Question: Laquelle des variables suivantes est la plus importante pour les chercheurs en gérontologie ?
+
+Choix: ['Âge', 'Le sexe', 'Cohorte', 'Temps de mesure']
+
+Réponse: Âge"
+Lequel des éléments suivants n'augmente PAS le risque de chute?,human_aging,"['Prendre de nombreux médicaments sur ordonnance', 'Déficience visuelle', 'Ne pas avoir de soutien affectif', 'Un changement de style de marche ou d'allure']",2,"Question: Lequel des éléments suivants n'augmente PAS le risque de chute?
+
+Choix: ['Prendre de nombreux médicaments sur ordonnance', 'Déficience visuelle', 'Ne pas avoir de soutien affectif', 'Un changement de style de marche ou d'allure']
+
+Réponse: Ne pas avoir de soutien affectif"
+La principale raison donnée par les hommes et les femmes pour leur mariage de longue durée est que,human_aging,"['Ils sont meilleurs amis .', 'Ils doivent remplir leurs vœux.', 'Ils sont d'accord sur presque tout .', 'Ils le doivent à leurs enfants.']",0,"Question: La principale raison donnée par les hommes et les femmes pour leur mariage de longue durée est que
+
+Choix: ['Ils sont meilleurs amis .', 'Ils doivent remplir leurs vœux.', 'Ils sont d'accord sur presque tout .', 'Ils le doivent à leurs enfants.']
+
+Réponse: Ils sont meilleurs amis ."
+"Un adulte plus âgé qui a reçu un message (par exemple, il va pleuvoir demain) serait plus susceptible de se souvenir de quoi lorsqu'il le dit à une autre personne?",human_aging,"['La personne qui leur a dit qu'il allait pleuvoir', 'Où étaient-ils quand ils ont reçu le message ?', 'Le contenu du message', 'L'heure de la journée à laquelle le message a été reçu']",2,"Question: Un adulte plus âgé qui a reçu un message (par exemple, il va pleuvoir demain) serait plus susceptible de se souvenir de quoi lorsqu'il le dit à une autre personne?
+
+Choix: ['La personne qui leur a dit qu'il allait pleuvoir', 'Où étaient-ils quand ils ont reçu le message ?', 'Le contenu du message', 'L'heure de la journée à laquelle le message a été reçu']
+
+Réponse: Le contenu du message"
+La perspective de la durée de vie dit que le développement est composé de gains et de pertes; cela signifie que,human_aging,"['Nous gagnons quand nous sommes jeunes, mais nous perdons quand nous sommes plus âgés.', 'On gagne des choses et on en perd d' autres à chaque âge .', 'Pour chaque aspect du développement, il n'y a pas de changement global puisque chaque gain est compensé par une perte.', 'Les gains sont bien plus importants que les pertes, mais il y a aussi des pertes.']",1,"Question: La perspective de la durée de vie dit que le développement est composé de gains et de pertes; cela signifie que
+
+Choix: ['Nous gagnons quand nous sommes jeunes, mais nous perdons quand nous sommes plus âgés.', 'On gagne des choses et on en perd d' autres à chaque âge .', 'Pour chaque aspect du développement, il n'y a pas de changement global puisque chaque gain est compensé par une perte.', 'Les gains sont bien plus importants que les pertes, mais il y a aussi des pertes.']
+
+Réponse: On gagne des choses et on en perd d' autres à chaque âge ."
+L'identité se réfère à l'identité de l'individu.,human_aging,"['Utilisation d'une stratégie d'adaptation particulière', 'Le contrôle de l'histoire de sa propre vie', 'Apparence physique et personnalité générale', 'Un sens cohérent de soi']",3,"Question: L'identité se réfère à l'identité de l'individu.
+
+Choix: ['Utilisation d'une stratégie d'adaptation particulière', 'Le contrôle de l'histoire de sa propre vie', 'Apparence physique et personnalité générale', 'Un sens cohérent de soi']
+
+Réponse: Un sens cohérent de soi"
+Les estimations actuelles du nombre de personnes qui font régulièrement de l'exercice suggèrent que _____ font de l'exercice.,human_aging,"['Moins de 50%', 'Plus de 75%', 'Moins de 25%', 'Plus de 50%']",0,"Question: Les estimations actuelles du nombre de personnes qui font régulièrement de l'exercice suggèrent que _____ font de l'exercice.
+
+Choix: ['Moins de 50%', 'Plus de 75%', 'Moins de 25%', 'Plus de 50%']
+
+Réponse: Moins de 50%"
+Une augmentation de la fréquence des mictions chez les personnes âgées est probablement causée par:,human_aging,"['Cancer de la prostate', 'La vessie est plus petite', 'Problèmes rénaux', 'Pièces de la vésicule biliaire']",1,"Question: Une augmentation de la fréquence des mictions chez les personnes âgées est probablement causée par:
+
+Choix: ['Cancer de la prostate', 'La vessie est plus petite', 'Problèmes rénaux', 'Pièces de la vésicule biliaire']
+
+Réponse: La vessie est plus petite"
+Certaines recherches ont montré que le déclin cognitif plus tard est prédit par plus tôt,human_aging,"['Problèmes cardiovasculaires', 'Perte de force musculaire', 'Défaillance du système immunitaire', 'Le grisonnement des cheveux']",1,"Question: Certaines recherches ont montré que le déclin cognitif plus tard est prédit par plus tôt
+
+Choix: ['Problèmes cardiovasculaires', 'Perte de force musculaire', 'Défaillance du système immunitaire', 'Le grisonnement des cheveux']
+
+Réponse: Perte de force musculaire"
+La loi qui oblige tous les établissements de soins de santé qui reçoivent des fonds de Medicaid pour informer les patients sur les directives anticipées est appelé le,human_aging,"['L'acte d'autodétermination du patient', 'Loi sur le consentement éclairé', 'Directive préalable', 'Loi sur l'information relative à la directive sur l'assistance médicale']",0,"Question: La loi qui oblige tous les établissements de soins de santé qui reçoivent des fonds de Medicaid pour informer les patients sur les directives anticipées est appelé le
+
+Choix: ['L'acte d'autodétermination du patient', 'Loi sur le consentement éclairé', 'Directive préalable', 'Loi sur l'information relative à la directive sur l'assistance médicale']
+
+Réponse: L'acte d'autodétermination du patient"
+Laquelle des causes suivantes ne fait PAS partie des 10 principales causes de décès aux États-Unis ?,human_aging,"['Maladies rénales', 'Le sida', 'Septicémie', 'Les accidents']",1,"Question: Laquelle des causes suivantes ne fait PAS partie des 10 principales causes de décès aux États-Unis ?
+
+Choix: ['Maladies rénales', 'Le sida', 'Septicémie', 'Les accidents']
+
+Réponse: Le sida"
+La presbytie se réfère à,human_aging,"['Le point de vision le plus clair se rapproche de l'œil', 'Le déclin de la vision avec l'âge avancé', 'La perte d'audition due à une hauteur plus élevée à mesure que l'on vieillit', 'Le point de vision le plus clair se déplace plus loin de l'œil']",3,"Question: La presbytie se réfère à
+
+Choix: ['Le point de vision le plus clair se rapproche de l'œil', 'Le déclin de la vision avec l'âge avancé', 'La perte d'audition due à une hauteur plus élevée à mesure que l'on vieillit', 'Le point de vision le plus clair se déplace plus loin de l'œil']
+
+Réponse: Le point de vision le plus clair se déplace plus loin de l'œil"
+La conception de produits et d'environnements pour s'adapter aux capacités des personnes qui les utilisent ou y vivent est appelée conception _____,human_aging,"['Le secteur de l'environnement', 'Écologique', 'Ergonomie', 'Éclectique']",2,"Question: La conception de produits et d'environnements pour s'adapter aux capacités des personnes qui les utilisent ou y vivent est appelée conception _____
+
+Choix: ['Le secteur de l'environnement', 'Écologique', 'Ergonomie', 'Éclectique']
+
+Réponse: Ergonomie"
+Le programme d'assurance pour les pauvres de tous âges s'appelle,human_aging,"['Les soins palliatifs', 'Les soins de santé', 'Régime d'assurance maladie', 'Un répit .']",1,"Question: Le programme d'assurance pour les pauvres de tous âges s'appelle
+
+Choix: ['Les soins palliatifs', 'Les soins de santé', 'Régime d'assurance maladie', 'Un répit .']
+
+Réponse: Les soins de santé"
+"Quand les lésions cérébrales sont irréversibles et croissantes, on appelle ce trouble:",human_aging,"['Délire', 'Nom de l'établissement', 'Démence', 'Choisissez le']",2,"Question: Quand les lésions cérébrales sont irréversibles et croissantes, on appelle ce trouble:
+
+Choix: ['Délire', 'Nom de l'établissement', 'Démence', 'Choisissez le']
+
+Réponse: Démence"
+Les grands-parents dont les petits-enfants sont à l'université déclarent se sentir particulièrement aimés lorsque ces petits-enfants,human_aging,"['Demandez- leur s'ils sont satisfaits de leur vie et offrez- leur votre aide.', 'Visitez pendant les vacances et apportez des cadeaux.', 'Faites une visite surprise et demandez des conseils.', 'Invitez les grands-parents chez eux et préparez un bon repas.']",2,"Question: Les grands-parents dont les petits-enfants sont à l'université déclarent se sentir particulièrement aimés lorsque ces petits-enfants
+
+Choix: ['Demandez- leur s'ils sont satisfaits de leur vie et offrez- leur votre aide.', 'Visitez pendant les vacances et apportez des cadeaux.', 'Faites une visite surprise et demandez des conseils.', 'Invitez les grands-parents chez eux et préparez un bon repas.']
+
+Réponse: Faites une visite surprise et demandez des conseils."
+L'influence de la génétique sur la longévité est estimée à environ,human_aging,"['Pourcentage', 'Pourcentage', '50% du chiffre d'affaires', 'Pourcentage']",1,"Question: L'influence de la génétique sur la longévité est estimée à environ
+
+Choix: ['Pourcentage', 'Pourcentage', '50% du chiffre d'affaires', 'Pourcentage']
+
+Réponse: Pourcentage"
+Les personnes âgées sont plus susceptibles d'être impliquées dans un accident de la circulation lorsqu'elles sont:,human_aging,"['À pied', 'Conduite dans un nouvel emplacement', 'Un passager dans la voiture d'une personne plus jeune', 'Seul']",0,"Question: Les personnes âgées sont plus susceptibles d'être impliquées dans un accident de la circulation lorsqu'elles sont:
+
+Choix: ['À pied', 'Conduite dans un nouvel emplacement', 'Un passager dans la voiture d'une personne plus jeune', 'Seul']
+
+Réponse: À pied"
+Les histoires de vie sont plus susceptibles pour les personnes qui ont un sens de,human_aging,"['Bien être', 'Contrôle personnel', 'La générativité', 'Le sens de l'humour']",1,"Question: Les histoires de vie sont plus susceptibles pour les personnes qui ont un sens de
+
+Choix: ['Bien être', 'Contrôle personnel', 'La générativité', 'Le sens de l'humour']
+
+Réponse: Contrôle personnel"
+L'idée que la capacité à accomplir une tâche dépend de l'adaptation entre l'environnement et la personne qui entreprend la tâche est un principe de base de laquelle des théories suivantes du vieillissement?,human_aging,"['Le secteur de l'environnement', 'Écologique', 'Condition physique', 'Congruence']",1,"Question: L'idée que la capacité à accomplir une tâche dépend de l'adaptation entre l'environnement et la personne qui entreprend la tâche est un principe de base de laquelle des théories suivantes du vieillissement?
+
+Choix: ['Le secteur de l'environnement', 'Écologique', 'Condition physique', 'Congruence']
+
+Réponse: Écologique"
+Le névrosisme a été associé à lequel des symptômes suivants ?,human_aging,"['La colère et la culpabilité', 'Apathie et indifférence', 'La tromperie et la ruse', 'Manie et hypertension']",0,"Question: Le névrosisme a été associé à lequel des symptômes suivants ?
+
+Choix: ['La colère et la culpabilité', 'Apathie et indifférence', 'La tromperie et la ruse', 'Manie et hypertension']
+
+Réponse: La colère et la culpabilité"
+La protéine Apo-E 2 est très répandue chez les personnes,human_aging,"['Tu mourras jeune .', 'Vivre jusqu'à 100 ans ou plus', 'Avoir un système immunitaire en bonne santé', 'Avoir également des niveaux élevés d' Apo-E 4']",1,"Question: La protéine Apo-E 2 est très répandue chez les personnes
+
+Choix: ['Tu mourras jeune .', 'Vivre jusqu'à 100 ans ou plus', 'Avoir un système immunitaire en bonne santé', 'Avoir également des niveaux élevés d' Apo-E 4']
+
+Réponse: Vivre jusqu'à 100 ans ou plus"
+On pense que l'information qui entre dans notre système cognitif entre d'abord dans un,human_aging,"['La mémoire sensorielle', 'Processeur de perception', 'Mémoire de travail', 'Méta-mémoire']",0,"Question: On pense que l'information qui entre dans notre système cognitif entre d'abord dans un
+
+Choix: ['La mémoire sensorielle', 'Processeur de perception', 'Mémoire de travail', 'Méta-mémoire']
+
+Réponse: La mémoire sensorielle"
+Les oméga 3 semblent réduire le risque de,human_aging,"['Certains cancers', 'Maladies cardiovasculaires', 'Insuffisance cardiaque', 'Insomnie']",1,"Question: Les oméga 3 semblent réduire le risque de
+
+Choix: ['Certains cancers', 'Maladies cardiovasculaires', 'Insuffisance cardiaque', 'Insomnie']
+
+Réponse: Maladies cardiovasculaires"
+"Le terme ""sénescence"" désigne:",human_aging,"['Une vulnérabilité accrue', 'Le processus de vieillissement', 'La perte des capacités mentales', 'Vieillissement biologique']",0,"Question: Le terme ""sénescence"" désigne:
+
+Choix: ['Une vulnérabilité accrue', 'Le processus de vieillissement', 'La perte des capacités mentales', 'Vieillissement biologique']
+
+Réponse: Une vulnérabilité accrue"
+Lequel des éléments suivants est causé par un prion ?,human_aging,"['Démence vasculaire', 'Maladie d'Alzheimer', 'Créutzfeldt-Jakob est une ville de l'Est de l'Allemagne.', 'Le syndrome de Huntington']",2,"Question: Lequel des éléments suivants est causé par un prion ?
+
+Choix: ['Démence vasculaire', 'Maladie d'Alzheimer', 'Créutzfeldt-Jakob est une ville de l'Est de l'Allemagne.', 'Le syndrome de Huntington']
+
+Réponse: Créutzfeldt-Jakob est une ville de l'Est de l'Allemagne."
+Une différence entre les réseaux sociaux des adultes plus âgés et des adultes plus jeunes réside dans le fait que les adultes plus âgés ont,human_aging,"['Des cercles intérieurs plus larges', 'Cercles extérieurs plus grands', 'Cercles intérieurs plus petits', 'Cercles extérieurs plus petits']",3,"Question: Une différence entre les réseaux sociaux des adultes plus âgés et des adultes plus jeunes réside dans le fait que les adultes plus âgés ont
+
+Choix: ['Des cercles intérieurs plus larges', 'Cercles extérieurs plus grands', 'Cercles intérieurs plus petits', 'Cercles extérieurs plus petits']
+
+Réponse: Cercles extérieurs plus petits"
+La première personne à mesurer et à comparer les temps de réponse des jeunes et des personnes âgées a été,human_aging,"['Francis Galton . Je vous en prie .', 'Il s'agit de William James.', 'Nom de l'auteur:', 'C' est Tom Penge .']",0,"Question: La première personne à mesurer et à comparer les temps de réponse des jeunes et des personnes âgées a été
+
+Choix: ['Francis Galton . Je vous en prie .', 'Il s'agit de William James.', 'Nom de l'auteur:', 'C' est Tom Penge .']
+
+Réponse: Francis Galton . Je vous en prie ."
+Environ quel pourcentage de personnes qui ont eu des travaux de pont disent que c'était mieux que leur travail de carrière?,human_aging,"['Moins de 25%', 'Moins de 50%', 'Plus de 50%', 'Plus de 75%']",2,"Question: Environ quel pourcentage de personnes qui ont eu des travaux de pont disent que c'était mieux que leur travail de carrière?
+
+Choix: ['Moins de 25%', 'Moins de 50%', 'Plus de 50%', 'Plus de 75%']
+
+Réponse: Plus de 50%"
+Nous voulons que nos mesures soient aussi fiables que possible.,human_aging,"['Si notre mesure mesure vraiment quoi que ce soit', 'Si notre mesure mesure vraiment ce qu'elle prétend mesurer', 'Si notre mesure est cohérente dans les informations qu'elle fournit', 'Si notre mesure a été ou n'a pas été utilisée auparavant']",2,"Question: Nous voulons que nos mesures soient aussi fiables que possible.
+
+Choix: ['Si notre mesure mesure vraiment quoi que ce soit', 'Si notre mesure mesure vraiment ce qu'elle prétend mesurer', 'Si notre mesure est cohérente dans les informations qu'elle fournit', 'Si notre mesure a été ou n'a pas été utilisée auparavant']
+
+Réponse: Si notre mesure est cohérente dans les informations qu'elle fournit"
+Un problème dans la comparaison de la mémoire des personnes âgées pour les événements récents et les événements qui se sont produits il y a longtemps est que les événements récents,human_aging,"['Peut être très bien répétée', 'Sont beaucoup plus significatives', 'Ne pas avoir de dénominateur pour aider au calcul d'une moyenne', 'Peut être vérifié alors que les événements plus anciens ne le peuvent souvent pas']",3,"Question: Un problème dans la comparaison de la mémoire des personnes âgées pour les événements récents et les événements qui se sont produits il y a longtemps est que les événements récents
+
+Choix: ['Peut être très bien répétée', 'Sont beaucoup plus significatives', 'Ne pas avoir de dénominateur pour aider au calcul d'une moyenne', 'Peut être vérifié alors que les événements plus anciens ne le peuvent souvent pas']
+
+Réponse: Peut être vérifié alors que les événements plus anciens ne le peuvent souvent pas"
+"Parmi les types de mémoire suivants, lequel présente le plus grand déficit avec l'âge avancé?",human_aging,"['La mémoire sensorielle', 'Mémoire épisodique', 'La mémoire sémantique', 'Mémoire procédurale']",1,"Question: Parmi les types de mémoire suivants, lequel présente le plus grand déficit avec l'âge avancé?
+
+Choix: ['La mémoire sensorielle', 'Mémoire épisodique', 'La mémoire sémantique', 'Mémoire procédurale']
+
+Réponse: Mémoire épisodique"
+"Aux États-Unis, la perte d'un ____ est considérée comme la perte la plus grave et provoque fréquemment un sentiment de culpabilité en plus d'autres émotions.",human_aging,"['Le conjoint', 'Parent', 'Enfants', 'Frères et sœurs']",2,"Question: Aux États-Unis, la perte d'un ____ est considérée comme la perte la plus grave et provoque fréquemment un sentiment de culpabilité en plus d'autres émotions.
+
+Choix: ['Le conjoint', 'Parent', 'Enfants', 'Frères et sœurs']
+
+Réponse: Enfants"
+La théorie des dommages / réparations de l'ADN affirme que la sénescence est due au fait que les cellules reçoivent des instructions incorrectes de l'ADN endommagé par des sources telles que,human_aging,"['Radiation d'antioxydants', 'Processus métaboliques', 'Les radicaux libres et la lumière du soleil', 'Télomérase']",2,"Question: La théorie des dommages / réparations de l'ADN affirme que la sénescence est due au fait que les cellules reçoivent des instructions incorrectes de l'ADN endommagé par des sources telles que
+
+Choix: ['Radiation d'antioxydants', 'Processus métaboliques', 'Les radicaux libres et la lumière du soleil', 'Télomérase']
+
+Réponse: Les radicaux libres et la lumière du soleil"
+La comorbidité est un problème pour les personnes âgées car elle,human_aging,"['Fait des diagnostics corrects difficiles', 'Augmente les coûts funéraires', 'C' est très contagieux .', 'Ne peut pas, à l'heure actuelle, être guéri']",0,"Question: La comorbidité est un problème pour les personnes âgées car elle
+
+Choix: ['Fait des diagnostics corrects difficiles', 'Augmente les coûts funéraires', 'C' est très contagieux .', 'Ne peut pas, à l'heure actuelle, être guéri']
+
+Réponse: Fait des diagnostics corrects difficiles"
+"En ce qui concerne les théories de la sénescence, il est probablement sûr de dire que",human_aging,"['Les théories programmées sont les meilleures que nous ayons actuellement.', 'De nombreuses théories devront être combinées pour expliquer la sénescence.', 'Les preuves de ces théories sont directes et s'accumulent rapidement.', 'Toutes ces théories ne sont que des spéculations à ce stade.']",1,"Question: En ce qui concerne les théories de la sénescence, il est probablement sûr de dire que
+
+Choix: ['Les théories programmées sont les meilleures que nous ayons actuellement.', 'De nombreuses théories devront être combinées pour expliquer la sénescence.', 'Les preuves de ces théories sont directes et s'accumulent rapidement.', 'Toutes ces théories ne sont que des spéculations à ce stade.']
+
+Réponse: De nombreuses théories devront être combinées pour expliquer la sénescence."
+L'espérance de vie actuelle aux États-Unis est d'environ,human_aging,"['Résolution du Parlement européen', 'Résolution du Parlement européen', 'Résolution du Parlement européen', 'Nom de l'entreprise']",0,"Question: L'espérance de vie actuelle aux États-Unis est d'environ
+
+Choix: ['Résolution du Parlement européen', 'Résolution du Parlement européen', 'Résolution du Parlement européen', 'Nom de l'entreprise']
+
+Réponse: Résolution du Parlement européen"
+Un lieu de sépulture où on laisse le corps se décomposer naturellement sans cercueil s'appelle un cimetière _____,human_aging,"['Le naturalisme', 'Le vert', 'Décomposition rapide', 'La lumière du soleil']",1,"Question: Un lieu de sépulture où on laisse le corps se décomposer naturellement sans cercueil s'appelle un cimetière _____
+
+Choix: ['Le naturalisme', 'Le vert', 'Décomposition rapide', 'La lumière du soleil']
+
+Réponse: Le vert"
+Les personnes âgées ayant un niveau d'éducation supérieur et une bonne estime de soi sont plus susceptibles d'être,human_aging,"['Sexuellement actif', 'Socialement isolé', 'Seuls à mesure qu'ils vieillissent', 'Marié depuis longtemps .']",0,"Question: Les personnes âgées ayant un niveau d'éducation supérieur et une bonne estime de soi sont plus susceptibles d'être
+
+Choix: ['Sexuellement actif', 'Socialement isolé', 'Seuls à mesure qu'ils vieillissent', 'Marié depuis longtemps .']
+
+Réponse: Sexuellement actif"
+"L'IMC est considéré comme une meilleure mesure de la santé que le poids en lui-même, car l'IMC est basé sur le poids et",human_aging,"['Hauteur', 'Structure osseuse', 'Fonction immunitaire', 'Régime alimentaire et exercice physique']",0,"Question: L'IMC est considéré comme une meilleure mesure de la santé que le poids en lui-même, car l'IMC est basé sur le poids et
+
+Choix: ['Hauteur', 'Structure osseuse', 'Fonction immunitaire', 'Régime alimentaire et exercice physique']
+
+Réponse: Hauteur"
+La morbidité se réfère à,human_aging,"['Décès', 'Isolement social et émotionnel', 'Accroissement de l'invalidité et dégradation de la santé', 'Une période de perte personnelle intense.']",2,"Question: La morbidité se réfère à
+
+Choix: ['Décès', 'Isolement social et émotionnel', 'Accroissement de l'invalidité et dégradation de la santé', 'Une période de perte personnelle intense.']
+
+Réponse: Accroissement de l'invalidité et dégradation de la santé"
+Les personnes âgées sont capables d'améliorer leur mémoire et de réduire leur anxiété au sujet du déclin de la mémoire lorsque:,human_aging,"['Ils apprennent sur la mémoire et le vieillissement et apprennent des techniques', 'Ils apprennent simplement un certain nombre de techniques d'amélioration de la mémoire.', 'Ils apprennent que de nombreux aspects de la mémoire ne se détériorent pas et que certains s'améliorent même.', 'Les personnes âgées ne peuvent faire ni l'un ni l'autre.']",0,"Question: Les personnes âgées sont capables d'améliorer leur mémoire et de réduire leur anxiété au sujet du déclin de la mémoire lorsque:
+
+Choix: ['Ils apprennent sur la mémoire et le vieillissement et apprennent des techniques', 'Ils apprennent simplement un certain nombre de techniques d'amélioration de la mémoire.', 'Ils apprennent que de nombreux aspects de la mémoire ne se détériorent pas et que certains s'améliorent même.', 'Les personnes âgées ne peuvent faire ni l'un ni l'autre.']
+
+Réponse: Ils apprennent sur la mémoire et le vieillissement et apprennent des techniques"
+La perte d'audition pour hauteur est désignée comme suit:,human_aging,"['La présbyopie', 'Le présbycusis', 'Surdité aiguë', 'Perte de conductivité']",1,"Question: La perte d'audition pour hauteur est désignée comme suit:
+
+Choix: ['La présbyopie', 'Le présbycusis', 'Surdité aiguë', 'Perte de conductivité']
+
+Réponse: Le présbycusis"
+"Dans ce chapitre, Tolly Kleckley nous a dit que la personnalité",human_aging,"['Ça change beaucoup après 50 ans.', 'Ça ne change pas après 50 ans.', 'Ça reste à peu près la même chose.', 'Plus de changements chez les femmes que chez les hommes']",2,"Question: Dans ce chapitre, Tolly Kleckley nous a dit que la personnalité
+
+Choix: ['Ça change beaucoup après 50 ans.', 'Ça ne change pas après 50 ans.', 'Ça reste à peu près la même chose.', 'Plus de changements chez les femmes que chez les hommes']
+
+Réponse: Ça reste à peu près la même chose."
+Les Kingberg nous donnent plusieurs clés pour réussir à vieillir.,human_aging,"['Mangez de la bonne nourriture, mais pas trop.', 'Respectez-vous les uns les autres.', 'Faire la fête au moins une fois par mois .', 'Faites des projets à long terme.']",2,"Question: Les Kingberg nous donnent plusieurs clés pour réussir à vieillir.
+
+Choix: ['Mangez de la bonne nourriture, mais pas trop.', 'Respectez-vous les uns les autres.', 'Faire la fête au moins une fois par mois .', 'Faites des projets à long terme.']
+
+Réponse: Faire la fête au moins une fois par mois ."
+Ceux qui ont perdu un membre de leur famille proche par suicide éprouvent le plus souvent,human_aging,"['Un manque de soutien de la part des autres', 'Un désir de se suicider', 'Un sentiment de soulagement et de libération', 'Déficience cognitive sévère mais temporaire']",0,"Question: Ceux qui ont perdu un membre de leur famille proche par suicide éprouvent le plus souvent
+
+Choix: ['Un manque de soutien de la part des autres', 'Un désir de se suicider', 'Un sentiment de soulagement et de libération', 'Déficience cognitive sévère mais temporaire']
+
+Réponse: Un manque de soutien de la part des autres"
+Nos corps ont une défense naturelle contre les radicaux libres appelée,human_aging,"['AFR (en anglais seulement)', 'Sous réserve des dispositions suivantes:', 'Vitamine C', 'Télomérase']",1,"Question: Nos corps ont une défense naturelle contre les radicaux libres appelée
+
+Choix: ['AFR (en anglais seulement)', 'Sous réserve des dispositions suivantes:', 'Vitamine C', 'Télomérase']
+
+Réponse: Sous réserve des dispositions suivantes:"
+Les questions ouvertes d'une enquête rendent souvent,human_aging,"['Demandez aux gens de remplir le questionnaire', 'Interpréter les réponses que vous recevez des gens', 'Récupérer les données en temps opportun', 'Faites croire vos résultats à n'importe qui .']",1,"Question: Les questions ouvertes d'une enquête rendent souvent
+
+Choix: ['Demandez aux gens de remplir le questionnaire', 'Interpréter les réponses que vous recevez des gens', 'Récupérer les données en temps opportun', 'Faites croire vos résultats à n'importe qui .']
+
+Réponse: Interpréter les réponses que vous recevez des gens"
+Lequel des groupes suivants est susceptible d'avoir une vision plus positive du vieillissement et des personnes âgées?,human_aging,"['Autres personnes âgées', 'Enfants de moins de 10 ans', 'Jeunes adultes', 'Adolescents']",0,"Question: Lequel des groupes suivants est susceptible d'avoir une vision plus positive du vieillissement et des personnes âgées?
+
+Choix: ['Autres personnes âgées', 'Enfants de moins de 10 ans', 'Jeunes adultes', 'Adolescents']
+
+Réponse: Autres personnes âgées"
+Le paradoxe du bien-être se réfère à la découverte de niveaux élevés de bonheur parmi,human_aging,"['Des gens malheureux', 'Personnes âgées', 'Personnes ayant une SES très faible', 'Malades en phase terminale']",1,"Question: Le paradoxe du bien-être se réfère à la découverte de niveaux élevés de bonheur parmi
+
+Choix: ['Des gens malheureux', 'Personnes âgées', 'Personnes ayant une SES très faible', 'Malades en phase terminale']
+
+Réponse: Personnes âgées"
+La Cour suprême a maintenant statué que les travailleurs âgés n'ont plus besoin de prouver _____________ pour gagner un procès pour discrimination professionnelle.,human_aging,"['La discrimination', 'Préjugés liés à l'âge', 'Effets négatifs', 'L'intention']",3,"Question: La Cour suprême a maintenant statué que les travailleurs âgés n'ont plus besoin de prouver _____________ pour gagner un procès pour discrimination professionnelle.
+
+Choix: ['La discrimination', 'Préjugés liés à l'âge', 'Effets négatifs', 'L'intention']
+
+Réponse: L'intention"
+Le déclin de la mémoire de travail avec l'âge avancé semble être dû à,human_aging,"['Une perte de ressources et une vitesse de traitement plus lente', 'Une augmentation de l'inhibition de l'information pertinente', 'Une diminution générale de la capacité de traitement de l'information', 'Une perte sévère des connexions neuronales et une diminution du flux sanguin']",0,"Question: Le déclin de la mémoire de travail avec l'âge avancé semble être dû à
+
+Choix: ['Une perte de ressources et une vitesse de traitement plus lente', 'Une augmentation de l'inhibition de l'information pertinente', 'Une diminution générale de la capacité de traitement de l'information', 'Une perte sévère des connexions neuronales et une diminution du flux sanguin']
+
+Réponse: Une perte de ressources et une vitesse de traitement plus lente"
+Un inconvénient des soins en établissement est que le personnel enseigne souvent aux résidents plus âgés à être,human_aging,"['Ce n' est pas gentil .', 'En situation de dépendance', 'Indépendante', 'Égoïste']",1,"Question: Un inconvénient des soins en établissement est que le personnel enseigne souvent aux résidents plus âgés à être
+
+Choix: ['Ce n' est pas gentil .', 'En situation de dépendance', 'Indépendante', 'Égoïste']
+
+Réponse: En situation de dépendance"
+"Si vous croyez que nous sommes en grande partie dans le contrôle de notre propre développement et que nos comportements bon ou mauvais déterminer le succès de notre vieillissement avec être Selon vous, quelle est l'une des perspectives suivantes ?",human_aging,"['À caractère organique', 'Le nourrissage', 'La continuité', 'Mécanique']",0,"Question: Si vous croyez que nous sommes en grande partie dans le contrôle de notre propre développement et que nos comportements bon ou mauvais déterminer le succès de notre vieillissement avec être Selon vous, quelle est l'une des perspectives suivantes ?
+
+Choix: ['À caractère organique', 'Le nourrissage', 'La continuité', 'Mécanique']
+
+Réponse: À caractère organique"
+Âge à partir duquel une personne peut bénéficier de prestations complètes de la sécurité sociale,human_aging,"['Il a 62 ans .', 'Elle a 65 ans.', 'A été en augmentation', 'Ne changera jamais']",2,"Question: Âge à partir duquel une personne peut bénéficier de prestations complètes de la sécurité sociale
+
+Choix: ['Il a 62 ans .', 'Elle a 65 ans.', 'A été en augmentation', 'Ne changera jamais']
+
+Réponse: A été en augmentation"
+La perte de la muqueuse de l'estomac peut entraîner des symptômes qui ressemblent,human_aging,"['Anorexie', 'Démence', 'Senescence', 'Infection par le virus de l' hépatite']",1,"Question: La perte de la muqueuse de l'estomac peut entraîner des symptômes qui ressemblent
+
+Choix: ['Anorexie', 'Démence', 'Senescence', 'Infection par le virus de l' hépatite']
+
+Réponse: Démence"
+Lequel des éléments suivants n'a PAS été démontré comme un traitement efficace de la dépression chez les personnes âgées?,human_aging,"['Des exercices rigoureux', 'Résumé de vie', 'Stimulation mentale', 'Médicaments antidépresseurs']",2,"Question: Lequel des éléments suivants n'a PAS été démontré comme un traitement efficace de la dépression chez les personnes âgées?
+
+Choix: ['Des exercices rigoureux', 'Résumé de vie', 'Stimulation mentale', 'Médicaments antidépresseurs']
+
+Réponse: Stimulation mentale"
+Le terme génération baby-boom fait référence à des gens qui,human_aging,"['Nés avant la Seconde Guerre mondiale', 'Avoir eu un nombre extraordinaire de descendants', 'Ils sont nés juste après la Seconde Guerre mondiale.', 'Ils ont élevé leurs enfants dans de petits villages.']",2,"Question: Le terme génération baby-boom fait référence à des gens qui
+
+Choix: ['Nés avant la Seconde Guerre mondiale', 'Avoir eu un nombre extraordinaire de descendants', 'Ils sont nés juste après la Seconde Guerre mondiale.', 'Ils ont élevé leurs enfants dans de petits villages.']
+
+Réponse: Ils sont nés juste après la Seconde Guerre mondiale."
+Les travailleurs âgés sont plus susceptibles,human_aging,"['Être absent du travail', 'Être insatisfaits de leur emploi', 'Être moins productif', 'Être licencié']",3,"Question: Les travailleurs âgés sont plus susceptibles
+
+Choix: ['Être absent du travail', 'Être insatisfaits de leur emploi', 'Être moins productif', 'Être licencié']
+
+Réponse: Être licencié"
+"Mabel Davis, dans le point de vue des aînés de ce chapitre, serait d'accord avec lequel des points suivants?",human_aging,"['Le temps semble s'accélérer avec l'âge.', 'L'exercice aide à garder l'esprit vif.', 'Les femmes sont plus fortes que les hommes .', 'Évitez les lunettes et les appareils auditifs.']",0,"Question: Mabel Davis, dans le point de vue des aînés de ce chapitre, serait d'accord avec lequel des points suivants?
+
+Choix: ['Le temps semble s'accélérer avec l'âge.', 'L'exercice aide à garder l'esprit vif.', 'Les femmes sont plus fortes que les hommes .', 'Évitez les lunettes et les appareils auditifs.']
+
+Réponse: Le temps semble s'accélérer avec l'âge."
+"L'information stockée dans la mémoire, selon les recherches et les personnes interrogées par Senior View, est",human_aging,"['Fidèle à la vie', 'Notre propre interprétation', 'Toujours exagéré', 'Jamais précis']",1,"Question: L'information stockée dans la mémoire, selon les recherches et les personnes interrogées par Senior View, est
+
+Choix: ['Fidèle à la vie', 'Notre propre interprétation', 'Toujours exagéré', 'Jamais précis']
+
+Réponse: Notre propre interprétation"
+"Lorsque vous parlez à un adulte âgé présentant une perte auditive, vous devez",human_aging,"['Parle un peu plus lentement que d' habitude .', 'Parlez à haute voix dans leur meilleure oreille', 'Faites-leur face pour qu' ils puissent surveiller vos lèvres .', 'Demandez à une autre personne de traduire']",2,"Question: Lorsque vous parlez à un adulte âgé présentant une perte auditive, vous devez
+
+Choix: ['Parle un peu plus lentement que d' habitude .', 'Parlez à haute voix dans leur meilleure oreille', 'Faites-leur face pour qu' ils puissent surveiller vos lèvres .', 'Demandez à une autre personne de traduire']
+
+Réponse: Faites-leur face pour qu' ils puissent surveiller vos lèvres ."
+La longévité est fortement associée à des niveaux plus élevés de,human_aging,"['Soutien social', 'Indice de masse corporelle', 'Consommation d'alcool', 'Utilisation de suppléments']",0,"Question: La longévité est fortement associée à des niveaux plus élevés de
+
+Choix: ['Soutien social', 'Indice de masse corporelle', 'Consommation d'alcool', 'Utilisation de suppléments']
+
+Réponse: Soutien social"
+"L'hypothèse selon laquelle les adultes resteront en bonne santé jusqu'à un âge avancé, puis tomberont rapidement malades et mourront est l'hypothèse ____",human_aging,"['Dépôt du terminal', 'Compression de la morbidité', 'Nom de l'entreprise: Klagmore-Rensfeldt', 'Évitement du déclin']",1,"Question: L'hypothèse selon laquelle les adultes resteront en bonne santé jusqu'à un âge avancé, puis tomberont rapidement malades et mourront est l'hypothèse ____
+
+Choix: ['Dépôt du terminal', 'Compression de la morbidité', 'Nom de l'entreprise: Klagmore-Rensfeldt', 'Évitement du déclin']
+
+Réponse: Compression de la morbidité"
+La femme qui a mené une étude longitudinale sur elle-même et a constaté une difficulté accrue de récupération à mesure qu'elle vieillissait s'appelait,human_aging,"['C' est Clark .', 'Je vous en prie .', 'L'ours blanc', 'Nom de famille Ebbinghaus']",1,"Question: La femme qui a mené une étude longitudinale sur elle-même et a constaté une difficulté accrue de récupération à mesure qu'elle vieillissait s'appelait
+
+Choix: ['C' est Clark .', 'Je vous en prie .', 'L'ours blanc', 'Nom de famille Ebbinghaus']
+
+Réponse: Je vous en prie ."

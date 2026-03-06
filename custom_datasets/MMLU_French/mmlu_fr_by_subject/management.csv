@@ -1,0 +1,516 @@
+question,subject,choices,answer,qa
+Quel est le terme pour un résultat sous-optimal mais acceptable des négociations entre les parties ?,management,"['Négociation', 'Satisfaisant', 'Je l' accepte .', 'Faire des compromis']",1,"Question: Quel est le terme pour un résultat sous-optimal mais acceptable des négociations entre les parties ?
+
+Choix: ['Négociation', 'Satisfaisant', 'Je l' accepte .', 'Faire des compromis']
+
+Réponse: Satisfaisant"
+"Quel est le terme pour le type de parti pris de la ""règle du pouce"" dans la prise de décision?",management,"['Préjugé d'encadrement', 'Préjugé rétrospectif', 'Préjugé de confiance excessive', 'Heuristique']",3,"Question: Quel est le terme pour le type de parti pris de la ""règle du pouce"" dans la prise de décision?
+
+Choix: ['Préjugé d'encadrement', 'Préjugé rétrospectif', 'Préjugé de confiance excessive', 'Heuristique']
+
+Réponse: Heuristique"
+Quel est le point de vue normatif ?,management,"['La façon dont les choses sont.', 'La façon dont les choses vont être.', 'La façon dont les choses devraient être.', 'La façon dont les choses étaient.']",2,"Question: Quel est le point de vue normatif ?
+
+Choix: ['La façon dont les choses sont.', 'La façon dont les choses vont être.', 'La façon dont les choses devraient être.', 'La façon dont les choses étaient.']
+
+Réponse: La façon dont les choses devraient être."
+"Dans le ""modèle des cinq forces"", quel est le type d'activité concurrentielle qui existe entre les organisations?",management,"['Le potentiel d'entrée dans l'industrie', 'La menace des produits de substitution', 'Le pouvoir des clients', 'Le niveau de rivalité']",3,"Question: Dans le ""modèle des cinq forces"", quel est le type d'activité concurrentielle qui existe entre les organisations?
+
+Choix: ['Le potentiel d'entrée dans l'industrie', 'La menace des produits de substitution', 'Le pouvoir des clients', 'Le niveau de rivalité']
+
+Réponse: Le niveau de rivalité"
+"Lequel des dirigeants politiques suivants ne pourrait pas être qualifié de dirigeant ""transformateur""?",management,"['Je suis Margaret Thatcher .', 'Il s'agit de Mikhaïl Gorbatchev.', 'Le président Nelson Mandela', 'Nom de l'acteur Bill Clinton']",3,"Question: Lequel des dirigeants politiques suivants ne pourrait pas être qualifié de dirigeant ""transformateur""?
+
+Choix: ['Je suis Margaret Thatcher .', 'Il s'agit de Mikhaïl Gorbatchev.', 'Le président Nelson Mandela', 'Nom de l'acteur Bill Clinton']
+
+Réponse: Nom de l'acteur Bill Clinton"
+C'est quoi un diagramme de Gantt ?,management,"['Conception du flux de travail', 'Conception de l'horaire de travail', 'Conception du rythme de travail', 'Conception du résultat du travail']",1,"Question: C'est quoi un diagramme de Gantt ?
+
+Choix: ['Conception du flux de travail', 'Conception de l'horaire de travail', 'Conception du rythme de travail', 'Conception du résultat du travail']
+
+Réponse: Conception de l'horaire de travail"
+Lequel des éléments suivants est une caractéristique de la Théorie X de McGregor ?,management,"['Les travailleurs apprécient la responsabilité.', 'Les travailleurs considèrent l'effort physique et mental comme une partie naturelle du travail.', 'Les travailleurs aiment faire preuve d'initiative.', 'Les ouvriers aiment être dirigés.']",3,"Question: Lequel des éléments suivants est une caractéristique de la Théorie X de McGregor ?
+
+Choix: ['Les travailleurs apprécient la responsabilité.', 'Les travailleurs considèrent l'effort physique et mental comme une partie naturelle du travail.', 'Les travailleurs aiment faire preuve d'initiative.', 'Les ouvriers aiment être dirigés.']
+
+Réponse: Les ouvriers aiment être dirigés."
+Quel est le terme pour le pouvoir dérivé du statut ou de la position dans une organisation?,management,"['Référent', 'Spécialiste', 'Récompense', 'Légitime']",3,"Question: Quel est le terme pour le pouvoir dérivé du statut ou de la position dans une organisation?
+
+Choix: ['Référent', 'Spécialiste', 'Récompense', 'Légitime']
+
+Réponse: Légitime"
+Quel écrivain est le plus associé aux structures bureaucratiques ?,management,"['Henri Fayol', 'Je suis Max Weber.', 'Il s'agit d'Adam Smith.', 'Elle s'appelle Mary Parker Follett .']",1,"Question: Quel écrivain est le plus associé aux structures bureaucratiques ?
+
+Choix: ['Henri Fayol', 'Je suis Max Weber.', 'Il s'agit d'Adam Smith.', 'Elle s'appelle Mary Parker Follett .']
+
+Réponse: Je suis Max Weber."
+Lequel des suivants est le philanthrope industriel ?,management,"['Il s'agit de Frederick Taylor .', 'Nom de famille Seebohm Rowntree', 'Je suis Henry Ford .', 'Je suis Max Weber.']",1,"Question: Lequel des suivants est le philanthrope industriel ?
+
+Choix: ['Il s'agit de Frederick Taylor .', 'Nom de famille Seebohm Rowntree', 'Je suis Henry Ford .', 'Je suis Max Weber.']
+
+Réponse: Nom de famille Seebohm Rowntree"
+Quel économiste a défendu l'individualisme comme philosophie morale?,management,"['John Kenneth Galbraith est un écrivain américain.', 'John Maynard Keynes est un homme d'État américain.', 'Il s'agit de Milton Friedman .', 'Je suis Alfred Marshall .']",2,"Question: Quel économiste a défendu l'individualisme comme philosophie morale?
+
+Choix: ['John Kenneth Galbraith est un écrivain américain.', 'John Maynard Keynes est un homme d'État américain.', 'Il s'agit de Milton Friedman .', 'Je suis Alfred Marshall .']
+
+Réponse: Il s'agit de Milton Friedman ."
+Les études de Hawthorn sont le plus souvent associées à quel écrivain ?,management,"['Elle s'appelle Mary Parker Follett .', 'Il s'appelle Elton Mayo.', 'Lillian Gilbreth , elle aussi .', 'Il s'agit de Frederick Taylor .']",1,"Question: Les études de Hawthorn sont le plus souvent associées à quel écrivain ?
+
+Choix: ['Elle s'appelle Mary Parker Follett .', 'Il s'appelle Elton Mayo.', 'Lillian Gilbreth , elle aussi .', 'Il s'agit de Frederick Taylor .']
+
+Réponse: Il s'appelle Elton Mayo."
+Comment décririez-vous la pensée et la vision des leaders transformationnels ?,management,"['Stratégique', 'Fonctionnement', 'Fonctionnelle', 'Développement']",0,"Question: Comment décririez-vous la pensée et la vision des leaders transformationnels ?
+
+Choix: ['Stratégique', 'Fonctionnement', 'Fonctionnelle', 'Développement']
+
+Réponse: Stratégique"
+Quelles sont les principales caractéristiques des leaders transactionnels ?,management,"['Guidance, mentorat et motivation', 'Guider, commander et motiver', 'Orientation, démonstration et motivation', 'Guidage, mentorat et démonstration']",0,"Question: Quelles sont les principales caractéristiques des leaders transactionnels ?
+
+Choix: ['Guidance, mentorat et motivation', 'Guider, commander et motiver', 'Orientation, démonstration et motivation', 'Guidage, mentorat et démonstration']
+
+Réponse: Guidance, mentorat et motivation"
+Qu'est-ce qui n'est pas une hypothèse qui sous-tend le modèle de prise de décision rationnelle ?,management,"['Informations incomplètes', 'Un objectif commun', 'Un problème structuré', 'Niveau élevé de certitude en ce qui concerne l'environnement']",0,"Question: Qu'est-ce qui n'est pas une hypothèse qui sous-tend le modèle de prise de décision rationnelle ?
+
+Choix: ['Informations incomplètes', 'Un objectif commun', 'Un problème structuré', 'Niveau élevé de certitude en ce qui concerne l'environnement']
+
+Réponse: Informations incomplètes"
+Lequel des éléments suivants n'est pas l'un des cinq principes directeurs de la gestion de Drucker?,management,"['Rendre les forces des gens efficaces et leurs faiblesses insignifiantes.', 'Améliorer la capacité des personnes à contribuer.', 'Pour faire fonctionner le système de statut de l'organisation.', 'Intégrer les personnes dans une entreprise commune en réfléchissant, en définissant et en illustrant les objectifs, les valeurs et les objectifs de l'organisation.']",2,"Question: Lequel des éléments suivants n'est pas l'un des cinq principes directeurs de la gestion de Drucker?
+
+Choix: ['Rendre les forces des gens efficaces et leurs faiblesses insignifiantes.', 'Améliorer la capacité des personnes à contribuer.', 'Pour faire fonctionner le système de statut de l'organisation.', 'Intégrer les personnes dans une entreprise commune en réfléchissant, en définissant et en illustrant les objectifs, les valeurs et les objectifs de l'organisation.']
+
+Réponse: Pour faire fonctionner le système de statut de l'organisation."
+C'est quoi un paradigme ?,management,"['Une hypothèse théorique', 'Une illustration', 'Un modèle théorique', 'Un exemple qui sert de modèle']",3,"Question: C'est quoi un paradigme ?
+
+Choix: ['Une hypothèse théorique', 'Une illustration', 'Un modèle théorique', 'Un exemple qui sert de modèle']
+
+Réponse: Un exemple qui sert de modèle"
+"Parmi les éléments suivants, lequel n'est pas une compétence de gestion clé dans la planification?",management,"['Compétences conceptuelles', 'Compétences analytiques', 'Compétences informatiques et informatiques', 'Compétences en matière de communication']",2,"Question: Parmi les éléments suivants, lequel n'est pas une compétence de gestion clé dans la planification?
+
+Choix: ['Compétences conceptuelles', 'Compétences analytiques', 'Compétences informatiques et informatiques', 'Compétences en matière de communication']
+
+Réponse: Compétences informatiques et informatiques"
+"Selon Belbin (1981), à quel rôle correspond une personne extravertie et enthousiaste ?",management,"['Coordonnateur', 'Formeur', 'Enquêteur sur les ressources', 'Exécuteur']",2,"Question: Selon Belbin (1981), à quel rôle correspond une personne extravertie et enthousiaste ?
+
+Choix: ['Coordonnateur', 'Formeur', 'Enquêteur sur les ressources', 'Exécuteur']
+
+Réponse: Enquêteur sur les ressources"
+Quelle n'est pas une forme reconnue de planification de la continuité des activités?,management,"['Planification d'urgence', 'Planification des scénarios', 'Planification financière', 'Planification des bâtiments']",3,"Question: Quelle n'est pas une forme reconnue de planification de la continuité des activités?
+
+Choix: ['Planification d'urgence', 'Planification des scénarios', 'Planification financière', 'Planification des bâtiments']
+
+Réponse: Planification des bâtiments"
+Quel est le terme utilisé pour désigner une organisation qui s'adapte aux changements dans l'environnement en répondant rapidement aux changements dans les conditions d'offre et de demande?,management,"['Organisation opportuniste', 'Organisation à l'esprit d'entreprise', 'Nom de l'organisation internationale', 'Une organisation agile']",3,"Question: Quel est le terme utilisé pour désigner une organisation qui s'adapte aux changements dans l'environnement en répondant rapidement aux changements dans les conditions d'offre et de demande?
+
+Choix: ['Organisation opportuniste', 'Organisation à l'esprit d'entreprise', 'Nom de l'organisation internationale', 'Une organisation agile']
+
+Réponse: Une organisation agile"
+Lequel d'entre eux ne fait pas partie des défis reconnus pour les gestionnaires modernes?,management,"['Micro-gestion de la main-d'œuvre', 'Gestion des communications', 'Gestion du changement', 'Gestion de l'organisation d'apprentissage']",0,"Question: Lequel d'entre eux ne fait pas partie des défis reconnus pour les gestionnaires modernes?
+
+Choix: ['Micro-gestion de la main-d'œuvre', 'Gestion des communications', 'Gestion du changement', 'Gestion de l'organisation d'apprentissage']
+
+Réponse: Micro-gestion de la main-d'œuvre"
+À quoi se réfère l'intelligence émotionnelle?,management,"['Comment les gens voient et comprennent le monde.', 'Comment les gens se voient et se comprennent.', 'Comment les gens voient et comprennent les autres.', 'Comment les gens se voient et se comprennent eux-mêmes et les autres.']",3,"Question: À quoi se réfère l'intelligence émotionnelle?
+
+Choix: ['Comment les gens voient et comprennent le monde.', 'Comment les gens se voient et se comprennent.', 'Comment les gens voient et comprennent les autres.', 'Comment les gens se voient et se comprennent eux-mêmes et les autres.']
+
+Réponse: Comment les gens se voient et se comprennent eux-mêmes et les autres."
+De quoi la liberté individuelle d'établir un emploi du temps est- elle un exemple?,management,"['Conception du poste', 'Amélioration de l'emploi', 'Taux d'emploi', 'Planification du travail']",1,"Question: De quoi la liberté individuelle d'établir un emploi du temps est- elle un exemple?
+
+Choix: ['Conception du poste', 'Amélioration de l'emploi', 'Taux d'emploi', 'Planification du travail']
+
+Réponse: Amélioration de l'emploi"
+"Selon l'approche instrumentale, de quoi les travailleurs sont-ils principalement motivés ?",management,"['Reconnaissance par les pairs', 'Promotion', 'Une plus grande liberté', 'Récompense économique']",3,"Question: Selon l'approche instrumentale, de quoi les travailleurs sont-ils principalement motivés ?
+
+Choix: ['Reconnaissance par les pairs', 'Promotion', 'Une plus grande liberté', 'Récompense économique']
+
+Réponse: Récompense économique"
+Ce qui n'est pas une caractéristique de la responsabilité sociale des entreprises ?,management,"['Sécurité des produits', 'Droits des consommateurs', 'Politiques environnementales', 'La fixation des prix']",3,"Question: Ce qui n'est pas une caractéristique de la responsabilité sociale des entreprises ?
+
+Choix: ['Sécurité des produits', 'Droits des consommateurs', 'Politiques environnementales', 'La fixation des prix']
+
+Réponse: La fixation des prix"
+Qui était le principal protagoniste de l'utilitarisme ?,management,"['John Stuart Mill est un écrivain américain.', 'Thomas Hobbes est un écrivain américain.', 'Il s'agit de Karl Marx.', 'Il s'agit d'Adam Smith.']",0,"Question: Qui était le principal protagoniste de l'utilitarisme ?
+
+Choix: ['John Stuart Mill est un écrivain américain.', 'Thomas Hobbes est un écrivain américain.', 'Il s'agit de Karl Marx.', 'Il s'agit d'Adam Smith.']
+
+Réponse: John Stuart Mill est un écrivain américain."
+Comme quoi s'assurer qu'un seul individu ne porte pas le fardeau d'une tâche de travail entière visée?,management,"['Spécialisation du travail', 'Conception des travaux', 'Calendrier de travail', 'Travail posté']",0,"Question: Comme quoi s'assurer qu'un seul individu ne porte pas le fardeau d'une tâche de travail entière visée?
+
+Choix: ['Spécialisation du travail', 'Conception des travaux', 'Calendrier de travail', 'Travail posté']
+
+Réponse: Spécialisation du travail"
+Comment décririez-vous un groupe de travail composé de travailleurs ayant des tâches délimitées et de gestionnaires de ligne distants ?,management,"['En situation de dépendance', 'Indépendante', 'Interdépendants', 'Collaboratif']",1,"Question: Comment décririez-vous un groupe de travail composé de travailleurs ayant des tâches délimitées et de gestionnaires de ligne distants ?
+
+Choix: ['En situation de dépendance', 'Indépendante', 'Interdépendants', 'Collaboratif']
+
+Réponse: Indépendante"
+La spécialisation est une caractéristique de quelle structure organisationnelle?,management,"['Nom de l'entreprise', 'Départemental', 'Multi-divisionnelle', 'Fonctionnelle']",3,"Question: La spécialisation est une caractéristique de quelle structure organisationnelle?
+
+Choix: ['Nom de l'entreprise', 'Départemental', 'Multi-divisionnelle', 'Fonctionnelle']
+
+Réponse: Fonctionnelle"
+Lequel d'entre eux n'est pas un élément des activités primaires d'une chaîne de valeur?,management,"['Procédure d'approvisionnement', 'Logistique entrante', 'Logistique de sortie', 'Le service']",0,"Question: Lequel d'entre eux n'est pas un élément des activités primaires d'une chaîne de valeur?
+
+Choix: ['Procédure d'approvisionnement', 'Logistique entrante', 'Logistique de sortie', 'Le service']
+
+Réponse: Procédure d'approvisionnement"
+Comment désigne-t-on l'acte consistant à amener des individus à se comporter d'une manière acceptable pour un groupe ?,management,"['L'endoctrinement', 'Le lavage de cerveau', 'Propagande', 'La socialisation']",3,"Question: Comment désigne-t-on l'acte consistant à amener des individus à se comporter d'une manière acceptable pour un groupe ?
+
+Choix: ['L'endoctrinement', 'Le lavage de cerveau', 'Propagande', 'La socialisation']
+
+Réponse: La socialisation"
+Quand une acquisition a-t-elle lieu?,management,"['Deux partenaires égaux décident de travailler ensemble.', 'Deux partenaires égaux partagent les ressources.', 'Deux partenaires inégaux se rejoignent.', 'Deux partenaires inégaux deviennent un après un rachat.']",3,"Question: Quand une acquisition a-t-elle lieu?
+
+Choix: ['Deux partenaires égaux décident de travailler ensemble.', 'Deux partenaires égaux partagent les ressources.', 'Deux partenaires inégaux se rejoignent.', 'Deux partenaires inégaux deviennent un après un rachat.']
+
+Réponse: Deux partenaires inégaux deviennent un après un rachat."
+Lequel d'entre eux est l'entrepreneur?,management,"['Le président Barack Obama', 'Nom de l'auteur: James Dyson', 'Il s'agit de Damien Hirst.', 'C' est Mo Farah .']",1,"Question: Lequel d'entre eux est l'entrepreneur?
+
+Choix: ['Le président Barack Obama', 'Nom de l'auteur: James Dyson', 'Il s'agit de Damien Hirst.', 'C' est Mo Farah .']
+
+Réponse: Nom de l'auteur: James Dyson"
+Lequel de ces éléments n'est pas un avantage d'une équipe virtuelle ?,management,"['Les membres de l'équipe peuvent être recrutés en fonction de leurs compétences ou de leur expérience spécifiques.', 'Pas de frais généraux associés aux bâtiments physiques.', 'Les conflits peuvent être facilement résolus par des rencontres en face à face.', 'Faibles coûts de transport ou de déplacement.']",2,"Question: Lequel de ces éléments n'est pas un avantage d'une équipe virtuelle ?
+
+Choix: ['Les membres de l'équipe peuvent être recrutés en fonction de leurs compétences ou de leur expérience spécifiques.', 'Pas de frais généraux associés aux bâtiments physiques.', 'Les conflits peuvent être facilement résolus par des rencontres en face à face.', 'Faibles coûts de transport ou de déplacement.']
+
+Réponse: Les conflits peuvent être facilement résolus par des rencontres en face à face."
+Quelle est la forme d'information la plus riche?,management,"['Téléphone', 'Face à face', 'Le courrier électronique', 'Vidéoconférence']",1,"Question: Quelle est la forme d'information la plus riche?
+
+Choix: ['Téléphone', 'Face à face', 'Le courrier électronique', 'Vidéoconférence']
+
+Réponse: Face à face"
+"Quel est le but d'un ""cercle de la qualité""?",management,"['Réunir les gestionnaires et les travailleurs pour trouver des améliorations.', 'Réunir les gestionnaires et les travailleurs pour discuter de la production.', 'Réunir les gestionnaires et les travailleurs pour évaluer la qualité du travail.', 'Réunir les gestionnaires et les travailleurs pour examiner les objectifs.']",0,"Question: Quel est le but d'un ""cercle de la qualité""?
+
+Choix: ['Réunir les gestionnaires et les travailleurs pour trouver des améliorations.', 'Réunir les gestionnaires et les travailleurs pour discuter de la production.', 'Réunir les gestionnaires et les travailleurs pour évaluer la qualité du travail.', 'Réunir les gestionnaires et les travailleurs pour examiner les objectifs.']
+
+Réponse: Réunir les gestionnaires et les travailleurs pour trouver des améliorations."
+Quel est le principe directeur de la nouvelle gestion publique?,management,"['Maximisation des bénéfices', 'Introduction des principes du secteur privé dans le secteur public', 'Remplacement de la gestion publique par la gestion du secteur privé', 'La restructuration des organisations publiques']",1,"Question: Quel est le principe directeur de la nouvelle gestion publique?
+
+Choix: ['Maximisation des bénéfices', 'Introduction des principes du secteur privé dans le secteur public', 'Remplacement de la gestion publique par la gestion du secteur privé', 'La restructuration des organisations publiques']
+
+Réponse: Introduction des principes du secteur privé dans le secteur public"
+La rentabilité résultant de la position d'une entreprise sur le marché est une caractéristique clé du point de vue de quel auteur sur la stratégie?,management,"['Il s'agit de Peter Drucker.', 'Je suis Jay Barney.', 'Il s'agit de Michael Porter.', 'Il s'agit de Henry Mintzberg.']",2,"Question: La rentabilité résultant de la position d'une entreprise sur le marché est une caractéristique clé du point de vue de quel auteur sur la stratégie?
+
+Choix: ['Il s'agit de Peter Drucker.', 'Je suis Jay Barney.', 'Il s'agit de Michael Porter.', 'Il s'agit de Henry Mintzberg.']
+
+Réponse: Il s'agit de Michael Porter."
+Les structures fonctionnelles aident à créer...,management,"['travail d'équipe', 'spécialisation', 'groupes de travail de projet', 'employés polyvalents']",1,"Question: Les structures fonctionnelles aident à créer...
+
+Choix: ['travail d'équipe', 'spécialisation', 'groupes de travail de projet', 'employés polyvalents']
+
+Réponse: spécialisation"
+C'est quoi un plan de succession ?,management,"['Renvoi d'un salarié en faveur d'un salarié plus avantageux', 'Un processus formel de planification pour combler un poste qui deviendra vacant', 'Un vote de défiance à l'égard d'un membre du conseil d'administration', 'Le processus formel d'acquisition d'un nouveau membre du personnel']",1,"Question: C'est quoi un plan de succession ?
+
+Choix: ['Renvoi d'un salarié en faveur d'un salarié plus avantageux', 'Un processus formel de planification pour combler un poste qui deviendra vacant', 'Un vote de défiance à l'égard d'un membre du conseil d'administration', 'Le processus formel d'acquisition d'un nouveau membre du personnel']
+
+Réponse: Un processus formel de planification pour combler un poste qui deviendra vacant"
+Quelle est la définition d'un scénario dans la planification des scénarios?,management,"['Une séquence imaginée d'événements futurs', 'Un événement imprévisible', 'Un événement prévu', 'Un événement imprévu']",0,"Question: Quelle est la définition d'un scénario dans la planification des scénarios?
+
+Choix: ['Une séquence imaginée d'événements futurs', 'Un événement imprévisible', 'Un événement prévu', 'Un événement imprévu']
+
+Réponse: Une séquence imaginée d'événements futurs"
+Sur quelle hypothèse est basé le modèle de prise de décision de la poubelle ?,management,"['Une connaissance limitée et une grande perspicacité', 'Connaissances limitées mais haut niveau d'expérience', 'Connaissances limitées et incertitude', 'Connaissances limitées et risque élevé']",2,"Question: Sur quelle hypothèse est basé le modèle de prise de décision de la poubelle ?
+
+Choix: ['Une connaissance limitée et une grande perspicacité', 'Connaissances limitées mais haut niveau d'expérience', 'Connaissances limitées et incertitude', 'Connaissances limitées et risque élevé']
+
+Réponse: Connaissances limitées et incertitude"
+Par quel principe est défini l'utilitarisme ?,management,"['L'égalité pour tous', 'Maximisation des résultats pour les individus', 'Le meilleur résultat pour la majorité des gens', 'Le moins mauvais résultat pour tout le monde']",2,"Question: Par quel principe est défini l'utilitarisme ?
+
+Choix: ['L'égalité pour tous', 'Maximisation des résultats pour les individus', 'Le meilleur résultat pour la majorité des gens', 'Le moins mauvais résultat pour tout le monde']
+
+Réponse: Le meilleur résultat pour la majorité des gens"
+Quel est le terme pour désigner l'ensemble des comportements et des tâches qu'un membre du groupe est censé accomplir parce qu'il est membre du groupe?,management,"['Rôles du groupe', 'Travail d'équipe virtuel', 'Synergie', 'Fabrication de rôles']",0,"Question: Quel est le terme pour désigner l'ensemble des comportements et des tâches qu'un membre du groupe est censé accomplir parce qu'il est membre du groupe?
+
+Choix: ['Rôles du groupe', 'Travail d'équipe virtuel', 'Synergie', 'Fabrication de rôles']
+
+Réponse: Rôles du groupe"
+"Quel est le terme utilisé pour désigner un processus qui permet à une organisation d'évaluer et de démontrer ses avantages et ses limites sociaux, économiques et environnementaux ?",management,"['Régime social', 'Stratégie sociale', 'La vérification sociale', 'Compte social']",2,"Question: Quel est le terme utilisé pour désigner un processus qui permet à une organisation d'évaluer et de démontrer ses avantages et ses limites sociaux, économiques et environnementaux ?
+
+Choix: ['Régime social', 'Stratégie sociale', 'La vérification sociale', 'Compte social']
+
+Réponse: La vérification sociale"
+Quel type de culture organisationnelle est le plus susceptible d'assurer la stabilité et l'efficacité?,management,"['Culture de la tâche', 'La culture du rôle', 'La culture du pouvoir', 'La culture du peuple']",1,"Question: Quel type de culture organisationnelle est le plus susceptible d'assurer la stabilité et l'efficacité?
+
+Choix: ['Culture de la tâche', 'La culture du rôle', 'La culture du pouvoir', 'La culture du peuple']
+
+Réponse: La culture du rôle"
+Lequel des auteurs suivants est un écrivain de premier plan sur la théorie du leadership par contingence ?,management,"['Rosabeth Kanter est une artiste américaine.', 'Je suis Joan Woodward .', 'Nom de l'entreprise: Rensis Likert', 'Il s'agit de Fred Fiedler.']",3,"Question: Lequel des auteurs suivants est un écrivain de premier plan sur la théorie du leadership par contingence ?
+
+Choix: ['Rosabeth Kanter est une artiste américaine.', 'Je suis Joan Woodward .', 'Nom de l'entreprise: Rensis Likert', 'Il s'agit de Fred Fiedler.']
+
+Réponse: Il s'agit de Fred Fiedler."
+Quelles sont les caractéristiques d'une décision programmée ?,management,"['Complexe et risqué', 'Incertaines et non routinières', 'Risque faible et certaine', 'Routine et non complexe']",3,"Question: Quelles sont les caractéristiques d'une décision programmée ?
+
+Choix: ['Complexe et risqué', 'Incertaines et non routinières', 'Risque faible et certaine', 'Routine et non complexe']
+
+Réponse: Routine et non complexe"
+Quel n'est pas un avantage d'une structure hiérarchique?,management,"['Chaîne de commandement claire', 'Répondre rapidement aux changements', 'Discipline et stabilité', 'Petite portée de contrôle']",1,"Question: Quel n'est pas un avantage d'une structure hiérarchique?
+
+Choix: ['Chaîne de commandement claire', 'Répondre rapidement aux changements', 'Discipline et stabilité', 'Petite portée de contrôle']
+
+Réponse: Répondre rapidement aux changements"
+C'est quoi une alliance stratégique ?,management,"['Toute forme de partenariat entre une entreprise et une autre', 'Accord formel qui engage deux ou plusieurs entreprises à échanger des ressources pour produire des produits ou des services', 'Accord formel de partage des bénéfices d'un investissement partagé', 'Accord formel de partage des connaissances']",1,"Question: C'est quoi une alliance stratégique ?
+
+Choix: ['Toute forme de partenariat entre une entreprise et une autre', 'Accord formel qui engage deux ou plusieurs entreprises à échanger des ressources pour produire des produits ou des services', 'Accord formel de partage des bénéfices d'un investissement partagé', 'Accord formel de partage des connaissances']
+
+Réponse: Accord formel qui engage deux ou plusieurs entreprises à échanger des ressources pour produire des produits ou des services"
+Quelles sont les normes de groupe ?,management,"['Modes de comportement acceptables et partagés par les membres du groupe', 'Modes de comportement partagés par certains membres du groupe', 'Modes de comportement qui remettent en question les valeurs et les croyances du groupe', 'Modes de comportement différents de ceux des autres membres du groupe']",0,"Question: Quelles sont les normes de groupe ?
+
+Choix: ['Modes de comportement acceptables et partagés par les membres du groupe', 'Modes de comportement partagés par certains membres du groupe', 'Modes de comportement qui remettent en question les valeurs et les croyances du groupe', 'Modes de comportement différents de ceux des autres membres du groupe']
+
+Réponse: Modes de comportement acceptables et partagés par les membres du groupe"
+Lequel des éléments suivants n'est pas un type de régime reconnu?,management,"['Les affaires', 'Succession au trône', 'À titre ponctuel', 'Financière']",2,"Question: Lequel des éléments suivants n'est pas un type de régime reconnu?
+
+Choix: ['Les affaires', 'Succession au trône', 'À titre ponctuel', 'Financière']
+
+Réponse: À titre ponctuel"
+Comment désigne-t-on la mesure dans laquelle la concurrence dans un pays est influencée par la concurrence dans d'autres pays?,management,"['Les échanges internationaux', 'Économie mondiale', 'Compétition mondiale', 'La mondialisation']",3,"Question: Comment désigne-t-on la mesure dans laquelle la concurrence dans un pays est influencée par la concurrence dans d'autres pays?
+
+Choix: ['Les échanges internationaux', 'Économie mondiale', 'Compétition mondiale', 'La mondialisation']
+
+Réponse: La mondialisation"
+Quels sont les facteurs clés qui reflètent la situation d'une organisation?,management,"['Les administrations', 'Les procédés', 'Activités', 'Événements imprévus']",3,"Question: Quels sont les facteurs clés qui reflètent la situation d'une organisation?
+
+Choix: ['Les administrations', 'Les procédés', 'Activités', 'Événements imprévus']
+
+Réponse: Événements imprévus"
+Lequel d'entre eux ne fait pas partie des courants clés identifiés par March (1988) dans la prise de décision dans des environnements très ambigus?,management,"['Les attentes', 'Possibilités de choix', 'Des problèmes', 'Des solutions']",0,"Question: Lequel d'entre eux ne fait pas partie des courants clés identifiés par March (1988) dans la prise de décision dans des environnements très ambigus?
+
+Choix: ['Les attentes', 'Possibilités de choix', 'Des problèmes', 'Des solutions']
+
+Réponse: Les attentes"
+Quelle est l'abréviation de PEST ?,management,"['Politique, environnementale, stratégique, mise à l'épreuve', 'Politique, environnementale, stratégique, technologique', 'Politique, économique, stratégique et technologique', 'Politique, économique, sociale et technologique']",3,"Question: Quelle est l'abréviation de PEST ?
+
+Choix: ['Politique, environnementale, stratégique, mise à l'épreuve', 'Politique, environnementale, stratégique, technologique', 'Politique, économique, stratégique et technologique', 'Politique, économique, sociale et technologique']
+
+Réponse: Politique, économique, sociale et technologique"
+Que signifie l'acronyme SMART ?,management,"['Approprié, mesurable, réalisable, récompensé et opportun', 'Spécifique, mesurable, réalisable, dotée de ressources et en temps opportun', 'Standardisé, mesurable, réalisable, récompensé et opportun', 'Spécifique, mesurable, réalisable, récompensée et opportune']",3,"Question: Que signifie l'acronyme SMART ?
+
+Choix: ['Approprié, mesurable, réalisable, récompensé et opportun', 'Spécifique, mesurable, réalisable, dotée de ressources et en temps opportun', 'Standardisé, mesurable, réalisable, récompensé et opportun', 'Spécifique, mesurable, réalisable, récompensée et opportune']
+
+Réponse: Spécifique, mesurable, réalisable, récompensée et opportune"
+Quel écrivain s'est intéressé à la réaction des travailleurs aux caractéristiques clés des bureaucraties ?,management,"['Nom de famille:', 'Nom de l'entreprise', 'Nom de famille Gouldner', 'La mayonnaise']",2,"Question: Quel écrivain s'est intéressé à la réaction des travailleurs aux caractéristiques clés des bureaucraties ?
+
+Choix: ['Nom de famille:', 'Nom de l'entreprise', 'Nom de famille Gouldner', 'La mayonnaise']
+
+Réponse: Nom de famille Gouldner"
+Quelle est la durée optimale de contrôle ?,management,"['Nom de l'entreprise', 'Nom de l'entreprise', 'Nom de l'entreprise:', 'Rien de ce qui précède']",3,"Question: Quelle est la durée optimale de contrôle ?
+
+Choix: ['Nom de l'entreprise', 'Nom de l'entreprise', 'Nom de l'entreprise:', 'Rien de ce qui précède']
+
+Réponse: Rien de ce qui précède"
+Lequel d'entre eux n'est pas un type d'autorité reconnu?,management,"['Exécutif', 'Fonctionnelle', 'Gestion des lignes', 'fournisseur']",3,"Question: Lequel d'entre eux n'est pas un type d'autorité reconnu?
+
+Choix: ['Exécutif', 'Fonctionnelle', 'Gestion des lignes', 'fournisseur']
+
+Réponse: fournisseur"
+Lequel des éléments suivants n'est pas une caractéristique d'une équipe ?,management,"['Partage minimal et formel des connaissances', 'Produit collectif', 'Responsabilité individuelle et collective', 'Dimension fluide des rôles et des tâches']",0,"Question: Lequel des éléments suivants n'est pas une caractéristique d'une équipe ?
+
+Choix: ['Partage minimal et formel des connaissances', 'Produit collectif', 'Responsabilité individuelle et collective', 'Dimension fluide des rôles et des tâches']
+
+Réponse: Partage minimal et formel des connaissances"
+Lequel de ces facteurs n'est pas l'une des responsabilités concurrentes qui influencent la responsabilité sociale des entreprises?,management,"['L'éthique', 'Développement économique', 'Discrétionnaire', 'Technique']",3,"Question: Lequel de ces facteurs n'est pas l'une des responsabilités concurrentes qui influencent la responsabilité sociale des entreprises?
+
+Choix: ['L'éthique', 'Développement économique', 'Discrétionnaire', 'Technique']
+
+Réponse: Technique"
+Quel est le terme utilisé dans la matrice d'Ansoff pour augmenter la part de marché avec des produits existants sur des marchés existants?,management,"['Développement des produits', 'Pénétration sur le marché', 'Différenciation', 'Développement du marché']",1,"Question: Quel est le terme utilisé dans la matrice d'Ansoff pour augmenter la part de marché avec des produits existants sur des marchés existants?
+
+Choix: ['Développement des produits', 'Pénétration sur le marché', 'Différenciation', 'Développement du marché']
+
+Réponse: Pénétration sur le marché"
+Qu'est-ce qui caractérise l'emplacement d'une équipe virtuelle?,management,"['Dans le même bâtiment .', 'Dans le même secteur', 'Dans le même pays', 'à distance']",3,"Question: Qu'est-ce qui caractérise l'emplacement d'une équipe virtuelle?
+
+Choix: ['Dans le même bâtiment .', 'Dans le même secteur', 'Dans le même pays', 'à distance']
+
+Réponse: à distance"
+"Selon le modèle des cinq facteurs, l'extraversion en tant que type de personnalité est caractérisée par quel type de personnes ?",management,"['Il est de bonne humeur .', 'Calme et confiant', 'Sensible et curieuse', 'Assertif et sociable']",3,"Question: Selon le modèle des cinq facteurs, l'extraversion en tant que type de personnalité est caractérisée par quel type de personnes ?
+
+Choix: ['Il est de bonne humeur .', 'Calme et confiant', 'Sensible et curieuse', 'Assertif et sociable']
+
+Réponse: Assertif et sociable"
+Quelle est la philosophie dominante qui sous-tend l'orientation stratégique d'une organisation?,management,"['Déclaration de vision', 'Déclaration de mission', 'Déclaration de stratégie', 'Déclaration de l'entreprise']",1,"Question: Quelle est la philosophie dominante qui sous-tend l'orientation stratégique d'une organisation?
+
+Choix: ['Déclaration de vision', 'Déclaration de mission', 'Déclaration de stratégie', 'Déclaration de l'entreprise']
+
+Réponse: Déclaration de mission"
+Comment s'appelle l'action dans laquelle les dirigeants d'une organisation analysent la situation actuelle de leur organisation et élaborent ensuite des plans pour accomplir sa mission et atteindre ses objectifs?,management,"['Planification des synergies', 'Formulation de la stratégie', 'Planification fonctionnelle', 'analyse SWOT']",1,"Question: Comment s'appelle l'action dans laquelle les dirigeants d'une organisation analysent la situation actuelle de leur organisation et élaborent ensuite des plans pour accomplir sa mission et atteindre ses objectifs?
+
+Choix: ['Planification des synergies', 'Formulation de la stratégie', 'Planification fonctionnelle', 'analyse SWOT']
+
+Réponse: Formulation de la stratégie"
+Quelle est l'œuvre la plus connue de Frank Gilbreth?,management,"['Conditions de travail', 'Études sur le temps et le mouvement', 'Psychologie du travail', 'Le travail en tant qu'environnement social']",1,"Question: Quelle est l'œuvre la plus connue de Frank Gilbreth?
+
+Choix: ['Conditions de travail', 'Études sur le temps et le mouvement', 'Psychologie du travail', 'Le travail en tant qu'environnement social']
+
+Réponse: Études sur le temps et le mouvement"
+Quel est un autre nom pour la planification d'urgence?,management,"['Planification des synergies', 'Planification ad hoc', 'Planification au niveau de l'entreprise', 'Planification des scénarios']",3,"Question: Quel est un autre nom pour la planification d'urgence?
+
+Choix: ['Planification des synergies', 'Planification ad hoc', 'Planification au niveau de l'entreprise', 'Planification des scénarios']
+
+Réponse: Planification des scénarios"
+Quelle caractéristique ne fait pas partie des 14 principes de gestion de Fayol ?,management,"['Esprit de corps', 'À titre d'initiative', 'L'ordre', 'L'individualisme']",3,"Question: Quelle caractéristique ne fait pas partie des 14 principes de gestion de Fayol ?
+
+Choix: ['Esprit de corps', 'À titre d'initiative', 'L'ordre', 'L'individualisme']
+
+Réponse: L'individualisme"
+Lequel des éléments suivants n'est pas une caractéristique du modèle de caractéristiques professionnelles?,management,"['Identité de la tâche', 'Autonomie', 'Récompense', 'Retour d'information']",2,"Question: Lequel des éléments suivants n'est pas une caractéristique du modèle de caractéristiques professionnelles?
+
+Choix: ['Identité de la tâche', 'Autonomie', 'Récompense', 'Retour d'information']
+
+Réponse: Récompense"
+L'acceptation du changement par les travailleurs est caractéristique de quel type de culture ?,management,"['Culture de l'équipe', 'La culture de la collaboration', 'Culture de groupe', 'La culture collective']",1,"Question: L'acceptation du changement par les travailleurs est caractéristique de quel type de culture ?
+
+Choix: ['Culture de l'équipe', 'La culture de la collaboration', 'Culture de groupe', 'La culture collective']
+
+Réponse: La culture de la collaboration"
+Qu'est ce qu'une organisation virtuelle ?,management,"['Une organisation qui utilise les technologies de l'information et de la communication (TIC) pour coordonner des activités sans frontières physiques entre les différentes fonctions', 'Une organisation qui utilise les technologies Internet pour vendre des produits à des clients', 'Une organisation qui gère la chaîne d'approvisionnement à l'aide de technologies numériques', 'Une organisation qui coordonne la main-d'œuvre par vidéoconférence']",0,"Question: Qu'est ce qu'une organisation virtuelle ?
+
+Choix: ['Une organisation qui utilise les technologies de l'information et de la communication (TIC) pour coordonner des activités sans frontières physiques entre les différentes fonctions', 'Une organisation qui utilise les technologies Internet pour vendre des produits à des clients', 'Une organisation qui gère la chaîne d'approvisionnement à l'aide de technologies numériques', 'Une organisation qui coordonne la main-d'œuvre par vidéoconférence']
+
+Réponse: Une organisation qui utilise les technologies de l'information et de la communication (TIC) pour coordonner des activités sans frontières physiques entre les différentes fonctions"
+À partir de quoi s'étend une chaîne de commandement ?,management,"['De bas en haut', 'De haut en bas', 'En diagonale', 'Latéralement']",1,"Question: À partir de quoi s'étend une chaîne de commandement ?
+
+Choix: ['De bas en haut', 'De haut en bas', 'En diagonale', 'Latéralement']
+
+Réponse: De haut en bas"
+"Comment appellez-vous un style de leadership qui prend en compte les points de vue, les opinions et les idées des autres ?",management,"['Le laissez-faire', 'Orienté vers les personnes', 'Démocratique', 'Autodémocratique']",2,"Question: Comment appellez-vous un style de leadership qui prend en compte les points de vue, les opinions et les idées des autres ?
+
+Choix: ['Le laissez-faire', 'Orienté vers les personnes', 'Démocratique', 'Autodémocratique']
+
+Réponse: Démocratique"
+Quel est le principe directeur de la gestion scientifique?,management,"['L'expérimentation', 'Des relations de travail fluides', 'Liberté d'association', 'La meilleure façon de faire un travail']",3,"Question: Quel est le principe directeur de la gestion scientifique?
+
+Choix: ['L'expérimentation', 'Des relations de travail fluides', 'Liberté d'association', 'La meilleure façon de faire un travail']
+
+Réponse: La meilleure façon de faire un travail"
+Quel est le terme que Tuckman utilise pour atteindre un consensus en tant que groupe ?,management,"['Ils prennent d'assaut', 'Exécution', 'Formation', 'Normérisation']",3,"Question: Quel est le terme que Tuckman utilise pour atteindre un consensus en tant que groupe ?
+
+Choix: ['Ils prennent d'assaut', 'Exécution', 'Formation', 'Normérisation']
+
+Réponse: Normérisation"
+Quelle théorie s'appuie sur le principe selon lequel 'les gens choisissent leur comportement en fonction de leurs valeurs et de leurs croyances'?,management,"['Les attentes', 'Pièces et pièces détachées', 'Classique', 'Événements imprévus']",0,"Question: Quelle théorie s'appuie sur le principe selon lequel 'les gens choisissent leur comportement en fonction de leurs valeurs et de leurs croyances'?
+
+Choix: ['Les attentes', 'Pièces et pièces détachées', 'Classique', 'Événements imprévus']
+
+Réponse: Les attentes"
+Quel est le terme pour les décisions limitées par la capacité humaine d'absorber et d'analyser l'information ?,management,"['La rationalité cognitive', 'La rationalité consciente', 'La rationalité limitée', 'La rationalité restreinte']",2,"Question: Quel est le terme pour les décisions limitées par la capacité humaine d'absorber et d'analyser l'information ?
+
+Choix: ['La rationalité cognitive', 'La rationalité consciente', 'La rationalité limitée', 'La rationalité restreinte']
+
+Réponse: La rationalité limitée"
+Quelle est la définition d'un objectif ?,management,"['Un résultat spécifique et défini à atteindre à long terme', 'Un ensemble clair d'objectifs à atteindre compte tenu d'un nombre déterminé de ressources', 'Un résultat clairement défini et mesurable à atteindre dans un délai déterminé', 'Un ensemble de normes de performance convenues par les travailleurs et les dirigeants']",2,"Question: Quelle est la définition d'un objectif ?
+
+Choix: ['Un résultat spécifique et défini à atteindre à long terme', 'Un ensemble clair d'objectifs à atteindre compte tenu d'un nombre déterminé de ressources', 'Un résultat clairement défini et mesurable à atteindre dans un délai déterminé', 'Un ensemble de normes de performance convenues par les travailleurs et les dirigeants']
+
+Réponse: Un résultat clairement défini et mesurable à atteindre dans un délai déterminé"
+Quel n'est pas le but d'une structure organisationnelle ?,management,"['Pour coordonner les personnes et les ressources', 'Pour organiser les lignes de communication', 'Pour formaliser l'autorité', 'Pour limiter les droits des travailleurs']",3,"Question: Quel n'est pas le but d'une structure organisationnelle ?
+
+Choix: ['Pour coordonner les personnes et les ressources', 'Pour organiser les lignes de communication', 'Pour formaliser l'autorité', 'Pour limiter les droits des travailleurs']
+
+Réponse: Pour limiter les droits des travailleurs"
+À quelle période les plans stratégiques se rapportent-ils?,management,"['À long terme', 'À moyen terme', 'À court terme', 'Temps indéterminé nécessaire à la réalisation d'un objectif']",0,"Question: À quelle période les plans stratégiques se rapportent-ils?
+
+Choix: ['À long terme', 'À moyen terme', 'À court terme', 'Temps indéterminé nécessaire à la réalisation d'un objectif']
+
+Réponse: À long terme"
+Quel est le terme pour le développement organisationnel par le biais d'une structure organisationnelle formellement conçue?,management,"['Produits biologiques', 'Mécanique', 'Formellement', 'Structurés']",1,"Question: Quel est le terme pour le développement organisationnel par le biais d'une structure organisationnelle formellement conçue?
+
+Choix: ['Produits biologiques', 'Mécanique', 'Formellement', 'Structurés']
+
+Réponse: Mécanique"
+"""Il n'existe pas de lien discernable entre la planification et la performance"".",management,"['Il s'agit de Michael Porter.', 'Il s'agit de Milton Friedman .', 'Il s'agit de Gary Hamel.', 'Il s'agit de Henry Mintzberg.']",3,"Question: ""Il n'existe pas de lien discernable entre la planification et la performance"".
+
+Choix: ['Il s'agit de Michael Porter.', 'Il s'agit de Milton Friedman .', 'Il s'agit de Gary Hamel.', 'Il s'agit de Henry Mintzberg.']
+
+Réponse: Il s'agit de Henry Mintzberg."
+Que souligne la théorie situationnelle du leadership ?,management,"['Les traits de personnalité', 'Événements', 'Le secteur de l'environnement', 'Situation politique']",1,"Question: Que souligne la théorie situationnelle du leadership ?
+
+Choix: ['Les traits de personnalité', 'Événements', 'Le secteur de l'environnement', 'Situation politique']
+
+Réponse: Événements"
+Sur quoi est basée la prise de décision intuitive ?,management,"['Des conjectures', 'Jeux de hasard', 'C' est l' instinct .', 'Rationalité']",2,"Question: Sur quoi est basée la prise de décision intuitive ?
+
+Choix: ['Des conjectures', 'Jeux de hasard', 'C' est l' instinct .', 'Rationalité']
+
+Réponse: C' est l' instinct ."
+L'amélioration de la satisfaction au travail et de la productivité sont des caractéristiques clés de quelle perspective théorique de la conception du travail?,management,"['Amélioration des processus', 'Modèle de changement techno-structurel', 'Modèle des caractéristiques du poste', 'Systèmes socio-techniques']",3,"Question: L'amélioration de la satisfaction au travail et de la productivité sont des caractéristiques clés de quelle perspective théorique de la conception du travail?
+
+Choix: ['Amélioration des processus', 'Modèle de changement techno-structurel', 'Modèle des caractéristiques du poste', 'Systèmes socio-techniques']
+
+Réponse: Systèmes socio-techniques"
+"Quel écrivain du XVIIIe siècle a écrit un célèbre livre intitulé ""La richesse des nations""?",management,"['Il s'agit de Frederick Taylor .', 'Il s'agit de Henry Mintzberg.', 'Il s'agit d'Adam Smith.', 'Le docteur Samuel Johnson']",2,"Question: Quel écrivain du XVIIIe siècle a écrit un célèbre livre intitulé ""La richesse des nations""?
+
+Choix: ['Il s'agit de Frederick Taylor .', 'Il s'agit de Henry Mintzberg.', 'Il s'agit d'Adam Smith.', 'Le docteur Samuel Johnson']
+
+Réponse: Il s'agit d'Adam Smith."
+"Quelle de ces caractéristiques est le plus souvent associée au modèle de gestion ""objectif rationnel""?",management,"['Bien-être des travailleurs', 'La santé et la sécurité', 'Les relations interpersonnelles', 'Productivité']",3,"Question: Quelle de ces caractéristiques est le plus souvent associée au modèle de gestion ""objectif rationnel""?
+
+Choix: ['Bien-être des travailleurs', 'La santé et la sécurité', 'Les relations interpersonnelles', 'Productivité']
+
+Réponse: Productivité"
+Dans quel ordre les gestionnaires exécutent-ils généralement les fonctions de gestion ?,management,"['organiser, planifier, contrôler et diriger', 'organiser, diriger, planifier, contrôler', 'planifier, organiser, diriger, contrôler', 'Il s'agit de l'organisation, de la planification, du contrôle et de la direction de l'entreprise.']",2,"Question: Dans quel ordre les gestionnaires exécutent-ils généralement les fonctions de gestion ?
+
+Choix: ['organiser, planifier, contrôler et diriger', 'organiser, diriger, planifier, contrôler', 'planifier, organiser, diriger, contrôler', 'Il s'agit de l'organisation, de la planification, du contrôle et de la direction de l'entreprise.']
+
+Réponse: planifier, organiser, diriger, contrôler"
+Comment se déroule la communication latérale dans une organisation?,management,"['L'information passe vers le haut.', 'L'information passe vers le bas.', 'L'information est un processus à double sens.', 'Les informations circulent entre les différents départements et fonctions.']",3,"Question: Comment se déroule la communication latérale dans une organisation?
+
+Choix: ['L'information passe vers le haut.', 'L'information passe vers le bas.', 'L'information est un processus à double sens.', 'Les informations circulent entre les différents départements et fonctions.']
+
+Réponse: Les informations circulent entre les différents départements et fonctions."
+De quoi la publicité est- elle une forme?,management,"['Stratégie de focalisation', 'Différenciation', 'Le leadership en matière de coûts', 'Développement']",1,"Question: De quoi la publicité est- elle une forme?
+
+Choix: ['Stratégie de focalisation', 'Différenciation', 'Le leadership en matière de coûts', 'Développement']
+
+Réponse: Différenciation"
+Qu'est-ce qui ne fait pas partie d'une organisation agile ?,management,"['Concentration sur le marché et position', 'Ressources humaines: compétences multiples', 'Structure organisationnelle', 'Culture basée sur des projets']",3,"Question: Qu'est-ce qui ne fait pas partie d'une organisation agile ?
+
+Choix: ['Concentration sur le marché et position', 'Ressources humaines: compétences multiples', 'Structure organisationnelle', 'Culture basée sur des projets']
+
+Réponse: Culture basée sur des projets"
+De quoi l'autonomie des travailleurs dans la prise de décision est-elle un exemple ?,management,"['Liberté du travailleur', 'Une plus grande négociation des travailleurs', 'L'autonomisation des travailleurs', 'Augmentation de la main-d'œuvre']",2,"Question: De quoi l'autonomie des travailleurs dans la prise de décision est-elle un exemple ?
+
+Choix: ['Liberté du travailleur', 'Une plus grande négociation des travailleurs', 'L'autonomisation des travailleurs', 'Augmentation de la main-d'œuvre']
+
+Réponse: L'autonomisation des travailleurs"
+L'intégration verticale vers l'avenir se produit lorsqu'une entreprise fusionne ou acquiert une autre entreprise.,management,"['Vers la source d'approvisionnement', 'Vers le consommateur', 'Au même stade de la chaîne d'approvisionnement', 'Dans un autre secteur']",1,"Question: L'intégration verticale vers l'avenir se produit lorsqu'une entreprise fusionne ou acquiert une autre entreprise.
+
+Choix: ['Vers la source d'approvisionnement', 'Vers le consommateur', 'Au même stade de la chaîne d'approvisionnement', 'Dans un autre secteur']
+
+Réponse: Vers le consommateur"
+Quel est le terme utilisé pour désigner une entité commerciale autonome au sein d'une entreprise globale qui se distingue des autres secteurs d'activité ?,management,"['Filiale', 'Partenariat stratégique', 'Alliance stratégique', 'Unité opérationnelle stratégique']",3,"Question: Quel est le terme utilisé pour désigner une entité commerciale autonome au sein d'une entreprise globale qui se distingue des autres secteurs d'activité ?
+
+Choix: ['Filiale', 'Partenariat stratégique', 'Alliance stratégique', 'Unité opérationnelle stratégique']
+
+Réponse: Unité opérationnelle stratégique"
+Qu'est-ce qui n'est pas une caractéristique d'un cadre de responsabilité sociale des entreprises ?,management,"['Le maintien du statu quo', 'Comprendre la société', 'Tirer parti de la diversité', 'Capacité de construction']",0,"Question: Qu'est-ce qui n'est pas une caractéristique d'un cadre de responsabilité sociale des entreprises ?
+
+Choix: ['Le maintien du statu quo', 'Comprendre la société', 'Tirer parti de la diversité', 'Capacité de construction']
+
+Réponse: Le maintien du statu quo"
+C'est quoi un lanceur d'alerte ?,management,"['Quelqu'un qui signale des actes illégaux ou contraires à l'éthique', 'Quelqu'un qui commet des actes illégaux ou contraires à l'éthique', 'Quelqu'un qui profite d'actes illégaux ou contraires à l'éthique', 'Quelqu'un qui conçoit des actes illégaux ou contraires à l'éthique']",0,"Question: C'est quoi un lanceur d'alerte ?
+
+Choix: ['Quelqu'un qui signale des actes illégaux ou contraires à l'éthique', 'Quelqu'un qui commet des actes illégaux ou contraires à l'éthique', 'Quelqu'un qui profite d'actes illégaux ou contraires à l'éthique', 'Quelqu'un qui conçoit des actes illégaux ou contraires à l'éthique']
+
+Réponse: Quelqu'un qui signale des actes illégaux ou contraires à l'éthique"
+C'est quoi l'entraînement du groupe T ?,management,"['Un groupe dont l'objectif est le changement transformationnel', 'Un groupe réuni pour mettre en place des programmes de formation', 'Formation d'équipes dans le but de faire progresser la technologie', 'Activités de renforcement de l'équipe impliquant l'apprentissage']",3,"Question: C'est quoi l'entraînement du groupe T ?
+
+Choix: ['Un groupe dont l'objectif est le changement transformationnel', 'Un groupe réuni pour mettre en place des programmes de formation', 'Formation d'équipes dans le but de faire progresser la technologie', 'Activités de renforcement de l'équipe impliquant l'apprentissage']
+
+Réponse: Activités de renforcement de l'équipe impliquant l'apprentissage"
+Qu'est-ce qui intéresse une entreprise sociale ?,management,"['Maximisation des bénéfices', 'Maximiser la part de marché', 'Fournir un service public', 'Gérer une entreprise pour créer des avantages sociaux']",3,"Question: Qu'est-ce qui intéresse une entreprise sociale ?
+
+Choix: ['Maximisation des bénéfices', 'Maximiser la part de marché', 'Fournir un service public', 'Gérer une entreprise pour créer des avantages sociaux']
+
+Réponse: Gérer une entreprise pour créer des avantages sociaux"
+Lequel des éléments suivants ne fait pas partie du modèle de formation de la culture de Schein ?,management,"['Des valeurs partagées', 'Les préconceptions', 'Des croyances communes', 'Les normes']",1,"Question: Lequel des éléments suivants ne fait pas partie du modèle de formation de la culture de Schein ?
+
+Choix: ['Des valeurs partagées', 'Les préconceptions', 'Des croyances communes', 'Les normes']
+
+Réponse: Les préconceptions"
+Qu'est-ce qui ne fait pas partie des couches d'influence culturelle ?,management,"['Sociaux', 'Les affaires', 'Le rôle de l'organisation', 'Compagnie']",3,"Question: Qu'est-ce qui ne fait pas partie des couches d'influence culturelle ?
+
+Choix: ['Sociaux', 'Les affaires', 'Le rôle de l'organisation', 'Compagnie']
+
+Réponse: Compagnie"

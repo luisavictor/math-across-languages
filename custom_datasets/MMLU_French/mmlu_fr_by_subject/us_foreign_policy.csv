@@ -1,0 +1,501 @@
+question,subject,choices,answer,qa
+Quelle est la structure du Conseil de sécurité des Nations unies?,us_foreign_policy,"['5 membres permanents avec droit de veto, 10 membres rotatifs sans droit de veto', '5 membres permanents et 10 membres rotatifs, tous dotés d'un droit de veto', '10 membres permanents avec droit de veto et 5 membres rotatifs sans droit de veto', '15 membres permanents avec droit de veto']",0,"Question: Quelle est la structure du Conseil de sécurité des Nations unies?
+
+Choix: ['5 membres permanents avec droit de veto, 10 membres rotatifs sans droit de veto', '5 membres permanents et 10 membres rotatifs, tous dotés d'un droit de veto', '10 membres permanents avec droit de veto et 5 membres rotatifs sans droit de veto', '15 membres permanents avec droit de veto']
+
+Réponse: 5 membres permanents avec droit de veto, 10 membres rotatifs sans droit de veto"
+Quelle était la signification de la résolution du Golfe du Tonkin?,us_foreign_policy,"['Cela a permis aux États-Unis d'intensifier leur implication au Vietnam.', 'Il illustre l'influence de l'opinion publique sur la politique étrangère américaine', 'Il a renforcé le contrôle du Congrès sur la guerre du Vietnam', 'Il a réduit l'implication des États-Unis au Vietnam .']",0,"Question: Quelle était la signification de la résolution du Golfe du Tonkin?
+
+Choix: ['Cela a permis aux États-Unis d'intensifier leur implication au Vietnam.', 'Il illustre l'influence de l'opinion publique sur la politique étrangère américaine', 'Il a renforcé le contrôle du Congrès sur la guerre du Vietnam', 'Il a réduit l'implication des États-Unis au Vietnam .']
+
+Réponse: Cela a permis aux États-Unis d'intensifier leur implication au Vietnam."
+Qui n'est pas un acteur non étatique qui représente une menace pour les États-Unis ?,us_foreign_policy,"['Des terroristes.', 'Crime organisé', 'Les trafiquants de drogue', 'États-Unis']",3,"Question: Qui n'est pas un acteur non étatique qui représente une menace pour les États-Unis ?
+
+Choix: ['Des terroristes.', 'Crime organisé', 'Les trafiquants de drogue', 'États-Unis']
+
+Réponse: États-Unis"
+Qui a été le premier président américain à visiter la Chine communiste ?,us_foreign_policy,"['Il s'agit de Richard Nixon .', 'Le président George H. W. Bush', 'Je suis Jimmy Carter .', 'Le président Ronald Reagan']",0,"Question: Qui a été le premier président américain à visiter la Chine communiste ?
+
+Choix: ['Il s'agit de Richard Nixon .', 'Le président George H. W. Bush', 'Je suis Jimmy Carter .', 'Le président Ronald Reagan']
+
+Réponse: Il s'agit de Richard Nixon ."
+Le Traité sur la réduction des armes stratégiques a été le premier accord,us_foreign_policy,"['sur les armes nucléaires signées entre les États-Unis et l'Union soviétique.', 'Il s'agit de réduire les armes conventionnelles en Europe.', 'd'être rejeté par le Sénat américain.', 'qui exige l'élimination de nombreux missiles nucléaires à longue portée.']",3,"Question: Le Traité sur la réduction des armes stratégiques a été le premier accord
+
+Choix: ['sur les armes nucléaires signées entre les États-Unis et l'Union soviétique.', 'Il s'agit de réduire les armes conventionnelles en Europe.', 'd'être rejeté par le Sénat américain.', 'qui exige l'élimination de nombreux missiles nucléaires à longue portée.']
+
+Réponse: qui exige l'élimination de nombreux missiles nucléaires à longue portée."
+Quelles ont été les implications de la guerre froide pour l'exceptionnalisme américain ?,us_foreign_policy,"['Il a mis fin à l'influence de l'exceptionnalisme américain entièrement', 'L'exceptionnalisme a été renforcé par le statut de l'Amérique en tant que 'leader du monde libre'', 'L'extension de la puissance américaine à l'échelle mondiale remis en question les hypothèses de base de l'exceptionnalisme', 'Les deux b et c']",3,"Question: Quelles ont été les implications de la guerre froide pour l'exceptionnalisme américain ?
+
+Choix: ['Il a mis fin à l'influence de l'exceptionnalisme américain entièrement', 'L'exceptionnalisme a été renforcé par le statut de l'Amérique en tant que 'leader du monde libre'', 'L'extension de la puissance américaine à l'échelle mondiale remis en question les hypothèses de base de l'exceptionnalisme', 'Les deux b et c']
+
+Réponse: Les deux b et c"
+"Pourquoi Franklin D. Roosevelt a-t-il initialement favorisé une position ""isolationniste"" de la part des États-Unis au cours des années 1930?",us_foreign_policy,"['Il croyait que la réforme interne plutôt que la négociation internationale était la clé de la régénération économique des États-Unis.', 'Il croyait que la domination allemande sur l'Europe serait dans l'intérêt des États-Unis.', 'Il a toujours favorisé l'isolationnisme.', 'Tout ce qui précède']",0,"Question: Pourquoi Franklin D. Roosevelt a-t-il initialement favorisé une position ""isolationniste"" de la part des États-Unis au cours des années 1930?
+
+Choix: ['Il croyait que la réforme interne plutôt que la négociation internationale était la clé de la régénération économique des États-Unis.', 'Il croyait que la domination allemande sur l'Europe serait dans l'intérêt des États-Unis.', 'Il a toujours favorisé l'isolationnisme.', 'Tout ce qui précède']
+
+Réponse: Il croyait que la réforme interne plutôt que la négociation internationale était la clé de la régénération économique des États-Unis."
+"Quel était le ""nouveau populisme""?",us_foreign_policy,"['Un fil de sentiment néo-isolationniste', 'Un brin de sentiment internationaliste', 'Une expression de la supériorité culturelle américaine .', 'Intégration accrue de l'opinion publique dans l'élaboration de la politique étrangère']",0,"Question: Quel était le ""nouveau populisme""?
+
+Choix: ['Un fil de sentiment néo-isolationniste', 'Un brin de sentiment internationaliste', 'Une expression de la supériorité culturelle américaine .', 'Intégration accrue de l'opinion publique dans l'élaboration de la politique étrangère']
+
+Réponse: Un fil de sentiment néo-isolationniste"
+Comment la Première Guerre mondiale a- t- elle déplacé la puissance économique de l'Europe vers les États-Unis?,us_foreign_policy,"['La guerre a réduit la population européenne au-dessous de celle des États-Unis.', 'Les États-Unis ont saisi les ressources allemandes après la guerre.', 'Les pays européens ont payé les États-Unis pour l'assistance', 'Les États-Unis sont devenus un pays créancier et un centre financier, les dépenses de guerre européennes stimulant l'économie américaine.']",3,"Question: Comment la Première Guerre mondiale a- t- elle déplacé la puissance économique de l'Europe vers les États-Unis?
+
+Choix: ['La guerre a réduit la population européenne au-dessous de celle des États-Unis.', 'Les États-Unis ont saisi les ressources allemandes après la guerre.', 'Les pays européens ont payé les États-Unis pour l'assistance', 'Les États-Unis sont devenus un pays créancier et un centre financier, les dépenses de guerre européennes stimulant l'économie américaine.']
+
+Réponse: Les États-Unis sont devenus un pays créancier et un centre financier, les dépenses de guerre européennes stimulant l'économie américaine."
+"Dans le gouvernement américain, le pouvoir de déclarer la guerre repose sur",us_foreign_policy,"['le président des États-Unis.', 'Le secrétaire à la Défense.', 'le président des chefs d'état-major interarmées.', 'Le Congrès.']",3,"Question: Dans le gouvernement américain, le pouvoir de déclarer la guerre repose sur
+
+Choix: ['le président des États-Unis.', 'Le secrétaire à la Défense.', 'le président des chefs d'état-major interarmées.', 'Le Congrès.']
+
+Réponse: Le Congrès."
+Comment le contexte de la guerre froide a-t-il façonné les perceptions américaines du tiers monde ?,us_foreign_policy,"['Les États-Unis ont ignoré le tiers monde.', 'Les développements locaux ont été considérés à travers une lentille géopolitique', 'Les États-Unis ont soutenu sans réserve la décolonisation.', 'Rien de ce qui précède']",1,"Question: Comment le contexte de la guerre froide a-t-il façonné les perceptions américaines du tiers monde ?
+
+Choix: ['Les États-Unis ont ignoré le tiers monde.', 'Les développements locaux ont été considérés à travers une lentille géopolitique', 'Les États-Unis ont soutenu sans réserve la décolonisation.', 'Rien de ce qui précède']
+
+Réponse: Les développements locaux ont été considérés à travers une lentille géopolitique"
+Qu'est-ce qui était unique dans l'intervention de l'OTAN au Kosovo ?,us_foreign_policy,"['C'était la première fois que les États-Unis s'impliquaient dans les Balkans.', 'C'était la première fois que l'OTAN utilisait la force militaire.', 'C' était la première guerre gagnée par la seule puissance aérienne .', 'C'était la première guerre à utiliser des 'armes intelligentes'']",2,"Question: Qu'est-ce qui était unique dans l'intervention de l'OTAN au Kosovo ?
+
+Choix: ['C'était la première fois que les États-Unis s'impliquaient dans les Balkans.', 'C'était la première fois que l'OTAN utilisait la force militaire.', 'C' était la première guerre gagnée par la seule puissance aérienne .', 'C'était la première guerre à utiliser des 'armes intelligentes'']
+
+Réponse: C' était la première guerre gagnée par la seule puissance aérienne ."
+"Selon les théories systémiques, quel est le principal déterminant de la politique étrangère d'un État?",us_foreign_policy,"['Le caractère d'un chef d'État', 'La répartition du pouvoir dans le système international', 'La répartition du pouvoir au sein du système gouvernemental d'un État', 'L'idéologie politique d'un État']",1,"Question: Selon les théories systémiques, quel est le principal déterminant de la politique étrangère d'un État?
+
+Choix: ['Le caractère d'un chef d'État', 'La répartition du pouvoir dans le système international', 'La répartition du pouvoir au sein du système gouvernemental d'un État', 'L'idéologie politique d'un État']
+
+Réponse: La répartition du pouvoir dans le système international"
+Pourquoi y a- t- il tant d'incertitude quant à savoir quels États possèdent des armes nucléaires?,us_foreign_policy,"['Les dirigeants ont des incitations à mentir', 'Si les dirigeants révélaient leurs programmes, ils seraient plus susceptibles d'être attaqués.', 'Les dirigeants ne permettront pas toujours aux observateurs étrangers d'accéder à leurs programmes nucléaires.', 'TOUT ce qui précède']",3,"Question: Pourquoi y a- t- il tant d'incertitude quant à savoir quels États possèdent des armes nucléaires?
+
+Choix: ['Les dirigeants ont des incitations à mentir', 'Si les dirigeants révélaient leurs programmes, ils seraient plus susceptibles d'être attaqués.', 'Les dirigeants ne permettront pas toujours aux observateurs étrangers d'accéder à leurs programmes nucléaires.', 'TOUT ce qui précède']
+
+Réponse: TOUT ce qui précède"
+"Au sein de la politique américaine, le pouvoir d'accorder la reconnaissance officielle à d'autres pays appartient à",us_foreign_policy,"['le Sénat.', 'Le président.', 'Le secrétaire d'État.', 'le président des chefs d'état-major.']",1,"Question: Au sein de la politique américaine, le pouvoir d'accorder la reconnaissance officielle à d'autres pays appartient à
+
+Choix: ['le Sénat.', 'Le président.', 'Le secrétaire d'État.', 'le président des chefs d'état-major.']
+
+Réponse: Le président."
+Qu'a fait le Traité de Moscou sur la réduction des forces offensives stratégiques ?,us_foreign_policy,"['Obligé les États-Unis et la Russie à démobiliser leurs armées', 'Obligé les États-Unis et la Russie à démanteler un nombre important de leurs armes nucléaires', 'Interdit l'acquisition de nouvelles bases militaires', 'Armes nucléaires à courte portée interdites']",1,"Question: Qu'a fait le Traité de Moscou sur la réduction des forces offensives stratégiques ?
+
+Choix: ['Obligé les États-Unis et la Russie à démobiliser leurs armées', 'Obligé les États-Unis et la Russie à démanteler un nombre important de leurs armes nucléaires', 'Interdit l'acquisition de nouvelles bases militaires', 'Armes nucléaires à courte portée interdites']
+
+Réponse: Obligé les États-Unis et la Russie à démanteler un nombre important de leurs armes nucléaires"
+"C'était quoi ces ""notes de porte ouverte"" ?",us_foreign_policy,"['Une déclaration américaine selon laquelle les États-Unis seraient toujours ouverts à l'immigration chinoise.', 'Une proclamation américaine selon laquelle la Chine devrait être divisée entre les États-Unis, le Japon et les empires européens.', 'Une proclamation américaine selon laquelle la Chine devrait être ouverte au commerce et aux missionnaires américains.', 'Une déclaration américaine de soutien au protectionnisme économique chinois']",2,"Question: C'était quoi ces ""notes de porte ouverte"" ?
+
+Choix: ['Une déclaration américaine selon laquelle les États-Unis seraient toujours ouverts à l'immigration chinoise.', 'Une proclamation américaine selon laquelle la Chine devrait être divisée entre les États-Unis, le Japon et les empires européens.', 'Une proclamation américaine selon laquelle la Chine devrait être ouverte au commerce et aux missionnaires américains.', 'Une déclaration américaine de soutien au protectionnisme économique chinois']
+
+Réponse: Une proclamation américaine selon laquelle la Chine devrait être ouverte au commerce et aux missionnaires américains."
+"Le commerce international profitera presque toujours aux deux pays, alors pourquoi les pays essaient- ils de protéger leurs propres entreprises de l'exposition au marché mondial?",us_foreign_policy,"['Irrationalité de la part des dirigeants', 'Les coûts du libre-échange sont concentrés, mais les bénéfices sont dispersés', 'Type de régime', 'Des conflits internationaux entravent le commerce']",1,"Question: Le commerce international profitera presque toujours aux deux pays, alors pourquoi les pays essaient- ils de protéger leurs propres entreprises de l'exposition au marché mondial?
+
+Choix: ['Irrationalité de la part des dirigeants', 'Les coûts du libre-échange sont concentrés, mais les bénéfices sont dispersés', 'Type de régime', 'Des conflits internationaux entravent le commerce']
+
+Réponse: Les coûts du libre-échange sont concentrés, mais les bénéfices sont dispersés"
+Pourquoi George H.W. Bush a-t-il permis à Saddam Hussein de rester au pouvoir après la guerre du Golfe de 1991 ?,us_foreign_policy,"['Manque de puissance de feu américaine', 'Préoccupations concernant l'approvisionnement en pétrole', 'Mandat limité de l'ONU et crainte d'un conflit prolongé', 'Terrain difficile et crainte de victimes civiles']",2,"Question: Pourquoi George H.W. Bush a-t-il permis à Saddam Hussein de rester au pouvoir après la guerre du Golfe de 1991 ?
+
+Choix: ['Manque de puissance de feu américaine', 'Préoccupations concernant l'approvisionnement en pétrole', 'Mandat limité de l'ONU et crainte d'un conflit prolongé', 'Terrain difficile et crainte de victimes civiles']
+
+Réponse: Mandat limité de l'ONU et crainte d'un conflit prolongé"
+Pourquoi les internationalistes libéraux soutiennent-ils que les institutions internationales sont importantes pour la grande stratégie américaine ?,us_foreign_policy,"['Ils permettent aux États-Unis de se retirer de l'arène internationale', 'Ils servent les intérêts américains .', 'Les États-Unis sont incapables d'agir seuls.', 'Rien de ce qui précède']",1,"Question: Pourquoi les internationalistes libéraux soutiennent-ils que les institutions internationales sont importantes pour la grande stratégie américaine ?
+
+Choix: ['Ils permettent aux États-Unis de se retirer de l'arène internationale', 'Ils servent les intérêts américains .', 'Les États-Unis sont incapables d'agir seuls.', 'Rien de ce qui précède']
+
+Réponse: Ils servent les intérêts américains ."
+Quelle était la signification de la doctrine Truman ?,us_foreign_policy,"['Il a indiqué la place spéciale de la Grèce et de la Turquie dans les intérêts américains.', 'C'était la première déclaration de Truman sur les affaires européennes.', 'Il indiquait la réticence des États-Unis à s'impliquer dans des incidents en dehors de leur sphère d'influence immédiate.', 'Il indiquait que les États-Unis envisageraient désormais toutes les révoltes locales à travers une lentille géopolitique.']",3,"Question: Quelle était la signification de la doctrine Truman ?
+
+Choix: ['Il a indiqué la place spéciale de la Grèce et de la Turquie dans les intérêts américains.', 'C'était la première déclaration de Truman sur les affaires européennes.', 'Il indiquait la réticence des États-Unis à s'impliquer dans des incidents en dehors de leur sphère d'influence immédiate.', 'Il indiquait que les États-Unis envisageraient désormais toutes les révoltes locales à travers une lentille géopolitique.']
+
+Réponse: Il indiquait que les États-Unis envisageraient désormais toutes les révoltes locales à travers une lentille géopolitique."
+Quels sont les effets du commerce du pétrole et des autres ressources naturelles sur les pays en développement?,us_foreign_policy,"['Elle démocratise les pays.', 'Ça n' a pas d' effet réel .', 'Elle favorise la stabilité du régime.', 'Ça change la nature de l'investisseur.']",2,"Question: Quels sont les effets du commerce du pétrole et des autres ressources naturelles sur les pays en développement?
+
+Choix: ['Elle démocratise les pays.', 'Ça n' a pas d' effet réel .', 'Elle favorise la stabilité du régime.', 'Ça change la nature de l'investisseur.']
+
+Réponse: Elle favorise la stabilité du régime."
+Le cours dominant de la politique étrangère tout au long de la majeure partie de l'histoire américaine peut être classé comme,us_foreign_policy,"['le confinement.', 'le néoconservatisme.', 'Il s'agit de l'isolationnisme.', 'le protectionnisme.']",2,"Question: Le cours dominant de la politique étrangère tout au long de la majeure partie de l'histoire américaine peut être classé comme
+
+Choix: ['le confinement.', 'le néoconservatisme.', 'Il s'agit de l'isolationnisme.', 'le protectionnisme.']
+
+Réponse: Il s'agit de l'isolationnisme."
+Qu'est- ce qui a amené la Grande-Bretagne à imposer de nouveaux impôts à ses colonies américaines?,us_foreign_policy,"['Pour accroître la richesse du roi George III', 'Les coûts croissants de la guerre avec la France', 'La colère contre la prospérité croissante de l'Amérique', 'La pression exercée par les riches marchands']",1,"Question: Qu'est- ce qui a amené la Grande-Bretagne à imposer de nouveaux impôts à ses colonies américaines?
+
+Choix: ['Pour accroître la richesse du roi George III', 'Les coûts croissants de la guerre avec la France', 'La colère contre la prospérité croissante de l'Amérique', 'La pression exercée par les riches marchands']
+
+Réponse: Les coûts croissants de la guerre avec la France"
+"Qui a dit: "" La mondialisation n'est pas quelque chose que l'on peut retenir ou éteindre. C'est l'équivalent économique d'une force de la nature comme le vent ou l'eau "" ?",us_foreign_policy,"['Le président Ronald Reagan', 'Il s'agit de George Soros.', 'Nom de l'acteur Bill Clinton', 'Le président George W. Bush']",2,"Question: Qui a dit: "" La mondialisation n'est pas quelque chose que l'on peut retenir ou éteindre. C'est l'équivalent économique d'une force de la nature comme le vent ou l'eau "" ?
+
+Choix: ['Le président Ronald Reagan', 'Il s'agit de George Soros.', 'Nom de l'acteur Bill Clinton', 'Le président George W. Bush']
+
+Réponse: Nom de l'acteur Bill Clinton"
+"L'idée que la guerre est ""la continuation de la politique par d'autres moyens"" aide à saisir",us_foreign_policy,"['La diplomatie est l'instrument le plus silencieux d'influence dans la politique mondiale.', 'la façon dont les partis politiques se battent entre eux.', 'l'idée que les gouvernements utilisent leur armée pour aider à poursuivre des objectifs politiques.', 'la façon dont les démocrates et les républicains diffèrent sur la guerre en Irak.']",2,"Question: L'idée que la guerre est ""la continuation de la politique par d'autres moyens"" aide à saisir
+
+Choix: ['La diplomatie est l'instrument le plus silencieux d'influence dans la politique mondiale.', 'la façon dont les partis politiques se battent entre eux.', 'l'idée que les gouvernements utilisent leur armée pour aider à poursuivre des objectifs politiques.', 'la façon dont les démocrates et les républicains diffèrent sur la guerre en Irak.']
+
+Réponse: l'idée que les gouvernements utilisent leur armée pour aider à poursuivre des objectifs politiques."
+Quels sont les éléments clés de l'approche libérale de la politique étrangère américaine ?,us_foreign_policy,"['Promotion de la démocratie, du libre-échange et des institutions internationales', 'Les alliances, la diplomatie et le protectionnisme', 'L'équilibre des pouvoirs, l'autosuffisance et la prudence', 'Rien de ce qui précède']",0,"Question: Quels sont les éléments clés de l'approche libérale de la politique étrangère américaine ?
+
+Choix: ['Promotion de la démocratie, du libre-échange et des institutions internationales', 'Les alliances, la diplomatie et le protectionnisme', 'L'équilibre des pouvoirs, l'autosuffisance et la prudence', 'Rien de ce qui précède']
+
+Réponse: Promotion de la démocratie, du libre-échange et des institutions internationales"
+Quelle était la principale différence entre l'expansion américaine avant et après 1865 ?,us_foreign_policy,"['L'expansion des États-Unis était basée sur le territoire plutôt que sur les marchés après 1865', 'L'expansion des États-Unis était basée sur les marchés plutôt que sur le territoire après 1865', 'L'expansion américaine s'est limitée à l'Amérique latine après 1865.', 'L'expansion américaine a pris fin après 1865.']",1,"Question: Quelle était la principale différence entre l'expansion américaine avant et après 1865 ?
+
+Choix: ['L'expansion des États-Unis était basée sur le territoire plutôt que sur les marchés après 1865', 'L'expansion des États-Unis était basée sur les marchés plutôt que sur le territoire après 1865', 'L'expansion américaine s'est limitée à l'Amérique latine après 1865.', 'L'expansion américaine a pris fin après 1865.']
+
+Réponse: L'expansion des États-Unis était basée sur les marchés plutôt que sur le territoire après 1865"
+"Quel argument le président Eisenhower a- t- il avancé contre le ""complexe militaro-industriel"" dans son discours d'adieu?",us_foreign_policy,"['Que la recherche capitaliste du profit était la principale cause des conflits armés', 'Que les États-Unis n'avaient plus besoin d'être militairement forts', 'Que les dépenses militaires ont donné à l'industrie de l'armement une influence injustifiée sur la politique et le gouvernement', 'Que les entreprises privées saperaient le rôle des Forces Armées']",2,"Question: Quel argument le président Eisenhower a- t- il avancé contre le ""complexe militaro-industriel"" dans son discours d'adieu?
+
+Choix: ['Que la recherche capitaliste du profit était la principale cause des conflits armés', 'Que les États-Unis n'avaient plus besoin d'être militairement forts', 'Que les dépenses militaires ont donné à l'industrie de l'armement une influence injustifiée sur la politique et le gouvernement', 'Que les entreprises privées saperaient le rôle des Forces Armées']
+
+Réponse: Que les dépenses militaires ont donné à l'industrie de l'armement une influence injustifiée sur la politique et le gouvernement"
+"Au sein des Nations Unies, le véritable pouvoir réside dans",us_foreign_policy,"['le Conseil de sécurité.', 'la Chambre des députés.', 'le Conseil des ministres.', 'le secrétariat.']",0,"Question: Au sein des Nations Unies, le véritable pouvoir réside dans
+
+Choix: ['le Conseil de sécurité.', 'la Chambre des députés.', 'le Conseil des ministres.', 'le secrétariat.']
+
+Réponse: le Conseil de sécurité."
+"En général, en quoi les conservateurs et les libéraux diffèrent-ils en ce qui concerne les dépenses de défense ?",us_foreign_policy,"['Les conservateurs sont sceptiques quant à l'augmentation des dépenses de défense; les libéraux préconisent une augmentation des dépenses de défense.', 'Les conservateurs préfèrent les dépenses sociales aux dépenses de défense; les libéraux préfèrent les dépenses de défense aux dépenses sociales.', 'Les conservateurs préconisent une augmentation des dépenses de défense; les libéraux sont généralement sceptiques quant à l'augmentation des dépenses de défense.', 'Les conservateurs mettent l'accent sur des économies fortes; les libéraux mettent l'accent sur une forte préparation militaire.']",2,"Question: En général, en quoi les conservateurs et les libéraux diffèrent-ils en ce qui concerne les dépenses de défense ?
+
+Choix: ['Les conservateurs sont sceptiques quant à l'augmentation des dépenses de défense; les libéraux préconisent une augmentation des dépenses de défense.', 'Les conservateurs préfèrent les dépenses sociales aux dépenses de défense; les libéraux préfèrent les dépenses de défense aux dépenses sociales.', 'Les conservateurs préconisent une augmentation des dépenses de défense; les libéraux sont généralement sceptiques quant à l'augmentation des dépenses de défense.', 'Les conservateurs mettent l'accent sur des économies fortes; les libéraux mettent l'accent sur une forte préparation militaire.']
+
+Réponse: Les conservateurs préconisent une augmentation des dépenses de défense; les libéraux sont généralement sceptiques quant à l'augmentation des dépenses de défense."
+Quelles sont les activités des organisations intergouvernementales SELDOM?,us_foreign_policy,"['Assurer une application rigoureuse', 'Parties de surveillance', 'Fournir des forums de discussion', 'Réduire les coûts de transaction pour les accords']",0,"Question: Quelles sont les activités des organisations intergouvernementales SELDOM?
+
+Choix: ['Assurer une application rigoureuse', 'Parties de surveillance', 'Fournir des forums de discussion', 'Réduire les coûts de transaction pour les accords']
+
+Réponse: Assurer une application rigoureuse"
+"Parmi les éléments suivants, quels sont les obstacles possibles à la prise de décision en matière de politique étrangère des États-Unis?",us_foreign_policy,"['Politiques étrangères des autres États', 'Le droit international', 'Organisations intergouvernementales', 'Tout ce qui précède']",3,"Question: Parmi les éléments suivants, quels sont les obstacles possibles à la prise de décision en matière de politique étrangère des États-Unis?
+
+Choix: ['Politiques étrangères des autres États', 'Le droit international', 'Organisations intergouvernementales', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+C'est quoi la diplomatie directe ?,us_foreign_policy,"['Les membres du Congrès négocient directement avec les gouvernements étrangers', 'Rencontres en face à face entre les chefs d'État', 'Le président consulte le Congrès sur les questions de politique étrangère', 'Discussions bilatérales qui n'impliquent pas de négociateur tiers']",0,"Question: C'est quoi la diplomatie directe ?
+
+Choix: ['Les membres du Congrès négocient directement avec les gouvernements étrangers', 'Rencontres en face à face entre les chefs d'État', 'Le président consulte le Congrès sur les questions de politique étrangère', 'Discussions bilatérales qui n'impliquent pas de négociateur tiers']
+
+Réponse: Les membres du Congrès négocient directement avec les gouvernements étrangers"
+Quelle était la politique de l'administration Clinton sur l'économie russe ?,us_foreign_policy,"['Les États-Unis ont inhibé la commercialisation de l'économie russe', 'Les États-Unis ont favorisé la commercialisation de l'économie russe', 'Les États-Unis ont soutenu la propriété publique des ressources naturelles', 'Aucun, les États-Unis ne s'intéressaient qu'aux questions de sécurité.']",1,"Question: Quelle était la politique de l'administration Clinton sur l'économie russe ?
+
+Choix: ['Les États-Unis ont inhibé la commercialisation de l'économie russe', 'Les États-Unis ont favorisé la commercialisation de l'économie russe', 'Les États-Unis ont soutenu la propriété publique des ressources naturelles', 'Aucun, les États-Unis ne s'intéressaient qu'aux questions de sécurité.']
+
+Réponse: Les États-Unis ont favorisé la commercialisation de l'économie russe"
+Combien de grandes puissances y a-t-il dans un système multipolaire ?,us_foreign_policy,"['Nombre d'employés', 'Nom de l'établissement', 'Nom de l'entreprise', '3 ou plus']",3,"Question: Combien de grandes puissances y a-t-il dans un système multipolaire ?
+
+Choix: ['Nombre d'employés', 'Nom de l'établissement', 'Nom de l'entreprise', '3 ou plus']
+
+Réponse: 3 ou plus"
+Pourquoi les Américains croyaient-ils pouvoir fonder un empire différent après 1776 ?,us_foreign_policy,"['Ce serait un 'empire de la liberté'', 'Cet empire serait multiculturel.', 'Ce type d'empire serait basé sur l'expansion', 'Ce serait un empire sans esclavage.']",0,"Question: Pourquoi les Américains croyaient-ils pouvoir fonder un empire différent après 1776 ?
+
+Choix: ['Ce serait un 'empire de la liberté'', 'Cet empire serait multiculturel.', 'Ce type d'empire serait basé sur l'expansion', 'Ce serait un empire sans esclavage.']
+
+Réponse: Ce serait un ""empire de la liberté"""
+Le compromis entre la défense et les dépenses sociales est souvent désigné comme un choix entre,us_foreign_policy,"['du pain et du beurre.', 'La guerre et la paix.', 'Des armes et du beurre.', 'Des bombes et des livres.']",2,"Question: Le compromis entre la défense et les dépenses sociales est souvent désigné comme un choix entre
+
+Choix: ['du pain et du beurre.', 'La guerre et la paix.', 'Des armes et du beurre.', 'Des bombes et des livres.']
+
+Réponse: Des armes et du beurre."
+"Qu'entendait Charles Krauthammer par ""moment unipolaire"" lorsqu'il décrivait le système de l'après-guerre froide ?",us_foreign_policy,"['La chance pour les États-Unis de partager le pouvoir avec d'autres pays dans le monde', 'Une occasion d'utiliser l'effondrement de l'Union soviétique pour étendre le pouvoir des États-Unis', 'Un système international qui ne faisait face à aucune menace.', 'La domination sans fin des États-Unis']",1,"Question: Qu'entendait Charles Krauthammer par ""moment unipolaire"" lorsqu'il décrivait le système de l'après-guerre froide ?
+
+Choix: ['La chance pour les États-Unis de partager le pouvoir avec d'autres pays dans le monde', 'Une occasion d'utiliser l'effondrement de l'Union soviétique pour étendre le pouvoir des États-Unis', 'Un système international qui ne faisait face à aucune menace.', 'La domination sans fin des États-Unis']
+
+Réponse: Une occasion d'utiliser l'effondrement de l'Union soviétique pour étendre le pouvoir des États-Unis"
+"Laquelle des personnes suivantes considère qu'il est immoral d'utiliser la force à l'étranger pour faire du bien (comme la protection des droits de l'homme, la démocratie, etc.)?",us_foreign_policy,"['Le réalisme', 'Idéalisme', 'Le libéralisme', 'Rien de ce qui précède']",0,"Question: Laquelle des personnes suivantes considère qu'il est immoral d'utiliser la force à l'étranger pour faire du bien (comme la protection des droits de l'homme, la démocratie, etc.)?
+
+Choix: ['Le réalisme', 'Idéalisme', 'Le libéralisme', 'Rien de ce qui précède']
+
+Réponse: Le réalisme"
+"Selon les réalistes, quelle est la différence fondamentale entre le système international et le système national?",us_foreign_policy,"['Conflit armé', 'L' anarchie', 'Les institutions', 'Aucune langue commune']",1,"Question: Selon les réalistes, quelle est la différence fondamentale entre le système international et le système national?
+
+Choix: ['Conflit armé', 'L' anarchie', 'Les institutions', 'Aucune langue commune']
+
+Réponse: L' anarchie"
+Ce qui n'est PAS une raison pour laquelle les organisations intergouvernementales sont inefficaces dans la promotion des droits de l'homme ?,us_foreign_policy,"['Ces organisations identifient simplement les États qui soutiennent déjà les droits de l'homme', 'Ils ne peuvent pas obtenir suffisamment d'informations sur les dirigeants qui abuseront de leurs citoyens', 'Ces organisations n'ont guère d'influence sur les dirigeants violents.', 'Rien de ce qui précède']",1,"Question: Ce qui n'est PAS une raison pour laquelle les organisations intergouvernementales sont inefficaces dans la promotion des droits de l'homme ?
+
+Choix: ['Ces organisations identifient simplement les États qui soutiennent déjà les droits de l'homme', 'Ils ne peuvent pas obtenir suffisamment d'informations sur les dirigeants qui abuseront de leurs citoyens', 'Ces organisations n'ont guère d'influence sur les dirigeants violents.', 'Rien de ce qui précède']
+
+Réponse: Ils ne peuvent pas obtenir suffisamment d'informations sur les dirigeants qui abuseront de leurs citoyens"
+Pourquoi le 'système de Philadelphie' pourrait- il être lié à l'idée d'exceptionnalisme américain?,us_foreign_policy,"['Il a encouragé une plus grande participation à la politique européenne', 'Il a été conçu comme l'antithèse de la politique européenne', 'Il a créé une grande armée permanente', 'Il a encouragé la centralisation du pouvoir politique aux États-Unis.']",1,"Question: Pourquoi le 'système de Philadelphie' pourrait- il être lié à l'idée d'exceptionnalisme américain?
+
+Choix: ['Il a encouragé une plus grande participation à la politique européenne', 'Il a été conçu comme l'antithèse de la politique européenne', 'Il a créé une grande armée permanente', 'Il a encouragé la centralisation du pouvoir politique aux États-Unis.']
+
+Réponse: Il a été conçu comme l'antithèse de la politique européenne"
+"Parmi les éléments suivants, quels sont les obstacles possibles à la prise de décision en matière de politique étrangère des États-Unis?",us_foreign_policy,"['Politiques étrangères des autres États', 'Le droit international', 'Organisations intergouvernementales', 'Tout ce qui précède']",3,"Question: Parmi les éléments suivants, quels sont les obstacles possibles à la prise de décision en matière de politique étrangère des États-Unis?
+
+Choix: ['Politiques étrangères des autres États', 'Le droit international', 'Organisations intergouvernementales', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+"La détente, ou l'assouplissement des tensions associé à des garanties fermes de sécurité mutuelle, a représenté un changement dans la politique étrangère américaine vers le monde communiste inauguré par",us_foreign_policy,"['Il s'agit de Richard Nixon.', 'Eugene McCarthy est un écrivain américain.', 'Il s'agit de Lyndon Johnson.', 'Il s'agit de Robert Kennedy.']",0,"Question: La détente, ou l'assouplissement des tensions associé à des garanties fermes de sécurité mutuelle, a représenté un changement dans la politique étrangère américaine vers le monde communiste inauguré par
+
+Choix: ['Il s'agit de Richard Nixon.', 'Eugene McCarthy est un écrivain américain.', 'Il s'agit de Lyndon Johnson.', 'Il s'agit de Robert Kennedy.']
+
+Réponse: Il s'agit de Richard Nixon."
+Lequel de ces éléments ne fait pas partie du credo américain?,us_foreign_policy,"['Je suis libre.', 'L'égalité', 'Autodétermination', 'L'individualisme']",2,"Question: Lequel de ces éléments ne fait pas partie du credo américain?
+
+Choix: ['Je suis libre.', 'L'égalité', 'Autodétermination', 'L'individualisme']
+
+Réponse: Autodétermination"
+"Au cours des premières années de son administration, les politiques étrangères et de défense de Reagan ont mis l'accent",us_foreign_policy,"['le désarmement nucléaire.', 'La détente.', 'contre le communisme.', 'le libre-échange international.']",2,"Question: Au cours des premières années de son administration, les politiques étrangères et de défense de Reagan ont mis l'accent
+
+Choix: ['le désarmement nucléaire.', 'La détente.', 'contre le communisme.', 'le libre-échange international.']
+
+Réponse: contre le communisme."
+La guerre du Vietnam peut être comprise comme,us_foreign_policy,"['une guerre qui a profondément divisé les États-Unis et a favorisé le cynisme envers le gouvernement américain.', 'un exemple de la doctrine du confinement, parce que l'implication des États-Unis a été conçue pour empêcher la chute du Sud Vietnam aux communistes.', 'Un exemple de la façon dont même une grande puissance peut ne pas être en mesure de prévaloir contre un ennemi déterminé à moins qu'il y ait un objectif clair et la volonté nationale de le faire.', 'Tout ce qui précède est vrai.']",3,"Question: La guerre du Vietnam peut être comprise comme
+
+Choix: ['une guerre qui a profondément divisé les États-Unis et a favorisé le cynisme envers le gouvernement américain.', 'un exemple de la doctrine du confinement, parce que l'implication des États-Unis a été conçue pour empêcher la chute du Sud Vietnam aux communistes.', 'Un exemple de la façon dont même une grande puissance peut ne pas être en mesure de prévaloir contre un ennemi déterminé à moins qu'il y ait un objectif clair et la volonté nationale de le faire.', 'Tout ce qui précède est vrai.']
+
+Réponse: Tout ce qui précède est vrai."
+Les départements de la branche exécutive qui aident le président dans la conception et la mise en œuvre de la politique étrangère des États-Unis sont connus comme,us_foreign_policy,"['les Nations unies.', 'le Conseil de sécurité nationale.', 'le Département d'État.', 'l'agence de sécurité nationale.']",2,"Question: Les départements de la branche exécutive qui aident le président dans la conception et la mise en œuvre de la politique étrangère des États-Unis sont connus comme
+
+Choix: ['les Nations unies.', 'le Conseil de sécurité nationale.', 'le Département d'État.', 'l'agence de sécurité nationale.']
+
+Réponse: le Département d'État."
+La plus grande augmentation des dépenses de défense en temps de paix dans l'histoire américaine s'est produite sous quel président ?,us_foreign_policy,"['Je suis Jimmy Carter .', 'Le président Ronald Reagan', 'Nom de l'acteur Bill Clinton', 'Dwight Eisenhower , président des États-Unis .']",1,"Question: La plus grande augmentation des dépenses de défense en temps de paix dans l'histoire américaine s'est produite sous quel président ?
+
+Choix: ['Je suis Jimmy Carter .', 'Le président Ronald Reagan', 'Nom de l'acteur Bill Clinton', 'Dwight Eisenhower , président des États-Unis .']
+
+Réponse: Le président Ronald Reagan"
+Qu'est-ce qui a provoqué un tollé public impliquant l'Agence de Sécurité Nationale en 2005 ?,us_foreign_policy,"['Révélations que la NSA surveillait les communications des citoyens américains sans obtenir de mandat', 'Un mémo divulgué qui reliait les événements du 11 septembre 2001 au Comité national démocrate', 'Révélations selon lesquelles la NSA avait torturé des prisonniers à Guantanamo, à Cuba', 'Un rapport cinglant condamnant l'administration de George W. Bush pour avoir 'construit une cause pour la guerre en Irak sur des fondations de sable mouvant'']",0,"Question: Qu'est-ce qui a provoqué un tollé public impliquant l'Agence de Sécurité Nationale en 2005 ?
+
+Choix: ['Révélations que la NSA surveillait les communications des citoyens américains sans obtenir de mandat', 'Un mémo divulgué qui reliait les événements du 11 septembre 2001 au Comité national démocrate', 'Révélations selon lesquelles la NSA avait torturé des prisonniers à Guantanamo, à Cuba', 'Un rapport cinglant condamnant l'administration de George W. Bush pour avoir 'construit une cause pour la guerre en Irak sur des fondations de sable mouvant'']
+
+Réponse: Révélations que la NSA surveillait les communications des citoyens américains sans obtenir de mandat"
+C'était quoi le plan Marshall ?,us_foreign_policy,"['Un plan qui fournissait une aide économique pour reconstruire l'Europe.', 'Un plan d'aide à la Grèce et à la Turquie dans leur lutte contre les menaces soviétiques et soutenues par les Soviétiques', 'Un plan qui a fourni à l'Europe une assistance militaire pour contrer la menace soviétique', 'Le plan conçu pour arrêter le communisme en Asie']",0,"Question: C'était quoi le plan Marshall ?
+
+Choix: ['Un plan qui fournissait une aide économique pour reconstruire l'Europe.', 'Un plan d'aide à la Grèce et à la Turquie dans leur lutte contre les menaces soviétiques et soutenues par les Soviétiques', 'Un plan qui a fourni à l'Europe une assistance militaire pour contrer la menace soviétique', 'Le plan conçu pour arrêter le communisme en Asie']
+
+Réponse: Un plan qui fournissait une aide économique pour reconstruire l'Europe."
+La politique bureaucratique suggère que nous devrions nous inquiéter de ce qui suit en ce qui concerne les armes nucléaires?,us_foreign_policy,"['Avoir la capacité de dissuader le rival le plus puissant', 'Avoir la capacité de dissuader les petits États', 'Comment les attaques nucléaires sont identifiées et comment y réagir; qui contrôle les armes ?', 'La politique bureaucratique ne fournit aucune information sur la prolifération et l'utilisation des armes nucléaires']",2,"Question: La politique bureaucratique suggère que nous devrions nous inquiéter de ce qui suit en ce qui concerne les armes nucléaires?
+
+Choix: ['Avoir la capacité de dissuader le rival le plus puissant', 'Avoir la capacité de dissuader les petits États', 'Comment les attaques nucléaires sont identifiées et comment y réagir; qui contrôle les armes ?', 'La politique bureaucratique ne fournit aucune information sur la prolifération et l'utilisation des armes nucléaires']
+
+Réponse: Comment les attaques nucléaires sont identifiées et comment y réagir; qui contrôle les armes ?"
+"Selon les institutionnalistes internationaux, quels problèmes les institutions internationales ont- elles été conçues pour résoudre?",us_foreign_policy,"['La guerre', 'L' anarchie', 'Action collective et problèmes de coordination', 'Tout ce qui précède']",3,"Question: Selon les institutionnalistes internationaux, quels problèmes les institutions internationales ont- elles été conçues pour résoudre?
+
+Choix: ['La guerre', 'L' anarchie', 'Action collective et problèmes de coordination', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+"Que signifiait l'expression ""nouvel ordre mondial""?",us_foreign_policy,"['Un nouvel internationalisme démocratique dirigé par les États-Unis', 'Un nouvel équilibre des pouvoirs entre les États-Unis et la Chine', 'Un nouveau cadre économique mondial', 'Une nouvelle ère de mondialisation']",0,"Question: Que signifiait l'expression ""nouvel ordre mondial""?
+
+Choix: ['Un nouvel internationalisme démocratique dirigé par les États-Unis', 'Un nouvel équilibre des pouvoirs entre les États-Unis et la Chine', 'Un nouveau cadre économique mondial', 'Une nouvelle ère de mondialisation']
+
+Réponse: Un nouvel internationalisme démocratique dirigé par les États-Unis"
+L'organisation internationale la plus connue et peut-être la plus importante est,us_foreign_policy,"['les Nations unies.', 'l'Organisation du traité de l'Atlantique Nord (OTAN).', 'l'Organisation des pays exportateurs de pétrole (OPEP).', 'l'Organisation mondiale du commerce (OMC).']",0,"Question: L'organisation internationale la plus connue et peut-être la plus importante est
+
+Choix: ['les Nations unies.', 'l'Organisation du traité de l'Atlantique Nord (OTAN).', 'l'Organisation des pays exportateurs de pétrole (OPEP).', 'l'Organisation mondiale du commerce (OMC).']
+
+Réponse: les Nations unies."
+"Que signifiait le terme ""table de multiplication américaine""?",us_foreign_policy,"['Augmentation de la population américaine', 'Augmentation des finances américaines', 'Augmentation des capacités militaires américaines', 'Augmentation de l'influence internationale des États-Unis']",0,"Question: Que signifiait le terme ""table de multiplication américaine""?
+
+Choix: ['Augmentation de la population américaine', 'Augmentation des finances américaines', 'Augmentation des capacités militaires américaines', 'Augmentation de l'influence internationale des États-Unis']
+
+Réponse: Augmentation de la population américaine"
+Les accords commerciaux internationaux mondiaux et régionaux fonctionnent selon lequel des mécanismes suivants?,us_foreign_policy,"['Réciprocité dans de multiples domaines', 'Préoccupations concernant la réputation des acteurs', 'Paiements parallèles pour l'ajustement à l'organisation (comme la politique agricole commune dans l'UE)', 'TOUT ce qui précède']",3,"Question: Les accords commerciaux internationaux mondiaux et régionaux fonctionnent selon lequel des mécanismes suivants?
+
+Choix: ['Réciprocité dans de multiples domaines', 'Préoccupations concernant la réputation des acteurs', 'Paiements parallèles pour l'ajustement à l'organisation (comme la politique agricole commune dans l'UE)', 'TOUT ce qui précède']
+
+Réponse: TOUT ce qui précède"
+Pourquoi Lincoln s'est-il opposé à l'expansion vers le sud des États-Unis ?,us_foreign_policy,"['Cela aurait épuisé les États-Unis économiquement.', 'Cela aurait impliqué compromettre l'opposition à l'esclavage.', 'Cela aurait augmenté l'immigration aux États-Unis', 'Rien de ce qui précède']",1,"Question: Pourquoi Lincoln s'est-il opposé à l'expansion vers le sud des États-Unis ?
+
+Choix: ['Cela aurait épuisé les États-Unis économiquement.', 'Cela aurait impliqué compromettre l'opposition à l'esclavage.', 'Cela aurait augmenté l'immigration aux États-Unis', 'Rien de ce qui précède']
+
+Réponse: Cela aurait impliqué compromettre l'opposition à l'esclavage."
+La tension croissante entre les États-Unis et l'Union soviétique a abouti à une politique que John Foster Dulles a appelé,us_foreign_policy,"[''destruction mutuelle assurée'.', ''Mise à l'épreuve'.', ''réalisme'.', ''pas dans mon arrière-cour'.']",1,"Question: La tension croissante entre les États-Unis et l'Union soviétique a abouti à une politique que John Foster Dulles a appelé
+
+Choix: [''destruction mutuelle assurée'.', ''Mise à l'épreuve'.', ''réalisme'.', ''pas dans mon arrière-cour'.']
+
+Réponse: ""Mise à l'épreuve""."
+Pourquoi certains spécialistes affirment- ils que Reagan 'a gagné la guerre froide'?,us_foreign_policy,"['Les dépenses militaires du premier mandat de Reagan ont fait pression sur l'Union soviétique pour qu'elle respecte ses engagements internationaux.', 'Reagan a encouragé l'engagement avec l' Union soviétique', 'Reagan a encouragé une approche plus douce du communisme .', 'Reagan a réduit les dépenses militaires et cela a permis à l'Union soviétique de réformer l'espace']",0,"Question: Pourquoi certains spécialistes affirment- ils que Reagan 'a gagné la guerre froide'?
+
+Choix: ['Les dépenses militaires du premier mandat de Reagan ont fait pression sur l'Union soviétique pour qu'elle respecte ses engagements internationaux.', 'Reagan a encouragé l'engagement avec l' Union soviétique', 'Reagan a encouragé une approche plus douce du communisme .', 'Reagan a réduit les dépenses militaires et cela a permis à l'Union soviétique de réformer l'espace']
+
+Réponse: Les dépenses militaires du premier mandat de Reagan ont fait pression sur l'Union soviétique pour qu'elle respecte ses engagements internationaux."
+Quelle est l'implication de l'exceptionnalisme américain en termes d'économie mondiale ?,us_foreign_policy,"['Elle encourage l'utilisation de tarifs', 'Il encourage la nationalisation', 'Il encourage la libéralisation des échanges mondiaux', 'Il encourage la redistribution de la richesse']",2,"Question: Quelle est l'implication de l'exceptionnalisme américain en termes d'économie mondiale ?
+
+Choix: ['Elle encourage l'utilisation de tarifs', 'Il encourage la nationalisation', 'Il encourage la libéralisation des échanges mondiaux', 'Il encourage la redistribution de la richesse']
+
+Réponse: Il encourage la libéralisation des échanges mondiaux"
+Quelles ont été les principales institutions de l'ordre économique international libéral ? I. Le GATT II. Le FMI III. La Banque mondiale IV. L'OTAN,us_foreign_policy,"['uniquement par voie intraveineuse', 'II et III', 'I, II et III', 'I, II, III et IV']",2,"Question: Quelles ont été les principales institutions de l'ordre économique international libéral ? I. Le GATT II. Le FMI III. La Banque mondiale IV. L'OTAN
+
+Choix: ['uniquement par voie intraveineuse', 'II et III', 'I, II et III', 'I, II, III et IV']
+
+Réponse: I, II et III"
+"Selon Rosenau, quel facteur est important à considérer pour expliquer le comportement de la politique étrangère des États-Unis?",us_foreign_policy,"['L'environnement extérieur du système international', 'Environnement intérieur, gouvernement et bureaucratie', 'La personnalité du Président.', 'Tout ce qui précède']",3,"Question: Selon Rosenau, quel facteur est important à considérer pour expliquer le comportement de la politique étrangère des États-Unis?
+
+Choix: ['L'environnement extérieur du système international', 'Environnement intérieur, gouvernement et bureaucratie', 'La personnalité du Président.', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+Combien d'États dans le système international sont susceptibles d'avoir des armes nucléaires en ce moment ?,us_foreign_policy,"['Moins de 7', 'Entre 8 et 15 ans', 'Entre 16 et 25 ans', 'Plus de 25']",1,"Question: Combien d'États dans le système international sont susceptibles d'avoir des armes nucléaires en ce moment ?
+
+Choix: ['Moins de 7', 'Entre 8 et 15 ans', 'Entre 16 et 25 ans', 'Plus de 25']
+
+Réponse: Entre 8 et 15 ans"
+Pourquoi le NSC 68 est-il considéré comme un tournant dans la politique étrangère américaine de la guerre froide ?,us_foreign_policy,"['Il a indiqué la primauté du confinement économique', 'Il a indiqué un désir de s'engager avec l'Union soviétique', 'Il a indiqué un changement vers le confinement militaire', 'Il se débarrassait de l'idée d'un confinement.']",2,"Question: Pourquoi le NSC 68 est-il considéré comme un tournant dans la politique étrangère américaine de la guerre froide ?
+
+Choix: ['Il a indiqué la primauté du confinement économique', 'Il a indiqué un désir de s'engager avec l'Union soviétique', 'Il a indiqué un changement vers le confinement militaire', 'Il se débarrassait de l'idée d'un confinement.']
+
+Réponse: Il a indiqué un changement vers le confinement militaire"
+"Que signifiait le terme ""États voyous""?",us_foreign_policy,"['États alliés à l'URSS pendant la guerre froide', 'États n'appartenant pas à la 'famille des nations'', 'États communistes', 'Les États de l'ancienne Union soviétique']",1,"Question: Que signifiait le terme ""États voyous""?
+
+Choix: ['États alliés à l'URSS pendant la guerre froide', 'États n'appartenant pas à la 'famille des nations'', 'États communistes', 'Les États de l'ancienne Union soviétique']
+
+Réponse: États n'appartenant pas à la ""famille des nations"""
+La doctrine de la politique étrangère selon laquelle les nations européennes devraient rester à l'écart de l'Amérique latine est connue sous le nom de,us_foreign_policy,"['le Doctrine Powell.', 'la doctrine du président Roosevelt.', 'la doctrine Bush.', 'la Doctrine Monroe. Elle est la Doctrine Monroe.']",3,"Question: La doctrine de la politique étrangère selon laquelle les nations européennes devraient rester à l'écart de l'Amérique latine est connue sous le nom de
+
+Choix: ['le Doctrine Powell.', 'la doctrine du président Roosevelt.', 'la doctrine Bush.', 'la Doctrine Monroe. Elle est la Doctrine Monroe.']
+
+Réponse: la Doctrine Monroe. Elle est la Doctrine Monroe."
+Pourquoi les démocrates libéraux européens contemporains ont-ils tendance à s'opposer à l'influence de l'exceptionnalisme sur la politique étrangère américaine ?,us_foreign_policy,"['Ils y voient un défi à l'influence mondiale de l'Europe.', 'Ils y voient une façade idéologique de l'impérialisme américain.', 'Pour eux, c'est un phénomène temporaire.', 'Rien de ce qui précède']",1,"Question: Pourquoi les démocrates libéraux européens contemporains ont-ils tendance à s'opposer à l'influence de l'exceptionnalisme sur la politique étrangère américaine ?
+
+Choix: ['Ils y voient un défi à l'influence mondiale de l'Europe.', 'Ils y voient une façade idéologique de l'impérialisme américain.', 'Pour eux, c'est un phénomène temporaire.', 'Rien de ce qui précède']
+
+Réponse: Ils y voient une façade idéologique de l'impérialisme américain."
+En quel sens l'exceptionnalisme pourrait-il relier les stratégies isolationnistes et internationalistes ?,us_foreign_policy,"['Les deux encouragent un gouvernement mondial.', 'Les deux se concentrent sur le déclin de la puissance américaine', 'Ce n'est pas le cas - les deux sont fondamentalement opposés', 'Les deux peuvent être considérés comme des moyens différents d'atteindre les mêmes fins libérales.']",3,"Question: En quel sens l'exceptionnalisme pourrait-il relier les stratégies isolationnistes et internationalistes ?
+
+Choix: ['Les deux encouragent un gouvernement mondial.', 'Les deux se concentrent sur le déclin de la puissance américaine', 'Ce n'est pas le cas - les deux sont fondamentalement opposés', 'Les deux peuvent être considérés comme des moyens différents d'atteindre les mêmes fins libérales.']
+
+Réponse: Les deux peuvent être considérés comme des moyens différents d'atteindre les mêmes fins libérales."
+Pourquoi les réalistes ont-ils tendance à s'opposer à l'influence de l'exceptionnalisme sur la politique étrangère américaine ?,us_foreign_policy,"['Cela conduit à une concentration réduite sur la sécurité collective.', 'Elle réduit les perspectives d'un gouvernement mondial.', 'Elle renforce les perspectives d'un gouvernement mondial.', 'Il conduit à une concentration diminuée sur la sécurité, le pouvoir et l'intérêt']",3,"Question: Pourquoi les réalistes ont-ils tendance à s'opposer à l'influence de l'exceptionnalisme sur la politique étrangère américaine ?
+
+Choix: ['Cela conduit à une concentration réduite sur la sécurité collective.', 'Elle réduit les perspectives d'un gouvernement mondial.', 'Elle renforce les perspectives d'un gouvernement mondial.', 'Il conduit à une concentration diminuée sur la sécurité, le pouvoir et l'intérêt']
+
+Réponse: Il conduit à une concentration diminuée sur la sécurité, le pouvoir et l'intérêt"
+Quelles caractéristiques distinguent les comptes rendus socio-économiques de la politique étrangère américaine de la guerre froide?,us_foreign_policy,"['L'accent est mis sur la classe et les intérêts économiques', 'Un accent sur l'idéologie libérale', 'L'accent est mis sur la langue et la culture', 'Tout ce qui précède']",0,"Question: Quelles caractéristiques distinguent les comptes rendus socio-économiques de la politique étrangère américaine de la guerre froide?
+
+Choix: ['L'accent est mis sur la classe et les intérêts économiques', 'Un accent sur l'idéologie libérale', 'L'accent est mis sur la langue et la culture', 'Tout ce qui précède']
+
+Réponse: L'accent est mis sur la classe et les intérêts économiques"
+Quels arguments Paul Kennedy a- t- il formulés dans son livre L'ascension et la chute des grandes puissances?,us_foreign_policy,"['Toutes les principales économies du monde étaient en déclin en raison de la faible croissance et de l'inflation', 'Les États-Unis ne pouvaient plus rester une superpuissance et étaient en déclin', 'La puissance douce des États-Unis lui permettrait d'éviter le déclin', 'La montée du Japon a été exagérée .']",1,"Question: Quels arguments Paul Kennedy a- t- il formulés dans son livre L'ascension et la chute des grandes puissances?
+
+Choix: ['Toutes les principales économies du monde étaient en déclin en raison de la faible croissance et de l'inflation', 'Les États-Unis ne pouvaient plus rester une superpuissance et étaient en déclin', 'La puissance douce des États-Unis lui permettrait d'éviter le déclin', 'La montée du Japon a été exagérée .']
+
+Réponse: Les États-Unis ne pouvaient plus rester une superpuissance et étaient en déclin"
+Le Comité des chefs d'état-major est composé de:,us_foreign_policy,"['les conseillers critiques en politique intérieure et extérieure du président.', 'conseillers en politique étrangère qui rencontrent le président quotidiennement.', 'les officiers commandants de chaque branche des forces armées, ainsi qu'un président et un vice-président.', 'les plus hauts généraux de l'armée américaine.']",2,"Question: Le Comité des chefs d'état-major est composé de:
+
+Choix: ['les conseillers critiques en politique intérieure et extérieure du président.', 'conseillers en politique étrangère qui rencontrent le président quotidiennement.', 'les officiers commandants de chaque branche des forces armées, ainsi qu'un président et un vice-président.', 'les plus hauts généraux de l'armée américaine.']
+
+Réponse: les officiers commandants de chaque branche des forces armées, ainsi qu'un président et un vice-président."
+Qu'est-ce que l'exceptionnalisme américain ?,us_foreign_policy,"['La conviction que les États-Unis sont différents des autres grandes puissances parce qu'ils sont concernés non seulement par le pouvoir, mais aussi par les principes.', 'La croyance que les États-Unis sont différents parce qu'ils sont la nation la plus puissante du monde.', 'La croyance que les États-Unis sont pacifistes.', 'La croyance que les États-Unis sont différents parce qu'ils sont plus motivés par des facteurs économiques que les autres pays.']",0,"Question: Qu'est-ce que l'exceptionnalisme américain ?
+
+Choix: ['La conviction que les États-Unis sont différents des autres grandes puissances parce qu'ils sont concernés non seulement par le pouvoir, mais aussi par les principes.', 'La croyance que les États-Unis sont différents parce qu'ils sont la nation la plus puissante du monde.', 'La croyance que les États-Unis sont pacifistes.', 'La croyance que les États-Unis sont différents parce qu'ils sont plus motivés par des facteurs économiques que les autres pays.']
+
+Réponse: La conviction que les États-Unis sont différents des autres grandes puissances parce qu'ils sont concernés non seulement par le pouvoir, mais aussi par les principes."
+Le rôle de la collecte et de l'interprétation des renseignements sur les pays étrangers afin de permettre aux décideurs politiques de prendre de bonnes décisions en matière de politique étrangère a été confié à,us_foreign_policy,"['l'Agence centrale de renseignement (CIA).', 'le Bureau fédéral des enquêtes (FBI).', 'le Conseil de sécurité nationale.', 'Les deux A et B sont corrects.']",0,"Question: Le rôle de la collecte et de l'interprétation des renseignements sur les pays étrangers afin de permettre aux décideurs politiques de prendre de bonnes décisions en matière de politique étrangère a été confié à
+
+Choix: ['l'Agence centrale de renseignement (CIA).', 'le Bureau fédéral des enquêtes (FBI).', 'le Conseil de sécurité nationale.', 'Les deux A et B sont corrects.']
+
+Réponse: l'Agence centrale de renseignement (CIA)."
+L'organisation internationale coopérative de 185 pays destinée à stabiliser les échanges monétaires et l'économie mondiale est,us_foreign_policy,"['la Banque mondiale.', 'les Nations unies.', 'Pour l'UNICEF.', 'le Fonds monétaire international.']",3,"Question: L'organisation internationale coopérative de 185 pays destinée à stabiliser les échanges monétaires et l'économie mondiale est
+
+Choix: ['la Banque mondiale.', 'les Nations unies.', 'Pour l'UNICEF.', 'le Fonds monétaire international.']
+
+Réponse: le Fonds monétaire international."
+Quelles politiques font partie d'une grande stratégie d'équilibrage offshore?,us_foreign_policy,"['Maintenir un équilibre entre les États-Unis et d'autres pays et ne pas entrer dans des alliances', 'Investir également dans la sécurité intérieure et internationale avec une protection équilibrée contre le terrorisme et les autres États', 'Adopter la multipolarité, faire preuve d'une plus grande retenue au niveau international et exiger des autres États qu'ils assument eux-mêmes leurs responsabilités en matière de sécurité.', 'Isolez les États-Unis du système international et ne cherchez pas la puissance mondiale']",2,"Question: Quelles politiques font partie d'une grande stratégie d'équilibrage offshore?
+
+Choix: ['Maintenir un équilibre entre les États-Unis et d'autres pays et ne pas entrer dans des alliances', 'Investir également dans la sécurité intérieure et internationale avec une protection équilibrée contre le terrorisme et les autres États', 'Adopter la multipolarité, faire preuve d'une plus grande retenue au niveau international et exiger des autres États qu'ils assument eux-mêmes leurs responsabilités en matière de sécurité.', 'Isolez les États-Unis du système international et ne cherchez pas la puissance mondiale']
+
+Réponse: Adopter la multipolarité, faire preuve d'une plus grande retenue au niveau international et exiger des autres États qu'ils assument eux-mêmes leurs responsabilités en matière de sécurité."
+Quel était le plan Marshall ?,us_foreign_policy,"['Un plan destiné à soutenir la reprise économique de l'Europe', 'Une tentative de diminuer l'attrait potentiel du système soviétique pour les Européens', 'Un programme d'aide qui a renforcé l'influence américaine en Europe', 'Tout ce qui précède']",3,"Question: Quel était le plan Marshall ?
+
+Choix: ['Un plan destiné à soutenir la reprise économique de l'Europe', 'Une tentative de diminuer l'attrait potentiel du système soviétique pour les Européens', 'Un programme d'aide qui a renforcé l'influence américaine en Europe', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+Qu'est-ce qui a permis aux États-Unis d'éviter une catastrophe aux mains des Britanniques en 1814?,us_foreign_policy,"['Victoires navales', 'La diplomatie', 'La préoccupation britannique pour l'Europe', 'Tout ce qui précède']",3,"Question: Qu'est-ce qui a permis aux États-Unis d'éviter une catastrophe aux mains des Britanniques en 1814?
+
+Choix: ['Victoires navales', 'La diplomatie', 'La préoccupation britannique pour l'Europe', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+Quel a été le principal changement organisationnel proposé par la Commission du 11 septembre en ce qui concerne la communauté du renseignement américain ?,us_foreign_policy,"['Création du ministère de la Sécurité intérieure', 'Transférer les agences de renseignement du Département de la Défense à la CIA pour une meilleure coordination', 'Création du directeur du renseignement national', 'Déplacer la composante du renseignement intérieur du FBI à la CIA']",2,"Question: Quel a été le principal changement organisationnel proposé par la Commission du 11 septembre en ce qui concerne la communauté du renseignement américain ?
+
+Choix: ['Création du ministère de la Sécurité intérieure', 'Transférer les agences de renseignement du Département de la Défense à la CIA pour une meilleure coordination', 'Création du directeur du renseignement national', 'Déplacer la composante du renseignement intérieur du FBI à la CIA']
+
+Réponse: Création du directeur du renseignement national"
+L'organe gouvernemental formé pour coordonner la politique étrangère et militaire américaine est connu sous le nom de,us_foreign_policy,"['le Conseil de sécurité nationale.', 'le Pentagone.', 'l'Institut de la politique de défense.', 'les chefs d'état-major interarmées.']",0,"Question: L'organe gouvernemental formé pour coordonner la politique étrangère et militaire américaine est connu sous le nom de
+
+Choix: ['le Conseil de sécurité nationale.', 'le Pentagone.', 'l'Institut de la politique de défense.', 'les chefs d'état-major interarmées.']
+
+Réponse: le Conseil de sécurité nationale."
+Qu'est-ce qui motive la politique étrangère américaine selon la perspective marxiste ?,us_foreign_policy,"['Le protectionnisme économique', 'Conscience de classe', 'La recherche de nouveaux marchés', 'La superstructure']",2,"Question: Qu'est-ce qui motive la politique étrangère américaine selon la perspective marxiste ?
+
+Choix: ['Le protectionnisme économique', 'Conscience de classe', 'La recherche de nouveaux marchés', 'La superstructure']
+
+Réponse: La recherche de nouveaux marchés"
+Pourquoi l'exceptionnalisme américain pourrait- il mener à l'opposition au gouvernement mondial?,us_foreign_policy,"['Son anti-étatisme général s'oppose au gouvernement centralisé.', 'Elle considère qu'un gouvernement mondial n'est pas réalisable.', 'Elle considère l'ONU comme une forme suffisante de gouvernance mondiale.', 'Rien de ce qui précède']",0,"Question: Pourquoi l'exceptionnalisme américain pourrait- il mener à l'opposition au gouvernement mondial?
+
+Choix: ['Son anti-étatisme général s'oppose au gouvernement centralisé.', 'Elle considère qu'un gouvernement mondial n'est pas réalisable.', 'Elle considère l'ONU comme une forme suffisante de gouvernance mondiale.', 'Rien de ce qui précède']
+
+Réponse: Son anti-étatisme général s'oppose au gouvernement centralisé."
+Lequel des éléments suivants considère les États comme les principaux acteurs des relations internationales?,us_foreign_policy,"['Le réalisme', 'Idéalisme', 'Le libéralisme', 'Rien de ce qui précède']",0,"Question: Lequel des éléments suivants considère les États comme les principaux acteurs des relations internationales?
+
+Choix: ['Le réalisme', 'Idéalisme', 'Le libéralisme', 'Rien de ce qui précède']
+
+Réponse: Le réalisme"
+L'importance du pétrole dans l'élaboration de la politique étrangère des États-Unis contribue à mettre en évidence,us_foreign_policy,"['l'importance de la supériorité militaire.', 'L'importance du pétrole est souvent exagérée.', 'l'importance croissante des instruments économiques de la politique extérieure.', 'la nécessité de forer à la recherche de sources domestiques.']",2,"Question: L'importance du pétrole dans l'élaboration de la politique étrangère des États-Unis contribue à mettre en évidence
+
+Choix: ['l'importance de la supériorité militaire.', 'L'importance du pétrole est souvent exagérée.', 'l'importance croissante des instruments économiques de la politique extérieure.', 'la nécessité de forer à la recherche de sources domestiques.']
+
+Réponse: l'importance croissante des instruments économiques de la politique extérieure."
+Le principal conseiller civil du président sur l'armée est le,us_foreign_policy,"['conseiller à la sécurité nationale.', 'directeur de la CIA.', 'Secrétaire à la Défense.', 'Le secrétaire d'État.']",2,"Question: Le principal conseiller civil du président sur l'armée est le
+
+Choix: ['conseiller à la sécurité nationale.', 'directeur de la CIA.', 'Secrétaire à la Défense.', 'Le secrétaire d'État.']
+
+Réponse: Secrétaire à la Défense."
+En quoi les approches idéologiques de la politique étrangère américaine pendant la guerre froide diffèrent-elles des récits réalistes de la même période ?,us_foreign_policy,"['Ils mettent davantage l'accent sur les facteurs économiques', 'Ils mettent davantage l'accent sur les intérêts matériels et le pouvoir.', 'Ils mettent davantage l' accent sur l' idéologie et les croyances', 'Ils mettent davantage l' accent sur la géopolitique']",2,"Question: En quoi les approches idéologiques de la politique étrangère américaine pendant la guerre froide diffèrent-elles des récits réalistes de la même période ?
+
+Choix: ['Ils mettent davantage l'accent sur les facteurs économiques', 'Ils mettent davantage l'accent sur les intérêts matériels et le pouvoir.', 'Ils mettent davantage l' accent sur l' idéologie et les croyances', 'Ils mettent davantage l' accent sur la géopolitique']
+
+Réponse: Ils mettent davantage l' accent sur l' idéologie et les croyances"
+Comment se sont développées les relations entre le président et le Congrès sous George H.W. Bush et Bill Clinton ?,us_foreign_policy,"['Le Congrès a affirmé sa primauté dans la politique étrangère', 'La politique étrangère américaine est devenue largement décentralisée', 'La présidence s'est félicitée de l'influence du Congrès', 'Rien de ce qui précède']",3,"Question: Comment se sont développées les relations entre le président et le Congrès sous George H.W. Bush et Bill Clinton ?
+
+Choix: ['Le Congrès a affirmé sa primauté dans la politique étrangère', 'La politique étrangère américaine est devenue largement décentralisée', 'La présidence s'est félicitée de l'influence du Congrès', 'Rien de ce qui précède']
+
+Réponse: Rien de ce qui précède"
+Lequel des points suivants soutient l'argument en faveur de l'unilatéralisme américain ?,us_foreign_policy,"['Hégémonie bienveillante', 'L'inefficacité du multilatéralisme', 'Puissance américaine', 'Tout ce qui précède']",3,"Question: Lequel des points suivants soutient l'argument en faveur de l'unilatéralisme américain ?
+
+Choix: ['Hégémonie bienveillante', 'L'inefficacité du multilatéralisme', 'Puissance américaine', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+"Historiquement, quel a été le schéma général des dépenses de défense aux États-Unis?",us_foreign_policy,"['Elle augmente régulièrement au fil du temps.', 'Augmentation des dépenses pendant les guerres, la démobilisation entraînant une baisse des dépenses mais pas un retour aux niveaux d'avant-guerre', 'Des fluctuations imprévisibles.', 'Augmentation des dépenses pendant les guerres, avec d'autres augmentations après la guerre pour se préparer à de futurs engagements.']",1,"Question: Historiquement, quel a été le schéma général des dépenses de défense aux États-Unis?
+
+Choix: ['Elle augmente régulièrement au fil du temps.', 'Augmentation des dépenses pendant les guerres, la démobilisation entraînant une baisse des dépenses mais pas un retour aux niveaux d'avant-guerre', 'Des fluctuations imprévisibles.', 'Augmentation des dépenses pendant les guerres, avec d'autres augmentations après la guerre pour se préparer à de futurs engagements.']
+
+Réponse: Augmentation des dépenses pendant les guerres, la démobilisation entraînant une baisse des dépenses mais pas un retour aux niveaux d'avant-guerre"
+"Le développement international peut être lié à la sécurité de l'État, pourquoi ?",us_foreign_policy,"['Les menaces à l'État centralisent le pouvoir politique et économique, menaçant le développement de l'État', 'Trop de victimes épuisent le pouvoir productif de l'État .', 'Les menaces à l'État encouragent le socialisme.', 'Les deux sont corrélés, mais il n'y a pas d'effet causal.']",0,"Question: Le développement international peut être lié à la sécurité de l'État, pourquoi ?
+
+Choix: ['Les menaces à l'État centralisent le pouvoir politique et économique, menaçant le développement de l'État', 'Trop de victimes épuisent le pouvoir productif de l'État .', 'Les menaces à l'État encouragent le socialisme.', 'Les deux sont corrélés, mais il n'y a pas d'effet causal.']
+
+Réponse: Les menaces à l'État centralisent le pouvoir politique et économique, menaçant le développement de l'État"
+"Quelle était la ""théorie des dominos""?",us_foreign_policy,"['L'idée que la guerre froide fonctionnait selon les principes de la théorie des jeux', 'L'idée que certains États avaient plus de valeur que d'autres pour les États-Unis pendant la guerre froide', 'L'idée que la chute d'un État au communisme conduirait inexorablement à la chute de ses voisins', 'L'idée que la croissance de la démocratie dans un État conduirait inexorablement à sa croissance dans d'autres']",2,"Question: Quelle était la ""théorie des dominos""?
+
+Choix: ['L'idée que la guerre froide fonctionnait selon les principes de la théorie des jeux', 'L'idée que certains États avaient plus de valeur que d'autres pour les États-Unis pendant la guerre froide', 'L'idée que la chute d'un État au communisme conduirait inexorablement à la chute de ses voisins', 'L'idée que la croissance de la démocratie dans un État conduirait inexorablement à sa croissance dans d'autres']
+
+Réponse: L'idée que la chute d'un État au communisme conduirait inexorablement à la chute de ses voisins"
+Quel a été un moyen efficace de décaisser l'aide étrangère américaine pour encourager le changement dans les États cibles?,us_foreign_policy,"['Programmes conditionnels, tels que le Défi du Millénaire, qui nécessitent un changement avant la réception de l'aide', 'le recours à des organisations intergouvernementales pour contrôler le versement de l'aide;', 'retrait de l'aide pour de mauvaises politiques', 'Rien de ce qui précède, l'aide internationale ne fonctionne jamais']",0,"Question: Quel a été un moyen efficace de décaisser l'aide étrangère américaine pour encourager le changement dans les États cibles?
+
+Choix: ['Programmes conditionnels, tels que le Défi du Millénaire, qui nécessitent un changement avant la réception de l'aide', 'le recours à des organisations intergouvernementales pour contrôler le versement de l'aide;', 'retrait de l'aide pour de mauvaises politiques', 'Rien de ce qui précède, l'aide internationale ne fonctionne jamais']
+
+Réponse: Programmes conditionnels, tels que le Défi du Millénaire, qui nécessitent un changement avant la réception de l'aide"
+Qu'est-ce qui a été établi à Bretton Woods en 1994 pour stabiliser l'économie mondiale?,us_foreign_policy,"['Le Fonds monétaire international (FMI)', 'Le dollar américain comme monnaie de réserve mondiale', 'Accord général sur les tarifs douaniers et le commerce (GATT)', 'Tout ce qui précède']",3,"Question: Qu'est-ce qui a été établi à Bretton Woods en 1994 pour stabiliser l'économie mondiale?
+
+Choix: ['Le Fonds monétaire international (FMI)', 'Le dollar américain comme monnaie de réserve mondiale', 'Accord général sur les tarifs douaniers et le commerce (GATT)', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+Lequel des éléments suivants n'est PAS un bon prédicteur de quels États obtiendront des armes nucléaires ?,us_foreign_policy,"['Réception d'une aide nucléaire sensible', 'La richesse par rapport au PIB', 'Rivalité avec un État nucléaire', 'Type de régime']",3,"Question: Lequel des éléments suivants n'est PAS un bon prédicteur de quels États obtiendront des armes nucléaires ?
+
+Choix: ['Réception d'une aide nucléaire sensible', 'La richesse par rapport au PIB', 'Rivalité avec un État nucléaire', 'Type de régime']
+
+Réponse: Type de régime"
+"Qu'était ""l'élargissement démocratique""?",us_foreign_policy,"['Une proposition de réforme du système de gouvernement américain', 'Une proposition pour l'extension de la gouvernance démocratique à l'échelle mondiale', 'Une proposition pour l'élargissement des marchés libres', 'Les deux b et c']",3,"Question: Qu'était ""l'élargissement démocratique""?
+
+Choix: ['Une proposition de réforme du système de gouvernement américain', 'Une proposition pour l'extension de la gouvernance démocratique à l'échelle mondiale', 'Une proposition pour l'élargissement des marchés libres', 'Les deux b et c']
+
+Réponse: Les deux b et c"
+Que signifie l'expression 'empire par invitation'?,us_foreign_policy,"['Dépendance volontaire à l'égard d'une puissance extérieure pour assurer la sécurité', 'Ouverture délibérée à la colonisation', 'L'impérialisme culturel', 'Défense ouverte de l'impérialisme pour le gain économique']",0,"Question: Que signifie l'expression 'empire par invitation'?
+
+Choix: ['Dépendance volontaire à l'égard d'une puissance extérieure pour assurer la sécurité', 'Ouverture délibérée à la colonisation', 'L'impérialisme culturel', 'Défense ouverte de l'impérialisme pour le gain économique']
+
+Réponse: Dépendance volontaire à l'égard d'une puissance extérieure pour assurer la sécurité"
+En quoi l'administration de George W. Bush a-t-elle changé la direction de la politique étrangère américaine ?,us_foreign_policy,"['Il a critiqué les organisations internationales au lieu d'essayer de les renforcer.', 'Il a élargi l'OTAN pour inclure les anciens États soviétiques', 'Il s'est concentré sur un style de leadership plus personnel', 'Il a augmenté le soutien international pour les États-Unis']",0,"Question: En quoi l'administration de George W. Bush a-t-elle changé la direction de la politique étrangère américaine ?
+
+Choix: ['Il a critiqué les organisations internationales au lieu d'essayer de les renforcer.', 'Il a élargi l'OTAN pour inclure les anciens États soviétiques', 'Il s'est concentré sur un style de leadership plus personnel', 'Il a augmenté le soutien international pour les États-Unis']
+
+Réponse: Il a critiqué les organisations internationales au lieu d'essayer de les renforcer."
+"La paix, le commerce, et l'amitié honnête avec toutes les nations, enchevêtrant les alliances avec aucune. "" Identifiez l'orateur.",us_foreign_policy,"['Nom de l'auteur: James Madison', 'Il s'agit d' Abraham Lincoln .', 'Le président Woodrow Wilson', 'C' est Thomas Jefferson .']",3,"Question: La paix, le commerce, et l'amitié honnête avec toutes les nations, enchevêtrant les alliances avec aucune. "" Identifiez l'orateur.
+
+Choix: ['Nom de l'auteur: James Madison', 'Il s'agit d' Abraham Lincoln .', 'Le président Woodrow Wilson', 'C' est Thomas Jefferson .']
+
+Réponse: C' est Thomas Jefferson ."

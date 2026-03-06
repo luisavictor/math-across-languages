@@ -1,0 +1,831 @@
+question,subject,choices,answer,qa
+Combien de polyomavirus humains sont connus à l'heure actuelle ?,virology,"['Il y en a 100 .', 'Nom de l'établissement', 'Nom de l'entreprise', 'inconnue']",0,"Question: Combien de polyomavirus humains sont connus à l'heure actuelle ?
+
+Choix: ['Il y en a 100 .', 'Nom de l'établissement', 'Nom de l'entreprise', 'inconnue']
+
+Réponse: Il y en a 100 ."
+L'activisme contre le sida aux États-Unis a abouti à:,virology,"['Réformes de l'administration américaine des aliments et des médicaments', 'Accès plus facile aux médicaments expérimentaux', 'Des changements dans la façon dont la médecine était pratiquée aux États-Unis.', 'Tout ce qui précède']",3,"Question: L'activisme contre le sida aux États-Unis a abouti à:
+
+Choix: ['Réformes de l'administration américaine des aliments et des médicaments', 'Accès plus facile aux médicaments expérimentaux', 'Des changements dans la façon dont la médecine était pratiquée aux États-Unis.', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+"À l'échelle mondiale, la plupart des décès sont causés par:",virology,"['Infections des voies respiratoires', 'Maladies diarrhéiques', 'Le paludisme', 'Tuberculose']",1,"Question: À l'échelle mondiale, la plupart des décès sont causés par:
+
+Choix: ['Infections des voies respiratoires', 'Maladies diarrhéiques', 'Le paludisme', 'Tuberculose']
+
+Réponse: Maladies diarrhéiques"
+Que se passe- t- il pendant la période d'incubation?,virology,"['Le virus est éliminé du corps par le système immunitaire.', 'La réplication du virus se produit au niveau intracellulaire.', 'Cette période dure généralement quelques jours.', 'Cette période dure généralement quelques heures.']",1,"Question: Que se passe- t- il pendant la période d'incubation?
+
+Choix: ['Le virus est éliminé du corps par le système immunitaire.', 'La réplication du virus se produit au niveau intracellulaire.', 'Cette période dure généralement quelques jours.', 'Cette période dure généralement quelques heures.']
+
+Réponse: La réplication du virus se produit au niveau intracellulaire."
+Les nouveau-nés dans les pays où l'accès à l'eau potable est limité et où le niveau d'éducation est faible devraient:,virology,"['Alimentation exclusivement à base de lait maternisé pendant six mois', 'Se nourrir exclusivement au sein pendant six mois', 'Doit recevoir à la fois du lait maternel et d' autres aliments tels que tolérés pendant les 6 premiers mois de la grossesse.', 'mois']",1,"Question: Les nouveau-nés dans les pays où l'accès à l'eau potable est limité et où le niveau d'éducation est faible devraient:
+
+Choix: ['Alimentation exclusivement à base de lait maternisé pendant six mois', 'Se nourrir exclusivement au sein pendant six mois', 'Doit recevoir à la fois du lait maternel et d' autres aliments tels que tolérés pendant les 6 premiers mois de la grossesse.', 'mois']
+
+Réponse: Se nourrir exclusivement au sein pendant six mois"
+La réalisation d'un changement efficace dans une communauté dépend généralement de laquelle des catégories suivantes de la société?,virology,"['Les innovateurs', 'Les premiers adaptateurs', 'Adaptateurs intermédiaires', 'Adaptateurs tardifs']",0,"Question: La réalisation d'un changement efficace dans une communauté dépend généralement de laquelle des catégories suivantes de la société?
+
+Choix: ['Les innovateurs', 'Les premiers adaptateurs', 'Adaptateurs intermédiaires', 'Adaptateurs tardifs']
+
+Réponse: Les innovateurs"
+La gestion des situations d'urgence  est :,virology,"['Une stratégie de dernier recours pour réduire les comportements à haut risque', 'Paiement des usagers de drogues pour des échantillons d'urine négatifs', 'Payer les travailleurs du sexe pour qu'ils utilisent des préservatifs', 'Payer les toxicomanes pour qu'ils utilisent des préservatifs']",1,"Question: La gestion des situations d'urgence  est :
+
+Choix: ['Une stratégie de dernier recours pour réduire les comportements à haut risque', 'Paiement des usagers de drogues pour des échantillons d'urine négatifs', 'Payer les travailleurs du sexe pour qu'ils utilisent des préservatifs', 'Payer les toxicomanes pour qu'ils utilisent des préservatifs']
+
+Réponse: Paiement des usagers de drogues pour des échantillons d'urine négatifs"
+Quels sont les symptômes cliniques typiques de l'infection par les astrovirus?,virology,"['Pneumonie aiguë', 'Gastro-entérite chez les enfants', 'Infection par le virus de l' hépatite', 'éruptions cutanées']",1,"Question: Quels sont les symptômes cliniques typiques de l'infection par les astrovirus?
+
+Choix: ['Pneumonie aiguë', 'Gastro-entérite chez les enfants', 'Infection par le virus de l' hépatite', 'éruptions cutanées']
+
+Réponse: Gastro-entérite chez les enfants"
+Laquelle des caractéristiques suivantes est la plus particulière du système immunitaire adaptatif ?,virology,"['Anticorps', 'Cellules T', 'Cellules T de mémoire', 'Expansion clonale d'anticorps et/ou de cellules T préexistants']",3,"Question: Laquelle des caractéristiques suivantes est la plus particulière du système immunitaire adaptatif ?
+
+Choix: ['Anticorps', 'Cellules T', 'Cellules T de mémoire', 'Expansion clonale d'anticorps et/ou de cellules T préexistants']
+
+Réponse: Expansion clonale d'anticorps et/ou de cellules T préexistants"
+La chimiothérapie est désormais une option pour les soins cliniques des patients.,virology,"['Interféron et ribavirine', 'La lamivudine et la ribavirine', 'Combinaisons d'adefovir et d'entecavir et/ou de ténofovir (DAA)', 'Interférons seuls']",1,"Question: La chimiothérapie est désormais une option pour les soins cliniques des patients.
+
+Choix: ['Interféron et ribavirine', 'La lamivudine et la ribavirine', 'Combinaisons d'adefovir et d'entecavir et/ou de ténofovir (DAA)', 'Interférons seuls']
+
+Réponse: La lamivudine et la ribavirine"
+Il n'y a eu aucun nouveau cas d'Ebola aux États-Unis entre le 1er janvier 1997 et le 1er janvier 1998.,virology,"['Incidence de la maladie', 'L'espérance de vie', 'Prévalence au cours de la vie', 'Prévalence de la période']",2,"Question: Il n'y a eu aucun nouveau cas d'Ebola aux États-Unis entre le 1er janvier 1997 et le 1er janvier 1998.
+
+Choix: ['Incidence de la maladie', 'L'espérance de vie', 'Prévalence au cours de la vie', 'Prévalence de la période']
+
+Réponse: Prévalence au cours de la vie"
+Comment les rétrovirus ont- ils été découverts?,virology,"['Chez les poulets sous forme de sarcome de Rous', 'Chez l'homme sous forme de HTLV-1', 'Chez la souris provoquant une leucémie', 'Chez les chats provoquant une leucémie']",2,"Question: Comment les rétrovirus ont- ils été découverts?
+
+Choix: ['Chez les poulets sous forme de sarcome de Rous', 'Chez l'homme sous forme de HTLV-1', 'Chez la souris provoquant une leucémie', 'Chez les chats provoquant une leucémie']
+
+Réponse: Chez la souris provoquant une leucémie"
+La plupart des systèmes de surveillance utilisent lequel des modèles d'étude suivants?,virology,"['Cohorte', 'Séries à section transversale', 'Le taux de mortalité', 'Syndromique']",1,"Question: La plupart des systèmes de surveillance utilisent lequel des modèles d'étude suivants?
+
+Choix: ['Cohorte', 'Séries à section transversale', 'Le taux de mortalité', 'Syndromique']
+
+Réponse: Séries à section transversale"
+La polio peut-elle être éradiquée par lequel des moyens suivants?,virology,"['Attention au contrôle des eaux usées et à l'hygiène', 'Vaccin contre la poliomyélite tué', 'Vaccin contre la poliomyélite vivant', 'Combinaison de vaccins morts et vivants.']",0,"Question: La polio peut-elle être éradiquée par lequel des moyens suivants?
+
+Choix: ['Attention au contrôle des eaux usées et à l'hygiène', 'Vaccin contre la poliomyélite tué', 'Vaccin contre la poliomyélite vivant', 'Combinaison de vaccins morts et vivants.']
+
+Réponse: Attention au contrôle des eaux usées et à l'hygiène"
+L'éthique de la santé publique est:,virology,"['Centré sur le patient', 'Centré sur la population', 'Centré sur le sujet', 'Doit respecter les droits des individus']",1,"Question: L'éthique de la santé publique est:
+
+Choix: ['Centré sur le patient', 'Centré sur la population', 'Centré sur le sujet', 'Doit respecter les droits des individus']
+
+Réponse: Centré sur la population"
+Combien de personnes dans le monde sont actuellement infectées par l'hépatite B ?,virology,"['350 millions d'écus', '2 milliards', '100 000 personnes', '1 million']",0,"Question: Combien de personnes dans le monde sont actuellement infectées par l'hépatite B ?
+
+Choix: ['350 millions d'écus', '2 milliards', '100 000 personnes', '1 million']
+
+Réponse: 350 millions d'écus"
+Dans une étude un groupe de personnes est exposé à une toxine environnementale mais n'est pas traité observé au fil du temps sur une série de mesures standard pour déterminer les effets potentiels de la toxine Ce type de conception d'étude est appelé,virology,"['Essai clinique', 'À double aveugle', 'Nom de l'établissement', 'Cohorte potentielle']",3,"Question: Dans une étude un groupe de personnes est exposé à une toxine environnementale mais n'est pas traité observé au fil du temps sur une série de mesures standard pour déterminer les effets potentiels de la toxine Ce type de conception d'étude est appelé
+
+Choix: ['Essai clinique', 'À double aveugle', 'Nom de l'établissement', 'Cohorte potentielle']
+
+Réponse: Cohorte potentielle"
+Quelle maladie est principalement causée par les polyomavirus ?,virology,"['Les tumeurs', 'Pathologie du cerveau', 'Pas de maladie du tout .', 'Infections rénales']",2,"Question: Quelle maladie est principalement causée par les polyomavirus ?
+
+Choix: ['Les tumeurs', 'Pathologie du cerveau', 'Pas de maladie du tout .', 'Infections rénales']
+
+Réponse: Pas de maladie du tout ."
+Comment les cellules productrices d'anticorps sont- elles stimulées?,virology,"['Interaction avec un peptide court de virus', 'Interagissant avec une cellule T auxiliaire.', 'Interaction avec une cellule plasmatique', 'Interaction avec une cellule infectée par un virus']",1,"Question: Comment les cellules productrices d'anticorps sont- elles stimulées?
+
+Choix: ['Interaction avec un peptide court de virus', 'Interagissant avec une cellule T auxiliaire.', 'Interaction avec une cellule plasmatique', 'Interaction avec une cellule infectée par un virus']
+
+Réponse: Interagissant avec une cellule T auxiliaire."
+La clé la plus importante du succès de la cohorte multicentrique sur le sida (MACS) est la suivante:,virology,"['L' ingéniosité de l' enquêteur principal', 'L'engagement du personnel', 'L'engagement des participants', 'La qualité des laboratoires']",2,"Question: La clé la plus importante du succès de la cohorte multicentrique sur le sida (MACS) est la suivante:
+
+Choix: ['L' ingéniosité de l' enquêteur principal', 'L'engagement du personnel', 'L'engagement des participants', 'La qualité des laboratoires']
+
+Réponse: L'engagement des participants"
+La réplication du picornavirus en tant que virus à ARN à chaîne positive est particulièrement caractérisée par lequel des éléments suivants?,virology,"['Les virions transportent l'enzyme ARN transcriptase dans la cellule', 'L'ARN virion est traduit en une seule grande polyprotéine', 'L'ARN virion agissant comme l'ARNm', 'Le virus sort par apoptose de la cellule.']",2,"Question: La réplication du picornavirus en tant que virus à ARN à chaîne positive est particulièrement caractérisée par lequel des éléments suivants?
+
+Choix: ['Les virions transportent l'enzyme ARN transcriptase dans la cellule', 'L'ARN virion est traduit en une seule grande polyprotéine', 'L'ARN virion agissant comme l'ARNm', 'Le virus sort par apoptose de la cellule.']
+
+Réponse: L'ARN virion agissant comme l'ARNm"
+Pourquoi les membres de la famille des astrovirus n'ont-ils été reconnus que récemment comme des virus entériques importants pour l'homme?,virology,"['Le génome a été identifié par la nouvelle méthode de séquençage en profondeur', 'Un nouveau vecteur a été découvert.', 'Ils infectent un large éventail d'animaux domestiques et contaminent ainsi la viande.', 'La connaissance de leur réplication en tant que virus à ARNss de sens positif est maintenant complète.']",0,"Question: Pourquoi les membres de la famille des astrovirus n'ont-ils été reconnus que récemment comme des virus entériques importants pour l'homme?
+
+Choix: ['Le génome a été identifié par la nouvelle méthode de séquençage en profondeur', 'Un nouveau vecteur a été découvert.', 'Ils infectent un large éventail d'animaux domestiques et contaminent ainsi la viande.', 'La connaissance de leur réplication en tant que virus à ARNss de sens positif est maintenant complète.']
+
+Réponse: Le génome a été identifié par la nouvelle méthode de séquençage en profondeur"
+Quelle infection virale n'a pas été identifiée pour la première fois par observation clinique?,virology,"['Le VIH', 'Teratogénicité de la rubéole', 'La microcéphalie et le virus Zika', 'Infection par le virus de l' hépatite C']",3,"Question: Quelle infection virale n'a pas été identifiée pour la première fois par observation clinique?
+
+Choix: ['Le VIH', 'Teratogénicité de la rubéole', 'La microcéphalie et le virus Zika', 'Infection par le virus de l' hépatite C']
+
+Réponse: Infection par le virus de l' hépatite C"
+La qualité particulière du système de santé américain est sa:,virology,"['Approche systématique et démocratique', 'Approche fragmentée et non coordonnée', 'Le résultat des décisions raisonnables prises par les législateurs éclairés', 'a. et c. ci-dessus']",1,"Question: La qualité particulière du système de santé américain est sa:
+
+Choix: ['Approche systématique et démocratique', 'Approche fragmentée et non coordonnée', 'Le résultat des décisions raisonnables prises par les législateurs éclairés', 'a. et c. ci-dessus']
+
+Réponse: Approche fragmentée et non coordonnée"
+"Selon le professeur Shoptaw, les trois principales stratégies d'intervention sont les suivantes:",virology,"['Intervention comportementale, traitement et interventions structurelles', 'Les préservatifs, la thérapie médicamenteuse et la réglementation des établissements sexuels commerciaux', 'Thérapie de substitution médicamenteuse, intervention communautaire et échange d'aiguilles', 'Tests de dépistage du VIH, traitement médicamenteux et utilisation de préservatifs']",0,"Question: Selon le professeur Shoptaw, les trois principales stratégies d'intervention sont les suivantes:
+
+Choix: ['Intervention comportementale, traitement et interventions structurelles', 'Les préservatifs, la thérapie médicamenteuse et la réglementation des établissements sexuels commerciaux', 'Thérapie de substitution médicamenteuse, intervention communautaire et échange d'aiguilles', 'Tests de dépistage du VIH, traitement médicamenteux et utilisation de préservatifs']
+
+Réponse: Intervention comportementale, traitement et interventions structurelles"
+Par lequel des moyens suivants la rougeole a- t- elle été maîtrisée dans de nombreux pays?,virology,"['Par l'hygiène', 'Par le vaccin ROR', 'Par de nouveaux vaccins peptidiques moléculaires', 'Par des anticorps monoclonaux humanisés contre la protéine F']",1,"Question: Par lequel des moyens suivants la rougeole a- t- elle été maîtrisée dans de nombreux pays?
+
+Choix: ['Par l'hygiène', 'Par le vaccin ROR', 'Par de nouveaux vaccins peptidiques moléculaires', 'Par des anticorps monoclonaux humanisés contre la protéine F']
+
+Réponse: Par le vaccin ROR"
+Comment limiter la propagation des filovirus?,virology,"['Nouveaux médicaments antiviraux', 'Nouveaux anticorps monoclonaux humanisés', 'Hygiène et distanciation sociale', 'Nouveaux vaccins']",2,"Question: Comment limiter la propagation des filovirus?
+
+Choix: ['Nouveaux médicaments antiviraux', 'Nouveaux anticorps monoclonaux humanisés', 'Hygiène et distanciation sociale', 'Nouveaux vaccins']
+
+Réponse: Hygiène et distanciation sociale"
+La plupart des pandémies ont été causées par des virus de la grippe provenant de l'un des animaux suivants?,virology,"['Des porcs', 'Oiseaux sauvages', 'Les chauves-souris', 'Les êtres humains']",0,"Question: La plupart des pandémies ont été causées par des virus de la grippe provenant de l'un des animaux suivants?
+
+Choix: ['Des porcs', 'Oiseaux sauvages', 'Les chauves-souris', 'Les êtres humains']
+
+Réponse: Des porcs"
+La PrEP est une stratégie efficace pour réduire l'incidence du VIH chez:,virology,"['Les femmes', 'Consommateurs de drogues', 'Femmes enceintes', 'a. et b. ci-dessus']",1,"Question: La PrEP est une stratégie efficace pour réduire l'incidence du VIH chez:
+
+Choix: ['Les femmes', 'Consommateurs de drogues', 'Femmes enceintes', 'a. et b. ci-dessus']
+
+Réponse: Consommateurs de drogues"
+La réplication de l'hépatite B comprend lequel des stades suivants?,virology,"['Transfert du virus intact vers le cytoplasme cellulaire en vue de sa réplication', 'Conversion de l'ADN viral circulaire détendu en ADN circulaire covalemment fermé (CCC) dans le noyau', 'Virions produits dans le cytoplasme par l'ADN polymérase cellulaire', 'Activité oncogène pour transformer les cellules hépatiques.']",2,"Question: La réplication de l'hépatite B comprend lequel des stades suivants?
+
+Choix: ['Transfert du virus intact vers le cytoplasme cellulaire en vue de sa réplication', 'Conversion de l'ADN viral circulaire détendu en ADN circulaire covalemment fermé (CCC) dans le noyau', 'Virions produits dans le cytoplasme par l'ADN polymérase cellulaire', 'Activité oncogène pour transformer les cellules hépatiques.']
+
+Réponse: Virions produits dans le cytoplasme par l'ADN polymérase cellulaire"
+Comment la famille des papillomes provoque-t-elle le cancer ?,virology,"['Se réplique dans les cellules en division et code pour trois protéines oncogènes E5, E6 et E7', 'Intégre le génome viral dans l'ADN cellulaire', 'Avoir un oncogène capable de déclencher un cancer', 'Agit comme un cofacteur pour un oncogène cellulaire']",1,"Question: Comment la famille des papillomes provoque-t-elle le cancer ?
+
+Choix: ['Se réplique dans les cellules en division et code pour trois protéines oncogènes E5, E6 et E7', 'Intégre le génome viral dans l'ADN cellulaire', 'Avoir un oncogène capable de déclencher un cancer', 'Agit comme un cofacteur pour un oncogène cellulaire']
+
+Réponse: Intégre le génome viral dans l'ADN cellulaire"
+Quels sont les symptômes typiques des norovirus ?,virology,"['Diarrhée', 'Éruption cutanée', 'Vomissements et diarrhée', 'Maladie du système nerveux central']",2,"Question: Quels sont les symptômes typiques des norovirus ?
+
+Choix: ['Diarrhée', 'Éruption cutanée', 'Vomissements et diarrhée', 'Maladie du système nerveux central']
+
+Réponse: Vomissements et diarrhée"
+Le séquençage en profondeur des nucléotides (SNG) est maintenant suffisamment peu coûteux pour une application générale.,virology,"['Développement rapide d'un vaccin', 'Identifier la variation génétique', 'Donner des détails sur l'excrétion du virus chez les porteurs asymptomatiques', 'Identifier rapidement les nouveaux virus']",3,"Question: Le séquençage en profondeur des nucléotides (SNG) est maintenant suffisamment peu coûteux pour une application générale.
+
+Choix: ['Développement rapide d'un vaccin', 'Identifier la variation génétique', 'Donner des détails sur l'excrétion du virus chez les porteurs asymptomatiques', 'Identifier rapidement les nouveaux virus']
+
+Réponse: Identifier rapidement les nouveaux virus"
+Les facteurs déterminants de l'acquisition d'une infection par le VIH d'une personne infectée par acte sexuel comprennent:,virology,"['Niveau de l'ARN viral', 'Présence d' autres infections', 'Utilisation du préservatif', 'Tout ce qui précède']",3,"Question: Les facteurs déterminants de l'acquisition d'une infection par le VIH d'une personne infectée par acte sexuel comprennent:
+
+Choix: ['Niveau de l'ARN viral', 'Présence d' autres infections', 'Utilisation du préservatif', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+Comment le séquençage de nouvelle génération (NGS) est-il le plus souvent utilisé?,virology,"['Pour identifier un virus nouvellement découvert', 'À la recherche de mutants résistants aux médicaments', 'Pour identifier les virus quasi-espèces', 'Ne peut pas être utilisé']",3,"Question: Comment le séquençage de nouvelle génération (NGS) est-il le plus souvent utilisé?
+
+Choix: ['Pour identifier un virus nouvellement découvert', 'À la recherche de mutants résistants aux médicaments', 'Pour identifier les virus quasi-espèces', 'Ne peut pas être utilisé']
+
+Réponse: Ne peut pas être utilisé"
+Lequel des virus HPV suivants est connu pour causer le cancer du col de l'utérus?,virology,"['Virus des cinq clades', 'Les types 14, 16, 18, 31 et 45', 'Aucun d'entre eux n'est cancérogène en soi.', 'Types 1 à 180']",2,"Question: Lequel des virus HPV suivants est connu pour causer le cancer du col de l'utérus?
+
+Choix: ['Virus des cinq clades', 'Les types 14, 16, 18, 31 et 45', 'Aucun d'entre eux n'est cancérogène en soi.', 'Types 1 à 180']
+
+Réponse: Aucun d'entre eux n'est cancérogène en soi."
+Quel membre de la famille des paramyxovirus peut causer des croupes très graves ?,virology,"['La rougeole', 'Virus méta-pneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneum', 'Nom de l'entreprise:', 'Virus syncytial des voies respiratoires (VSR)']",1,"Question: Quel membre de la famille des paramyxovirus peut causer des croupes très graves ?
+
+Choix: ['La rougeole', 'Virus méta-pneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneum', 'Nom de l'entreprise:', 'Virus syncytial des voies respiratoires (VSR)']
+
+Réponse: Virus méta-pneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneumopneum"
+Lequel des éléments suivants est la cause du retard dans le dépistage du VIH chez la population latino-américaine ?,virology,"['La stigmatisation liée à la maladie', 'Le machisme', 'Abus de drogues', 'Tout ce qui précède']",3,"Question: Lequel des éléments suivants est la cause du retard dans le dépistage du VIH chez la population latino-américaine ?
+
+Choix: ['La stigmatisation liée à la maladie', 'Le machisme', 'Abus de drogues', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+Décrivez la morphologie d'un togavirus.,virology,"['Particules sphériques enveloppées avec une structure icosaédrique', 'd'une épaisseur n'excédant pas 1 mm, mais n'excédant pas 1 mm', 'Virus filamenteux avec des glycoprotéines saillantes', 'Virus ronds de petite taille']",0,"Question: Décrivez la morphologie d'un togavirus.
+
+Choix: ['Particules sphériques enveloppées avec une structure icosaédrique', 'd'une épaisseur n'excédant pas 1 mm, mais n'excédant pas 1 mm', 'Virus filamenteux avec des glycoprotéines saillantes', 'Virus ronds de petite taille']
+
+Réponse: Particules sphériques enveloppées avec une structure icosaédrique"
+Un bon système de surveillance devrait fournir des informations sur:,virology,"['Qui est infecté ?', 'Où se trouvent les individus infectés', 'La vitesse à laquelle l'infection se propage', 'Tout ce qui précède']",3,"Question: Un bon système de surveillance devrait fournir des informations sur:
+
+Choix: ['Qui est infecté ?', 'Où se trouvent les individus infectés', 'La vitesse à laquelle l'infection se propage', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+Qu'est- ce qui a empêché jusqu'à présent l'éradication de la poliomyélite dans le monde?,virology,"['Incapacité à vacciner dans certains pays', 'Vaccines de mauvaise qualité (non sûres)', 'Variation génétique', 'Dépenses']",0,"Question: Qu'est- ce qui a empêché jusqu'à présent l'éradication de la poliomyélite dans le monde?
+
+Choix: ['Incapacité à vacciner dans certains pays', 'Vaccines de mauvaise qualité (non sûres)', 'Variation génétique', 'Dépenses']
+
+Réponse: Incapacité à vacciner dans certains pays"
+"La gamme de maladies causées par la famille est large, mais identifiez l'exception parmi les suivantes:",virology,"['Crise aplastique chez les patients atteints d'anémie', 'Cinquième maladie du syndrome de la joue claquée', 'Infection fœtale avec tératogénicité', 'Pneumonie grave']",0,"Question: La gamme de maladies causées par la famille est large, mais identifiez l'exception parmi les suivantes:
+
+Choix: ['Crise aplastique chez les patients atteints d'anémie', 'Cinquième maladie du syndrome de la joue claquée', 'Infection fœtale avec tératogénicité', 'Pneumonie grave']
+
+Réponse: Crise aplastique chez les patients atteints d'anémie"
+Lequel des médicaments suivants inhibe les virus de l'herpès?,virology,"['Amantadine et ses dérivés', 'Acyclovir et ses dérivés', 'Oseltamivir et ses dérivés', 'Azidothymidine']",3,"Question: Lequel des médicaments suivants inhibe les virus de l'herpès?
+
+Choix: ['Amantadine et ses dérivés', 'Acyclovir et ses dérivés', 'Oseltamivir et ses dérivés', 'Azidothymidine']
+
+Réponse: Azidothymidine"
+Les trois pays qui comptent le plus grand nombre de consommateurs de drogues par voie intraveineuse sont:,virology,"['La Bolivie, l'Argentine et la Thaïlande', 'La Chine, les États-Unis et la Russie', 'L'Afghanistan, l'Irak et le Myanmar', 'Lituanie, Estonie et Lettonie']",1,"Question: Les trois pays qui comptent le plus grand nombre de consommateurs de drogues par voie intraveineuse sont:
+
+Choix: ['La Bolivie, l'Argentine et la Thaïlande', 'La Chine, les États-Unis et la Russie', 'L'Afghanistan, l'Irak et le Myanmar', 'Lituanie, Estonie et Lettonie']
+
+Réponse: La Chine, les États-Unis et la Russie"
+"Les responsables d'un grand hôpital communautaire signalent une augmentation de l'incidence de la leucémie lymphoïde aiguë (LLA) chez les enfants âgés de 5 à 12 ans. Ils soulignent que certains ménages de la communauté sont exposés aux déchets chimiques d'une usine voisine. Ils pensent que les déchets chimiques causent la leucémie . Si une étude est conçue pour évaluer l'affirmation des responsables de l'hôpital, lequel des sujets suivants est le plus susceptible de constituer le groupe de contrôle?",virology,"['Les enfants exposés aux déchets chimiques qui ne souffrent pas de ALL', 'Les enfants qui n'ont pas été exposés aux déchets chimiques et qui ne souffrent pas de ALL', 'Les enfants de la clinique ambulatoire de l'hôpital qui ne souffrent pas de ALL', 'Les enfants qui ne sont pas exposés aux déchets chimiques et qui souffrent de ALL']",1,"Question: Les responsables d'un grand hôpital communautaire signalent une augmentation de l'incidence de la leucémie lymphoïde aiguë (LLA) chez les enfants âgés de 5 à 12 ans. Ils soulignent que certains ménages de la communauté sont exposés aux déchets chimiques d'une usine voisine. Ils pensent que les déchets chimiques causent la leucémie . Si une étude est conçue pour évaluer l'affirmation des responsables de l'hôpital, lequel des sujets suivants est le plus susceptible de constituer le groupe de contrôle?
+
+Choix: ['Les enfants exposés aux déchets chimiques qui ne souffrent pas de ALL', 'Les enfants qui n'ont pas été exposés aux déchets chimiques et qui ne souffrent pas de ALL', 'Les enfants de la clinique ambulatoire de l'hôpital qui ne souffrent pas de ALL', 'Les enfants qui ne sont pas exposés aux déchets chimiques et qui souffrent de ALL']
+
+Réponse: Les enfants qui n'ont pas été exposés aux déchets chimiques et qui ne souffrent pas de ALL"
+Lassa et Ebola sont des virus émergents en Afrique de l'Ouest.,virology,"['Les êtres humains', 'Autres espèces', 'Les chauves-souris des fruits', 'Des porcs']",1,"Question: Lassa et Ebola sont des virus émergents en Afrique de l'Ouest.
+
+Choix: ['Les êtres humains', 'Autres espèces', 'Les chauves-souris des fruits', 'Des porcs']
+
+Réponse: Autres espèces"
+Dans quelles circonstances les antiviraux peuvent- ils être utilisés à des fins prophylactiques ou thérapeutiques?,virology,"['Si administré dans les 4 jours suivant les signes cliniques', 'Si utilisé dans les 48 heures suivant les premiers signes cliniques', 'Utilisé pour les obèses', 'Utilisation chez les enfants de moins de 2 ans présentant une propagation virale élevée']",2,"Question: Dans quelles circonstances les antiviraux peuvent- ils être utilisés à des fins prophylactiques ou thérapeutiques?
+
+Choix: ['Si administré dans les 4 jours suivant les signes cliniques', 'Si utilisé dans les 48 heures suivant les premiers signes cliniques', 'Utilisé pour les obèses', 'Utilisation chez les enfants de moins de 2 ans présentant une propagation virale élevée']
+
+Réponse: Utilisé pour les obèses"
+"Les papillomavirus provoquent des verrues et le cancer, mais comment infectent-ils le plus souvent les humains ?",virology,"['Sont portés par l'eau', 'Sont en suspension dans l'air', 'Par des égratignures et des fractures de la peau', 'Sont nosocomiales et se propagent dans les hôpitaux']",2,"Question: Les papillomavirus provoquent des verrues et le cancer, mais comment infectent-ils le plus souvent les humains ?
+
+Choix: ['Sont portés par l'eau', 'Sont en suspension dans l'air', 'Par des égratignures et des fractures de la peau', 'Sont nosocomiales et se propagent dans les hôpitaux']
+
+Réponse: Par des égratignures et des fractures de la peau"
+Il existe actuellement 57 sérotypes d'adénovirus reconnus.,virology,"['Diarrhée', 'Infections oculaires', 'Infections des voies respiratoires', 'Cystite hémorragique']",2,"Question: Il existe actuellement 57 sérotypes d'adénovirus reconnus.
+
+Choix: ['Diarrhée', 'Infections oculaires', 'Infections des voies respiratoires', 'Cystite hémorragique']
+
+Réponse: Infections des voies respiratoires"
+Comment les nouveaux polyomavirus sont-ils détaillés ?,virology,"['Séquence des coups de feu', 'Cultivation dans des cellules neurales humaines', 'Séquencement pyro en profondeur (NGS)', 'Les techniques d'anticorps monoclonaux']",0,"Question: Comment les nouveaux polyomavirus sont-ils détaillés ?
+
+Choix: ['Séquence des coups de feu', 'Cultivation dans des cellules neurales humaines', 'Séquencement pyro en profondeur (NGS)', 'Les techniques d'anticorps monoclonaux']
+
+Réponse: Séquence des coups de feu"
+Décrivez le vaccin contre la fièvre jaune.,virology,"['Vaccin contre le virus tué', 'Vaccin à virus vivant atténué développé par passage pasteurisé', 'Vaccin vivant atténué produit par mutation directe du génome du virus', 'Seul vaccin expérimental']",1,"Question: Décrivez le vaccin contre la fièvre jaune.
+
+Choix: ['Vaccin contre le virus tué', 'Vaccin à virus vivant atténué développé par passage pasteurisé', 'Vaccin vivant atténué produit par mutation directe du génome du virus', 'Seul vaccin expérimental']
+
+Réponse: Vaccin à virus vivant atténué développé par passage pasteurisé"
+Quel est le plus grand facteur de risque d'infection par Ebola ?,virology,"['Travailler dans un laboratoire de catégorie IV', 'Assister à l'enterrement d'une victime à l'extérieur', 'Soins infirmiers à domicile', 'Assister à des matchs de football ou à de grands rassemblements']",0,"Question: Quel est le plus grand facteur de risque d'infection par Ebola ?
+
+Choix: ['Travailler dans un laboratoire de catégorie IV', 'Assister à l'enterrement d'une victime à l'extérieur', 'Soins infirmiers à domicile', 'Assister à des matchs de football ou à de grands rassemblements']
+
+Réponse: Travailler dans un laboratoire de catégorie IV"
+"Le virus de la grippe est principalement maîtrisé dans les secteurs particuliers à ""risque"" par:",virology,"['L'hygiène', 'Vaccination contre le rhume', 'Médicaments antiviraux', 'Anticorps monoclonaux humanisés']",1,"Question: Le virus de la grippe est principalement maîtrisé dans les secteurs particuliers à ""risque"" par:
+
+Choix: ['L'hygiène', 'Vaccination contre le rhume', 'Médicaments antiviraux', 'Anticorps monoclonaux humanisés']
+
+Réponse: Vaccination contre le rhume"
+"Une étude cas-témoins est réalisée pour évaluer l'association entre la consommation d'alcool et le cancer du poumon chez les patients atteints d'un cancer du poumon et 100 témoins sont interrogés sur leur consommation d'alcool antérieure. Selon les résultats de l'étude, la consommation d'alcool est fortement associée au cancer du poumon (OR = 2,5). Les chercheurs divisent ensuite les sujets de l'étude en deux groupes: fumeurs et non-fumeurs. Les analyses statistiques ultérieures n'ont révélé aucun lien entre la consommation d'alcool et le cancer du poumon dans aucun des deux groupes. Le scénario décrit est un exemple de laquelle des situations suivantes?",virology,"['Préjugé de l'observateur', 'La confusion', 'Effet placebo', 'Préjugé de non-réponse']",1,"Question: Une étude cas-témoins est réalisée pour évaluer l'association entre la consommation d'alcool et le cancer du poumon chez les patients atteints d'un cancer du poumon et 100 témoins sont interrogés sur leur consommation d'alcool antérieure. Selon les résultats de l'étude, la consommation d'alcool est fortement associée au cancer du poumon (OR = 2,5). Les chercheurs divisent ensuite les sujets de l'étude en deux groupes: fumeurs et non-fumeurs. Les analyses statistiques ultérieures n'ont révélé aucun lien entre la consommation d'alcool et le cancer du poumon dans aucun des deux groupes. Le scénario décrit est un exemple de laquelle des situations suivantes?
+
+Choix: ['Préjugé de l'observateur', 'La confusion', 'Effet placebo', 'Préjugé de non-réponse']
+
+Réponse: La confusion"
+Comment les arénavirus se propagent-ils ?,virology,"['Les rapports sexuels', 'Le sang', 'Aérosols d'urine de petits mammifères infectés', 'Piqûres de moustiques']",0,"Question: Comment les arénavirus se propagent-ils ?
+
+Choix: ['Les rapports sexuels', 'Le sang', 'Aérosols d'urine de petits mammifères infectés', 'Piqûres de moustiques']
+
+Réponse: Les rapports sexuels"
+Quelles régions du monde ne sont pas touchées par la rage?,virology,"['États-Unis', 'Autriche', 'États membres de l'UE', 'Pays insulaires, Royaume-Uni, Nouvelle-Zélande et Australie']",3,"Question: Quelles régions du monde ne sont pas touchées par la rage?
+
+Choix: ['États-Unis', 'Autriche', 'États membres de l'UE', 'Pays insulaires, Royaume-Uni, Nouvelle-Zélande et Australie']
+
+Réponse: Pays insulaires, Royaume-Uni, Nouvelle-Zélande et Australie"
+Le risque de transmission périnatale de l'infection par le VIH-1 pendant l'allaitement est augmenté en raison de:,virology,"['Alimentation mixte', 'Introduction très précoce des solides', 'Les deux a et b', 'Aucun d' entre eux .']",2,"Question: Le risque de transmission périnatale de l'infection par le VIH-1 pendant l'allaitement est augmenté en raison de:
+
+Choix: ['Alimentation mixte', 'Introduction très précoce des solides', 'Les deux a et b', 'Aucun d' entre eux .']
+
+Réponse: Les deux a et b"
+Comment la famille des parvovirus est-elle ciblée pour réduire la maladie?,virology,"['Le sang transfusé fait l'objet d'un dépistage.', 'Un vaccin a été mis au point.', 'Une gamme de nouveaux antiviraux', 'La distanciation sociale']",0,"Question: Comment la famille des parvovirus est-elle ciblée pour réduire la maladie?
+
+Choix: ['Le sang transfusé fait l'objet d'un dépistage.', 'Un vaccin a été mis au point.', 'Une gamme de nouveaux antiviraux', 'La distanciation sociale']
+
+Réponse: Le sang transfusé fait l'objet d'un dépistage."
+Qui a découvert le premier virus ?,virology,"['Le microscopiste Antonie van Leeuwenhoek', 'Le bactériologiste Charles Chamberland', 'Le botaniste Dmitri Iwanowsky', 'Le virologue Jonas Salk']",2,"Question: Qui a découvert le premier virus ?
+
+Choix: ['Le microscopiste Antonie van Leeuwenhoek', 'Le bactériologiste Charles Chamberland', 'Le botaniste Dmitri Iwanowsky', 'Le virologue Jonas Salk']
+
+Réponse: Le botaniste Dmitri Iwanowsky"
+Les interventions structurelles visent généralement:,virology,"['Politiques', 'Le secteur de l'environnement', 'Disponibilité', 'Tout ce qui précède']",3,"Question: Les interventions structurelles visent généralement:
+
+Choix: ['Politiques', 'Le secteur de l'environnement', 'Disponibilité', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+Quel est le tableau clinique principal de l'hépatite A?,virology,"['Éruption cutanée', 'Paralysie des membres', 'Ictère et maux d' estomac', 'Infection des voies respiratoires supérieures']",2,"Question: Quel est le tableau clinique principal de l'hépatite A?
+
+Choix: ['Éruption cutanée', 'Paralysie des membres', 'Ictère et maux d' estomac', 'Infection des voies respiratoires supérieures']
+
+Réponse: Ictère et maux d' estomac"
+"Si le norovirus humain ne peut pas être cultivé dans des cultures cellulaires, comment peut-il être étudié au mieux?",virology,"['Modèles animaux', 'Études réalisées auprès de bénévoles', 'Dans les cellules utilisant des systèmes de répliques', 'Déductions des 3 ORF humains du génome du virus']",1,"Question: Si le norovirus humain ne peut pas être cultivé dans des cultures cellulaires, comment peut-il être étudié au mieux?
+
+Choix: ['Modèles animaux', 'Études réalisées auprès de bénévoles', 'Dans les cellules utilisant des systèmes de répliques', 'Déductions des 3 ORF humains du génome du virus']
+
+Réponse: Études réalisées auprès de bénévoles"
+"Toute erreur systématique dans la conception, la conduite ou l'analyse d'une étude qui aboutit à une estimation erronée de l'effet d'une exposition sur le risque de maladie est appelée:",virology,"['La confusion', 'Préjugés', 'L'interaction', 'La stratification']",2,"Question: Toute erreur systématique dans la conception, la conduite ou l'analyse d'une étude qui aboutit à une estimation erronée de l'effet d'une exposition sur le risque de maladie est appelée:
+
+Choix: ['La confusion', 'Préjugés', 'L'interaction', 'La stratification']
+
+Réponse: L'interaction"
+Décrivez la structure du coronavirus.,virology,"['Des pointes de glycoprotéine en forme de club dépassent une bicouche lipidique', 'Une structure icosaédrique avec une enveloppe', 'Un grand virus pleomorphe icosaédrique', 'Virus en forme de grand tonneau régimenté']",2,"Question: Décrivez la structure du coronavirus.
+
+Choix: ['Des pointes de glycoprotéine en forme de club dépassent une bicouche lipidique', 'Une structure icosaédrique avec une enveloppe', 'Un grand virus pleomorphe icosaédrique', 'Virus en forme de grand tonneau régimenté']
+
+Réponse: Un grand virus pleomorphe icosaédrique"
+Le SRAS est décrit comme un virus zoonotique - qu'est-ce que cela signifie?,virology,"['Ces virus sont confinés aux animaux.', 'Ils ne causent pas de maladies chez l'homme.', 'Ils émergent des animaux pour franchir la barrière des espèces rarement', 'Ils provoquent des pandémies .']",0,"Question: Le SRAS est décrit comme un virus zoonotique - qu'est-ce que cela signifie?
+
+Choix: ['Ces virus sont confinés aux animaux.', 'Ils ne causent pas de maladies chez l'homme.', 'Ils émergent des animaux pour franchir la barrière des espèces rarement', 'Ils provoquent des pandémies .']
+
+Réponse: Ces virus sont confinés aux animaux."
+"Lequel des coronavirus suivants a causé des milliers de décès dans le monde en tant que virus ""émergent""?",virology,"['Le MERS', 'Le SRAS', 'Nom de l'organisme', 'HKU1']",0,"Question: Lequel des coronavirus suivants a causé des milliers de décès dans le monde en tant que virus ""émergent""?
+
+Choix: ['Le MERS', 'Le SRAS', 'Nom de l'organisme', 'HKU1']
+
+Réponse: Le MERS"
+L'infection clinique par un arénavirus se caractérise par lequel des symptômes suivants?,virology,"['Infection pantrophique', 'Les signes du paludisme', 'Incubation courte (2 à 3 jours)', 'Infection par le virus de l' hépatite']",0,"Question: L'infection clinique par un arénavirus se caractérise par lequel des symptômes suivants?
+
+Choix: ['Infection pantrophique', 'Les signes du paludisme', 'Incubation courte (2 à 3 jours)', 'Infection par le virus de l' hépatite']
+
+Réponse: Infection pantrophique"
+Comment la rubéole provoque- t- elle des anomalies fœtales ?,virology,"['En traversant le placenta au début de la grossesse et en infectant le fœtus.', 'En infectant uniquement le placenta.', 'En induisant des cytokines et des chimiokines chez la mère', 'En augmentant la température de la mère et en provoquant une réaction immunitaire anormale du fœtus.']",0,"Question: Comment la rubéole provoque- t- elle des anomalies fœtales ?
+
+Choix: ['En traversant le placenta au début de la grossesse et en infectant le fœtus.', 'En infectant uniquement le placenta.', 'En induisant des cytokines et des chimiokines chez la mère', 'En augmentant la température de la mère et en provoquant une réaction immunitaire anormale du fœtus.']
+
+Réponse: En traversant le placenta au début de la grossesse et en infectant le fœtus."
+Lequel des éléments suivants est une caractéristique inhabituelle du cycle de réplication des coronavirus?,virology,"['Les ARN se terminent tous par un 3 ' commun et produisent des transcriptions de jeux imbriqués', 'Ils profitent de la recombinaison avec le long génome d'ARN', 'Ils ne sont pas très mutables.', 'Ils utilisent des capsules d'ARNm cellulaires']",1,"Question: Lequel des éléments suivants est une caractéristique inhabituelle du cycle de réplication des coronavirus?
+
+Choix: ['Les ARN se terminent tous par un 3 ' commun et produisent des transcriptions de jeux imbriqués', 'Ils profitent de la recombinaison avec le long génome d'ARN', 'Ils ne sont pas très mutables.', 'Ils utilisent des capsules d'ARNm cellulaires']
+
+Réponse: Ils profitent de la recombinaison avec le long génome d'ARN"
+Quelle stratégie de réplication est parallèle à celle d'autres virus ?,virology,"['La réplication cytoplasmique et les 'caps arrachés' sont utilisés comme amorceurs pour la transcription de l'ARN', 'Réplicates dans les tubules cytoplasmiques', 'Réplication extracellulaire', 'Répliques dans le noyau']",2,"Question: Quelle stratégie de réplication est parallèle à celle d'autres virus ?
+
+Choix: ['La réplication cytoplasmique et les 'caps arrachés' sont utilisés comme amorceurs pour la transcription de l'ARN', 'Réplicates dans les tubules cytoplasmiques', 'Réplication extracellulaire', 'Répliques dans le noyau']
+
+Réponse: Réplication extracellulaire"
+La caractéristique d'une épidémie généralisée est:,virology,"['Taux élevés chez les usagers de drogues', 'Taux élevé chez les HSH', 'Taux élevés chez les femmes enceintes', 'Taux élevé chez les personnes qui fréquentent une clinique pour maladies sexuellement transmissibles']",2,"Question: La caractéristique d'une épidémie généralisée est:
+
+Choix: ['Taux élevés chez les usagers de drogues', 'Taux élevé chez les HSH', 'Taux élevés chez les femmes enceintes', 'Taux élevé chez les personnes qui fréquentent une clinique pour maladies sexuellement transmissibles']
+
+Réponse: Taux élevés chez les femmes enceintes"
+Une version mise à jour de la classification montre la famille des parvovirus comme ayant combien de genres?,virology,"['ayant 5 genres', 'Un très grand nombre de types de virus', 'Un seul virus.', 'Seulement trois virus.']",1,"Question: Une version mise à jour de la classification montre la famille des parvovirus comme ayant combien de genres?
+
+Choix: ['ayant 5 genres', 'Un très grand nombre de types de virus', 'Un seul virus.', 'Seulement trois virus.']
+
+Réponse: Un très grand nombre de types de virus"
+La plus grande communauté latino des États-Unis est:,virology,"['Portoricaine', 'Mexicain', 'Cubain', 'Brésilien']",1,"Question: La plus grande communauté latino des États-Unis est:
+
+Choix: ['Portoricaine', 'Mexicain', 'Cubain', 'Brésilien']
+
+Réponse: Mexicain"
+Comment les épidémies d'astrovirus peuvent-elles être principalement maîtrisées?,virology,"['Par vaccination', 'Utilisation d'anticorps passifs', 'Connaissances de base sur le lavage des mains et l'hygiène des aliments', 'Quarantaine']",2,"Question: Comment les épidémies d'astrovirus peuvent-elles être principalement maîtrisées?
+
+Choix: ['Par vaccination', 'Utilisation d'anticorps passifs', 'Connaissances de base sur le lavage des mains et l'hygiène des aliments', 'Quarantaine']
+
+Réponse: Connaissances de base sur le lavage des mains et l'hygiène des aliments"
+"500 femmes âgées de 40 à 54 ans qui se présentent pour des contrôles de routine sont interrogées sur leur consommation de viande les femmes se révèlent être végétariennes Au cours des 5 années suivantes, 5 végétariens et 43 non-végétariens développent un cancer colorectal. Lequel des éléments suivants décrit le mieux la conception de l'étude?",virology,"['Rapport sur les séries de cas', 'Étude de cohorte', 'Étude de cas et de contrôle', 'Étude transversale']",0,"Question: 500 femmes âgées de 40 à 54 ans qui se présentent pour des contrôles de routine sont interrogées sur leur consommation de viande les femmes se révèlent être végétariennes Au cours des 5 années suivantes, 5 végétariens et 43 non-végétariens développent un cancer colorectal. Lequel des éléments suivants décrit le mieux la conception de l'étude?
+
+Choix: ['Rapport sur les séries de cas', 'Étude de cohorte', 'Étude de cas et de contrôle', 'Étude transversale']
+
+Réponse: Rapport sur les séries de cas"
+"En l'absence de traitement, le risque de transmission du VIH d'une mère infectée à son fœtus/enfant était le plus élevé dans lequel des domaines suivants?",virology,"['Afrique du Sud', 'Amérique du Nord', 'Pour l'Europe', 'États-Unis']",0,"Question: En l'absence de traitement, le risque de transmission du VIH d'une mère infectée à son fœtus/enfant était le plus élevé dans lequel des domaines suivants?
+
+Choix: ['Afrique du Sud', 'Amérique du Nord', 'Pour l'Europe', 'États-Unis']
+
+Réponse: Afrique du Sud"
+Par lequel des processus suivants le poliovirus peut-il devenir plus virulent?,virology,"['Mutation du génome de l'ARN à seulement quelques positions', 'La recombinaison avec un autre entérovirus', 'Modification de sa couche protéique', 'Délétions et substitutions multiples de nucléotides']",0,"Question: Par lequel des processus suivants le poliovirus peut-il devenir plus virulent?
+
+Choix: ['Mutation du génome de l'ARN à seulement quelques positions', 'La recombinaison avec un autre entérovirus', 'Modification de sa couche protéique', 'Délétions et substitutions multiples de nucléotides']
+
+Réponse: Mutation du génome de l'ARN à seulement quelques positions"
+Un virus comme la grippe qui émerge soudainement et se propage à l'échelle mondiale s'appelle:,virology,"['Épidémie', 'Endémique', 'Une pandémie', 'Zoonotique']",1,"Question: Un virus comme la grippe qui émerge soudainement et se propage à l'échelle mondiale s'appelle:
+
+Choix: ['Épidémie', 'Endémique', 'Une pandémie', 'Zoonotique']
+
+Réponse: Endémique"
+"Parmi les facteurs suivants, quels sont les plus importants pour la propagation du virus et l'infection?",virology,"['Âge', 'Le sexe', 'Facteurs génétiques', 'Les voyages']",3,"Question: Parmi les facteurs suivants, quels sont les plus importants pour la propagation du virus et l'infection?
+
+Choix: ['Âge', 'Le sexe', 'Facteurs génétiques', 'Les voyages']
+
+Réponse: Les voyages"
+Comment les virus de la famille des calcivirus se reproduisent- ils?,virology,"['En tant que virus à ARN à brins négatifs', 'En tant que virus à ARN à brins positifs', 'Les rétrovirus', 'Utilisation du réassortiment génétique']",1,"Question: Comment les virus de la famille des calcivirus se reproduisent- ils?
+
+Choix: ['En tant que virus à ARN à brins négatifs', 'En tant que virus à ARN à brins positifs', 'Les rétrovirus', 'Utilisation du réassortiment génétique']
+
+Réponse: En tant que virus à ARN à brins positifs"
+Les parvovirus ont un génome plutôt unique; quelle forme prend-il ?,virology,"['ADN circulaire', 'ADN ss linéaire de petite taille', 'Le génome de l'ADN', 'Génome de l'ARN avec RT']",3,"Question: Les parvovirus ont un génome plutôt unique; quelle forme prend-il ?
+
+Choix: ['ADN circulaire', 'ADN ss linéaire de petite taille', 'Le génome de l'ADN', 'Génome de l'ARN avec RT']
+
+Réponse: Génome de l'ARN avec RT"
+Comment décrire la morphologie des filovirus ?,virology,"['Structure en forme de boule très grande', 'd'une largeur n'excédant pas 600 mm', 'Virion icosaédrique', 'Membranes floppy sans morphologie définie']",2,"Question: Comment décrire la morphologie des filovirus ?
+
+Choix: ['Structure en forme de boule très grande', 'd'une largeur n'excédant pas 600 mm', 'Virion icosaédrique', 'Membranes floppy sans morphologie définie']
+
+Réponse: Virion icosaédrique"
+Quelle est la direction habituelle de la 'connaissance' dans une cellule?,virology,"['De la protéine à l'ADN', 'De l'ADN à l'ADN', 'De l'ADN à l'ARN à la protéine', 'Résultats aléatoires']",2,"Question: Quelle est la direction habituelle de la 'connaissance' dans une cellule?
+
+Choix: ['De la protéine à l'ADN', 'De l'ADN à l'ADN', 'De l'ADN à l'ARN à la protéine', 'Résultats aléatoires']
+
+Réponse: De l'ADN à l'ARN à la protéine"
+Pourquoi les combinaisons de médicaments sont-elles essentielles pour le VIH?,virology,"['Les médicaments seuls ne sont pas complètement inhibiteurs', 'Les mutations neutralisent l'effet d'un médicament', 'Les combinaisons d'antibiotiques sont efficaces contre la tuberculose.', 'Le virus ne peut pas muter contre une combinaison']",2,"Question: Pourquoi les combinaisons de médicaments sont-elles essentielles pour le VIH?
+
+Choix: ['Les médicaments seuls ne sont pas complètement inhibiteurs', 'Les mutations neutralisent l'effet d'un médicament', 'Les combinaisons d'antibiotiques sont efficaces contre la tuberculose.', 'Le virus ne peut pas muter contre une combinaison']
+
+Réponse: Les combinaisons d'antibiotiques sont efficaces contre la tuberculose."
+"De nombreuses infections virales entraînent une pathologie immunitaire, principalement causée par lequel des éléments suivants?",virology,"['Une tempête de cytokines', 'Réactions médiées par des anticorps', 'Une réponse des cellules T tueuses (CD-8)', 'Une diminution de la fonction du système immunitaire']",0,"Question: De nombreuses infections virales entraînent une pathologie immunitaire, principalement causée par lequel des éléments suivants?
+
+Choix: ['Une tempête de cytokines', 'Réactions médiées par des anticorps', 'Une réponse des cellules T tueuses (CD-8)', 'Une diminution de la fonction du système immunitaire']
+
+Réponse: Une tempête de cytokines"
+David Baltimore est un biologiste moléculaire. Qu'a-t-il découvert ?,virology,"['La structure de l'ADN', 'Techniques de cristallographie par rayons X', 'L' enzyme transcriptase inverse', 'Le médicament anti-VIH appelé zidovudine']",2,"Question: David Baltimore est un biologiste moléculaire. Qu'a-t-il découvert ?
+
+Choix: ['La structure de l'ADN', 'Techniques de cristallographie par rayons X', 'L' enzyme transcriptase inverse', 'Le médicament anti-VIH appelé zidovudine']
+
+Réponse: L' enzyme transcriptase inverse"
+Identifier la technique de diagnostic la plus couramment utilisée dans le laboratoire virologique:,virology,"['Isolement du virus dans une culture cellulaire', 'Séquençage en profondeur (NGS)', 'RCP de la transcriptase inverse (RT)', 'Immunosérologie']",1,"Question: Identifier la technique de diagnostic la plus couramment utilisée dans le laboratoire virologique:
+
+Choix: ['Isolement du virus dans une culture cellulaire', 'Séquençage en profondeur (NGS)', 'RCP de la transcriptase inverse (RT)', 'Immunosérologie']
+
+Réponse: Séquençage en profondeur (NGS)"
+Le principal groupe à risque d'infection par le VIH chez les Latinos est:,virology,"['Hommes hétérosexuels', 'Hommes homosexuels', 'Les femelles', 'Utilisateurs de drogues injectables']",1,"Question: Le principal groupe à risque d'infection par le VIH chez les Latinos est:
+
+Choix: ['Hommes hétérosexuels', 'Hommes homosexuels', 'Les femelles', 'Utilisateurs de drogues injectables']
+
+Réponse: Hommes homosexuels"
+"Dans les cas de tuberculose associée au VIH, le traitement par antirétroviraux doit commencer:",virology,"['Avant de commencer à prendre des médicaments antirétroviraux', 'Après le début des médicaments antirétroviraux', 'Simultanément avec des médicaments antirétroviraux', 'Ça ne fait aucune différence.']",2,"Question: Dans les cas de tuberculose associée au VIH, le traitement par antirétroviraux doit commencer:
+
+Choix: ['Avant de commencer à prendre des médicaments antirétroviraux', 'Après le début des médicaments antirétroviraux', 'Simultanément avec des médicaments antirétroviraux', 'Ça ne fait aucune différence.']
+
+Réponse: Simultanément avec des médicaments antirétroviraux"
+"Un ""bénéfice"" de la recherche peut s'accumuler:",virology,"['Au participant', 'À sa famille', 'À la société', 'Tout ce qui précède']",3,"Question: Un ""bénéfice"" de la recherche peut s'accumuler:
+
+Choix: ['Au participant', 'À sa famille', 'À la société', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+Quelle est la meilleure option actuelle pour prévenir de futures épidémies d'Ebola?,virology,"['Reconstruire les infrastructures scientifiques, médicales et infirmières et former le personnel', 'Diagnostic précoce et précis avec des kits moléculaires', 'Développer des vaccins efficaces', 'Organiser une intervention rapide en Afrique de l'Ouest avec des équipes militaires de l'UE et des États-Unis']",3,"Question: Quelle est la meilleure option actuelle pour prévenir de futures épidémies d'Ebola?
+
+Choix: ['Reconstruire les infrastructures scientifiques, médicales et infirmières et former le personnel', 'Diagnostic précoce et précis avec des kits moléculaires', 'Développer des vaccins efficaces', 'Organiser une intervention rapide en Afrique de l'Ouest avec des équipes militaires de l'UE et des États-Unis']
+
+Réponse: Organiser une intervention rapide en Afrique de l'Ouest avec des équipes militaires de l'UE et des États-Unis"
+Où les arénavirus sont-ils principalement localisés dans le monde?,virology,"['Asie du Sud-Est', 'États-Unis', 'Afrique et Amérique du Sud', 'Amérique du Nord']",0,"Question: Où les arénavirus sont-ils principalement localisés dans le monde?
+
+Choix: ['Asie du Sud-Est', 'États-Unis', 'Afrique et Amérique du Sud', 'Amérique du Nord']
+
+Réponse: Asie du Sud-Est"
+L'élément le plus important de la recherche éthique sur des sujets humains est:,virology,"['La bienfaisance', 'La justice', 'Une conception méthodologiquement solide de l'étude', 'Consentement éclairé']",3,"Question: L'élément le plus important de la recherche éthique sur des sujets humains est:
+
+Choix: ['La bienfaisance', 'La justice', 'Une conception méthodologiquement solide de l'étude', 'Consentement éclairé']
+
+Réponse: Consentement éclairé"
+Les caractéristiques des usagers de drogues injectables en Asie sont les suivantes:,virology,"['Un soutien solide de la famille', 'Faible taux d'échec des centres de réadaptation', 'Rester membre de la communauté', 'Les deux a et c']",3,"Question: Les caractéristiques des usagers de drogues injectables en Asie sont les suivantes:
+
+Choix: ['Un soutien solide de la famille', 'Faible taux d'échec des centres de réadaptation', 'Rester membre de la communauté', 'Les deux a et c']
+
+Réponse: Les deux a et c"
+"Les virus nous ont encouragés à changer notre monde, comme nous le faisons maintenant:",virology,"['Variole éradiquée', 'Éradication de la poliomyélite', 'Amélioration de l'hygiène', 'Une meilleure compréhension de la façon dont les gènes cellulaires aident la réplication des virus et deviennent ainsi une cible pour de nouveaux médicaments']",0,"Question: Les virus nous ont encouragés à changer notre monde, comme nous le faisons maintenant:
+
+Choix: ['Variole éradiquée', 'Éradication de la poliomyélite', 'Amélioration de l'hygiène', 'Une meilleure compréhension de la façon dont les gènes cellulaires aident la réplication des virus et deviennent ainsi une cible pour de nouveaux médicaments']
+
+Réponse: Variole éradiquée"
+Quel est le facteur le plus important pour la classification des virus ?,virology,"['La géométrie du virus', 'Combien de protéines le virus a-t-il ?', 'La maladie causée par un virus', 'La chimie de l'ADN et de l'ARN']",3,"Question: Quel est le facteur le plus important pour la classification des virus ?
+
+Choix: ['La géométrie du virus', 'Combien de protéines le virus a-t-il ?', 'La maladie causée par un virus', 'La chimie de l'ADN et de l'ARN']
+
+Réponse: La chimie de l'ADN et de l'ARN"
+La principale cause d'infection par le VIH parmi la population latino-américaine est:,virology,"['Détection tardive du statut VIH', 'Les croyances culturelles', 'Le secteur de l'immigration', 'Tout ce qui précède']",3,"Question: La principale cause d'infection par le VIH parmi la population latino-américaine est:
+
+Choix: ['Détection tardive du statut VIH', 'Les croyances culturelles', 'Le secteur de l'immigration', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+Les maladies peuvent le plus souvent être évitées par l'une ou l'autre des méthodes suivantes:,virology,"['Les vaccins', 'Médicaments antiviraux', 'L'hygiène', 'moustiquaires']",0,"Question: Les maladies peuvent le plus souvent être évitées par l'une ou l'autre des méthodes suivantes:
+
+Choix: ['Les vaccins', 'Médicaments antiviraux', 'L'hygiène', 'moustiquaires']
+
+Réponse: Les vaccins"
+Les résultats de la surveillance doivent être distribués à:,virology,"['Les décideurs', 'Le public', 'Les collecteurs de données', 'Tout ce qui précède']",3,"Question: Les résultats de la surveillance doivent être distribués à:
+
+Choix: ['Les décideurs', 'Le public', 'Les collecteurs de données', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+Quelle est une caractéristique majeure de la famille des bunyavirus ?,virology,"['Amplifier par infection persistante des nains, des moustiques, des mouches du sable, des tiques', 'Transmis principalement par les moustiques', 'Recombinaison ou réassortiment génétique', 'Transmise à l'homme par les piqûres de souris et de rats']",0,"Question: Quelle est une caractéristique majeure de la famille des bunyavirus ?
+
+Choix: ['Amplifier par infection persistante des nains, des moustiques, des mouches du sable, des tiques', 'Transmis principalement par les moustiques', 'Recombinaison ou réassortiment génétique', 'Transmise à l'homme par les piqûres de souris et de rats']
+
+Réponse: Amplifier par infection persistante des nains, des moustiques, des mouches du sable, des tiques"
+Le groupe qui permet l'analyse de l'ensemble de l'histoire naturelle du VIH/SIDA est:,virology,"['Les séronégatifs persistants', 'Les survivants à long terme', 'Séroconvertisseurs', 'Survivants à long terme avec de faibles taux de cellules CD4+']",2,"Question: Le groupe qui permet l'analyse de l'ensemble de l'histoire naturelle du VIH/SIDA est:
+
+Choix: ['Les séronégatifs persistants', 'Les survivants à long terme', 'Séroconvertisseurs', 'Survivants à long terme avec de faibles taux de cellules CD4+']
+
+Réponse: Séroconvertisseurs"
+Le risque de contracter l'infection à VIH par le facteur VIII aux États-Unis en 2011 est de 0% principalement parce que:,virology,"['Tous les donneurs font l'objet d'un dépistage du facteur VIII', 'Le facteur VIII est soumis à un 'lavage' au détergent avant sa libération', 'Le facteur VIII est fabriqué synthétiquement.', 'Le facteur VIII est important dans les pays où le VIH n'a pas été signalé.']",2,"Question: Le risque de contracter l'infection à VIH par le facteur VIII aux États-Unis en 2011 est de 0% principalement parce que:
+
+Choix: ['Tous les donneurs font l'objet d'un dépistage du facteur VIII', 'Le facteur VIII est soumis à un 'lavage' au détergent avant sa libération', 'Le facteur VIII est fabriqué synthétiquement.', 'Le facteur VIII est important dans les pays où le VIH n'a pas été signalé.']
+
+Réponse: Le facteur VIII est fabriqué synthétiquement."
+La prévalence du VIH chez les Latino-Américains par rapport aux autres groupes éthiques aux États-Unis est:,virology,"['Le plus élevé', 'Plus élevé que tous les autres groupes ethniques à l'exception des Afro-Américains', 'Plus élevé que dans tous les autres groupes ethniques à l'exception des Afro-Américains et', 'Amérindiens']",1,"Question: La prévalence du VIH chez les Latino-Américains par rapport aux autres groupes éthiques aux États-Unis est:
+
+Choix: ['Le plus élevé', 'Plus élevé que tous les autres groupes ethniques à l'exception des Afro-Américains', 'Plus élevé que dans tous les autres groupes ethniques à l'exception des Afro-Américains et', 'Amérindiens']
+
+Réponse: Plus élevé que tous les autres groupes ethniques à l'exception des Afro-Américains"
+C'est quoi le syndrome de la rubéole ?,virology,"['Une description de l'éruption de 3 jours de la rougeole allemande', 'Les lésions tératogènes de la cataracte, de la surdité, du retard mental et de la microcéphalie chez le fœtus', 'Combinaison d' éruption cutanée et d' encéphalite post-infectieuse', 'Effets secondaires du vaccin ROR']",1,"Question: C'est quoi le syndrome de la rubéole ?
+
+Choix: ['Une description de l'éruption de 3 jours de la rougeole allemande', 'Les lésions tératogènes de la cataracte, de la surdité, du retard mental et de la microcéphalie chez le fœtus', 'Combinaison d' éruption cutanée et d' encéphalite post-infectieuse', 'Effets secondaires du vaccin ROR']
+
+Réponse: Les lésions tératogènes de la cataracte, de la surdité, du retard mental et de la microcéphalie chez le fœtus"
+Quel est le moyen le plus courant pour un virus de tuer une cellule ?,virology,"['Dissolve la membrane cellulaire', 'Il induit l'apoptose via les caspases.', 'Fragments d'ADN cellulaire', 'Bloque totalement la transcription cellulaire']",1,"Question: Quel est le moyen le plus courant pour un virus de tuer une cellule ?
+
+Choix: ['Dissolve la membrane cellulaire', 'Il induit l'apoptose via les caspases.', 'Fragments d'ADN cellulaire', 'Bloque totalement la transcription cellulaire']
+
+Réponse: Il induit l'apoptose via les caspases."
+Le virus de la grippe a une génétique complexe principalement caractérisée par lequel des éléments suivants?,virology,"['Réassortiment génétique parmi 8 gènes', 'Niveaux élevés de recombinaison', 'Adsorption et fusion rapides de l'extérieur par l'intermédiaire d'un peptide hydrophobe', 'Enzyme de l'ARN-réplicase à haute fidélité']",1,"Question: Le virus de la grippe a une génétique complexe principalement caractérisée par lequel des éléments suivants?
+
+Choix: ['Réassortiment génétique parmi 8 gènes', 'Niveaux élevés de recombinaison', 'Adsorption et fusion rapides de l'extérieur par l'intermédiaire d'un peptide hydrophobe', 'Enzyme de l'ARN-réplicase à haute fidélité']
+
+Réponse: Niveaux élevés de recombinaison"
+Le risque le plus élevé d'infection par le VIH chez les usagers de drogues aux États-Unis est:,virology,"['La côte est .', 'Le centre des États-Unis (Kansas, Missouri, etc.)', 'Californie du Sud', 'Le nord-ouest du Pacifique (Washington, Oregon, Idaho)']",0,"Question: Le risque le plus élevé d'infection par le VIH chez les usagers de drogues aux États-Unis est:
+
+Choix: ['La côte est .', 'Le centre des États-Unis (Kansas, Missouri, etc.)', 'Californie du Sud', 'Le nord-ouest du Pacifique (Washington, Oregon, Idaho)']
+
+Réponse: La côte est ."
+"Une étude est menée pour évaluer la relation entre la race et la maladie rénale en phase terminale Les pathologistes étudient indépendamment des échantillons provenant de 1 000 biopsies rénales Le premier groupe de pathologistes est au courant de la race du patient dont la biopsie est venue, tandis que le deuxième groupe est aveuglé quant à la race du patient Le premier groupe signale une "" néphropathie hypertensive "" beaucoup plus fréquemment chez les patients noirs que dans le second groupe. Lequel des types de biais suivants est le plus susceptible d'être présent dans cette étude?",virology,"['La confusion', 'Préjugé de non-réponse', 'Préjugé de rappel', 'Préjugé de référence']",0,"Question: Une étude est menée pour évaluer la relation entre la race et la maladie rénale en phase terminale Les pathologistes étudient indépendamment des échantillons provenant de 1 000 biopsies rénales Le premier groupe de pathologistes est au courant de la race du patient dont la biopsie est venue, tandis que le deuxième groupe est aveuglé quant à la race du patient Le premier groupe signale une "" néphropathie hypertensive "" beaucoup plus fréquemment chez les patients noirs que dans le second groupe. Lequel des types de biais suivants est le plus susceptible d'être présent dans cette étude?
+
+Choix: ['La confusion', 'Préjugé de non-réponse', 'Préjugé de rappel', 'Préjugé de référence']
+
+Réponse: La confusion"
+Qu'est- ce que la fièvre jaune urbaine ?,virology,"['Cela fait partie d'un cycle de moustiques qui piquent les humains dans les villes.', 'Cela fait partie d'un cycle de moustiques qui piquent les humains et les singes dans les zones boisées.', 'Une mutation du virus de la fièvre jaune', 'Une espèce YF qui s'est adaptée à de nouveaux moustiques']",0,"Question: Qu'est- ce que la fièvre jaune urbaine ?
+
+Choix: ['Cela fait partie d'un cycle de moustiques qui piquent les humains dans les villes.', 'Cela fait partie d'un cycle de moustiques qui piquent les humains et les singes dans les zones boisées.', 'Une mutation du virus de la fièvre jaune', 'Une espèce YF qui s'est adaptée à de nouveaux moustiques']
+
+Réponse: Cela fait partie d'un cycle de moustiques qui piquent les humains dans les villes."
+La politique de dépistage actuelle des Centers for Disease Control et de l'Organisation mondiale de la santé est la suivante:,virology,"['Opt-in', 'Autorisation de ne pas participer', 'Tests obligatoires sur les détenus', 'Tests obligatoires pour les groupes à haut risque']",1,"Question: La politique de dépistage actuelle des Centers for Disease Control et de l'Organisation mondiale de la santé est la suivante:
+
+Choix: ['Opt-in', 'Autorisation de ne pas participer', 'Tests obligatoires sur les détenus', 'Tests obligatoires pour les groupes à haut risque']
+
+Réponse: Autorisation de ne pas participer"
+Les virus du rhume sont omniprésents et envahissent par quelle voie?,virology,"['Route fécale par voie orale', 'Les voies respiratoires et les voies de surface', 'coupures dans la peau', 'Transmission sexuelle']",1,"Question: Les virus du rhume sont omniprésents et envahissent par quelle voie?
+
+Choix: ['Route fécale par voie orale', 'Les voies respiratoires et les voies de surface', 'coupures dans la peau', 'Transmission sexuelle']
+
+Réponse: Les voies respiratoires et les voies de surface"
+L'assemblage est une étape de réplication tardive vitale pour un virus et est souvent accompli par lequel des éléments suivants?,virology,"['Utilisation de l'échafaudage cellulaire dans le noyau et le cytoplasme', 'Prise de lipides et de membranes cellulaires', 'Le plan directeur intégré dans le génome viral', 'Interactions aléatoires entre les protéines cellulaires et virales']",0,"Question: L'assemblage est une étape de réplication tardive vitale pour un virus et est souvent accompli par lequel des éléments suivants?
+
+Choix: ['Utilisation de l'échafaudage cellulaire dans le noyau et le cytoplasme', 'Prise de lipides et de membranes cellulaires', 'Le plan directeur intégré dans le génome viral', 'Interactions aléatoires entre les protéines cellulaires et virales']
+
+Réponse: Utilisation de l'échafaudage cellulaire dans le noyau et le cytoplasme"
+Le plus grand facteur déterminant de la transmission du VIH au nourrisson est:,virology,"['Âge de la mère', 'Charge virale de la mère', 'Statut immunitaire de la mère', 'La charge virale du père']",1,"Question: Le plus grand facteur déterminant de la transmission du VIH au nourrisson est:
+
+Choix: ['Âge de la mère', 'Charge virale de la mère', 'Statut immunitaire de la mère', 'La charge virale du père']
+
+Réponse: Charge virale de la mère"
+Que nous dit le nombre de reproduction d'un virus ?,virology,"['Quelle sera la virulence de l'infection ?', 'Combien de personnes vont mourir ?', 'Combien de contacts seront infectés par un cas ?', 'Quelle est la durée de la 'période d'incubation' ?']",2,"Question: Que nous dit le nombre de reproduction d'un virus ?
+
+Choix: ['Quelle sera la virulence de l'infection ?', 'Combien de personnes vont mourir ?', 'Combien de contacts seront infectés par un cas ?', 'Quelle est la durée de la 'période d'incubation' ?']
+
+Réponse: Combien de contacts seront infectés par un cas ?"
+La PrEP est la plus efficace pour quel groupe:,virology,"['Hommes ayant fréquemment des rapports sexuels non protégés', 'Hommes ayant rarement des rapports sexuels non protégés', 'Femmes ayant fréquemment des rapports sexuels non protégés', 'Femmes ayant rarement des rapports sexuels non protégés']",0,"Question: La PrEP est la plus efficace pour quel groupe:
+
+Choix: ['Hommes ayant fréquemment des rapports sexuels non protégés', 'Hommes ayant rarement des rapports sexuels non protégés', 'Femmes ayant fréquemment des rapports sexuels non protégés', 'Femmes ayant rarement des rapports sexuels non protégés']
+
+Réponse: Hommes ayant fréquemment des rapports sexuels non protégés"
+Une caractéristique particulière de l'immunité adaptative est:,virology,"['Vitesse de réponse à une protéine étrangère', 'Capacité à distinguer le soi du non-soi', 'Capacité à distinguer les virus et les bactéries', 'Mémoire courte']",1,"Question: Une caractéristique particulière de l'immunité adaptative est:
+
+Choix: ['Vitesse de réponse à une protéine étrangère', 'Capacité à distinguer le soi du non-soi', 'Capacité à distinguer les virus et les bactéries', 'Mémoire courte']
+
+Réponse: Capacité à distinguer le soi du non-soi"
+En ce qui concerne l'éventail des maladies causées par des virus:,virology,"['Chaque membre de la 'famille' provoque la même maladie.', 'Les membres de nombreuses familles peuvent provoquer le même type de maladie.', 'La plupart des maladies virales sont maintenant contrôlées par des vaccins.', 'La plupart des virus peuvent traverser le placenta et être tératogènes.']",1,"Question: En ce qui concerne l'éventail des maladies causées par des virus:
+
+Choix: ['Chaque membre de la 'famille' provoque la même maladie.', 'Les membres de nombreuses familles peuvent provoquer le même type de maladie.', 'La plupart des maladies virales sont maintenant contrôlées par des vaccins.', 'La plupart des virus peuvent traverser le placenta et être tératogènes.']
+
+Réponse: Les membres de nombreuses familles peuvent provoquer le même type de maladie."
+Quelle est l'exception dans la gamme suivante de symptômes de maladie causés par les bunyavirus?,virology,"['Les pneumonies', 'Fièvre hémorragique', 'Infection par le virus de l' hépatite', 'Insuffisance rénale']",3,"Question: Quelle est l'exception dans la gamme suivante de symptômes de maladie causés par les bunyavirus?
+
+Choix: ['Les pneumonies', 'Fièvre hémorragique', 'Infection par le virus de l' hépatite', 'Insuffisance rénale']
+
+Réponse: Insuffisance rénale"
+Il n'existe pas de vaccin contre le VIH à cause de laquelle des raisons suivantes?,virology,"['Le virus est tellement antigéniquement variable', 'Un tel vaccin serait trop coûteux.', 'Le virus peut être contrôlé par un changement dans les habitudes sexuelles.', 'La latence peut annuler tout effet du vaccin.']",1,"Question: Il n'existe pas de vaccin contre le VIH à cause de laquelle des raisons suivantes?
+
+Choix: ['Le virus est tellement antigéniquement variable', 'Un tel vaccin serait trop coûteux.', 'Le virus peut être contrôlé par un changement dans les habitudes sexuelles.', 'La latence peut annuler tout effet du vaccin.']
+
+Réponse: Un tel vaccin serait trop coûteux."
+Les exigences d'un système de surveillance efficace comprennent:,virology,"['Un algorithme de diagnostic', 'Membres du personnel', 'Un cadre d'échantillonnage', 'Tout ce qui précède']",3,"Question: Les exigences d'un système de surveillance efficace comprennent:
+
+Choix: ['Un algorithme de diagnostic', 'Membres du personnel', 'Un cadre d'échantillonnage', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+Le MERS a quatre caractéristiques particulières et ici nous avons une exception - quelle est-elle ?,virology,"['Se propage par voie orale fécale', 'Transmission par gouttelettes d'aérosol', 'Réservoir chez les chauves-souris', 'Une voie d'accès aux humains par l'intermédiaire des chameaux.']",2,"Question: Le MERS a quatre caractéristiques particulières et ici nous avons une exception - quelle est-elle ?
+
+Choix: ['Se propage par voie orale fécale', 'Transmission par gouttelettes d'aérosol', 'Réservoir chez les chauves-souris', 'Une voie d'accès aux humains par l'intermédiaire des chameaux.']
+
+Réponse: Réservoir chez les chauves-souris"
+Les principaux bénéficiaires de Medicaid aux États-Unis sont:,virology,"['Les hommes célibataires', 'Les personnes âgées', 'Les femmes et les enfants', 'Résidents sans papiers']",2,"Question: Les principaux bénéficiaires de Medicaid aux États-Unis sont:
+
+Choix: ['Les hommes célibataires', 'Les personnes âgées', 'Les femmes et les enfants', 'Résidents sans papiers']
+
+Réponse: Les femmes et les enfants"
+Lequel des éléments suivants est le plus important pour contrôler les maladies causées par le norovirus?,virology,"['Un vaccin contre le norovirus', 'Attention au lavage des mains et à l'hygiène', 'Quarantaine', 'Nouveaux médicaments antiviraux']",1,"Question: Lequel des éléments suivants est le plus important pour contrôler les maladies causées par le norovirus?
+
+Choix: ['Un vaccin contre le norovirus', 'Attention au lavage des mains et à l'hygiène', 'Quarantaine', 'Nouveaux médicaments antiviraux']
+
+Réponse: Attention au lavage des mains et à l'hygiène"
+Pourquoi la réponse vigoureuse des cellules CD8 chez les séropositifs chroniques ne parvient- elle pas à éliminer le virus?,virology,"['Épuisement de la CTL', 'Évacuation de l'épitope', 'CTL sous-optimale', 'Absence de cellules dendritiques']",1,"Question: Pourquoi la réponse vigoureuse des cellules CD8 chez les séropositifs chroniques ne parvient- elle pas à éliminer le virus?
+
+Choix: ['Épuisement de la CTL', 'Évacuation de l'épitope', 'CTL sous-optimale', 'Absence de cellules dendritiques']
+
+Réponse: Évacuation de l'épitope"
+Le rétrovirus le plus répandu et le plus important est le VIH-1; laquelle des affirmations suivantes est vraie ?,virology,"['Elle n' infecte que les homosexuels .', 'Infectant uniquement les mâles', 'Elle infecte tous les pays du monde.', 'Infectant uniquement les femelles']",0,"Question: Le rétrovirus le plus répandu et le plus important est le VIH-1; laquelle des affirmations suivantes est vraie ?
+
+Choix: ['Elle n' infecte que les homosexuels .', 'Infectant uniquement les mâles', 'Elle infecte tous les pays du monde.', 'Infectant uniquement les femelles']
+
+Réponse: Elle n' infecte que les homosexuels ."
+La première cellule immunitaire acquise à réagir de manière défensive à l'infection par le VIH est:,virology,"['CD4 et plus', 'CD8 et plus', 'Le CD57', 'Cellules NK']",1,"Question: La première cellule immunitaire acquise à réagir de manière défensive à l'infection par le VIH est:
+
+Choix: ['CD4 et plus', 'CD8 et plus', 'Le CD57', 'Cellules NK']
+
+Réponse: CD8 et plus"
+Laquelle des caractéristiques suivantes est une caractéristique particulière du vaccin antirabique?,virology,"['Le vaccin n'a pas changé depuis l'époque de L. Pasteur.', 'La moelle épinière séchée à l'air d'origine des lapins infectés était un vaccin tué', 'Le vaccin a encore besoin de 16 doses administrées dans la cavité péritonéale.', 'Le vaccin moderne contre la rage est cultivé dans des cellules diploïdes humaines issues d'un embryon avorté.']",1,"Question: Laquelle des caractéristiques suivantes est une caractéristique particulière du vaccin antirabique?
+
+Choix: ['Le vaccin n'a pas changé depuis l'époque de L. Pasteur.', 'La moelle épinière séchée à l'air d'origine des lapins infectés était un vaccin tué', 'Le vaccin a encore besoin de 16 doses administrées dans la cavité péritonéale.', 'Le vaccin moderne contre la rage est cultivé dans des cellules diploïdes humaines issues d'un embryon avorté.']
+
+Réponse: La moelle épinière séchée à l'air d'origine des lapins infectés était un vaccin tué"
+La plupart des vaccins viraux sont produits par laquelle des techniques suivantes?,virology,"['Culture cellulaire traditionnelle', 'Biologie moléculaire', 'Tissus d'animaux in vitro', 'VLP (particules ressemblant à des virus)']",1,"Question: La plupart des vaccins viraux sont produits par laquelle des techniques suivantes?
+
+Choix: ['Culture cellulaire traditionnelle', 'Biologie moléculaire', 'Tissus d'animaux in vitro', 'VLP (particules ressemblant à des virus)']
+
+Réponse: Biologie moléculaire"
+Le traitement de l'hépatite C a été révolutionné plus récemment par lequel des éléments suivants?,virology,"['L'utilisation de l'interféron', 'Un nouveau vaccin', 'Anticorps monoclonaux', 'Antiviraux à action directe tels que le daclatasvir et le sofosbuvir']",0,"Question: Le traitement de l'hépatite C a été révolutionné plus récemment par lequel des éléments suivants?
+
+Choix: ['L'utilisation de l'interféron', 'Un nouveau vaccin', 'Anticorps monoclonaux', 'Antiviraux à action directe tels que le daclatasvir et le sofosbuvir']
+
+Réponse: L'utilisation de l'interféron"
+"Ces dernières années, le chikungunya s'est largement répandu de l'Asie et de l'Afrique vers les Caraïbes.",virology,"['Mutation du virus permettant la réplication chez le moustique Aedes albopictus', 'Voyage aérien', 'Le changement climatique', 'Une mauvaise lutte contre les moustiques et l'absence de TNT']",0,"Question: Ces dernières années, le chikungunya s'est largement répandu de l'Asie et de l'Afrique vers les Caraïbes.
+
+Choix: ['Mutation du virus permettant la réplication chez le moustique Aedes albopictus', 'Voyage aérien', 'Le changement climatique', 'Une mauvaise lutte contre les moustiques et l'absence de TNT']
+
+Réponse: Mutation du virus permettant la réplication chez le moustique Aedes albopictus"
+Le vaccin contre le VPH anticancéreux efficace se compose de:,virology,"['Virus vivant atténué par mutagénèse spécifique', 'Vaccin inactivé chimiquement contre le virus entier', 'Auto-assemblage de la protéine L1 du virus dans le VLP', 'Sous-unité vaccin chimiquement inactivé']",0,"Question: Le vaccin contre le VPH anticancéreux efficace se compose de:
+
+Choix: ['Virus vivant atténué par mutagénèse spécifique', 'Vaccin inactivé chimiquement contre le virus entier', 'Auto-assemblage de la protéine L1 du virus dans le VLP', 'Sous-unité vaccin chimiquement inactivé']
+
+Réponse: Virus vivant atténué par mutagénèse spécifique"
+Le rotavirus est une cause importante de laquelle des maladies suivantes?,virology,"['Infection des voies respiratoires chez l' adulte', 'Gastro-entérite chez les enfants', 'Diarrhée et vomissements chez l' adulte', 'Le cancer']",1,"Question: Le rotavirus est une cause importante de laquelle des maladies suivantes?
+
+Choix: ['Infection des voies respiratoires chez l' adulte', 'Gastro-entérite chez les enfants', 'Diarrhée et vomissements chez l' adulte', 'Le cancer']
+
+Réponse: Gastro-entérite chez les enfants"
+La stratégie d'essai de surveillance associée au biais de sélection le plus faible est la suivante:,virology,"['Obligatoire', 'Anonyme sans lien', 'Anonyme volontaire', 'Confidentialité volontaire']",0,"Question: La stratégie d'essai de surveillance associée au biais de sélection le plus faible est la suivante:
+
+Choix: ['Obligatoire', 'Anonyme sans lien', 'Anonyme volontaire', 'Confidentialité volontaire']
+
+Réponse: Obligatoire"
+"Dans une classe de médecine de 147 étudiants la répartition des scores d'un examen final de biochimie a une moyenne égale à 67 une médiane égale à 76 un mode égal à 80 un écart type égal à 5,5 et une variance égale à 30,25 Trois étudiants n'ont pas pu passer l'examen à la date prévue et ont été soumis à une autre forme d'examen une semaine plus tard. Quel paramètre est le plus susceptible d'être l'estimateur le moins biaisé de la tendance centrale pour cette distribution des résultats des tests de biochimie?",virology,"['La méchanceté', 'Médiane', 'Mode de fonctionnement', 'Déviation type']",0,"Question: Dans une classe de médecine de 147 étudiants la répartition des scores d'un examen final de biochimie a une moyenne égale à 67 une médiane égale à 76 un mode égal à 80 un écart type égal à 5,5 et une variance égale à 30,25 Trois étudiants n'ont pas pu passer l'examen à la date prévue et ont été soumis à une autre forme d'examen une semaine plus tard. Quel paramètre est le plus susceptible d'être l'estimateur le moins biaisé de la tendance centrale pour cette distribution des résultats des tests de biochimie?
+
+Choix: ['La méchanceté', 'Médiane', 'Mode de fonctionnement', 'Déviation type']
+
+Réponse: La méchanceté"
+Quelle maladie n'est pas causée par les virus de l'herpès ?,virology,"['Paralysie infantile', 'Infection cérébrale', 'Maladies sexuellement transmissibles', 'Le cancer']",0,"Question: Quelle maladie n'est pas causée par les virus de l'herpès ?
+
+Choix: ['Paralysie infantile', 'Infection cérébrale', 'Maladies sexuellement transmissibles', 'Le cancer']
+
+Réponse: Paralysie infantile"
+L'objectif d'une étude en double aveugle ou en double masque est de:,virology,"['Atteindre la comparabilité des sujets traités et non traités', 'Réduire les effets de la variation de l'échantillonnage', 'Évitez le biais de l'observateur et du sujet', 'Éviter le biais de l'observateur et la variation de l'échantillonnage']",1,"Question: L'objectif d'une étude en double aveugle ou en double masque est de:
+
+Choix: ['Atteindre la comparabilité des sujets traités et non traités', 'Réduire les effets de la variation de l'échantillonnage', 'Évitez le biais de l'observateur et du sujet', 'Éviter le biais de l'observateur et la variation de l'échantillonnage']
+
+Réponse: Réduire les effets de la variation de l'échantillonnage"
+Le Nipah est un paramyxovirus zoonotique; d'où est-il originaire ?,virology,"['Originaires des porcs', 'Originaires des chauves-souris', 'Venant des humains', 'Ça vient des chevaux .']",2,"Question: Le Nipah est un paramyxovirus zoonotique; d'où est-il originaire ?
+
+Choix: ['Originaires des porcs', 'Originaires des chauves-souris', 'Venant des humains', 'Ça vient des chevaux .']
+
+Réponse: Venant des humains"
+Quelle est la structure du génome de la famille des polyomavirus ?,virology,"['ADN ds circulaire avec des régions codantes de l'antigène T', 'L'ADN de type circulaire', 'Génome de l'ARN avec RT', 'Génome d'ARN segmenté']",2,"Question: Quelle est la structure du génome de la famille des polyomavirus ?
+
+Choix: ['ADN ds circulaire avec des régions codantes de l'antigène T', 'L'ADN de type circulaire', 'Génome de l'ARN avec RT', 'Génome d'ARN segmenté']
+
+Réponse: Génome de l'ARN avec RT"
+Les interférons sont des mécanismes de défense très particuliers qui fonctionnent par:,virology,"['Lien avec les virus', 'Lien avec les cellules voisines', 'Produire un état de résistance de longue durée', 'Inhibiteur des enzymes induites par les virus']",1,"Question: Les interférons sont des mécanismes de défense très particuliers qui fonctionnent par:
+
+Choix: ['Lien avec les virus', 'Lien avec les cellules voisines', 'Produire un état de résistance de longue durée', 'Inhibiteur des enzymes induites par les virus']
+
+Réponse: Lien avec les cellules voisines"
+Quelles sont les caractéristiques génétiques de la famille des bunyavirus?,virology,"['Trois virus à ARN négatif segmenté avec expression anti-sens', 'Virus à ARN hautement mutables', 'Virus émergents par vecteur d'arthropodes', 'Utiliser une enzyme RT']",0,"Question: Quelles sont les caractéristiques génétiques de la famille des bunyavirus?
+
+Choix: ['Trois virus à ARN négatif segmenté avec expression anti-sens', 'Virus à ARN hautement mutables', 'Virus émergents par vecteur d'arthropodes', 'Utiliser une enzyme RT']
+
+Réponse: Trois virus à ARN négatif segmenté avec expression anti-sens"
+"Le code de base de la recherche éthique (respect des personnes, bienfaisance et justice) a été établi pour la première fois par:",virology,"['Le code de Nuremberg', 'Déclaration d'Helsinki', 'Le CIOMS', 'Le rapport Belmont']",3,"Question: Le code de base de la recherche éthique (respect des personnes, bienfaisance et justice) a été établi pour la première fois par:
+
+Choix: ['Le code de Nuremberg', 'Déclaration d'Helsinki', 'Le CIOMS', 'Le rapport Belmont']
+
+Réponse: Le rapport Belmont"
+Quelle stratégie la famille des paramyxovirus utilise- t- elle pour s'infiltrer?,virology,"['Initier une fusion 'de l'extérieur' en utilisant la protéine F du virus', 'A fusion à l'intérieur d'une vacuole cytoplasmique à faible pH', 'Les virus peuvent perforer les membranes plasmatiques à leur entrée.', 'Une fusion médiée par la protéine M']",3,"Question: Quelle stratégie la famille des paramyxovirus utilise- t- elle pour s'infiltrer?
+
+Choix: ['Initier une fusion 'de l'extérieur' en utilisant la protéine F du virus', 'A fusion à l'intérieur d'une vacuole cytoplasmique à faible pH', 'Les virus peuvent perforer les membranes plasmatiques à leur entrée.', 'Une fusion médiée par la protéine M']
+
+Réponse: Une fusion médiée par la protéine M"
+Le risque de contracter le VIH à partir d'une unité de sang aux États-Unis est maintenant:,virology,"['1/10 000 unités', '1/200 000 unités', 'Unité de 1/500 000', '1 pour 2 millions d'unités']",3,"Question: Le risque de contracter le VIH à partir d'une unité de sang aux États-Unis est maintenant:
+
+Choix: ['1/10 000 unités', '1/200 000 unités', 'Unité de 1/500 000', '1 pour 2 millions d'unités']
+
+Réponse: 1 pour 2 millions d'unités"
+Quelle est la pathologie essentielle des astrovirus ?,virology,"['Réplication très limitée dans l'intestin', 'Peut provoquer une infection du système nerveux central', 'La diversité des séquences permet une réplication généralisée', 'Peut provoquer une infection des voies respiratoires supérieures']",0,"Question: Quelle est la pathologie essentielle des astrovirus ?
+
+Choix: ['Réplication très limitée dans l'intestin', 'Peut provoquer une infection du système nerveux central', 'La diversité des séquences permet une réplication généralisée', 'Peut provoquer une infection des voies respiratoires supérieures']
+
+Réponse: Réplication très limitée dans l'intestin"
+Quels sont les objectifs de la vaccination?,virology,"['Prévenir l'infection', 'Prévenir les maladies', 'Prévenir la transmission', 'Tout ce qui précède']",3,"Question: Quels sont les objectifs de la vaccination?
+
+Choix: ['Prévenir l'infection', 'Prévenir les maladies', 'Prévenir la transmission', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+La randomisation des sujets d'étude dans un essai clinique est la plus utile pour contrôler lequel des éléments suivants?,virology,"['Effet placebo', 'Préjugé de rappel', 'Non-conformité', 'Modification de l'effet (interaction)']",0,"Question: La randomisation des sujets d'étude dans un essai clinique est la plus utile pour contrôler lequel des éléments suivants?
+
+Choix: ['Effet placebo', 'Préjugé de rappel', 'Non-conformité', 'Modification de l'effet (interaction)']
+
+Réponse: Effet placebo"
+Un virus quasi-espèce comme la grippe et le VIH a quelles des caractéristiques suivantes?,virology,"['Un génome fragmenté ou segmenté', 'Coexistence d'innombrables variantes génétiques', 'Possède de l'ARN et de l'ADN', 'Un génome très volumineux']",1,"Question: Un virus quasi-espèce comme la grippe et le VIH a quelles des caractéristiques suivantes?
+
+Choix: ['Un génome fragmenté ou segmenté', 'Coexistence d'innombrables variantes génétiques', 'Possède de l'ARN et de l'ADN', 'Un génome très volumineux']
+
+Réponse: Coexistence d'innombrables variantes génétiques"
+Quelles sont les caractéristiques suivantes des virus à ARN stratifié positif?,virology,"['Leur ARN génomique peut être traduit directement en ARNm', 'Ils doivent transcrire leur ARN génomique à une copie d'image miroir comme un ARNm', 'Ce génome est circulaire.', 'Leur génome ARN est segmenté']",0,"Question: Quelles sont les caractéristiques suivantes des virus à ARN stratifié positif?
+
+Choix: ['Leur ARN génomique peut être traduit directement en ARNm', 'Ils doivent transcrire leur ARN génomique à une copie d'image miroir comme un ARNm', 'Ce génome est circulaire.', 'Leur génome ARN est segmenté']
+
+Réponse: Leur ARN génomique peut être traduit directement en ARNm"
+Quelle est la structure génétique du rotavirus ?,virology,"['ADN circulaire contenant un virus', 'Virus à ARN avec RT', 'virus à ARN ds', 'virus à ARN ds en segments']",1,"Question: Quelle est la structure génétique du rotavirus ?
+
+Choix: ['ADN circulaire contenant un virus', 'Virus à ARN avec RT', 'virus à ARN ds', 'virus à ARN ds en segments']
+
+Réponse: Virus à ARN avec RT"
+Sont ou ont été des virus:,virology,"['La forme de vie la plus abondante sur terre ?', 'Découvert avant les bactéries ?', 'Cultivé sur des animaux en laboratoire ?', 'La cause de toutes les maladies humaines ?']",0,"Question: Sont ou ont été des virus:
+
+Choix: ['La forme de vie la plus abondante sur terre ?', 'Découvert avant les bactéries ?', 'Cultivé sur des animaux en laboratoire ?', 'La cause de toutes les maladies humaines ?']
+
+Réponse: La forme de vie la plus abondante sur terre ?"
+"Il est peu probable qu'une ""guérison"" du VIH soit possible avec les médicaments actuels parce que:",virology,"['Même en combinaison, les médicaments actuels ne bloquent pas complètement la réplication virale.', 'Ils ne pénètrent pas dans les cellules.', 'Ils ne peuvent pas bloquer la transcription virale de l'ADN viral intégré', 'Ils ne peuvent pas pénétrer le SNC']",1,"Question: Il est peu probable qu'une ""guérison"" du VIH soit possible avec les médicaments actuels parce que:
+
+Choix: ['Même en combinaison, les médicaments actuels ne bloquent pas complètement la réplication virale.', 'Ils ne pénètrent pas dans les cellules.', 'Ils ne peuvent pas bloquer la transcription virale de l'ADN viral intégré', 'Ils ne peuvent pas pénétrer le SNC']
+
+Réponse: Ils ne pénètrent pas dans les cellules."
+Quels virus semblent être hypermutables ?,virology,"['Virus à ADN', 'Virus émergents', 'La grippe et le VIH', 'Virus à ARN']",3,"Question: Quels virus semblent être hypermutables ?
+
+Choix: ['Virus à ADN', 'Virus émergents', 'La grippe et le VIH', 'Virus à ARN']
+
+Réponse: Virus à ARN"
+Comment les infections à l'herpès sont-elles contrôlées?,virology,"['La chimiothérapie', 'Les vaccins', 'Hygiène et distanciation sociale', 'Aucune méthode']",0,"Question: Comment les infections à l'herpès sont-elles contrôlées?
+
+Choix: ['La chimiothérapie', 'Les vaccins', 'Hygiène et distanciation sociale', 'Aucune méthode']
+
+Réponse: La chimiothérapie"
+"Un nouveau médicament ayant une activité in vitro contre le VIH est testé sur une population de patients atteints d'infections à VIH confirmées par Western-blot Sur les 200 individus de la population de patients, 100 sont choisis au tirage au sort pour recevoir le médicament. Le médicament, sans goût, est administré dans une tasse de jus d'orange; les autres patients reçoivent du jus d'orange pur. Ni les infirmières, ni les médecins, ni les patients ne savent quels patients reçoivent le médicament. À la fin de la période d'étude, le nombre de cellules T CD4+ est déterminé pour tous les sujets. Il s'agit d'un exemple de",virology,"['Étude de cas et de contrôle', 'Rapport de l'affaire', 'Étude de cohorte', 'Étude transversale']",0,"Question: Un nouveau médicament ayant une activité in vitro contre le VIH est testé sur une population de patients atteints d'infections à VIH confirmées par Western-blot Sur les 200 individus de la population de patients, 100 sont choisis au tirage au sort pour recevoir le médicament. Le médicament, sans goût, est administré dans une tasse de jus d'orange; les autres patients reçoivent du jus d'orange pur. Ni les infirmières, ni les médecins, ni les patients ne savent quels patients reçoivent le médicament. À la fin de la période d'étude, le nombre de cellules T CD4+ est déterminé pour tous les sujets. Il s'agit d'un exemple de
+
+Choix: ['Étude de cas et de contrôle', 'Rapport de l'affaire', 'Étude de cohorte', 'Étude transversale']
+
+Réponse: Étude de cas et de contrôle"
+"Quel est le vaccin de ""voyage"" le plus efficace et le plus largement utilisé pour les visiteurs internationaux?",virology,"['Infection par le virus de la grippe', 'Résistant à l'humidité', 'Fièvre jaune', 'La rage']",1,"Question: Quel est le vaccin de ""voyage"" le plus efficace et le plus largement utilisé pour les visiteurs internationaux?
+
+Choix: ['Infection par le virus de la grippe', 'Résistant à l'humidité', 'Fièvre jaune', 'La rage']
+
+Réponse: Résistant à l'humidité"
+C'est quoi une pandémie de virus ?,virology,"['Une épidémie aiguë et rapide impliquant plus d'un pays', 'Une épidémie qui se répète encore et encore', 'Une épidémie mondiale rapide à partir d'un seul foyer', 'Une caractéristique du virus du rhume et du VIH']",2,"Question: C'est quoi une pandémie de virus ?
+
+Choix: ['Une épidémie aiguë et rapide impliquant plus d'un pays', 'Une épidémie qui se répète encore et encore', 'Une épidémie mondiale rapide à partir d'un seul foyer', 'Une caractéristique du virus du rhume et du VIH']
+
+Réponse: Une épidémie mondiale rapide à partir d'un seul foyer"
+Les avantages de la thérapie de substitution aux opioïdes en tant qu'approche de prévention du VIH comprennent:,virology,"['Réduire le désir et la consommation d'opioïdes illicites', 'Plus de partage de l'équipement d'injection', 'Réduire la fréquence de la consommation de drogues injectables', 'Les deux a et c']",3,"Question: Les avantages de la thérapie de substitution aux opioïdes en tant qu'approche de prévention du VIH comprennent:
+
+Choix: ['Réduire le désir et la consommation d'opioïdes illicites', 'Plus de partage de l'équipement d'injection', 'Réduire la fréquence de la consommation de drogues injectables', 'Les deux a et c']
+
+Réponse: Les deux a et c"
+Quelles sont les caractéristiques génétiques des virus du papillome?,virology,"['Un génome de ds ADN circulaire codant autour de 8 ORF', 'Un virus avec RT capable de s'intégrer et de causer le cancer', 'Un virus à ARN ds variable', 'Un grand ADN contenant un virus']",0,"Question: Quelles sont les caractéristiques génétiques des virus du papillome?
+
+Choix: ['Un génome de ds ADN circulaire codant autour de 8 ORF', 'Un virus avec RT capable de s'intégrer et de causer le cancer', 'Un virus à ARN ds variable', 'Un grand ADN contenant un virus']
+
+Réponse: Un génome de ds ADN circulaire codant autour de 8 ORF"
+"Dans le cadre de l' étude sur la santé des femmes, les chercheurs ont étudié le rôle de l' inflammation systémique dans la prédiction des maladies cardiovasculaires chez les femmes (N Engl J Med 2002;347[20]:1557 à 1565) Les chercheurs ont utilisé une conception d'étude prospective avec un échantillon de grande taille. Les taux sanguins de protéine C-réactive (PCR) ont été mesurés au départ et les femmes ont été suivies pendant une moyenne de 8 ans. Le tableau suivant montre les estimations du risque relatif d'événement cardiovasculaire (attaque cardiaque ou accident vasculaire cérébral) dans les 5 ans par quintile de niveau de PCR pour les 30 000 femmes. Le premier quintile est utilisé comme catégorie de référence 1 0,49 mg/dl Risque relatif Nombre de femmes 1,0 6000 2 > 0,49 à 1,08 mg/dl 1,8 6000 Quintile de PCR Niveau 3 > 1,08 à 2,09 mg/dl 2,3 6000 4 > 2,09 à 4,19 mg/dl 3,2 6000 5 > 4,19 mg/dl 4,5 6000 Basé sur les données relatives au risque ci-dessus On peut en conclure:",virology,"['Il n'y a pas de risque de crise cardiaque/accident vasculaire cérébral chez les femmes dont les taux de PCR se situent dans le premier quintile.', 'La diminution du taux de CRP semble augmenter le risque de crise cardiaque/AVC.', 'L' augmentation du taux de PCR semble augmenter le risque de crise cardiaque/accident vasculaire cérébral.', 'Il ne semble pas y avoir d'association entre les taux de CRP et les crises cardiaques/ accidents vasculaires cérébraux.']",0,"Question: Dans le cadre de l' étude sur la santé des femmes, les chercheurs ont étudié le rôle de l' inflammation systémique dans la prédiction des maladies cardiovasculaires chez les femmes (N Engl J Med 2002;347[20]:1557 à 1565) Les chercheurs ont utilisé une conception d'étude prospective avec un échantillon de grande taille. Les taux sanguins de protéine C-réactive (PCR) ont été mesurés au départ et les femmes ont été suivies pendant une moyenne de 8 ans. Le tableau suivant montre les estimations du risque relatif d'événement cardiovasculaire (attaque cardiaque ou accident vasculaire cérébral) dans les 5 ans par quintile de niveau de PCR pour les 30 000 femmes. Le premier quintile est utilisé comme catégorie de référence 1 0,49 mg/dl Risque relatif Nombre de femmes 1,0 6000 2 > 0,49 à 1,08 mg/dl 1,8 6000 Quintile de PCR Niveau 3 > 1,08 à 2,09 mg/dl 2,3 6000 4 > 2,09 à 4,19 mg/dl 3,2 6000 5 > 4,19 mg/dl 4,5 6000 Basé sur les données relatives au risque ci-dessus On peut en conclure:
+
+Choix: ['Il n'y a pas de risque de crise cardiaque/accident vasculaire cérébral chez les femmes dont les taux de PCR se situent dans le premier quintile.', 'La diminution du taux de CRP semble augmenter le risque de crise cardiaque/AVC.', 'L' augmentation du taux de PCR semble augmenter le risque de crise cardiaque/accident vasculaire cérébral.', 'Il ne semble pas y avoir d'association entre les taux de CRP et les crises cardiaques/ accidents vasculaires cérébraux.']
+
+Réponse: Il n'y a pas de risque de crise cardiaque/accident vasculaire cérébral chez les femmes dont les taux de PCR se situent dans le premier quintile."
+Quelle est la morphologie de la particule Dane ?,virology,"['icosaèdre à double coquille', 'Icosahèdre sans membrane lipidique', 'Morphologie souple et filamenteuse', 'Beaucoup de petites particules']",2,"Question: Quelle est la morphologie de la particule Dane ?
+
+Choix: ['icosaèdre à double coquille', 'Icosahèdre sans membrane lipidique', 'Morphologie souple et filamenteuse', 'Beaucoup de petites particules']
+
+Réponse: Morphologie souple et filamenteuse"
+Quelle est la caractéristique structurelle unique de l'adénovirus virion ?,virology,"['Icosahèdre', 'Icosaèdre avec des fibres fines', 'Structure 'complexe' pas encore entièrement explorée', 'Structure souple contenant des lipides']",1,"Question: Quelle est la caractéristique structurelle unique de l'adénovirus virion ?
+
+Choix: ['Icosahèdre', 'Icosaèdre avec des fibres fines', 'Structure 'complexe' pas encore entièrement explorée', 'Structure souple contenant des lipides']
+
+Réponse: Icosaèdre avec des fibres fines"
+Une ville a une population de 250 000 cas et 400 décès chaque année de cette maladie. Il y a 2 500 décès par an de toutes causes. La prévalence de cette maladie est donnée par,virology,"['400 à 250 000', '600 contre 250 000', '1 000 contre 250 000', '2 500 contre 250 000']",3,"Question: Une ville a une population de 250 000 cas et 400 décès chaque année de cette maladie. Il y a 2 500 décès par an de toutes causes. La prévalence de cette maladie est donnée par
+
+Choix: ['400 à 250 000', '600 contre 250 000', '1 000 contre 250 000', '2 500 contre 250 000']
+
+Réponse: 2 500 contre 250 000"
+Quelle est la forme unique du virus de la rage?,virology,"['Le virion a l'aspect d'une haltère', 'Il a la forme d' une balle d' un fusil .', 'Le virus est en forme d' étoile .', 'Le virion est très pléomorphe.']",3,"Question: Quelle est la forme unique du virus de la rage?
+
+Choix: ['Le virion a l'aspect d'une haltère', 'Il a la forme d' une balle d' un fusil .', 'Le virus est en forme d' étoile .', 'Le virion est très pléomorphe.']
+
+Réponse: Le virion est très pléomorphe."
+Laquelle des maladies suivantes n'est pas causée par les togavirus?,virology,"['Nom de l'espèce:', 'Rubéole (rougeole allemande)', 'L'encéphalite équine occidentale', 'Fièvre jaune']",3,"Question: Laquelle des maladies suivantes n'est pas causée par les togavirus?
+
+Choix: ['Nom de l'espèce:', 'Rubéole (rougeole allemande)', 'L'encéphalite équine occidentale', 'Fièvre jaune']
+
+Réponse: Fièvre jaune"
+Pourquoi les virus de cette famille sont- ils appelés astrovirus?,virology,"['En raison de la séquence nucléotidique de leurs génomes', 'L'apparence superficielle d'une 'étoile' sur une microscopie électronique à contrainte négative', 'En raison de l'isolement dans un très grand nombre de mammifères, y compris les dromadaires, les chats et les bovins', 'Parce qu'elles sont plus courantes dans les pays en développement où l'hygiène est médiocre.']",1,"Question: Pourquoi les virus de cette famille sont- ils appelés astrovirus?
+
+Choix: ['En raison de la séquence nucléotidique de leurs génomes', 'L'apparence superficielle d'une 'étoile' sur une microscopie électronique à contrainte négative', 'En raison de l'isolement dans un très grand nombre de mammifères, y compris les dromadaires, les chats et les bovins', 'Parce qu'elles sont plus courantes dans les pays en développement où l'hygiène est médiocre.']
+
+Réponse: L'apparence superficielle d'une ""étoile"" sur une microscopie électronique à contrainte négative"
+Pourquoi des virus émergents comme Zika et Ebola continuent-ils à nous tourmenter ?,virology,"['Ces virus mutent et émergent ainsi', 'Nous troublons les forêts où elles existent tranquillement comme une zoonose.', 'Les moustiques sont les principaux responsables de la propagation du virus.', 'Les virus peuvent être arrêtés par de nouveaux vaccins.']",1,"Question: Pourquoi des virus émergents comme Zika et Ebola continuent-ils à nous tourmenter ?
+
+Choix: ['Ces virus mutent et émergent ainsi', 'Nous troublons les forêts où elles existent tranquillement comme une zoonose.', 'Les moustiques sont les principaux responsables de la propagation du virus.', 'Les virus peuvent être arrêtés par de nouveaux vaccins.']
+
+Réponse: Nous troublons les forêts où elles existent tranquillement comme une zoonose."
