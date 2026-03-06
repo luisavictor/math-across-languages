@@ -7,6 +7,10 @@ import matplotlib.pyplot as plt
 
 _LAYER_RE = re.compile(r"^layers\.(\d+)$")
 
+def compute_chance_jaccard(top_k):
+    return (top_k*(1-top_k))/(top_k**2-top_k+2)
+
+
 
 def plot_jaccard_per_good_percent(
     json_path: str | Path,
@@ -115,8 +119,8 @@ def plot_jaccard_per_good_percent(
 
 
 
-plot_jaccard_per_good_percent(
-    f"../MathNeuro/results_jaccard/gsm8k_mmlu_old_vs_code/jaccard_summary.json",
-    save_dir="jaccard_results/gsm8k_mmlu_old_vs_code",
-    show=True,
-)
+# plot_jaccard_per_good_percent(
+#     f"../MathNeuro/results_jaccard/gsm8k_mmlu_old_vs_code/jaccard_summary.json",
+#     save_dir="jaccard_results/gsm8k_mmlu_old_vs_code",
+#     show=True,
+# )
