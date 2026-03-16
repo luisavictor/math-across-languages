@@ -1,0 +1,13 @@
+include: _default_template_yaml
+task: mmlu_fr_miscellaneous
+task_alias: miscellaneous
+
+description: "Les questions suivantes sont des questions à choix multiples (avec réponses) sur le sujet divers.\n\n"
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_French/mmlu_fr_by_subject/miscellaneous.csv
+
+test_split: test
+
+

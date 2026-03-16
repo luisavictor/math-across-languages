@@ -1,0 +1,1326 @@
+question,subject,choices,answer,qa
+Quelle taille de canule utiliseriez-vous chez un patient qui a besoin d'une transfusion sanguine rapide (selon les connaissances médicales de 2020)?,clinical_knowledge,"['Le calibre 18.', 'Un calibre 20.', 'Un calibre 22.', 'Une calibre 24.']",0,"Question: Quelle taille de canule utiliseriez-vous chez un patient qui a besoin d'une transfusion sanguine rapide (selon les connaissances médicales de 2020)?
+
+Choix: ['Le calibre 18.', 'Un calibre 20.', 'Un calibre 22.', 'Une calibre 24.']
+
+Réponse: Le calibre 18."
+L'attribut clé pour réussir un marathon est:,clinical_knowledge,"['La force.', 'Le pouvoir.', 'la longueur de la foulée.', 'C'était de l'endurance.']",3,"Question: L'attribut clé pour réussir un marathon est:
+
+Choix: ['La force.', 'Le pouvoir.', 'la longueur de la foulée.', 'C'était de l'endurance.']
+
+Réponse: C'était de l'endurance."
+Laquelle des causes suivantes est la cause la plus fréquente de démence au Royaume-Uni ?,clinical_knowledge,"['La maladie d'Alzheimer.', 'Maladie cérébrovasculaire (accident vasculaire cérébral).', 'La démence à corps de Lewy.', 'Infection par le VIH.']",0,"Question: Laquelle des causes suivantes est la cause la plus fréquente de démence au Royaume-Uni ?
+
+Choix: ['La maladie d'Alzheimer.', 'Maladie cérébrovasculaire (accident vasculaire cérébral).', 'La démence à corps de Lewy.', 'Infection par le VIH.']
+
+Réponse: La maladie d'Alzheimer."
+Lequel des éléments suivants n'est PAS un symptôme d'anaphylaxie ?,clinical_knowledge,"['Je suis Stridor.', 'Une bradycardie.', 'Une forte respiration sifflante.', 'Une éruption cutanée.']",1,"Question: Lequel des éléments suivants n'est PAS un symptôme d'anaphylaxie ?
+
+Choix: ['Je suis Stridor.', 'Une bradycardie.', 'Une forte respiration sifflante.', 'Une éruption cutanée.']
+
+Réponse: Une bradycardie."
+Dans quelle situation les sachets fermés sont-ils utilisés?,clinical_knowledge,"['Le patient a une sortie semi-formée ou liquide.', 'Le patient a une colostomie.', 'Dans la période post-opératoire immédiate.', 'Le patient a une urostomie.']",1,"Question: Dans quelle situation les sachets fermés sont-ils utilisés?
+
+Choix: ['Le patient a une sortie semi-formée ou liquide.', 'Le patient a une colostomie.', 'Dans la période post-opératoire immédiate.', 'Le patient a une urostomie.']
+
+Réponse: Le patient a une colostomie."
+Avec un nombre croissant de sprints:,clinical_knowledge,"['La contribution anaérobie augmente progressivement.', 'Le pH du muscle est inférieur à 6,0.', 'la concentration de glucose dans le sang est inférieure à 3 mmol/l.', 'augmentation de la contribution relative du métabolisme aérobie.']",3,"Question: Avec un nombre croissant de sprints:
+
+Choix: ['La contribution anaérobie augmente progressivement.', 'Le pH du muscle est inférieur à 6,0.', 'la concentration de glucose dans le sang est inférieure à 3 mmol/l.', 'augmentation de la contribution relative du métabolisme aérobie.']
+
+Réponse: augmentation de la contribution relative du métabolisme aérobie."
+Laquelle des affirmations suivantes est vraie pour la diplopie ?,clinical_knowledge,"['La diplopie ne peut jamais se produire si un œil est couvert.', 'L'image extérieure est toujours la fausse image.', 'Une quatrième paralysie nerveuse se produit lorsque le patient regarde vers le haut.', 'Une paralysie du sixième nerf provoque un strabisme divergent .']",1,"Question: Laquelle des affirmations suivantes est vraie pour la diplopie ?
+
+Choix: ['La diplopie ne peut jamais se produire si un œil est couvert.', 'L'image extérieure est toujours la fausse image.', 'Une quatrième paralysie nerveuse se produit lorsque le patient regarde vers le haut.', 'Une paralysie du sixième nerf provoque un strabisme divergent .']
+
+Réponse: L'image extérieure est toujours la fausse image."
+L'ingestion de bicarbonate de sodium améliore les performances de course sur distance moyenne en:,clinical_knowledge,"['augmentation du pH et de la capacité tampon du fluide extracellulaire permettant un écoulement plus rapide des ions hydrogène des muscles.', 'réduisant le pH et la capacité tampon du fluide extracellulaire permettant un écoulement plus rapide des ions hydrogène du muscle.', 'augmentation du pH et de la capacité tampon du fluide extracellulaire permettant un afflux plus rapide d' ions hydrogène dans le muscle.', 'augmentation du pH musculaire avant l' exercice.']",0,"Question: L'ingestion de bicarbonate de sodium améliore les performances de course sur distance moyenne en:
+
+Choix: ['augmentation du pH et de la capacité tampon du fluide extracellulaire permettant un écoulement plus rapide des ions hydrogène des muscles.', 'réduisant le pH et la capacité tampon du fluide extracellulaire permettant un écoulement plus rapide des ions hydrogène du muscle.', 'augmentation du pH et de la capacité tampon du fluide extracellulaire permettant un afflux plus rapide d' ions hydrogène dans le muscle.', 'augmentation du pH musculaire avant l' exercice.']
+
+Réponse: augmentation du pH et de la capacité tampon du fluide extracellulaire permettant un écoulement plus rapide des ions hydrogène des muscles."
+Les codons sont composés de:,clinical_knowledge,"['des séquences triplet de bases nucléotidiques dans l' ARNm ou l' ADN .', 'séquences quadruplées de bases nucléotidiques dans l'ARNm ou l'ADN.', 'séquences triplet d'acides aminés dans des chaînes polypeptidiques.', 'séquences triplet de sucres désoxyribose dans l'ADN.']",0,"Question: Les codons sont composés de:
+
+Choix: ['des séquences triplet de bases nucléotidiques dans l' ARNm ou l' ADN .', 'séquences quadruplées de bases nucléotidiques dans l'ARNm ou l'ADN.', 'séquences triplet d'acides aminés dans des chaînes polypeptidiques.', 'séquences triplet de sucres désoxyribose dans l'ADN.']
+
+Réponse: des séquences triplet de bases nucléotidiques dans l' ARNm ou l' ADN ."
+Les acides gras sont transportés dans les mitochondries liés à:,clinical_knowledge,"['une thiokinase.', 'coenzyme A (CoA).', 'de l'acétyl-CoA.', 'la carnitine.']",3,"Question: Les acides gras sont transportés dans les mitochondries liés à:
+
+Choix: ['une thiokinase.', 'coenzyme A (CoA).', 'de l'acétyl-CoA.', 'la carnitine.']
+
+Réponse: la carnitine."
+Laquelle des réponses ci-dessous indique le mieux les groupes sanguins compatibles qui peuvent être donnés à une personne du groupe sanguin B (résus négatif)?,clinical_knowledge,"['Le groupe sanguin AB (résus négatif), le groupe sanguin B et le groupe sanguin O (résus négatif).', 'Le groupe sanguin B (résus positif) et le groupe sanguin O (résus positif).', 'Le groupe sanguin B (résus négatif) et le groupe sanguin O (résus négatif).', 'Groupe sanguin B (résus négatif) uniquement.']",2,"Question: Laquelle des réponses ci-dessous indique le mieux les groupes sanguins compatibles qui peuvent être donnés à une personne du groupe sanguin B (résus négatif)?
+
+Choix: ['Le groupe sanguin AB (résus négatif), le groupe sanguin B et le groupe sanguin O (résus négatif).', 'Le groupe sanguin B (résus positif) et le groupe sanguin O (résus positif).', 'Le groupe sanguin B (résus négatif) et le groupe sanguin O (résus négatif).', 'Groupe sanguin B (résus négatif) uniquement.']
+
+Réponse: Le groupe sanguin B (résus négatif) et le groupe sanguin O (résus négatif)."
+Laquelle des suivantes est vraie pour une lésion des neurones moteurs inférieurs dans le bras ?,clinical_knowledge,"['Elle entraîne une augmentation du tonus dans le bras (hypertonie)', 'On ne voit jamais de fasciculations .', 'Les réflexes sont vifs .', 'Une paralysie du nerf cubital est un exemple de lésion des neurones moteurs inférieurs.']",3,"Question: Laquelle des suivantes est vraie pour une lésion des neurones moteurs inférieurs dans le bras ?
+
+Choix: ['Elle entraîne une augmentation du tonus dans le bras (hypertonie)', 'On ne voit jamais de fasciculations .', 'Les réflexes sont vifs .', 'Une paralysie du nerf cubital est un exemple de lésion des neurones moteurs inférieurs.']
+
+Réponse: Une paralysie du nerf cubital est un exemple de lésion des neurones moteurs inférieurs."
+Laquelle des affirmations suivantes est fausse ?,clinical_knowledge,"['L'ammoniac est produit lors d'exercices répétés de haute intensité.', 'L' accumulation de lactate musculaire ne commence qu' après au moins 5 secondes de contractions musculaires intermittentes.', 'L'épuisement de la phosphocréatine musculaire commence dans les premières secondes de l'exercice de haute intensité.', 'Avec un nombre croissant de sprints répétés, le taux d'accumulation de lactate dans les muscles diminue.']",1,"Question: Laquelle des affirmations suivantes est fausse ?
+
+Choix: ['L'ammoniac est produit lors d'exercices répétés de haute intensité.', 'L' accumulation de lactate musculaire ne commence qu' après au moins 5 secondes de contractions musculaires intermittentes.', 'L'épuisement de la phosphocréatine musculaire commence dans les premières secondes de l'exercice de haute intensité.', 'Avec un nombre croissant de sprints répétés, le taux d'accumulation de lactate dans les muscles diminue.']
+
+Réponse: L' accumulation de lactate musculaire ne commence qu' après au moins 5 secondes de contractions musculaires intermittentes."
+La dégradation du glycogène dans le muscle entraîne initialement la formation de:,clinical_knowledge,"['le glucose.', 'le glucose-1-phosphate.', 'le glucose-6-phosphate.', 'le glucose-1,6-diphosphate.']",1,"Question: La dégradation du glycogène dans le muscle entraîne initialement la formation de:
+
+Choix: ['le glucose.', 'le glucose-1-phosphate.', 'le glucose-6-phosphate.', 'le glucose-1,6-diphosphate.']
+
+Réponse: le glucose-1-phosphate."
+Les deux principales protéines contractiles présentes dans le muscle squelettique sont:,clinical_knowledge,"['l'actine et la troponine.', 'l'actine et la myosine.', 'troponine et tropomyosine.', 'myosine et tropomyosine.']",1,"Question: Les deux principales protéines contractiles présentes dans le muscle squelettique sont:
+
+Choix: ['l'actine et la troponine.', 'l'actine et la myosine.', 'troponine et tropomyosine.', 'myosine et tropomyosine.']
+
+Réponse: l'actine et la myosine."
+Lequel des éléments suivants représente une paralysie du nerf crânien III et constitue une urgence neurochirurgicale ?,clinical_knowledge,"['Une pupille unilatérale rétrécie.', 'Des pupilles bilatérales rétrécies.', 'Une pupille unilatérale fixée et dilatée.', 'Les pupilles sont ovales.']",2,"Question: Lequel des éléments suivants représente une paralysie du nerf crânien III et constitue une urgence neurochirurgicale ?
+
+Choix: ['Une pupille unilatérale rétrécie.', 'Des pupilles bilatérales rétrécies.', 'Une pupille unilatérale fixée et dilatée.', 'Les pupilles sont ovales.']
+
+Réponse: Une pupille unilatérale fixée et dilatée."
+Laquelle des affirmations suivantes est vraie au sujet d'un gonflement de la thyroïde?,clinical_knowledge,"['Il s'élève toujours en avalant.', 'L' élargissement des ganglions lymphatiques est un bon signe de pronostic .', 'Une échographie de l'enflure est le meilleur test pour déterminer si le nodule sécrète activement des hormones.', 'Un nodule fonctionnel sur la numérisation isotopique est peu susceptible d'être dû au cancer']",3,"Question: Laquelle des affirmations suivantes est vraie au sujet d'un gonflement de la thyroïde?
+
+Choix: ['Il s'élève toujours en avalant.', 'L' élargissement des ganglions lymphatiques est un bon signe de pronostic .', 'Une échographie de l'enflure est le meilleur test pour déterminer si le nodule sécrète activement des hormones.', 'Un nodule fonctionnel sur la numérisation isotopique est peu susceptible d'être dû au cancer']
+
+Réponse: Un nodule fonctionnel sur la numérisation isotopique est peu susceptible d'être dû au cancer"
+Laquelle des affirmations suivantes est vraie pour l'hépatomégalie ?,clinical_knowledge,"['L'emphysème est une cause', 'Le foie s' élargit vers le bas à partir de l' hypochondre gauche .', 'La présence de jaunisse, de naïveté d'araignée et de purpura suggère l'alcool comme cause.', 'Le foie est généralement résonant à la percussion.']",2,"Question: Laquelle des affirmations suivantes est vraie pour l'hépatomégalie ?
+
+Choix: ['L'emphysème est une cause', 'Le foie s' élargit vers le bas à partir de l' hypochondre gauche .', 'La présence de jaunisse, de naïveté d'araignée et de purpura suggère l'alcool comme cause.', 'Le foie est généralement résonant à la percussion.']
+
+Réponse: La présence de jaunisse, de naïveté d'araignée et de purpura suggère l'alcool comme cause."
+Laquelle des affirmations suivantes est vraie en ce qui concerne les réflexes?,clinical_knowledge,"['Un réflexe de Babinski positif est identique à une réponse normale du fléchisseur dans l'évaluation du réflexe plantaire', 'Une réponse plantaire extensrice indique une lésion des neurones moteurs inférieurs.', 'La valeur racine du réflexe de la cheville est S1', 'La valeur racine du réflexe du genou est L1, L2']",2,"Question: Laquelle des affirmations suivantes est vraie en ce qui concerne les réflexes?
+
+Choix: ['Un réflexe de Babinski positif est identique à une réponse normale du fléchisseur dans l'évaluation du réflexe plantaire', 'Une réponse plantaire extensrice indique une lésion des neurones moteurs inférieurs.', 'La valeur racine du réflexe de la cheville est S1', 'La valeur racine du réflexe du genou est L1, L2']
+
+Réponse: La valeur racine du réflexe de la cheville est S1"
+Laquelle des affirmations suivantes est vraie pour la paralysie du nerf facial ?,clinical_knowledge,"['La paralysie de Bell est un autre terme pour désigner une lésion des neurones moteurs supérieurs.', 'Le syndrome de Ramsay Hunt est une lésion des neurones moteurs supérieurs secondaire à une infection à Herpes Zoster', 'Une incapacité à fermer la paupière du côté paralysé indique une lésion des neurones moteurs inférieurs.', 'Dans la paralysie de Bell, le sens du goût n'est jamais affecté.']",2,"Question: Laquelle des affirmations suivantes est vraie pour la paralysie du nerf facial ?
+
+Choix: ['La paralysie de Bell est un autre terme pour désigner une lésion des neurones moteurs supérieurs.', 'Le syndrome de Ramsay Hunt est une lésion des neurones moteurs supérieurs secondaire à une infection à Herpes Zoster', 'Une incapacité à fermer la paupière du côté paralysé indique une lésion des neurones moteurs inférieurs.', 'Dans la paralysie de Bell, le sens du goût n'est jamais affecté.']
+
+Réponse: Une incapacité à fermer la paupière du côté paralysé indique une lésion des neurones moteurs inférieurs."
+C'est quoi une fracture de Colles ?,clinical_knowledge,"['Une fracture de la main.', 'Fracture du coude.', 'Fracture du doigt.', 'Fracture du rayon et de l'ulna au poignet.']",3,"Question: C'est quoi une fracture de Colles ?
+
+Choix: ['Une fracture de la main.', 'Fracture du coude.', 'Fracture du doigt.', 'Fracture du rayon et de l'ulna au poignet.']
+
+Réponse: Fracture du rayon et de l'ulna au poignet."
+"Si vous soupçonnez une réaction à la transfusion, vous devez:",clinical_knowledge,"['cessez la transfusion, informez immédiatement le personnel médical et suivez les conseils de la politique transfusionnelle sur la façon de traiter les réactions aiguës liées à la transfusion.', 'Laissez la transfusion allumée et contactez immédiatement le personnel médical.', 'débrancher et éliminer immédiatement le sac de sang.', 'laissez la transfusion fonctionner et enregistrez une série d'observations sur le patient.']",0,"Question: Si vous soupçonnez une réaction à la transfusion, vous devez:
+
+Choix: ['cessez la transfusion, informez immédiatement le personnel médical et suivez les conseils de la politique transfusionnelle sur la façon de traiter les réactions aiguës liées à la transfusion.', 'Laissez la transfusion allumée et contactez immédiatement le personnel médical.', 'débrancher et éliminer immédiatement le sac de sang.', 'laissez la transfusion fonctionner et enregistrez une série d'observations sur le patient.']
+
+Réponse: cessez la transfusion, informez immédiatement le personnel médical et suivez les conseils de la politique transfusionnelle sur la façon de traiter les réactions aiguës liées à la transfusion."
+Une fois qu'une unité de produit sanguin prescrite a été obtenue de la banque de sang et qu'elle est sortie du réfrigérateur la transfusion doit commencer dans quelle période de temps avant qu'elle ne commence à se détériorer (selon les connaissances médicales de 2020)?,clinical_knowledge,"['Une demi-heure.', 'Une heure et demie.', 'Ça fait 4 heures.', 'Ça fait 12 heures.']",0,"Question: Une fois qu'une unité de produit sanguin prescrite a été obtenue de la banque de sang et qu'elle est sortie du réfrigérateur la transfusion doit commencer dans quelle période de temps avant qu'elle ne commence à se détériorer (selon les connaissances médicales de 2020)?
+
+Choix: ['Une demi-heure.', 'Une heure et demie.', 'Ça fait 4 heures.', 'Ça fait 12 heures.']
+
+Réponse: Une demi-heure."
+Laquelle des affirmations suivantes est vraie au sujet des soignants informels (à partir de 2020)?,clinical_knowledge,"['50% des personnes de plus de 65 ans fournissent des soins informels.', 'Une personne sur six âgée de plus de 65 ans fournit une forme quelconque de soins informels.', 'Les soignants informels ne devraient pas être inclus dans la planification de la sortie.', 'La majorité des soignants informels sont en bonne santé et actifs.']",1,"Question: Laquelle des affirmations suivantes est vraie au sujet des soignants informels (à partir de 2020)?
+
+Choix: ['50% des personnes de plus de 65 ans fournissent des soins informels.', 'Une personne sur six âgée de plus de 65 ans fournit une forme quelconque de soins informels.', 'Les soignants informels ne devraient pas être inclus dans la planification de la sortie.', 'La majorité des soignants informels sont en bonne santé et actifs.']
+
+Réponse: Une personne sur six âgée de plus de 65 ans fournit une forme quelconque de soins informels."
+Lequel des processus suivants n'est pas utilisé pour modifier la structure des protéines après la traduction?,clinical_knowledge,"['Il y a de la lipidation.', 'Attachement de plus d'acides aminés via des liaisons peptidiques.', 'La glycosylation.', 'La phosphorylation.']",1,"Question: Lequel des processus suivants n'est pas utilisé pour modifier la structure des protéines après la traduction?
+
+Choix: ['Il y a de la lipidation.', 'Attachement de plus d'acides aminés via des liaisons peptidiques.', 'La glycosylation.', 'La phosphorylation.']
+
+Réponse: Attachement de plus d'acides aminés via des liaisons peptidiques."
+Pourquoi avez-vous besoin d'effectuer un lavage de la vessie pour un patient à la maison?,clinical_knowledge,"['Quand leur urine est claire.', 'Quand le cathéter est bloqué.', 'Quand le cathéter est en contournement.', 'Quand le cathéter est sale.']",1,"Question: Pourquoi avez-vous besoin d'effectuer un lavage de la vessie pour un patient à la maison?
+
+Choix: ['Quand leur urine est claire.', 'Quand le cathéter est bloqué.', 'Quand le cathéter est en contournement.', 'Quand le cathéter est sale.']
+
+Réponse: Quand le cathéter est bloqué."
+Une aiguille de calibre 14-16 est le plus susceptible d'être utilisée pour:,clinical_knowledge,"['Les enfants.', 'patients âgés.', 'qui est insérée dans le dos de la main.', 'les patients atteints de traumatismes ou de brûlures.']",3,"Question: Une aiguille de calibre 14-16 est le plus susceptible d'être utilisée pour:
+
+Choix: ['Les enfants.', 'patients âgés.', 'qui est insérée dans le dos de la main.', 'les patients atteints de traumatismes ou de brûlures.']
+
+Réponse: les patients atteints de traumatismes ou de brûlures."
+Laquelle de ces caractéristiques suggère qu'un bruit de craquement est plus probablement dû à un frottement pleural qu'à des craquements ?,clinical_knowledge,"['Plus proéminent à l'expiration', 'Alters avec toux', 'Pas de douleur dans la région', 'Les clubs']",0,"Question: Laquelle de ces caractéristiques suggère qu'un bruit de craquement est plus probablement dû à un frottement pleural qu'à des craquements ?
+
+Choix: ['Plus proéminent à l'expiration', 'Alters avec toux', 'Pas de douleur dans la région', 'Les clubs']
+
+Réponse: Plus proéminent à l'expiration"
+"Dans des jeux comme le football, la concentration de lactate dans le sang:",clinical_knowledge,"['augmentent rarement au-dessus de 3 mM.', 'est généralement plus faible à la fin de la partie qu'à la fin de la première mi-temps.', 'est généralement plus élevé à la fin de la partie qu'à la fin de la première mi-temps.', 'augmente tout au long du jeu à mesure que les joueurs deviennent plus fatigués.']",1,"Question: Dans des jeux comme le football, la concentration de lactate dans le sang:
+
+Choix: ['augmentent rarement au-dessus de 3 mM.', 'est généralement plus faible à la fin de la partie qu'à la fin de la première mi-temps.', 'est généralement plus élevé à la fin de la partie qu'à la fin de la première mi-temps.', 'augmente tout au long du jeu à mesure que les joueurs deviennent plus fatigués.']
+
+Réponse: est généralement plus faible à la fin de la partie qu'à la fin de la première mi-temps."
+Les ions lactate et hydrogène quittent le muscle:,clinical_knowledge,"['par un mécanisme de cotransport avec la carnosine.', 'par un mécanisme de transport actif.', 'par l'intermédiaire d'une molécule de transporteur de protéines.', 'par simple diffusion.']",2,"Question: Les ions lactate et hydrogène quittent le muscle:
+
+Choix: ['par un mécanisme de cotransport avec la carnosine.', 'par un mécanisme de transport actif.', 'par l'intermédiaire d'une molécule de transporteur de protéines.', 'par simple diffusion.']
+
+Réponse: par l'intermédiaire d'une molécule de transporteur de protéines."
+Laquelle des affirmations suivantes est vraie pour la colonne vertébrale?,clinical_knowledge,"['Les maux de dos sont une plainte rare.', 'Le test de Schober est conçu pour quantifier la flexion de la colonne lombaire.', 'La spondylarthrite ankylosante est une cause d'hypermobilité de la colonne vertébrale', 'La grossesse est une cause de perte de lordose de la colonne lombaire']",1,"Question: Laquelle des affirmations suivantes est vraie pour la colonne vertébrale?
+
+Choix: ['Les maux de dos sont une plainte rare.', 'Le test de Schober est conçu pour quantifier la flexion de la colonne lombaire.', 'La spondylarthrite ankylosante est une cause d'hypermobilité de la colonne vertébrale', 'La grossesse est une cause de perte de lordose de la colonne lombaire']
+
+Réponse: Le test de Schober est conçu pour quantifier la flexion de la colonne lombaire."
+Laquelle des affirmations suivantes est vraie pour l'arthropathie psoriasique ?,clinical_knowledge,"['L'absence de plaques de psoriasis exclut le diagnostic', 'Le diagnostic peut être confirmé par un marqueur sanguin.', 'Tophi peut parfois être vu sur les articulations touchées', 'Le creusement des ongles peut donner un indice sur le diagnostic.']",3,"Question: Laquelle des affirmations suivantes est vraie pour l'arthropathie psoriasique ?
+
+Choix: ['L'absence de plaques de psoriasis exclut le diagnostic', 'Le diagnostic peut être confirmé par un marqueur sanguin.', 'Tophi peut parfois être vu sur les articulations touchées', 'Le creusement des ongles peut donner un indice sur le diagnostic.']
+
+Réponse: Le creusement des ongles peut donner un indice sur le diagnostic."
+Laquelle des affirmations suivantes est vraie pour la maladie de Graves de la thyroïde?,clinical_knowledge,"['C' est une cause d' ophtalmoplégie .', 'Ça provoque un gros goitre multi-noduleux.', 'Il est plus fréquent chez les hommes que chez les femmes.', 'Dans le passé, la maladie de Grave provoquait parfois le 'Derbyshire Neck'']",0,"Question: Laquelle des affirmations suivantes est vraie pour la maladie de Graves de la thyroïde?
+
+Choix: ['C' est une cause d' ophtalmoplégie .', 'Ça provoque un gros goitre multi-noduleux.', 'Il est plus fréquent chez les hommes que chez les femmes.', 'Dans le passé, la maladie de Grave provoquait parfois le 'Derbyshire Neck'']
+
+Réponse: C' est une cause d' ophtalmoplégie ."
+Laquelle des affirmations suivantes est vraie pour le métabolisme du calcium ?,clinical_knowledge,"['La calcitonine provoque une augmentation du calcium plasmatique', 'L'hyperparathyroïdie primaire est généralement asymptomatique.', 'La vitamine D est sécrétée par les glandes parathyroïdes.', 'L' oligurie est un symptôme de l' hypercalcémie .']",1,"Question: Laquelle des affirmations suivantes est vraie pour le métabolisme du calcium ?
+
+Choix: ['La calcitonine provoque une augmentation du calcium plasmatique', 'L'hyperparathyroïdie primaire est généralement asymptomatique.', 'La vitamine D est sécrétée par les glandes parathyroïdes.', 'L' oligurie est un symptôme de l' hypercalcémie .']
+
+Réponse: L'hyperparathyroïdie primaire est généralement asymptomatique."
+Réactions de kinase:,clinical_knowledge,"['inhiber la dégradation de l'ATP.', 'impliquent l'ajout ou la suppression d'un groupe phosphate.', 'impliquent l'ajout ou la suppression d'un groupe cétonique.', 'impliquent l'ajout ou le retrait d'un acide aminé à une chaîne polypeptidique.']",1,"Question: Réactions de kinase:
+
+Choix: ['inhiber la dégradation de l'ATP.', 'impliquent l'ajout ou la suppression d'un groupe phosphate.', 'impliquent l'ajout ou la suppression d'un groupe cétonique.', 'impliquent l'ajout ou le retrait d'un acide aminé à une chaîne polypeptidique.']
+
+Réponse: impliquent l'ajout ou la suppression d'un groupe phosphate."
+Le rythme respiratoire normal pour un homme adulte est:,clinical_knowledge,"['10 à 12 respirations par minute.', '8 à 10 respirations par minute.', '20 à 22 respirations par minute.', '14 à 16 respirations par minute.']",3,"Question: Le rythme respiratoire normal pour un homme adulte est:
+
+Choix: ['10 à 12 respirations par minute.', '8 à 10 respirations par minute.', '20 à 22 respirations par minute.', '14 à 16 respirations par minute.']
+
+Réponse: 14 à 16 respirations par minute."
+d'une épaisseur n'excédant pas 1 mm,clinical_knowledge,"['sont rétablis dans les cinq premiers jours de cicatrisation de la plaie.', 'fournir un pont à travers la surface d'une plaie.', 'Il faut du temps pour se rétablir.', 'ne sont pas nécessaires si une blessure guérit par intention première.']",2,"Question: d'une épaisseur n'excédant pas 1 mm
+
+Choix: ['sont rétablis dans les cinq premiers jours de cicatrisation de la plaie.', 'fournir un pont à travers la surface d'une plaie.', 'Il faut du temps pour se rétablir.', 'ne sont pas nécessaires si une blessure guérit par intention première.']
+
+Réponse: Il faut du temps pour se rétablir."
+Lequel des éléments suivants libère le plus d'énergie lorsqu'il est complètement oxydé dans le corps ?,clinical_knowledge,"['Un gramme de glucose', 'Un gramme d'acide palmitique', 'Un gramme de leucine', 'Un gramme d'alcool']",1,"Question: Lequel des éléments suivants libère le plus d'énergie lorsqu'il est complètement oxydé dans le corps ?
+
+Choix: ['Un gramme de glucose', 'Un gramme d'acide palmitique', 'Un gramme de leucine', 'Un gramme d'alcool']
+
+Réponse: Un gramme d'acide palmitique"
+Incorporés dans la membrane interne de la mitochondrie sont:,clinical_knowledge,"['les enzymes du cycle de l'acide tricarboxylique (cycle de Krebs).', 'les composants de la chaîne de transport d'électrons.', 'molécules de glycogène.', 'molécules de triacylglycérol.']",1,"Question: Incorporés dans la membrane interne de la mitochondrie sont:
+
+Choix: ['les enzymes du cycle de l'acide tricarboxylique (cycle de Krebs).', 'les composants de la chaîne de transport d'électrons.', 'molécules de glycogène.', 'molécules de triacylglycérol.']
+
+Réponse: les composants de la chaîne de transport d'électrons."
+"Si le taux moyen de consommation d'oxygène d'un athlète masculin pendant une séance d'entraînement est de 2 l/min, alors son taux de dépense énergétique est approximativement:",clinical_knowledge,"['400 kJ/min.', '200 kJ/min.', '80 kJ/min.', '40 kJ/min.']",3,"Question: Si le taux moyen de consommation d'oxygène d'un athlète masculin pendant une séance d'entraînement est de 2 l/min, alors son taux de dépense énergétique est approximativement:
+
+Choix: ['400 kJ/min.', '200 kJ/min.', '80 kJ/min.', '40 kJ/min.']
+
+Réponse: 40 kJ/min."
+Un rythme cardiaque normal pour un adulte au repos est:,clinical_knowledge,"['60 à 80 battements par minute.', '60 à 100 battements par minute.', '60 à 90 battements par minute.', '60 à 110 battements par minute.']",1,"Question: Un rythme cardiaque normal pour un adulte au repos est:
+
+Choix: ['60 à 80 battements par minute.', '60 à 100 battements par minute.', '60 à 90 battements par minute.', '60 à 110 battements par minute.']
+
+Réponse: 60 à 100 battements par minute."
+Laquelle des affirmations suivantes est fausse ?,clinical_knowledge,"['La phosphofructokinase est l' enzyme limitant la vitesse dans la glycolyse.', 'L'activité de la phosphorylase est plus élevée dans les fibres de type II que dans les fibres de type I.', 'L'entraînement d'endurance augmente la quantité d'enzymes du cycle TCA dans le muscle.', 'L'oxygène est consommé dans le cycle TCA.']",3,"Question: Laquelle des affirmations suivantes est fausse ?
+
+Choix: ['La phosphofructokinase est l' enzyme limitant la vitesse dans la glycolyse.', 'L'activité de la phosphorylase est plus élevée dans les fibres de type II que dans les fibres de type I.', 'L'entraînement d'endurance augmente la quantité d'enzymes du cycle TCA dans le muscle.', 'L'oxygène est consommé dans le cycle TCA.']
+
+Réponse: L'oxygène est consommé dans le cycle TCA."
+Laquelle des affirmations suivantes est vraie pour la paralysie du nerf ulna ?,clinical_knowledge,"['Le nerf ulnaire peut être affecté par une fracture de la rainure spirale de l'humérus.', 'Il donne naissance à un signe de phalène positif.', 'Elle entraîne une perte de sensation sur la moitié médiane de la main et sur un doigt et demi médial à la fois sur les aspects palmaires et dorsaux de la main.', 'Il alimente les muscles des biceps .']",2,"Question: Laquelle des affirmations suivantes est vraie pour la paralysie du nerf ulna ?
+
+Choix: ['Le nerf ulnaire peut être affecté par une fracture de la rainure spirale de l'humérus.', 'Il donne naissance à un signe de phalène positif.', 'Elle entraîne une perte de sensation sur la moitié médiane de la main et sur un doigt et demi médial à la fois sur les aspects palmaires et dorsaux de la main.', 'Il alimente les muscles des biceps .']
+
+Réponse: Elle entraîne une perte de sensation sur la moitié médiane de la main et sur un doigt et demi médial à la fois sur les aspects palmaires et dorsaux de la main."
+Quelle quantité de dentifrice est recommandée pour le nettoyage des dents ?,clinical_knowledge,"['Une tache.', 'Une quantité de la taille d'un pois.', 'La longueur de la brosse à dents.', 'Un demi-pouce.']",1,"Question: Quelle quantité de dentifrice est recommandée pour le nettoyage des dents ?
+
+Choix: ['Une tache.', 'Une quantité de la taille d'un pois.', 'La longueur de la brosse à dents.', 'Un demi-pouce.']
+
+Réponse: Une quantité de la taille d'un pois."
+Laquelle des affirmations suivantes est vraie au sujet du syndrome de Cushing?,clinical_knowledge,"['Elle est due à une carence de l'hormone cortisol.', 'L' agrandissement des extrémités est fréquent.', 'L'ostéoporose n'est pas une caractéristique', 'Une face de lune et une bosse de buffle sont caractéristiques de la maladie.']",3,"Question: Laquelle des affirmations suivantes est vraie au sujet du syndrome de Cushing?
+
+Choix: ['Elle est due à une carence de l'hormone cortisol.', 'L' agrandissement des extrémités est fréquent.', 'L'ostéoporose n'est pas une caractéristique', 'Une face de lune et une bosse de buffle sont caractéristiques de la maladie.']
+
+Réponse: Une face de lune et une bosse de buffle sont caractéristiques de la maladie."
+Les principaux facteurs qui déterminent le succès dans le sport sont:,clinical_knowledge,"['une alimentation riche en énergie et un grand appétit.', 'haute intelligence et motivation pour réussir.', 'un bon entraîneur et la motivation pour réussir.', 'capacité innée et la capacité de réagir au stimulus d'entraînement.']",3,"Question: Les principaux facteurs qui déterminent le succès dans le sport sont:
+
+Choix: ['une alimentation riche en énergie et un grand appétit.', 'haute intelligence et motivation pour réussir.', 'un bon entraîneur et la motivation pour réussir.', 'capacité innée et la capacité de réagir au stimulus d'entraînement.']
+
+Réponse: capacité innée et la capacité de réagir au stimulus d'entraînement."
+"Dans une molécule d'ADN à double brin, le rapport entre les purines et les pyrimidines est:",clinical_knowledge,"['Il s'agit d'une variable.', 'déterminé par la séquence de base dans l'ARN.', 'déterminé génétiquement.', 'toujours 1 contre 1.']",3,"Question: Dans une molécule d'ADN à double brin, le rapport entre les purines et les pyrimidines est:
+
+Choix: ['Il s'agit d'une variable.', 'déterminé par la séquence de base dans l'ARN.', 'déterminé génétiquement.', 'toujours 1 contre 1.']
+
+Réponse: toujours 1 contre 1."
+Les stéroïdes synthétiques améliorant la performance sont basés sur la structure de l'hormone:,clinical_knowledge,"['la testostérone.', 'le cortisol.', 'la progestérone.', 'l' aldostérone.']",0,"Question: Les stéroïdes synthétiques améliorant la performance sont basés sur la structure de l'hormone:
+
+Choix: ['la testostérone.', 'le cortisol.', 'la progestérone.', 'l' aldostérone.']
+
+Réponse: la testostérone."
+La dégradation du glycogène dans les muscles exercés est activée par:,clinical_knowledge,"['de l' insuline.', 'le cortisol.', 'augmentation du pH.', 'rien de ce qui précède.']",3,"Question: La dégradation du glycogène dans les muscles exercés est activée par:
+
+Choix: ['de l' insuline.', 'le cortisol.', 'augmentation du pH.', 'rien de ce qui précède.']
+
+Réponse: rien de ce qui précède."
+La plupart des acides gras libres sont transportés dans le sang:,clinical_knowledge,"['dans les globules rouges.', 'comme lipoprotéines.', 'combiné avec du glucose.', 'liée à l'albumine.']",3,"Question: La plupart des acides gras libres sont transportés dans le sang:
+
+Choix: ['dans les globules rouges.', 'comme lipoprotéines.', 'combiné avec du glucose.', 'liée à l'albumine.']
+
+Réponse: liée à l'albumine."
+À quelle fréquence faut- il rincer une canule ?,clinical_knowledge,"['Toutes les 4 heures.', 'Toutes les 8 heures.', 'Toutes les 12 heures.', 'Toutes les 16 heures.']",2,"Question: À quelle fréquence faut- il rincer une canule ?
+
+Choix: ['Toutes les 4 heures.', 'Toutes les 8 heures.', 'Toutes les 12 heures.', 'Toutes les 16 heures.']
+
+Réponse: Toutes les 12 heures."
+L'activité de la créatine kinase est:,clinical_knowledge,"['augmenté lorsque l'ADP intracellulaire augmente.', 'augmenté lorsque le pH du muscle tombe en dessous de 6,9.', 'toujours plus faible en fibres de type II que en fibres de type I.', 'augmenté après une période d'entraînement d'endurance.']",0,"Question: L'activité de la créatine kinase est:
+
+Choix: ['augmenté lorsque l'ADP intracellulaire augmente.', 'augmenté lorsque le pH du muscle tombe en dessous de 6,9.', 'toujours plus faible en fibres de type II que en fibres de type I.', 'augmenté après une période d'entraînement d'endurance.']
+
+Réponse: augmenté lorsque l'ADP intracellulaire augmente."
+Les plus petites incréments sur une mesure du mercure et du sphygmomanomètre anéroïde sont:,clinical_knowledge,"['10 mmHg.', '4 mmHg.', '2 mmHg.', '1 mmHg.']",2,"Question: Les plus petites incréments sur une mesure du mercure et du sphygmomanomètre anéroïde sont:
+
+Choix: ['10 mmHg.', '4 mmHg.', '2 mmHg.', '1 mmHg.']
+
+Réponse: 2 mmHg."
+Lequel des éléments suivants n'est pas un schéma respiratoire anormal observé lors d'une blessure à la tête et d'une altération du niveau de conscience ?,clinical_knowledge,"['Il a une respiration de Cheyne-Stokes.', 'Une respiration anaérobie.', 'Il souffre d'hyperventilation.', 'Une respiration ataxique.']",1,"Question: Lequel des éléments suivants n'est pas un schéma respiratoire anormal observé lors d'une blessure à la tête et d'une altération du niveau de conscience ?
+
+Choix: ['Il a une respiration de Cheyne-Stokes.', 'Une respiration anaérobie.', 'Il souffre d'hyperventilation.', 'Une respiration ataxique.']
+
+Réponse: Une respiration anaérobie."
+"Pendant la RCR, les compressions et les ventilations thoraciques doivent être effectuées dans un rapport de:",clinical_knowledge,"['Il est 2 h 25.', 'Il est 15 h 02 .', 'Il est à 1h05.', 'Il est minuit. Il est minuit.']",3,"Question: Pendant la RCR, les compressions et les ventilations thoraciques doivent être effectuées dans un rapport de:
+
+Choix: ['Il est 2 h 25.', 'Il est 15 h 02 .', 'Il est à 1h05.', 'Il est minuit. Il est minuit.']
+
+Réponse: Il est minuit. Il est minuit."
+Une personne pèse 62 kg. Sa dose de médicament est de 15 mg/kg. Combien de grammes est sa dose? Choisissez une des réponses suivantes:,clinical_knowledge,"['Autres produits', 'Le Parlement européen', '9,3 à l'heure actuelle.', 'de 0,93']",3,"Question: Une personne pèse 62 kg. Sa dose de médicament est de 15 mg/kg. Combien de grammes est sa dose? Choisissez une des réponses suivantes:
+
+Choix: ['Autres produits', 'Le Parlement européen', '9,3 à l'heure actuelle.', 'de 0,93']
+
+Réponse: de 0,93"
+Un effet secondaire attendu de la supplémentation en créatine est:,clinical_knowledge,"['faiblesse musculaire.', 'augmentation de la masse corporelle.', 'des crampes musculaires.', 'perte d' électrolytes.']",1,"Question: Un effet secondaire attendu de la supplémentation en créatine est:
+
+Choix: ['faiblesse musculaire.', 'augmentation de la masse corporelle.', 'des crampes musculaires.', 'perte d' électrolytes.']
+
+Réponse: augmentation de la masse corporelle."
+Le cycle cardiaque se compose des phases suivantes:,clinical_knowledge,"['la systole, la diastole et le repos.', 'contraction, détente et repos.', 'diastole et systole.', 'une diastole, une systole et une contraction.']",2,"Question: Le cycle cardiaque se compose des phases suivantes:
+
+Choix: ['la systole, la diastole et le repos.', 'contraction, détente et repos.', 'diastole et systole.', 'une diastole, une systole et une contraction.']
+
+Réponse: diastole et systole."
+Lequel des facteurs suivants n'influence pas la réussite dans le sport?,clinical_knowledge,"['Capacité à supporter un entraînement intensif sans succomber à la maladie ou à la blessure.', 'Des tactiques.', 'Le régime.', 'Ingestion de carnitine pendant l'exercice.']",3,"Question: Lequel des facteurs suivants n'influence pas la réussite dans le sport?
+
+Choix: ['Capacité à supporter un entraînement intensif sans succomber à la maladie ou à la blessure.', 'Des tactiques.', 'Le régime.', 'Ingestion de carnitine pendant l'exercice.']
+
+Réponse: Ingestion de carnitine pendant l'exercice."
+La chaîne de survie a quatre maillons . Mettez la liste suivante dans l'ordre correct: 1 Défibrillation précoce; 2 RCP précoce; 3 Reconnaissance et appel à l'aide précoce; 4 Soins après réanimation.,clinical_knowledge,"['Un, deux, trois, quatre.', 'Un, deux, trois, quatre.', 'Un, deux, trois, quatre.', 'Deux, un, trois, quatre.']",1,"Question: La chaîne de survie a quatre maillons . Mettez la liste suivante dans l'ordre correct: 1 Défibrillation précoce; 2 RCP précoce; 3 Reconnaissance et appel à l'aide précoce; 4 Soins après réanimation.
+
+Choix: ['Un, deux, trois, quatre.', 'Un, deux, trois, quatre.', 'Un, deux, trois, quatre.', 'Deux, un, trois, quatre.']
+
+Réponse: Un, deux, trois, quatre."
+Une cause fondamentale de la fatigue dans les exercices de haute intensité est:,clinical_knowledge,"['une diminution de la concentration cellulaire d'ADP.', 'inhibition de la production d'ATP.', 'défaillance de l'offre d'ATP pour répondre à la demande.', 'manque de compétence.']",2,"Question: Une cause fondamentale de la fatigue dans les exercices de haute intensité est:
+
+Choix: ['une diminution de la concentration cellulaire d'ADP.', 'inhibition de la production d'ATP.', 'défaillance de l'offre d'ATP pour répondre à la demande.', 'manque de compétence.']
+
+Réponse: défaillance de l'offre d'ATP pour répondre à la demande."
+Laquelle des affirmations suivantes est vraie en ce qui concerne les éventuelles découvertes rectales ?,clinical_knowledge,"['La découverte d'une rainure médiane palpable dans la prostate est une découverte défavorable.', 'Les fèces touchées peuvent parfois être confondues avec une tumeur rectale.', 'Une hémorroïde thrombosée est indolore.', 'Les verrues péri-anales ne peuvent être détectées que par proctoscopie.']",1,"Question: Laquelle des affirmations suivantes est vraie en ce qui concerne les éventuelles découvertes rectales ?
+
+Choix: ['La découverte d'une rainure médiane palpable dans la prostate est une découverte défavorable.', 'Les fèces touchées peuvent parfois être confondues avec une tumeur rectale.', 'Une hémorroïde thrombosée est indolore.', 'Les verrues péri-anales ne peuvent être détectées que par proctoscopie.']
+
+Réponse: Les fèces touchées peuvent parfois être confondues avec une tumeur rectale."
+Quelles sont les causes courantes de l'excoriation de la peau?,clinical_knowledge,"['Une poche bien ajustée.', 'Je change de sac tous les jours.', 'Fuite d'effluent sur la peau péristomale.', 'L'utilisation d'un savon sans parfum pour nettoyer la peau.']",2,"Question: Quelles sont les causes courantes de l'excoriation de la peau?
+
+Choix: ['Une poche bien ajustée.', 'Je change de sac tous les jours.', 'Fuite d'effluent sur la peau péristomale.', 'L'utilisation d'un savon sans parfum pour nettoyer la peau.']
+
+Réponse: Fuite d'effluent sur la peau péristomale."
+Laquelle des affirmations suivantes est vraie pour la sclérose systémique ?,clinical_knowledge,"['Elle affecte plus les hommes que les femmes.', 'Si des télangiectasies sont observées, cela confirme le diagnostic.', 'L'arachnodactylie est une caractéristique de la maladie.', 'Les patients ont un nez en forme de bec et une peau cireuse']",3,"Question: Laquelle des affirmations suivantes est vraie pour la sclérose systémique ?
+
+Choix: ['Elle affecte plus les hommes que les femmes.', 'Si des télangiectasies sont observées, cela confirme le diagnostic.', 'L'arachnodactylie est une caractéristique de la maladie.', 'Les patients ont un nez en forme de bec et une peau cireuse']
+
+Réponse: Les patients ont un nez en forme de bec et une peau cireuse"
+Une impulsion parasternale gauche palpable suggère quelle anomalie ?,clinical_knowledge,"['Hypertrophie du ventricule droit', 'Sténose aortique', 'Régurgitation aortique', 'Hypertrophie du ventricule gauche']",0,"Question: Une impulsion parasternale gauche palpable suggère quelle anomalie ?
+
+Choix: ['Hypertrophie du ventricule droit', 'Sténose aortique', 'Régurgitation aortique', 'Hypertrophie du ventricule gauche']
+
+Réponse: Hypertrophie du ventricule droit"
+"Dans le choc hypovolémique, quel pourcentage de sang peut être perdu avant qu'il ne se traduise par des changements de fréquence cardiaque et de pression artérielle ?",clinical_knowledge,"['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']",3,"Question: Dans le choc hypovolémique, quel pourcentage de sang peut être perdu avant qu'il ne se traduise par des changements de fréquence cardiaque et de pression artérielle ?
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage', 'Pourcentage']
+
+Réponse: Pourcentage"
+Laquelle des expressions suivantes décrit le mieux les effets de la morphine ?,clinical_knowledge,"['Réduit l'intensité de la douleur et augmente la vigilance.', 'Réduit l'intensité de la douleur mais provoque aussi la sédation.', 'Réduit l'intensité de la douleur mais provoque aussi la diarrhée.', 'Réduit l'intensité de la douleur mais provoque aussi l'insomnie.']",1,"Question: Laquelle des expressions suivantes décrit le mieux les effets de la morphine ?
+
+Choix: ['Réduit l'intensité de la douleur et augmente la vigilance.', 'Réduit l'intensité de la douleur mais provoque aussi la sédation.', 'Réduit l'intensité de la douleur mais provoque aussi la diarrhée.', 'Réduit l'intensité de la douleur mais provoque aussi l'insomnie.']
+
+Réponse: Réduit l'intensité de la douleur mais provoque aussi la sédation."
+Laquelle des choses suivantes est vraie pour les maux de tête ?,clinical_knowledge,"['Lorsqu' elle est associée à une raideur du cou, elle est toujours due à une méningite.', 'Une douleur intense indique généralement une cause potentiellement mortelle.', 'L'artérite temporale est fortement associée à la polyarthrite rhumatoïde', 'Les céphalées de tension sont une cause fréquente de maux de tête.']",3,"Question: Laquelle des choses suivantes est vraie pour les maux de tête ?
+
+Choix: ['Lorsqu' elle est associée à une raideur du cou, elle est toujours due à une méningite.', 'Une douleur intense indique généralement une cause potentiellement mortelle.', 'L'artérite temporale est fortement associée à la polyarthrite rhumatoïde', 'Les céphalées de tension sont une cause fréquente de maux de tête.']
+
+Réponse: Les céphalées de tension sont une cause fréquente de maux de tête."
+"Entre les contractions du ventricule gauche, le sang continue à circuler dans les vaisseaux car:",clinical_knowledge,"['Les atriums se contractent.', 'les navires sont sous contrat.', 'le ventricule droit est détendu.', 'Les artères ont un recul élastique.']",3,"Question: Entre les contractions du ventricule gauche, le sang continue à circuler dans les vaisseaux car:
+
+Choix: ['Les atriums se contractent.', 'les navires sont sous contrat.', 'le ventricule droit est détendu.', 'Les artères ont un recul élastique.']
+
+Réponse: Les artères ont un recul élastique."
+Qu'est- ce qui pourrait amener l'infirmière à penser qu'un patient ne peut pas utiliser un inhalateur ?,clinical_knowledge,"['Des ulcères sévères aux jambes.', 'Récupération antérieure d'une exacerbation aiguë de l'asthme.', 'Une opération imminente.', 'Une mauvaise technique, une déficience physique ou un manque de compréhension.']",3,"Question: Qu'est- ce qui pourrait amener l'infirmière à penser qu'un patient ne peut pas utiliser un inhalateur ?
+
+Choix: ['Des ulcères sévères aux jambes.', 'Récupération antérieure d'une exacerbation aiguë de l'asthme.', 'Une opération imminente.', 'Une mauvaise technique, une déficience physique ou un manque de compréhension.']
+
+Réponse: Une mauvaise technique, une déficience physique ou un manque de compréhension."
+Retrait des bandes adhésives:,clinical_knowledge,"['peut être effectuée par le patient.', 'doivent être effectuées dans des conditions aseptiques.', 'est une compétence spécialisée.', 'ne doit pas être effectuée avant au moins sept jours après l'application.']",0,"Question: Retrait des bandes adhésives:
+
+Choix: ['peut être effectuée par le patient.', 'doivent être effectuées dans des conditions aseptiques.', 'est une compétence spécialisée.', 'ne doit pas être effectuée avant au moins sept jours après l'application.']
+
+Réponse: peut être effectuée par le patient."
+"Pendant la RCR, les compressions thoraciques doivent être effectuées à un rythme de:",clinical_knowledge,"['80 à la minute.', 'le plus vite possible.', '100 par minute.', 'varient selon le patient.']",2,"Question: Pendant la RCR, les compressions thoraciques doivent être effectuées à un rythme de:
+
+Choix: ['80 à la minute.', 'le plus vite possible.', '100 par minute.', 'varient selon le patient.']
+
+Réponse: 100 par minute."
+Laquelle des caractéristiques physiologiques suivantes n'est pas importante pour réussir dans des épreuves d'endurance telles que la course de marathon?,clinical_knowledge,"['La capacité de réguler la température corporelle.', 'La capacité à fournir de l'oxygène aux muscles en exercice.', 'La disponibilité des réserves de glucides dans le corps.', 'La teneur en ATP musculaire et en phosphocréatine.']",3,"Question: Laquelle des caractéristiques physiologiques suivantes n'est pas importante pour réussir dans des épreuves d'endurance telles que la course de marathon?
+
+Choix: ['La capacité de réguler la température corporelle.', 'La capacité à fournir de l'oxygène aux muscles en exercice.', 'La disponibilité des réserves de glucides dans le corps.', 'La teneur en ATP musculaire et en phosphocréatine.']
+
+Réponse: La teneur en ATP musculaire et en phosphocréatine."
+"Lorsque l'on utilise un inhalateur, à quel moment faut-il demander au patient de se rincer la bouche ?",clinical_knowledge,"['Avant d'utiliser leur inhalateur bronchodilatateur.', 'Après avoir utilisé leur inhalateur bronchodilatateur.', 'Avant d'utiliser leur inhalateur de stéroïdes.', 'Après avoir utilisé leur inhalateur de stéroïdes.']",3,"Question: Lorsque l'on utilise un inhalateur, à quel moment faut-il demander au patient de se rincer la bouche ?
+
+Choix: ['Avant d'utiliser leur inhalateur bronchodilatateur.', 'Après avoir utilisé leur inhalateur bronchodilatateur.', 'Avant d'utiliser leur inhalateur de stéroïdes.', 'Après avoir utilisé leur inhalateur de stéroïdes.']
+
+Réponse: Après avoir utilisé leur inhalateur de stéroïdes."
+La production musculaire de lactate augmente lorsque:,clinical_knowledge,"['l'oxygène est facilement disponible.', 'Le pyruvate ne peut pas être formé à partir de la dégradation du glucose.', 'le pH du muscle diminue.', 'La glycolyse est activée au début de l' exercice.']",3,"Question: La production musculaire de lactate augmente lorsque:
+
+Choix: ['l'oxygène est facilement disponible.', 'Le pyruvate ne peut pas être formé à partir de la dégradation du glucose.', 'le pH du muscle diminue.', 'La glycolyse est activée au début de l' exercice.']
+
+Réponse: La glycolyse est activée au début de l' exercice."
+Quelle est la durée minimale pour laquelle un étirement doit être maintenu?,clinical_knowledge,"['0 à 10 secondes.', '10 à 30 secondes.', '30 à 50 secondes.', 'Dans 60 secondes.']",1,"Question: Quelle est la durée minimale pour laquelle un étirement doit être maintenu?
+
+Choix: ['0 à 10 secondes.', '10 à 30 secondes.', '30 à 50 secondes.', 'Dans 60 secondes.']
+
+Réponse: 10 à 30 secondes."
+Quels sont les trois facteurs qui régulent le volume des accidents vasculaires cérébraux?,clinical_knowledge,"['Le volume sanguin, avant et après la charge.', 'Précharge, contractilité et charge ultérieure.', 'La contractilité, le volume sanguin et la pression artérielle.', 'Le débit cardiaque, la contractilité et le volume sanguin.']",1,"Question: Quels sont les trois facteurs qui régulent le volume des accidents vasculaires cérébraux?
+
+Choix: ['Le volume sanguin, avant et après la charge.', 'Précharge, contractilité et charge ultérieure.', 'La contractilité, le volume sanguin et la pression artérielle.', 'Le débit cardiaque, la contractilité et le volume sanguin.']
+
+Réponse: Précharge, contractilité et charge ultérieure."
+Nommez les os du doigt du milieu dans le bon ordre à partir de la main.,clinical_knowledge,"['Le phalynx proximal, le phalynx intermédiaire, le phalynx distal.', 'Le phalynx distal, le phalynx moyen, le phalynx proximal.', 'Le phalynx moyen, le phalynx distal, le phalynx proximal.', 'Le phalynx distal, le phalynx proximal, le phalynx intermédiaire.']",0,"Question: Nommez les os du doigt du milieu dans le bon ordre à partir de la main.
+
+Choix: ['Le phalynx proximal, le phalynx intermédiaire, le phalynx distal.', 'Le phalynx distal, le phalynx moyen, le phalynx proximal.', 'Le phalynx moyen, le phalynx distal, le phalynx proximal.', 'Le phalynx distal, le phalynx proximal, le phalynx intermédiaire.']
+
+Réponse: Le phalynx proximal, le phalynx intermédiaire, le phalynx distal."
+Lequel des éléments suivants favorise l'absorption du glucose et des acides aminés par les muscles ?,clinical_knowledge,"['Adrénaline', 'Résistant à l' insuline', 'Glycogène', 'Le cortisol']",1,"Question: Lequel des éléments suivants favorise l'absorption du glucose et des acides aminés par les muscles ?
+
+Choix: ['Adrénaline', 'Résistant à l' insuline', 'Glycogène', 'Le cortisol']
+
+Réponse: Résistant à l' insuline"
+L'ouverture de l'iléostomie doit être:,clinical_knowledge,"['rougissent avec la peau.', '3 à 5 cm de longueur.', 'au-dessous du niveau de la peau.', 'de plus de 5 cm de longueur.']",1,"Question: L'ouverture de l'iléostomie doit être:
+
+Choix: ['rougissent avec la peau.', '3 à 5 cm de longueur.', 'au-dessous du niveau de la peau.', 'de plus de 5 cm de longueur.']
+
+Réponse: 3 à 5 cm de longueur."
+Qu'est-ce qui ne devrait pas être fait avant le cathétérisme?,clinical_knowledge,"['Obtenir le consentement du patient.', 'Le patient doit être lavé.', 'Date de péremption à vérifier.', 'L'anneau est le plus proche parent du patient.']",3,"Question: Qu'est-ce qui ne devrait pas être fait avant le cathétérisme?
+
+Choix: ['Obtenir le consentement du patient.', 'Le patient doit être lavé.', 'Date de péremption à vérifier.', 'L'anneau est le plus proche parent du patient.']
+
+Réponse: L'anneau est le plus proche parent du patient."
+Les ions hydrogène se forment lorsque:,clinical_knowledge,"['le glycogène s' épuise.', 'une dégradation de la phosphocréatine se produit.', 'le pyruvate est converti en lactate.', 'La glycolyse est utilisée comme principal moyen de resynthèse de l'ATP.']",3,"Question: Les ions hydrogène se forment lorsque:
+
+Choix: ['le glycogène s' épuise.', 'une dégradation de la phosphocréatine se produit.', 'le pyruvate est converti en lactate.', 'La glycolyse est utilisée comme principal moyen de resynthèse de l'ATP.']
+
+Réponse: La glycolyse est utilisée comme principal moyen de resynthèse de l'ATP."
+Laquelle des manœuvres suivantes n'est pas un stimulus central douloureux ?,clinical_knowledge,"['La pression est au-dessus de l'orbite.', 'Appuyez sur la pulpe du petit doigt.', 'Le trapèze est serré.', 'Frottez le sternum.']",1,"Question: Laquelle des manœuvres suivantes n'est pas un stimulus central douloureux ?
+
+Choix: ['La pression est au-dessus de l'orbite.', 'Appuyez sur la pulpe du petit doigt.', 'Le trapèze est serré.', 'Frottez le sternum.']
+
+Réponse: Appuyez sur la pulpe du petit doigt."
+"La dopamine est prescrite à raison de 4 microgrammes/kg/min. Pour une personne de 65 kg, combien de milligrammes recevra-t-elle en une heure ?",clinical_knowledge,"['Résolution du Parlement européen', '15 et 6', 'Il est de 1,56', 'Nom de l'entreprise']",1,"Question: La dopamine est prescrite à raison de 4 microgrammes/kg/min. Pour une personne de 65 kg, combien de milligrammes recevra-t-elle en une heure ?
+
+Choix: ['Résolution du Parlement européen', '15 et 6', 'Il est de 1,56', 'Nom de l'entreprise']
+
+Réponse: 15 et 6"
+Laquelle des affirmations suivantes est vraie au sujet de l'examen rectal?,clinical_knowledge,"['Si le patient refuse un accompagnateur , le médecin peut l' annuler .', 'L'examen rectal n'a aucune valeur dans un examen neurologique .', 'La position optimale du patient est sur le côté droit avec les genoux tendus.', 'L'examen rectal est indiqué pour l'évaluation de certains troubles gastro-intestinaux.']",3,"Question: Laquelle des affirmations suivantes est vraie au sujet de l'examen rectal?
+
+Choix: ['Si le patient refuse un accompagnateur , le médecin peut l' annuler .', 'L'examen rectal n'a aucune valeur dans un examen neurologique .', 'La position optimale du patient est sur le côté droit avec les genoux tendus.', 'L'examen rectal est indiqué pour l'évaluation de certains troubles gastro-intestinaux.']
+
+Réponse: L'examen rectal est indiqué pour l'évaluation de certains troubles gastro-intestinaux."
+Pourquoi un patient ne peut pas parler si le brassard est gonflé ?,clinical_knowledge,"['Ils sont incapables de respirer suffisamment.', 'Ils sont incapables d'avaler correctement.', 'C'est trop épuisant.', 'Ils sont incapables de faire passer l'air à travers leurs cordes vocales.']",3,"Question: Pourquoi un patient ne peut pas parler si le brassard est gonflé ?
+
+Choix: ['Ils sont incapables de respirer suffisamment.', 'Ils sont incapables d'avaler correctement.', 'C'est trop épuisant.', 'Ils sont incapables de faire passer l'air à travers leurs cordes vocales.']
+
+Réponse: Ils sont incapables de faire passer l'air à travers leurs cordes vocales."
+Le drainage de la plaie doit être évalué en termes de volume et de consistance:,clinical_knowledge,"['chaque fois que des observations postopératoires sont effectuées.', 'tous les jours.', 'à chaque heure.', 'seulement lorsque le pansement de la plaie est changé.']",0,"Question: Le drainage de la plaie doit être évalué en termes de volume et de consistance:
+
+Choix: ['chaque fois que des observations postopératoires sont effectuées.', 'tous les jours.', 'à chaque heure.', 'seulement lorsque le pansement de la plaie est changé.']
+
+Réponse: chaque fois que des observations postopératoires sont effectuées."
+La créatine est synthétisée à partir de:,clinical_knowledge,"['acides aminés dans les muscles.', 'acides aminés dans le foie.', 'acides aminés dans les reins.', 'créatinine dans les reins.']",1,"Question: La créatine est synthétisée à partir de:
+
+Choix: ['acides aminés dans les muscles.', 'acides aminés dans le foie.', 'acides aminés dans les reins.', 'créatinine dans les reins.']
+
+Réponse: acides aminés dans le foie."
+Que faire si un cathéter résiste à toutes les tentatives de déblocage et que vous êtes incapable de le retirer?,clinical_knowledge,"['Essayez plus fort de l'enlever.', 'Essayez plus fort de le débloquer.', 'Laissez-le pour la prochaine fois.', 'Demandez l'aide d'un médecin.']",3,"Question: Que faire si un cathéter résiste à toutes les tentatives de déblocage et que vous êtes incapable de le retirer?
+
+Choix: ['Essayez plus fort de l'enlever.', 'Essayez plus fort de le débloquer.', 'Laissez-le pour la prochaine fois.', 'Demandez l'aide d'un médecin.']
+
+Réponse: Demandez l'aide d'un médecin."
+La solution de lavage de la vessie doit être:,clinical_knowledge,"['Il fait chaud.', 'Il fait froid.', 'réfrigéré.', 'température ambiante.']",3,"Question: La solution de lavage de la vessie doit être:
+
+Choix: ['Il fait chaud.', 'Il fait froid.', 'réfrigéré.', 'température ambiante.']
+
+Réponse: température ambiante."
+"Lors de l'élaboration d'un plan de soins relatif à la gestion de la douleur d'une personne, il convient de prêter attention aux besoins suivants:",clinical_knowledge,"['les besoins physiques et pharmacologiques uniquement.', 'Seuls les besoins physiques et psychologiques.', 'les besoins physiques, psychologiques et pharmacologiques suivis d'une réévaluation régulière.', 'aucun des éléments ci-dessus, étant donné que la priorité principale est de limiter les effets secondaires des médicaments.']",2,"Question: Lors de l'élaboration d'un plan de soins relatif à la gestion de la douleur d'une personne, il convient de prêter attention aux besoins suivants:
+
+Choix: ['les besoins physiques et pharmacologiques uniquement.', 'Seuls les besoins physiques et psychologiques.', 'les besoins physiques, psychologiques et pharmacologiques suivis d'une réévaluation régulière.', 'aucun des éléments ci-dessus, étant donné que la priorité principale est de limiter les effets secondaires des médicaments.']
+
+Réponse: les besoins physiques, psychologiques et pharmacologiques suivis d'une réévaluation régulière."
+Les patients avec le gène apolipoprotéine E sont à risque de quelle maladie?,clinical_knowledge,"['Une fibrose kystique.', 'La démence de Huntington.', 'La maladie d'Alzheimer.', 'Une dépression.']",2,"Question: Les patients avec le gène apolipoprotéine E sont à risque de quelle maladie?
+
+Choix: ['Une fibrose kystique.', 'La démence de Huntington.', 'La maladie d'Alzheimer.', 'Une dépression.']
+
+Réponse: La maladie d'Alzheimer."
+Lequel des groupes de médicaments suivants peut provoquer une sécheresse de la bouche?,clinical_knowledge,"['Des stéroïdes.', 'Des analgésiques.', 'Des antidépresseurs.', 'Des agents antifongiques.']",2,"Question: Lequel des groupes de médicaments suivants peut provoquer une sécheresse de la bouche?
+
+Choix: ['Des stéroïdes.', 'Des analgésiques.', 'Des antidépresseurs.', 'Des agents antifongiques.']
+
+Réponse: Des antidépresseurs."
+Laquelle des affirmations suivantes n'est pas vraie ?,clinical_knowledge,"['Le glycogène musculaire est décomposé enzymatiquement en glucose-1-phosphate', 'Les coureurs d'endurance d'élite ont une forte proportion de fibres de type I dans les muscles de leurs jambes.', 'Le glycogène hépatique est important dans le maintien de la concentration de glucose dans le sang.', 'L'insuline favorise l'absorption du glucose par tous les tissus du corps']",3,"Question: Laquelle des affirmations suivantes n'est pas vraie ?
+
+Choix: ['Le glycogène musculaire est décomposé enzymatiquement en glucose-1-phosphate', 'Les coureurs d'endurance d'élite ont une forte proportion de fibres de type I dans les muscles de leurs jambes.', 'Le glycogène hépatique est important dans le maintien de la concentration de glucose dans le sang.', 'L'insuline favorise l'absorption du glucose par tous les tissus du corps']
+
+Réponse: L'insuline favorise l'absorption du glucose par tous les tissus du corps"
+"Si un patient est cyanosé, quel est son niveau de saturation en oxygène ?",clinical_knowledge,"['98% ou plus.', '94% ou plus.', '80% ou moins.', '85% ou plus.']",2,"Question: Si un patient est cyanosé, quel est son niveau de saturation en oxygène ?
+
+Choix: ['98% ou plus.', '94% ou plus.', '80% ou moins.', '85% ou plus.']
+
+Réponse: 80% ou moins."
+Lors de l'évaluation de la respiration d'un patient:,clinical_knowledge,"['toujours retirer les prothèses dentaires.', 'recherchez les mouvements de la poitrine et utilisez un miroir pour vérifier l'air expiré.', 'regardez les mouvements de la poitrine, écoutez les sons de la respiration, et sentez l'air expiré sur votre joue.', 'évaluer pendant 30 secondes.']",2,"Question: Lors de l'évaluation de la respiration d'un patient:
+
+Choix: ['toujours retirer les prothèses dentaires.', 'recherchez les mouvements de la poitrine et utilisez un miroir pour vérifier l'air expiré.', 'regardez les mouvements de la poitrine, écoutez les sons de la respiration, et sentez l'air expiré sur votre joue.', 'évaluer pendant 30 secondes.']
+
+Réponse: regardez les mouvements de la poitrine, écoutez les sons de la respiration, et sentez l'air expiré sur votre joue."
+"Une personne reçoit 1,5 mg de Ropinirole divisé en trois doses. Combien de microgrammes est chaque dose? Choisissez une des réponses suivantes:",clinical_knowledge,"['Nom de l'entreprise', 'Il y en a 50 .', '0,5% ou plus', 'Nom de l'entreprise']",3,"Question: Une personne reçoit 1,5 mg de Ropinirole divisé en trois doses. Combien de microgrammes est chaque dose? Choisissez une des réponses suivantes:
+
+Choix: ['Nom de l'entreprise', 'Il y en a 50 .', '0,5% ou plus', 'Nom de l'entreprise']
+
+Réponse: Nom de l'entreprise"
+Lequel des facteurs suivants est censé être impliqué dans le développement de la fatigue musculaire périphérique lors d'activités de sprint multiples?,clinical_knowledge,"['Une accumulation de phosphate inorganique.', 'Développement d'une hyperosmolalité dans les muscles.', 'Un excès d'antioxydants.', 'Un manque de potassium.']",0,"Question: Lequel des facteurs suivants est censé être impliqué dans le développement de la fatigue musculaire périphérique lors d'activités de sprint multiples?
+
+Choix: ['Une accumulation de phosphate inorganique.', 'Développement d'une hyperosmolalité dans les muscles.', 'Un excès d'antioxydants.', 'Un manque de potassium.']
+
+Réponse: Une accumulation de phosphate inorganique."
+Les réserves d'ATP dans les muscles ne peuvent fournir de l'énergie que pendant environ:,clinical_knowledge,"['2 millisecondes.', 'Deux secondes.', 'Dix secondes.', 'Vingt secondes.']",1,"Question: Les réserves d'ATP dans les muscles ne peuvent fournir de l'énergie que pendant environ:
+
+Choix: ['2 millisecondes.', 'Deux secondes.', 'Dix secondes.', 'Vingt secondes.']
+
+Réponse: Deux secondes."
+960 mg du médicament antibactérien cotrimoxazole est prescrit toutes les 12 heures. Quelle est la dose quotidienne en grammes? Choisissez une des réponses suivantes:,clinical_knowledge,"['0,192 au cours de l'année', 'Déclaration par le Parlement européen', 'Les années 1920', '0,96 à']",1,"Question: 960 mg du médicament antibactérien cotrimoxazole est prescrit toutes les 12 heures. Quelle est la dose quotidienne en grammes? Choisissez une des réponses suivantes:
+
+Choix: ['0,192 au cours de l'année', 'Déclaration par le Parlement européen', 'Les années 1920', '0,96 à']
+
+Réponse: Déclaration par le Parlement européen"
+Laquelle des affirmations suivantes est vraie pour l'hypothyroïdie?,clinical_knowledge,"['Perte de poids', 'Myxo-œdème pré-tibial', 'Un taux élevé de TSH', 'Une aversion pour les endroits chauds']",2,"Question: Laquelle des affirmations suivantes est vraie pour l'hypothyroïdie?
+
+Choix: ['Perte de poids', 'Myxo-œdème pré-tibial', 'Un taux élevé de TSH', 'Une aversion pour les endroits chauds']
+
+Réponse: Un taux élevé de TSH"
+C'est quoi l'hypochlorhydrie ?,clinical_knowledge,"['Augmentation de la quantité d'acide gastrique.', 'Des ulcères gastriques.', 'Réduction de la quantité d'acide gastrique.', 'Une anémie pernicieuse.']",2,"Question: C'est quoi l'hypochlorhydrie ?
+
+Choix: ['Augmentation de la quantité d'acide gastrique.', 'Des ulcères gastriques.', 'Réduction de la quantité d'acide gastrique.', 'Une anémie pernicieuse.']
+
+Réponse: Réduction de la quantité d'acide gastrique."
+"Un homme de 67 ans, trois heures après la résection transurétrale de la prostate avec irrigation, a un cathéter bloqué.",clinical_knowledge,"['Solution R.', 'Une solution saline normale.', 'Solution G.', 'Tout ce qui précède.']",1,"Question: Un homme de 67 ans, trois heures après la résection transurétrale de la prostate avec irrigation, a un cathéter bloqué.
+
+Choix: ['Solution R.', 'Une solution saline normale.', 'Solution G.', 'Tout ce qui précède.']
+
+Réponse: Une solution saline normale."
+Un chéloïde est:,clinical_knowledge,"['des signes d'infection.', 'une masse ferme de tissu cicatriciel.', 'Une petite cicatrice.', 'forme si un drain de la plaie est retiré trop tôt.']",1,"Question: Un chéloïde est:
+
+Choix: ['des signes d'infection.', 'une masse ferme de tissu cicatriciel.', 'Une petite cicatrice.', 'forme si un drain de la plaie est retiré trop tôt.']
+
+Réponse: une masse ferme de tissu cicatriciel."
+Lequel des éléments suivants n'est pas un acide aminé ?,clinical_knowledge,"['Acide glutamique', 'Acide aspartique', 'Glutamine', 'Acide palmitique']",3,"Question: Lequel des éléments suivants n'est pas un acide aminé ?
+
+Choix: ['Acide glutamique', 'Acide aspartique', 'Glutamine', 'Acide palmitique']
+
+Réponse: Acide palmitique"
+Le drainage de la plaie est décrit comme séreux si:,clinical_knowledge,"['Il contient des globules rouges.', 'il est épais et jaune ou vert.', 'Il contient des micro-organismes.', 'il est clair ou légèrement jaune.']",3,"Question: Le drainage de la plaie est décrit comme séreux si:
+
+Choix: ['Il contient des globules rouges.', 'il est épais et jaune ou vert.', 'Il contient des micro-organismes.', 'il est clair ou légèrement jaune.']
+
+Réponse: il est clair ou légèrement jaune."
+Le sexe d'un enfant est dicté par l'héritage de:,clinical_knowledge,"['le nombre de chromosomes X de la mère.', 'un allèle récessif sur le chromosome X.', 'un seul chromosome Y de la mère.', 'un seul chromosome Y du père.']",3,"Question: Le sexe d'un enfant est dicté par l'héritage de:
+
+Choix: ['le nombre de chromosomes X de la mère.', 'un allèle récessif sur le chromosome X.', 'un seul chromosome Y de la mère.', 'un seul chromosome Y du père.']
+
+Réponse: un seul chromosome Y du père."
+Laquelle des affirmations suivantes est vraie pour la paraplégie spastique ?,clinical_knowledge,"['La sclérose en plaques peut provoquer ce schéma neurologique.', 'La perte proprioceptive est une caractéristique commune.', 'La coordination des jambes est affectée.', 'Le ton est normal ou flasque']",0,"Question: Laquelle des affirmations suivantes est vraie pour la paraplégie spastique ?
+
+Choix: ['La sclérose en plaques peut provoquer ce schéma neurologique.', 'La perte proprioceptive est une caractéristique commune.', 'La coordination des jambes est affectée.', 'Le ton est normal ou flasque']
+
+Réponse: La sclérose en plaques peut provoquer ce schéma neurologique."
+"La synthèse du glucose à partir du lactate, du glycérol ou des acides aminés est appelée:",clinical_knowledge,"['glycogénolyse.', 'glycolyse.', 'une lipolyse.', 'gluconéogenèse.']",3,"Question: La synthèse du glucose à partir du lactate, du glycérol ou des acides aminés est appelée:
+
+Choix: ['glycogénolyse.', 'glycolyse.', 'une lipolyse.', 'gluconéogenèse.']
+
+Réponse: gluconéogenèse."
+"Si une unité de sang a été sortie du réfrigérateur plus longtemps que la limite de temps acceptée, vous devez:",clinical_knowledge,"['transfuser le plus rapidement possible et noter dans les notes du patient l'heure de l'administration.', 'éliminer le contenu dans la zone de l'écluse, en conservant le sac à des fins d'enregistrement.', 'retournez- le à la banque de sang et informez- les des raisons pour lesquelles vous l' avez fait.', 'conserver au réfrigérateur pendant au moins 12 heures, puis administrer le médicament.']",2,"Question: Si une unité de sang a été sortie du réfrigérateur plus longtemps que la limite de temps acceptée, vous devez:
+
+Choix: ['transfuser le plus rapidement possible et noter dans les notes du patient l'heure de l'administration.', 'éliminer le contenu dans la zone de l'écluse, en conservant le sac à des fins d'enregistrement.', 'retournez- le à la banque de sang et informez- les des raisons pour lesquelles vous l' avez fait.', 'conserver au réfrigérateur pendant au moins 12 heures, puis administrer le médicament.']
+
+Réponse: retournez- le à la banque de sang et informez- les des raisons pour lesquelles vous l' avez fait."
+L'écart au niveau de l'austérité est de:,clinical_knowledge,"['lorsque vous ne pouvez plus entendre les sons de Korotkoff parce que la vessie est égale à la pression diastolique.', 'lorsque les sons de Korotkoff peuvent être entendus entre les phases systolique et diastolique.', 'lorsque les sons de Korotkoff disparaissent puis reviennent pendant la phase 2 lorsque la vessie est dégonflée.', 'Quand les sons de Korotkoff ne disparaissent pas quand le brassard est complètement dégonflé.']",2,"Question: L'écart au niveau de l'austérité est de:
+
+Choix: ['lorsque vous ne pouvez plus entendre les sons de Korotkoff parce que la vessie est égale à la pression diastolique.', 'lorsque les sons de Korotkoff peuvent être entendus entre les phases systolique et diastolique.', 'lorsque les sons de Korotkoff disparaissent puis reviennent pendant la phase 2 lorsque la vessie est dégonflée.', 'Quand les sons de Korotkoff ne disparaissent pas quand le brassard est complètement dégonflé.']
+
+Réponse: lorsque les sons de Korotkoff disparaissent puis reviennent pendant la phase 2 lorsque la vessie est dégonflée."
+Combien de types différents de micro-organismes peuvent coloniser la bouche ?,clinical_knowledge,"['35 de l'année précédente.', 'Il y en a 100 .', 'Il y en a 350', 'Nom de l'entreprise']",2,"Question: Combien de types différents de micro-organismes peuvent coloniser la bouche ?
+
+Choix: ['35 de l'année précédente.', 'Il y en a 100 .', 'Il y en a 350', 'Nom de l'entreprise']
+
+Réponse: Il y en a 350"
+Pourquoi ne faut- il pas se laver la peau avec du shampoing quand on prend une douche ou un bain?,clinical_knowledge,"['Il est plus glissant que le savon ou les émollients.', 'Il ne produira pas assez de mousse.', 'Ce n'est pas rentable.', 'Il peut provoquer une sécheresse de la peau.']",3,"Question: Pourquoi ne faut- il pas se laver la peau avec du shampoing quand on prend une douche ou un bain?
+
+Choix: ['Il est plus glissant que le savon ou les émollients.', 'Il ne produira pas assez de mousse.', 'Ce n'est pas rentable.', 'Il peut provoquer une sécheresse de la peau.']
+
+Réponse: Il peut provoquer une sécheresse de la peau."
+Lequel des éléments suivants a la même force que l'adrénaline 1 sur 1000? Choisissez une des réponses suivantes:,clinical_knowledge,"['1 mg/mL', '1 mg/L', '1 g/mL', '100 microgrammes par millilitre']",0,"Question: Lequel des éléments suivants a la même force que l'adrénaline 1 sur 1000? Choisissez une des réponses suivantes:
+
+Choix: ['1 mg/mL', '1 mg/L', '1 g/mL', '100 microgrammes par millilitre']
+
+Réponse: 1 mg/mL"
+Un allèle qui est masqué est appelé:,clinical_knowledge,"['récessive.', 'Elle est redondante.', 'réprimée.', 'Elle est solitaire.']",0,"Question: Un allèle qui est masqué est appelé:
+
+Choix: ['récessive.', 'Elle est redondante.', 'réprimée.', 'Elle est solitaire.']
+
+Réponse: récessive."
+La déshydratation hypernatrémique est:,clinical_knowledge,"['l'apport en eau est inférieur à ce qui est nécessaire pour maintenir l'équilibre.', 'l'apport en eau est supérieur à ce qui est nécessaire pour maintenir l'équilibre.', 'une perte de volume sanguin due à un traumatisme ou à des brûlures.', 'le volume sanguin est perdu en raison de la chirurgie.']",0,"Question: La déshydratation hypernatrémique est:
+
+Choix: ['l'apport en eau est inférieur à ce qui est nécessaire pour maintenir l'équilibre.', 'l'apport en eau est supérieur à ce qui est nécessaire pour maintenir l'équilibre.', 'une perte de volume sanguin due à un traumatisme ou à des brûlures.', 'le volume sanguin est perdu en raison de la chirurgie.']
+
+Réponse: l'apport en eau est inférieur à ce qui est nécessaire pour maintenir l'équilibre."
+Lequel des éléments suivants n'est pas associé à une augmentation du travail respiratoire?,clinical_knowledge,"['Augmentation du rythme respiratoire.', 'Une respiration bruyante.', 'Augmentation de l'utilisation des muscles accessoires.', 'Une fréquence respiratoire de 16 respirations par minute.']",3,"Question: Lequel des éléments suivants n'est pas associé à une augmentation du travail respiratoire?
+
+Choix: ['Augmentation du rythme respiratoire.', 'Une respiration bruyante.', 'Augmentation de l'utilisation des muscles accessoires.', 'Une fréquence respiratoire de 16 respirations par minute.']
+
+Réponse: Une fréquence respiratoire de 16 respirations par minute."
+Lequel des éléments suivants peut agir comme tampon intracellulaire pour limiter les changements de pH lorsque le taux de glycolyse est élevé?,clinical_knowledge,"['Glutamine', 'Glucose', 'Carnosine et ses dérivés', 'Amylase']",2,"Question: Lequel des éléments suivants peut agir comme tampon intracellulaire pour limiter les changements de pH lorsque le taux de glycolyse est élevé?
+
+Choix: ['Glutamine', 'Glucose', 'Carnosine et ses dérivés', 'Amylase']
+
+Réponse: Carnosine et ses dérivés"
+Laquelle des affirmations suivantes est vraie au sujet de la maladie d'Addison?,clinical_knowledge,"['Elle est due à une carence de l'hormone prolactine.', 'Conduit à une pigmentation généralisée', 'C'est une cause reconnue d'hypertension', 'Le diabète est une complication.']",1,"Question: Laquelle des affirmations suivantes est vraie au sujet de la maladie d'Addison?
+
+Choix: ['Elle est due à une carence de l'hormone prolactine.', 'Conduit à une pigmentation généralisée', 'C'est une cause reconnue d'hypertension', 'Le diabète est une complication.']
+
+Réponse: Conduit à une pigmentation généralisée"
+Quels sont les signes et symptômes indicatifs d'une surcharge circulatoire ?,clinical_knowledge,"['Une hypothermie, une hypotension et une bradycardie.', 'Hypotension, oligurie et urticaire.', 'Des frissons, une pyrexie et de la soif.', 'Dyspnée, tachycardie et dilatation des veines du cou.']",3,"Question: Quels sont les signes et symptômes indicatifs d'une surcharge circulatoire ?
+
+Choix: ['Une hypothermie, une hypotension et une bradycardie.', 'Hypotension, oligurie et urticaire.', 'Des frissons, une pyrexie et de la soif.', 'Dyspnée, tachycardie et dilatation des veines du cou.']
+
+Réponse: Dyspnée, tachycardie et dilatation des veines du cou."
+Quelle est la cause la plus probable de rétention urinaire aiguë ?,clinical_knowledge,"['Une hématurie.', 'Obstruction de l'écoulement de la vessie.', 'Boire de l'alcool.', 'Des calculs rénaux.']",1,"Question: Quelle est la cause la plus probable de rétention urinaire aiguë ?
+
+Choix: ['Une hématurie.', 'Obstruction de l'écoulement de la vessie.', 'Boire de l'alcool.', 'Des calculs rénaux.']
+
+Réponse: Obstruction de l'écoulement de la vessie."
+Lequel des outils suivants est le premier choix pour le nettoyage de la bouche?,clinical_knowledge,"['Une petite brosse à dents douce.', 'Un doigt ganté enveloppé dans une gaze.', 'Des pinces enveloppées dans de la gaze.', 'Un bâton en mousse.']",0,"Question: Lequel des outils suivants est le premier choix pour le nettoyage de la bouche?
+
+Choix: ['Une petite brosse à dents douce.', 'Un doigt ganté enveloppé dans une gaze.', 'Des pinces enveloppées dans de la gaze.', 'Un bâton en mousse.']
+
+Réponse: Une petite brosse à dents douce."
+Lequel des médicaments suivants peut être utilisé pour améliorer la motilité gastrique?,clinical_knowledge,"['Il y a de l'adrénaline.', 'Le ditropan.', 'Une érythromycine.', 'La carbemazépine.']",2,"Question: Lequel des médicaments suivants peut être utilisé pour améliorer la motilité gastrique?
+
+Choix: ['Il y a de l'adrénaline.', 'Le ditropan.', 'Une érythromycine.', 'La carbemazépine.']
+
+Réponse: Une érythromycine."
+La réaction de la créatine kinase est:,clinical_knowledge,"['Il est irréversible.', 'lent par rapport à la glycolyse.', 'n'est pas activé tant que tout l'ATP n'a pas été utilisé.', 'est inhibée par un faible pH dans le muscle.']",3,"Question: La réaction de la créatine kinase est:
+
+Choix: ['Il est irréversible.', 'lent par rapport à la glycolyse.', 'n'est pas activé tant que tout l'ATP n'a pas été utilisé.', 'est inhibée par un faible pH dans le muscle.']
+
+Réponse: est inhibée par un faible pH dans le muscle."
+Où doit- on placer une stomie?,clinical_knowledge,"['Le rectus abdominalis.', 'À côté du nombril.', 'Dans un pli abdominal.', 'Près du lieu de l'incision.']",0,"Question: Où doit- on placer une stomie?
+
+Choix: ['Le rectus abdominalis.', 'À côté du nombril.', 'Dans un pli abdominal.', 'Près du lieu de l'incision.']
+
+Réponse: Le rectus abdominalis."
+"Les performances des records du monde féminins se sont rapidement améliorées ces dernières années, principalement parce que:",clinical_knowledge,"['Les femmes ont développé une plus grande masse musculaire.', 'Les femmes peuvent courir plus vite que les hommes.', 'Les femmes ont commencé à s'entraîner à un âge plus précoce.', 'plus de femmes sont désormais engagées dans le sport.']",3,"Question: Les performances des records du monde féminins se sont rapidement améliorées ces dernières années, principalement parce que:
+
+Choix: ['Les femmes ont développé une plus grande masse musculaire.', 'Les femmes peuvent courir plus vite que les hommes.', 'Les femmes ont commencé à s'entraîner à un âge plus précoce.', 'plus de femmes sont désormais engagées dans le sport.']
+
+Réponse: plus de femmes sont désormais engagées dans le sport."
+Notre matériel génétique est composé de:,clinical_knowledge,"['acide désoxyribonucléique.', 'acide ribonucléique.', 'acide dinitronucléique.', 'Des protéines.']",0,"Question: Notre matériel génétique est composé de:
+
+Choix: ['acide désoxyribonucléique.', 'acide ribonucléique.', 'acide dinitronucléique.', 'Des protéines.']
+
+Réponse: acide désoxyribonucléique."
+Les pertes insensibles ne résultent pas de:,clinical_knowledge,"['une pyrexie.', 'en utilisant de l'oxygène non humidifié.', 'une perte de poids excessive.', 'une diarrhée.']",2,"Question: Les pertes insensibles ne résultent pas de:
+
+Choix: ['une pyrexie.', 'en utilisant de l'oxygène non humidifié.', 'une perte de poids excessive.', 'une diarrhée.']
+
+Réponse: une perte de poids excessive."
+"L'épuisement, la confusion et l'absence de réaction peuvent être des indicateurs de:",clinical_knowledge,"['insuffisance respiratoire.', 'être généralement mal à l'aise.', 'insuffisance rénale.', 'insuffisance cardiaque.']",0,"Question: L'épuisement, la confusion et l'absence de réaction peuvent être des indicateurs de:
+
+Choix: ['insuffisance respiratoire.', 'être généralement mal à l'aise.', 'insuffisance rénale.', 'insuffisance cardiaque.']
+
+Réponse: insuffisance respiratoire."
+"Les paires d'électrons transportés sous la forme, FADH2 et NADH + H, contiennent collectivement suffisamment d'énergie libre pour rephosphoryler:",clinical_knowledge,"['6 de l'ATP.', '5 de l'ATP.', '4 de l'ATP.', '3 de l'ATP.']",1,"Question: Les paires d'électrons transportés sous la forme, FADH2 et NADH + H, contiennent collectivement suffisamment d'énergie libre pour rephosphoryler:
+
+Choix: ['6 de l'ATP.', '5 de l'ATP.', '4 de l'ATP.', '3 de l'ATP.']
+
+Réponse: 5 de l'ATP."
+Une fibre musculaire se détend lorsque:,clinical_knowledge,"['le stimulus nerveux est supprimé.', 'le stimulus nerveux est trop fort.', 'les sites de liaison à l'actine sont découverts.', 'les sites de liaison à l'actine sont saturés.']",0,"Question: Une fibre musculaire se détend lorsque:
+
+Choix: ['le stimulus nerveux est supprimé.', 'le stimulus nerveux est trop fort.', 'les sites de liaison à l'actine sont découverts.', 'les sites de liaison à l'actine sont saturés.']
+
+Réponse: le stimulus nerveux est supprimé."
+Lequel des éléments suivants décrit le mieux l'organe du tendon de Golgi ?,clinical_knowledge,"['Récepteur moteur propriocéptif trouvé dans le corps musculaire principal.', 'Un récepteur sensoriel proprioceptif situé à la jonction entre le muscle et le tendon.', 'Récepteur sensoriel propriocéptif situé dans le corps musculaire principal.', 'Un récepteur moteur propriocéptif situé à la jonction entre le muscle et le tendon.']",1,"Question: Lequel des éléments suivants décrit le mieux l'organe du tendon de Golgi ?
+
+Choix: ['Récepteur moteur propriocéptif trouvé dans le corps musculaire principal.', 'Un récepteur sensoriel proprioceptif situé à la jonction entre le muscle et le tendon.', 'Récepteur sensoriel propriocéptif situé dans le corps musculaire principal.', 'Un récepteur moteur propriocéptif situé à la jonction entre le muscle et le tendon.']
+
+Réponse: Un récepteur sensoriel proprioceptif situé à la jonction entre le muscle et le tendon."
+Le pouls peut être palpé:,clinical_knowledge,"['chaque fois que les atria se contractent.', 'quand une veine est proche de la surface de la peau.', 'chaque fois que le ventricule gauche se contracte.', 'lorsqu'une artère est proche de la surface de la peau.']",3,"Question: Le pouls peut être palpé:
+
+Choix: ['chaque fois que les atria se contractent.', 'quand une veine est proche de la surface de la peau.', 'chaque fois que le ventricule gauche se contracte.', 'lorsqu'une artère est proche de la surface de la peau.']
+
+Réponse: lorsqu'une artère est proche de la surface de la peau."
+Le complexe pyruvate déshydrogénase:,clinical_knowledge,"['est situé dans le sarcoplasme.', 'catalyse la conversion du pyruvate en acétyl-CoA.', 'catalyse la conversion du pyruvate en lactate.', 'catalyse la conversion du lactate en pyruvate.']",1,"Question: Le complexe pyruvate déshydrogénase:
+
+Choix: ['est situé dans le sarcoplasme.', 'catalyse la conversion du pyruvate en acétyl-CoA.', 'catalyse la conversion du pyruvate en lactate.', 'catalyse la conversion du lactate en pyruvate.']
+
+Réponse: catalyse la conversion du pyruvate en acétyl-CoA."
+Laquelle des affirmations suivantes est vraie au sujet de l'articulation du genou ?,clinical_knowledge,"['Le genou est une articulation à bille et à douille.', 'On trouve parfois un kyste de boulanger antérieur au genou.', 'Le robinet patellaire est utilisé pour démontrer un épanchement.', 'La déformation du genou est due à un genou bilatéral.']",2,"Question: Laquelle des affirmations suivantes est vraie au sujet de l'articulation du genou ?
+
+Choix: ['Le genou est une articulation à bille et à douille.', 'On trouve parfois un kyste de boulanger antérieur au genou.', 'Le robinet patellaire est utilisé pour démontrer un épanchement.', 'La déformation du genou est due à un genou bilatéral.']
+
+Réponse: Le robinet patellaire est utilisé pour démontrer un épanchement."
+Pour qui votre guide du NHS a-t-il été rédigé?,clinical_knowledge,"['Les médecins généralistes.', 'Les groupes de pression des patients.', 'Le grand public.', 'Patients admis à l'hôpital.']",2,"Question: Pour qui votre guide du NHS a-t-il été rédigé?
+
+Choix: ['Les médecins généralistes.', 'Les groupes de pression des patients.', 'Le grand public.', 'Patients admis à l'hôpital.']
+
+Réponse: Le grand public."
+Laquelle des affirmations suivantes est vraie au sujet de l'évaluation des réflexes du bras ?,clinical_knowledge,"['La valeur racine du réflexe des biceps est C5, C6', 'Si aucun réflexe n'est provoqué lorsque vous tapez sur un tendon, il est documenté comme absent.', 'Le tendon du triceps est touché dans la fosse antecubitale .', 'Des secousses rapides des doigts confirment une lésion des neurones moteurs inférieurs.']",0,"Question: Laquelle des affirmations suivantes est vraie au sujet de l'évaluation des réflexes du bras ?
+
+Choix: ['La valeur racine du réflexe des biceps est C5, C6', 'Si aucun réflexe n'est provoqué lorsque vous tapez sur un tendon, il est documenté comme absent.', 'Le tendon du triceps est touché dans la fosse antecubitale .', 'Des secousses rapides des doigts confirment une lésion des neurones moteurs inférieurs.']
+
+Réponse: La valeur racine du réflexe des biceps est C5, C6"
+Lequel d'entre eux est le plus susceptible de provoquer une déviation de la trachée ?,clinical_knowledge,"['Une pneumonie basale gauche', 'Un petit épanchement pleural droit', 'Tuberculose antérieure du lobe supérieur droit', 'Alvéolite fibrosante idiopathique']",2,"Question: Lequel d'entre eux est le plus susceptible de provoquer une déviation de la trachée ?
+
+Choix: ['Une pneumonie basale gauche', 'Un petit épanchement pleural droit', 'Tuberculose antérieure du lobe supérieur droit', 'Alvéolite fibrosante idiopathique']
+
+Réponse: Tuberculose antérieure du lobe supérieur droit"
+Quel est le risque si l'eau est utilisée pour le lavage de la vessie dans les soins secondaires?,clinical_knowledge,"['Des fuites de liquide peuvent se produire lors du lavage.', 'Le lavage de la vessie peut être infructueux.', 'L'utilisation d'eau peut provoquer un déséquilibre électrolytique.', 'Le personnel médical est peut-être mécontent.']",2,"Question: Quel est le risque si l'eau est utilisée pour le lavage de la vessie dans les soins secondaires?
+
+Choix: ['Des fuites de liquide peuvent se produire lors du lavage.', 'Le lavage de la vessie peut être infructueux.', 'L'utilisation d'eau peut provoquer un déséquilibre électrolytique.', 'Le personnel médical est peut-être mécontent.']
+
+Réponse: L'utilisation d'eau peut provoquer un déséquilibre électrolytique."
+"Quelle est la portée ""normale"" de la flexion de l'articulation du genou?",clinical_knowledge,"['0 à 115 degrés.', '0 à 135 degrés.', '0 à 155 degrés.', '0 à 175 degrés.']",1,"Question: Quelle est la portée ""normale"" de la flexion de l'articulation du genou?
+
+Choix: ['0 à 115 degrés.', '0 à 135 degrés.', '0 à 155 degrés.', '0 à 175 degrés.']
+
+Réponse: 0 à 135 degrés."
+Lequel des éléments suivants n'est pas une drogue contrôlée ?,clinical_knowledge,"['Une ampoule de 30 milligrammes de phosphate de codéine pour injection.', 'Un comprimé de morphine à libération prolongée.', 'Un timbre à 12,5 microgrammes de Fentanyl.', 'Une bouteille de 500 ml de Morphine 10 mg dans 5 ml en suspension orale.']",3,"Question: Lequel des éléments suivants n'est pas une drogue contrôlée ?
+
+Choix: ['Une ampoule de 30 milligrammes de phosphate de codéine pour injection.', 'Un comprimé de morphine à libération prolongée.', 'Un timbre à 12,5 microgrammes de Fentanyl.', 'Une bouteille de 500 ml de Morphine 10 mg dans 5 ml en suspension orale.']
+
+Réponse: Une bouteille de 500 ml de Morphine 10 mg dans 5 ml en suspension orale."
+Après combien de temps l'exercice dynamique maximal devient-il principalement aérobie ?,clinical_knowledge,"['10 secondes', '30 secondes', 'Une minute.', '4 minutes']",2,"Question: Après combien de temps l'exercice dynamique maximal devient-il principalement aérobie ?
+
+Choix: ['10 secondes', '30 secondes', 'Une minute.', '4 minutes']
+
+Réponse: Une minute."
+Le déclencheur pour initier le processus de contraction dans le muscle squelettique est:,clinical_knowledge,"['liant le potassium à la myosine.', 'liant le calcium à la tropomyosine.', 'La liaison de l'ATP aux ponts croisés de la myosine.', 'liant le calcium à la troponine.']",3,"Question: Le déclencheur pour initier le processus de contraction dans le muscle squelettique est:
+
+Choix: ['liant le potassium à la myosine.', 'liant le calcium à la tropomyosine.', 'La liaison de l'ATP aux ponts croisés de la myosine.', 'liant le calcium à la troponine.']
+
+Réponse: liant le calcium à la troponine."
+Lequel des symptômes suivants n'est PAS un signe de phlébite?,clinical_knowledge,"['Un gonflement.', 'Une rougeur.', 'Il faut exsuder.', 'Il est frais au toucher.']",3,"Question: Lequel des symptômes suivants n'est PAS un signe de phlébite?
+
+Choix: ['Un gonflement.', 'Une rougeur.', 'Il faut exsuder.', 'Il est frais au toucher.']
+
+Réponse: Il est frais au toucher."
+La charge énergétique de la cellule est:,clinical_knowledge,"['la différence entre la charge à l'extérieur et à l'intérieur d'une cellule.', 'généré par l'ATPase sodium-potassium.', 'le taux global de consommation d'énergie par la cellule.', 'le degré de phosphorylation de la réserve totale de nucléotides d'adénine.']",3,"Question: La charge énergétique de la cellule est:
+
+Choix: ['la différence entre la charge à l'extérieur et à l'intérieur d'une cellule.', 'généré par l'ATPase sodium-potassium.', 'le taux global de consommation d'énergie par la cellule.', 'le degré de phosphorylation de la réserve totale de nucléotides d'adénine.']
+
+Réponse: le degré de phosphorylation de la réserve totale de nucléotides d'adénine."
+Le réticulum sarcoplasmique dans les cellules musculaires agit comme:,clinical_knowledge,"['le stockage des enzymes digestives.', 'le stockage d' ions sodium.', 'dépôt de lipides.', 'dépôt d' ions calcium.']",3,"Question: Le réticulum sarcoplasmique dans les cellules musculaires agit comme:
+
+Choix: ['le stockage des enzymes digestives.', 'le stockage d' ions sodium.', 'dépôt de lipides.', 'dépôt d' ions calcium.']
+
+Réponse: dépôt d' ions calcium."
+Quels sont les paramètres suivants que l'on observe sur les diagrammes d'observation neurologiques typiques ?,clinical_knowledge,"['Sortie d'urine.', 'La température.', 'La pression veineuse centrale.', 'Glucose dans le sang.']",1,"Question: Quels sont les paramètres suivants que l'on observe sur les diagrammes d'observation neurologiques typiques ?
+
+Choix: ['Sortie d'urine.', 'La température.', 'La pression veineuse centrale.', 'Glucose dans le sang.']
+
+Réponse: La température."
+"Dans la liste de contrôle de décharge recommandée par le ministère de la Santé (2004), qui devrait être impliqué dans le remplissage du formulaire?",clinical_knowledge,"['Le médecin généraliste, le consultant et l'infirmière nommée.', 'L'infirmière, le patient et le greffier.', 'L'infirmière, le greffier et le consultant.', 'L'infirmière, le consultant et le médecin généraliste.']",1,"Question: Dans la liste de contrôle de décharge recommandée par le ministère de la Santé (2004), qui devrait être impliqué dans le remplissage du formulaire?
+
+Choix: ['Le médecin généraliste, le consultant et l'infirmière nommée.', 'L'infirmière, le patient et le greffier.', 'L'infirmière, le greffier et le consultant.', 'L'infirmière, le consultant et le médecin généraliste.']
+
+Réponse: L'infirmière, le patient et le greffier."
+Laquelle des affirmations suivantes est vraie en ce qui concerne les complications d'un gros goitre?,clinical_knowledge,"['Elle provoque un stridor dû à la compression de l'œsophage.', 'La dysphagie est une indication pour la chirurgie.', 'Elle provoque une enrouement dû à la compression de la trachée.', 'Il provoque une thyrotoxicose plus floride qu'un goitre plus petit.']",1,"Question: Laquelle des affirmations suivantes est vraie en ce qui concerne les complications d'un gros goitre?
+
+Choix: ['Elle provoque un stridor dû à la compression de l'œsophage.', 'La dysphagie est une indication pour la chirurgie.', 'Elle provoque une enrouement dû à la compression de la trachée.', 'Il provoque une thyrotoxicose plus floride qu'un goitre plus petit.']
+
+Réponse: La dysphagie est une indication pour la chirurgie."
+Le cœur a:,clinical_knowledge,"['deux valves et deux chambres.', 'quatre valves et quatre chambres.', 'deux valves et quatre chambres.', 'quatre valves et deux chambres.']",1,"Question: Le cœur a:
+
+Choix: ['deux valves et deux chambres.', 'quatre valves et quatre chambres.', 'deux valves et quatre chambres.', 'quatre valves et deux chambres.']
+
+Réponse: quatre valves et quatre chambres."
+Lequel des groupes de patients suivants doit être évalué à l' aide d' un score d' alerte précoce (EWS)?,clinical_knowledge,"['Seulement les patients de plus de 60 ans.', 'Seulement les patients admis aux urgences.', 'Seulement les patients qui ont été dans une unité de soins intensifs / haute dépendance.', 'Tout patient présentant un malaise aigu préopératoire ou postopératoire et ceux qui ont subi une intervention chirurgicale majeure.']",3,"Question: Lequel des groupes de patients suivants doit être évalué à l' aide d' un score d' alerte précoce (EWS)?
+
+Choix: ['Seulement les patients de plus de 60 ans.', 'Seulement les patients admis aux urgences.', 'Seulement les patients qui ont été dans une unité de soins intensifs / haute dépendance.', 'Tout patient présentant un malaise aigu préopératoire ou postopératoire et ceux qui ont subi une intervention chirurgicale majeure.']
+
+Réponse: Tout patient présentant un malaise aigu préopératoire ou postopératoire et ceux qui ont subi une intervention chirurgicale majeure."
+Quel est le but de la poignée d'un tube de trachéotomie ?,clinical_knowledge,"['Pour créer une étanchéité à l'air à l'intérieur de la trachée et réduire le risque d'aspiration de salive ou de contenu gastrique.', 'Pour réduire l'œdème local.', 'Pour aider à avaler.', 'Pour permettre au patient de parler.']",0,"Question: Quel est le but de la poignée d'un tube de trachéotomie ?
+
+Choix: ['Pour créer une étanchéité à l'air à l'intérieur de la trachée et réduire le risque d'aspiration de salive ou de contenu gastrique.', 'Pour réduire l'œdème local.', 'Pour aider à avaler.', 'Pour permettre au patient de parler.']
+
+Réponse: Pour créer une étanchéité à l'air à l'intérieur de la trachée et réduire le risque d'aspiration de salive ou de contenu gastrique."
+Quel type de liaisons covalentes relie les acides aminés d'une protéine ?,clinical_knowledge,"['Liens peptidiques', 'Liens hydrogène', 'Obligations ioniques', 'Liens glycosidiques']",0,"Question: Quel type de liaisons covalentes relie les acides aminés d'une protéine ?
+
+Choix: ['Liens peptidiques', 'Liens hydrogène', 'Obligations ioniques', 'Liens glycosidiques']
+
+Réponse: Liens peptidiques"
+Quel est le moyen le plus fiable d'évaluer la fréquentation de clubs ?,clinical_knowledge,"['Inspecter l'angle du lit de clou par le haut', 'Évaluation de la fluctuation du lit de clous', 'Le signe de Schamroth', 'Inspecter l'angle du lit de clou sur le côté']",3,"Question: Quel est le moyen le plus fiable d'évaluer la fréquentation de clubs ?
+
+Choix: ['Inspecter l'angle du lit de clou par le haut', 'Évaluation de la fluctuation du lit de clous', 'Le signe de Schamroth', 'Inspecter l'angle du lit de clou sur le côté']
+
+Réponse: Inspecter l'angle du lit de clou sur le côté"
+"Le terme "" dopage génétique "" désigne:",clinical_knowledge,"['l'utilisation de médicaments pour modifier la transcription des gènes.', 'l'utilisation de techniques de manipulation génétique pour améliorer les performances sportives.', 'l'activation ou l'inhibition de gènes pour masquer la prise de drogues par les athlètes.', 'l'utilisation de médicaments pour modifier le gène myostatine.']",1,"Question: Le terme "" dopage génétique "" désigne:
+
+Choix: ['l'utilisation de médicaments pour modifier la transcription des gènes.', 'l'utilisation de techniques de manipulation génétique pour améliorer les performances sportives.', 'l'activation ou l'inhibition de gènes pour masquer la prise de drogues par les athlètes.', 'l'utilisation de médicaments pour modifier le gène myostatine.']
+
+Réponse: l'utilisation de techniques de manipulation génétique pour améliorer les performances sportives."
+Citez trois des cinq principaux usages de la main.,clinical_knowledge,"['Le toucher, le toucher, le toucher.', 'La poignée, la percussion, le sens.', 'Une tape, une claque, des applaudissements.', 'Le toucher, le pincer, le saisir.']",1,"Question: Citez trois des cinq principaux usages de la main.
+
+Choix: ['Le toucher, le toucher, le toucher.', 'La poignée, la percussion, le sens.', 'Une tape, une claque, des applaudissements.', 'Le toucher, le pincer, le saisir.']
+
+Réponse: La poignée, la percussion, le sens."
+Laquelle des affirmations suivantes est vraie au sujet d'une masse abdominale?,clinical_knowledge,"['Une masse pulsatile est toujours due à un anévrisme aortique .', 'Un rein élargi est insensible à la percussion.', 'Une grosse masse provenant du bassin qui disparaît après un cathétérisme urétral est causée par un kyste ovarien.', 'Une masse indétectable est causée par la charge fécale du côlon.']",3,"Question: Laquelle des affirmations suivantes est vraie au sujet d'une masse abdominale?
+
+Choix: ['Une masse pulsatile est toujours due à un anévrisme aortique .', 'Un rein élargi est insensible à la percussion.', 'Une grosse masse provenant du bassin qui disparaît après un cathétérisme urétral est causée par un kyste ovarien.', 'Une masse indétectable est causée par la charge fécale du côlon.']
+
+Réponse: Une masse indétectable est causée par la charge fécale du côlon."
+Lequel des éléments suivants n'est pas une catégorie utilisée pour classer les patients selon l'échelle de Glasgow Coma ?,clinical_knowledge,"['Une ouverture des yeux.', 'Une réponse verbale.', 'Meilleure réponse motrice.', 'Réaction de la pupille.']",3,"Question: Lequel des éléments suivants n'est pas une catégorie utilisée pour classer les patients selon l'échelle de Glasgow Coma ?
+
+Choix: ['Une ouverture des yeux.', 'Une réponse verbale.', 'Meilleure réponse motrice.', 'Réaction de la pupille.']
+
+Réponse: Réaction de la pupille."
+Laquelle de ces combinaisons de caractéristiques cliniques est la plus suggestive d'une maladie mitrale mixte avec une prédominance de régurgitation mitrale?,clinical_knowledge,"['battement de l'apex déplacé; premier son du cœur doux; murmure pan-systolique; murmure diastolique moyen court', 'Puls irrégulier, irrégulier; battement du sommet déplacé; murmure systolique d'éjection; murmure systolique moyen court', 'battement de pointe déplacé; premier son cardiaque normal; murmure pan-systolique; long murmure diastolique intermédiaire', 'Tapping battement du sommet; bruit fort du premier battement cardiaque; murmure pan-systolique; long murmure diastolique intermédiaire']",0,"Question: Laquelle de ces combinaisons de caractéristiques cliniques est la plus suggestive d'une maladie mitrale mixte avec une prédominance de régurgitation mitrale?
+
+Choix: ['battement de l'apex déplacé; premier son du cœur doux; murmure pan-systolique; murmure diastolique moyen court', 'Puls irrégulier, irrégulier; battement du sommet déplacé; murmure systolique d'éjection; murmure systolique moyen court', 'battement de pointe déplacé; premier son cardiaque normal; murmure pan-systolique; long murmure diastolique intermédiaire', 'Tapping battement du sommet; bruit fort du premier battement cardiaque; murmure pan-systolique; long murmure diastolique intermédiaire']
+
+Réponse: battement de l'apex déplacé; premier son du cœur doux; murmure pan-systolique; murmure diastolique moyen court"
+"Avant de subir une intervention douloureuse, le patient doit être informé de ce à quoi il peut s' attendre et de la manière dont sa douleur sera contrôlée, car cela est associé à:",clinical_knowledge,"['une réduction de l' anxiété et de l' intensité de la douleur perçue.', 'une utilisation accrue des analgésiques.', 'une diminution de la fréquence des problèmes liés à la douleur tels que nausées et vomissements.', 'une augmentation de la production d'urine.']",0,"Question: Avant de subir une intervention douloureuse, le patient doit être informé de ce à quoi il peut s' attendre et de la manière dont sa douleur sera contrôlée, car cela est associé à:
+
+Choix: ['une réduction de l' anxiété et de l' intensité de la douleur perçue.', 'une utilisation accrue des analgésiques.', 'une diminution de la fréquence des problèmes liés à la douleur tels que nausées et vomissements.', 'une augmentation de la production d'urine.']
+
+Réponse: une réduction de l' anxiété et de l' intensité de la douleur perçue."
+La conversion d'une molécule de glucose en deux molécules de pyruvate entraîne la formation nette de:,clinical_knowledge,"['six molécules d'eau.', 'deux molécules d'ATP.', 'trois molécules d'ATP.', 'trente-huit molécules d'ATP.']",1,"Question: La conversion d'une molécule de glucose en deux molécules de pyruvate entraîne la formation nette de:
+
+Choix: ['six molécules d'eau.', 'deux molécules d'ATP.', 'trois molécules d'ATP.', 'trente-huit molécules d'ATP.']
+
+Réponse: deux molécules d'ATP."
+La production nette d'ATP par phosphorylation au niveau du substrat dans la glycolyse est:,clinical_knowledge,"['2 à partir du glucose et 3 à partir du glycogène.', '2 à partir du glucose et 4 à partir du glycogène.', '3 à partir du glucose et 4 à partir du glycogène.', '3 à partir du glucose et 2 à partir du glycogène.']",0,"Question: La production nette d'ATP par phosphorylation au niveau du substrat dans la glycolyse est:
+
+Choix: ['2 à partir du glucose et 3 à partir du glycogène.', '2 à partir du glucose et 4 à partir du glycogène.', '3 à partir du glucose et 4 à partir du glycogène.', '3 à partir du glucose et 2 à partir du glycogène.']
+
+Réponse: 2 à partir du glucose et 3 à partir du glycogène."
+Laquelle des affirmations suivantes est vraie au sujet des saignements rectaux?,clinical_knowledge,"['Un examen douloureux suggère une fissure anale .', 'Le sang rouge vif sur le doigt indique généralement une lésion cécale .', 'La proctoscopie n' a aucune valeur dans l' évaluation des saignements rectaux', 'Le cancer du rectum est la cause la plus fréquente de saignements rectaux.']",0,"Question: Laquelle des affirmations suivantes est vraie au sujet des saignements rectaux?
+
+Choix: ['Un examen douloureux suggère une fissure anale .', 'Le sang rouge vif sur le doigt indique généralement une lésion cécale .', 'La proctoscopie n' a aucune valeur dans l' évaluation des saignements rectaux', 'Le cancer du rectum est la cause la plus fréquente de saignements rectaux.']
+
+Réponse: Un examen douloureux suggère une fissure anale ."
+Les mutations sont des erreurs dans l'ADN qui:,clinical_knowledge,"['sont toujours nuisibles.', 'se produisent uniquement en présence d'agents cancérigènes.', 'augmenter la croissance de la tumeur.', 'se produisent spontanément à faible rythme.']",3,"Question: Les mutations sont des erreurs dans l'ADN qui:
+
+Choix: ['sont toujours nuisibles.', 'se produisent uniquement en présence d'agents cancérigènes.', 'augmenter la croissance de la tumeur.', 'se produisent spontanément à faible rythme.']
+
+Réponse: se produisent spontanément à faible rythme."
+"Lors de l'enregistrement des résultats du débit maximal, dans quelle fourchette de litres/minute les trois relevés devraient-ils se situer?",clinical_knowledge,"['10 litres par minute l'un de l'autre.', '20 litres par minute l'un de l'autre.', '100 litres par minute l'un de l'autre.', '30 litres par minute l'un de l'autre.']",1,"Question: Lors de l'enregistrement des résultats du débit maximal, dans quelle fourchette de litres/minute les trois relevés devraient-ils se situer?
+
+Choix: ['10 litres par minute l'un de l'autre.', '20 litres par minute l'un de l'autre.', '100 litres par minute l'un de l'autre.', '30 litres par minute l'un de l'autre.']
+
+Réponse: 20 litres par minute l'un de l'autre."
+Enregistrement du débitmètre de pointe:,clinical_knowledge,"['le taux le plus bas d'air expulsé des poumons par une bouche ouverte.', 'le volume de l'expiration forcée.', 'capacité vitale forcée.', 'le taux le plus élevé d'air expulsé des poumons par une bouche ouverte.']",3,"Question: Enregistrement du débitmètre de pointe:
+
+Choix: ['le taux le plus bas d'air expulsé des poumons par une bouche ouverte.', 'le volume de l'expiration forcée.', 'capacité vitale forcée.', 'le taux le plus élevé d'air expulsé des poumons par une bouche ouverte.']
+
+Réponse: le taux le plus élevé d'air expulsé des poumons par une bouche ouverte."
+De quoi les patients doivent-ils se souvenir lorsqu'ils prennent du paracétamol?,clinical_knowledge,"['Il peut interférer avec l'efficacité d'autres médicaments tels que la warfarine.', 'Il ne doit être administré que ' selon les besoins '.', 'Les patients doivent vérifier soigneusement le contenu des médicaments contre le rhume en vente libre afin d' éviter un surdosage accidentel, car ces préparations contiennent souvent du paracétamol supplémentaire.', 'Il est contre-indiqué chez les patients atteints de pyrexie.']",2,"Question: De quoi les patients doivent-ils se souvenir lorsqu'ils prennent du paracétamol?
+
+Choix: ['Il peut interférer avec l'efficacité d'autres médicaments tels que la warfarine.', 'Il ne doit être administré que ' selon les besoins '.', 'Les patients doivent vérifier soigneusement le contenu des médicaments contre le rhume en vente libre afin d' éviter un surdosage accidentel, car ces préparations contiennent souvent du paracétamol supplémentaire.', 'Il est contre-indiqué chez les patients atteints de pyrexie.']
+
+Réponse: Les patients doivent vérifier soigneusement le contenu des médicaments contre le rhume en vente libre afin d' éviter un surdosage accidentel, car ces préparations contiennent souvent du paracétamol supplémentaire."
+Laquelle des molécules suivantes ne fait pas partie de l'ADN?,clinical_knowledge,"['Purines et leurs dérivés', 'Pyrimidine et ses dérivés', 'Désoxyribose', 'Acide aminé']",3,"Question: Laquelle des molécules suivantes ne fait pas partie de l'ADN?
+
+Choix: ['Purines et leurs dérivés', 'Pyrimidine et ses dérivés', 'Désoxyribose', 'Acide aminé']
+
+Réponse: Acide aminé"
+Laquelle des affirmations suivantes est vraie au sujet de l'ictère?,clinical_knowledge,"['Les selles pâles et l'urine foncée sont caractéristiques de l'ictère de l'anémie hémalytique.', 'La bilirubine est utilisée par le foie dans la synthèse des globules rouges.', 'Les démangeaisons peuvent être le signe d'une jaunisse obstructive.', 'L'étiquetage du risque d'infection sur les échantillons de sang provenant d'un consommateur de drogues par voie intraveineuse atteint d'ictère est facultatif.']",2,"Question: Laquelle des affirmations suivantes est vraie au sujet de l'ictère?
+
+Choix: ['Les selles pâles et l'urine foncée sont caractéristiques de l'ictère de l'anémie hémalytique.', 'La bilirubine est utilisée par le foie dans la synthèse des globules rouges.', 'Les démangeaisons peuvent être le signe d'une jaunisse obstructive.', 'L'étiquetage du risque d'infection sur les échantillons de sang provenant d'un consommateur de drogues par voie intraveineuse atteint d'ictère est facultatif.']
+
+Réponse: Les démangeaisons peuvent être le signe d'une jaunisse obstructive."
+Laquelle des bases nucléotidiques suivantes ne se trouve pas dans l'ARN?,clinical_knowledge,"['Thymine', 'Adénine', 'Uracylum et ses dérivés', 'Guanine et ses dérivés']",0,"Question: Laquelle des bases nucléotidiques suivantes ne se trouve pas dans l'ARN?
+
+Choix: ['Thymine', 'Adénine', 'Uracylum et ses dérivés', 'Guanine et ses dérivés']
+
+Réponse: Thymine"
+La respiration bronchique est caractérisée par,clinical_knowledge,"['Composante d'inspiration plus forte et plus longue avec un intervalle entre l'expiration et l'inspiration', 'Composante expiratoire plus forte et plus longue avec un intervalle entre l'inspiration et l'expiration', 'Composante d'inspiration plus forte et plus longue avec un intervalle entre l'inspiration et l'expiration', 'Composante expiratoire plus forte et plus longue avec un intervalle entre l'expiration et l'inspiration']",1,"Question: La respiration bronchique est caractérisée par
+
+Choix: ['Composante d'inspiration plus forte et plus longue avec un intervalle entre l'expiration et l'inspiration', 'Composante expiratoire plus forte et plus longue avec un intervalle entre l'inspiration et l'expiration', 'Composante d'inspiration plus forte et plus longue avec un intervalle entre l'inspiration et l'expiration', 'Composante expiratoire plus forte et plus longue avec un intervalle entre l'expiration et l'inspiration']
+
+Réponse: Composante expiratoire plus forte et plus longue avec un intervalle entre l'inspiration et l'expiration"
+Lequel des médicaments suivants est le plus souvent responsable des patients présentant une confusion aiguë ?,clinical_knowledge,"['Héroïne (opioïdes).', 'C'était de l'ecstasy.', 'Je bois de l'alcool.', 'Le cannabis.']",2,"Question: Lequel des médicaments suivants est le plus souvent responsable des patients présentant une confusion aiguë ?
+
+Choix: ['Héroïne (opioïdes).', 'C'était de l'ecstasy.', 'Je bois de l'alcool.', 'Le cannabis.']
+
+Réponse: Je bois de l'alcool."
+Le lobe frontal du cortex cérébral est responsable de quoi ?,clinical_knowledge,"['Le cycle sommeil/éveil.', 'La capacité de dessiner des formes.', 'Comprendre le langage des autres.', 'La perception visuelle.']",1,"Question: Le lobe frontal du cortex cérébral est responsable de quoi ?
+
+Choix: ['Le cycle sommeil/éveil.', 'La capacité de dessiner des formes.', 'Comprendre le langage des autres.', 'La perception visuelle.']
+
+Réponse: La capacité de dessiner des formes."
+Les os carpiens sont les petits os du poignet.,clinical_knowledge,"['Scaphoïde, lunaire, triquétrale, piséforme, trapèze, trapézoïde, capitate, hamate.', 'Le scaphoïde, le lunar, le triquetrium, le pisiforme, le radius, le cubitus, le capiteux.', 'Le scaphoïde, le phalynx proximal, l'humérus, le hamate et le capitate.', 'Le scaphoïde, le rayon, le cubitus, le cunniforme, le trapèze.']",0,"Question: Les os carpiens sont les petits os du poignet.
+
+Choix: ['Scaphoïde, lunaire, triquétrale, piséforme, trapèze, trapézoïde, capitate, hamate.', 'Le scaphoïde, le lunar, le triquetrium, le pisiforme, le radius, le cubitus, le capiteux.', 'Le scaphoïde, le phalynx proximal, l'humérus, le hamate et le capitate.', 'Le scaphoïde, le rayon, le cubitus, le cunniforme, le trapèze.']
+
+Réponse: Scaphoïde, lunaire, triquétrale, piséforme, trapèze, trapézoïde, capitate, hamate."
+Le processus de traduction requiert la présence de:,clinical_knowledge,"['l'ARNm, l'ARNtr et les ribosomes.', 'l'ARNm, les ribosomes et l'ARN polymérase.', 'ADN, ARNm et ARN polymérase.', 'La chromatine, l'ADN et les acides aminés.']",0,"Question: Le processus de traduction requiert la présence de:
+
+Choix: ['l'ARNm, l'ARNtr et les ribosomes.', 'l'ARNm, les ribosomes et l'ARN polymérase.', 'ADN, ARNm et ARN polymérase.', 'La chromatine, l'ADN et les acides aminés.']
+
+Réponse: l'ARNm, l'ARNtr et les ribosomes."
+"C'est quoi le ""coring"" ?",clinical_knowledge,"['Un symptôme de phlébite.', 'Titration d'un médicament avec son effet désiré.', 'L'administration de médicaments directement dans la circulation sanguine.', 'Lorsque des médicaments sont prélevés dans un flacon scellé, des fragments de la boucle en caoutchouc peuvent être retirés par l' aiguille.']",3,"Question: C'est quoi le ""coring"" ?
+
+Choix: ['Un symptôme de phlébite.', 'Titration d'un médicament avec son effet désiré.', 'L'administration de médicaments directement dans la circulation sanguine.', 'Lorsque des médicaments sont prélevés dans un flacon scellé, des fragments de la boucle en caoutchouc peuvent être retirés par l' aiguille.']
+
+Réponse: Lorsque des médicaments sont prélevés dans un flacon scellé, des fragments de la boucle en caoutchouc peuvent être retirés par l' aiguille."
+Que devez-vous vérifier avant d'utiliser une valve parlante?,clinical_knowledge,"['Que le patient soit capable d'avaler correctement.', 'C'est sept jours après que le tube de trachéotomie a été inséré pour la première fois.', 'Le brassard est dégonflé.', 'Le brassard est gonflé.']",2,"Question: Que devez-vous vérifier avant d'utiliser une valve parlante?
+
+Choix: ['Que le patient soit capable d'avaler correctement.', 'C'est sept jours après que le tube de trachéotomie a été inséré pour la première fois.', 'Le brassard est dégonflé.', 'Le brassard est gonflé.']
+
+Réponse: Le brassard est dégonflé."
+Laquelle des affirmations suivantes est vraie en ce qui concerne l'administration de médicaments par voie intraveineuse?,clinical_knowledge,"['L'administration intraveineuse d'un médicament retarde son action.', 'L' administration par voie intraveineuse comporte un faible risque de bactériémie.', 'L'administration par voie intraveineuse permet la titration d'un médicament avec son effet désiré.', 'Une canule intraveineuse ne doit jamais être utilisée pour l'administration à la fois de médicaments et de liquides.']",2,"Question: Laquelle des affirmations suivantes est vraie en ce qui concerne l'administration de médicaments par voie intraveineuse?
+
+Choix: ['L'administration intraveineuse d'un médicament retarde son action.', 'L' administration par voie intraveineuse comporte un faible risque de bactériémie.', 'L'administration par voie intraveineuse permet la titration d'un médicament avec son effet désiré.', 'Une canule intraveineuse ne doit jamais être utilisée pour l'administration à la fois de médicaments et de liquides.']
+
+Réponse: L'administration par voie intraveineuse permet la titration d'un médicament avec son effet désiré."
+Lequel des facteurs suivants peut affecter l'activité enzymatique?,clinical_knowledge,"['La température.', 'Le pH.', 'La présence de certains ions métalliques.', 'Tout ce qui précède.']",3,"Question: Lequel des facteurs suivants peut affecter l'activité enzymatique?
+
+Choix: ['La température.', 'Le pH.', 'La présence de certains ions métalliques.', 'Tout ce qui précède.']
+
+Réponse: Tout ce qui précède."
+"Pour les contractions de force très élevée d'une durée de 1 à 2 secondes, la source d'énergie initiale provient de:",clinical_knowledge,"['La glycolyse.', 'phosphorylation de la créatine.', 'les réserves de phosphocréatine.', 'Des réserves d'ATP.']",3,"Question: Pour les contractions de force très élevée d'une durée de 1 à 2 secondes, la source d'énergie initiale provient de:
+
+Choix: ['La glycolyse.', 'phosphorylation de la créatine.', 'les réserves de phosphocréatine.', 'Des réserves d'ATP.']
+
+Réponse: Des réserves d'ATP."
+Une modification de la pression artérielle est détectée par:,clinical_knowledge,"['les récepteurs du baromètre.', 'les récepteurs chimiques.', 'le centre vasomoteur.', 'le centre cardiovasculaire.']",0,"Question: Une modification de la pression artérielle est détectée par:
+
+Choix: ['les récepteurs du baromètre.', 'les récepteurs chimiques.', 'le centre vasomoteur.', 'le centre cardiovasculaire.']
+
+Réponse: les récepteurs du baromètre."
+Les caillots sanguins sont responsables de l'obstruction répétée d'un cathéter.,clinical_knowledge,"['Faites appel à l'aide.', 'Informez le personnel médical.', 'Informez le patient.', 'Retirer le cathéter et le récatheteriser.']",1,"Question: Les caillots sanguins sont responsables de l'obstruction répétée d'un cathéter.
+
+Choix: ['Faites appel à l'aide.', 'Informez le personnel médical.', 'Informez le patient.', 'Retirer le cathéter et le récatheteriser.']
+
+Réponse: Informez le personnel médical."
+Quel est le pH de l'eau ?,clinical_knowledge,"['Résolution du Parlement européen', 'Nom de l'entreprise:', 'Nom de l'entreprise:', '6,25 millions de tonnes']",1,"Question: Quel est le pH de l'eau ?
+
+Choix: ['Résolution du Parlement européen', 'Nom de l'entreprise:', 'Nom de l'entreprise:', '6,25 millions de tonnes']
+
+Réponse: Nom de l'entreprise:"
+Combien de temps une canule peut-elle rester en place ?,clinical_knowledge,"['Ça fait 24 heures.', 'Ça fait 36 heures.', 'Dans 48 heures.', 'Il y a 96 heures.']",3,"Question: Combien de temps une canule peut-elle rester en place ?
+
+Choix: ['Ça fait 24 heures.', 'Ça fait 36 heures.', 'Dans 48 heures.', 'Il y a 96 heures.']
+
+Réponse: Il y a 96 heures."
+Le métabolisme est déterminé par:,clinical_knowledge,"['la taille des protéines dans la cellule.', 'la disponibilité des acides aminés.', 'des protéines formées selon le matériel génétique.', 'composition des acides aminés des acides ribonucléiques.']",2,"Question: Le métabolisme est déterminé par:
+
+Choix: ['la taille des protéines dans la cellule.', 'la disponibilité des acides aminés.', 'des protéines formées selon le matériel génétique.', 'composition des acides aminés des acides ribonucléiques.']
+
+Réponse: des protéines formées selon le matériel génétique."
+Combien de chromosomes contiennent toutes les cellules somatiques humaines ?,clinical_knowledge,"['Nom de l'entreprise', 'Nom de l'entreprise:', 'Nom de l'entreprise:', 'Il y en a 46 .']",3,"Question: Combien de chromosomes contiennent toutes les cellules somatiques humaines ?
+
+Choix: ['Nom de l'entreprise', 'Nom de l'entreprise:', 'Nom de l'entreprise:', 'Il y en a 46 .']
+
+Réponse: Il y en a 46 ."
+Dans quelles circonstances utiliseriez- vous des antibiotiques avant le cathétérisme ?,clinical_knowledge,"['Si le patient a eu un cathéter in situ pendant une semaine.', 'Si le patient ne présente pas d' infection des voies urinaires.', 'Si le patient a une valve cardiaque artificielle.', 'Si le patient le demande.']",2,"Question: Dans quelles circonstances utiliseriez- vous des antibiotiques avant le cathétérisme ?
+
+Choix: ['Si le patient a eu un cathéter in situ pendant une semaine.', 'Si le patient ne présente pas d' infection des voies urinaires.', 'Si le patient a une valve cardiaque artificielle.', 'Si le patient le demande.']
+
+Réponse: Si le patient a une valve cardiaque artificielle."
+Laquelle de ces caractéristiques suggère qu'une pulsation dans le cou est artérielle ?,clinical_knowledge,"['Un lobe de l'oreille qui bouge', 'Positif pour le reflux hépatojugulaire', 'Aucune variation avec la posture', 'La pression dans la racine du cou réduit l'impulsion.']",2,"Question: Laquelle de ces caractéristiques suggère qu'une pulsation dans le cou est artérielle ?
+
+Choix: ['Un lobe de l'oreille qui bouge', 'Positif pour le reflux hépatojugulaire', 'Aucune variation avec la posture', 'La pression dans la racine du cou réduit l'impulsion.']
+
+Réponse: Aucune variation avec la posture"
+L'enzyme limitant la vitesse de la glycolyse est:,clinical_knowledge,"['une phosphorylase.', 'une hexokinase.', 'la pyruvate déshydrogénase.', 'la phosphofructokinase.']",3,"Question: L'enzyme limitant la vitesse de la glycolyse est:
+
+Choix: ['une phosphorylase.', 'une hexokinase.', 'la pyruvate déshydrogénase.', 'la phosphofructokinase.']
+
+Réponse: la phosphofructokinase."
+Laquelle des affirmations suivantes est vraie au sujet des hémorroïdes?,clinical_knowledge,"['Les hémorroïdes saignantes entraînent une mélanie par le rectum (PR)', 'La grossesse est un facteur prédisposant à l'apparition des hémorroïdes.', 'Le saignement des hémorroïdes de premier degré est associé à la douleur.', 'Les hémorroïdes de deuxième degré ne peuvent pas retourner dans le canal anal.']",1,"Question: Laquelle des affirmations suivantes est vraie au sujet des hémorroïdes?
+
+Choix: ['Les hémorroïdes saignantes entraînent une mélanie par le rectum (PR)', 'La grossesse est un facteur prédisposant à l'apparition des hémorroïdes.', 'Le saignement des hémorroïdes de premier degré est associé à la douleur.', 'Les hémorroïdes de deuxième degré ne peuvent pas retourner dans le canal anal.']
+
+Réponse: La grossesse est un facteur prédisposant à l'apparition des hémorroïdes."
+Les modulateurs sélectifs des récepteurs aux androgènes (SARM) sont:,clinical_knowledge,"['médicaments stéroïdes qui agissent sur les récepteurs des androgènes en imitant les effets des hormones stéroïdes naturelles.', 'les médicaments stéroïdes qui agissent sur les récepteurs des androgènes en antagonisant les effets des hormones stéroïdes naturelles.', 'les médicaments non stéroïdiens qui agissent sur les récepteurs des androgènes en imitant les effets des hormones stéroïdiennes naturelles.', 'médicaments non stéroïdiens qui agissent sur les récepteurs des androgènes en inhibant les effets des hormones stéroïdiennes naturelles.']",2,"Question: Les modulateurs sélectifs des récepteurs aux androgènes (SARM) sont:
+
+Choix: ['médicaments stéroïdes qui agissent sur les récepteurs des androgènes en imitant les effets des hormones stéroïdes naturelles.', 'les médicaments stéroïdes qui agissent sur les récepteurs des androgènes en antagonisant les effets des hormones stéroïdes naturelles.', 'les médicaments non stéroïdiens qui agissent sur les récepteurs des androgènes en imitant les effets des hormones stéroïdiennes naturelles.', 'médicaments non stéroïdiens qui agissent sur les récepteurs des androgènes en inhibant les effets des hormones stéroïdiennes naturelles.']
+
+Réponse: les médicaments non stéroïdiens qui agissent sur les récepteurs des androgènes en imitant les effets des hormones stéroïdiennes naturelles."
+"La β-oxydation d'une molécule d'acide palmitique, CH3(CH2) 14CO2H:",clinical_knowledge,"['donne 8 molécules d'acétyl-CoA et un peu d'ATP et d'eau.', 'produit seulement 16 molécules d'acétyl-CoA.', 'produit seulement du dioxyde de carbone et de l'eau.', 'n'implique pas d'oxygène.']",0,"Question: La β-oxydation d'une molécule d'acide palmitique, CH3(CH2) 14CO2H:
+
+Choix: ['donne 8 molécules d'acétyl-CoA et un peu d'ATP et d'eau.', 'produit seulement 16 molécules d'acétyl-CoA.', 'produit seulement du dioxyde de carbone et de l'eau.', 'n'implique pas d'oxygène.']
+
+Réponse: donne 8 molécules d'acétyl-CoA et un peu d'ATP et d'eau."
+Quels produits de la dégradation de l'ADP augmentent la concentration dans le sang lors de plusieurs sports de sprint ?,clinical_knowledge,"['L'ammoniac, l'hypoxanthine et l'acide urique.', 'Ammoniac, urée et acide urique.', 'L'ammoniac, l'urée et la créatinine.', 'L'ammoniac, l'urée et la créatine.']",0,"Question: Quels produits de la dégradation de l'ADP augmentent la concentration dans le sang lors de plusieurs sports de sprint ?
+
+Choix: ['L'ammoniac, l'hypoxanthine et l'acide urique.', 'Ammoniac, urée et acide urique.', 'L'ammoniac, l'urée et la créatinine.', 'L'ammoniac, l'urée et la créatine.']
+
+Réponse: L'ammoniac, l'hypoxanthine et l'acide urique."
+La position optimale pour effectuer la réanimation cardiaque est de placer le patient:,clinical_knowledge,"['dans une posture semi-allongée.', 'incliné vers la gauche pour garder le cœur perfusé.', 'à plat sur une surface ferme.', 'sur le sol avec les jambes levées.']",2,"Question: La position optimale pour effectuer la réanimation cardiaque est de placer le patient:
+
+Choix: ['dans une posture semi-allongée.', 'incliné vers la gauche pour garder le cœur perfusé.', 'à plat sur une surface ferme.', 'sur le sol avec les jambes levées.']
+
+Réponse: à plat sur une surface ferme."
+La resynthèse complète de la phosphocréatine après un exercice de très haute intensité nécessite normalement:,clinical_knowledge,"['environ 10 secondes.', 'environ 30 secondes.', 'environ 1 minute.', 'environ 4 minutes.']",3,"Question: La resynthèse complète de la phosphocréatine après un exercice de très haute intensité nécessite normalement:
+
+Choix: ['environ 10 secondes.', 'environ 30 secondes.', 'environ 1 minute.', 'environ 4 minutes.']
+
+Réponse: environ 4 minutes."
+Quel type d'articulation est le coude?,clinical_knowledge,"['Une articulation à bille et à douille.', 'Le joint est fusionné.', 'articulation articulaire à charnière synoviale.', 'Un joint ordinaire.']",2,"Question: Quel type d'articulation est le coude?
+
+Choix: ['Une articulation à bille et à douille.', 'Le joint est fusionné.', 'articulation articulaire à charnière synoviale.', 'Un joint ordinaire.']
+
+Réponse: articulation articulaire à charnière synoviale."
+Une solution hypertonique est:,clinical_knowledge,"['une solution qui a une concentration plus élevée de solutes que la cellule humaine normale.', 'Une solution qui bloque facilement les trompes entérales.', 'une solution qui a une concentration de solutes inférieure à celle d'une cellule humaine normale.', 'une solution à forte teneur en fibres.']",0,"Question: Une solution hypertonique est:
+
+Choix: ['une solution qui a une concentration plus élevée de solutes que la cellule humaine normale.', 'Une solution qui bloque facilement les trompes entérales.', 'une solution qui a une concentration de solutes inférieure à celle d'une cellule humaine normale.', 'une solution à forte teneur en fibres.']
+
+Réponse: une solution qui a une concentration plus élevée de solutes que la cellule humaine normale."
+Lequel de ces éléments n'est pas nécessaire lors de l'examen du pouls de la veine jugulaire?,clinical_knowledge,"['Les muscles du cou du patient doivent être détendus', 'Synchronisation de la pulsation avec l'impulsion radiale', 'Un bon éclairage', 'Patient allongé à un angle de 45 degrés']",1,"Question: Lequel de ces éléments n'est pas nécessaire lors de l'examen du pouls de la veine jugulaire?
+
+Choix: ['Les muscles du cou du patient doivent être détendus', 'Synchronisation de la pulsation avec l'impulsion radiale', 'Un bon éclairage', 'Patient allongé à un angle de 45 degrés']
+
+Réponse: Synchronisation de la pulsation avec l'impulsion radiale"
+La puissance maximale durable est la suivante:,clinical_knowledge,"['reste habituellement constante pendant une course.', 'diminue avec la distance de la course.', 'est améliorée par un régime riche en matières grasses.', 'est inversement liée à la teneur en glycogène musculaire.']",1,"Question: La puissance maximale durable est la suivante:
+
+Choix: ['reste habituellement constante pendant une course.', 'diminue avec la distance de la course.', 'est améliorée par un régime riche en matières grasses.', 'est inversement liée à la teneur en glycogène musculaire.']
+
+Réponse: diminue avec la distance de la course."
+Les fibres à contraction rapide contiennent:,clinical_knowledge,"['un nombre relativement élevé de mitochondries et une faible activité de l'ATPase.', 'un nombre relativement faible de mitochondries et une faible activité de l'ATPase.', 'un nombre relativement faible de mitochondries et une activité élevée de l'ATPase.', 'un nombre relativement élevé de mitochondries et une activité élevée de l'ATPase.']",2,"Question: Les fibres à contraction rapide contiennent:
+
+Choix: ['un nombre relativement élevé de mitochondries et une faible activité de l'ATPase.', 'un nombre relativement faible de mitochondries et une faible activité de l'ATPase.', 'un nombre relativement faible de mitochondries et une activité élevée de l'ATPase.', 'un nombre relativement élevé de mitochondries et une activité élevée de l'ATPase.']
+
+Réponse: un nombre relativement faible de mitochondries et une activité élevée de l'ATPase."
+Le taux d'accumulation de lactate dans le sang est déterminé par:,clinical_knowledge,"['le taux de production de lactate musculaire et le taux d'écoulement de lactate musculaire.', 'le taux de glycolyse anaérobie.', 'la vitesse d'absorption du glucose dans les muscles.', 'la différence entre le taux d'apparition du lactate et le taux de clairance du lactate.']",3,"Question: Le taux d'accumulation de lactate dans le sang est déterminé par:
+
+Choix: ['le taux de production de lactate musculaire et le taux d'écoulement de lactate musculaire.', 'le taux de glycolyse anaérobie.', 'la vitesse d'absorption du glucose dans les muscles.', 'la différence entre le taux d'apparition du lactate et le taux de clairance du lactate.']
+
+Réponse: la différence entre le taux d'apparition du lactate et le taux de clairance du lactate."
+Les enzymes de la glycolyse sont situées dans:,clinical_knowledge,"['Il s'agit de la mitochondrie.', 'le noyau.', 'le cytoplasme.', 'Des lysosomes.']",2,"Question: Les enzymes de la glycolyse sont situées dans:
+
+Choix: ['Il s'agit de la mitochondrie.', 'le noyau.', 'le cytoplasme.', 'Des lysosomes.']
+
+Réponse: le cytoplasme."
+"L'énergie libérée par la dégradation des phosphates à haute énergie, l'ATP et la phosphocréatine, peut soutenir un exercice d'effort maximal pendant environ:",clinical_knowledge,"['Une à deux secondes.', '5 à 10 secondes.', '30 à 40 secondes.', '50 à 60 secondes.']",1,"Question: L'énergie libérée par la dégradation des phosphates à haute énergie, l'ATP et la phosphocréatine, peut soutenir un exercice d'effort maximal pendant environ:
+
+Choix: ['Une à deux secondes.', '5 à 10 secondes.', '30 à 40 secondes.', '50 à 60 secondes.']
+
+Réponse: 5 à 10 secondes."
+Les groupes de prothèses sont:,clinical_knowledge,"['requise par toutes les enzymes de la cellule.', 'lié vaguement aux enzymes par des liaisons hydrogène.', 'sites sur la molécule enzymatique qui permettent une modification allostérique de l'activité enzymatique.', 'sont étroitement liés aux enzymes et sont nécessaires à leur activité.']",3,"Question: Les groupes de prothèses sont:
+
+Choix: ['requise par toutes les enzymes de la cellule.', 'lié vaguement aux enzymes par des liaisons hydrogène.', 'sites sur la molécule enzymatique qui permettent une modification allostérique de l'activité enzymatique.', 'sont étroitement liés aux enzymes et sont nécessaires à leur activité.']
+
+Réponse: sont étroitement liés aux enzymes et sont nécessaires à leur activité."
+Laquelle des affirmations suivantes est vraie pour la neuropathie périphérique ?,clinical_knowledge,"['La perte sensorielle est démontrée dans une distribution de stockage', 'Le ton est augmenté bilatéralement dans les jambes', 'Les réflexes sont très vifs avec le renforcement .', 'La faiblesse est plus marquée proximalement que distalement']",0,"Question: Laquelle des affirmations suivantes est vraie pour la neuropathie périphérique ?
+
+Choix: ['La perte sensorielle est démontrée dans une distribution de stockage', 'Le ton est augmenté bilatéralement dans les jambes', 'Les réflexes sont très vifs avec le renforcement .', 'La faiblesse est plus marquée proximalement que distalement']
+
+Réponse: La perte sensorielle est démontrée dans une distribution de stockage"
+Laquelle des affirmations suivantes s'applique aux mouvements involontaires du bras?,clinical_knowledge,"['L'alcool aggrave le tremblement du tremblement essentiel bénin.', 'L'hémiballisme est dû à un accident vasculaire cérébral provoquant une paralysie de la moitié distale du bras.', 'La dystonie est parfois caractérisée par une poignée semblable à celle d'une nourrice.', 'La crampe de l'écrivain est un exemple de dystonie focale.']",3,"Question: Laquelle des affirmations suivantes s'applique aux mouvements involontaires du bras?
+
+Choix: ['L'alcool aggrave le tremblement du tremblement essentiel bénin.', 'L'hémiballisme est dû à un accident vasculaire cérébral provoquant une paralysie de la moitié distale du bras.', 'La dystonie est parfois caractérisée par une poignée semblable à celle d'une nourrice.', 'La crampe de l'écrivain est un exemple de dystonie focale.']
+
+Réponse: La crampe de l'écrivain est un exemple de dystonie focale."
+Laquelle de ces options n'est pas reconnue comme une cause de toux chronique?,clinical_knowledge,"['Maladie du reflux gastro-œsophagien', 'Inhibiteurs de l' enzyme de conversion de l' angiotensine (ECA)', 'Fumage à long terme', 'Valproate de sodium']",3,"Question: Laquelle de ces options n'est pas reconnue comme une cause de toux chronique?
+
+Choix: ['Maladie du reflux gastro-œsophagien', 'Inhibiteurs de l' enzyme de conversion de l' angiotensine (ECA)', 'Fumage à long terme', 'Valproate de sodium']
+
+Réponse: Valproate de sodium"
+Laquelle des méthodes suivantes est recommandée pour le nettoyage de la bouche?,clinical_knowledge,"['Le peroxyde d'hydrogène.', 'Un peu d'eau.', 'Des écouvillons au citron et à la glycérine.', 'Une solution saline normale.']",1,"Question: Laquelle des méthodes suivantes est recommandée pour le nettoyage de la bouche?
+
+Choix: ['Le peroxyde d'hydrogène.', 'Un peu d'eau.', 'Des écouvillons au citron et à la glycérine.', 'Une solution saline normale.']
+
+Réponse: Un peu d'eau."
+"En principe, quelle est la meilleure approche pour l'utilisation de médicaments analgésiques après une intervention chirurgicale?",clinical_knowledge,"['Ne donner les médicaments qu' ' selon les besoins '.', 'Donnez régulièrement des médicaments en prévoyant des analgésiques supplémentaires 'au besoin' pour les douleurs de rupture.', 'Utilisez des médicaments à action prolongée deux fois par jour.', 'Donnez seulement quand les scores de douleur sont élevés.']",1,"Question: En principe, quelle est la meilleure approche pour l'utilisation de médicaments analgésiques après une intervention chirurgicale?
+
+Choix: ['Ne donner les médicaments qu' ' selon les besoins '.', 'Donnez régulièrement des médicaments en prévoyant des analgésiques supplémentaires 'au besoin' pour les douleurs de rupture.', 'Utilisez des médicaments à action prolongée deux fois par jour.', 'Donnez seulement quand les scores de douleur sont élevés.']
+
+Réponse: Donnez régulièrement des médicaments en prévoyant des analgésiques supplémentaires ""au besoin"" pour les douleurs de rupture."
+Laquelle des expressions suivantes décrit le mieux la douleur nociceptive ?,clinical_knowledge,"['Douleur résultant d'une lésion tissulaire réelle ou potentielle, qui provoque la libération de médiateurs chimiques qui stimulent les fibres nerveuses pour initier des signaux de douleur au cerveau.', 'Douleur résultant d'une pression exercée sur un nerf ou un groupe de nerfs.', 'Trouble d'un nerf ou d'un groupe de nerfs spécifiques entraînant la libération de signaux de douleur anormaux.', 'Douleur résultant d'un trouble du système nerveux central, c'est-à-dire à la suite d'un accident vasculaire cérébral.']",0,"Question: Laquelle des expressions suivantes décrit le mieux la douleur nociceptive ?
+
+Choix: ['Douleur résultant d'une lésion tissulaire réelle ou potentielle, qui provoque la libération de médiateurs chimiques qui stimulent les fibres nerveuses pour initier des signaux de douleur au cerveau.', 'Douleur résultant d'une pression exercée sur un nerf ou un groupe de nerfs.', 'Trouble d'un nerf ou d'un groupe de nerfs spécifiques entraînant la libération de signaux de douleur anormaux.', 'Douleur résultant d'un trouble du système nerveux central, c'est-à-dire à la suite d'un accident vasculaire cérébral.']
+
+Réponse: Douleur résultant d'une lésion tissulaire réelle ou potentielle, qui provoque la libération de médiateurs chimiques qui stimulent les fibres nerveuses pour initier des signaux de douleur au cerveau."
+Remplissez ce qui suit: Une variation des valeurs de débit maximal en série sur une période de deux semaines est considérée comme un diagnostic dans . . .,clinical_knowledge,"['Je souffre d'asthme.', '. . . une maladie chronique pulmonaire obstructive.', 'Une pneumonie.', '. . . la tuberculose.']",0,"Question: Remplissez ce qui suit: Une variation des valeurs de débit maximal en série sur une période de deux semaines est considérée comme un diagnostic dans . . .
+
+Choix: ['Je souffre d'asthme.', '. . . une maladie chronique pulmonaire obstructive.', 'Une pneumonie.', '. . . la tuberculose.']
+
+Réponse: Je souffre d'asthme."
+Dans quelles circonstances n'utiliseriez- vous pas une valve de cathéter?,clinical_knowledge,"['Si le patient est post-opératoire.', 'Si le patient le choisit.', 'Si le patient a une sensation de vessie.', 'Si l'urine n'a pas besoin d'être mesurée.']",0,"Question: Dans quelles circonstances n'utiliseriez- vous pas une valve de cathéter?
+
+Choix: ['Si le patient est post-opératoire.', 'Si le patient le choisit.', 'Si le patient a une sensation de vessie.', 'Si l'urine n'a pas besoin d'être mesurée.']
+
+Réponse: Si le patient est post-opératoire."
+Laquelle des affirmations suivantes s'applique à la maladie de Paget?,clinical_knowledge,"['La courbure d'un os long est une caractéristique caractéristique.', 'La compression de la moelle épinière est une complication courante.', 'L'insuffisance cardiaque n'est pas une complication reconnue', 'Les fractures pathologiques ne sont pas une caractéristique']",0,"Question: Laquelle des affirmations suivantes s'applique à la maladie de Paget?
+
+Choix: ['La courbure d'un os long est une caractéristique caractéristique.', 'La compression de la moelle épinière est une complication courante.', 'L'insuffisance cardiaque n'est pas une complication reconnue', 'Les fractures pathologiques ne sont pas une caractéristique']
+
+Réponse: La courbure d'un os long est une caractéristique caractéristique."
+Votre première action après confirmation d' un arrêt cardiaque est de:,clinical_knowledge,"['s'assurer que l'équipe ou les services d'urgence sont appelés.', 'donnez deux respirations de sauvetage.', 'faire 30 compressions thoraciques.', 'Vérifiez les notes pour voir si le patient a une ordonnance DNAR.']",0,"Question: Votre première action après confirmation d' un arrêt cardiaque est de:
+
+Choix: ['s'assurer que l'équipe ou les services d'urgence sont appelés.', 'donnez deux respirations de sauvetage.', 'faire 30 compressions thoraciques.', 'Vérifiez les notes pour voir si le patient a une ordonnance DNAR.']
+
+Réponse: s'assurer que l'équipe ou les services d'urgence sont appelés."
+Quelle est la raison la plus urgente de mettre un cathéter sur un patient ?,clinical_knowledge,"['Rétention urinaire aiguë.', 'Une infection des voies urinaires.', 'Une incontinence.', 'Parce qu'ils ont demandé.']",0,"Question: Quelle est la raison la plus urgente de mettre un cathéter sur un patient ?
+
+Choix: ['Rétention urinaire aiguë.', 'Une infection des voies urinaires.', 'Une incontinence.', 'Parce qu'ils ont demandé.']
+
+Réponse: Rétention urinaire aiguë."
+Laquelle des affirmations suivantes est vraie ?,clinical_knowledge,"['L'augmentation de l'apport en protéines au-delà de 3 grammes par kg de masse corporelle par jour stimulera la croissance musculaire et augmentera la force.', 'Les suppléments de créatine peuvent augmenter la force et la puissance musculaires.', 'Les suppléments d'acides aminés peuvent augmenter la force et la puissance musculaires.', 'Les lésions musculaires sont provoquées par un raccourcissement des contractions.']",1,"Question: Laquelle des affirmations suivantes est vraie ?
+
+Choix: ['L'augmentation de l'apport en protéines au-delà de 3 grammes par kg de masse corporelle par jour stimulera la croissance musculaire et augmentera la force.', 'Les suppléments de créatine peuvent augmenter la force et la puissance musculaires.', 'Les suppléments d'acides aminés peuvent augmenter la force et la puissance musculaires.', 'Les lésions musculaires sont provoquées par un raccourcissement des contractions.']
+
+Réponse: Les suppléments de créatine peuvent augmenter la force et la puissance musculaires."
+"Qui a légalement la responsabilité de s'occuper d'un patient pendant son admission à l'hôpital, son séjour à l'hôpital et sa sortie de l'hôpital?",clinical_knowledge,"['L'infirmière nommée.', 'Le consultant nommé.', 'Le directeur du service.', 'Le médecin généraliste.']",1,"Question: Qui a légalement la responsabilité de s'occuper d'un patient pendant son admission à l'hôpital, son séjour à l'hôpital et sa sortie de l'hôpital?
+
+Choix: ['L'infirmière nommée.', 'Le consultant nommé.', 'Le directeur du service.', 'Le médecin généraliste.']
+
+Réponse: Le consultant nommé."
+L'entraînement d'endurance augmente la capacité du muscle à:,clinical_knowledge,"['Elle se contracte plus vite.', 'décomposer la phosphocréatine.', 'brûler les graisses et les glucides.', 'générer de l'énergie de façon anaérobie.']",2,"Question: L'entraînement d'endurance augmente la capacité du muscle à:
+
+Choix: ['Elle se contracte plus vite.', 'décomposer la phosphocréatine.', 'brûler les graisses et les glucides.', 'générer de l'énergie de façon anaérobie.']
+
+Réponse: brûler les graisses et les glucides."
+Un potentiel d'action atteignant la plaque d'extrémité du moteur provoque la libération de:,clinical_knowledge,"['l'acétylcholine qui traverse la jonction neuromusculaire.', 'les ions sodium qui se lient aux récepteurs du sodium sur la membrane musculaire.', 'ions calcium qui déclenchent un potentiel d'action le long de la fibre musculaire.', 'noradrénaline qui augmente l'activité métabolique musculaire.']",0,"Question: Un potentiel d'action atteignant la plaque d'extrémité du moteur provoque la libération de:
+
+Choix: ['l'acétylcholine qui traverse la jonction neuromusculaire.', 'les ions sodium qui se lient aux récepteurs du sodium sur la membrane musculaire.', 'ions calcium qui déclenchent un potentiel d'action le long de la fibre musculaire.', 'noradrénaline qui augmente l'activité métabolique musculaire.']
+
+Réponse: l'acétylcholine qui traverse la jonction neuromusculaire."
+Votre patient est diabétique.,clinical_knowledge,"['Ces patients sont plus susceptibles de saigner.', 'Ces patients sont plus susceptibles de contracter des infections des voies urinaires si leur glycémie est instable.', 'Ces patients sont plus susceptibles d'avoir une urine claire.', 'Ces patients sont moins susceptibles d'avoir une incrustation de cathéter.']",1,"Question: Votre patient est diabétique.
+
+Choix: ['Ces patients sont plus susceptibles de saigner.', 'Ces patients sont plus susceptibles de contracter des infections des voies urinaires si leur glycémie est instable.', 'Ces patients sont plus susceptibles d'avoir une urine claire.', 'Ces patients sont moins susceptibles d'avoir une incrustation de cathéter.']
+
+Réponse: Ces patients sont plus susceptibles de contracter des infections des voies urinaires si leur glycémie est instable."
+"Que signifie l'expression ""mouvements passifs""?",clinical_knowledge,"['Mouvement avec résistance, étirement à la fin de la portée.', 'Mouvement sans résistance, étirement à la fin de la portée.', 'Mouvement avec résistance, arrêt à la fin de la portée.', 'Mouvement sans résistance, arrêt à la fin de la portée.']",3,"Question: Que signifie l'expression ""mouvements passifs""?
+
+Choix: ['Mouvement avec résistance, étirement à la fin de la portée.', 'Mouvement sans résistance, étirement à la fin de la portée.', 'Mouvement avec résistance, arrêt à la fin de la portée.', 'Mouvement sans résistance, arrêt à la fin de la portée.']
+
+Réponse: Mouvement sans résistance, arrêt à la fin de la portée."
+C'est quoi une trachéotomie ?,clinical_knowledge,"['Une ouverture dans la paroi antérieure de la trachée au-dessus du cartilage cricoïde.', 'Une ouverture dans la paroi antérieure de la trachée sous le cartilage cricoïde.', 'Une ouverture dans la paroi thoracique antérieure.', 'Une ouverture dans la paroi postérieure de la trachée sous le cartilage cricoïde.']",1,"Question: C'est quoi une trachéotomie ?
+
+Choix: ['Une ouverture dans la paroi antérieure de la trachée au-dessus du cartilage cricoïde.', 'Une ouverture dans la paroi antérieure de la trachée sous le cartilage cricoïde.', 'Une ouverture dans la paroi thoracique antérieure.', 'Une ouverture dans la paroi postérieure de la trachée sous le cartilage cricoïde.']
+
+Réponse: Une ouverture dans la paroi antérieure de la trachée sous le cartilage cricoïde."
+Laquelle des affirmations suivantes est vraie pour l'hématémèse ?,clinical_knowledge,"['Une pression artérielle basse (systolique < 90 mmHg) et une tachycardie (> 100/min) sont des caractéristiques préoccupantes.', 'Une fréquence cardiaque de 80 battements par minute chez un patient prenant du Bisoprolol est rassurante.', 'La douleur abdominale est toujours présente.', 'Les antécédents d'alcoolisme ne sont pas essentiels.']",0,"Question: Laquelle des affirmations suivantes est vraie pour l'hématémèse ?
+
+Choix: ['Une pression artérielle basse (systolique < 90 mmHg) et une tachycardie (> 100/min) sont des caractéristiques préoccupantes.', 'Une fréquence cardiaque de 80 battements par minute chez un patient prenant du Bisoprolol est rassurante.', 'La douleur abdominale est toujours présente.', 'Les antécédents d'alcoolisme ne sont pas essentiels.']
+
+Réponse: Une pression artérielle basse (systolique < 90 mmHg) et une tachycardie (> 100/min) sont des caractéristiques préoccupantes."
+Laquelle des affirmations suivantes s'applique à la polyarthrite rhumatoïde?,clinical_knowledge,"['Le facteur rhumatoïde est présent dans 25% des cas de rhumatisme.', 'C' est un exemple d' oligoarthropathie .', 'L'anémie est une constatation courante.', 'Les nœuds d'Heberden sont une caractéristique']",2,"Question: Laquelle des affirmations suivantes s'applique à la polyarthrite rhumatoïde?
+
+Choix: ['Le facteur rhumatoïde est présent dans 25% des cas de rhumatisme.', 'C' est un exemple d' oligoarthropathie .', 'L'anémie est une constatation courante.', 'Les nœuds d'Heberden sont une caractéristique']
+
+Réponse: L'anémie est une constatation courante."
+Pourquoi devrait-on envisager soigneusement de fournir aux personnes de plus de 65 ans des sources d'information basées sur Internet?,clinical_knowledge,"['Ils peuvent avoir de la difficulté à lire l'écran.', 'Moins de 30% des personnes de plus de 65 ans ont accès à Internet.', 'Internet s'adresse aux plus jeunes.', 'Ils ne savent peut-être pas taper.']",1,"Question: Pourquoi devrait-on envisager soigneusement de fournir aux personnes de plus de 65 ans des sources d'information basées sur Internet?
+
+Choix: ['Ils peuvent avoir de la difficulté à lire l'écran.', 'Moins de 30% des personnes de plus de 65 ans ont accès à Internet.', 'Internet s'adresse aux plus jeunes.', 'Ils ne savent peut-être pas taper.']
+
+Réponse: Moins de 30% des personnes de plus de 65 ans ont accès à Internet."
+Laquelle des affirmations suivantes est vraie au sujet du syndrome du canal carpien ?,clinical_knowledge,"['Elle peut être causée par la polyarthrite rhumatoïde.', 'Elle est causée par la compression du nerf cubital.', 'Il provoque des douleurs et des picotements dans les trois doigts et demi médial', 'La paraesthésie est pire pendant la journée.']",0,"Question: Laquelle des affirmations suivantes est vraie au sujet du syndrome du canal carpien ?
+
+Choix: ['Elle peut être causée par la polyarthrite rhumatoïde.', 'Elle est causée par la compression du nerf cubital.', 'Il provoque des douleurs et des picotements dans les trois doigts et demi médial', 'La paraesthésie est pire pendant la journée.']
+
+Réponse: Elle peut être causée par la polyarthrite rhumatoïde."
+Combien de molécules de CO2 et d'ATP sont formées au cours d'un tour complet du cycle de l'acide tricarboxylique (cycle de Krebs)?,clinical_knowledge,"['2CO2 et 2ATP', '2CO2 et 16ATP', '2CO2 et 12ATP', '2CO2 et 1ATP']",3,"Question: Combien de molécules de CO2 et d'ATP sont formées au cours d'un tour complet du cycle de l'acide tricarboxylique (cycle de Krebs)?
+
+Choix: ['2CO2 et 2ATP', '2CO2 et 16ATP', '2CO2 et 12ATP', '2CO2 et 1ATP']
+
+Réponse: 2CO2 et 1ATP"
+"Quelle complication potentielle de la thérapie intraveineuse est décrite comme suit: "" Fuite d'un médicament ou d'un liquide vésicant (irritant) dans les tissus environnants, causant des lésions tissulaires "" ?",clinical_knowledge,"['Une extravasation.', 'Une phlébite.', 'Une inflammation.', 'Une infiltration.']",0,"Question: Quelle complication potentielle de la thérapie intraveineuse est décrite comme suit: "" Fuite d'un médicament ou d'un liquide vésicant (irritant) dans les tissus environnants, causant des lésions tissulaires "" ?
+
+Choix: ['Une extravasation.', 'Une phlébite.', 'Une inflammation.', 'Une infiltration.']
+
+Réponse: Une extravasation."
+Lequel des éléments suivants est présent dans la salive et a une action antibactérienne?,clinical_knowledge,"['Le lysozyme.', 'Une amylase.', 'Le chlorure de sodium.', 'Le mucus.']",0,"Question: Lequel des éléments suivants est présent dans la salive et a une action antibactérienne?
+
+Choix: ['Le lysozyme.', 'Une amylase.', 'Le chlorure de sodium.', 'Le mucus.']
+
+Réponse: Le lysozyme."
+Le génome est:,clinical_knowledge,"['le nombre de chromosomes présents dans les cellules somatiques d'un organisme.', 'l'ensemble de la séquence d'ADN d'un organisme.', 'la liste complète des protéines qu'un organisme est capable de produire.', 'la séquence d'ADN d'un chromosome entier.']",1,"Question: Le génome est:
+
+Choix: ['le nombre de chromosomes présents dans les cellules somatiques d'un organisme.', 'l'ensemble de la séquence d'ADN d'un organisme.', 'la liste complète des protéines qu'un organisme est capable de produire.', 'la séquence d'ADN d'un chromosome entier.']
+
+Réponse: l'ensemble de la séquence d'ADN d'un organisme."
+Des altérations des neurotransmetteurs dans le cerveau provoquées par des agents pharmacologiques dont il a été démontré qu'elles influencent le développement de la fatigue?,clinical_knowledge,"['L'acétylcholine et la noradrénaline.', 'La dopamine et l'acétylcholine.', 'Le glutamate et la sérotonine.', 'La dopamine et la sérotonine.']",3,"Question: Des altérations des neurotransmetteurs dans le cerveau provoquées par des agents pharmacologiques dont il a été démontré qu'elles influencent le développement de la fatigue?
+
+Choix: ['L'acétylcholine et la noradrénaline.', 'La dopamine et l'acétylcholine.', 'Le glutamate et la sérotonine.', 'La dopamine et la sérotonine.']
+
+Réponse: La dopamine et la sérotonine."
+"Dans l'exercice total tel que le sprint, les premiers types de fibres à la fatigue sont les suivants:",clinical_knowledge,"['Fibres de type I.', 'Fibres de type Ia.', 'Fibres de type IIa.', 'les fibres de type IIX.']",3,"Question: Dans l'exercice total tel que le sprint, les premiers types de fibres à la fatigue sont les suivants:
+
+Choix: ['Fibres de type I.', 'Fibres de type Ia.', 'Fibres de type IIa.', 'les fibres de type IIX.']
+
+Réponse: les fibres de type IIX."
+Le destin principal du lactate qui quitte le muscle et entre dans la circulation est:,clinical_knowledge,"['conversion en urée dans le foie.', 'conversion en glucose dans le cœur.', 'excrétion par les reins.', 'l'absorption et l'oxydation par d'autres tissus.']",3,"Question: Le destin principal du lactate qui quitte le muscle et entre dans la circulation est:
+
+Choix: ['conversion en urée dans le foie.', 'conversion en glucose dans le cœur.', 'excrétion par les reins.', 'l'absorption et l'oxydation par d'autres tissus.']
+
+Réponse: l'absorption et l'oxydation par d'autres tissus."
+La méthode la plus rapide pour resynthétiser l'ATP pendant l'exercice consiste à:,clinical_knowledge,"['glycolyse.', 'dégradation de la phosphocréatine.', 'cycle de l' acide tricarboxylique (cycle de Krebs).', 'glycogénolyse.']",1,"Question: La méthode la plus rapide pour resynthétiser l'ATP pendant l'exercice consiste à:
+
+Choix: ['glycolyse.', 'dégradation de la phosphocréatine.', 'cycle de l' acide tricarboxylique (cycle de Krebs).', 'glycogénolyse.']
+
+Réponse: dégradation de la phosphocréatine."
+Laquelle des affirmations suivantes est vraie dans une évaluation sensorielle du bras?,clinical_knowledge,"['Il est acceptable de tester la douleur à l'aide d'une aiguille de ponction veineuse.', 'La proprioception est appréciée par les mêmes voies que le toucher léger.', 'Il est préférable de tester le capteur de vibration avec un diapason de 256 Hz', 'Les impulsions douloureuses remontent principalement la colonne dorsale.']",1,"Question: Laquelle des affirmations suivantes est vraie dans une évaluation sensorielle du bras?
+
+Choix: ['Il est acceptable de tester la douleur à l'aide d'une aiguille de ponction veineuse.', 'La proprioception est appréciée par les mêmes voies que le toucher léger.', 'Il est préférable de tester le capteur de vibration avec un diapason de 256 Hz', 'Les impulsions douloureuses remontent principalement la colonne dorsale.']
+
+Réponse: La proprioception est appréciée par les mêmes voies que le toucher léger."
+La concentration de glucose dans le sang pendant 80 à 90 minutes d'exercice intermittent de haute intensité:,clinical_knowledge,"['augmente fréquemment de 1 à 3 mM.', 'reste relativement inchangée.', 'diminue fréquemment de 1 à 3 mM.', 'réduit à des niveaux hypoglycémiques.']",0,"Question: La concentration de glucose dans le sang pendant 80 à 90 minutes d'exercice intermittent de haute intensité:
+
+Choix: ['augmente fréquemment de 1 à 3 mM.', 'reste relativement inchangée.', 'diminue fréquemment de 1 à 3 mM.', 'réduit à des niveaux hypoglycémiques.']
+
+Réponse: augmente fréquemment de 1 à 3 mM."
+L'une des causes les plus courantes de la formation d'une stomie est:,clinical_knowledge,"['syndrome du côlon irritable.', 'les hémorroïdes.', 'le carcinome.', 'instabilité de la vessie.']",2,"Question: L'une des causes les plus courantes de la formation d'une stomie est:
+
+Choix: ['syndrome du côlon irritable.', 'les hémorroïdes.', 'le carcinome.', 'instabilité de la vessie.']
+
+Réponse: le carcinome."
+Un support chirurgical peut être utilisé pour:,clinical_knowledge,"['estomes prolapsus.', 'stomes à haut débit.', 'hernie autour de la stomie.', 'rétraction de la stomie.']",2,"Question: Un support chirurgical peut être utilisé pour:
+
+Choix: ['estomes prolapsus.', 'stomes à haut débit.', 'hernie autour de la stomie.', 'rétraction de la stomie.']
+
+Réponse: hernie autour de la stomie."
+Quelle est la taille du sac de cathéter qui peut être utilisé la nuit?,clinical_knowledge,"['Ça fait 350 ml.', 'Ça fait 500 ml.', 'Une litre.', 'Ça fait deux litres.']",3,"Question: Quelle est la taille du sac de cathéter qui peut être utilisé la nuit?
+
+Choix: ['Ça fait 350 ml.', 'Ça fait 500 ml.', 'Une litre.', 'Ça fait deux litres.']
+
+Réponse: Ça fait deux litres."
+Le métabolisme anaérobie fait référence à la génération d'ATP:,clinical_knowledge,"['sans l'intervention de l'ADP.', 'sans l'utilisation de glycogène.', 'sans l'utilisation de l'oxygène.', 'en l'absence d'oxygène disponible.']",2,"Question: Le métabolisme anaérobie fait référence à la génération d'ATP:
+
+Choix: ['sans l'intervention de l'ADP.', 'sans l'utilisation de glycogène.', 'sans l'utilisation de l'oxygène.', 'en l'absence d'oxygène disponible.']
+
+Réponse: sans l'utilisation de l'oxygène."
+"Approximativement, combien de kilojoules d'énergie sont dépensés si l'absorption d'oxygène d'un athlète à un rythme régulier est en moyenne de 3,0 l/min pendant 5 minutes d'exercice ?",clinical_knowledge,"['60 kJ', '150 kJ', '300 kJ ou plus', '500 kJ ou plus']",2,"Question: Approximativement, combien de kilojoules d'énergie sont dépensés si l'absorption d'oxygène d'un athlète à un rythme régulier est en moyenne de 3,0 l/min pendant 5 minutes d'exercice ?
+
+Choix: ['60 kJ', '150 kJ', '300 kJ ou plus', '500 kJ ou plus']
+
+Réponse: 300 kJ ou plus"
+Un patient est sur la table d'opération depuis quatre heures.,clinical_knowledge,"['Ça fait 12 heures.', 'Dans 72 heures.', 'Ça fait 24 heures.', 'Ça fait 5 jours.']",1,"Question: Un patient est sur la table d'opération depuis quatre heures.
+
+Choix: ['Ça fait 12 heures.', 'Dans 72 heures.', 'Ça fait 24 heures.', 'Ça fait 5 jours.']
+
+Réponse: Dans 72 heures."
+Les glandes eccrines et apocrines sont les deux types de:,clinical_knowledge,"['les glandes sudoripares.', 'les glandes salivaires.', 'les récepteurs chimiques.', 'Des conduits lacrymogènes.']",0,"Question: Les glandes eccrines et apocrines sont les deux types de:
+
+Choix: ['les glandes sudoripares.', 'les glandes salivaires.', 'les récepteurs chimiques.', 'Des conduits lacrymogènes.']
+
+Réponse: les glandes sudoripares."
+Laquelle des affirmations suivantes s'applique à l'évaluation de la puissance des armes ?,clinical_knowledge,"['Grade 3/5 (échelle MRC) représente le mouvement du bras uniquement lorsque la gravité est éliminée', 'La flexion du coude est produite par le muscle triceps.', 'La valeur racine de l'abduction d'épaule est C5', 'La puissance de grade 1/5 ne représente aucun mouvement ou contraction musculaire.']",2,"Question: Laquelle des affirmations suivantes s'applique à l'évaluation de la puissance des armes ?
+
+Choix: ['Grade 3/5 (échelle MRC) représente le mouvement du bras uniquement lorsque la gravité est éliminée', 'La flexion du coude est produite par le muscle triceps.', 'La valeur racine de l'abduction d'épaule est C5', 'La puissance de grade 1/5 ne représente aucun mouvement ou contraction musculaire.']
+
+Réponse: La valeur racine de l'abduction d'épaule est C5"
+"Deux des symptômes suivants sont évidents: douleur à l'endroit de la perfusion intraveineuse, érythème et gonflement.",clinical_knowledge,"['Étape 1 - observation de la canule.', 'Étape 2 - réinstallation de la canule.', 'Étape 3 - repositionner la canule et envisager un traitement.', 'Stade 0 - ne rien faire.']",1,"Question: Deux des symptômes suivants sont évidents: douleur à l'endroit de la perfusion intraveineuse, érythème et gonflement.
+
+Choix: ['Étape 1 - observation de la canule.', 'Étape 2 - réinstallation de la canule.', 'Étape 3 - repositionner la canule et envisager un traitement.', 'Stade 0 - ne rien faire.']
+
+Réponse: Étape 2 - réinstallation de la canule."
+Quelle hormone est principalement responsable de la régulation des fluides?,clinical_knowledge,"['L'hormone antidiurétique.', 'Il y a de l'insuline.', 'Il y a de l'adrénaline.', 'La testostérone.']",0,"Question: Quelle hormone est principalement responsable de la régulation des fluides?
+
+Choix: ['L'hormone antidiurétique.', 'Il y a de l'insuline.', 'Il y a de l'adrénaline.', 'La testostérone.']
+
+Réponse: L'hormone antidiurétique."
+La faible consommation de glucides dans l'alimentation:,clinical_knowledge,"['n'affecte pas les performances physiques lors d'événements d'une durée inférieure à 10 minutes.', 'affecte le pH du muscle au repos.', 'peuvent nuire à la performance d' un exercice d' intensité élevée.', 'entraîne une plus grande dépendance au glycogène musculaire pendant l' exercice.']",2,"Question: La faible consommation de glucides dans l'alimentation:
+
+Choix: ['n'affecte pas les performances physiques lors d'événements d'une durée inférieure à 10 minutes.', 'affecte le pH du muscle au repos.', 'peuvent nuire à la performance d' un exercice d' intensité élevée.', 'entraîne une plus grande dépendance au glycogène musculaire pendant l' exercice.']
+
+Réponse: peuvent nuire à la performance d' un exercice d' intensité élevée."
+La resynthèse de la phofocréatine pendant la récupération de l' exercice est inhibée par:,clinical_knowledge,"['un excès de créatine.', 'une hyperventilation.', 'un excès d'oxygène.', 'un manque d'oxygène.']",3,"Question: La resynthèse de la phofocréatine pendant la récupération de l' exercice est inhibée par:
+
+Choix: ['un excès de créatine.', 'une hyperventilation.', 'un excès d'oxygène.', 'un manque d'oxygène.']
+
+Réponse: un manque d'oxygène."
+La transcription de l'ADN vers une molécule d'ARN messager se produit:,clinical_knowledge,"['sur les ribosomes.', 'dans le cytosol.', 'dans le noyau.', 'seulement pendant la division cellulaire.']",2,"Question: La transcription de l'ADN vers une molécule d'ARN messager se produit:
+
+Choix: ['sur les ribosomes.', 'dans le cytosol.', 'dans le noyau.', 'seulement pendant la division cellulaire.']
+
+Réponse: dans le noyau."
+L'œdème est la présence de:,clinical_knowledge,"['un excès de liquide intravasculaire.', 'un excès de liquide extravasculaire.', 'un excès de liquide intracrânien.', 'un excès de cellules nécrosées.']",1,"Question: L'œdème est la présence de:
+
+Choix: ['un excès de liquide intravasculaire.', 'un excès de liquide extravasculaire.', 'un excès de liquide intracrânien.', 'un excès de cellules nécrosées.']
+
+Réponse: un excès de liquide extravasculaire."
+Pourquoi le bronchodilatateur à courte durée d'action doit- il être pris en premier ?,clinical_knowledge,"['Il fonctionne pour dilater les voies respiratoires rapidement, permettant un meilleur dépôt d'autres médicaments.', 'Ils sont codés par couleur.', 'C'est plus chaud que les autres.', 'C'est moins humide que les autres.']",0,"Question: Pourquoi le bronchodilatateur à courte durée d'action doit- il être pris en premier ?
+
+Choix: ['Il fonctionne pour dilater les voies respiratoires rapidement, permettant un meilleur dépôt d'autres médicaments.', 'Ils sont codés par couleur.', 'C'est plus chaud que les autres.', 'C'est moins humide que les autres.']
+
+Réponse: Il fonctionne pour dilater les voies respiratoires rapidement, permettant un meilleur dépôt d'autres médicaments."
+Laquelle des affirmations suivantes est vraie au sujet d'un tremblement d'intention ?,clinical_knowledge,"['C' est pire au repos .', 'Elle est causée par la maladie de Parkinson.', 'C' est le signe d' une lésion cérébelleuse .', 'La dyscalculie est une association commune']",2,"Question: Laquelle des affirmations suivantes est vraie au sujet d'un tremblement d'intention ?
+
+Choix: ['C' est pire au repos .', 'Elle est causée par la maladie de Parkinson.', 'C' est le signe d' une lésion cérébelleuse .', 'La dyscalculie est une association commune']
+
+Réponse: C' est le signe d' une lésion cérébelleuse ."
+Le glucose est transporté dans la cellule musculaire:,clinical_knowledge,"['par des transporteurs de protéines appelés GLUT4.', 'seulement en présence d' insuline.', 'par l'hexokinase.', 'par l'intermédiaire de transporteurs d'acide monocarbylique.']",0,"Question: Le glucose est transporté dans la cellule musculaire:
+
+Choix: ['par des transporteurs de protéines appelés GLUT4.', 'seulement en présence d' insuline.', 'par l'hexokinase.', 'par l'intermédiaire de transporteurs d'acide monocarbylique.']
+
+Réponse: par des transporteurs de protéines appelés GLUT4."
+L'oxygène est utilisé:,clinical_knowledge,"['dans la glycolyse.', 'dans la conversion des acides gras en acétyl-CoA.', 'dans le cycle de l'acide tricarboxylique (cycle de Krebs).', 'dans la glycogénolyse.']",1,"Question: L'oxygène est utilisé:
+
+Choix: ['dans la glycolyse.', 'dans la conversion des acides gras en acétyl-CoA.', 'dans le cycle de l'acide tricarboxylique (cycle de Krebs).', 'dans la glycogénolyse.']
+
+Réponse: dans la conversion des acides gras en acétyl-CoA."
+La mesure de la pression artérielle dans un bras situé au-dessus du niveau du cœur permettra:,clinical_knowledge,"['évaluer avec précision la pression artérielle.', 'surestimer la pression artérielle.', 'Cause une lacune auditive.', 'Ne sous-estimez pas la pression artérielle.']",3,"Question: La mesure de la pression artérielle dans un bras situé au-dessus du niveau du cœur permettra:
+
+Choix: ['évaluer avec précision la pression artérielle.', 'surestimer la pression artérielle.', 'Cause une lacune auditive.', 'Ne sous-estimez pas la pression artérielle.']
+
+Réponse: Ne sous-estimez pas la pression artérielle."
+"Quand vous prenez un historique musculo-squelettique, laquelle des affirmations suivantes est vraie ?",clinical_knowledge,"['Les médicaments peuvent être à l'origine de la goutte.', 'Les antécédents de diarrhée ne sont pas pertinents', 'La difficulté à se lever d'une chaise est un diagnostic de rhumatisme polymyalgique.', 'Une raideur articulaire de 5 minutes suggère une arthropathie.']",0,"Question: Quand vous prenez un historique musculo-squelettique, laquelle des affirmations suivantes est vraie ?
+
+Choix: ['Les médicaments peuvent être à l'origine de la goutte.', 'Les antécédents de diarrhée ne sont pas pertinents', 'La difficulté à se lever d'une chaise est un diagnostic de rhumatisme polymyalgique.', 'Une raideur articulaire de 5 minutes suggère une arthropathie.']
+
+Réponse: Les médicaments peuvent être à l'origine de la goutte."
+Pourquoi est- il conseillé aux patients de sexe masculin d'apporter leur propre rasoir électrique à l'hôpital?,clinical_knowledge,"['Pour le confort du patient.', 'Pour rendre l'hôpital aussi familier que possible.', 'Pour minimiser le risque d'infection croisée.', 'Pour permettre le rasage à un moment qui convient au patient.']",2,"Question: Pourquoi est- il conseillé aux patients de sexe masculin d'apporter leur propre rasoir électrique à l'hôpital?
+
+Choix: ['Pour le confort du patient.', 'Pour rendre l'hôpital aussi familier que possible.', 'Pour minimiser le risque d'infection croisée.', 'Pour permettre le rasage à un moment qui convient au patient.']
+
+Réponse: Pour minimiser le risque d'infection croisée."
+Quel est l'organe qui sécrète l'insuline ?,clinical_knowledge,"['Les cellules pariétales gastriques.', 'Le pancréas.', 'Les parois du gros intestin.', 'Le système nerveux autonome.']",1,"Question: Quel est l'organe qui sécrète l'insuline ?
+
+Choix: ['Les cellules pariétales gastriques.', 'Le pancréas.', 'Les parois du gros intestin.', 'Le système nerveux autonome.']
+
+Réponse: Le pancréas."
+"Lorsqu'on enseigne à un patient la technique de l'inhalateur, comment s'assurer qu'une grande partie du médicament atteigne les voies respiratoires inférieures?",clinical_knowledge,"['Demandez- leur de faire beaucoup de petites inspirations rapides avant d'utiliser l' inhalateur.', 'Demandez- leur de respirer normalement lorsqu' ils utilisent l' inhalateur.', 'Demandez-leur d'effectuer la procédure le plus rapidement possible.', 'Demandez- leur de retenir leur souffle à la fin de l' inspiration sur l' utilisation de l' inhalateur.']",3,"Question: Lorsqu'on enseigne à un patient la technique de l'inhalateur, comment s'assurer qu'une grande partie du médicament atteigne les voies respiratoires inférieures?
+
+Choix: ['Demandez- leur de faire beaucoup de petites inspirations rapides avant d'utiliser l' inhalateur.', 'Demandez- leur de respirer normalement lorsqu' ils utilisent l' inhalateur.', 'Demandez-leur d'effectuer la procédure le plus rapidement possible.', 'Demandez- leur de retenir leur souffle à la fin de l' inspiration sur l' utilisation de l' inhalateur.']
+
+Réponse: Demandez- leur de retenir leur souffle à la fin de l' inspiration sur l' utilisation de l' inhalateur."
+Pourquoi un patient devrait-il se tenir debout ou s'asseoir aussi droit que possible lors de l'enregistrement d'un débit maximal?,clinical_knowledge,"['Pour assurer une meilleure expansion pulmonaire et une précision et une cohérence des lectures.', 'C'est la position la plus confortable pour effectuer un test respiratoire.', 'Le compteur du compteur ne bougera pas si le patient est allongé.', 'Pour s'assurer que leur technique peut être facilement observée.']",0,"Question: Pourquoi un patient devrait-il se tenir debout ou s'asseoir aussi droit que possible lors de l'enregistrement d'un débit maximal?
+
+Choix: ['Pour assurer une meilleure expansion pulmonaire et une précision et une cohérence des lectures.', 'C'est la position la plus confortable pour effectuer un test respiratoire.', 'Le compteur du compteur ne bougera pas si le patient est allongé.', 'Pour s'assurer que leur technique peut être facilement observée.']
+
+Réponse: Pour assurer une meilleure expansion pulmonaire et une précision et une cohérence des lectures."
+Pourquoi un patient a- t- il besoin d'une trachéotomie ?,clinical_knowledge,"['Pour réparer les cordes vocales après une paralysie.', 'Pour faciliter la déglutition.', 'Comme aide pour le sevrage des patients d'un ventilateur.', 'Avant la chirurgie du cou.']",2,"Question: Pourquoi un patient a- t- il besoin d'une trachéotomie ?
+
+Choix: ['Pour réparer les cordes vocales après une paralysie.', 'Pour faciliter la déglutition.', 'Comme aide pour le sevrage des patients d'un ventilateur.', 'Avant la chirurgie du cou.']
+
+Réponse: Comme aide pour le sevrage des patients d'un ventilateur."
+"En général, plus l'intensité de l'exercice est élevée, plus la contribution proportionnelle de:",clinical_knowledge,"['la production d'énergie aérobie.', 'la production d'énergie anaérobie.', 'le cycle TCA (cycle de Krebs) à la production d'ATP.', 'la chaîne de transfert d'électrons pour la production d'ATP.']",1,"Question: En général, plus l'intensité de l'exercice est élevée, plus la contribution proportionnelle de:
+
+Choix: ['la production d'énergie aérobie.', 'la production d'énergie anaérobie.', 'le cycle TCA (cycle de Krebs) à la production d'ATP.', 'la chaîne de transfert d'électrons pour la production d'ATP.']
+
+Réponse: la production d'énergie anaérobie."
+Quelle est la deuxième infection la plus fréquemment contractée à l'hôpital ?,clinical_knowledge,"['Une infection urinaire.', 'Une infection de la plaie.', 'Une infection des voies respiratoires supérieures.', 'Une pneumonie liée au ventilateur.']",3,"Question: Quelle est la deuxième infection la plus fréquemment contractée à l'hôpital ?
+
+Choix: ['Une infection urinaire.', 'Une infection de la plaie.', 'Une infection des voies respiratoires supérieures.', 'Une pneumonie liée au ventilateur.']
+
+Réponse: Une pneumonie liée au ventilateur."
+La phosphocréatine dans la cellule musculaire se trouve dans:,clinical_knowledge,"['les mitochondries.', 'tous les compartiments sous-cellulaires.', 'Le sarcolemme.', 'le cytoplasme.']",3,"Question: La phosphocréatine dans la cellule musculaire se trouve dans:
+
+Choix: ['les mitochondries.', 'tous les compartiments sous-cellulaires.', 'Le sarcolemme.', 'le cytoplasme.']
+
+Réponse: le cytoplasme."
+L'auto-déclaration de la douleur par le patient est importante car le personnel soignant:,clinical_knowledge,"['peut surestimer l'intensité de la douleur du patient.', 'sous-estimer l'intensité de la douleur du patient.', 'ne possèdent pas une façon objective d'évaluer la douleur.', 'peut utiliser ces informations pour prescrire et administrer le moins d' analgésiques possible.']",2,"Question: L'auto-déclaration de la douleur par le patient est importante car le personnel soignant:
+
+Choix: ['peut surestimer l'intensité de la douleur du patient.', 'sous-estimer l'intensité de la douleur du patient.', 'ne possèdent pas une façon objective d'évaluer la douleur.', 'peut utiliser ces informations pour prescrire et administrer le moins d' analgésiques possible.']
+
+Réponse: ne possèdent pas une façon objective d'évaluer la douleur."

@@ -22,3 +22,9 @@
 [Race] repeat 3, top 5.0000% — math: 181665792, non-math: 181665792, math-only after removing non-math: 48257701
 [Race] repeat 3, top 10.0000% — math: 363331584, non-math: 363331584, math-only after removing non-math: 79443359
 [Race] repeat 3, top 15.0000% — math: 544997376, non-math: 544997376, math-only after removing non-math: 99537968
+[Race] repeat 1, top 0.0001% — math: 3456, non-math: 3456, math-only after removing non-math: 1621
+[Race] repeat 1, top 0.0010% — math: 36252, non-math: 36252, math-only after removing non-math: 16775
+[Race] repeat 2, top 0.0001% — math: 3456, non-math: 3456, math-only after removing non-math: 1546
+[Race] repeat 2, top 0.0010% — math: 36252, non-math: 36252, math-only after removing non-math: 15958
+[Race] repeat 3, top 0.0001% — math: 3456, non-math: 3456, math-only after removing non-math: 1575
+[Race] repeat 3, top 0.0010% — math: 36252, non-math: 36252, math-only after removing non-math: 16432

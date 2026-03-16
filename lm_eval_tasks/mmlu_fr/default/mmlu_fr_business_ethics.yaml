@@ -1,0 +1,13 @@
+include: _default_template_yaml
+task: mmlu_fr_business_ethics
+task_alias: business_ethics
+
+description: "Les questions suivantes sont des questions à choix multiples (avec réponses) sur le sujet éthique des affaires.\n\n"
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_French/mmlu_fr_by_subject/business_ethics.csv
+
+test_split: test
+
+

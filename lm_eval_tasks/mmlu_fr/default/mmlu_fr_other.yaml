@@ -1,0 +1,24 @@
+group: mmlu_fr_other
+group_alias: other
+task:
+  - mmlu_fr_business_ethics
+  - mmlu_fr_clinical_knowledge
+  - mmlu_fr_college_medicine
+  - mmlu_fr_global_facts
+  - mmlu_fr_human_aging
+  - mmlu_fr_management
+  - mmlu_fr_marketing
+  - mmlu_fr_medical_genetics
+  - mmlu_fr_miscellaneous
+  - mmlu_fr_nutrition
+  - mmlu_fr_professional_medicine
+  - mmlu_fr_virology
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: true
+metadata:
+  version: 1
+
+
+
+

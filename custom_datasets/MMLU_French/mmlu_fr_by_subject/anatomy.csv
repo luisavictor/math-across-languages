@@ -1,0 +1,676 @@
+question,subject,choices,answer,qa
+Une lésion provoquant une compression du nerf facial au niveau du foramen stylomastoïde entraînera des lésions ipsilatérales.,anatomy,"['paralysie des muscles faciaux.', 'paralysie des muscles faciaux et perte du goût.', 'paralysie des muscles faciaux, perte du goût et larmoiement.', 'paralysie des muscles faciaux, perte du goût, larmoiement et diminution de la salivation.']",0,"Question: Une lésion provoquant une compression du nerf facial au niveau du foramen stylomastoïde entraînera des lésions ipsilatérales.
+
+Choix: ['paralysie des muscles faciaux.', 'paralysie des muscles faciaux et perte du goût.', 'paralysie des muscles faciaux, perte du goût et larmoiement.', 'paralysie des muscles faciaux, perte du goût, larmoiement et diminution de la salivation.']
+
+Réponse: paralysie des muscles faciaux."
+"Un profil de ""visage plat"" est souvent associé à",anatomy,"['une mandibule saillante due à la réactivation du cartilage condyle par acromégalie.', 'un maxillaire récessif dû à une défaillance de l'allongement de la base crânienne.', 'une hypertrophie de l'os frontal due à une hydrocéphalie.', 'développement défectueux du sinus aérien maxillaire.']",1,"Question: Un profil de ""visage plat"" est souvent associé à
+
+Choix: ['une mandibule saillante due à la réactivation du cartilage condyle par acromégalie.', 'un maxillaire récessif dû à une défaillance de l'allongement de la base crânienne.', 'une hypertrophie de l'os frontal due à une hydrocéphalie.', 'développement défectueux du sinus aérien maxillaire.']
+
+Réponse: un maxillaire récessif dû à une défaillance de l'allongement de la base crânienne."
+Lequel des éléments suivants décrit le mieux la structure qui recueille l'urine dans le corps?,anatomy,"['La vésicule urinaire', 'Les reins', 'L'urètre', 'L'urètre']",0,"Question: Lequel des éléments suivants décrit le mieux la structure qui recueille l'urine dans le corps?
+
+Choix: ['La vésicule urinaire', 'Les reins', 'L'urètre', 'L'urètre']
+
+Réponse: La vésicule urinaire"
+Laquelle des structures suivantes est dérivée de l'ectomesenchyme?,anatomy,"['Neurones moteurs', 'Les muscles squelettiques', 'Mélanocytes', 'Glandes sudoripares']",2,"Question: Laquelle des structures suivantes est dérivée de l'ectomesenchyme?
+
+Choix: ['Neurones moteurs', 'Les muscles squelettiques', 'Mélanocytes', 'Glandes sudoripares']
+
+Réponse: Mélanocytes"
+Lequel des éléments suivants décrit le groupe de capillaires sanguins que l'on trouve dans chaque néphron du rein?,anatomy,"['Artériole afférente', 'Des glomérules', 'Boucle de Henle', 'Bassin rénaux']",1,"Question: Lequel des éléments suivants décrit le groupe de capillaires sanguins que l'on trouve dans chaque néphron du rein?
+
+Choix: ['Artériole afférente', 'Des glomérules', 'Boucle de Henle', 'Bassin rénaux']
+
+Réponse: Des glomérules"
+Un patient souffre d'une fracture du cou avec des lésions de la moelle épinière au niveau de la sixième vertèbre cervicale.,anatomy,"['Ils seront incapables de respirer sans soutien de vie.', 'Ils ne pourront que respirer tranquillement.', 'Il est impossible de prévoir un effet sur la respiration.', 'La respiration ne sera pas affectée.']",1,"Question: Un patient souffre d'une fracture du cou avec des lésions de la moelle épinière au niveau de la sixième vertèbre cervicale.
+
+Choix: ['Ils seront incapables de respirer sans soutien de vie.', 'Ils ne pourront que respirer tranquillement.', 'Il est impossible de prévoir un effet sur la respiration.', 'La respiration ne sera pas affectée.']
+
+Réponse: Ils ne pourront que respirer tranquillement."
+Laquelle des régions anatomiques suivantes de l'abdomen se trouve juste distal au sternum?,anatomy,"['L'épigastrique', 'Hypocondriaque', 'Hypogastrique', 'Colonne vertébrale']",0,"Question: Laquelle des régions anatomiques suivantes de l'abdomen se trouve juste distal au sternum?
+
+Choix: ['L'épigastrique', 'Hypocondriaque', 'Hypogastrique', 'Colonne vertébrale']
+
+Réponse: L'épigastrique"
+Lequel des éléments suivants décrit le mieux le mécanisme de défense du corps humain contre les bactéries environnementales?,anatomy,"['Des poils dans le nez.', 'Membranes muqueuses', 'Les ostéoblastes', 'La salive']",1,"Question: Lequel des éléments suivants décrit le mieux le mécanisme de défense du corps humain contre les bactéries environnementales?
+
+Choix: ['Des poils dans le nez.', 'Membranes muqueuses', 'Les ostéoblastes', 'La salive']
+
+Réponse: Membranes muqueuses"
+Les processus palatins commencent à fusionner à,anatomy,"['six semaines après la fécondation.', 'huit semaines après la fécondation.', 'dix semaines après la fécondation.', 'douze semaines après la fécondation.']",2,"Question: Les processus palatins commencent à fusionner à
+
+Choix: ['six semaines après la fécondation.', 'huit semaines après la fécondation.', 'dix semaines après la fécondation.', 'douze semaines après la fécondation.']
+
+Réponse: dix semaines après la fécondation."
+L'activité du cortex moteur primaire entraîne,anatomy,"['contraction bilatérale des muscles anti-gravité des membres.', 'contraction bilatérale de la musculature des membres.', 'contraction de la musculature ipsilatérale des membres.', 'contraction de la musculature contralatérale des membres.']",3,"Question: L'activité du cortex moteur primaire entraîne
+
+Choix: ['contraction bilatérale des muscles anti-gravité des membres.', 'contraction bilatérale de la musculature des membres.', 'contraction de la musculature ipsilatérale des membres.', 'contraction de la musculature contralatérale des membres.']
+
+Réponse: contraction de la musculature contralatérale des membres."
+Vous remarquez que les ganglions lymphatiques sous-mandibulaires de votre patient sont élargis.,anatomy,"['le palais est dur.', 'le palais dur et la lèvre supérieure.', 'le palais dur, la lèvre supérieure et l'incisif central supérieur.', 'le palais dur, la lèvre supérieure, l'incisif central supérieur et la première molaire inférieure.']",3,"Question: Vous remarquez que les ganglions lymphatiques sous-mandibulaires de votre patient sont élargis.
+
+Choix: ['le palais est dur.', 'le palais dur et la lèvre supérieure.', 'le palais dur, la lèvre supérieure et l'incisif central supérieur.', 'le palais dur, la lèvre supérieure, l'incisif central supérieur et la première molaire inférieure.']
+
+Réponse: le palais dur, la lèvre supérieure, l'incisif central supérieur et la première molaire inférieure."
+Un patient subit des dommages à l'orbite lors d'un accident de la route entraînant des dommages au troisième nerf crânien.,anatomy,"['Rétrécissement des pupilles et strabisme médian', 'Une dilatation pupillaire et un strabisme médian', 'Rétrécissement des pupilles et strabisme latéral', 'Dilatation des pupilles et strabisme latéral']",3,"Question: Un patient subit des dommages à l'orbite lors d'un accident de la route entraînant des dommages au troisième nerf crânien.
+
+Choix: ['Rétrécissement des pupilles et strabisme médian', 'Une dilatation pupillaire et un strabisme médian', 'Rétrécissement des pupilles et strabisme latéral', 'Dilatation des pupilles et strabisme latéral']
+
+Réponse: Dilatation des pupilles et strabisme latéral"
+Laquelle des affirmations suivantes est vraie pour l'articulation temporomandibulaire ?,anatomy,"['Il a un disque articulaire de cartilage hyaline', 'Ses surfaces articulaires sont couvertes de cartilage hyaline .', 'Les informations propriocéptives sont transmises par le tympan et les nerfs temporaux profonds.', 'L'information proprioceptive est portée par les nerfs massetériques et auriculotemporaux.']",3,"Question: Laquelle des affirmations suivantes est vraie pour l'articulation temporomandibulaire ?
+
+Choix: ['Il a un disque articulaire de cartilage hyaline', 'Ses surfaces articulaires sont couvertes de cartilage hyaline .', 'Les informations propriocéptives sont transmises par le tympan et les nerfs temporaux profonds.', 'L'information proprioceptive est portée par les nerfs massetériques et auriculotemporaux.']
+
+Réponse: L'information proprioceptive est portée par les nerfs massetériques et auriculotemporaux."
+L'examen laryngoscopique des plis vocaux après soupçon de lésion récurrente du nerf laryngé montre généralement que le pli vocal du côté blessé est tendu et dans une position intermédiaire entre l'addition et l'abduction C' est parce que,anatomy,"['Le muscle cricothyroïde est toujours fonctionnel mais les muscles inter-arythénoïdes sont pleinement actifs.', 'Le muscle cricothyroïdien est toujours fonctionnel mais les interarythinoïdes sont faibles.', 'Le muscle cricothyroïdien est paralysé mais les interarythinoïdes sont pleinement actifs.', 'Le muscle cricothyroïdien est paralysé mais les interarythinoïdes sont faibles.']",1,"Question: L'examen laryngoscopique des plis vocaux après soupçon de lésion récurrente du nerf laryngé montre généralement que le pli vocal du côté blessé est tendu et dans une position intermédiaire entre l'addition et l'abduction C' est parce que
+
+Choix: ['Le muscle cricothyroïde est toujours fonctionnel mais les muscles inter-arythénoïdes sont pleinement actifs.', 'Le muscle cricothyroïdien est toujours fonctionnel mais les interarythinoïdes sont faibles.', 'Le muscle cricothyroïdien est paralysé mais les interarythinoïdes sont pleinement actifs.', 'Le muscle cricothyroïdien est paralysé mais les interarythinoïdes sont faibles.']
+
+Réponse: Le muscle cricothyroïdien est toujours fonctionnel mais les interarythinoïdes sont faibles."
+Laquelle des affirmations suivantes concernant la croissance de la mandibule est correcte?,anatomy,"['La symphyse mentale se ferme à environ 1 an après la naissance', 'Le cartilage de croissance condylique cesse son activité à la puberté.', 'Le centre d'ossification apparaît environ 8 semaines I.U.L médial au cartilage de Meckel', 'La matrice fonctionnelle agissant sur l'angle de la mandibule est le muscle pterygoïde latéral']",0,"Question: Laquelle des affirmations suivantes concernant la croissance de la mandibule est correcte?
+
+Choix: ['La symphyse mentale se ferme à environ 1 an après la naissance', 'Le cartilage de croissance condylique cesse son activité à la puberté.', 'Le centre d'ossification apparaît environ 8 semaines I.U.L médial au cartilage de Meckel', 'La matrice fonctionnelle agissant sur l'angle de la mandibule est le muscle pterygoïde latéral']
+
+Réponse: La symphyse mentale se ferme à environ 1 an après la naissance"
+Laquelle des affirmations suivantes est vraie pour le réflexe lumineux pupillaire ?,anatomy,"['Son membre efferent est porté dans le nerf optique .', 'Elle est médiée par les collicules inférieurs du milieu du cerveau .', 'C' est un réflexe consensuel .', 'Son membre afférent est porté dans le nerf oculomotor .']",2,"Question: Laquelle des affirmations suivantes est vraie pour le réflexe lumineux pupillaire ?
+
+Choix: ['Son membre efferent est porté dans le nerf optique .', 'Elle est médiée par les collicules inférieurs du milieu du cerveau .', 'C' est un réflexe consensuel .', 'Son membre afférent est porté dans le nerf oculomotor .']
+
+Réponse: C' est un réflexe consensuel ."
+Quels muscles sont normalement actifs lors d'une inspiration silencieuse ?,anatomy,"['Les muscles intercostaux externes et internes', 'Les muscles intercostaux externes et le diaphragme', 'Les muscles intercostaux internes et le diaphragme', 'Les muscles intercostaux externes et internes et le diaphragme']",1,"Question: Quels muscles sont normalement actifs lors d'une inspiration silencieuse ?
+
+Choix: ['Les muscles intercostaux externes et internes', 'Les muscles intercostaux externes et le diaphragme', 'Les muscles intercostaux internes et le diaphragme', 'Les muscles intercostaux externes et internes et le diaphragme']
+
+Réponse: Les muscles intercostaux externes et le diaphragme"
+Les hormones mâles sont produites par lequel des éléments suivants?,anatomy,"['Glande du pénis', 'Prépuce', 'Prostate', 'Les essais']",3,"Question: Les hormones mâles sont produites par lequel des éléments suivants?
+
+Choix: ['Glande du pénis', 'Prépuce', 'Prostate', 'Les essais']
+
+Réponse: Les essais"
+Par lequel des organes suivants le sang oxygéné est- il transporté jusqu'au cœur?,anatomy,"['L' aorte', 'Les artères carotides', 'Veine caverneuse inférieure', 'Veines pulmonaires']",3,"Question: Par lequel des organes suivants le sang oxygéné est- il transporté jusqu'au cœur?
+
+Choix: ['L' aorte', 'Les artères carotides', 'Veine caverneuse inférieure', 'Veines pulmonaires']
+
+Réponse: Veines pulmonaires"
+Lequel des éléments suivants permet à l'air de pénétrer dans les poumons ?,anatomy,"['L' aorte', 'L' œsophage', 'Trachée', 'Pancréas']",2,"Question: Lequel des éléments suivants permet à l'air de pénétrer dans les poumons ?
+
+Choix: ['L' aorte', 'L' œsophage', 'Trachée', 'Pancréas']
+
+Réponse: Trachée"
+Où est situé le nœud sino-auriculaire ?,anatomy,"['Entre l'oreillette gauche et le ventricule gauche', 'Entre l'oreillette droite et le ventricule droit', 'Dans la paroi supérieure de l'oreillette droite', 'Dans la paroi supérieure du ventricule gauche']",2,"Question: Où est situé le nœud sino-auriculaire ?
+
+Choix: ['Entre l'oreillette gauche et le ventricule gauche', 'Entre l'oreillette droite et le ventricule droit', 'Dans la paroi supérieure de l'oreillette droite', 'Dans la paroi supérieure du ventricule gauche']
+
+Réponse: Dans la paroi supérieure de l'oreillette droite"
+"En relation avec la côte, le nerf intercostale correspondant se trouve",anatomy,"['profonde jusqu'à sa frontière supérieure.', 'superficielle à sa bordure supérieure.', 'profonde jusqu'à sa bordure inférieure.', 'superficielle à sa bordure inférieure.']",2,"Question: En relation avec la côte, le nerf intercostale correspondant se trouve
+
+Choix: ['profonde jusqu'à sa frontière supérieure.', 'superficielle à sa bordure supérieure.', 'profonde jusqu'à sa bordure inférieure.', 'superficielle à sa bordure inférieure.']
+
+Réponse: profonde jusqu'à sa bordure inférieure."
+Le drainage lymphatique régional du côté gauche de la pointe de la langue est,anatomy,"['le ganglion lymphatique sous-mental gauche.', 'les ganglions lymphatiques submentaux gauche et droit.', 'le ganglion lymphatique sous-mandibulaire gauche.', 'les ganglions lymphatiques sous-mandibulaires gauche et droit.']",1,"Question: Le drainage lymphatique régional du côté gauche de la pointe de la langue est
+
+Choix: ['le ganglion lymphatique sous-mental gauche.', 'les ganglions lymphatiques submentaux gauche et droit.', 'le ganglion lymphatique sous-mandibulaire gauche.', 'les ganglions lymphatiques sous-mandibulaires gauche et droit.']
+
+Réponse: les ganglions lymphatiques submentaux gauche et droit."
+La gastrulation est le processus de,anatomy,"['la formation du mésoderm et se produit après la neurulation.', 'la formation de l' ectomesenchyme et se produit avant la neurulation.', 'la formation du mésoderm et se produit avant la neurulation.', 'formation de l' ectomesenchyme et se produit après la neurulation.']",1,"Question: La gastrulation est le processus de
+
+Choix: ['la formation du mésoderm et se produit après la neurulation.', 'la formation de l' ectomesenchyme et se produit avant la neurulation.', 'la formation du mésoderm et se produit avant la neurulation.', 'formation de l' ectomesenchyme et se produit après la neurulation.']
+
+Réponse: la formation de l' ectomesenchyme et se produit avant la neurulation."
+La synchondrose sphéno-occipitale,anatomy,"['est un cartilage de croissance secondaire.', 'influe sur la position du viscérocrâne.', 'cesse son activité à l'âge de 7 ans.', 'peut être réactivé chez les patients atteints d' acromégalie.']",1,"Question: La synchondrose sphéno-occipitale
+
+Choix: ['est un cartilage de croissance secondaire.', 'influe sur la position du viscérocrâne.', 'cesse son activité à l'âge de 7 ans.', 'peut être réactivé chez les patients atteints d' acromégalie.']
+
+Réponse: influe sur la position du viscérocrâne."
+Laquelle des substances suivantes se trouve en plus grande quantité dans l'air expiré?,anatomy,"['Dioxyde de carbone', 'Monoxyde de carbone', 'Nitrogène', 'Utilisation de l'oxygène']",2,"Question: Laquelle des substances suivantes se trouve en plus grande quantité dans l'air expiré?
+
+Choix: ['Dioxyde de carbone', 'Monoxyde de carbone', 'Nitrogène', 'Utilisation de l'oxygène']
+
+Réponse: Nitrogène"
+Lequel des symptômes suivants est caractérisé par la présence de calculs rénaux ?,anatomy,"['Glomérulonéphrite', 'Néphrite interstitielle', 'Nephrolithiase', 'Rénaux polykystiques']",2,"Question: Lequel des symptômes suivants est caractérisé par la présence de calculs rénaux ?
+
+Choix: ['Glomérulonéphrite', 'Néphrite interstitielle', 'Nephrolithiase', 'Rénaux polykystiques']
+
+Réponse: Nephrolithiase"
+Un pouls peut être ressenti sur le visage d' un patient,anatomy,"['L'artère faciale traverse la mâchoire inférieure.', 'L'artère faciale traverse le maxillaire.', 'L'artère temporale superficielle traverse le maxillaire.', 'L'artère temporale superficielle traverse le bord orbital.']",0,"Question: Un pouls peut être ressenti sur le visage d' un patient
+
+Choix: ['L'artère faciale traverse la mâchoire inférieure.', 'L'artère faciale traverse le maxillaire.', 'L'artère temporale superficielle traverse le maxillaire.', 'L'artère temporale superficielle traverse le bord orbital.']
+
+Réponse: L'artère faciale traverse la mâchoire inférieure."
+Un patient souffre d'un traumatisme grave à la partie supérieure gauche de l'abdomen et nécessite une intervention chirurgicale.,anatomy,"['Nom de l'établissement', 'La vésicule biliaire', 'La rate', 'La vessie urinaire']",2,"Question: Un patient souffre d'un traumatisme grave à la partie supérieure gauche de l'abdomen et nécessite une intervention chirurgicale.
+
+Choix: ['Nom de l'établissement', 'La vésicule biliaire', 'La rate', 'La vessie urinaire']
+
+Réponse: La rate"
+Quelle affirmation concernant le faisceau auriculo-ventriculaire est correcte ?,anatomy,"['Il est formé de processus nerveux autonomes et est la seule connexion électrique entre les atriums et les ventricules.', 'Il est formé de fibres de Purkinje et est la seule connexion électrique entre les atriums et les ventricules', 'Il est formé de processus nerveux autonomes et forme l'une des nombreuses connexions électriques entre les auriculaires et les ventricules.', 'Il est formé de fibres de Purkinje et constitue l'une des nombreuses connexions électriques entre les atriums et les ventricules.']",1,"Question: Quelle affirmation concernant le faisceau auriculo-ventriculaire est correcte ?
+
+Choix: ['Il est formé de processus nerveux autonomes et est la seule connexion électrique entre les atriums et les ventricules.', 'Il est formé de fibres de Purkinje et est la seule connexion électrique entre les atriums et les ventricules', 'Il est formé de processus nerveux autonomes et forme l'une des nombreuses connexions électriques entre les auriculaires et les ventricules.', 'Il est formé de fibres de Purkinje et constitue l'une des nombreuses connexions électriques entre les atriums et les ventricules.']
+
+Réponse: Il est formé de fibres de Purkinje et est la seule connexion électrique entre les atriums et les ventricules"
+Lequel des termes suivants décrit le mouvement de flexion de l'avant-bras vers le corps?,anatomy,"['Enlèvement', 'Éversion', 'Flexion', 'Pronation']",2,"Question: Lequel des termes suivants décrit le mouvement de flexion de l'avant-bras vers le corps?
+
+Choix: ['Enlèvement', 'Éversion', 'Flexion', 'Pronation']
+
+Réponse: Flexion"
+La nourriture est empêchée d'entrer dans le larynx pendant la phase pharyngée de la déglutition par:,anatomy,"['rétrécissement de l'entrée du larynx.', 'le mouvement vers le haut de l'épiglotte.', 'mouvement vers le bas du larynx.', 'augmentation du rythme respiratoire.']",0,"Question: La nourriture est empêchée d'entrer dans le larynx pendant la phase pharyngée de la déglutition par:
+
+Choix: ['rétrécissement de l'entrée du larynx.', 'le mouvement vers le haut de l'épiglotte.', 'mouvement vers le bas du larynx.', 'augmentation du rythme respiratoire.']
+
+Réponse: rétrécissement de l'entrée du larynx."
+Par lequel des endroits suivants la bile pénètre- t- elle dans l'appareil digestif?,anatomy,"['Sphincteur gastro-œsophagien', 'Duodénum', 'Iléocèque (Ileocecum)', 'Jejunum']",1,"Question: Par lequel des endroits suivants la bile pénètre- t- elle dans l'appareil digestif?
+
+Choix: ['Sphincteur gastro-œsophagien', 'Duodénum', 'Iléocèque (Ileocecum)', 'Jejunum']
+
+Réponse: Duodénum"
+Dans laquelle des positions suivantes un patient se couche le visage vers le bas ?,anatomy,"['Dorsal', 'Érigé', 'Latérale', 'Prédisposé']",1,"Question: Dans laquelle des positions suivantes un patient se couche le visage vers le bas ?
+
+Choix: ['Dorsal', 'Érigé', 'Latérale', 'Prédisposé']
+
+Réponse: Érigé"
+Une fente palatine bilatérale complète est due à une défaillance de la fusion des,anatomy,"['les processus palatins.', 'les processus palatins et frontonasaux.', 'les processus nasaux palatins, frontonasaux et secondaires.', 'les processus nasaux palatins, frontonasaux, secondaires et les processus mandibulaires.']",2,"Question: Une fente palatine bilatérale complète est due à une défaillance de la fusion des
+
+Choix: ['les processus palatins.', 'les processus palatins et frontonasaux.', 'les processus nasaux palatins, frontonasaux et secondaires.', 'les processus nasaux palatins, frontonasaux, secondaires et les processus mandibulaires.']
+
+Réponse: les processus nasaux palatins, frontonasaux et secondaires."
+Le tube auditif,anatomy,"['qui relie l'oreille interne et le nasopharynx.', 'est dérivé de la deuxième poche pharyngée.', 'est ouverte par l'action du levator veli palatini.', 'est fermé par l'action du tensor veli palatini.']",2,"Question: Le tube auditif
+
+Choix: ['qui relie l'oreille interne et le nasopharynx.', 'est dérivé de la deuxième poche pharyngée.', 'est ouverte par l'action du levator veli palatini.', 'est fermé par l'action du tensor veli palatini.']
+
+Réponse: est ouverte par l'action du levator veli palatini."
+Lequel des organes suivants est l'organe lymphoïde qui est un réservoir pour les globules rouges et filtre les organismes du sang?,anatomy,"['Nom de l'établissement', 'La vésicule biliaire', 'Pancréas', 'La rate']",3,"Question: Lequel des organes suivants est l'organe lymphoïde qui est un réservoir pour les globules rouges et filtre les organismes du sang?
+
+Choix: ['Nom de l'établissement', 'La vésicule biliaire', 'Pancréas', 'La rate']
+
+Réponse: La rate"
+Quelles des cavités suivantes sont séparées par le diaphragme ?,anatomy,"['Abdominaux et pelviens', 'Crâne et colonne vertébrale', 'Thoracique et abdominal', 'Péricardique et pleural']",2,"Question: Quelles des cavités suivantes sont séparées par le diaphragme ?
+
+Choix: ['Abdominaux et pelviens', 'Crâne et colonne vertébrale', 'Thoracique et abdominal', 'Péricardique et pleural']
+
+Réponse: Thoracique et abdominal"
+Les parois des bronchioles contiennent,anatomy,"['le cartilage, le muscle lisse et l'épithélium respiratoire.', 'le cartilage et les muscles lisses.', 'le cartilage et l'épithélium respiratoire.', 'le muscle lisse et l'épithélium respiratoire.']",3,"Question: Les parois des bronchioles contiennent
+
+Choix: ['le cartilage, le muscle lisse et l'épithélium respiratoire.', 'le cartilage et les muscles lisses.', 'le cartilage et l'épithélium respiratoire.', 'le muscle lisse et l'épithélium respiratoire.']
+
+Réponse: le muscle lisse et l'épithélium respiratoire."
+"Lequel des organes suivants élimine la bilirubine du sang, fabrique les protéines plasmatiques et est impliqué dans la production de prothrombine et de fibrinogène?",anatomy,"['La vésicule biliaire', 'Les reins', 'Foie', 'La rate']",2,"Question: Lequel des organes suivants élimine la bilirubine du sang, fabrique les protéines plasmatiques et est impliqué dans la production de prothrombine et de fibrinogène?
+
+Choix: ['La vésicule biliaire', 'Les reins', 'Foie', 'La rate']
+
+Réponse: Foie"
+Laquelle des conditions suivantes est caractérisée par l'incompétence du sphincter œsophagien ?,anatomy,"['Maladie de Crohn', 'Varices de l' œsophage', 'Maladie du reflux gastro-œsophagien', 'Sténose pylorique']",2,"Question: Laquelle des conditions suivantes est caractérisée par l'incompétence du sphincter œsophagien ?
+
+Choix: ['Maladie de Crohn', 'Varices de l' œsophage', 'Maladie du reflux gastro-œsophagien', 'Sténose pylorique']
+
+Réponse: Maladie du reflux gastro-œsophagien"
+Les muscles du palais mou sont innervés par des branches du,anatomy,"['les nerfs du trijumeau et du glossopharynx.', 'les nerfs faciaux et glossopharyngés.', 'le nerf trijumeau et le nerf vague.', 'les nerfs faciaux et le nerf vague.']",2,"Question: Les muscles du palais mou sont innervés par des branches du
+
+Choix: ['les nerfs du trijumeau et du glossopharynx.', 'les nerfs faciaux et glossopharyngés.', 'le nerf trijumeau et le nerf vague.', 'les nerfs faciaux et le nerf vague.']
+
+Réponse: le nerf trijumeau et le nerf vague."
+Lequel des os suivants est le gros os trouvé supérieur à la rotule et inférieur à l'ischium?,anatomy,"['Calcanéus', 'Le fémur', 'Symphyse pubienne', 'Le tibia']",1,"Question: Lequel des os suivants est le gros os trouvé supérieur à la rotule et inférieur à l'ischium?
+
+Choix: ['Calcanéus', 'Le fémur', 'Symphyse pubienne', 'Le tibia']
+
+Réponse: Le fémur"
+Un blocage réussi du nerf alvéolaire inférieur produira l'anesthésie du nerf alvéolaire inférieur.,anatomy,"['la lèvre inférieure.', 'la lèvre inférieure et les dents mandibulaires.', 'la lèvre inférieure, les dents mandibulaires et les gencives labiales des dents mandibulaires antérieures.', 'la lèvre inférieure, les dents mandibulaires et les gencives labiales des dents mandibulaires antérieures et des gencives buccales des dents mandibulaires postérieures.']",2,"Question: Un blocage réussi du nerf alvéolaire inférieur produira l'anesthésie du nerf alvéolaire inférieur.
+
+Choix: ['la lèvre inférieure.', 'la lèvre inférieure et les dents mandibulaires.', 'la lèvre inférieure, les dents mandibulaires et les gencives labiales des dents mandibulaires antérieures.', 'la lèvre inférieure, les dents mandibulaires et les gencives labiales des dents mandibulaires antérieures et des gencives buccales des dents mandibulaires postérieures.']
+
+Réponse: la lèvre inférieure, les dents mandibulaires et les gencives labiales des dents mandibulaires antérieures."
+La muqueuse du larynx supérieur est innervée par le,anatomy,"['le nerf laryngé interne qui est le membre afférent du réflexe de toux.', 'le nerf laryngé externe qui est le membre afférent du réflexe de nausée.', 'le nerf laryngé interne qui est le membre afférent du réflexe de nausée.', 'le nerf laryngé externe qui est le membre afférent du réflexe de toux.']",0,"Question: La muqueuse du larynx supérieur est innervée par le
+
+Choix: ['le nerf laryngé interne qui est le membre afférent du réflexe de toux.', 'le nerf laryngé externe qui est le membre afférent du réflexe de nausée.', 'le nerf laryngé interne qui est le membre afférent du réflexe de nausée.', 'le nerf laryngé externe qui est le membre afférent du réflexe de toux.']
+
+Réponse: le nerf laryngé interne qui est le membre afférent du réflexe de toux."
+Les os du viscérocrâne se développent initialement par,anatomy,"['l' ossification endochondrale et suivent le schéma de croissance somatique.', 'l' ossification endochondrale et suivent le modèle de croissance neuronale.', 'l'ossification intramembranaire et suivent le schéma de croissance somatique.', 'l' ossification intramembranaire et suivent le modèle de croissance neuronale.']",2,"Question: Les os du viscérocrâne se développent initialement par
+
+Choix: ['l' ossification endochondrale et suivent le schéma de croissance somatique.', 'l' ossification endochondrale et suivent le modèle de croissance neuronale.', 'l'ossification intramembranaire et suivent le schéma de croissance somatique.', 'l' ossification intramembranaire et suivent le modèle de croissance neuronale.']
+
+Réponse: l'ossification intramembranaire et suivent le schéma de croissance somatique."
+Le médecin demande à l'assistante médicale de remplir un formulaire pour une radiographie du fibula.,anatomy,"['Le talon', 'La partie inférieure de la jambe', 'Les orteils', 'La cuisse']",1,"Question: Le médecin demande à l'assistante médicale de remplir un formulaire pour une radiographie du fibula.
+
+Choix: ['Le talon', 'La partie inférieure de la jambe', 'Les orteils', 'La cuisse']
+
+Réponse: La partie inférieure de la jambe"
+Quelles cellules du sang n'ont pas de noyau ?,anatomy,"['Lymphocyte', 'Monocyte', 'Érythrocytes', 'Basophile']",2,"Question: Quelles cellules du sang n'ont pas de noyau ?
+
+Choix: ['Lymphocyte', 'Monocyte', 'Érythrocytes', 'Basophile']
+
+Réponse: Érythrocytes"
+La suture coronaire rejoint le,anatomy,"['les os frontaux et pariétaux.', 'les os pariétaux gauche et droit.', 'les os pariétaux et occipitaux.', 'le pariétal, le squame temporal et l'aile supérieure du sphénoïde.']",0,"Question: La suture coronaire rejoint le
+
+Choix: ['les os frontaux et pariétaux.', 'les os pariétaux gauche et droit.', 'les os pariétaux et occipitaux.', 'le pariétal, le squame temporal et l'aile supérieure du sphénoïde.']
+
+Réponse: les os frontaux et pariétaux."
+"Si vous passez votre doigt sur la ligne médiane antérieure du cou allongé d'un patient du menton à l'encoche du sternum, vous devriez pouvoir palper, afin,",anatomy,"['L'os hyoïde, le cartilage cricoïde, le cartilage thyroïdien.', 'le cartilage thyroïdien, le cartilage cricoïde, l'os hyoïde.', 'L'os hyoïde, le cartilage thyroïdien, le cartilage cricoïde.', 'le cartilage thyroïdien, l'os hyoïde, le cartilage cricoïde.']",2,"Question: Si vous passez votre doigt sur la ligne médiane antérieure du cou allongé d'un patient du menton à l'encoche du sternum, vous devriez pouvoir palper, afin,
+
+Choix: ['L'os hyoïde, le cartilage cricoïde, le cartilage thyroïdien.', 'le cartilage thyroïdien, le cartilage cricoïde, l'os hyoïde.', 'L'os hyoïde, le cartilage thyroïdien, le cartilage cricoïde.', 'le cartilage thyroïdien, l'os hyoïde, le cartilage cricoïde.']
+
+Réponse: L'os hyoïde, le cartilage thyroïdien, le cartilage cricoïde."
+Laquelle des structures osseuses suivantes peut être palpée chez un patient vivant?,anatomy,"['Le foramen supraorbital', 'Le foramen infraorbital', 'Le foramen mental', 'Tout ce qui précède']",3,"Question: Laquelle des structures osseuses suivantes peut être palpée chez un patient vivant?
+
+Choix: ['Le foramen supraorbital', 'Le foramen infraorbital', 'Le foramen mental', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+Laquelle des structures suivantes accompagne l'œsophage à travers le diaphragme?,anatomy,"['Les nerfs phréniques', 'Les nerfs splanchniques', 'Les troncs sympathiques', 'Le nerf vague']",3,"Question: Laquelle des structures suivantes accompagne l'œsophage à travers le diaphragme?
+
+Choix: ['Les nerfs phréniques', 'Les nerfs splanchniques', 'Les troncs sympathiques', 'Le nerf vague']
+
+Réponse: Le nerf vague"
+Quelle séquence décrit la circulation systémique ?,anatomy,"['Le ventricule gauche → l'aorte → les artères → les veines → les capillaires', 'Le ventricule gauche → l'aorte → les artères → les capillaires → les veines', 'Le ventricule droit → le tronc pulmonaire → les artères → les capillaires → les veines', 'Le ventricule droit → le tronc pulmonaire → les artères → les veines → les capillaires']",1,"Question: Quelle séquence décrit la circulation systémique ?
+
+Choix: ['Le ventricule gauche → l'aorte → les artères → les veines → les capillaires', 'Le ventricule gauche → l'aorte → les artères → les capillaires → les veines', 'Le ventricule droit → le tronc pulmonaire → les artères → les capillaires → les veines', 'Le ventricule droit → le tronc pulmonaire → les artères → les veines → les capillaires']
+
+Réponse: Le ventricule gauche → l'aorte → les artères → les capillaires → les veines"
+L'emplacement anatomique du canal rachidien est,anatomy,"['de la queue', 'dorsal', 'à l'avant', 'coupe transversale']",1,"Question: L'emplacement anatomique du canal rachidien est
+
+Choix: ['de la queue', 'dorsal', 'à l'avant', 'coupe transversale']
+
+Réponse: dorsal"
+Le conduit parotide fonctionne,anatomy,"['profonde au masseter et pénètre dans la bouche en face de la deuxième molaire supérieure.', 'superficielle au masseter et pénètre dans la bouche en face de la deuxième molaire supérieure.', 'profonde au masseter et pénètre dans la bouche en face du deuxième prémolaire supérieur.', 'superficielle au masseter et pénètre dans la bouche en face de la deuxième prémolaire supérieure.']",1,"Question: Le conduit parotide fonctionne
+
+Choix: ['profonde au masseter et pénètre dans la bouche en face de la deuxième molaire supérieure.', 'superficielle au masseter et pénètre dans la bouche en face de la deuxième molaire supérieure.', 'profonde au masseter et pénètre dans la bouche en face du deuxième prémolaire supérieur.', 'superficielle au masseter et pénètre dans la bouche en face de la deuxième prémolaire supérieure.']
+
+Réponse: superficielle au masseter et pénètre dans la bouche en face de la deuxième molaire supérieure."
+"Si le pied est enlevé, dans quelle direction est-il déplacé ?",anatomy,"['À l'intérieur', 'À l'extérieur', 'vers le haut', 'Vers le bas']",3,"Question: Si le pied est enlevé, dans quelle direction est-il déplacé ?
+
+Choix: ['À l'intérieur', 'À l'extérieur', 'vers le haut', 'Vers le bas']
+
+Réponse: Vers le bas"
+Le nerf infraorbital,anatomy,"['est une branche terminale de la division maxillaire du nerf trijumeau.', 'est une branche terminale de la branche maxillaire du nerf facial.', 'porte des neurones parasympathiques sécréto-moteurs à la glande lacrimale.', 'innerve la partie inférieure du muscle orbicularis oculi.']",0,"Question: Le nerf infraorbital
+
+Choix: ['est une branche terminale de la division maxillaire du nerf trijumeau.', 'est une branche terminale de la branche maxillaire du nerf facial.', 'porte des neurones parasympathiques sécréto-moteurs à la glande lacrimale.', 'innerve la partie inférieure du muscle orbicularis oculi.']
+
+Réponse: est une branche terminale de la division maxillaire du nerf trijumeau."
+Laquelle des expressions suivantes décrit le mieux le processus par lequel les muscles de l'estomac se contractent pour faire passer la nourriture dans l'appareil digestif?,anatomy,"['Absorption', 'Émulsion', 'Le péristaltisme', 'Régurgitation']",2,"Question: Laquelle des expressions suivantes décrit le mieux le processus par lequel les muscles de l'estomac se contractent pour faire passer la nourriture dans l'appareil digestif?
+
+Choix: ['Absorption', 'Émulsion', 'Le péristaltisme', 'Régurgitation']
+
+Réponse: Le péristaltisme"
+Quel est le point où une impulsion est transmise d'un neurone à un autre ?,anatomy,"['Dendrite', 'Cellule gliale', 'Centre nerveux', 'Synapse']",3,"Question: Quel est le point où une impulsion est transmise d'un neurone à un autre ?
+
+Choix: ['Dendrite', 'Cellule gliale', 'Centre nerveux', 'Synapse']
+
+Réponse: Synapse"
+Lequel des muscles suivants déclenche l'élévation de la mandibule ?,anatomy,"['Le masseter', 'Temporalis', 'Pterygoïde latérale', 'Le pterygoïde médian.']",3,"Question: Lequel des muscles suivants déclenche l'élévation de la mandibule ?
+
+Choix: ['Le masseter', 'Temporalis', 'Pterygoïde latérale', 'Le pterygoïde médian.']
+
+Réponse: Le pterygoïde médian."
+Lequel des organes suivants est un organe accessoire du système gastro-intestinal qui est responsable de la sécrétion d'insuline?,anatomy,"['Glande surrénale', 'La vésicule biliaire', 'Foie', 'Pancréas']",3,"Question: Lequel des organes suivants est un organe accessoire du système gastro-intestinal qui est responsable de la sécrétion d'insuline?
+
+Choix: ['Glande surrénale', 'La vésicule biliaire', 'Foie', 'Pancréas']
+
+Réponse: Pancréas"
+Une tumeur maligne endommage le nerf glossopharyngée du patient.,anatomy,"['perte du goût sur les deux tiers antérieurs de la langue.', 'perte de sensation somatique sur les deux tiers antérieurs de la langue.', 'perte du goût et de la sensation somatique sur le tiers postérieur de la langue.', 'paralysie des muscles de la langue.']",2,"Question: Une tumeur maligne endommage le nerf glossopharyngée du patient.
+
+Choix: ['perte du goût sur les deux tiers antérieurs de la langue.', 'perte de sensation somatique sur les deux tiers antérieurs de la langue.', 'perte du goût et de la sensation somatique sur le tiers postérieur de la langue.', 'paralysie des muscles de la langue.']
+
+Réponse: perte du goût et de la sensation somatique sur le tiers postérieur de la langue."
+Un effet possible d'une lésion du troisième nerf crânien par un traumatisme à l'orbite est,anatomy,"['un strabisme convergent.', 'une ptosis.', 'une contraction pupillaire.', 'une hémianopie bitemporale.']",1,"Question: Un effet possible d'une lésion du troisième nerf crânien par un traumatisme à l'orbite est
+
+Choix: ['un strabisme convergent.', 'une ptosis.', 'une contraction pupillaire.', 'une hémianopie bitemporale.']
+
+Réponse: une ptosis."
+Le sang coule du ventricule droit du cœur vers laquelle des structures suivantes ?,anatomy,"['Veine caverneuse inférieure', 'Ventricule gauche', 'Les artères pulmonaires', 'Veines pulmonaires']",2,"Question: Le sang coule du ventricule droit du cœur vers laquelle des structures suivantes ?
+
+Choix: ['Veine caverneuse inférieure', 'Ventricule gauche', 'Les artères pulmonaires', 'Veines pulmonaires']
+
+Réponse: Les artères pulmonaires"
+"Un patient est poignardé dans le cou, vous soupçonnez une lésion du nerf accessoire dans le triangle postérieur, vous testez la fonction nerveuse en demandant au patient",anatomy,"['étendre leur cou contre la résistance.', 'étirer leur cou sans altération.', 'soulever leurs épaules contre la résistance.', 'soulever les épaules sans altération.']",2,"Question: Un patient est poignardé dans le cou, vous soupçonnez une lésion du nerf accessoire dans le triangle postérieur, vous testez la fonction nerveuse en demandant au patient
+
+Choix: ['étendre leur cou contre la résistance.', 'étirer leur cou sans altération.', 'soulever leurs épaules contre la résistance.', 'soulever les épaules sans altération.']
+
+Réponse: soulever leurs épaules contre la résistance."
+Lequel des muscles suivants est dérivé du premier arc brachial ?,anatomy,"['Les muscles de la mastication', 'Les muscles de la mastication et le ventre antérieur du digastrique', 'Les muscles de la mastication et les ventres antérieurs et postérieurs du digastrique', 'Les muscles de la mastication, les abdominaux antérieurs et postérieurs du digastrique et du génohyoïde']",1,"Question: Lequel des muscles suivants est dérivé du premier arc brachial ?
+
+Choix: ['Les muscles de la mastication', 'Les muscles de la mastication et le ventre antérieur du digastrique', 'Les muscles de la mastication et les ventres antérieurs et postérieurs du digastrique', 'Les muscles de la mastication, les abdominaux antérieurs et postérieurs du digastrique et du génohyoïde']
+
+Réponse: Les muscles de la mastication et le ventre antérieur du digastrique"
+Laquelle des expressions suivantes décrit le mieux l'endroit où se trouve l'impulsion carotide ?,anatomy,"['Devant les oreilles et juste au-dessus du niveau des yeux', 'Dans l' espace antecubital', 'Au milieu de l'aine', 'Sur le côté antérieur du cou']",3,"Question: Laquelle des expressions suivantes décrit le mieux l'endroit où se trouve l'impulsion carotide ?
+
+Choix: ['Devant les oreilles et juste au-dessus du niveau des yeux', 'Dans l' espace antecubital', 'Au milieu de l'aine', 'Sur le côté antérieur du cou']
+
+Réponse: Sur le côté antérieur du cou"
+"Dans le tronc cérébral, des voies pour:",anatomy,"['nociception décussée dans le lemnisque médial', 'Des mouvements habiles décussent dans le lemnisque médial.', 'Des mouvements motrices habiles décussent dans les pyramides.', 'Le toucher discriminatoire décussé dans les pyramides.']",2,"Question: Dans le tronc cérébral, des voies pour:
+
+Choix: ['nociception décussée dans le lemnisque médial', 'Des mouvements habiles décussent dans le lemnisque médial.', 'Des mouvements motrices habiles décussent dans les pyramides.', 'Le toucher discriminatoire décussé dans les pyramides.']
+
+Réponse: Des mouvements motrices habiles décussent dans les pyramides."
+Les voies respiratoires sont traversées par l'isthme de la glande thyroïde au niveau de la,anatomy,"['le cartilage de la thyroïde.', 'membrane cricothyroïdienne.', 'le cartilage cricoïde.', 'les anneaux de la trachée.']",3,"Question: Les voies respiratoires sont traversées par l'isthme de la glande thyroïde au niveau de la
+
+Choix: ['le cartilage de la thyroïde.', 'membrane cricothyroïdienne.', 'le cartilage cricoïde.', 'les anneaux de la trachée.']
+
+Réponse: les anneaux de la trachée."
+Vous remarquez une lésion sur la muqueuse alvéolaire labiale de la dent incisive latérale inférieure droite d'un de vos patients et décidez de faire une biopsie pour l'envoyer au rapport de pathologie buccale Quel nerf nécessiterait une anesthésie locale pour effectuer une biopsie sans douleur ?,anatomy,"['Le nerf incisif', 'Le nerf mental', 'Le nerf buccal', 'Le nerf lingual']",1,"Question: Vous remarquez une lésion sur la muqueuse alvéolaire labiale de la dent incisive latérale inférieure droite d'un de vos patients et décidez de faire une biopsie pour l'envoyer au rapport de pathologie buccale Quel nerf nécessiterait une anesthésie locale pour effectuer une biopsie sans douleur ?
+
+Choix: ['Le nerf incisif', 'Le nerf mental', 'Le nerf buccal', 'Le nerf lingual']
+
+Réponse: Le nerf mental"
+Les principales concentrations de récepteurs proprioceptifs fournissant des informations sur la position de l'ATM sont situées dans,anatomy,"['la capsule et les ligaments de l'ATM et du muscle pterygoïde médian.', 'la capsule et les ligaments de l'ATM et du muscle pterygoïde latéral.', 'le disque articulaire de l'ATM et le muscle pterygoïde médian.', 'le disque articulaire de l'ATM et le muscle pterygoïde latéral.']",1,"Question: Les principales concentrations de récepteurs proprioceptifs fournissant des informations sur la position de l'ATM sont situées dans
+
+Choix: ['la capsule et les ligaments de l'ATM et du muscle pterygoïde médian.', 'la capsule et les ligaments de l'ATM et du muscle pterygoïde latéral.', 'le disque articulaire de l'ATM et le muscle pterygoïde médian.', 'le disque articulaire de l'ATM et le muscle pterygoïde latéral.']
+
+Réponse: la capsule et les ligaments de l'ATM et du muscle pterygoïde latéral."
+Laquelle des substances suivantes contribue à la transmission des impulsions nerveuses aux muscles?,anatomy,"['Acétylcholine', 'Cholecystokinine', 'Désoxyribose', 'Oxytocine']",0,"Question: Laquelle des substances suivantes contribue à la transmission des impulsions nerveuses aux muscles?
+
+Choix: ['Acétylcholine', 'Cholecystokinine', 'Désoxyribose', 'Oxytocine']
+
+Réponse: Acétylcholine"
+"Dans la moelle épinière, les corps cellulaires des neurones moteurs sont situés dans",anatomy,"['Nom de famille: Lamina I.', 'Une lamine II.', 'La lamine V.', 'Lamine IX']",3,"Question: Dans la moelle épinière, les corps cellulaires des neurones moteurs sont situés dans
+
+Choix: ['Nom de famille: Lamina I.', 'Une lamine II.', 'La lamine V.', 'Lamine IX']
+
+Réponse: Lamine IX"
+"Lorsque vous examinez un patient qui a subi une fracture défavorable du corps de la mandibule, vous",anatomy,"['le fragment antérieur doit être déplacé vers le bas par l'action du muscle digastrique.', 'le fragment postérieur doit être déplacé antérieurement par l'action du muscle pterygoïde latéral.', 'le fragment antérieur doit être déplacé vers l'arrière par l'action du muscle temporalis.', 'le fragment postérieur doit être déplacé médially par l'action du muscle pterygoïde médial.']",0,"Question: Lorsque vous examinez un patient qui a subi une fracture défavorable du corps de la mandibule, vous
+
+Choix: ['le fragment antérieur doit être déplacé vers le bas par l'action du muscle digastrique.', 'le fragment postérieur doit être déplacé antérieurement par l'action du muscle pterygoïde latéral.', 'le fragment antérieur doit être déplacé vers l'arrière par l'action du muscle temporalis.', 'le fragment postérieur doit être déplacé médially par l'action du muscle pterygoïde médial.']
+
+Réponse: le fragment antérieur doit être déplacé vers le bas par l'action du muscle digastrique."
+L'examen d'un patient indique qu'il présente un strabisme dirigé vers le milieu (squint).,anatomy,"['le nerf oculomotor.', 'le nerf trochléaire.', 'le nerf trijumeau ophtalmique.', 'le nerf abducens.']",3,"Question: L'examen d'un patient indique qu'il présente un strabisme dirigé vers le milieu (squint).
+
+Choix: ['le nerf oculomotor.', 'le nerf trochléaire.', 'le nerf trijumeau ophtalmique.', 'le nerf abducens.']
+
+Réponse: le nerf abducens."
+"Un patient se coupe un nerf moteur périphérique au poignet en tombant d'une vitre. Si le nerf ne se régénère pas, après environ 6 mois, les muscles qu'il innerve normalement montreront des signes de laquelle des quatre options ci-dessous?",anatomy,"['paralysie spastique', 'paralysie flasque', 'atrophie', 'contracture']",2,"Question: Un patient se coupe un nerf moteur périphérique au poignet en tombant d'une vitre. Si le nerf ne se régénère pas, après environ 6 mois, les muscles qu'il innerve normalement montreront des signes de laquelle des quatre options ci-dessous?
+
+Choix: ['paralysie spastique', 'paralysie flasque', 'atrophie', 'contracture']
+
+Réponse: atrophie"
+Un patient souffre d'un AVC dans la région de la capsule interne gauche transportant les neurones moteurs vers la jambe droite.,anatomy,"['une paralysie spastique.', 'une paralysie flasque.', 'Des tremblements.', 'hyporéflexion.']",0,"Question: Un patient souffre d'un AVC dans la région de la capsule interne gauche transportant les neurones moteurs vers la jambe droite.
+
+Choix: ['une paralysie spastique.', 'une paralysie flasque.', 'Des tremblements.', 'hyporéflexion.']
+
+Réponse: une paralysie spastique."
+La couronne d'une dent très cariée se fracture soudainement pendant que le patient mange debout dans un restaurant à emporter et qu'un fragment est inhalé.,anatomy,"['le poumon droit parce que le bronche principal droit est plus large et plus vertical que le gauche.', 'le poumon gauche parce que le bronche gauche est plus large et plus vertical que le droit.', 'le poumon droit ou le poumon gauche parce que les deux bronches principales ont la même taille et la même angulation.', 'le poumon droit ou gauche parce qu'il n'y a pas de facteurs prédisposant le fragment à aller dans une direction particulière.']",0,"Question: La couronne d'une dent très cariée se fracture soudainement pendant que le patient mange debout dans un restaurant à emporter et qu'un fragment est inhalé.
+
+Choix: ['le poumon droit parce que le bronche principal droit est plus large et plus vertical que le gauche.', 'le poumon gauche parce que le bronche gauche est plus large et plus vertical que le droit.', 'le poumon droit ou le poumon gauche parce que les deux bronches principales ont la même taille et la même angulation.', 'le poumon droit ou gauche parce qu'il n'y a pas de facteurs prédisposant le fragment à aller dans une direction particulière.']
+
+Réponse: le poumon droit parce que le bronche principal droit est plus large et plus vertical que le gauche."
+"Le calcium, le potassium et le sodium sont classés dans lequel des éléments suivants?",anatomy,"['Les androgènes', 'Catecholamines et leurs dérivés', 'Électrolytes', 'Les œstrogènes']",2,"Question: Le calcium, le potassium et le sodium sont classés dans lequel des éléments suivants?
+
+Choix: ['Les androgènes', 'Catecholamines et leurs dérivés', 'Électrolytes', 'Les œstrogènes']
+
+Réponse: Électrolytes"
+La noradrénaline est le neurotransmetteur entre laquelle des deux structures ci-dessous ?,anatomy,"['neurones pré- et post-ganglionnaires parasympathiques', 'neurones sympathiques pré- et post-ganglionnaires', 'neurones post-ganglionnaires parasympathiques et organes cibles', 'neurones post-ganglionnaires sympathiques et organes cibles']",3,"Question: La noradrénaline est le neurotransmetteur entre laquelle des deux structures ci-dessous ?
+
+Choix: ['neurones pré- et post-ganglionnaires parasympathiques', 'neurones sympathiques pré- et post-ganglionnaires', 'neurones post-ganglionnaires parasympathiques et organes cibles', 'neurones post-ganglionnaires sympathiques et organes cibles']
+
+Réponse: neurones post-ganglionnaires sympathiques et organes cibles"
+Quelles sont les glandes productrices de mucus situées de chaque côté de l'ouverture vaginale?,anatomy,"['Insuffisance cardiaque', 'Le Bartholin', 'Résistance à l'humidité', 'Le corps jaune']",1,"Question: Quelles sont les glandes productrices de mucus situées de chaque côté de l'ouverture vaginale?
+
+Choix: ['Insuffisance cardiaque', 'Le Bartholin', 'Résistance à l'humidité', 'Le corps jaune']
+
+Réponse: Le Bartholin"
+"Lorsqu'une ouverture d'urgence des voies respiratoires est nécessaire, la membrane cricothyroïdienne doit être percée immédiatement.",anatomy,"['est supérieure au cartilage thyroïdien.', 'inférieure au cartilage thyroïdien.', 'inférieure au cartilage cricoïde.', 'est supérieure à l'isthme thyroïdien.']",1,"Question: Lorsqu'une ouverture d'urgence des voies respiratoires est nécessaire, la membrane cricothyroïdienne doit être percée immédiatement.
+
+Choix: ['est supérieure au cartilage thyroïdien.', 'inférieure au cartilage thyroïdien.', 'inférieure au cartilage cricoïde.', 'est supérieure à l'isthme thyroïdien.']
+
+Réponse: inférieure au cartilage thyroïdien."
+Le liquide céphalo-rachidien circule autour du cerveau entre les,anatomy,"['crâne et du dura mater.', 'la membrane dure et la membrane arachnoïde.', 'Les arachnoïdes et les pia-mères.', 'la pia mater et la surface du cerveau.']",2,"Question: Le liquide céphalo-rachidien circule autour du cerveau entre les
+
+Choix: ['crâne et du dura mater.', 'la membrane dure et la membrane arachnoïde.', 'Les arachnoïdes et les pia-mères.', 'la pia mater et la surface du cerveau.']
+
+Réponse: Les arachnoïdes et les pia-mères."
+Lequel des éléments suivants ferme et scelle les voies respiratoires inférieures lors de la déglutition?,anatomy,"['Alvéoles', 'L'épiglotte', 'Le larynx', 'Nom de l'organisme']",1,"Question: Lequel des éléments suivants ferme et scelle les voies respiratoires inférieures lors de la déglutition?
+
+Choix: ['Alvéoles', 'L'épiglotte', 'Le larynx', 'Nom de l'organisme']
+
+Réponse: L'épiglotte"
+Quelle paroi orbitale est le plus susceptible de s'effondrer lors d'une fracture ?,anatomy,"['Le toit .', 'Le plancher', 'La paroi latérale', 'La paroi médiane']",1,"Question: Quelle paroi orbitale est le plus susceptible de s'effondrer lors d'une fracture ?
+
+Choix: ['Le toit .', 'Le plancher', 'La paroi latérale', 'La paroi médiane']
+
+Réponse: Le plancher"
+Les parois du sinus maxillaire sont sinus est lié à,anatomy,"['le plancher de l'orbite.', 'le plancher de l'orbite et les dents postérieures supérieures.', 'le plancher de l'orbite, les dents postérieures supérieures et la fosse infratemporale.', 'le plancher de l'orbite, les dents postérieures supérieures, la fosse infratemporale et le palais dur.']",2,"Question: Les parois du sinus maxillaire sont sinus est lié à
+
+Choix: ['le plancher de l'orbite.', 'le plancher de l'orbite et les dents postérieures supérieures.', 'le plancher de l'orbite, les dents postérieures supérieures et la fosse infratemporale.', 'le plancher de l'orbite, les dents postérieures supérieures, la fosse infratemporale et le palais dur.']
+
+Réponse: le plancher de l'orbite, les dents postérieures supérieures et la fosse infratemporale."
+Laquelle des affirmations suivantes concernant la croissance postnatale du maxillaire est correcte?,anatomy,"['La pneumatisation par agrandissement du sinus maxillaire en développement cesse à la puberté', 'L'espace est créé pour l'éruption des molaires permanentes par résorption de la tuberosité maxillaire.', 'Les sutures zygomaticomaxillaires contribuent à l'augmentation de la hauteur et de la longueur du maxillaire', 'La suture intermaxillary se ferme environ huit ans après la naissance']",2,"Question: Laquelle des affirmations suivantes concernant la croissance postnatale du maxillaire est correcte?
+
+Choix: ['La pneumatisation par agrandissement du sinus maxillaire en développement cesse à la puberté', 'L'espace est créé pour l'éruption des molaires permanentes par résorption de la tuberosité maxillaire.', 'Les sutures zygomaticomaxillaires contribuent à l'augmentation de la hauteur et de la longueur du maxillaire', 'La suture intermaxillary se ferme environ huit ans après la naissance']
+
+Réponse: Les sutures zygomaticomaxillaires contribuent à l'augmentation de la hauteur et de la longueur du maxillaire"
+Le septième nerf crânien fournit,anatomy,"['les papilles gustatives sur le tiers postérieur de la langue.', 'les muscles du palais mou.', 'muscles de la lèvre inférieure.', 'la glande salivaire parotide.']",2,"Question: Le septième nerf crânien fournit
+
+Choix: ['les papilles gustatives sur le tiers postérieur de la langue.', 'les muscles du palais mou.', 'muscles de la lèvre inférieure.', 'la glande salivaire parotide.']
+
+Réponse: muscles de la lèvre inférieure."
+Lequel des sinus paranasaux suivants s'ouvre dans le méatus moyen ?,anatomy,"['Les sinus ethmoïdaux antérieurs', 'Les sinus ethmoïdaux antérieurs et frontaux', 'Les sinus ethmoïdal, frontal et maxillaire antérieurs', 'Les sinus ethmoïdal, frontal, maxillaire et sphénoïdal antérieurs']",2,"Question: Lequel des sinus paranasaux suivants s'ouvre dans le méatus moyen ?
+
+Choix: ['Les sinus ethmoïdaux antérieurs', 'Les sinus ethmoïdaux antérieurs et frontaux', 'Les sinus ethmoïdal, frontal et maxillaire antérieurs', 'Les sinus ethmoïdal, frontal, maxillaire et sphénoïdal antérieurs']
+
+Réponse: Les sinus ethmoïdal, frontal et maxillaire antérieurs"
+Lequel des éléments suivants est une protéine structurelle fibreuse présente dans le derme ?,anatomy,"['Le collagène', 'Héparine', 'Lipocyte', 'La mélanine']",0,"Question: Lequel des éléments suivants est une protéine structurelle fibreuse présente dans le derme ?
+
+Choix: ['Le collagène', 'Héparine', 'Lipocyte', 'La mélanine']
+
+Réponse: Le collagène"
+L'élévation du plateau palatin est due à l'effet de,anatomy,"['la descente de la langue.', 'changements dans la flexion du cerveau en développement.', 'molécules hydrophiles augmentant la pression de turgor dans les plateaux palatins.', 'une combinaison de ces trois procédés.']",3,"Question: L'élévation du plateau palatin est due à l'effet de
+
+Choix: ['la descente de la langue.', 'changements dans la flexion du cerveau en développement.', 'molécules hydrophiles augmentant la pression de turgor dans les plateaux palatins.', 'une combinaison de ces trois procédés.']
+
+Réponse: une combinaison de ces trois procédés."
+Sur quelles surfaces des dents la plaque dentaire est- elle le plus susceptible de s'accumuler dans la bouche d'un patient dont l'hygiène buccale est médiocre?,anatomy,"['Les surfaces palatines des molaires supérieures et les surfaces lingual des incisives inférieures.', 'Les surfaces buccales des molaires supérieures et les surfaces lingual des incisives inférieures.', 'Les surfaces palatines des molaires supérieures et les surfaces labiales des incisives inférieures.', 'Les surfaces buccales des molaires supérieures et les surfaces labiales des incisives inférieures.']",1,"Question: Sur quelles surfaces des dents la plaque dentaire est- elle le plus susceptible de s'accumuler dans la bouche d'un patient dont l'hygiène buccale est médiocre?
+
+Choix: ['Les surfaces palatines des molaires supérieures et les surfaces lingual des incisives inférieures.', 'Les surfaces buccales des molaires supérieures et les surfaces lingual des incisives inférieures.', 'Les surfaces palatines des molaires supérieures et les surfaces labiales des incisives inférieures.', 'Les surfaces buccales des molaires supérieures et les surfaces labiales des incisives inférieures.']
+
+Réponse: Les surfaces buccales des molaires supérieures et les surfaces lingual des incisives inférieures."
+L'œdème du larynx est généralement confiné au larynx au-dessus des plis vocaux parce que,anatomy,"['Il y a de nombreuses glandes muqueuses dans les plis vestibulaires.', 'la muqueuse recouvrant les cordes vocales est étroitement attachée aux tissus sous-jacents.', 'le liquide va s'écouler rapidement dans le thorax en dessous des cordes vocales.', 'la muqueuse située au-dessus des cordes vocales est plus vasculaire que celle située en dessous des cordes vocales.']",1,"Question: L'œdème du larynx est généralement confiné au larynx au-dessus des plis vocaux parce que
+
+Choix: ['Il y a de nombreuses glandes muqueuses dans les plis vestibulaires.', 'la muqueuse recouvrant les cordes vocales est étroitement attachée aux tissus sous-jacents.', 'le liquide va s'écouler rapidement dans le thorax en dessous des cordes vocales.', 'la muqueuse située au-dessus des cordes vocales est plus vasculaire que celle située en dessous des cordes vocales.']
+
+Réponse: la muqueuse recouvrant les cordes vocales est étroitement attachée aux tissus sous-jacents."
+Les artères coronaires,anatomy,"['émergent de l'arche de l'aorte et se remplissent pendant la diastole.', 'proviennent de l'aorte ascendante et se remplissent pendant la systole.', 'émergent de l'arche de l'aorte et se remplissent pendant la systole.', 'proviennent de l'aorte ascendante et se remplissent pendant la diastole.']",3,"Question: Les artères coronaires
+
+Choix: ['émergent de l'arche de l'aorte et se remplissent pendant la diastole.', 'proviennent de l'aorte ascendante et se remplissent pendant la systole.', 'émergent de l'arche de l'aorte et se remplissent pendant la systole.', 'proviennent de l'aorte ascendante et se remplissent pendant la diastole.']
+
+Réponse: proviennent de l'aorte ascendante et se remplissent pendant la diastole."
+Quel muscle est le plus actif lors d'une excursion latérale droite de la mandibule ?,anatomy,"['Le muscle pterygoïde latéral gauche', 'Le muscle pterygoïde latéral droit', 'Le muscle pterygoïde médian gauche', 'Le muscle pterygoïde médian droit']",0,"Question: Quel muscle est le plus actif lors d'une excursion latérale droite de la mandibule ?
+
+Choix: ['Le muscle pterygoïde latéral gauche', 'Le muscle pterygoïde latéral droit', 'Le muscle pterygoïde médian gauche', 'Le muscle pterygoïde médian droit']
+
+Réponse: Le muscle pterygoïde latéral gauche"
+Les nerfs phréniques innervent le,anatomy,"['le diaphragme.', 'le diaphragme et la plèvre pariétale.', 'le diaphragme, la plèvre pariétale et le péricarde.', 'le diaphragme, la plèvre pariétale, le péricarde et les muscles intercostaux.']",2,"Question: Les nerfs phréniques innervent le
+
+Choix: ['le diaphragme.', 'le diaphragme et la plèvre pariétale.', 'le diaphragme, la plèvre pariétale et le péricarde.', 'le diaphragme, la plèvre pariétale, le péricarde et les muscles intercostaux.']
+
+Réponse: le diaphragme, la plèvre pariétale et le péricarde."
+Les nerfs préganglionnaires parasympathiques quittent le système nerveux central avec le,anatomy,"['troisième nerf crânien.', 'quatrième nerf crânien.', 'cinq nerfs crâniens.', 'le sixième nerf crânien.']",0,"Question: Les nerfs préganglionnaires parasympathiques quittent le système nerveux central avec le
+
+Choix: ['troisième nerf crânien.', 'quatrième nerf crânien.', 'cinq nerfs crâniens.', 'le sixième nerf crânien.']
+
+Réponse: troisième nerf crânien."
+"Chez un patient ayant une bouche normale et saine, on s'attendrait à ce que la muqueuse recouvrant le processus alvéolaire soutenant les dents mandibulaires soit",anatomy,"['de couleur rose clair des deux côtés de la jonction mucogingigival.', 'rose pâle au-dessous de la jonction mucogingivale et rouge au-dessus.', 'rouge au-dessous de la jonction mucogingivale et rose pâle au-dessus.', 'rouge des deux côtés de la jonction mucogingival.']",2,"Question: Chez un patient ayant une bouche normale et saine, on s'attendrait à ce que la muqueuse recouvrant le processus alvéolaire soutenant les dents mandibulaires soit
+
+Choix: ['de couleur rose clair des deux côtés de la jonction mucogingigival.', 'rose pâle au-dessous de la jonction mucogingivale et rouge au-dessus.', 'rouge au-dessous de la jonction mucogingivale et rose pâle au-dessus.', 'rouge des deux côtés de la jonction mucogingival.']
+
+Réponse: rouge au-dessous de la jonction mucogingivale et rose pâle au-dessus."
+La macrostomie résulte de l'échec de la fusion de,anatomy,"['les processus maxillaires et mandibulaires.', 'processus mandibulaires gauche et droit.', 'les processus maxillaires et frontonasaux.', 'les arcs mandibulaire et hyoïde.']",0,"Question: La macrostomie résulte de l'échec de la fusion de
+
+Choix: ['les processus maxillaires et mandibulaires.', 'processus mandibulaires gauche et droit.', 'les processus maxillaires et frontonasaux.', 'les arcs mandibulaire et hyoïde.']
+
+Réponse: les processus maxillaires et mandibulaires."
+Vous soupçonnez que votre patient a une glande salivaire sous-mandibulaire élargie.,anatomy,"['pour être palpable par voie orale..', 'être palpable par voie extra-orale.', 'être palpable à la fois intra et extra- oralement.', 'ne peut être détectée que par un examen radiographique.']",2,"Question: Vous soupçonnez que votre patient a une glande salivaire sous-mandibulaire élargie.
+
+Choix: ['pour être palpable par voie orale..', 'être palpable par voie extra-orale.', 'être palpable à la fois intra et extra- oralement.', 'ne peut être détectée que par un examen radiographique.']
+
+Réponse: être palpable à la fois intra et extra- oralement."
+Les ostéoclastes,anatomy,"['déposent dans l'os et se différencient des cellules mésenchymateuses périostéennes.', 'résorber l' os et se différencier des cellules mésenchymateuses périostéennes.', 'déposent dans l'os et se différencient des monocytes.', 'résorber l' os et se différencier des monocytes.']",3,"Question: Les ostéoclastes
+
+Choix: ['déposent dans l'os et se différencient des cellules mésenchymateuses périostéennes.', 'résorber l' os et se différencier des cellules mésenchymateuses périostéennes.', 'déposent dans l'os et se différencient des monocytes.', 'résorber l' os et se différencier des monocytes.']
+
+Réponse: résorber l' os et se différencier des monocytes."
+Le muscle pterygoïde latéral,anatomy,"['est attaché au processus coronoïde et élève la mandibule.', 'est attaché au processus condyle et élève la mandibule.', 'est attaché au processus coronoïde et dépasse la mandibule.', 'est attaché au processus condyle et fait saillie de la mandibule.']",3,"Question: Le muscle pterygoïde latéral
+
+Choix: ['est attaché au processus coronoïde et élève la mandibule.', 'est attaché au processus condyle et élève la mandibule.', 'est attaché au processus coronoïde et dépasse la mandibule.', 'est attaché au processus condyle et fait saillie de la mandibule.']
+
+Réponse: est attaché au processus condyle et fait saillie de la mandibule."
+"Dans le fœtus, le conduit artériel passe le sang du",anatomy,"['de la veine pulmonaire à l'aorte.', 'de l'aorte à la veine pulmonaire.', 'de l'artère pulmonaire à l'aorte.', 'l' aorte à l' artère pulmonaire.']",2,"Question: Dans le fœtus, le conduit artériel passe le sang du
+
+Choix: ['de la veine pulmonaire à l'aorte.', 'de l'aorte à la veine pulmonaire.', 'de l'artère pulmonaire à l'aorte.', 'l' aorte à l' artère pulmonaire.']
+
+Réponse: de l'artère pulmonaire à l'aorte."
+Lequel des os suivants se développe par ossification endochondrale ?,anatomy,"['Les côtes .', 'Les côtes et le sternum', 'Les côtes, le sternum et la clavicule', 'Les côtes, le sternum, la clavicule et les vertèbres']",1,"Question: Lequel des os suivants se développe par ossification endochondrale ?
+
+Choix: ['Les côtes .', 'Les côtes et le sternum', 'Les côtes, le sternum et la clavicule', 'Les côtes, le sternum, la clavicule et les vertèbres']
+
+Réponse: Les côtes et le sternum"
+La muqueuse du palais dur est,anatomy,"['est kératinisé et présente une sous-muqueuse et des glandes salivaires mineures posterolatéralement.', 'non kératinisée et présente une sous-muqueuse et des glandes salivaires mineures postéromédialement.', 'ceratinisé et dépourvu de sous-muqueuse et de glandes salivaires mineures.', 'non kératinisé et dépourvu de sous-muqueuse et de glandes salivaires mineures.']",0,"Question: La muqueuse du palais dur est
+
+Choix: ['est kératinisé et présente une sous-muqueuse et des glandes salivaires mineures posterolatéralement.', 'non kératinisée et présente une sous-muqueuse et des glandes salivaires mineures postéromédialement.', 'ceratinisé et dépourvu de sous-muqueuse et de glandes salivaires mineures.', 'non kératinisé et dépourvu de sous-muqueuse et de glandes salivaires mineures.']
+
+Réponse: est kératinisé et présente une sous-muqueuse et des glandes salivaires mineures posterolatéralement."
+La tête de la sixième côte est articulée avec,anatomy,"['La facette articulaire inférieure de T5 et la facette articulaire supérieure de T6.', 'Le demi-facet articulaire inférieur de T5 et la facette articulaire supérieure de T6.', 'La demifacette articulaire inférieure de T5 et la demifacette articulaire supérieure de T6.', 'Les demi-facettes supérieure et inférieure de T6.']",2,"Question: La tête de la sixième côte est articulée avec
+
+Choix: ['La facette articulaire inférieure de T5 et la facette articulaire supérieure de T6.', 'Le demi-facet articulaire inférieur de T5 et la facette articulaire supérieure de T6.', 'La demifacette articulaire inférieure de T5 et la demifacette articulaire supérieure de T6.', 'Les demi-facettes supérieure et inférieure de T6.']
+
+Réponse: La demifacette articulaire inférieure de T5 et la demifacette articulaire supérieure de T6."
+Lequel des éléments suivants est situé sous le diaphragme dans le quadrant supérieur gauche de la cavité abdominale ?,anatomy,"['Nom de l'établissement', 'Duodénum', 'La rate', 'Pancréas']",2,"Question: Lequel des éléments suivants est situé sous le diaphragme dans le quadrant supérieur gauche de la cavité abdominale ?
+
+Choix: ['Nom de l'établissement', 'Duodénum', 'La rate', 'Pancréas']
+
+Réponse: La rate"
+Les terminaisons nerveuses propriocéptives des articulations synoviales sont situées dans,anatomy,"['le cartilage articulaire et la membrane synoviale.', 'membrane synoviale et capsule.', 'la capsule et les ligaments.', 'ligaments et disques articulaires.']",3,"Question: Les terminaisons nerveuses propriocéptives des articulations synoviales sont situées dans
+
+Choix: ['le cartilage articulaire et la membrane synoviale.', 'membrane synoviale et capsule.', 'la capsule et les ligaments.', 'ligaments et disques articulaires.']
+
+Réponse: ligaments et disques articulaires."
+La cage thoracique est une unité structurelle importante pour laquelle des fonctions suivantes?,anatomy,"['Nourriture', 'Les règles', 'La mentation', 'La respiration']",3,"Question: La cage thoracique est une unité structurelle importante pour laquelle des fonctions suivantes?
+
+Choix: ['Nourriture', 'Les règles', 'La mentation', 'La respiration']
+
+Réponse: La respiration"
+Un patient est admis après une blessure à la tête et sombre rapidement dans le coma.,anatomy,"['les os du crâne et du dura mater.', 'la dure-mère et l'arachnoïde.', 'l'arachnoïde et le pia mater.', 'la pia mater et la surface du cerveau.']",0,"Question: Un patient est admis après une blessure à la tête et sombre rapidement dans le coma.
+
+Choix: ['les os du crâne et du dura mater.', 'la dure-mère et l'arachnoïde.', 'l'arachnoïde et le pia mater.', 'la pia mater et la surface du cerveau.']
+
+Réponse: les os du crâne et du dura mater."
+Un blocage nerveux infraorbital réussi produira une anesthésie du,anatomy,"['les dents maxillaires antérieures.', 'les dents maxillaires antérieures et leurs gencives labiales.', 'les dents maxillaires antérieures, leur gencive labiale et la lèvre supérieure.', 'les dents maxillaires antérieures, leur gencive labiale, la lèvre supérieure et le palais dur antérieur.']",2,"Question: Un blocage nerveux infraorbital réussi produira une anesthésie du
+
+Choix: ['les dents maxillaires antérieures.', 'les dents maxillaires antérieures et leurs gencives labiales.', 'les dents maxillaires antérieures, leur gencive labiale et la lèvre supérieure.', 'les dents maxillaires antérieures, leur gencive labiale, la lèvre supérieure et le palais dur antérieur.']
+
+Réponse: les dents maxillaires antérieures, leur gencive labiale et la lèvre supérieure."
+Lequel des foramina suivants perce l'os sphénoïde ?,anatomy,"['Le foramen ovale', 'Le foramen ovale et le rotundum', 'Le foramen ovale, le rotundum et le spinosum', 'Le foramen ovale, le rotundum et le spinosum ainsi que le foramen lacerum']",2,"Question: Lequel des foramina suivants perce l'os sphénoïde ?
+
+Choix: ['Le foramen ovale', 'Le foramen ovale et le rotundum', 'Le foramen ovale, le rotundum et le spinosum', 'Le foramen ovale, le rotundum et le spinosum ainsi que le foramen lacerum']
+
+Réponse: Le foramen ovale, le rotundum et le spinosum"
+Lequel des troubles suivants est caractérisé par des épisodes incontrôlables d'endormissement pendant la journée?,anatomy,"['Dyslexie', 'Épilepsie', 'Hydrocéphalie', 'Narcolepsie']",3,"Question: Lequel des troubles suivants est caractérisé par des épisodes incontrôlables d'endormissement pendant la journée?
+
+Choix: ['Dyslexie', 'Épilepsie', 'Hydrocéphalie', 'Narcolepsie']
+
+Réponse: Narcolepsie"
+Lequel des éléments suivants permet l'échange de gaz dans les poumons ?,anatomy,"['Alvéoles', 'Les bronches', 'Les bronchioles', 'Les capillaires']",0,"Question: Lequel des éléments suivants permet l'échange de gaz dans les poumons ?
+
+Choix: ['Alvéoles', 'Les bronches', 'Les bronchioles', 'Les capillaires']
+
+Réponse: Alvéoles"
+"Un patient a une fracture dans laquelle le rayon est plié mais pas déplacé, et la peau est intacte.",anatomy,"['Fermé, bâton vert', 'd'une épaisseur n'excédant pas 1 mm', 'Composés, transversaux', 'En spirale ouverte']",0,"Question: Un patient a une fracture dans laquelle le rayon est plié mais pas déplacé, et la peau est intacte.
+
+Choix: ['Fermé, bâton vert', 'd'une épaisseur n'excédant pas 1 mm', 'Composés, transversaux', 'En spirale ouverte']
+
+Réponse: Fermé, bâton vert"
+La fécondation d'un ovule par un spermatozoïde se produit dans laquelle des structures suivantes?,anatomy,"['Col de l'utérus', 'Les trompes de Fallope', 'L'ovaire', 'L' utérus']",1,"Question: La fécondation d'un ovule par un spermatozoïde se produit dans laquelle des structures suivantes?
+
+Choix: ['Col de l'utérus', 'Les trompes de Fallope', 'L'ovaire', 'L' utérus']
+
+Réponse: Les trompes de Fallope"
+L' ectoderme donne lieu à,anatomy,"['le tube neural.', 'cellules ectomesenchymes.', 'émail dentaire.', 'les trois structures.']",3,"Question: L' ectoderme donne lieu à
+
+Choix: ['le tube neural.', 'cellules ectomesenchymes.', 'émail dentaire.', 'les trois structures.']
+
+Réponse: les trois structures."
+"Chez l'homme, laquelle des structures suivantes est située au cou de la vessie et entoure l'urètre ?",anatomy,"['Épididymes', 'Prostate', 'Le scrotum', 'Vésicule séminale']",1,"Question: Chez l'homme, laquelle des structures suivantes est située au cou de la vessie et entoure l'urètre ?
+
+Choix: ['Épididymes', 'Prostate', 'Le scrotum', 'Vésicule séminale']
+
+Réponse: Prostate"
+"Laquelle des options suivantes complète la déclaration suivante? ""La valve auriculo-ventriculaire droite""...",anatomy,"['est une valve semi-lunaire', 'est empêchée de s' éventer par les muscles papillaires.', 'est ouvert pendant la systole.', 'empêche le retour du sang du tronc pulmonaire pendant que le cœur se détend.']",1,"Question: Laquelle des options suivantes complète la déclaration suivante? ""La valve auriculo-ventriculaire droite""...
+
+Choix: ['est une valve semi-lunaire', 'est empêchée de s' éventer par les muscles papillaires.', 'est ouvert pendant la systole.', 'empêche le retour du sang du tronc pulmonaire pendant que le cœur se détend.']
+
+Réponse: est empêchée de s' éventer par les muscles papillaires."
+Laquelle des régions cérébrales suivantes est alimentée par des branches des artères sous-clavières ?,anatomy,"['Le lobe frontal', 'Le lobe pariétal', 'L'hypothalamus est', 'Le cervelet']",3,"Question: Laquelle des régions cérébrales suivantes est alimentée par des branches des artères sous-clavières ?
+
+Choix: ['Le lobe frontal', 'Le lobe pariétal', 'L'hypothalamus est', 'Le cervelet']
+
+Réponse: Le cervelet"
+Laquelle des structures suivantes fait partie de l'intestin grêle ?,anatomy,"['Colon ascendant', 'Cecum', 'Éléonine', 'Colon sigmoïde']",2,"Question: Laquelle des structures suivantes fait partie de l'intestin grêle ?
+
+Choix: ['Colon ascendant', 'Cecum', 'Éléonine', 'Colon sigmoïde']
+
+Réponse: Éléonine"
+"Pendant un blocage du nerf alvéolaire inférieur, l'aiguille passe idéalement",anatomy,"['pterygoïde postérieure et médiane à médiane.', 'pterygoïde antérieure et latérale à médiane.', 'à travers le pterygoïde médian.', 'inférieure à la pterygoïde médiane.']",1,"Question: Pendant un blocage du nerf alvéolaire inférieur, l'aiguille passe idéalement
+
+Choix: ['pterygoïde postérieure et médiane à médiane.', 'pterygoïde antérieure et latérale à médiane.', 'à travers le pterygoïde médian.', 'inférieure à la pterygoïde médiane.']
+
+Réponse: pterygoïde antérieure et latérale à médiane."
+Quelles maladies suivantes sont traitées avec des injections de vitamine B-12?,anatomy,"['La paralysie de Bell', 'Maladie de Crohn', 'Anémie pernicieuse', 'Maladie de Graves']",2,"Question: Quelles maladies suivantes sont traitées avec des injections de vitamine B-12?
+
+Choix: ['La paralysie de Bell', 'Maladie de Crohn', 'Anémie pernicieuse', 'Maladie de Graves']
+
+Réponse: Anémie pernicieuse"
+Lequel des os suivants a un processus qui se joint à l'os zygomatique pour former l'arc zygomatique?,anatomy,"['L'os maxillaire', 'L' os du crâne', 'L'os sphénoïde', 'L' os du front']",1,"Question: Lequel des os suivants a un processus qui se joint à l'os zygomatique pour former l'arc zygomatique?
+
+Choix: ['L'os maxillaire', 'L' os du crâne', 'L'os sphénoïde', 'L' os du front']
+
+Réponse: L' os du crâne"
+Les axones préganglionnaires parasympathiques quittent le SNC avec le,anatomy,"['nerfs de la colonne vertébrale cervicale.', 'nerfs de la colonne vertébrale thoracique.', 'nerfs lombaires de la colonne vertébrale.', 'les nerfs sacrés de la colonne vertébrale.']",3,"Question: Les axones préganglionnaires parasympathiques quittent le SNC avec le
+
+Choix: ['nerfs de la colonne vertébrale cervicale.', 'nerfs de la colonne vertébrale thoracique.', 'nerfs lombaires de la colonne vertébrale.', 'les nerfs sacrés de la colonne vertébrale.']
+
+Réponse: les nerfs sacrés de la colonne vertébrale."
+Un patient atteint d'une lésion de la chaîne sympathique cervicale présentera les signes et symptômes suivants.,anatomy,"['Rétrécissement des pupilles', 'Rétrécissement des pupilles et vasodilatation des vaisseaux faciaux', 'Rétrécissement des pupilles, vasodilatation des vaisseaux faciaux et augmentation de la transpiration faciale', 'Rétrécissement des pupilles, vasodilatation des vaisseaux faciaux, augmentation de la transpiration faciale et diminution de lacrymation']",1,"Question: Un patient atteint d'une lésion de la chaîne sympathique cervicale présentera les signes et symptômes suivants.
+
+Choix: ['Rétrécissement des pupilles', 'Rétrécissement des pupilles et vasodilatation des vaisseaux faciaux', 'Rétrécissement des pupilles, vasodilatation des vaisseaux faciaux et augmentation de la transpiration faciale', 'Rétrécissement des pupilles, vasodilatation des vaisseaux faciaux, augmentation de la transpiration faciale et diminution de lacrymation']
+
+Réponse: Rétrécissement des pupilles et vasodilatation des vaisseaux faciaux"
+Lequel des nerfs crâniens suivants est lié au sens de l'odorat ?,anatomy,"['Les abducteurs', 'hypoglosse', 'Sens de l'odorat', 'Trochléaire']",2,"Question: Lequel des nerfs crâniens suivants est lié au sens de l'odorat ?
+
+Choix: ['Les abducteurs', 'hypoglosse', 'Sens de l'odorat', 'Trochléaire']
+
+Réponse: Sens de l'odorat"
+Où sont situés les centres vitaux du tronc cérébral ?,anatomy,"['le milieu du cerveau', 'le pons', 'médulla oblongata', 'le cervelet']",2,"Question: Où sont situés les centres vitaux du tronc cérébral ?
+
+Choix: ['le milieu du cerveau', 'le pons', 'médulla oblongata', 'le cervelet']
+
+Réponse: médulla oblongata"
+La salive contient une enzyme qui agit sur lequel des éléments nutritifs suivants?,anatomy,"['Amidons et féculents', 'Protéines', 'Les matières grasses', 'Minéraux']",0,"Question: La salive contient une enzyme qui agit sur lequel des éléments nutritifs suivants?
+
+Choix: ['Amidons et féculents', 'Protéines', 'Les matières grasses', 'Minéraux']
+
+Réponse: Amidons et féculents"
+Pendant l' ingestion du,anatomy,"['Le tube auditif s'ouvre.', 'Le muscle cricopharyngée se contracte.', 'La rima glottis est ouverte.', 'Le réflexe de nausée est suspendu.']",0,"Question: Pendant l' ingestion du
+
+Choix: ['Le tube auditif s'ouvre.', 'Le muscle cricopharyngée se contracte.', 'La rima glottis est ouverte.', 'Le réflexe de nausée est suspendu.']
+
+Réponse: Le tube auditif s'ouvre."
+Les racines dorsales de tous les nerfs de la colonne vertébrale contiennent,anatomy,"['processus neuronaux sensoriels.', 'processus neuronaux sensoriels et autonomes.', 'processus neuronaux moteurs.', 'processus neuronaux moteurs et autonomes.']",0,"Question: Les racines dorsales de tous les nerfs de la colonne vertébrale contiennent
+
+Choix: ['processus neuronaux sensoriels.', 'processus neuronaux sensoriels et autonomes.', 'processus neuronaux moteurs.', 'processus neuronaux moteurs et autonomes.']
+
+Réponse: processus neuronaux sensoriels."
+Laquelle des suivantes est la glande maîtresse du système endocrinien ?,anatomy,"['Insuffisance cardiaque', 'Pancréas', 'La glande pinéale', 'L'hypophyse']",3,"Question: Laquelle des suivantes est la glande maîtresse du système endocrinien ?
+
+Choix: ['Insuffisance cardiaque', 'Pancréas', 'La glande pinéale', 'L'hypophyse']
+
+Réponse: L'hypophyse"
+La perte de sensation somatique sur les deux tiers antérieurs de la langue indique une lésion du,anatomy,"['branche lingual du nerf trijumeau mandibulaire.', 'branche de la corde tympanique du nerf facial.', 'branche lingual du nerf glossopharyngée.', 'le nerf hypoglosse.']",0,"Question: La perte de sensation somatique sur les deux tiers antérieurs de la langue indique une lésion du
+
+Choix: ['branche lingual du nerf trijumeau mandibulaire.', 'branche de la corde tympanique du nerf facial.', 'branche lingual du nerf glossopharyngée.', 'le nerf hypoglosse.']
+
+Réponse: branche lingual du nerf trijumeau mandibulaire."
+"Chez l'homme, les échantillons de cultures de gonocoques sont le plus souvent obtenus à partir de laquelle des structures suivantes?",anatomy,"['L' anus', 'La vésicule urinaire', 'L'urètre', 'Les testicules']",2,"Question: Chez l'homme, les échantillons de cultures de gonocoques sont le plus souvent obtenus à partir de laquelle des structures suivantes?
+
+Choix: ['L' anus', 'La vésicule urinaire', 'L'urètre', 'Les testicules']
+
+Réponse: L'urètre"
+Laquelle des structures suivantes devrait être visible sur une radiographie panoramique dentaire?,anatomy,"['Le canal mandibulaire', 'Le canal mandibulaire et le sinus maxillaire', 'Le canal mandibulaire, le sinus maxillaire et le palais dur', 'Le canal mandibulaire, le sinus maxillaire, le palais dur et l'arc zygomatique']",3,"Question: Laquelle des structures suivantes devrait être visible sur une radiographie panoramique dentaire?
+
+Choix: ['Le canal mandibulaire', 'Le canal mandibulaire et le sinus maxillaire', 'Le canal mandibulaire, le sinus maxillaire et le palais dur', 'Le canal mandibulaire, le sinus maxillaire, le palais dur et l'arc zygomatique']
+
+Réponse: Le canal mandibulaire, le sinus maxillaire, le palais dur et l'arc zygomatique"

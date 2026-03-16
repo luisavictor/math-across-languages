@@ -131,10 +131,9 @@ def plot_jaccard_per_good_percent(
             plt.close(fig)
 
 
-seed = 42
-plot_jaccard_per_good_percent(
-    f"../MathNeuro/jaccard_results/gsm8k_race_en_vs_code/jaccard_summary_{seed}.json",
-    save_dir="jaccard_results/gsm8k_race_en_vs_code",
-    show=True,
-    show_chance_line=True
-)
+
+# plot_jaccard_per_good_percent(
+#     f"../MathNeuro/results_jaccard/gsm8k_mmlu_old_vs_code/jaccard_summary.json",
+#     save_dir="jaccard_results/gsm8k_mmlu_old_vs_code",
+#     show=True,
+# )

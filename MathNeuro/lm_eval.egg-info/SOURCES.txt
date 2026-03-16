@@ -1,5 +1,4 @@
 LICENSE
-README.md
 pyproject.toml
 setup.py
 lm_eval/__init__.py
@@ -50,6 +49,9 @@ lm_eval/models/optimum_lm.py
 lm_eval/models/textsynth.py
 lm_eval/models/utils.py
 lm_eval/models/vllm_causallms.py
+lm_eval/prompts/__init__.py
+lm_eval/tasks/__init__.py
+lm_eval/tasks/__pycache__/__init__.cpython-38.pyc
 lm_eval/tasks/aclue/README.md
 lm_eval/tasks/aclue/_aclue.yaml
 lm_eval/tasks/aclue/_default_template_yaml

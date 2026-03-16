@@ -2,6 +2,7 @@ import pandas as pd
 import torch
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 import re
+from tqdm import tqdm
 
 
 def translate_gsm8k(
@@ -19,6 +20,8 @@ def translate_gsm8k(
         'french': 'fra_Latn',
         'spanish': 'spa_Latn',
         'hindi': 'hin_Deva',
+        'portuguese': 'por_Latn',
+        'italian': 'ita_Latn',
     }
     if target_lang.lower() not in lang_code_map:
         raise ValueError(f"Unsupported target_lang: choose from {list(lang_code_map.keys())}")
@@ -122,9 +125,9 @@ def translate_gsm8k(
         return translated
 
     # Translation loop
-    for idx in range(total_rows):
+    for idx in tqdm(range(total_rows)):
         for col in text_columns:
-            print(f"Translating row {idx}, column '{col}'...")
+            # print(f"Translating row {idx}, column '{col}'...")
             df.at[idx, col] = translate_long_text(str(df.at[idx, col]), translate_text)
         df.to_csv(output_csv_path, index=False)
 
@@ -136,15 +139,22 @@ def translate_gsm8k(
 
 
 
+print("Translating GSM8K to French...")
+# translate_gsm8k(
+#     input_csv_path="../../MathNeuro/data/gsm8k.csv",
+#     output_csv_path="../GSM8k_French/gsm8k_fr_train.csv",
+#     text_columns=["instruct", "qa"],
+#     target_lang="french",
+#     n_rows=None
+# )
 
 translate_gsm8k(
-    input_csv_path="../../MathNeuro/data/gsm8k.csv",
-    output_csv_path="../GSM8k_Hindi/gsm8k_hi_train_save.csv",
-    text_columns=["instruct", "qa"],
-    target_lang="hindi",
+    input_csv_path="../../MathNeuro/data/gsm8k_test.csv",
+    output_csv_path="../GSM8k_French/gsm8k_fr_test.csv",
+    text_columns=["question", "answer"],
+    target_lang="french",
     n_rows=None
 )
-
 
 
 '''

@@ -1,0 +1,51 @@
+import re
+
+def _extract_question(text: str) -> str:
+    if not isinstance(text, str):
+        return ""
+    t = text.strip()
+    t = re.sub(r"^(Q|F)\s*:\s*", "", t)
+    if "\nA:" in t:
+        t = t.split("\nA:", 1)[0].strip()
+    elif " A: " in t:
+        # Fallback: training CSVs may lack newlines before the answer marker.
+        t = t.split(" A: ", 1)[0].strip()
+    elif " Réfléchissons" in t:
+        # French samples without A: marker use 'Réfléchissons' to start the answer.
+        t = t.split(" Réfléchissons", 1)[0].strip()
+    return t
+
+
+def _extract_answer_number(text: str):
+    if not isinstance(text, str):
+        return None
+    t = text.strip()
+
+    m = re.search(r"####\s*([-+]?[0-9]+(?:[.,][0-9]+)?)", t)
+    if not m:
+        m = re.search(r"(La réponse est|réponse est)\s*([-+]?[0-9]+(?:[.,][0-9]+)?)", t)
+    if not m:
+        m = re.search(r"The answer is\s*([-+]?[0-9]+(?:[.,][0-9]+)?)", t, flags=re.IGNORECASE)
+        if m:
+            num = m.group(1)
+        else:
+            return None
+    else:
+        num = m.group(1 if "####" in m.re.pattern else 2)
+
+    num = num.replace(",", ".").strip().rstrip(".")
+    try:
+        return int(float(num))
+    except Exception:
+        return None
+
+
+def process_docs(dataset):
+    def _clean(doc):
+        instruct = (doc.get("instruct") or "").strip()
+        qa = (doc.get("qa") or "").strip()
+        question = _extract_question(instruct if instruct else qa)
+        answer_number = _extract_answer_number(qa if qa else instruct)
+        return {"question": question, "answer_number": answer_number}
+
+    return dataset.map(_clean)

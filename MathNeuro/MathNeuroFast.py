@@ -1,6 +1,8 @@
 import os
 import sys
 import argparse
+import logging
+import traceback
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch.nn as nn
 import pandas as pd
@@ -8,11 +10,25 @@ import lm_eval
 import json
 import random, numpy as np, torch
 from pathlib import Path
+from utils import *
 
 
 sys.path.append(os.path.dirname(__file__))
 from fine_tune import fine_tune_on_isolated_params
 import codealpaca_oracle
+import time
+
+def pre_train_eval_already_done(save_path, model, train_task):
+    base_dir = f"{save_path}/eval_results/{model}"
+    pre_eval_path = f"{base_dir}/pre_results.json"
+    if not os.path.exists(pre_eval_path):
+        return False
+    if train_task is None:
+        return True
+    pre_train_task_path = f"{base_dir}/pre_results_train_task.json"
+    return os.path.exists(pre_train_task_path)
+
+beg = time.time()
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', help="Huggingface model to train, entered as string", type=str)
@@ -56,15 +72,26 @@ parser.add_argument('--train_lm_eval_task',
 parser.add_argument('--run_codealpaca_eval',
                     help="run CodeAlpaca oracle evaluation after lm_eval",
                     action="store_true")
-parser.add_argument('--proportion', help="desired proportion of top parameters to calculate", type=float, default=None)
+parser.add_argument('--proportion', help="desired proportion of top parameters to calculate", type=float, nargs='+', default=None)
 parser.add_argument('--fine_tune',
                     help="freeze all non-task-specific parameters and fine-tune only isolated task-specific weights",
                     action="store_true")
-parser.add_argument('--batch_size',
-                    help="batch size for evaluation",
-                    type=int, default=1)
+parser.add_argument('--batch_size', help="batch size for evaluation", type=int, default=1)
+parser.add_argument('--random_prune',
+                    help="Run random pruning experiment to test group vs individual neuron effect. "
+                         "Randomly prunes the same number of neurons as the original experiment, "
+                         "sampling proportional to score from the top 15%% pool.",
+                    action="store_true")
+parser.add_argument('--random_prune_seeds', nargs='+',
+                    help="Random seeds for the random pruning sampling (default: 42 123 456)",
+                    type=int, default=[42, 123, 456])
+parser.add_argument('--random_prune_fractions', nargs='+',
+                    help="Fractions of math-only neurons to prune in random experiment "
+                         "(default: 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9)",
+                    type=float,
+                    default=[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9])
 
-print(os.environ.get("CUBLAS_WORKSPACE_CONFIG"))
+
 
 args = parser.parse_args()
 random.seed(args.random_state)
@@ -73,11 +100,28 @@ torch.manual_seed(args.random_state)
 torch.cuda.manual_seed_all(args.random_state)
 torch.backends.cudnn.benchmark = False
 
-torch.use_deterministic_algorithms(True)
-torch.backends.cudnn.deterministic = True
-torch.backends.cuda.matmul.allow_tf32 = False
-torch.backends.cudnn.allow_tf32 = False
+# ── Logging setup ────────────────────────────────────────────────────────────
+_log_dir = os.path.join(args.save_path, "eval_results", args.model) if args.save_path else "."
+os.makedirs(_log_dir, exist_ok=True)
+_log_file = os.path.join(_log_dir, "error.log")
 
+logger = logging.getLogger("MathNeuroFast")
+logger.setLevel(logging.DEBUG)
+_fh = logging.FileHandler(_log_file, mode="a")
+_fh.setLevel(logging.DEBUG)
+_fh.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(message)s"))
+logger.addHandler(_fh)
+
+def _excepthook(exc_type, exc_value, exc_tb):
+    """Log unhandled exceptions to the log file before crashing."""
+    logger.critical(
+        "Unhandled exception:\n%s",
+        "".join(traceback.format_exception(exc_type, exc_value, exc_tb)),
+    )
+    sys.__excepthook__(exc_type, exc_value, exc_tb)
+
+sys.excepthook = _excepthook
+logger.info("MathNeuroFast started – log file: %s", _log_file)
 
 oracle_cases_path = None
 oracle_eval_ids = None
@@ -92,9 +136,13 @@ if args.run_codealpaca_eval:
 
 mask_dir = f"{args.save_path}/isolated_masks/{args.model}"
 os.makedirs(mask_dir, exist_ok=True)
-task_manager = lm_eval.tasks.TaskManager(include_path="../lm_eval_tasks")
 
-
+if os.path.exists("../lm_eval_tasks"):
+    task_manager = lm_eval.tasks.TaskManager(include_path="../lm_eval_tasks")
+elif os.path.exists("lm_eval_tasks"):
+    task_manager = lm_eval.tasks.TaskManager(include_path="lm_eval_tasks")
+else:
+    raise ValueError("Could not find lm_eval_tasks directory.")
 
 
 train = pd.read_csv(args.train_dataset)
@@ -131,7 +179,9 @@ model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torc
 model.eval()
 print("datasets and models loaded")
 if args.pre_train_eval:
-    if args.train_lm_eval_task is not None:
+    if pre_train_eval_already_done(args.save_path, args.model, args.train_lm_eval_task):
+        print("Skipping pre-train eval: outputs already exist.")
+    elif args.train_lm_eval_task is not None:
         # task_manager = lm_eval.tasks.TaskManager()
         # --log_samples --output_path results/phi_15_base --device cuda:0 --batch_size auto:4
         # Setting `task_manager` to the one above is optional and should generally be done
@@ -160,6 +210,13 @@ if args.pre_train_eval:
                 limit=args.eval_dataset_subset,
                 random_seed=args.random_state
             )
+
+            samples_dir = f"{args.save_path}/eval_results/{args.model}/samples_pre_train_task_{args.scalar}"
+            saved = save_lm_eval_samples(results, f"{samples_dir}/pre_modification")
+            print("Saved:", saved)
+        except Exception:
+            logger.error("Pre-train eval (train task) failed:\n%s", traceback.format_exc())
+            raise
         finally:
             if oracle_env_set:
                 os.environ.pop("CODEALPACA_ORACLE_CASES_PATH", None)
@@ -208,7 +265,7 @@ if args.pre_train_eval:
             tasks=args.eval_datasets,
             task_manager=task_manager,
             log_samples=False,
-            batch_size=args.batch_size
+            batch_size=args.batch_size,
         )
         results_path = f"{args.save_path}/eval_results/{args.model}/pre_results.json"
         os.makedirs(os.path.dirname(results_path), exist_ok=True)
@@ -237,7 +294,8 @@ def compute_score_mask(model, train, num_samples, save_dir, save_path):
             for key, tensor in magnitude.items():
                 try:
                     param_dict[f"{key}.weight"] += tensor
-                except:
+                except Exception as e:
+                    logger.warning("Skipped accumulation for %s: %s", key, e)
                     print(f'passed at {key}')
     keys_to_remove = [key for key in param_dict if key.split('.weight')[0] not in magnitude]
 
@@ -286,7 +344,6 @@ def find_good_params(keep_ratio, prune=True, largest=True, param_dict = "good_sc
                 mask_dict[k][top_pos] = 1
                 mask_dict[k] = mask_dict[k].reshape(v.shape).to(tensor.device)
             else:
-
                 sizes = v.shape
                 num_params = v.numel()
                 keep_num = int(num_params * keep_ratio)
@@ -295,8 +352,6 @@ def find_good_params(keep_ratio, prune=True, largest=True, param_dict = "good_sc
                 mask_dict[k] = torch.ones_like(tensor, device='cpu')
                 mask_dict[k][top_pos] = 0
                 mask_dict[k] = mask_dict[k].reshape(v.shape).to('cpu')
-
-
 
     return mask_dict
 
@@ -341,6 +396,41 @@ def count_math_only_parameters(math_mask, nonmath_mask):
     return total
 
 
+def get_results_paths(save_path, model, dataset_name, good_percent, scalar, repeat, train_task, run_codealpaca_eval=False):
+    base_dir = f"{save_path}/eval_results/{model}"
+    eval_path = f"{base_dir}/{dataset_name}_calculate{good_percent}_scalar{scalar}_run{repeat}.json"
+    train_task_path = None
+    if train_task is not None:
+        train_task_path = (
+            f"{base_dir}/{dataset_name}_calculate{good_percent}_scalar{scalar}_run{repeat}_train_task.json"
+        )
+    codealpaca_paths = []
+    if run_codealpaca_eval and train_task is not None:
+        codealpaca_paths = [
+            f"{base_dir}/candidate_generations_{dataset_name}_calculate{good_percent}_scalar{scalar}_run{repeat}.jsonl",
+            f"{base_dir}/codealpaca_oracle_metrics_{dataset_name}_calculate{good_percent}_scalar{scalar}_run{repeat}.json"
+        ]
+    return eval_path, train_task_path, codealpaca_paths
+
+
+def experiment_already_done(save_path, model, dataset_name, good_percent, scalar, repeat, train_task, run_codealpaca_eval=False):
+    eval_path, train_task_path, codealpaca_paths = get_results_paths(
+        save_path, model, dataset_name, good_percent, scalar, repeat, train_task, run_codealpaca_eval
+    )
+    if not os.path.exists(eval_path):
+        return False
+    if train_task_path is not None and not os.path.exists(train_task_path):
+        return False
+    # Check CodeAlpaca files if applicable
+    for path in codealpaca_paths:
+        if not os.path.exists(path):
+            return False
+    return True
+
+
+
+
+
 
 def getActivation(name):
     # The hook function
@@ -358,22 +448,163 @@ def getActivation(name):
     return hook
 
 
+def parse_none_file(none_file_path, dataset_name, repeat=1):
+    """Parse the None file to extract math-only param counts for a given repeat.
+
+    Returns a dict mapping proportion (float) to math-only count (int).
+    """
+    import re as _re
+    counts = {}
+    with open(none_file_path, 'r') as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            pattern = (
+                rf'\[{_re.escape(dataset_name)}\] repeat {repeat}, '
+                rf'top ([\d.]+)%.*math-only after removing non-math: (\d+)'
+            )
+            match = _re.search(pattern, line)
+            if match:
+                proportion = float(match.group(1)) / 100.0
+                math_only_count = int(match.group(2))
+                counts[proportion] = math_only_count
+    return counts
+
+
+def parse_math_top_counts(none_file_path, dataset_name, repeat=1):
+    """Parse the None file to extract math top-k param counts for a given repeat.
+
+    Returns a dict mapping proportion (float) to math top-k count (int).
+    """
+    import re as _re
+    counts = {}
+    with open(none_file_path, 'r') as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            pattern = (
+                rf'\[{_re.escape(dataset_name)}\] repeat {repeat}, '
+                rf'top ([\d.]+)%.* math: (\d+), non-math:'
+            )
+            match = _re.search(pattern, line)
+            if match:
+                proportion = float(match.group(1)) / 100.0
+                math_count = int(match.group(2))
+                counts[proportion] = math_count
+    return counts
+
+
+def create_random_prune_mask(train_scores, comparison_scores, prune_count,
+                             good_percent, random_seed=42):
+    """Create a pruning mask by randomly sampling from math-only neurons.
+
+    Math-only neurons are those in the top *good_percent* fraction of
+    train_scores but NOT in the top *good_percent* fraction of
+    comparison_scores.  This mirrors the per-layer selection logic used in
+    ``find_good_params`` + ``prune`` in the main pipeline.
+
+    Args:
+        train_scores: dict {param_name: score_tensor} – train (math) scores.
+        comparison_scores: dict {param_name: score_tensor} – comparison scores.
+        prune_count: number of math-only neurons to prune.
+        good_percent: top fraction used to define "important" neurons (per layer).
+        random_seed: random seed for reproducibility.
+
+    Returns:
+        mask_dict: dict with 1 everywhere except 0 at the randomly pruned positions.
+    """
+    rng = np.random.RandomState(random_seed)
+
+    # Collect all math-only positions across layers
+    # Each entry is (param_key, local_flat_index)
+    all_math_only = []
+
+    for k, v in train_scores.items():
+        if "embed" in k:
+            continue
+
+        num_params = v.numel()
+        keep_num = int(num_params * good_percent)
+        if keep_num == 0:
+            continue
+
+        # Per-layer top-k for train (same logic as find_good_params)
+        train_tensor = v.view(-1).float().abs()
+        train_top_pos = set(torch.topk(train_tensor, keep_num, largest=True)[1].tolist())
+
+        # Per-layer top-k for comparison
+        comp_tensor = comparison_scores[k].view(-1).float().abs()
+        comp_top_pos = set(torch.topk(comp_tensor, keep_num, largest=True)[1].tolist())
+
+        # Math-only: in train top-k but NOT in comparison top-k
+        math_only_local = train_top_pos - comp_top_pos
+        for idx in math_only_local:
+            all_math_only.append((k, idx))
+
+    total_math_only = len(all_math_only)
+    sample_size = min(prune_count, total_math_only)
+
+    # Randomly sample from the math-only set
+    chosen_indices = rng.choice(total_math_only, size=sample_size, replace=False)
+
+    # Build mask: 1 everywhere, 0 at chosen math-only positions
+    mask_dict = {}
+    for k, v in train_scores.items():
+        mask_dict[k] = torch.ones_like(v)
+
+    for idx in chosen_indices:
+        key, local_idx = all_math_only[idx]
+        mask_dict[key].view(-1)[local_idx] = 0
+
+    total_params = sum(v.numel() for k, v in train_scores.items() if "embed" not in k)
+    print(f"Random prune mask: pruning {sample_size} / {total_math_only} math-only neurons "
+          f"(seed={random_seed}, total non-embed params: {total_params})")
+
+    return mask_dict, sample_size, total_math_only
+
 
 num_samples = args.num_samples
-num_repeats = 1
+num_repeats = args.num_repeats
 if args.proportion is None:
-    good_percents = [0.000001, 0.00005, 0.00001, .0001, .001,  .01, .1]
+    good_percents = [.0001, .001,  .01,  .05, .1, .15]
 if args.proportion is not None:
-    good_percents = [args.proportion]
+    if len(args.proportion) > 1 or isinstance(args.proportion, list):
+        good_percents = args.proportion
+    else:
+        good_percents = [args.proportion]
 scalar = args.scalar
 
 
 
 for dataset in dataset_list:
+    if args.random_prune:
+        break
     for repeat in range(0, num_repeats):
+        pending_good_percents = [
+            good_percent
+            for good_percent in good_percents
+            if not experiment_already_done(
+                args.save_path,
+                args.model,
+                dataset.name,
+                good_percent,
+                scalar,
+                repeat,
+                args.train_lm_eval_task,
+                args.run_codealpaca_eval,
+            )
+        ]
+        if not pending_good_percents:
+            print(
+                f"Skipping {dataset.name} repeat {repeat + 1}: outputs already exist for all proportions."
+            )
+            continue
 
-        sampled_train = train.sample(n=num_samples, replace=True, random_state=args.random_state)
-        sampled_comparison = dataset.sample(n=num_samples, replace=True, random_state=args.random_state)
+        random_state = args.random_state + repeat*100
+        sampled_train = train.sample(n=num_samples, replace=True, random_state=random_state)
+        sampled_comparison = dataset.sample(n=num_samples, replace=True, random_state=random_state)
 
         # load model again (only important for multi run case) and register the hook function
         model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
@@ -383,13 +614,26 @@ for dataset in dataset_list:
                 hook_fn = getActivation(name)  # Get the hook function
                 module.register_forward_hook(hook_fn)  # Register the hook function
 
-        #compute_score_mask(model, sampled_train, num_samples=num_samples, save_dir=mask_dir, save_path = f"train_scores_seed{args.random_state}.pt")
-        #compute_score_mask(model, sampled_comparison, num_samples=num_samples, save_dir=mask_dir, save_path=f"comparison_scores_seed{args.random_state}.pt")
+        compute_score_mask(model, sampled_train, num_samples=num_samples, save_dir=mask_dir, save_path = f"train_scores_seed{random_state}.pt")
+        compute_score_mask(model, sampled_comparison, num_samples=num_samples, save_dir=mask_dir, save_path=f"comparison_scores_seed{random_state}.pt")
 
-        for good_percent in good_percents:
+        for good_percent in pending_good_percents:
+            if experiment_already_done(
+                args.save_path,
+                args.model,
+                dataset.name,
+                good_percent,
+                scalar,
+                repeat,
+                args.train_lm_eval_task,
+                args.run_codealpaca_eval,
+            ):
+                print(
+                    f"Skipping {dataset.name} repeat {repeat + 1}, proportion {good_percent}: outputs already exist."
+                )
+                continue
             # load fresh model for each new run since modified during each run
-            model = AutoModelForCausalLM.from_pretrained(args.model, device_map=None, torch_dtype=torch.bfloat16)
-            model = model.to("cuda:0")
+            model = AutoModelForCausalLM.from_pretrained(args.model, device_map="auto", torch_dtype=torch.bfloat16)
             model.eval()
             torch.cuda.empty_cache()
             magnitude = {}
@@ -401,13 +645,13 @@ for dataset in dataset_list:
 
 
             print("load good param score mask")
-            param_dict_good = torch.load(Path(mask_dir) / f"train_scores_seed{args.random_state}.pt", map_location="cpu")
+            param_dict_good = torch.load(Path(mask_dir) / f"train_scores_seed{random_state}.pt", map_location="cpu")
             print("extract top-k params")
             good_params = find_good_params(keep_ratio=good_percent, prune=True, largest=True, param_dict = param_dict_good)
             torch.cuda.empty_cache()
 
             print("load comparison param score mask")
-            param_dict_comparison = torch.load(Path(mask_dir) / f"comparison_scores_seed{args.random_state}.pt", map_location="cpu")
+            param_dict_comparison = torch.load(Path(mask_dir) / f"comparison_scores_seed{random_state}.pt", map_location="cpu")
             print("extract top-k params")
             comparison_params = find_good_params(keep_ratio=good_percent, prune=True,largest=True, param_dict = param_dict_comparison)
 
@@ -454,7 +698,7 @@ for dataset in dataset_list:
                     train_df=sampled_train,
                     # fine-tune on the same 500 samples for that the params have been identified
                     isolated_masks=isolated_masks,
-                    seed=args.random_state
+                    seed=random_state
                 )
                 model.eval()
                 del isolated_masks
@@ -466,10 +710,11 @@ for dataset in dataset_list:
                 del good_params
                 del comparison_params
                 print("applying changes to LLM params")
+                param_lookup = dict(model.named_parameters())
                 for key, tensor in prune_params.items():
-                    device = model.state_dict()[key].device
-                    tensor = tensor.to(device)
-                    model.state_dict()[key] *= tensor
+                    if key in param_lookup:
+                        p = param_lookup[key]
+                        p.data.mul_(tensor.to(p.device))
                 del prune_params
 
             def remove_hooks(model):
@@ -494,15 +739,21 @@ for dataset in dataset_list:
                     model_args={'pretrained': model, 'dtype': 'bfloat16', 'tokenizer': tokenizer},
                     tasks=args.train_lm_eval_task,
                     task_manager=task_manager,
-                    log_samples=False,
+                    log_samples=True,
                     batch_size=args.batch_size,
                     limit=args.eval_dataset_subset,
-                    random_seed=args.random_state
+                    random_seed=random_state
                 )
+
+                samples_dir = f"{args.save_path}/eval_results/{args.model}/samples_pre_train_task_{args.scalar}"
+                saved = save_lm_eval_samples(results, f"{samples_dir}/post_modification")
+                print("Saved:", saved)
+
                 results_path = f"{args.save_path}/eval_results/{args.model}/{dataset.name}_calculate{good_percent}_scalar{scalar}_run{repeat}_train_task.json"
                 os.makedirs(os.path.dirname(results_path), exist_ok=True)
                 with open(results_path, "w") as outfile:
                     json.dump(results['results'], outfile)
+
 
                 if args.run_codealpaca_eval:
                     model.eval()
@@ -524,8 +775,12 @@ for dataset in dataset_list:
                             log_samples=True,
                             batch_size=args.batch_size,
                             limit=codealpaca_limit,
-                            random_seed=args.random_state
+                            random_seed=random_state
                         )
+                    except Exception:
+                        logger.error("CodeAlpaca eval failed (dataset=%s, proportion=%s, repeat=%s):\n%s",
+                                     dataset.name, good_percent, repeat, traceback.format_exc())
+                        raise
                     finally:
                         if oracle_env_set:
                             os.environ.pop("CODEALPACA_ORACLE_CASES_PATH", None)
@@ -565,3 +820,202 @@ for dataset in dataset_list:
                 with open(results_path, "w") as outfile:
                     json.dump(results['results'], outfile)
             del model
+
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Random Prune Experiment: group effect vs individual effect
+# ──────────────────────────────────────────────────────────────────────────────
+if args.random_prune:
+    # Seed whose masks we reuse (repeat 0 → "repeat 1" in the None file)
+    mask_seed = args.random_state  # default 1
+
+    # Load existing train and comparison scores
+    train_scores_path = Path(mask_dir) / f"train_scores_seed{mask_seed}.pt"
+    comparison_scores_path = Path(mask_dir) / f"comparison_scores_seed{mask_seed}.pt"
+    print(f"Loading train scores from {train_scores_path}")
+    train_scores = torch.load(train_scores_path, map_location="cpu")
+    print(f"Loading comparison scores from {comparison_scores_path}")
+    comparison_scores = torch.load(comparison_scores_path, map_location="cpu")
+
+    for dataset in dataset_list:
+        # Parse math-only counts from None file for this dataset, repeat 1
+        none_counts = parse_none_file(output_file, dataset_name=dataset.name, repeat=1)
+        if not none_counts:
+            print(
+                f"Warning: No entries found in {output_file} for dataset "
+                f"'{dataset.name}' repeat 1. Skipping."
+            )
+            continue
+        print(f"Parsed math-only counts for {dataset.name}: {none_counts}")
+
+        for good_percent in good_percents:
+            # Convert to the percentage key used in the None file
+            math_only_count = none_counts.get(good_percent)
+            if math_only_count is None:
+                print(
+                    f"Warning: No math-only count for proportion "
+                    f"{good_percent} ({good_percent*100:.4f}%). Skipping."
+                )
+                continue
+
+            for rseed in args.random_prune_seeds:
+              for prune_frac in args.random_prune_fractions:
+                prune_count = max(1, int(math_only_count * prune_frac))
+                result_tag = f"random_rseed{rseed}_frac{prune_frac:.2f}"
+                base_dir = f"{args.save_path}_random/eval_results/{args.model}"
+                eval_path = (
+                    f"{base_dir}/{dataset.name}_calculate{good_percent}"
+                    f"_scalar{scalar}_{result_tag}.json"
+                )
+                train_task_path = None
+                if args.train_lm_eval_task is not None:
+                    train_task_path = (
+                        f"{base_dir}/{dataset.name}_calculate{good_percent}"
+                        f"_scalar{scalar}_{result_tag}_train_task.json"
+                    )
+
+                # Check if already done
+                already_done = os.path.exists(eval_path)
+                if train_task_path and not os.path.exists(train_task_path):
+                    already_done = False
+                if already_done:
+                    print(
+                        f"Skipping random prune: dataset={dataset.name}, "
+                        f"proportion={good_percent}, seed={rseed}, "
+                        f"frac={prune_frac:.0%} — outputs exist."
+                    )
+                    continue
+
+                print(
+                    f"\n=== Random Prune: dataset={dataset.name}, "
+                    f"proportion={good_percent}, seed={rseed}, "
+                    f"frac={prune_frac:.0%} ==="
+                )
+                print(
+                    f"    Pruning {prune_count} / {math_only_count} "
+                    f"({prune_frac:.0%}) randomly sampled neurons"
+                )
+
+                # Create random prune mask from math-only neurons
+                random_mask, actual_pruned, total_math_only = create_random_prune_mask(
+                    train_scores, comparison_scores, prune_count,
+                    good_percent=good_percent, random_seed=rseed,
+                )
+
+                # Log pruning details to a summary file
+                prune_log_path = f"{args.save_path}_random/random_prune_log_{args.model.replace('/', '_')}.txt"
+                os.makedirs(os.path.dirname(prune_log_path), exist_ok=True)
+                with open(prune_log_path, "a") as _log:
+                    _log.write(
+                        f"[{dataset.name}] proportion={good_percent}, "
+                        f"seed={rseed}, frac={prune_frac}, "
+                        f"requested={prune_count}, actual_pruned={actual_pruned}, "
+                        f"total_math_only={total_math_only}, "
+                        f"math_only_count={math_only_count}\n"
+                    )
+
+                # Load fresh model
+                model = AutoModelForCausalLM.from_pretrained(
+                    args.model, device_map="auto", torch_dtype=torch.bfloat16
+                )
+                model.eval()
+                torch.cuda.empty_cache()
+
+                # Apply the mask (prune)
+                print("    Applying random prune mask to model")
+                param_lookup = dict(model.named_parameters())
+                for key, mask_tensor in random_mask.items():
+                    if key in param_lookup:
+                        p = param_lookup[key]
+                        p.data.mul_(mask_tensor.to(p.device))
+                del random_mask
+
+                # Evaluate on train task
+                if args.train_lm_eval_task is not None:
+                    model.eval()
+                    codealpaca_limit = args.eval_dataset_subset
+                    oracle_env_set = False
+                    if args.run_codealpaca_eval and oracle_eval_ids is not None:
+                        os.environ["CODEALPACA_ORACLE_CASES_PATH"] = oracle_cases_path
+                        os.environ["CODEALPACA_ALLOWED_SAMPLE_IDS"] = ",".join(
+                            str(sid) for sid in sorted(oracle_eval_ids)
+                        )
+                        oracle_env_set = True
+                        codealpaca_limit = len(oracle_eval_ids)
+
+                    try:
+                        results = lm_eval.simple_evaluate(
+                            model='hf',
+                            model_args={
+                                'pretrained': model,
+                                'dtype': 'bfloat16',
+                                'tokenizer': tokenizer,
+                            },
+                            tasks=args.train_lm_eval_task,
+                            task_manager=task_manager,
+                            log_samples=True,
+                            batch_size=args.batch_size,
+                            limit=args.eval_dataset_subset,
+                            random_seed=mask_seed,
+                        )
+                    except Exception:
+                        logger.error("Random prune eval failed (dataset=%s, proportion=%s, seed=%s, frac=%s):\n%s",
+                                     dataset.name, good_percent, rseed, prune_frac, traceback.format_exc())
+                        raise
+                    finally:
+                        if oracle_env_set:
+                            os.environ.pop("CODEALPACA_ORACLE_CASES_PATH", None)
+                            os.environ.pop("CODEALPACA_ALLOWED_SAMPLE_IDS", None)
+
+                    os.makedirs(os.path.dirname(train_task_path), exist_ok=True)
+                    with open(train_task_path, "w") as outfile:
+                        json.dump(results['results'], outfile)
+
+                    if args.run_codealpaca_eval:
+                        samples = results["samples"]["codealpaca"]
+                        cand_path = (
+                            f"{base_dir}/candidate_generations_{dataset.name}"
+                            f"_calculate{good_percent}_scalar{scalar}_{result_tag}.jsonl"
+                        )
+                        metr_path = (
+                            f"{base_dir}/codealpaca_oracle_metrics_{dataset.name}"
+                            f"_calculate{good_percent}_scalar{scalar}_{result_tag}.json"
+                        )
+                        codealpaca_oracle.write_codealpaca_candidates(
+                            samples, cand_path,
+                            allowed_sample_ids=(
+                                set(oracle_eval_ids) if oracle_eval_ids is not None else None
+                            ),
+                        )
+                        codealpaca_oracle.run_codealpaca_oracle_eval(
+                            cand_path, metr_path,
+                            allowed_sample_ids=(
+                                set(oracle_eval_ids) if oracle_eval_ids is not None else None
+                            ),
+                            max_cases_per_id=2,
+                        )
+
+                # Evaluate on general eval datasets
+                model.eval()
+                results = lm_eval.simple_evaluate(
+                    model='hf',
+                    model_args={
+                        'pretrained': model,
+                        'dtype': 'bfloat16',
+                        'tokenizer': tokenizer,
+                    },
+                    tasks=args.eval_datasets,
+                    task_manager=task_manager,
+                    log_samples=False,
+                    batch_size=args.batch_size,
+                )
+                os.makedirs(os.path.dirname(eval_path), exist_ok=True)
+                with open(eval_path, "w") as outfile:
+                    json.dump(results['results'], outfile)
+
+                del model
+                torch.cuda.empty_cache()
+                print(f"    Results saved to {eval_path}")
+
+    del train_scores
+    print("\nRandom prune experiment complete.")

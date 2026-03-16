@@ -1,0 +1,501 @@
+question,subject,choices,answer,qa
+"Dans une translocation Robertsonienne, la fusion se produit à:",medical_genetics,"['les télomères.', 'centromères.', 'les histones.', 'les extrémités des longs bras.']",1,"Question: Dans une translocation Robertsonienne, la fusion se produit à:
+
+Choix: ['les télomères.', 'centromères.', 'les histones.', 'les extrémités des longs bras.']
+
+Réponse: centromères."
+Les protéines du doigt de zinc et les protéines hélice-tour-hélice sont,medical_genetics,"['types de protéines de liaison à l'ADN', 'impliqué dans le contrôle de la traduction', 'composants des ribosomes', 'une partie de l'hémoglobine dans les cellules sanguines']",0,"Question: Les protéines du doigt de zinc et les protéines hélice-tour-hélice sont
+
+Choix: ['types de protéines de liaison à l'ADN', 'impliqué dans le contrôle de la traduction', 'composants des ribosomes', 'une partie de l'hémoglobine dans les cellules sanguines']
+
+Réponse: types de protéines de liaison à l'ADN"
+"Si la fréquence des hommes atteints d'une affection récessive liée au X dans une population humaine est de 0,10 (un sur dix), quelle sera la fréquence attendue des femmes atteintes?",medical_genetics,"['Résultats', 'Résultats de l'enquête', '0,02 pour le', 'Nom de l'établissement']",0,"Question: Si la fréquence des hommes atteints d'une affection récessive liée au X dans une population humaine est de 0,10 (un sur dix), quelle sera la fréquence attendue des femmes atteintes?
+
+Choix: ['Résultats', 'Résultats de l'enquête', '0,02 pour le', 'Nom de l'établissement']
+
+Réponse: Résultats"
+"Dans l'ADN, l'adénine s'accouple normalement avec:",medical_genetics,"['la cytosine.', 'la guanine.', 'la thymine.', 'Pour l' uracile.']",2,"Question: Dans l'ADN, l'adénine s'accouple normalement avec:
+
+Choix: ['la cytosine.', 'la guanine.', 'la thymine.', 'Pour l' uracile.']
+
+Réponse: la thymine."
+Le schéma d'hérédité présenté par l'hyperthermie maligne (hyperpyrexie) est le suivant:,medical_genetics,"['Autosomiquement dominant.', 'Autosomique récessive.', 'Dominant lié au X.', 'Recessif lié au X.']",0,"Question: Le schéma d'hérédité présenté par l'hyperthermie maligne (hyperpyrexie) est le suivant:
+
+Choix: ['Autosomiquement dominant.', 'Autosomique récessive.', 'Dominant lié au X.', 'Recessif lié au X.']
+
+Réponse: Autosomiquement dominant."
+Cartographie des chromosomes humains:,medical_genetics,"['a été limitée aux chromosomes sexuels en raison de la petite taille de la famille', 'L'expérience a été beaucoup plus fructueuse au fur et à mesure qu'un grand nombre de marqueurs d'ADN devenaient disponibles.', 'a déterminé que le nombre de groupes de liaison est environ le double du nombre de chromosomes', 'a démontré que presque tout l'ADN est impliqué dans le codage des gènes']",1,"Question: Cartographie des chromosomes humains:
+
+Choix: ['a été limitée aux chromosomes sexuels en raison de la petite taille de la famille', 'L'expérience a été beaucoup plus fructueuse au fur et à mesure qu'un grand nombre de marqueurs d'ADN devenaient disponibles.', 'a déterminé que le nombre de groupes de liaison est environ le double du nombre de chromosomes', 'a démontré que presque tout l'ADN est impliqué dans le codage des gènes']
+
+Réponse: L'expérience a été beaucoup plus fructueuse au fur et à mesure qu'un grand nombre de marqueurs d'ADN devenaient disponibles."
+La transmission intergénérationnelle à la progéniture peut se produire à la suite d'une exposition parentale à ______.,medical_genetics,"['guerre', 'catastrophes naturelles', 'la faim', 'l'ensemble de ceux-ci']",3,"Question: La transmission intergénérationnelle à la progéniture peut se produire à la suite d'une exposition parentale à ______.
+
+Choix: ['guerre', 'catastrophes naturelles', 'la faim', 'l'ensemble de ceux-ci']
+
+Réponse: l'ensemble de ceux-ci"
+Asp235Phe dans un rapport moléculaire indique que:,medical_genetics,"['L' asparagine a été remplacée par la phénylalanine.', 'La phénylalanine a été remplacée par l' asparagine.', 'L'acide aspartique a été remplacé par la phénylalanine.', 'La phénylalanine a été remplacée par de l'acide aspartique.']",2,"Question: Asp235Phe dans un rapport moléculaire indique que:
+
+Choix: ['L' asparagine a été remplacée par la phénylalanine.', 'La phénylalanine a été remplacée par l' asparagine.', 'L'acide aspartique a été remplacé par la phénylalanine.', 'La phénylalanine a été remplacée par de l'acide aspartique.']
+
+Réponse: L'acide aspartique a été remplacé par la phénylalanine."
+Le risque d' anomalies chez l' enfant d' une mère atteinte de phénylcétonurie non traitée est:,medical_genetics,"['Pourcentage', 'Pourcentage', 'Pourcentage', 'Près de 100%']",3,"Question: Le risque d' anomalies chez l' enfant d' une mère atteinte de phénylcétonurie non traitée est:
+
+Choix: ['Pourcentage', 'Pourcentage', 'Pourcentage', 'Près de 100%']
+
+Réponse: Près de 100%"
+Le saut d'exon est associé à:,medical_genetics,"['Des mutations dénuées de sens.', 'des mutations régulatrices.', 'Des mutations du traitement de l'ARN.', 'Des mutations silencieuses.']",2,"Question: Le saut d'exon est associé à:
+
+Choix: ['Des mutations dénuées de sens.', 'des mutations régulatrices.', 'Des mutations du traitement de l'ARN.', 'Des mutations silencieuses.']
+
+Réponse: Des mutations du traitement de l'ARN."
+Lequel des symptômes suivants n'est pas un syndrome d'instabilité chromosomique ?,medical_genetics,"['Syndrome de Klinefelter', 'Ataxie télangiectasie', 'Anémie de Fanconi', 'Syndrome de Bloom']",0,"Question: Lequel des symptômes suivants n'est pas un syndrome d'instabilité chromosomique ?
+
+Choix: ['Syndrome de Klinefelter', 'Ataxie télangiectasie', 'Anémie de Fanconi', 'Syndrome de Bloom']
+
+Réponse: Syndrome de Klinefelter"
+L'hémoglobine normale chez l'adulte (Hb A) est composée de:,medical_genetics,"['deux chaînes α (alpha) et deux chaînes β (beta).', 'deux chaînes α et deux chaînes γ (gamma).', 'deux chaînes α et deux chaînes δ (delta).', 'quatre chaînes γ.']",0,"Question: L'hémoglobine normale chez l'adulte (Hb A) est composée de:
+
+Choix: ['deux chaînes α (alpha) et deux chaînes β (beta).', 'deux chaînes α et deux chaînes γ (gamma).', 'deux chaînes α et deux chaînes δ (delta).', 'quatre chaînes γ.']
+
+Réponse: deux chaînes α (alpha) et deux chaînes β (beta)."
+"Dans une condition telle que la schizophrénie, le risque de récidive sera le plus élevé pour lequel des proches suivants d'une personne affectée?",medical_genetics,"['Mon frère !', 'Le neveu .', 'Le petit-fils .', 'Une tante .']",0,"Question: Dans une condition telle que la schizophrénie, le risque de récidive sera le plus élevé pour lequel des proches suivants d'une personne affectée?
+
+Choix: ['Mon frère !', 'Le neveu .', 'Le petit-fils .', 'Une tante .']
+
+Réponse: Mon frère !"
+La mutation dans la drépanocytose se compose de:,medical_genetics,"['une suppression.', 'une duplication.', 'une insertion.', 'une mutation ponctuelle.']",3,"Question: La mutation dans la drépanocytose se compose de:
+
+Choix: ['une suppression.', 'une duplication.', 'une insertion.', 'une mutation ponctuelle.']
+
+Réponse: une mutation ponctuelle."
+Lequel des éléments suivants est un exemple de monosomie ?,medical_genetics,"['Nom de l'établissement', 'Nom de l'établissement', '69,XYY', 'Nombre d'exemplaires']",3,"Question: Lequel des éléments suivants est un exemple de monosomie ?
+
+Choix: ['Nom de l'établissement', 'Nom de l'établissement', '69,XYY', 'Nombre d'exemplaires']
+
+Réponse: Nombre d'exemplaires"
+L'analyse QTL est utilisée pour,medical_genetics,"['identifier les régions chromosomiques associées à un trait complexe dans un croisement génétique', 'déterminer quels gènes sont exprimés à un stade de développement', 'cartographie des gènes dans les virus bactériens', 'identifier les sites de liaison de l'ARN polymérase']",0,"Question: L'analyse QTL est utilisée pour
+
+Choix: ['identifier les régions chromosomiques associées à un trait complexe dans un croisement génétique', 'déterminer quels gènes sont exprimés à un stade de développement', 'cartographie des gènes dans les virus bactériens', 'identifier les sites de liaison de l'ARN polymérase']
+
+Réponse: identifier les régions chromosomiques associées à un trait complexe dans un croisement génétique"
+Quelle serait la fréquence des individus AABBCC provenant d'un accouplement de deux individus AaBbCc?,medical_genetics,"['Résultats de l'enquête', 'Résistance à l'humidité', 'Résultats de l'enquête', 'Résolution du Parlement européen']",0,"Question: Quelle serait la fréquence des individus AABBCC provenant d'un accouplement de deux individus AaBbCc?
+
+Choix: ['Résultats de l'enquête', 'Résistance à l'humidité', 'Résultats de l'enquête', 'Résolution du Parlement européen']
+
+Réponse: Résultats de l'enquête"
+"On estime actuellement qu'il existe ______ gènes codant pour les protéines humaines, bien que cette estimation puisse être réduite au fil du temps.",medical_genetics,"['10 000 à 15 000', '19 000 à 20 000', '29 000 à 30 000', '100 000 personnes']",1,"Question: On estime actuellement qu'il existe ______ gènes codant pour les protéines humaines, bien que cette estimation puisse être réduite au fil du temps.
+
+Choix: ['10 000 à 15 000', '19 000 à 20 000', '29 000 à 30 000', '100 000 personnes']
+
+Réponse: 19 000 à 20 000"
+Avec lequel des parents suivants un individu est le plus susceptible de partager un haplotype HLA commun?,medical_genetics,"['Mon père .', 'La mère .', 'Ma sœur .', 'Mon fils !']",2,"Question: Avec lequel des parents suivants un individu est le plus susceptible de partager un haplotype HLA commun?
+
+Choix: ['Mon père .', 'La mère .', 'Ma sœur .', 'Mon fils !']
+
+Réponse: Ma sœur ."
+Lequel des gènes suivants véhicule la susceptibilité à la maladie d'Alzheimer polygénique?,medical_genetics,"['APP (en anglais seulement)', 'Nom de l'établissement', 'PS2 (en anglais)', 'Nom de l'établissement']",3,"Question: Lequel des gènes suivants véhicule la susceptibilité à la maladie d'Alzheimer polygénique?
+
+Choix: ['APP (en anglais seulement)', 'Nom de l'établissement', 'PS2 (en anglais)', 'Nom de l'établissement']
+
+Réponse: Nom de l'établissement"
+Le syndrome DiGeorge/Shprintzen est causé par une délétion dans quel chromosome ?,medical_genetics,"['Nom de l'entreprise:', 'Nom de l'entreprise:', 'Nom de l'entreprise:', 'Il y en a vingt-deux.']",3,"Question: Le syndrome DiGeorge/Shprintzen est causé par une délétion dans quel chromosome ?
+
+Choix: ['Nom de l'entreprise:', 'Nom de l'entreprise:', 'Nom de l'entreprise:', 'Il y en a vingt-deux.']
+
+Réponse: Il y en a vingt-deux."
+Inactivation du chromosome X,medical_genetics,"['entraîne la désactivation génétique de l'un des deux chromosomes X chez les femelles de mammifères', 'se produit chez l'homme de sorte que le même chromosome X est inactif dans toutes les cellules d'une femme', 'est la cause de l'inactivité génétique du chromosome Y', 'se produit chez les mouches des fruits mais pas chez les mammifères']",0,"Question: Inactivation du chromosome X
+
+Choix: ['entraîne la désactivation génétique de l'un des deux chromosomes X chez les femelles de mammifères', 'se produit chez l'homme de sorte que le même chromosome X est inactif dans toutes les cellules d'une femme', 'est la cause de l'inactivité génétique du chromosome Y', 'se produit chez les mouches des fruits mais pas chez les mammifères']
+
+Réponse: entraîne la désactivation génétique de l'un des deux chromosomes X chez les femelles de mammifères"
+Le schéma d'hérédité présenté par la carence en glucose-6-phosphate déshydrogénase (G6PD) est le suivant:,medical_genetics,"['Autosomiquement dominant.', 'Autosomique récessive.', 'Dominant lié au X.', 'Recessif lié au X.']",3,"Question: Le schéma d'hérédité présenté par la carence en glucose-6-phosphate déshydrogénase (G6PD) est le suivant:
+
+Choix: ['Autosomiquement dominant.', 'Autosomique récessive.', 'Dominant lié au X.', 'Recessif lié au X.']
+
+Réponse: Recessif lié au X."
+Séquences d'homéoboxes,medical_genetics,"['sont présentes dans le génome de nombreuses espèces animales', 'sont présents chez les procaryotes mais pas chez les eucaryotes', 'ont été identifiés comme les sites d'intégration des virus bactériens', 'représentent des sites d'intégration pour les éléments transposables']",0,"Question: Séquences d'homéoboxes
+
+Choix: ['sont présentes dans le génome de nombreuses espèces animales', 'sont présents chez les procaryotes mais pas chez les eucaryotes', 'ont été identifiés comme les sites d'intégration des virus bactériens', 'représentent des sites d'intégration pour les éléments transposables']
+
+Réponse: sont présentes dans le génome de nombreuses espèces animales"
+Lequel des karyotypes suivants est le diagnostic du syndrome de Down ?,medical_genetics,"['Il n'y a pas d'exception à cette règle, car il n'y a pas d'exception à cette règle.', '47,XY+13', 'Il n'y a pas d'exception à cette règle.', 'Résultats de l'évaluation de l'efficacité énergétique et de l'efficacité énergétique']",0,"Question: Lequel des karyotypes suivants est le diagnostic du syndrome de Down ?
+
+Choix: ['Il n'y a pas d'exception à cette règle, car il n'y a pas d'exception à cette règle.', '47,XY+13', 'Il n'y a pas d'exception à cette règle.', 'Résultats de l'évaluation de l'efficacité énergétique et de l'efficacité énergétique']
+
+Réponse: Il n'y a pas d'exception à cette règle, car il n'y a pas d'exception à cette règle."
+"La nature est plus importante pour les différences ______, tandis que l'éducation a une plus grande influence sur les différences ______.",medical_genetics,"['structurelle et anatomique; psychologique et sociale', 'psychologiques et sociaux; structurels et anatomiques', 'structurelle et psychologique; anatomique et sociale', 'Il s'agit d'un phénomène social et anatomique, d'un phénomène psychologique et d'un phénomène structurel.']",0,"Question: La nature est plus importante pour les différences ______, tandis que l'éducation a une plus grande influence sur les différences ______.
+
+Choix: ['structurelle et anatomique; psychologique et sociale', 'psychologiques et sociaux; structurels et anatomiques', 'structurelle et psychologique; anatomique et sociale', 'Il s'agit d'un phénomène social et anatomique, d'un phénomène psychologique et d'un phénomène structurel.']
+
+Réponse: structurelle et anatomique; psychologique et sociale"
+Lequel des éléments suivants entraînerait le syndrome d'Angelman ?,medical_genetics,"['UPD chez la mère 15', 'UPD paternelle 15', 'Suppression dans le chromosome paternel dérivé 15', 'Une mutation du promoteur SNRPN']",1,"Question: Lequel des éléments suivants entraînerait le syndrome d'Angelman ?
+
+Choix: ['UPD chez la mère 15', 'UPD paternelle 15', 'Suppression dans le chromosome paternel dérivé 15', 'Une mutation du promoteur SNRPN']
+
+Réponse: UPD paternelle 15"
+Pour le traitement de quelles maladies/syndromes l'alpha-iduronidase recombinante est-elle utilisée?,medical_genetics,"['Maladie de Fabry', 'Maladie de Gaucher', 'Syndrome de Hurler', 'Maladie de la pompe']",2,"Question: Pour le traitement de quelles maladies/syndromes l'alpha-iduronidase recombinante est-elle utilisée?
+
+Choix: ['Maladie de Fabry', 'Maladie de Gaucher', 'Syndrome de Hurler', 'Maladie de la pompe']
+
+Réponse: Syndrome de Hurler"
+Les recherches de Moshe Szyf et de ses collègues ont fourni des résultats significatifs sur les influences épigénétiques du stress maternel prénatal.,medical_genetics,"['épigénétique du développement', 'épigénétique sociale', 'épigénétique fœtale', 'épigénétique maternelle']",1,"Question: Les recherches de Moshe Szyf et de ses collègues ont fourni des résultats significatifs sur les influences épigénétiques du stress maternel prénatal.
+
+Choix: ['épigénétique du développement', 'épigénétique sociale', 'épigénétique fœtale', 'épigénétique maternelle']
+
+Réponse: épigénétique sociale"
+"Si les deux parents sont affectés par le même trouble autosomique récessif, la probabilité que chacun de leurs enfants soit affecté est égale à ___.",medical_genetics,"['1 sur 4', 'Un sur deux .', '2 sur 3', 'Nom de l'établissement']",3,"Question: Si les deux parents sont affectés par le même trouble autosomique récessif, la probabilité que chacun de leurs enfants soit affecté est égale à ___.
+
+Choix: ['1 sur 4', 'Un sur deux .', '2 sur 3', 'Nom de l'établissement']
+
+Réponse: Nom de l'établissement"
+Le mécanisme mutationnel de la δβ-thalassémie se compose de:,medical_genetics,"['une suppression.', 'une duplication.', 'une insertion.', 'une mutation ponctuelle.']",0,"Question: Le mécanisme mutationnel de la δβ-thalassémie se compose de:
+
+Choix: ['une suppression.', 'une duplication.', 'une insertion.', 'une mutation ponctuelle.']
+
+Réponse: une suppression."
+"En supposant l'équilibre de Hardy-Weinberg, la fréquence de génotype des hétérozygotes, si la fréquence des deux allèles du gène étudié est de 0,6 et 0,4, sera:",medical_genetics,"['0,8 à', '0,6 à 4', '0,48 à', '0,32 pour le']",2,"Question: En supposant l'équilibre de Hardy-Weinberg, la fréquence de génotype des hétérozygotes, si la fréquence des deux allèles du gène étudié est de 0,6 et 0,4, sera:
+
+Choix: ['0,8 à', '0,6 à 4', '0,48 à', '0,32 pour le']
+
+Réponse: 0,48 à"
+L'hypercholestérolémie familiale est causée par des mutations dans le gène qui code pour quoi ?,medical_genetics,"['Lipoprotéines à haute densité', 'HMG-CoA réductase', 'Lipoprotéines de faible densité', 'Récepteur des lipoprotéines de basse densité']",3,"Question: L'hypercholestérolémie familiale est causée par des mutations dans le gène qui code pour quoi ?
+
+Choix: ['Lipoprotéines à haute densité', 'HMG-CoA réductase', 'Lipoprotéines de faible densité', 'Récepteur des lipoprotéines de basse densité']
+
+Réponse: Récepteur des lipoprotéines de basse densité"
+"Un croisement entre deux véritables lignées de reproduction, l'une à fleurs bleu foncé et l'autre à fleurs blanches vives, produit une progéniture F1 de couleur bleu clair. Lorsque la progéniture F1 est sédée, un rapport de 1: 2: 1 entre les fleurs bleu foncé, bleu clair et blanc est observé. Quel phénomène génétique est compatible avec ces résultats ?",medical_genetics,"['épistase', 'domination incomplète', 'co-prédominance', 'dépression de consanguinité']",1,"Question: Un croisement entre deux véritables lignées de reproduction, l'une à fleurs bleu foncé et l'autre à fleurs blanches vives, produit une progéniture F1 de couleur bleu clair. Lorsque la progéniture F1 est sédée, un rapport de 1: 2: 1 entre les fleurs bleu foncé, bleu clair et blanc est observé. Quel phénomène génétique est compatible avec ces résultats ?
+
+Choix: ['épistase', 'domination incomplète', 'co-prédominance', 'dépression de consanguinité']
+
+Réponse: domination incomplète"
+La proportion de bébés présentant une anomalie identifiable à la naissance est de _____.,medical_genetics,"['1 sur 10', '1 sur 40', '1 sur 100', '1 sur 500']",1,"Question: La proportion de bébés présentant une anomalie identifiable à la naissance est de _____.
+
+Choix: ['1 sur 10', '1 sur 40', '1 sur 100', '1 sur 500']
+
+Réponse: 1 sur 40"
+______ a expliqué des troubles génétiques tels que l'alcaptonurie et l'albinisme.,medical_genetics,"['L'héritage récessif a', 'Les gènes dominants ont', 'Chromosomes X', 'Chromosomes Y']",0,"Question: ______ a expliqué des troubles génétiques tels que l'alcaptonurie et l'albinisme.
+
+Choix: ['L'héritage récessif a', 'Les gènes dominants ont', 'Chromosomes X', 'Chromosomes Y']
+
+Réponse: L'héritage récessif a"
+Laquelle des conditions suivantes montre une anticipation de la transmission paternelle?,medical_genetics,"['Maladie de Huntington', 'Syndrome de Marfan', 'Fibrose kystique', 'Syndrome du X fragile']",0,"Question: Laquelle des conditions suivantes montre une anticipation de la transmission paternelle?
+
+Choix: ['Maladie de Huntington', 'Syndrome de Marfan', 'Fibrose kystique', 'Syndrome du X fragile']
+
+Réponse: Maladie de Huntington"
+Une mutation homéotique est une mutation qui,medical_genetics,"['est présent sous une seule forme chez un individu', 'remplace une partie du corps par une autre au cours du développement', 'entraîne le développement d' une tumeur', 'est de type sauvage à une température et anormale à une autre']",1,"Question: Une mutation homéotique est une mutation qui
+
+Choix: ['est présent sous une seule forme chez un individu', 'remplace une partie du corps par une autre au cours du développement', 'entraîne le développement d' une tumeur', 'est de type sauvage à une température et anormale à une autre']
+
+Réponse: remplace une partie du corps par une autre au cours du développement"
+Lequel des éléments suivants n'est pas un syndrome de cancer familial ?,medical_genetics,"['Polypose adénomateuse familiale', 'Syndrome de Li-Fraumeni', 'Le syndrome de Von Hippel-Lindau', 'Le syndrome de Waardenburg']",3,"Question: Lequel des éléments suivants n'est pas un syndrome de cancer familial ?
+
+Choix: ['Polypose adénomateuse familiale', 'Syndrome de Li-Fraumeni', 'Le syndrome de Von Hippel-Lindau', 'Le syndrome de Waardenburg']
+
+Réponse: Le syndrome de Waardenburg"
+"Le système d'héritage épigénétique a été décrit comme ______ (Mayr et Provine, 1980).",medical_genetics,"['hérédité du génotype', 'l'hérédité douce', 'Hérédité de l'ARN', 'héritage difficile']",1,"Question: Le système d'héritage épigénétique a été décrit comme ______ (Mayr et Provine, 1980).
+
+Choix: ['hérédité du génotype', 'l'hérédité douce', 'Hérédité de l'ARN', 'héritage difficile']
+
+Réponse: l'hérédité douce"
+L'anémie grave à la naissance est une caractéristique de quoi ?,medical_genetics,"['alpha-thalassémie', 'Béta-thalassémie', 'Persistance héréditaire de l'hémoglobine fœtale', 'Maladie des cellules falciformes']",0,"Question: L'anémie grave à la naissance est une caractéristique de quoi ?
+
+Choix: ['alpha-thalassémie', 'Béta-thalassémie', 'Persistance héréditaire de l'hémoglobine fœtale', 'Maladie des cellules falciformes']
+
+Réponse: alpha-thalassémie"
+Si un trouble récessif lié à l' X est en équilibre Hardy-Weinberg et que l' incidence chez les hommes est égale à 1 sur 100 alors l'incidence attendue des femelles homozygotes affectées serait de _______.,medical_genetics,"['1 sur 1 000', '1 sur 4 000', '1 personne sur 10 000', '1 personne sur 40 000']",2,"Question: Si un trouble récessif lié à l' X est en équilibre Hardy-Weinberg et que l' incidence chez les hommes est égale à 1 sur 100 alors l'incidence attendue des femelles homozygotes affectées serait de _______.
+
+Choix: ['1 sur 1 000', '1 sur 4 000', '1 personne sur 10 000', '1 personne sur 40 000']
+
+Réponse: 1 personne sur 10 000"
+La maladie de Tay-Sachs est causée par une carence en _________________?,medical_genetics,"['alpha-L-iduronidase', 'Glucose-6-phosphatase', 'Hexosaminidase A', 'Oxydase de l'acide homogénétique']",2,"Question: La maladie de Tay-Sachs est causée par une carence en _________________?
+
+Choix: ['alpha-L-iduronidase', 'Glucose-6-phosphatase', 'Hexosaminidase A', 'Oxydase de l'acide homogénétique']
+
+Réponse: Hexosaminidase A"
+Une mutation absurde implique:,medical_genetics,"['une séquence de régulation.', 'un site d'acceptation de l'épissure AG.', 'la création d'un acide aminé différent.', 'la création d'un codon d'arrêt.']",3,"Question: Une mutation absurde implique:
+
+Choix: ['une séquence de régulation.', 'un site d'acceptation de l'épissure AG.', 'la création d'un acide aminé différent.', 'la création d'un codon d'arrêt.']
+
+Réponse: la création d'un codon d'arrêt."
+La réaction en chaîne par polymérase ou PCR est une technique qui,medical_genetics,"['a été utilisé pour démontrer l'ADN comme le matériel génétique', 'est utilisé pour déterminer la teneur en minéraux d'un échantillon de sol', 'utilise des primers d'ADN courts et une polymérase d'ADN thermostable pour reproduire des séquences d'ADN spécifiques in vitro.', 'mesure le taux de transfert des ribosomes pendant la traduction']",2,"Question: La réaction en chaîne par polymérase ou PCR est une technique qui
+
+Choix: ['a été utilisé pour démontrer l'ADN comme le matériel génétique', 'est utilisé pour déterminer la teneur en minéraux d'un échantillon de sol', 'utilise des primers d'ADN courts et une polymérase d'ADN thermostable pour reproduire des séquences d'ADN spécifiques in vitro.', 'mesure le taux de transfert des ribosomes pendant la traduction']
+
+Réponse: utilise des primers d'ADN courts et une polymérase d'ADN thermostable pour reproduire des séquences d'ADN spécifiques in vitro."
+Dans quelle situation le taux sérique maternel d'alpha-fétoprotéine (AFP) est-il inférieur à la moyenne?,medical_genetics,"['Syndrome de Down', 'L'exomphalée', 'Défauts du tube neural', 'Grossesse de jumeaux']",0,"Question: Dans quelle situation le taux sérique maternel d'alpha-fétoprotéine (AFP) est-il inférieur à la moyenne?
+
+Choix: ['Syndrome de Down', 'L'exomphalée', 'Défauts du tube neural', 'Grossesse de jumeaux']
+
+Réponse: Syndrome de Down"
+______ a été décrit comme le phénomène par lequel un génotype peut donner lieu à une gamme d'états physiologiques ou morphologiques différents en réponse à différentes conditions environnementales pendant le développement (West-Eberhard 1989).,medical_genetics,"['Plasticité fœtale', 'L'hypothèse des origines fœtales', 'Plasticité du développement', 'Plasticité environnementale']",2,"Question: ______ a été décrit comme le phénomène par lequel un génotype peut donner lieu à une gamme d'états physiologiques ou morphologiques différents en réponse à différentes conditions environnementales pendant le développement (West-Eberhard 1989).
+
+Choix: ['Plasticité fœtale', 'L'hypothèse des origines fœtales', 'Plasticité du développement', 'Plasticité environnementale']
+
+Réponse: Plasticité du développement"
+L'arabidopsis est avantageuse pour la recherche génétique végétale car:,medical_genetics,"['il est important sur le plan commercial en tant que culture alimentaire', 'c'est une espèce en voie de disparition', 'C' est la plus proche de l' homme de toutes les plantes existantes .', 'Il s'agit d'une petite plante avec un petit génome qui peut être cultivée à moindre coût.']",3,"Question: L'arabidopsis est avantageuse pour la recherche génétique végétale car:
+
+Choix: ['il est important sur le plan commercial en tant que culture alimentaire', 'c'est une espèce en voie de disparition', 'C' est la plus proche de l' homme de toutes les plantes existantes .', 'Il s'agit d'une petite plante avec un petit génome qui peut être cultivée à moindre coût.']
+
+Réponse: Il s'agit d'une petite plante avec un petit génome qui peut être cultivée à moindre coût."
+La proportion de gènes partagés par les cousins germains est en moyenne de ___.,medical_genetics,"['Résistance à l'eau', '1 à 4', 'Résistance à la température', 'Résistance à l'humidité']",2,"Question: La proportion de gènes partagés par les cousins germains est en moyenne de ___.
+
+Choix: ['Résistance à l'eau', '1 à 4', 'Résistance à la température', 'Résistance à l'humidité']
+
+Réponse: Résistance à la température"
+Lequel des éléments suivants n'est pas un gène suppresseur de tumeur ?,medical_genetics,"['Produits à base de céréales', 'NF1 et NF2', 'RB1 et RB2', 'Rétroélectrique']",3,"Question: Lequel des éléments suivants n'est pas un gène suppresseur de tumeur ?
+
+Choix: ['Produits à base de céréales', 'NF1 et NF2', 'RB1 et RB2', 'Rétroélectrique']
+
+Réponse: Rétroélectrique"
+Lequel des éléments suivants est une caractéristique de l'hérédité dominante liée au X?,medical_genetics,"['Consanguinité parentale', 'Transmission d'homme à homme', 'Transmission uniquement par les femelles', 'Transmis par les mâles uniquement aux femelles']",3,"Question: Lequel des éléments suivants est une caractéristique de l'hérédité dominante liée au X?
+
+Choix: ['Consanguinité parentale', 'Transmission d'homme à homme', 'Transmission uniquement par les femelles', 'Transmis par les mâles uniquement aux femelles']
+
+Réponse: Transmis par les mâles uniquement aux femelles"
+En moyenne Combien de fragments serait une enzyme de restriction qui reconnaît une séquence spécifique de 4 bases dans l'ADN devrait se fendre un bactériophage à double brin avec une taille de génome de 5 Des milliers de barils ?,medical_genetics,"['environ 2', 'à peu près 4', 'environ 20', 'environ 50']",2,"Question: En moyenne Combien de fragments serait une enzyme de restriction qui reconnaît une séquence spécifique de 4 bases dans l'ADN devrait se fendre un bactériophage à double brin avec une taille de génome de 5 Des milliers de barils ?
+
+Choix: ['environ 2', 'à peu près 4', 'environ 20', 'environ 50']
+
+Réponse: environ 20"
+Le clonage positionnel se réfère à,medical_genetics,"['en utilisant une procédure de sélection pour cloner un ADNc', 'clonage d'une partie d'un gène à l'aide de la PCR', 'isolation d'un gène par PCR à l'aide de primers d'une autre espèce', 'cartographie d'un gène vers une région chromosomique puis identification et clonage d'une copie génomique du gène de la région']",3,"Question: Le clonage positionnel se réfère à
+
+Choix: ['en utilisant une procédure de sélection pour cloner un ADNc', 'clonage d'une partie d'un gène à l'aide de la PCR', 'isolation d'un gène par PCR à l'aide de primers d'une autre espèce', 'cartographie d'un gène vers une région chromosomique puis identification et clonage d'une copie génomique du gène de la région']
+
+Réponse: cartographie d'un gène vers une région chromosomique puis identification et clonage d'une copie génomique du gène de la région"
+Vecteurs de plasmide pour le clonage,medical_genetics,"['peuvent généralement accueillir des insertions plus grandes que ne le peuvent les vecteurs de phages', 'se développent à l'intérieur des bactéries et sont présentes dans des colonies bactériennes sur une plaque d'agar', 'pouvant accueillir des inserts de plus de 100 kilobases', 'inclure des centromères pour permettre la propagation dans la levure']",1,"Question: Vecteurs de plasmide pour le clonage
+
+Choix: ['peuvent généralement accueillir des insertions plus grandes que ne le peuvent les vecteurs de phages', 'se développent à l'intérieur des bactéries et sont présentes dans des colonies bactériennes sur une plaque d'agar', 'pouvant accueillir des inserts de plus de 100 kilobases', 'inclure des centromères pour permettre la propagation dans la levure']
+
+Réponse: se développent à l'intérieur des bactéries et sont présentes dans des colonies bactériennes sur une plaque d'agar"
+Protéines activatrices de la transcription,medical_genetics,"['lier des régions proches d'un gène eucaryote et permettre à une ARN polymérase de transcrire un gène', 'se lier aux ribosomes pour activer la production de protéines spécifiques', 'sont produits lors d'une infection bactérienne par un phage', 'sont essentiels au fonctionnement des ARN de transfert pendant la traduction']",0,"Question: Protéines activatrices de la transcription
+
+Choix: ['lier des régions proches d'un gène eucaryote et permettre à une ARN polymérase de transcrire un gène', 'se lier aux ribosomes pour activer la production de protéines spécifiques', 'sont produits lors d'une infection bactérienne par un phage', 'sont essentiels au fonctionnement des ARN de transfert pendant la traduction']
+
+Réponse: lier des régions proches d'un gène eucaryote et permettre à une ARN polymérase de transcrire un gène"
+"En supposant que le taux de glucose soit faible, une mutation du répresseur associée à l' opéron lac de E coli qui empêche la liaison du répresseur au lactose devrait entraîner:",medical_genetics,"['l'expression constitutive des gènes de l'opéron lac', 'absence d'expression ou expression réduite des gènes lac opérons en toutes circonstances', 'l'expression des gènes uniquement en présence de lactose', 'l'expression des gènes uniquement en l'absence de lactose']",1,"Question: En supposant que le taux de glucose soit faible, une mutation du répresseur associée à l' opéron lac de E coli qui empêche la liaison du répresseur au lactose devrait entraîner:
+
+Choix: ['l'expression constitutive des gènes de l'opéron lac', 'absence d'expression ou expression réduite des gènes lac opérons en toutes circonstances', 'l'expression des gènes uniquement en présence de lactose', 'l'expression des gènes uniquement en l'absence de lactose']
+
+Réponse: absence d'expression ou expression réduite des gènes lac opérons en toutes circonstances"
+"Dans la méiose, la recombinaison se produit dans:",medical_genetics,"['Métaphase I.', 'Prophasé I.', 'Métaphase II.', 'La Prophase II est terminée.']",1,"Question: Dans la méiose, la recombinaison se produit dans:
+
+Choix: ['Métaphase I.', 'Prophasé I.', 'Métaphase II.', 'La Prophase II est terminée.']
+
+Réponse: Prophasé I."
+L'atrophie optique héréditaire de Leber est causée par une mutation dans:,medical_genetics,"['le chromosome 12.', 'le chromosome 18.', 'le chromosome 21.', 'avec de l'ADN mitochondrial.']",3,"Question: L'atrophie optique héréditaire de Leber est causée par une mutation dans:
+
+Choix: ['le chromosome 12.', 'le chromosome 18.', 'le chromosome 21.', 'avec de l'ADN mitochondrial.']
+
+Réponse: avec de l'ADN mitochondrial."
+"En ce qui concerne les exons, laquelle des affirmations suivantes est correcte, le cas échéant ?",medical_genetics,"['Certains exons dans les gènes codant pour les protéines sont constitués d'ADN non codant.', 'Le premier exon d'un gène codant pour une protéine contient toujours le site de départ de la translation.', 'Le dernier exon d'un gène codant pour une protéine contient toujours le codon de terminaison normal.', 'Un exon codant est toujours traduit dans l'un des trois cadres de lecture avancés possibles.']",0,"Question: En ce qui concerne les exons, laquelle des affirmations suivantes est correcte, le cas échéant ?
+
+Choix: ['Certains exons dans les gènes codant pour les protéines sont constitués d'ADN non codant.', 'Le premier exon d'un gène codant pour une protéine contient toujours le site de départ de la translation.', 'Le dernier exon d'un gène codant pour une protéine contient toujours le codon de terminaison normal.', 'Un exon codant est toujours traduit dans l'un des trois cadres de lecture avancés possibles.']
+
+Réponse: Certains exons dans les gènes codant pour les protéines sont constitués d'ADN non codant."
+"Chez l'homme, chaque cellule contient normalement ______ de chromosomes.",medical_genetics,"['11 paires', '23 paires', '32 paires', '46 paires']",1,"Question: Chez l'homme, chaque cellule contient normalement ______ de chromosomes.
+
+Choix: ['11 paires', '23 paires', '32 paires', '46 paires']
+
+Réponse: 23 paires"
+"Une augmentation du coefficient de consanguinité, F, est susceptible d'entraîner:",medical_genetics,"['probabilité réduite de présence d'hétérozygotes dans une population', 'une proportion plus élevée de gènes qui montrent une liaison', 'proportion plus élevée de gènes avec des introns', 'niveau plus élevé de différence entre les molécules d'ARN dans deux cellules filles']",0,"Question: Une augmentation du coefficient de consanguinité, F, est susceptible d'entraîner:
+
+Choix: ['probabilité réduite de présence d'hétérozygotes dans une population', 'une proportion plus élevée de gènes qui montrent une liaison', 'proportion plus élevée de gènes avec des introns', 'niveau plus élevé de différence entre les molécules d'ARN dans deux cellules filles']
+
+Réponse: probabilité réduite de présence d'hétérozygotes dans une population"
+Lequel des résultats suivants d'une échographie prénatale ne susciterait pas la suspicion d'une anomalie chromosomique?,medical_genetics,"['Atrésie duodénale', 'Holoprosencéphalie', 'Hydrops foetalis', 'Des jumeaux monozygotes']",3,"Question: Lequel des résultats suivants d'une échographie prénatale ne susciterait pas la suspicion d'une anomalie chromosomique?
+
+Choix: ['Atrésie duodénale', 'Holoprosencéphalie', 'Hydrops foetalis', 'Des jumeaux monozygotes']
+
+Réponse: Des jumeaux monozygotes"
+"La probabilité qu'un individu dans une population porte deux allèles spécifiques d'un marqueur d'ADN humain, dont chacun a une fréquence de 0,2, sera:",medical_genetics,"['0,4 à', '0,32 pour le', '0,08 à', '0,02 pour le']",2,"Question: La probabilité qu'un individu dans une population porte deux allèles spécifiques d'un marqueur d'ADN humain, dont chacun a une fréquence de 0,2, sera:
+
+Choix: ['0,4 à', '0,32 pour le', '0,08 à', '0,02 pour le']
+
+Réponse: 0,08 à"
+Une souche Hfr d'E. coli contient:,medical_genetics,"['un vecteur de levure ou d'origine bactérienne qui est utilisé pour faire de nombreuses copies d'une séquence d'ADN donnée', 'un chromosome bactérien avec un gène humain inséré', 'un chromosome bactérien avec le facteur F inséré', 'un chromosome humain avec un élément transposable inséré']",2,"Question: Une souche Hfr d'E. coli contient:
+
+Choix: ['un vecteur de levure ou d'origine bactérienne qui est utilisé pour faire de nombreuses copies d'une séquence d'ADN donnée', 'un chromosome bactérien avec un gène humain inséré', 'un chromosome bactérien avec le facteur F inséré', 'un chromosome humain avec un élément transposable inséré']
+
+Réponse: un chromosome bactérien avec le facteur F inséré"
+La transmission de l'homme à l'homme est une caractéristique clé de quel schéma d'hérédité?,medical_genetics,"['Autosomique dominante', 'Autosomique récessive', 'Dominant lié à X', 'Récessif lié à X']",0,"Question: La transmission de l'homme à l'homme est une caractéristique clé de quel schéma d'hérédité?
+
+Choix: ['Autosomique dominante', 'Autosomique récessive', 'Dominant lié à X', 'Récessif lié à X']
+
+Réponse: Autosomique dominante"
+Les polymorphismes simples de répétition en tandem chez l'homme sont les plus utiles pour,medical_genetics,"['la résolution d'affaires pénales et de paternité', 'reconstruire les relations entre les humains et les chimpanzés.', 'estimation des relations entre les humains et les Néandertaliens', 'transfert des facteurs de résistance aux maladies vers les cellules de la moelle osseuse']",0,"Question: Les polymorphismes simples de répétition en tandem chez l'homme sont les plus utiles pour
+
+Choix: ['la résolution d'affaires pénales et de paternité', 'reconstruire les relations entre les humains et les chimpanzés.', 'estimation des relations entre les humains et les Néandertaliens', 'transfert des facteurs de résistance aux maladies vers les cellules de la moelle osseuse']
+
+Réponse: la résolution d'affaires pénales et de paternité"
+Lequel des troubles suivants n'est pas approprié pour le dépistage de la population de porteurs?,medical_genetics,"['Fibrose kystique', 'Albinisme oculo-cutané', 'Maladie des cellules falciformes', 'maladie de Tay-Sachs']",1,"Question: Lequel des troubles suivants n'est pas approprié pour le dépistage de la population de porteurs?
+
+Choix: ['Fibrose kystique', 'Albinisme oculo-cutané', 'Maladie des cellules falciformes', 'maladie de Tay-Sachs']
+
+Réponse: Albinisme oculo-cutané"
+Lequel des troubles suivants ne présente pas d'hérédité liée au X?,medical_genetics,"['Dystrophie musculaire de Duchenne', 'maladie de Tay-Sachs', 'Hémophilie A', 'Hémophilie B']",1,"Question: Lequel des troubles suivants ne présente pas d'hérédité liée au X?
+
+Choix: ['Dystrophie musculaire de Duchenne', 'maladie de Tay-Sachs', 'Hémophilie A', 'Hémophilie B']
+
+Réponse: maladie de Tay-Sachs"
+L'anomalie chromosomique la plus fréquente dans les fausses couches spontanées du premier trimestre est:,medical_genetics,"['une trisomie.', 'C'est une monosomie.', 'une triploïdie.', 'une tétrasomie.']",0,"Question: L'anomalie chromosomique la plus fréquente dans les fausses couches spontanées du premier trimestre est:
+
+Choix: ['une trisomie.', 'C'est une monosomie.', 'une triploïdie.', 'une tétrasomie.']
+
+Réponse: une trisomie."
+Lequel des karyotypes suivants n'est pas compatible avec la survie à la naissance?,medical_genetics,"['47,XY+13', 'Nom de l'établissement', '47,XY+21', '45,Y']",3,"Question: Lequel des karyotypes suivants n'est pas compatible avec la survie à la naissance?
+
+Choix: ['47,XY+13', 'Nom de l'établissement', '47,XY+21', '45,Y']
+
+Réponse: 45,Y"
+Le cancer du sein masculin est associé à des mutations dans ___.,medical_genetics,"['Le BRCA1', 'Nom de l'organisme:', 'NF1 et NF2', 'Rétroélectrique']",1,"Question: Le cancer du sein masculin est associé à des mutations dans ___.
+
+Choix: ['Le BRCA1', 'Nom de l'organisme:', 'NF1 et NF2', 'Rétroélectrique']
+
+Réponse: Nom de l'organisme:"
+La carence en pseudocholinesterase est associée à une sensibilité accrue à quoi ?,medical_genetics,"['Graines de fava', 'Halothane et ses dérivés', 'La primaquine', 'Succinylcholine et ses dérivés']",3,"Question: La carence en pseudocholinesterase est associée à une sensibilité accrue à quoi ?
+
+Choix: ['Graines de fava', 'Halothane et ses dérivés', 'La primaquine', 'Succinylcholine et ses dérivés']
+
+Réponse: Succinylcholine et ses dérivés"
+Les mutations les plus courantes de la fibrose kystique sont les suivantes:,medical_genetics,"['une suppression.', 'une duplication.', 'une substitution.', 'une insertion.']",0,"Question: Les mutations les plus courantes de la fibrose kystique sont les suivantes:
+
+Choix: ['une suppression.', 'une duplication.', 'une substitution.', 'une insertion.']
+
+Réponse: une suppression."
+Le nombre diploïde normal du chromosome humain est:,medical_genetics,"['Nom de l'entreprise:', 'Il y en a vingt-quatre.', 'Il y en a 46 .', 'Il y en a quatre-vingt-huit.']",2,"Question: Le nombre diploïde normal du chromosome humain est:
+
+Choix: ['Nom de l'entreprise:', 'Il y en a vingt-quatre.', 'Il y en a 46 .', 'Il y en a quatre-vingt-huit.']
+
+Réponse: Il y en a 46 ."
+Les avantages de l'utilisation d'adénovirus pour la thérapie génique comprennent:,medical_genetics,"['l'expression à long terme.', 'faible risque de mutagénèse par insertion.', 'faible immunogénicité.', 'facile à assembler.']",1,"Question: Les avantages de l'utilisation d'adénovirus pour la thérapie génique comprennent:
+
+Choix: ['l'expression à long terme.', 'faible risque de mutagénèse par insertion.', 'faible immunogénicité.', 'facile à assembler.']
+
+Réponse: faible risque de mutagénèse par insertion."
+Laquelle des affirmations suivantes concernant la maladie de Hirschsprung est fausse?,medical_genetics,"['Ça montre une association avec le syndrome de Down.', 'Elle est plus fréquente chez les filles que chez les garçons.', 'Le RET est un gène de sensibilité majeur.', 'Les risques de récidive sont plus élevés pour la maladie à segment long que pour la maladie à segment court.']",1,"Question: Laquelle des affirmations suivantes concernant la maladie de Hirschsprung est fausse?
+
+Choix: ['Ça montre une association avec le syndrome de Down.', 'Elle est plus fréquente chez les filles que chez les garçons.', 'Le RET est un gène de sensibilité majeur.', 'Les risques de récidive sont plus élevés pour la maladie à segment long que pour la maladie à segment court.']
+
+Réponse: Elle est plus fréquente chez les filles que chez les garçons."
+Laquelle des conditions suivantes est causée par une expansion répétée des trinucléotides (triplets)?,medical_genetics,"['Fibrose kystique', 'Dystrophie musculaire de Duchenne', 'Maladie de Huntington', 'Osteogénèse imparfaite']",2,"Question: Laquelle des conditions suivantes est causée par une expansion répétée des trinucléotides (triplets)?
+
+Choix: ['Fibrose kystique', 'Dystrophie musculaire de Duchenne', 'Maladie de Huntington', 'Osteogénèse imparfaite']
+
+Réponse: Maladie de Huntington"
+Laquelle des causes suivantes provoque le pseudohermaphrodisme féminin ?,medical_genetics,"['Insensibilité aux androgènes', 'Dysplasie campomélique', 'Hyperplasie surrénale congénitale', 'Syndrome de Klinefelter']",2,"Question: Laquelle des causes suivantes provoque le pseudohermaphrodisme féminin ?
+
+Choix: ['Insensibilité aux androgènes', 'Dysplasie campomélique', 'Hyperplasie surrénale congénitale', 'Syndrome de Klinefelter']
+
+Réponse: Hyperplasie surrénale congénitale"
+Quelle composante de l'ARN transcrit chez les eucaryotes est présente dans la transcription initiale mais est retirée avant la traduction?,medical_genetics,"['Résistance à l' intraveineuse', '3 Queue poly A', 'Site de liaison du ribosome', 'Plafond de 5']",0,"Question: Quelle composante de l'ARN transcrit chez les eucaryotes est présente dans la transcription initiale mais est retirée avant la traduction?
+
+Choix: ['Résistance à l' intraveineuse', '3 Queue poly A', 'Site de liaison du ribosome', 'Plafond de 5']
+
+Réponse: Résistance à l' intraveineuse"
+Lequel des éléments suivants n'est pas une complication reconnue de la fibrose kystique ?,medical_genetics,"['Cancer de l'œsophage', 'Absence congénitale des voies déférentes', 'Diabète sucré', 'Cirrhose du foie']",0,"Question: Lequel des éléments suivants n'est pas une complication reconnue de la fibrose kystique ?
+
+Choix: ['Cancer de l'œsophage', 'Absence congénitale des voies déférentes', 'Diabète sucré', 'Cirrhose du foie']
+
+Réponse: Cancer de l'œsophage"
+Laquelle des techniques de diagnostic suivantes est sans valeur pour le diagnostic des anomalies du tube neural?,medical_genetics,"['Amniocentèse', 'Prélèvement d'échantillons de villosités chorioniques (CVS)', 'Screening du sérum maternel', 'Ultrasonographie']",1,"Question: Laquelle des techniques de diagnostic suivantes est sans valeur pour le diagnostic des anomalies du tube neural?
+
+Choix: ['Amniocentèse', 'Prélèvement d'échantillons de villosités chorioniques (CVS)', 'Screening du sérum maternel', 'Ultrasonographie']
+
+Réponse: Prélèvement d'échantillons de villosités chorioniques (CVS)"
+Laquelle des conditions suivantes est un trouble peroxysomal?,medical_genetics,"['Porphyrie aiguë intermittente', 'Maladie de l'urine à base de sirop d'érable', 'Déficience de l'acyl-CoA déshydrogénase à chaîne moyenne', 'Syndrome de Zellweger']",3,"Question: Laquelle des conditions suivantes est un trouble peroxysomal?
+
+Choix: ['Porphyrie aiguë intermittente', 'Maladie de l'urine à base de sirop d'érable', 'Déficience de l'acyl-CoA déshydrogénase à chaîne moyenne', 'Syndrome de Zellweger']
+
+Réponse: Syndrome de Zellweger"
+L'instabilité marquée des microsatellites est une caractéristique de:,medical_genetics,"['polypose adénomateuse familiale.', 'cancer du côlon héréditaire non polypoïde (HNPCC).', 'adénomatose endocrinienne multiple de type 2.', 'une neurofibromatose 1.']",1,"Question: L'instabilité marquée des microsatellites est une caractéristique de:
+
+Choix: ['polypose adénomateuse familiale.', 'cancer du côlon héréditaire non polypoïde (HNPCC).', 'adénomatose endocrinienne multiple de type 2.', 'une neurofibromatose 1.']
+
+Réponse: cancer du côlon héréditaire non polypoïde (HNPCC)."
+La mutation commune dans l'α-thalassémie se compose de:,medical_genetics,"['une suppression.', 'une duplication.', 'une insertion.', 'une mutation ponctuelle.']",0,"Question: La mutation commune dans l'α-thalassémie se compose de:
+
+Choix: ['une suppression.', 'une duplication.', 'une insertion.', 'une mutation ponctuelle.']
+
+Réponse: une suppression."
+Un bébé né avec une hypoplasie pulmonaire secondaire à un oligohydramnios causé par une agénèse rénale serait classé comme ayant:,medical_genetics,"['une association.', 'une dysplasie.', 'une séquence.', 'un syndrome.']",2,"Question: Un bébé né avec une hypoplasie pulmonaire secondaire à un oligohydramnios causé par une agénèse rénale serait classé comme ayant:
+
+Choix: ['une association.', 'une dysplasie.', 'une séquence.', 'un syndrome.']
+
+Réponse: une séquence."
+Le ______ est l'ensemble des caractéristiques observables et est la somme des effets génétiques et environnementaux.,medical_genetics,"['génotype', 'phénotype', 'à la fois le génotype et le phénotype', 'ni génotype ni phénotype']",1,"Question: Le ______ est l'ensemble des caractéristiques observables et est la somme des effets génétiques et environnementaux.
+
+Choix: ['génotype', 'phénotype', 'à la fois le génotype et le phénotype', 'ni génotype ni phénotype']
+
+Réponse: phénotype"
+Lequel des karyotypes de trisomie suivants a l'effet le plus léger sur le développement humain?,medical_genetics,"['Nom de l'établissement', 'Nom de l'établissement', '47,XX+13 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -', '47,XY+21']",0,"Question: Lequel des karyotypes de trisomie suivants a l'effet le plus léger sur le développement humain?
+
+Choix: ['Nom de l'établissement', 'Nom de l'établissement', '47,XX+13 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -', '47,XY+21']
+
+Réponse: Nom de l'établissement"
+Les mutations qui causent l' achondroplasie exercent un effet qui peut être classé comme:,medical_genetics,"['le négatif dominant.', 'le gain de fonction.', 'insuffisance en haploïnes.', 'une perte de fonction.']",1,"Question: Les mutations qui causent l' achondroplasie exercent un effet qui peut être classé comme:
+
+Choix: ['le négatif dominant.', 'le gain de fonction.', 'insuffisance en haploïnes.', 'une perte de fonction.']
+
+Réponse: le gain de fonction."
+La présence de deux lignées cellulaires ou plus provenant de zygotes différents chez un seul individu est connue sous le nom de:,medical_genetics,"['le mosaïcisme.', 'une diploïdie.', 'une aneuploïdie.', 'Le chimérisme.']",3,"Question: La présence de deux lignées cellulaires ou plus provenant de zygotes différents chez un seul individu est connue sous le nom de:
+
+Choix: ['le mosaïcisme.', 'une diploïdie.', 'une aneuploïdie.', 'Le chimérisme.']
+
+Réponse: Le chimérisme."
+Le risque de fausse couche associé à l' amniocentèse est d' environ ____.,medical_genetics,"['1 sur 10', '1 sur 50', '1 sur 100 à 1 sur 200', '1 sur 1 000']",2,"Question: Le risque de fausse couche associé à l' amniocentèse est d' environ ____.
+
+Choix: ['1 sur 10', '1 sur 50', '1 sur 100 à 1 sur 200', '1 sur 1 000']
+
+Réponse: 1 sur 100 à 1 sur 200"
+La cartographie de l'autozygosité est utilisée pour cartographier les troubles qui montrent quel modèle d'héritage?,medical_genetics,"['Autosomique dominante', 'Autosomique récessive', 'Dominant lié à X', 'Récessif lié à X']",1,"Question: La cartographie de l'autozygosité est utilisée pour cartographier les troubles qui montrent quel modèle d'héritage?
+
+Choix: ['Autosomique dominante', 'Autosomique récessive', 'Dominant lié à X', 'Récessif lié à X']
+
+Réponse: Autosomique récessive"
+Avec quel schéma d'héritage la consanguinité est- elle étroitement liée?,medical_genetics,"['Autosomique dominante', 'Autosomique récessive', 'Dominant lié à X', 'Récessif lié à X']",1,"Question: Avec quel schéma d'héritage la consanguinité est- elle étroitement liée?
+
+Choix: ['Autosomique dominante', 'Autosomique récessive', 'Dominant lié à X', 'Récessif lié à X']
+
+Réponse: Autosomique récessive"
+La plupart des nouvelles mutations semblent être,medical_genetics,"['bénéfique', 'neutre ou nuisible', 'présent chez les homozygotes plutôt que chez les hétérozygotes', 'détectable à l'aide d'études sur les allozymes (électrophorèse des protéines)']",1,"Question: La plupart des nouvelles mutations semblent être
+
+Choix: ['bénéfique', 'neutre ou nuisible', 'présent chez les homozygotes plutôt que chez les hétérozygotes', 'détectable à l'aide d'études sur les allozymes (électrophorèse des protéines)']
+
+Réponse: neutre ou nuisible"
+Les études sur les jumeaux chez l'homme sont utiles parce que,medical_genetics,"['ils permettent d'estimer les influences génétiques par opposition aux influences environnementales sur la variation d'un trait', 'Le clonage des gènes est facilité par la présence de copies supplémentaires.', 'ils permettent une meilleure expression des gènes', 'les jumeaux sont plus susceptibles d'être hétérozygotes']",0,"Question: Les études sur les jumeaux chez l'homme sont utiles parce que
+
+Choix: ['ils permettent d'estimer les influences génétiques par opposition aux influences environnementales sur la variation d'un trait', 'Le clonage des gènes est facilité par la présence de copies supplémentaires.', 'ils permettent une meilleure expression des gènes', 'les jumeaux sont plus susceptibles d'être hétérozygotes']
+
+Réponse: ils permettent d'estimer les influences génétiques par opposition aux influences environnementales sur la variation d'un trait"
+Remplissez la phrase suivante Le chromosome de Philadelphie:,medical_genetics,"['est un exemple d'amplification génique.', 'est le produit d'une translocation réciproque.', 'cause le lymphome de Burkitt.', 'provoque un rétinoblastome.']",1,"Question: Remplissez la phrase suivante Le chromosome de Philadelphie:
+
+Choix: ['est un exemple d'amplification génique.', 'est le produit d'une translocation réciproque.', 'cause le lymphome de Burkitt.', 'provoque un rétinoblastome.']
+
+Réponse: est le produit d'une translocation réciproque."
+Le test enzymatique peut être utilisé pour identifier les porteurs de:,medical_genetics,"['Une fibrose kystique.', 'Le syndrome du X fragile.', 'Un albinisme oculo-cutané.', 'La maladie de Tay-Sachs.']",3,"Question: Le test enzymatique peut être utilisé pour identifier les porteurs de:
+
+Choix: ['Une fibrose kystique.', 'Le syndrome du X fragile.', 'Un albinisme oculo-cutané.', 'La maladie de Tay-Sachs.']
+
+Réponse: La maladie de Tay-Sachs."
+Un taux élevé d' ammoniac dans le sang se produit dans:,medical_genetics,"['galactoseémie.', 'Le syndrome de Hurler.', 'déficience en transcarbamylase d' ornithine (OTC).', 'phénylcétonurie.']",2,"Question: Un taux élevé d' ammoniac dans le sang se produit dans:
+
+Choix: ['galactoseémie.', 'Le syndrome de Hurler.', 'déficience en transcarbamylase d' ornithine (OTC).', 'phénylcétonurie.']
+
+Réponse: déficience en transcarbamylase d' ornithine (OTC)."
+Dans les études d'association à l'échelle du génome Les SNPs connus expliquent ______ de la variation de l'indice de masse corporelle malgré les preuves d'une héritabilité supérieure à 50% issues d'études sur les jumeaux et les familles.,medical_genetics,"['seulement 5%', 'inférieur à 1%', 'seulement 13%', 'inférieur à 2%']",3,"Question: Dans les études d'association à l'échelle du génome Les SNPs connus expliquent ______ de la variation de l'indice de masse corporelle malgré les preuves d'une héritabilité supérieure à 50% issues d'études sur les jumeaux et les familles.
+
+Choix: ['seulement 5%', 'inférieur à 1%', 'seulement 13%', 'inférieur à 2%']
+
+Réponse: inférieur à 2%"
+La répartition différentielle des substances dans l'œuf entraîne le plus souvent:,medical_genetics,"['Différences dans l'expression des gènes qui peuvent établir un schéma dans l'embryon au fur et à mesure que les cellules se divisent', 'amplification de gènes spécifiques pendant le développement', 'développement de tissus polyploïdes', 'perte de gènes spécifiques pendant le développement']",0,"Question: La répartition différentielle des substances dans l'œuf entraîne le plus souvent:
+
+Choix: ['Différences dans l'expression des gènes qui peuvent établir un schéma dans l'embryon au fur et à mesure que les cellules se divisent', 'amplification de gènes spécifiques pendant le développement', 'développement de tissus polyploïdes', 'perte de gènes spécifiques pendant le développement']
+
+Réponse: Différences dans l'expression des gènes qui peuvent établir un schéma dans l'embryon au fur et à mesure que les cellules se divisent"
+Laquelle des affections suivantes n'est pas causée par une mutation du FGFR3?,medical_genetics,"['Achondroplasie', 'Syndrome de Crouzon', 'Dysplasie thanatophorique', 'Le syndrome de Waardenburg']",3,"Question: Laquelle des affections suivantes n'est pas causée par une mutation du FGFR3?
+
+Choix: ['Achondroplasie', 'Syndrome de Crouzon', 'Dysplasie thanatophorique', 'Le syndrome de Waardenburg']
+
+Réponse: Le syndrome de Waardenburg"

@@ -11,12 +11,15 @@ from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, BitsAndBytesConfi
 
 DEFAULT_MODEL_NAME = "facebook/nllb-200-3.3B"
 #TARGET_LANG_CODE = "deu_Latn"
-TARGET_LANG_CODE = "hin_Deva"
+TARGET_LANG_CODE = "fra_Latn"
 
 
 QA_LABELS = {
     "deu_Latn": ("Frage", "Antwortoptionen", "Antwort"),
     "hin_Deva": ("प्रश्न", "उत्तर विकल्प", "उत्तर"),
+    "fra_Latn": ("Question", "Choix", "Réponse"),
+    "ita_Latn": ("Domanda", "Opzioni di risposta", "Risposta"),
+    "por_Latn": ("Pergunta", "Opções de resposta", "Resposta"),
 }
 
 
@@ -279,7 +282,7 @@ def translate_rows(
         question_de = strip_outer_quotes(
             translate_text(str(row.question), tokenizer, model, forced_bos_token_id)
         )
-        qa_de = build_qa_text(question_de, translated_choices, row.answer)
+        qa_de = build_qa_text(question_de, translated_choices, row.answer, TARGET_LANG_CODE)
 
         translated_rows.append(
             {
@@ -301,9 +304,9 @@ def translate_rows(
 def main():
     script_dir = Path(__file__).resolve().parent
     default_input_dir = script_dir / "data_val"
-    default_output = script_dir / ".."/"MMLU_Hindi"/"mmlu_hi_val.csv"
+    default_output = script_dir / ".."/"MMLU_French"/"mmlu_fr_val.csv"
 
-    parser = argparse.ArgumentParser(description="Translate MMLU validation split to German.")
+    parser = argparse.ArgumentParser(description="Translate MMLU validation split to French.")
     parser.add_argument("--input_dir", type=Path, default=default_input_dir, help="Directory with *_val.csv files.")
     parser.add_argument("--output_csv", type=Path, default=default_output, help="Output CSV path.")
     parser.add_argument(

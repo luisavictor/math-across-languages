@@ -1,0 +1,551 @@
+question,subject,choices,answer,qa
+Quelle tactique courante de relations publiques implique l'envoi de journalistes en visite dans des endroits appropriés?,public_relations,"['Communiqué de presse', 'Tournée médiatique', 'Salle de presse', 'Journées/semaines de promotion']",1,"Question: Quelle tactique courante de relations publiques implique l'envoi de journalistes en visite dans des endroits appropriés?
+
+Choix: ['Communiqué de presse', 'Tournée médiatique', 'Salle de presse', 'Journées/semaines de promotion']
+
+Réponse: Tournée médiatique"
+"Vous êtes le vice-président des relations publiques pour une société qui produit une marque bien connue de produits alimentaires Au marché d'Albany, à New York, l'un de vos produits a récemment été contaminé Bien qu'il ne soit apparemment pas mortel, il a causé à un grand nombre de consommateurs de graves crampes d'estomac et d'autres problèmes intestinaux. La cause a été retracée à votre produit, qui est vendu dans tout le pays Votre PDG veut savoir ce que vous conseilleriez pour que la situation ne devienne pas une catastrophe de relations publiques . Que recommanderiez-vous ?",public_relations,"['Renseignez- vous rapidement pour vous assurer que votre produit est définitivement la cause de la maladie.', 'Arrêtez toutes les ventes du produit à travers le pays et émettez un rappel pour ce produit.', 'Arrêter les ventes du produit sur le marché d'Albany, New York, et émettre un rappel pour ce produit.', 'Émettez un communiqué de presse au marché d'Albany, New York, expliquant comment traiter les symptômes.']",1,"Question: Vous êtes le vice-président des relations publiques pour une société qui produit une marque bien connue de produits alimentaires Au marché d'Albany, à New York, l'un de vos produits a récemment été contaminé Bien qu'il ne soit apparemment pas mortel, il a causé à un grand nombre de consommateurs de graves crampes d'estomac et d'autres problèmes intestinaux. La cause a été retracée à votre produit, qui est vendu dans tout le pays Votre PDG veut savoir ce que vous conseilleriez pour que la situation ne devienne pas une catastrophe de relations publiques . Que recommanderiez-vous ?
+
+Choix: ['Renseignez- vous rapidement pour vous assurer que votre produit est définitivement la cause de la maladie.', 'Arrêtez toutes les ventes du produit à travers le pays et émettez un rappel pour ce produit.', 'Arrêter les ventes du produit sur le marché d'Albany, New York, et émettre un rappel pour ce produit.', 'Émettez un communiqué de presse au marché d'Albany, New York, expliquant comment traiter les symptômes.']
+
+Réponse: Arrêtez toutes les ventes du produit à travers le pays et émettez un rappel pour ce produit."
+"Dans les relations publiques, la ________ traite de la capacité d'une organisation à satisfaire et à créer une expérience positive pour ses consommateurs.",public_relations,"['relations avec la communauté', 'relations avec les consommateurs', 'relations avec les employés', 'les questions publiques']",1,"Question: Dans les relations publiques, la ________ traite de la capacité d'une organisation à satisfaire et à créer une expérience positive pour ses consommateurs.
+
+Choix: ['relations avec la communauté', 'relations avec les consommateurs', 'relations avec les employés', 'les questions publiques']
+
+Réponse: relations avec les consommateurs"
+En quelle année la BBC a-t-elle commencé à diffuser la radio ?,public_relations,"['Il est mort en 1917.', 'Il est né en 1922.', 'Il est né en 1925.', 'Il est mort en 1927.']",1,"Question: En quelle année la BBC a-t-elle commencé à diffuser la radio ?
+
+Choix: ['Il est mort en 1917.', 'Il est né en 1922.', 'Il est né en 1925.', 'Il est mort en 1927.']
+
+Réponse: Il est né en 1922."
+Les campagnes publicitaires sont axées sur la collecte de soutien pour un message ou une cause particulière.,public_relations,"['Orienté vers le produit', 'Orienté vers la personne', 'Orienté sur les idées', 'Orienté vers le message']",2,"Question: Les campagnes publicitaires sont axées sur la collecte de soutien pour un message ou une cause particulière.
+
+Choix: ['Orienté vers le produit', 'Orienté vers la personne', 'Orienté sur les idées', 'Orienté vers le message']
+
+Réponse: Orienté sur les idées"
+Pourquoi un conseiller en relations publiques devrait- il constamment examiner les réalités présentes et futures d'une organisation?,public_relations,"['d'élaborer une déclaration de vision', 'd'interpréter les tendances pour la gestion', 'pour interpréter le plan d'affaires de l'organisation', 'd'examiner le rôle que pourraient jouer les relations publiques']",1,"Question: Pourquoi un conseiller en relations publiques devrait- il constamment examiner les réalités présentes et futures d'une organisation?
+
+Choix: ['d'élaborer une déclaration de vision', 'd'interpréter les tendances pour la gestion', 'pour interpréter le plan d'affaires de l'organisation', 'd'examiner le rôle que pourraient jouer les relations publiques']
+
+Réponse: d'interpréter les tendances pour la gestion"
+Laquelle de ces définitions décrit le mieux la 'spirale du silence'?,public_relations,"['Quand les victimes de mauvais traitements gardent le silence', 'Quand les gens cachent leurs opinions s'ils ne sont pas d'accord avec la majorité', 'Quand les gens cachent leurs opinions s'ils ne sont pas d'accord avec leurs pairs proches ou les membres de leur famille.', 'Lorsque les relations publiques utilisent les résultats des sondages d'opinion pour générer un soutien pour une question particulière']",0,"Question: Laquelle de ces définitions décrit le mieux la 'spirale du silence'?
+
+Choix: ['Quand les victimes de mauvais traitements gardent le silence', 'Quand les gens cachent leurs opinions s'ils ne sont pas d'accord avec la majorité', 'Quand les gens cachent leurs opinions s'ils ne sont pas d'accord avec leurs pairs proches ou les membres de leur famille.', 'Lorsque les relations publiques utilisent les résultats des sondages d'opinion pour générer un soutien pour une question particulière']
+
+Réponse: Quand les victimes de mauvais traitements gardent le silence"
+"Quels sont les deux éléments communs aux modèles de planification développés par Hendrix (2002), Kendall (1999), Merston (1963) et Parkinson et Ekachai (2006) ?",public_relations,"['Recherche et évaluation', 'Stratégie et évaluation', 'Stratégie et mise en œuvre', 'Objectifs et mise en œuvre']",0,"Question: Quels sont les deux éléments communs aux modèles de planification développés par Hendrix (2002), Kendall (1999), Merston (1963) et Parkinson et Ekachai (2006) ?
+
+Choix: ['Recherche et évaluation', 'Stratégie et évaluation', 'Stratégie et mise en œuvre', 'Objectifs et mise en œuvre']
+
+Réponse: Recherche et évaluation"
+À quel stade du processus de planification les objectifs sont-ils fixés?,public_relations,"['Définition du programme', 'Planification du programme', 'Prendre des mesures et mettre en œuvre des idées', 'Évaluation du programme']",1,"Question: À quel stade du processus de planification les objectifs sont-ils fixés?
+
+Choix: ['Définition du programme', 'Planification du programme', 'Prendre des mesures et mettre en œuvre des idées', 'Évaluation du programme']
+
+Réponse: Planification du programme"
+Lequel des éléments suivants n'est PAS l'une des quatre catégories de stratégies de communication de crise persuasive identifiées par W. Timothy Coombs?,public_relations,"['démobilisation', 'sous-estimer', 'mise à l'écart', 'non-existence']",1,"Question: Lequel des éléments suivants n'est PAS l'une des quatre catégories de stratégies de communication de crise persuasive identifiées par W. Timothy Coombs?
+
+Choix: ['démobilisation', 'sous-estimer', 'mise à l'écart', 'non-existence']
+
+Réponse: sous-estimer"
+Combien le nombre de praticiens travaillant dans des cabinets de conseil au Royaume-Uni a-t-il augmenté depuis 25 ans?,public_relations,"['Ce n'est pas le cas.', 'Doublée', 'Trois fois plus .', 'Quadruplé']",2,"Question: Combien le nombre de praticiens travaillant dans des cabinets de conseil au Royaume-Uni a-t-il augmenté depuis 25 ans?
+
+Choix: ['Ce n'est pas le cas.', 'Doublée', 'Trois fois plus .', 'Quadruplé']
+
+Réponse: Trois fois plus ."
+Quelle affirmation ne s'applique PAS à la fois à la gestion des problèmes et à la gestion des crises?,public_relations,"['Les deux nécessitent une surveillance de la recherche.', 'Les deux traitent de risques aigus.', 'De nouvelles pratiques organisationnelles sont développées à la suite de chacune d'elles.', 'Les deux peuvent nuire à la réputation d'une organisation.']",1,"Question: Quelle affirmation ne s'applique PAS à la fois à la gestion des problèmes et à la gestion des crises?
+
+Choix: ['Les deux nécessitent une surveillance de la recherche.', 'Les deux traitent de risques aigus.', 'De nouvelles pratiques organisationnelles sont développées à la suite de chacune d'elles.', 'Les deux peuvent nuire à la réputation d'une organisation.']
+
+Réponse: Les deux traitent de risques aigus."
+En quelle année la BBC a-t-elle commencé à diffuser la radio ?,public_relations,"['Il est mort en 1917.', 'Il est né en 1922.', 'Il est né en 1925.', 'Il est mort en 1927.']",1,"Question: En quelle année la BBC a-t-elle commencé à diffuser la radio ?
+
+Choix: ['Il est mort en 1917.', 'Il est né en 1922.', 'Il est né en 1925.', 'Il est mort en 1927.']
+
+Réponse: Il est né en 1922."
+Combien de journaux régionaux y a-t-il au Royaume-Uni ?,public_relations,"['Nom de l'entreprise', 'Nom de l'entreprise', 'Deux mille huit cents', 'cinq mille deux cents']",2,"Question: Combien de journaux régionaux y a-t-il au Royaume-Uni ?
+
+Choix: ['Nom de l'entreprise', 'Nom de l'entreprise', 'Deux mille huit cents', 'cinq mille deux cents']
+
+Réponse: Deux mille huit cents"
+"Selon Esman (1972), quels publics sont liés à l'organisation par des intérêts industriels communs?",public_relations,"['Permettre', 'Fonctionnelle', 'Normatifs', 'Diffusé']",2,"Question: Selon Esman (1972), quels publics sont liés à l'organisation par des intérêts industriels communs?
+
+Choix: ['Permettre', 'Fonctionnelle', 'Normatifs', 'Diffusé']
+
+Réponse: Normatifs"
+Les premières théories de la communication de masse suggéraient que le public était un récepteur passif des messages des médias et donc vulnérable à la manipulation. Laquelle des affirmations suivantes décrit le mieux la façon de penser actuelle?,public_relations,"['Le public est plus vulnérable et passif que jamais.', 'La télévision, en particulier, augmente l'activité de l'hémisphère droit du cerveau.', 'Les récepteurs actifs ne sont pas uniformément affectés par les messages de communication de masse.', 'La technologie a conduit à des destinataires de plus en plus passifs aux extrémités des systèmes de transmission de messages.']",2,"Question: Les premières théories de la communication de masse suggéraient que le public était un récepteur passif des messages des médias et donc vulnérable à la manipulation. Laquelle des affirmations suivantes décrit le mieux la façon de penser actuelle?
+
+Choix: ['Le public est plus vulnérable et passif que jamais.', 'La télévision, en particulier, augmente l'activité de l'hémisphère droit du cerveau.', 'Les récepteurs actifs ne sont pas uniformément affectés par les messages de communication de masse.', 'La technologie a conduit à des destinataires de plus en plus passifs aux extrémités des systèmes de transmission de messages.']
+
+Réponse: Les récepteurs actifs ne sont pas uniformément affectés par les messages de communication de masse."
+Laquelle des entités suivantes ne peut pas poursuivre pour diffamation?,public_relations,"['Un homme politique .', 'Une maison de culte', 'Une institution gouvernementale', 'Une société cotée en bourse']",2,"Question: Laquelle des entités suivantes ne peut pas poursuivre pour diffamation?
+
+Choix: ['Un homme politique .', 'Une maison de culte', 'Une institution gouvernementale', 'Une société cotée en bourse']
+
+Réponse: Une institution gouvernementale"
+Quel auteur a souligné la stratégie comme la réalisation d'un avantage concurrentiel pour une organisation?,public_relations,"['Nom de l'auteur: Steyn (2003)', 'Nom de fichier: Gregory (2006)', 'Cutlip et al. (2006)', 'Nom de l'auteur: Henry (2006)']",3,"Question: Quel auteur a souligné la stratégie comme la réalisation d'un avantage concurrentiel pour une organisation?
+
+Choix: ['Nom de l'auteur: Steyn (2003)', 'Nom de fichier: Gregory (2006)', 'Cutlip et al. (2006)', 'Nom de l'auteur: Henry (2006)']
+
+Réponse: Nom de l'auteur: Henry (2006)"
+Quelle affirmation est vraie au sujet de la recherche en groupe de discussion ?,public_relations,"['Les participants doivent être sélectionnés au hasard.', 'Il s'agit d'un exemple d'outil de recherche formel pour les praticiens.', 'L'information peut être généralisée pour décrire une population plus large.', 'Les résultats génèrent des données qualitatives qui peuvent être utilisées pour développer des enquêtes.']",3,"Question: Quelle affirmation est vraie au sujet de la recherche en groupe de discussion ?
+
+Choix: ['Les participants doivent être sélectionnés au hasard.', 'Il s'agit d'un exemple d'outil de recherche formel pour les praticiens.', 'L'information peut être généralisée pour décrire une population plus large.', 'Les résultats génèrent des données qualitatives qui peuvent être utilisées pour développer des enquêtes.']
+
+Réponse: Les résultats génèrent des données qualitatives qui peuvent être utilisées pour développer des enquêtes."
+Vous êtes le directeur des relations communautaires pour un service public d'eau qui a été ciblé par un groupe d'activistes opposés à l'ajout de fluorure à l'eau potable Les activistes mènent une intense campagne sur Internet contre cette pratique. Votre entreprise a des preuves accablantes des bienfaits pour la santé de l'eau fluorée Le directeur de l'usine vous demande de créer un blog pour diffuser le message de santé. Quelle est la meilleure façon de procéder?,public_relations,"['Utilisez les employés des services publics pour écrire le blog, en se faisant passer pour des dentistes et des médecins.', 'Recruter un groupe de dentistes et de médecins bénévoles pour écrire le blog sous leur propre identité sans aucune référence à l'utilitaire.', 'Écrivez le blog vous-même, en vous identifiant comme un employé de l'utilitaire, et citez les opinions scientifiques d'une variété de sources.', 'Rémunérer un groupe de dentistes et de médecins pour écrire le blog, en identifiant l'utilitaire comme le sponsor du blog mais sans divulguer la rémunération.']",2,"Question: Vous êtes le directeur des relations communautaires pour un service public d'eau qui a été ciblé par un groupe d'activistes opposés à l'ajout de fluorure à l'eau potable Les activistes mènent une intense campagne sur Internet contre cette pratique. Votre entreprise a des preuves accablantes des bienfaits pour la santé de l'eau fluorée Le directeur de l'usine vous demande de créer un blog pour diffuser le message de santé. Quelle est la meilleure façon de procéder?
+
+Choix: ['Utilisez les employés des services publics pour écrire le blog, en se faisant passer pour des dentistes et des médecins.', 'Recruter un groupe de dentistes et de médecins bénévoles pour écrire le blog sous leur propre identité sans aucune référence à l'utilitaire.', 'Écrivez le blog vous-même, en vous identifiant comme un employé de l'utilitaire, et citez les opinions scientifiques d'une variété de sources.', 'Rémunérer un groupe de dentistes et de médecins pour écrire le blog, en identifiant l'utilitaire comme le sponsor du blog mais sans divulguer la rémunération.']
+
+Réponse: Écrivez le blog vous-même, en vous identifiant comme un employé de l'utilitaire, et citez les opinions scientifiques d'une variété de sources."
+Dans quel domaine des relations publiques le lobbying est-il susceptible d'être impliqué ?,public_relations,"['Entreprise', 'Les relations financières', 'Affaires publiques', 'Entre entreprises']",2,"Question: Dans quel domaine des relations publiques le lobbying est-il susceptible d'être impliqué ?
+
+Choix: ['Entreprise', 'Les relations financières', 'Affaires publiques', 'Entre entreprises']
+
+Réponse: Affaires publiques"
+Au cours de quelle étape du modèle Chase Jones de gestion des problèmes les forces et les faiblesses de l'organisation devraient-elles être examinées?,public_relations,"['Nom de l'établissement', 'Résultats de l'analyse', 'Stratégie', 'Évaluation des résultats']",1,"Question: Au cours de quelle étape du modèle Chase Jones de gestion des problèmes les forces et les faiblesses de l'organisation devraient-elles être examinées?
+
+Choix: ['Nom de l'établissement', 'Résultats de l'analyse', 'Stratégie', 'Évaluation des résultats']
+
+Réponse: Résultats de l'analyse"
+"En tant qu'agent de relations publiques d'une agence de transport en commun, vous avez pour tâche d'augmenter le nombre de personnes qui utilisent vos bus chaque mois. Votre public cible est constitué de personnes à faible revenu, d'étudiants, de personnes ayant une formation de base et de personnes pour qui l'anglais est une langue seconde. Lorsque vous vous préparez à rédiger un message principal, que devriez- vous faire en premier?",public_relations,"['Considérez le niveau de compréhension de tous les publics cibles.', 'Considérez comment le fait de prendre l'autobus pourrait avoir un effet similaire sur tous les publics cibles.', 'Considérez quels médias atteindraient le plus efficacement tous les publics cibles.', 'Considérez les emplacements géographiques où vivent et travaillent tous les publics cibles.']",1,"Question: En tant qu'agent de relations publiques d'une agence de transport en commun, vous avez pour tâche d'augmenter le nombre de personnes qui utilisent vos bus chaque mois. Votre public cible est constitué de personnes à faible revenu, d'étudiants, de personnes ayant une formation de base et de personnes pour qui l'anglais est une langue seconde. Lorsque vous vous préparez à rédiger un message principal, que devriez- vous faire en premier?
+
+Choix: ['Considérez le niveau de compréhension de tous les publics cibles.', 'Considérez comment le fait de prendre l'autobus pourrait avoir un effet similaire sur tous les publics cibles.', 'Considérez quels médias atteindraient le plus efficacement tous les publics cibles.', 'Considérez les emplacements géographiques où vivent et travaillent tous les publics cibles.']
+
+Réponse: Considérez comment le fait de prendre l'autobus pourrait avoir un effet similaire sur tous les publics cibles."
+Un lancement de livre serait quel genre de tactique commune ?,public_relations,"['Concurrence', 'Événement', 'Récompense', 'Parrainage']",1,"Question: Un lancement de livre serait quel genre de tactique commune ?
+
+Choix: ['Concurrence', 'Événement', 'Récompense', 'Parrainage']
+
+Réponse: Événement"
+Les bulletins d'information appartiennent généralement à quelle catégorie d'écriture ?,public_relations,"['Écriture dans les médias', 'Écriture personnelle', 'Écriture d'affaires', 'Écriture promotionnelle']",3,"Question: Les bulletins d'information appartiennent généralement à quelle catégorie d'écriture ?
+
+Choix: ['Écriture dans les médias', 'Écriture personnelle', 'Écriture d'affaires', 'Écriture promotionnelle']
+
+Réponse: Écriture promotionnelle"
+Le processus d'identification des publics impliqués et affectés par une situation centrale pour une organisation s'appelle,public_relations,"['enquête exploratoire', 'entrevue de situation', 'vérification de la communication', 'analyse des parties prenantes']",3,"Question: Le processus d'identification des publics impliqués et affectés par une situation centrale pour une organisation s'appelle
+
+Choix: ['enquête exploratoire', 'entrevue de situation', 'vérification de la communication', 'analyse des parties prenantes']
+
+Réponse: analyse des parties prenantes"
+Lequel des défis suivants liés à Internet est le plus important dans le domaine des relations publiques?,public_relations,"['Représentation de clients utilisant les nouveaux environnements de médias sociaux', 'Trouver des fournisseurs d'accès à Internet stables et rentables', 'Formation du personnel à l'utilisation des médias sociaux', 'Se tenir au courant de l'évolution des technologies']",3,"Question: Lequel des défis suivants liés à Internet est le plus important dans le domaine des relations publiques?
+
+Choix: ['Représentation de clients utilisant les nouveaux environnements de médias sociaux', 'Trouver des fournisseurs d'accès à Internet stables et rentables', 'Formation du personnel à l'utilisation des médias sociaux', 'Se tenir au courant de l'évolution des technologies']
+
+Réponse: Se tenir au courant de l'évolution des technologies"
+De quelles façons une entreprise a-t-elle un impact sur le monde que les parties prenantes ne considèrent PAS normalement ?,public_relations,"['Développement de la main-d'œuvre', 'Impact sur les communautés locales', 'Les effets sur l'environnement', 'Résultats financiers']",3,"Question: De quelles façons une entreprise a-t-elle un impact sur le monde que les parties prenantes ne considèrent PAS normalement ?
+
+Choix: ['Développement de la main-d'œuvre', 'Impact sur les communautés locales', 'Les effets sur l'environnement', 'Résultats financiers']
+
+Réponse: Résultats financiers"
+La partie ________ d'une campagne de relations publiques comprend la planification proactive d'une stratégie de réponse mise en œuvre de cette stratégie en cas de crise évaluer la réponse à la crise et la révision de la stratégie d'intervention initiale en vue de l'améliorer pour les crises futures.,public_relations,"['les questions publiques', 'gestion des crises', 'relations avec les consommateurs', 'relations avec la communauté']",1,"Question: La partie ________ d'une campagne de relations publiques comprend la planification proactive d'une stratégie de réponse mise en œuvre de cette stratégie en cas de crise évaluer la réponse à la crise et la révision de la stratégie d'intervention initiale en vue de l'améliorer pour les crises futures.
+
+Choix: ['les questions publiques', 'gestion des crises', 'relations avec les consommateurs', 'relations avec la communauté']
+
+Réponse: gestion des crises"
+"Dans le modèle de communication de Westley et MacLean, quel rôle décrit la manière dont le public obtient ou reçoit le message ?",public_relations,"['Le rôle du plaidoyer', 'Le rôle de la chaîne', 'Le rôle du portier', 'Le rôle du comportement']",1,"Question: Dans le modèle de communication de Westley et MacLean, quel rôle décrit la manière dont le public obtient ou reçoit le message ?
+
+Choix: ['Le rôle du plaidoyer', 'Le rôle de la chaîne', 'Le rôle du portier', 'Le rôle du comportement']
+
+Réponse: Le rôle de la chaîne"
+Quelle technique de marketing de guérilla implique la diffusion d'un message sur un problème de produit ou de service par le biais d'une communication en ligne entre pairs?,public_relations,"['Pages de fans', 'Activités de rue', 'Le marketing de base', 'Campagnes virales']",3,"Question: Quelle technique de marketing de guérilla implique la diffusion d'un message sur un problème de produit ou de service par le biais d'une communication en ligne entre pairs?
+
+Choix: ['Pages de fans', 'Activités de rue', 'Le marketing de base', 'Campagnes virales']
+
+Réponse: Campagnes virales"
+Une campagne de ________ se produit lorsque des personnes de deux ou plusieurs côtés opposés d'une dispute ont des convictions émotionnelles au sujet d'une décision qui a le pouvoir d'affecter leur vie.,public_relations,"['relations avec le public', 'les questions publiques', 'gestion des crises', 'relations avec les consommateurs']",1,"Question: Une campagne de ________ se produit lorsque des personnes de deux ou plusieurs côtés opposés d'une dispute ont des convictions émotionnelles au sujet d'une décision qui a le pouvoir d'affecter leur vie.
+
+Choix: ['relations avec le public', 'les questions publiques', 'gestion des crises', 'relations avec les consommateurs']
+
+Réponse: les questions publiques"
+Le Web a été effectivement inventé par Berners-Lee en quelle année ?,public_relations,"['L'année 1980', 'Résolution du Parlement européen', 'Pour l'année 1991', 'L'année 1993']",2,"Question: Le Web a été effectivement inventé par Berners-Lee en quelle année ?
+
+Choix: ['L'année 1980', 'Résolution du Parlement européen', 'Pour l'année 1991', 'L'année 1993']
+
+Réponse: Pour l'année 1991"
+On s'attend à ce que le trafic Internet augmente de 400% au cours des prochaines années.,public_relations,"['Achats en ligne de biens de consommation', 'Vidéo', 'La musique', 'Ventes aux enchères en ligne']",1,"Question: On s'attend à ce que le trafic Internet augmente de 400% au cours des prochaines années.
+
+Choix: ['Achats en ligne de biens de consommation', 'Vidéo', 'La musique', 'Ventes aux enchères en ligne']
+
+Réponse: Vidéo"
+L'objectif de la publicité ________ est de promouvoir un produit et un service spécifique auprès d'un public cible.,public_relations,"['orientée vers la personne', 'orientée vers le produit', 'orienté vers le profit', 'orientée vers les idées']",1,"Question: L'objectif de la publicité ________ est de promouvoir un produit et un service spécifique auprès d'un public cible.
+
+Choix: ['orientée vers la personne', 'orientée vers le produit', 'orienté vers le profit', 'orientée vers les idées']
+
+Réponse: orientée vers le produit"
+Lequel de ces types de question d'enquête recherche des informations qualitatives ?,public_relations,"['Échelle de Likert', 'Sélection multiple', 'À durée indéterminée', 'Nom de l'établissement']",2,"Question: Lequel de ces types de question d'enquête recherche des informations qualitatives ?
+
+Choix: ['Échelle de Likert', 'Sélection multiple', 'À durée indéterminée', 'Nom de l'établissement']
+
+Réponse: À durée indéterminée"
+Le drapeau américain est un exemple de,public_relations,"['stéréotype', 'dispositif sémantique', 'Le symbole', 'le message']",2,"Question: Le drapeau américain est un exemple de
+
+Choix: ['stéréotype', 'dispositif sémantique', 'Le symbole', 'le message']
+
+Réponse: Le symbole"
+Environ la moitié de tous les professionnels des relations publiques travaillent dans,public_relations,"['gouvernement', 'zones d'affaires et commerciales', 'les soins de santé et les hôpitaux', 'entreprises de relations publiques']",1,"Question: Environ la moitié de tous les professionnels des relations publiques travaillent dans
+
+Choix: ['gouvernement', 'zones d'affaires et commerciales', 'les soins de santé et les hôpitaux', 'entreprises de relations publiques']
+
+Réponse: zones d'affaires et commerciales"
+Vous demandez conseil à un de vos pairs qui a conçu et mis en œuvre un programme de communication qui a abouti à l'autorisation d'un centre de recyclage automobile. malgré la forte opposition des organisations communautaires Vous devez concevoir un programme pour obtenir l'approbation d'un projet similaire proposé par votre entreprise. Votre camarade vous donne un bref conseil qui décrit succinctement le fondement de son programme réussi. Quels conseils votre entourage vous donnera- t- il pour réussir votre programme de communication?,public_relations,"['Résoudre leurs problèmes', 'Tuez-les avec gentillesse .', 'Les exposer au ridicule', 'Les submerger avec des faits']",0,"Question: Vous demandez conseil à un de vos pairs qui a conçu et mis en œuvre un programme de communication qui a abouti à l'autorisation d'un centre de recyclage automobile. malgré la forte opposition des organisations communautaires Vous devez concevoir un programme pour obtenir l'approbation d'un projet similaire proposé par votre entreprise. Votre camarade vous donne un bref conseil qui décrit succinctement le fondement de son programme réussi. Quels conseils votre entourage vous donnera- t- il pour réussir votre programme de communication?
+
+Choix: ['Résoudre leurs problèmes', 'Tuez-les avec gentillesse .', 'Les exposer au ridicule', 'Les submerger avec des faits']
+
+Réponse: Résoudre leurs problèmes"
+Lequel de ces publics ne figure PAS dans la théorie situationnelle des publics de Grunig et Hunt (1984)?,public_relations,"['À l'état latent', 'À l'état de veille', 'Je suis au courant.', 'Actifs']",1,"Question: Lequel de ces publics ne figure PAS dans la théorie situationnelle des publics de Grunig et Hunt (1984)?
+
+Choix: ['À l'état latent', 'À l'état de veille', 'Je suis au courant.', 'Actifs']
+
+Réponse: À l'état de veille"
+Laquelle de ces qualités n'est PAS listée comme quelque chose à considérer lors du choix d'un leader d'opinion pour une campagne de relations publiques?,public_relations,"['La réputation', 'Résultats', 'Familiarité avec le sujet ou la question', 'Capacité à atteindre les personnes']",2,"Question: Laquelle de ces qualités n'est PAS listée comme quelque chose à considérer lors du choix d'un leader d'opinion pour une campagne de relations publiques?
+
+Choix: ['La réputation', 'Résultats', 'Familiarité avec le sujet ou la question', 'Capacité à atteindre les personnes']
+
+Réponse: Familiarité avec le sujet ou la question"
+"Selon la pyramide d'évaluation de Macnamara (2005), à quel stade l'analyse de la situation est-elle réalisée et utilisée pour élaborer des objectifs et des plans de mise en œuvre?",public_relations,"['Produits d'entrée', 'Produits', 'Prélèvements', 'Résultats']",0,"Question: Selon la pyramide d'évaluation de Macnamara (2005), à quel stade l'analyse de la situation est-elle réalisée et utilisée pour élaborer des objectifs et des plans de mise en œuvre?
+
+Choix: ['Produits d'entrée', 'Produits', 'Prélèvements', 'Résultats']
+
+Réponse: Produits d'entrée"
+Quels facteurs sont mentionnés pour influencer la couverture médiatique d'une histoire?,public_relations,"['Contenu, qualité de la source, pertinence', 'Temps, contenu, liaison avec les médias', 'Contenu, qualité de la source, point de vue de l'intérêt humain', 'Le timing, la pertinence et l'inclinaison politique']",1,"Question: Quels facteurs sont mentionnés pour influencer la couverture médiatique d'une histoire?
+
+Choix: ['Contenu, qualité de la source, pertinence', 'Temps, contenu, liaison avec les médias', 'Contenu, qualité de la source, point de vue de l'intérêt humain', 'Le timing, la pertinence et l'inclinaison politique']
+
+Réponse: Temps, contenu, liaison avec les médias"
+"Quelle est la principale raison pour laquelle vous, en tant que responsable des relations publiques, devriez insister sur la priorisation et la planification des activités?",public_relations,"['pour aider le département à rester concentré sur son plan stratégique', 'de veiller à ce que les projets qui sont importants pour le PDG aient toujours la première priorité', 'veiller à ce que les événements et les activités de relations publiques du département ne soient pas négligés;', 'faciliter la compréhension par les autres services des responsabilités du service des relations publiques']",0,"Question: Quelle est la principale raison pour laquelle vous, en tant que responsable des relations publiques, devriez insister sur la priorisation et la planification des activités?
+
+Choix: ['pour aider le département à rester concentré sur son plan stratégique', 'de veiller à ce que les projets qui sont importants pour le PDG aient toujours la première priorité', 'veiller à ce que les événements et les activités de relations publiques du département ne soient pas négligés;', 'faciliter la compréhension par les autres services des responsabilités du service des relations publiques']
+
+Réponse: pour aider le département à rester concentré sur son plan stratégique"
+"Selon la pyramide d'évaluation de Macnamara (2005), à quel stade les sondages d'opinion sont-ils les plus utiles ?",public_relations,"['Produits d'entrée', 'Produits', 'Prélèvements', 'Résultats']",2,"Question: Selon la pyramide d'évaluation de Macnamara (2005), à quel stade les sondages d'opinion sont-ils les plus utiles ?
+
+Choix: ['Produits d'entrée', 'Produits', 'Prélèvements', 'Résultats']
+
+Réponse: Prélèvements"
+"Tyler et sa femme ont été conquis par la campagne publicitaire soutenant Stan Johnson qui se présente à la mairie Alors ils ont mis un panneau ""Votez pour Stan Johnson en novembre"" dans leur jardin avant Tyler et sa femme s'engagent dans ________, la troisième étape de la campagne publicitaire.",public_relations,"['Nom de l'établissement', 'légitimité', 'pénétration', 'participation au projet']",3,"Question: Tyler et sa femme ont été conquis par la campagne publicitaire soutenant Stan Johnson qui se présente à la mairie Alors ils ont mis un panneau ""Votez pour Stan Johnson en novembre"" dans leur jardin avant Tyler et sa femme s'engagent dans ________, la troisième étape de la campagne publicitaire.
+
+Choix: ['Nom de l'établissement', 'légitimité', 'pénétration', 'participation au projet']
+
+Réponse: participation au projet"
+"Perte de poids sans attendre une marque de pilule amaigrissante promet à ses consommateurs potentiels que s'ils prennent une pilule une fois par jour, ils perdront du poids sans avoir à changer leur régime alimentaire ou à commencer à faire de l'exercice Cependant, beaucoup de gens qui ont utilisé le produit se sont plaints qu'ils n'ont pas perdu de poids, et certains ont même pris du poids La perte de poids sans attente a échoué à l'étape ________ de la campagne publicitaire.",public_relations,"['répartition', 'pénétration', 'participation au projet', 'Nom de l'établissement']",0,"Question: Perte de poids sans attendre une marque de pilule amaigrissante promet à ses consommateurs potentiels que s'ils prennent une pilule une fois par jour, ils perdront du poids sans avoir à changer leur régime alimentaire ou à commencer à faire de l'exercice Cependant, beaucoup de gens qui ont utilisé le produit se sont plaints qu'ils n'ont pas perdu de poids, et certains ont même pris du poids La perte de poids sans attente a échoué à l'étape ________ de la campagne publicitaire.
+
+Choix: ['répartition', 'pénétration', 'participation au projet', 'Nom de l'établissement']
+
+Réponse: répartition"
+Quelle organisation de l'époque de la Première Guerre mondiale a lancé des campagnes de publicité décentralisées dans le but de mobiliser l'opinion publique américaine pour soutenir la guerre?,public_relations,"['Le comité Creel', 'La Croix-Rouge', 'Le Conseil des relations publiques', 'Le Bureau de l'information sur la guerre']",0,"Question: Quelle organisation de l'époque de la Première Guerre mondiale a lancé des campagnes de publicité décentralisées dans le but de mobiliser l'opinion publique américaine pour soutenir la guerre?
+
+Choix: ['Le comité Creel', 'La Croix-Rouge', 'Le Conseil des relations publiques', 'Le Bureau de l'information sur la guerre']
+
+Réponse: Le comité Creel"
+"Quand une attitude est communiquée, que devient- elle?",public_relations,"['Un avis', 'Une croyance', 'Un comportement', 'Un point de vue']",0,"Question: Quand une attitude est communiquée, que devient- elle?
+
+Choix: ['Un avis', 'Une croyance', 'Un comportement', 'Un point de vue']
+
+Réponse: Un avis"
+Quel modèle de communication décrit le codage et le décodage des messages ?,public_relations,"['Modèle de Shannon et Weaver', 'Modèle Osgood et Schramm', 'Modèle de Westley et MacLean', 'Le modèle de Maletzke']",1,"Question: Quel modèle de communication décrit le codage et le décodage des messages ?
+
+Choix: ['Modèle de Shannon et Weaver', 'Modèle Osgood et Schramm', 'Modèle de Westley et MacLean', 'Le modèle de Maletzke']
+
+Réponse: Modèle Osgood et Schramm"
+Quelle définition décrit le mieux la convergence des médias ?,public_relations,"['Le regroupement des médias en grandes sociétés.', 'La façon dont tous les médias publient des contenus similaires à ceux de leurs concurrents.', 'Les nombreuses opinions et cultures différentes exprimées dans les médias modernes.', 'L'information est fournie sous différents formats via différents canaux numériques.']",3,"Question: Quelle définition décrit le mieux la convergence des médias ?
+
+Choix: ['Le regroupement des médias en grandes sociétés.', 'La façon dont tous les médias publient des contenus similaires à ceux de leurs concurrents.', 'Les nombreuses opinions et cultures différentes exprimées dans les médias modernes.', 'L'information est fournie sous différents formats via différents canaux numériques.']
+
+Réponse: L'information est fournie sous différents formats via différents canaux numériques."
+Le ________ est le plus courant dans les campagnes politiques car il se concentre sur la sensibilisation du public à une personne en particulier dans l'espoir qu'il soutiendra ou ne soutiendra pas la personne.,public_relations,"['Publicité axée sur le produit', 'Publicité axée sur les idées', 'Publicité axée sur la personne', 'Publicité axée sur les plateformes']",2,"Question: Le ________ est le plus courant dans les campagnes politiques car il se concentre sur la sensibilisation du public à une personne en particulier dans l'espoir qu'il soutiendra ou ne soutiendra pas la personne.
+
+Choix: ['Publicité axée sur le produit', 'Publicité axée sur les idées', 'Publicité axée sur la personne', 'Publicité axée sur les plateformes']
+
+Réponse: Publicité axée sur la personne"
+Quelle phase de la recherche sur l'audience des relations publiques est associée à l'évaluation sommative?,public_relations,"['Mise en œuvre', 'Résultats', 'Changement d'attitude', 'Préparation']",1,"Question: Quelle phase de la recherche sur l'audience des relations publiques est associée à l'évaluation sommative?
+
+Choix: ['Mise en œuvre', 'Résultats', 'Changement d'attitude', 'Préparation']
+
+Réponse: Résultats"
+Lequel de ces adjectifs ne décrit PAS l'écriture d'affaires ?,public_relations,"['Formellement', 'Résumé', 'Personnel', 'Objectif']",2,"Question: Lequel de ces adjectifs ne décrit PAS l'écriture d'affaires ?
+
+Choix: ['Formellement', 'Résumé', 'Personnel', 'Objectif']
+
+Réponse: Personnel"
+La publication et la vente de l'œuvre créative d'autrui et la protection des droits de propriété de l'œuvre créative d'une personne sont réglementées par,public_relations,"['les règlements relatifs à la diffamation et à la publication', 'accès et déréglementation', 'Commission des valeurs mobilières et des bourses', 'le droit d'auteur et le droit des marques']",3,"Question: La publication et la vente de l'œuvre créative d'autrui et la protection des droits de propriété de l'œuvre créative d'une personne sont réglementées par
+
+Choix: ['les règlements relatifs à la diffamation et à la publication', 'accès et déréglementation', 'Commission des valeurs mobilières et des bourses', 'le droit d'auteur et le droit des marques']
+
+Réponse: le droit d'auteur et le droit des marques"
+Où le premier journal britannique a-t-il été imprimé ?,public_relations,"['Le Royaume-Uni', 'La ville d'Oxford', 'Nom de l'entreprise', 'Édimbourg']",1,"Question: Où le premier journal britannique a-t-il été imprimé ?
+
+Choix: ['Le Royaume-Uni', 'La ville d'Oxford', 'Nom de l'entreprise', 'Édimbourg']
+
+Réponse: La ville d'Oxford"
+Laquelle des informations suivantes sur les publications n'est PAS fournie par le Bureau d'Audit de la Circulation?,public_relations,"['Circulation', 'Répartition', 'Le trafic', 'Le lectorat']",3,"Question: Laquelle des informations suivantes sur les publications n'est PAS fournie par le Bureau d'Audit de la Circulation?
+
+Choix: ['Circulation', 'Répartition', 'Le trafic', 'Le lectorat']
+
+Réponse: Le lectorat"
+La phase ________ du processus de relations publiques consiste à prendre des décisions sur les stratégies et tactiques qui seront utilisées pour répondre aux objectifs de l'organisation et à exécuter ces stratégies et tactiques.,public_relations,"['la planification', 'mise en œuvre', 'évaluation', 'tactique']",1,"Question: La phase ________ du processus de relations publiques consiste à prendre des décisions sur les stratégies et tactiques qui seront utilisées pour répondre aux objectifs de l'organisation et à exécuter ces stratégies et tactiques.
+
+Choix: ['la planification', 'mise en œuvre', 'évaluation', 'tactique']
+
+Réponse: mise en œuvre"
+"Ces dernières années, les médias sociaux ont eu un impact majeur sur la pratique des relations publiques Dans lequel des domaines suivants l'impact a-t-il été le plus important et le plus immédiat?",public_relations,"['Politique fédérale', 'Commerce de détail', 'Ventes de voitures', 'Organismes à but non lucratif']",0,"Question: Ces dernières années, les médias sociaux ont eu un impact majeur sur la pratique des relations publiques Dans lequel des domaines suivants l'impact a-t-il été le plus important et le plus immédiat?
+
+Choix: ['Politique fédérale', 'Commerce de détail', 'Ventes de voitures', 'Organismes à but non lucratif']
+
+Réponse: Politique fédérale"
+Quel critère d'information traditionnel pensez-vous être le plus important dans les messages de relations publiques diffusés par les médias de masse ?,public_relations,"['Proximité', 'Temporalité', 'Préééminence', 'Résultats']",3,"Question: Quel critère d'information traditionnel pensez-vous être le plus important dans les messages de relations publiques diffusés par les médias de masse ?
+
+Choix: ['Proximité', 'Temporalité', 'Préééminence', 'Résultats']
+
+Réponse: Résultats"
+Quel domaine des relations publiques traite des problèmes émergents et de leur impact potentiel sur une organisation?,public_relations,"['Opinion du public', 'Gestion des problèmes', 'Affaires publiques', 'Le lobbying']",1,"Question: Quel domaine des relations publiques traite des problèmes émergents et de leur impact potentiel sur une organisation?
+
+Choix: ['Opinion du public', 'Gestion des problèmes', 'Affaires publiques', 'Le lobbying']
+
+Réponse: Gestion des problèmes"
+"Selon la pyramide d'évaluation de Macnamara (2005), à quel stade la couverture médiatique est-elle le plus susceptible d'être mesurée?",public_relations,"['Produits d'entrée', 'Produits', 'Prélèvements', 'Résultats']",1,"Question: Selon la pyramide d'évaluation de Macnamara (2005), à quel stade la couverture médiatique est-elle le plus susceptible d'être mesurée?
+
+Choix: ['Produits d'entrée', 'Produits', 'Prélèvements', 'Résultats']
+
+Réponse: Produits"
+Vous êtes directeur des communications d'une organisation locale à but non lucratif qui est affiliée à une grande organisation nationale à but non lucratif On vous demande fréquemment d'obtenir une couverture médiatique en utilisant les communiqués de presse fournis par le siège national situé dans un autre État Quelle action améliorerait le plus vos chances de réussite avec ces matériaux?,public_relations,"['Utilisez vos relations avec les donateurs locaux pour obtenir une couverture.', 'Localiser les communiqués de presse pour le public dans votre zone géographique.', 'Présentez les communiqués de presse comme ils sont écrits, mais incluez une citation du directeur exécutif de votre section.', 'Rappelez aux éditeurs que votre organisation est une organisation nationale à but non lucratif à laquelle leur éditeur fait des dons.']",1,"Question: Vous êtes directeur des communications d'une organisation locale à but non lucratif qui est affiliée à une grande organisation nationale à but non lucratif On vous demande fréquemment d'obtenir une couverture médiatique en utilisant les communiqués de presse fournis par le siège national situé dans un autre État Quelle action améliorerait le plus vos chances de réussite avec ces matériaux?
+
+Choix: ['Utilisez vos relations avec les donateurs locaux pour obtenir une couverture.', 'Localiser les communiqués de presse pour le public dans votre zone géographique.', 'Présentez les communiqués de presse comme ils sont écrits, mais incluez une citation du directeur exécutif de votre section.', 'Rappelez aux éditeurs que votre organisation est une organisation nationale à but non lucratif à laquelle leur éditeur fait des dons.']
+
+Réponse: Localiser les communiqués de presse pour le public dans votre zone géographique."
+Quel est le but principal de l'octroi d'une licence aux professionnels des relations publiques?,public_relations,"['Pour réglementer l'accès aux postes sur le terrain', 'Créer une élite de professionnels des relations publiques', 'Pour préserver le bien-être de la société', 'Pour obtenir de meilleurs salaires pour les praticiens agréés']",2,"Question: Quel est le but principal de l'octroi d'une licence aux professionnels des relations publiques?
+
+Choix: ['Pour réglementer l'accès aux postes sur le terrain', 'Créer une élite de professionnels des relations publiques', 'Pour préserver le bien-être de la société', 'Pour obtenir de meilleurs salaires pour les praticiens agréés']
+
+Réponse: Pour préserver le bien-être de la société"
+"Selon Cutlip (2006), quelle étape du plan de communication devrait inclure la planification de ce qui devrait être dit et pourquoi ?",public_relations,"['Analyse de la situation', 'Stratégie', 'Mise en œuvre', 'L'évaluation implique l'évaluation de tous les aspects du programme.']",1,"Question: Selon Cutlip (2006), quelle étape du plan de communication devrait inclure la planification de ce qui devrait être dit et pourquoi ?
+
+Choix: ['Analyse de la situation', 'Stratégie', 'Mise en œuvre', 'L'évaluation implique l'évaluation de tous les aspects du programme.']
+
+Réponse: Stratégie"
+À quelle époque le journalisme a-t-il conduit à l'introduction généralisée des relations publiques dans les affaires?,public_relations,"['L'après-guerre, de 1945 à 1965', 'L'ère Roosevelt, de 1930 à 1945', 'L'époque des années vingt, 1919 - 1929', 'L'ère du berceau, 1900 à 1917']",3,"Question: À quelle époque le journalisme a-t-il conduit à l'introduction généralisée des relations publiques dans les affaires?
+
+Choix: ['L'après-guerre, de 1945 à 1965', 'L'ère Roosevelt, de 1930 à 1945', 'L'époque des années vingt, 1919 - 1929', 'L'ère du berceau, 1900 à 1917']
+
+Réponse: L'ère du berceau, 1900 à 1917"
+"Leslie est une employée mécontente qui entre sur son lieu de travail et tire sur trois personnes, tuant deux et blessant gravement l'autre. Le comportement de Leslie est un exemple de quoi ?",public_relations,"['violence sur le lieu de travail', 'délits liés à l'organisation', 'méga-damage', 'gestion des crises']",0,"Question: Leslie est une employée mécontente qui entre sur son lieu de travail et tire sur trois personnes, tuant deux et blessant gravement l'autre. Le comportement de Leslie est un exemple de quoi ?
+
+Choix: ['violence sur le lieu de travail', 'délits liés à l'organisation', 'méga-damage', 'gestion des crises']
+
+Réponse: violence sur le lieu de travail"
+La psychographie se réfère à,public_relations,"['valeurs, modes de vie et caractéristiques individuels', 'statistiques individuelles sur le sexe, l'âge, la race et le revenu', 'influence potentielle', 'tout ce qui précède']",0,"Question: La psychographie se réfère à
+
+Choix: ['valeurs, modes de vie et caractéristiques individuels', 'statistiques individuelles sur le sexe, l'âge, la race et le revenu', 'influence potentielle', 'tout ce qui précède']
+
+Réponse: valeurs, modes de vie et caractéristiques individuels"
+"Dans le domaine des relations publiques, quelle est la menace la plus courante pour une relation client-entreprise ?",public_relations,"['Questions des clients sur les coûts', 'Résistance aux conseils extérieurs', 'Compréhension superficielle des problèmes spécifiques du client', 'Conflits de personnalité']",0,"Question: Dans le domaine des relations publiques, quelle est la menace la plus courante pour une relation client-entreprise ?
+
+Choix: ['Questions des clients sur les coûts', 'Résistance aux conseils extérieurs', 'Compréhension superficielle des problèmes spécifiques du client', 'Conflits de personnalité']
+
+Réponse: Questions des clients sur les coûts"
+Une enquête de 2008 a montré que quel pourcentage des plus grandes entreprises du monde déclarent leur responsabilité d'entreprise?,public_relations,"['50% du chiffre d'affaires', 'Pourcentage', 'Pourcentage', 'Pourcentage']",3,"Question: Une enquête de 2008 a montré que quel pourcentage des plus grandes entreprises du monde déclarent leur responsabilité d'entreprise?
+
+Choix: ['50% du chiffre d'affaires', 'Pourcentage', 'Pourcentage', 'Pourcentage']
+
+Réponse: Pourcentage"
+"Selon des recherches récentes, les 14 000 articles accessibles en une journée sur la première page de Google Nouvelles concernaient combien d'événements réels ?",public_relations,"['Il y a dix-huit', 'Il y en a vingt-quatre.', 'Nom de l'entreprise:', '9 574 personnes']",1,"Question: Selon des recherches récentes, les 14 000 articles accessibles en une journée sur la première page de Google Nouvelles concernaient combien d'événements réels ?
+
+Choix: ['Il y a dix-huit', 'Il y en a vingt-quatre.', 'Nom de l'entreprise:', '9 574 personnes']
+
+Réponse: Il y en a vingt-quatre."
+"Qui a soutenu que si une organisation n'affectait pas un public, il n'était pas nécessaire qu'un praticien prenne en compte ce public dans ses communications ?",public_relations,"['Nom du film: Cutlip (2006)', 'Leitch et Neilson (2001)', 'Amaral et Phillips (2010)', 'Grunig et Hunt (1984)']",3,"Question: Qui a soutenu que si une organisation n'affectait pas un public, il n'était pas nécessaire qu'un praticien prenne en compte ce public dans ses communications ?
+
+Choix: ['Nom du film: Cutlip (2006)', 'Leitch et Neilson (2001)', 'Amaral et Phillips (2010)', 'Grunig et Hunt (1984)']
+
+Réponse: Grunig et Hunt (1984)"
+Quelle forme de communication est la plus efficace pour former ou modifier les dispositions à l'égard d'un problème?,public_relations,"['Les relations interpersonnelles', 'Les médias', 'Groupe', 'Le public']",1,"Question: Quelle forme de communication est la plus efficace pour former ou modifier les dispositions à l'égard d'un problème?
+
+Choix: ['Les relations interpersonnelles', 'Les médias', 'Groupe', 'Le public']
+
+Réponse: Les médias"
+Quelle déclaration décrit une idée de l'utilitarisme?,public_relations,"['Ce qui est bien et ce qui est mal sont prédéterminés.', 'Les gens devraient être traités comme une fin, pas un moyen pour une fin.', 'Le plus grand bien pour le plus grand nombre.', 'Ceux qui sont mieux lotis devraient donner à ceux qui ne sont pas aussi bien lotis.']",2,"Question: Quelle déclaration décrit une idée de l'utilitarisme?
+
+Choix: ['Ce qui est bien et ce qui est mal sont prédéterminés.', 'Les gens devraient être traités comme une fin, pas un moyen pour une fin.', 'Le plus grand bien pour le plus grand nombre.', 'Ceux qui sont mieux lotis devraient donner à ceux qui ne sont pas aussi bien lotis.']
+
+Réponse: Le plus grand bien pour le plus grand nombre."
+Quel type de mesure est le choix le plus efficace pour évaluer l'impact d'une campagne sur les attitudes du public?,public_relations,"['préparation d'une analyse de contenu de la couverture médiatique', 'étudier le contenu des billets de blog sur votre problème', 'analyser les rapports d'avant et d'après-vente pour détecter les variations des ventes', 'réalisation d'une analyse préalable et postérieure des avis des électeurs']",3,"Question: Quel type de mesure est le choix le plus efficace pour évaluer l'impact d'une campagne sur les attitudes du public?
+
+Choix: ['préparation d'une analyse de contenu de la couverture médiatique', 'étudier le contenu des billets de blog sur votre problème', 'analyser les rapports d'avant et d'après-vente pour détecter les variations des ventes', 'réalisation d'une analyse préalable et postérieure des avis des électeurs']
+
+Réponse: réalisation d'une analyse préalable et postérieure des avis des électeurs"
+Il existe trois types de campagnes publicitaires persuasives.,public_relations,"['Orienté vers le produit', 'Orienté vers la personne', 'Orienté sur les idées', 'Orienté vers les résultats']",3,"Question: Il existe trois types de campagnes publicitaires persuasives.
+
+Choix: ['Orienté vers le produit', 'Orienté vers la personne', 'Orienté sur les idées', 'Orienté vers les résultats']
+
+Réponse: Orienté vers les résultats"
+Environ quelle proportion des praticiens du secteur à but non lucratif effectuent des recherches sur l'audience?,public_relations,"['Un quart', 'Une moitié .', 'Deux tiers', 'Pratiquement tous']",2,"Question: Environ quelle proportion des praticiens du secteur à but non lucratif effectuent des recherches sur l'audience?
+
+Choix: ['Un quart', 'Une moitié .', 'Deux tiers', 'Pratiquement tous']
+
+Réponse: Deux tiers"
+"Lorsqu'une campagne est remarquée et inévitable, elle a atteint le stade ________.",public_relations,"['participation au projet', 'pénétration', 'répartition', 'Nom de l'établissement']",1,"Question: Lorsqu'une campagne est remarquée et inévitable, elle a atteint le stade ________.
+
+Choix: ['participation au projet', 'pénétration', 'répartition', 'Nom de l'établissement']
+
+Réponse: pénétration"
+"Une campagne de marketing est une forme payante de communication impersonnelle, axée sur la vente de produits, de services, de marques, d'images et de styles de vie spécifiques au public.",public_relations,"['convaincre le public', 'relations avec le public', 'publicité', 'le consumérisme']",2,"Question: Une campagne de marketing est une forme payante de communication impersonnelle, axée sur la vente de produits, de services, de marques, d'images et de styles de vie spécifiques au public.
+
+Choix: ['convaincre le public', 'relations avec le public', 'publicité', 'le consumérisme']
+
+Réponse: publicité"
+Quelle affirmation est vraie au sujet d'un modèle de systèmes ouverts de relations publiques dans une organisation?,public_relations,"['Il s'adapte à l'évolution des environnements organisationnels.', 'Elle adopte une politique de transparence pour renforcer la confiance du public.', 'Elle se concentre sur l'élimination des obstacles à la communication entre ses divisions commerciales.', 'Il communique fréquemment avec ses publics pour effectuer des changements en dehors de l'organisation.']",0,"Question: Quelle affirmation est vraie au sujet d'un modèle de systèmes ouverts de relations publiques dans une organisation?
+
+Choix: ['Il s'adapte à l'évolution des environnements organisationnels.', 'Elle adopte une politique de transparence pour renforcer la confiance du public.', 'Elle se concentre sur l'élimination des obstacles à la communication entre ses divisions commerciales.', 'Il communique fréquemment avec ses publics pour effectuer des changements en dehors de l'organisation.']
+
+Réponse: Il s'adapte à l'évolution des environnements organisationnels."
+Quelle loi restreint les communications d'entreprise pour les sociétés cotées en bourse avant et pendant la période d'enregistrement de nouveaux titres ?,public_relations,"['Loi de 1933 sur les valeurs mobilières', 'Loi Sarbanes-Oxley de 2002', 'Loi de 1940 sur les conseillers en placement', 'Loi de 1934 sur les sociétés d'investissement']",0,"Question: Quelle loi restreint les communications d'entreprise pour les sociétés cotées en bourse avant et pendant la période d'enregistrement de nouveaux titres ?
+
+Choix: ['Loi de 1933 sur les valeurs mobilières', 'Loi Sarbanes-Oxley de 2002', 'Loi de 1940 sur les conseillers en placement', 'Loi de 1934 sur les sociétés d'investissement']
+
+Réponse: Loi de 1933 sur les valeurs mobilières"
+"Laquelle de ces phrases se réfère spécifiquement à une crise, plutôt qu'à un problème ?",public_relations,"['Un écart entre les attentes des entreprises et celles des parties prenantes.', 'Lorsque le commerce d'une organisation est interrompu.', 'Peut être évité avec une surveillance constante et l'établissement de relations.', 'Ça arrive soudainement.']",3,"Question: Laquelle de ces phrases se réfère spécifiquement à une crise, plutôt qu'à un problème ?
+
+Choix: ['Un écart entre les attentes des entreprises et celles des parties prenantes.', 'Lorsque le commerce d'une organisation est interrompu.', 'Peut être évité avec une surveillance constante et l'établissement de relations.', 'Ça arrive soudainement.']
+
+Réponse: Ça arrive soudainement."
+Watson et Noble (2005) présentent un modèle en cinq étapes pour l'évaluation circulaire.À quelle étape le pré-test de la stratégie et de la tactique devrait-il être effectué?,public_relations,"['Nom de l'établissement', 'Nom de l'entreprise', 'Nom de l'entreprise', 'Nom de l'entreprise:']",2,"Question: Watson et Noble (2005) présentent un modèle en cinq étapes pour l'évaluation circulaire.À quelle étape le pré-test de la stratégie et de la tactique devrait-il être effectué?
+
+Choix: ['Nom de l'établissement', 'Nom de l'entreprise', 'Nom de l'entreprise', 'Nom de l'entreprise:']
+
+Réponse: Nom de l'entreprise"
+Lequel de ces sites propose des microblogs ?,public_relations,"['Nom de fichier:', 'Je suis sur Facebook.', 'Wikipédia', 'Nom de fichier:']",3,"Question: Lequel de ces sites propose des microblogs ?
+
+Choix: ['Nom de fichier:', 'Je suis sur Facebook.', 'Wikipédia', 'Nom de fichier:']
+
+Réponse: Nom de fichier:"
+Dans quel domaine des relations publiques les tactiques sont-elles liées à la promotion de l'ensemble de l'organisation ?,public_relations,"['Entreprise', 'Les communications internes', 'Les relations financières', 'Entre entreprises']",0,"Question: Dans quel domaine des relations publiques les tactiques sont-elles liées à la promotion de l'ensemble de l'organisation ?
+
+Choix: ['Entreprise', 'Les communications internes', 'Les relations financières', 'Entre entreprises']
+
+Réponse: Entreprise"
+"Emma navigue sur un site Web populaire quand elle tombe sur l'histoire d'un acteur bien connu qui a récemment été arrêté pour excès de vitesse et la conduite du mauvais côté de la rue Il s'est avéré qu'il avait bu, et le policier qui l'a arrêté a trouvé de la drogue dans la voiture. L'agent de l'acteur a publié une déclaration affirmant que l'acteur était juste fatigué et que la drogue appartenait à quelqu'un d'autre. Emma ne peut s'empêcher d'avoir l'impression que toutes les relations publiques sont ________ et ne se produisent qu'après que quelque chose de négatif s'est produit.",public_relations,"['proactif', 'réactifs', 'manipulatrice', 'manipulatrice']",1,"Question: Emma navigue sur un site Web populaire quand elle tombe sur l'histoire d'un acteur bien connu qui a récemment été arrêté pour excès de vitesse et la conduite du mauvais côté de la rue Il s'est avéré qu'il avait bu, et le policier qui l'a arrêté a trouvé de la drogue dans la voiture. L'agent de l'acteur a publié une déclaration affirmant que l'acteur était juste fatigué et que la drogue appartenait à quelqu'un d'autre. Emma ne peut s'empêcher d'avoir l'impression que toutes les relations publiques sont ________ et ne se produisent qu'après que quelque chose de négatif s'est produit.
+
+Choix: ['proactif', 'réactifs', 'manipulatrice', 'manipulatrice']
+
+Réponse: réactifs"
+Louis possède une entreprise chimique qui élimine irresponsablement les déchets chimiques et contamine l'approvisionnement en eau de la communauté. Bien qu'il savait que l'entreprise réduisait ses coûts d'élimination des déchets il affirme publiquement n'avoir eu aucune connaissance des pratiques irresponsables accuse le directeur général de l'entreprise et le renvoie Quelle stratégie de restauration d'image utilise Louis ?,public_relations,"['déni', 'évasion de responsabilité', 'réduire l'agressivité', 'mesures correctives']",0,"Question: Louis possède une entreprise chimique qui élimine irresponsablement les déchets chimiques et contamine l'approvisionnement en eau de la communauté. Bien qu'il savait que l'entreprise réduisait ses coûts d'élimination des déchets il affirme publiquement n'avoir eu aucune connaissance des pratiques irresponsables accuse le directeur général de l'entreprise et le renvoie Quelle stratégie de restauration d'image utilise Louis ?
+
+Choix: ['déni', 'évasion de responsabilité', 'réduire l'agressivité', 'mesures correctives']
+
+Réponse: déni"
+La phase ________ du modèle de relations publiques consiste en des recherches primaires et secondaires sur un client identifier les publics cibles de la campagne proposer des canaux de communication et des stratégies à utiliser dans le cadre de la campagne et la construction d'objectifs Objectifs les messages et des thèmes.,public_relations,"['Nom de l'établissement', 'évaluation', 'mise en œuvre', 'la planification']",3,"Question: La phase ________ du modèle de relations publiques consiste en des recherches primaires et secondaires sur un client identifier les publics cibles de la campagne proposer des canaux de communication et des stratégies à utiliser dans le cadre de la campagne et la construction d'objectifs Objectifs les messages et des thèmes.
+
+Choix: ['Nom de l'établissement', 'évaluation', 'mise en œuvre', 'la planification']
+
+Réponse: la planification"
+"La partie ""facteurs internes"" de l'analyse de la situation des relations publiques d'une entreprise comprend souvent:",public_relations,"['une vérification de la communication', 'Suggestions de stratégie', 'groupes de discussion communautaires', 'une liste des contacts avec les médias']",0,"Question: La partie ""facteurs internes"" de l'analyse de la situation des relations publiques d'une entreprise comprend souvent:
+
+Choix: ['une vérification de la communication', 'Suggestions de stratégie', 'groupes de discussion communautaires', 'une liste des contacts avec les médias']
+
+Réponse: une vérification de la communication"
+Quel est le principal avantage des publications de l'organisation?,public_relations,"['Leur capacité à constituer une source de revenus pour les organismes de parrainage', 'Leur capacité à fournir des informations spécifiques et détaillées à des publics cibles étroitement définis', 'Leur capacité à éviter les problèmes généralement associés aux médias bidirectionnels', 'Leur capacité à donner aux organisations parraines un moyen de communication non contrôlé']",1,"Question: Quel est le principal avantage des publications de l'organisation?
+
+Choix: ['Leur capacité à constituer une source de revenus pour les organismes de parrainage', 'Leur capacité à fournir des informations spécifiques et détaillées à des publics cibles étroitement définis', 'Leur capacité à éviter les problèmes généralement associés aux médias bidirectionnels', 'Leur capacité à donner aux organisations parraines un moyen de communication non contrôlé']
+
+Réponse: Leur capacité à fournir des informations spécifiques et détaillées à des publics cibles étroitement définis"
+"Quel résultat, issu de la phase d'évaluation de la planification des relations publiques, documente l'impact d'un programme sur ses parties prenantes?",public_relations,"['la qualité des messages et des activités', 'le nombre de personnes qui changent d'attitude et d'opinion', 'le nombre de personnes ayant répondu aux communications', 'le nombre de messages et d'activités mises en œuvre']",1,"Question: Quel résultat, issu de la phase d'évaluation de la planification des relations publiques, documente l'impact d'un programme sur ses parties prenantes?
+
+Choix: ['la qualité des messages et des activités', 'le nombre de personnes qui changent d'attitude et d'opinion', 'le nombre de personnes ayant répondu aux communications', 'le nombre de messages et d'activités mises en œuvre']
+
+Réponse: le nombre de personnes qui changent d'attitude et d'opinion"
+"La deuxième étape de la campagne publicitaire est d'établir ________, ou de devenir connu comme digne de confiance et crédible.",public_relations,"['légitimité', 'l'identité', 'fiabilité', 'agence']",0,"Question: La deuxième étape de la campagne publicitaire est d'établir ________, ou de devenir connu comme digne de confiance et crédible.
+
+Choix: ['légitimité', 'l'identité', 'fiabilité', 'agence']
+
+Réponse: légitimité"
+Quel type d'écriture utilise la structure pyramidale?,public_relations,"['Écriture dans les médias', 'Écriture personnelle', 'Écriture d'affaires', 'Écriture promotionnelle']",0,"Question: Quel type d'écriture utilise la structure pyramidale?
+
+Choix: ['Écriture dans les médias', 'Écriture personnelle', 'Écriture d'affaires', 'Écriture promotionnelle']
+
+Réponse: Écriture dans les médias"
+Au cours de quelle étape du modèle Chase Jones de gestion des problèmes devrait-on évaluer la capacité de l'organisation à diriger le problème?,public_relations,"['Nom de l'établissement', 'Résultats de l'analyse', 'Stratégie', 'Évaluation des résultats']",2,"Question: Au cours de quelle étape du modèle Chase Jones de gestion des problèmes devrait-on évaluer la capacité de l'organisation à diriger le problème?
+
+Choix: ['Nom de l'établissement', 'Résultats de l'analyse', 'Stratégie', 'Évaluation des résultats']
+
+Réponse: Stratégie"
+Lequel d'entre eux ne devrait PAS être un objectif ?,public_relations,"['Largeur', 'Réalisable', 'Mesurable', 'Limitée dans le temps']",0,"Question: Lequel d'entre eux ne devrait PAS être un objectif ?
+
+Choix: ['Largeur', 'Réalisable', 'Mesurable', 'Limitée dans le temps']
+
+Réponse: Largeur"
+Quelle déclaration décrit une idée de l'éthique kantienne ?,public_relations,"['Ce qui est bien et ce qui est mal sont prédéterminés.', 'Les gens devraient être traités comme une fin, pas un moyen pour une fin.', 'Le plus grand bien pour le plus grand nombre.', 'Ceux qui sont mieux lotis devraient donner à ceux qui ne sont pas aussi bien lotis.']",1,"Question: Quelle déclaration décrit une idée de l'éthique kantienne ?
+
+Choix: ['Ce qui est bien et ce qui est mal sont prédéterminés.', 'Les gens devraient être traités comme une fin, pas un moyen pour une fin.', 'Le plus grand bien pour le plus grand nombre.', 'Ceux qui sont mieux lotis devraient donner à ceux qui ne sont pas aussi bien lotis.']
+
+Réponse: Les gens devraient être traités comme une fin, pas un moyen pour une fin."
+Laquelle de ces organisations est la plus efficace pour interagir avec les clients en ligne ?,public_relations,"['Nom de l'entreprise:', 'Produits à base de céréales', 'Nourriture complète', 'Autres espèces']",0,"Question: Laquelle de ces organisations est la plus efficace pour interagir avec les clients en ligne ?
+
+Choix: ['Nom de l'entreprise:', 'Produits à base de céréales', 'Nourriture complète', 'Autres espèces']
+
+Réponse: Nom de l'entreprise:"
+Selon le philosophe russe Mikhail Bakhtin afin de créer ________ ou un public bien informé toute communication sur une question doit être ________ ou prendre la forme d'un dialogue.,public_relations,"['l'intelligentsia, démocratiquement', 'la démocratie, le dialogue', 'La démocratie est logique.', 'démocratie, bipartite']",1,"Question: Selon le philosophe russe Mikhail Bakhtin afin de créer ________ ou un public bien informé toute communication sur une question doit être ________ ou prendre la forme d'un dialogue.
+
+Choix: ['l'intelligentsia, démocratiquement', 'la démocratie, le dialogue', 'La démocratie est logique.', 'démocratie, bipartite']
+
+Réponse: la démocratie, le dialogue"
+Votre client vous a demandé de développer une campagne de relations publiques pour promouvoir un programme d'économies sur les frais de scolarité en utilisant les nouvelles technologies.,public_relations,"['Prix de la recherche et coûts de développement pour différents services.', 'Développez une enquête pour découvrir quels facteurs ont une incidence sur l'épargne des familles.', 'Effectuer une analyse de la situation pour mieux comprendre le problème.', 'Organisez un groupe de discussion pour déterminer quels messages sont les plus efficaces pour le programme.']",2,"Question: Votre client vous a demandé de développer une campagne de relations publiques pour promouvoir un programme d'économies sur les frais de scolarité en utilisant les nouvelles technologies.
+
+Choix: ['Prix de la recherche et coûts de développement pour différents services.', 'Développez une enquête pour découvrir quels facteurs ont une incidence sur l'épargne des familles.', 'Effectuer une analyse de la situation pour mieux comprendre le problème.', 'Organisez un groupe de discussion pour déterminer quels messages sont les plus efficaces pour le programme.']
+
+Réponse: Effectuer une analyse de la situation pour mieux comprendre le problème."
+"Selon la ""théorie du travail"", quelle est l'étape qui se produit entre l'acquisition d'informations et le changement de comportement d'un individu?",public_relations,"['coorientation', 'changement d'opinion', 'formation de réaction', 'codage sémantique']",1,"Question: Selon la ""théorie du travail"", quelle est l'étape qui se produit entre l'acquisition d'informations et le changement de comportement d'un individu?
+
+Choix: ['coorientation', 'changement d'opinion', 'formation de réaction', 'codage sémantique']
+
+Réponse: changement d'opinion"
+"La segmentation de la population en psychographiques, démographiques et géodémographiques est particulièrement importante dans quelle spécialisation des relations publiques?",public_relations,"['Gestion des problèmes', 'Relations avec les investisseurs', 'Affaires publiques', 'Communiqués de commercialisation']",3,"Question: La segmentation de la population en psychographiques, démographiques et géodémographiques est particulièrement importante dans quelle spécialisation des relations publiques?
+
+Choix: ['Gestion des problèmes', 'Relations avec les investisseurs', 'Affaires publiques', 'Communiqués de commercialisation']
+
+Réponse: Communiqués de commercialisation"
+Quels sont deux exemples d'évaluation des résultats?,public_relations,"['Changement d'attitude', 'Placement du message', 'Distribution du message', 'Taille de l'auditoire attentif']",0,"Question: Quels sont deux exemples d'évaluation des résultats?
+
+Choix: ['Changement d'attitude', 'Placement du message', 'Distribution du message', 'Taille de l'auditoire attentif']
+
+Réponse: Changement d'attitude"
+Quelle maison de mode a demandé des dommages à sa réputation après avoir été accusée d'avoir volé un design ?,public_relations,"['Nom de l'entreprise:', 'Nom Givenchy', 'Je ne sais pas.', 'Lacroix']",2,"Question: Quelle maison de mode a demandé des dommages à sa réputation après avoir été accusée d'avoir volé un design ?
+
+Choix: ['Nom de l'entreprise:', 'Nom Givenchy', 'Je ne sais pas.', 'Lacroix']
+
+Réponse: Je ne sais pas."
+"À quel pionnier des relations publiques on attribue le mérite d'avoir été le premier professionnel à insister pour avoir ""une place à la table de la direction""?",public_relations,"['Il s'agit de Carl Byoir.', 'Édouard Bernays', 'Je suis désolée.', 'Il s'agit d'Arthur Page.']",3,"Question: À quel pionnier des relations publiques on attribue le mérite d'avoir été le premier professionnel à insister pour avoir ""une place à la table de la direction""?
+
+Choix: ['Il s'agit de Carl Byoir.', 'Édouard Bernays', 'Je suis désolée.', 'Il s'agit d'Arthur Page.']
+
+Réponse: Il s'agit d'Arthur Page."
+Quelles sont les principales raisons pour lesquelles les organisations font appel à des conseillers en relations publiques extérieurs ?,public_relations,"['Ils offrent une flexibilité des talents et des compétences.', 'Ils apportent une plus grande crédibilité au travail.', 'Ils fourniront un retour sur investissement solide sur le projet ou le programme.', 'Ils peuvent apporter plus d'attention et de détails à un projet que le personnel interne.']",0,"Question: Quelles sont les principales raisons pour lesquelles les organisations font appel à des conseillers en relations publiques extérieurs ?
+
+Choix: ['Ils offrent une flexibilité des talents et des compétences.', 'Ils apportent une plus grande crédibilité au travail.', 'Ils fourniront un retour sur investissement solide sur le projet ou le programme.', 'Ils peuvent apporter plus d'attention et de détails à un projet que le personnel interne.']
+
+Réponse: Ils offrent une flexibilité des talents et des compétences."
+Quelles de ces activités pourraient faire l'objet d'une recherche secondaire?,public_relations,"['Réalisation d'une analyse de contenu', 'Réalisation d'une enquête', 'Observer les gens', 'Examen des archives publiques']",3,"Question: Quelles de ces activités pourraient faire l'objet d'une recherche secondaire?
+
+Choix: ['Réalisation d'une analyse de contenu', 'Réalisation d'une enquête', 'Observer les gens', 'Examen des archives publiques']
+
+Réponse: Examen des archives publiques"
+Laquelle des informations suivantes sur les publications n'est PAS fournie par le Bureau d'Audit de la Circulation?,public_relations,"['Circulation', 'Répartition', 'Le trafic', 'Le lectorat']",3,"Question: Laquelle des informations suivantes sur les publications n'est PAS fournie par le Bureau d'Audit de la Circulation?
+
+Choix: ['Circulation', 'Répartition', 'Le trafic', 'Le lectorat']
+
+Réponse: Le lectorat"
+Le premier e-mail a été développé en quelle décennie ?,public_relations,"['Années 1960', 'années soixante-dix', 'Les années 80', 'Décennie 1990']",1,"Question: Le premier e-mail a été développé en quelle décennie ?
+
+Choix: ['Années 1960', 'années soixante-dix', 'Les années 80', 'Décennie 1990']
+
+Réponse: années soixante-dix"
+"Selon Esman (1972), quels publics aident une organisation à exister en lui prêtant autorité ou assistance ?",public_relations,"['Permettre', 'Fonctionnelle', 'Normatifs', 'Diffusé']",0,"Question: Selon Esman (1972), quels publics aident une organisation à exister en lui prêtant autorité ou assistance ?
+
+Choix: ['Permettre', 'Fonctionnelle', 'Normatifs', 'Diffusé']
+
+Réponse: Permettre"
+"Quelle tactique courante de relations publiques peut produire un ""effet de halo""?",public_relations,"['Placement à la télévision ou à la radio', 'Les cascades', 'Parties tierces', 'Parrainage']",3,"Question: Quelle tactique courante de relations publiques peut produire un ""effet de halo""?
+
+Choix: ['Placement à la télévision ou à la radio', 'Les cascades', 'Parties tierces', 'Parrainage']
+
+Réponse: Parrainage"

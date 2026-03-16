@@ -1,0 +1,13 @@
+include: _default_template_yaml
+task: mmlu_fr_formal_logic
+task_alias: formal_logic
+
+description: "Les questions suivantes sont des questions à choix multiples (avec réponses) sur le sujet logique formelle.\n\n"
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_French/mmlu_fr_by_subject/formal_logic.csv
+
+test_split: test
+
+

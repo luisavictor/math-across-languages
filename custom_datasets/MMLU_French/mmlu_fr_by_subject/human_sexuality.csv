@@ -1,0 +1,656 @@
+question,subject,choices,answer,qa
+Laquelle des méthodes suivantes de détection du cancer du sein implique une exposition aux rayonnements?,human_sexuality,"['Aspiration à l'aiguille', 'La mammographie', 'Mastectomie', 'Lumpéctomie']",1,"Question: Laquelle des méthodes suivantes de détection du cancer du sein implique une exposition aux rayonnements?
+
+Choix: ['Aspiration à l'aiguille', 'La mammographie', 'Mastectomie', 'Lumpéctomie']
+
+Réponse: La mammographie"
+"Les parties du corps qui, lorsqu'elles sont touchées, provoquent une excitation sexuelle:",human_sexuality,"['varient d'une personne à l'autre', 'varient pour les femmes en fonction des phases du cycle menstruel', 'sont principalement sur la partie inférieure du corps', 'tout ce qui précède']",3,"Question: Les parties du corps qui, lorsqu'elles sont touchées, provoquent une excitation sexuelle:
+
+Choix: ['varient d'une personne à l'autre', 'varient pour les femmes en fonction des phases du cycle menstruel', 'sont principalement sur la partie inférieure du corps', 'tout ce qui précède']
+
+Réponse: tout ce qui précède"
+Lequel des éléments suivants s'applique à la gonorrhée?,human_sexuality,"['peut être traitée avec des antibiotiques', 'présente un risque élevé d'infection lors d'une exposition unique', 'est asymptomatique (sans symptômes) chez seulement un petit pourcentage des personnes infectées', 'les infections sont limitées aux parties génitales']",0,"Question: Lequel des éléments suivants s'applique à la gonorrhée?
+
+Choix: ['peut être traitée avec des antibiotiques', 'présente un risque élevé d'infection lors d'une exposition unique', 'est asymptomatique (sans symptômes) chez seulement un petit pourcentage des personnes infectées', 'les infections sont limitées aux parties génitales']
+
+Réponse: peut être traitée avec des antibiotiques"
+"Vous êtes un homme homosexuel: hier soir, vous avez été tenté par le luxuriant et brun Jacques (le roi de la fraternité) de vous joindre à lui au bar laitier local pour un grand verre de lait frais Vous avez aussi envisagé brièvement d'étudier pour ce test, mais Jacques l'a emporté. En termes freudiens, lequel des éléments suivants était dominant ?",human_sexuality,"['le numéro d'identification', 'le moi', 'le surmoi', 'le complexe d'Œdipe']",0,"Question: Vous êtes un homme homosexuel: hier soir, vous avez été tenté par le luxuriant et brun Jacques (le roi de la fraternité) de vous joindre à lui au bar laitier local pour un grand verre de lait frais Vous avez aussi envisagé brièvement d'étudier pour ce test, mais Jacques l'a emporté. En termes freudiens, lequel des éléments suivants était dominant ?
+
+Choix: ['le numéro d'identification', 'le moi', 'le surmoi', 'le complexe d'Œdipe']
+
+Réponse: le numéro d'identification"
+Les sociobiologistes pensent qu'il y a plus d'hommes que de femmes avec des paraphilies parce que:,human_sexuality,"['Les paraphilies garantissent la survie de l'espèce.', 'La sélection évolutionnaire a favorisé le développement de mâles qui répondent à de nouveaux stimuli sexuels.', 'de différences entre le cerveau gauche et le cerveau droit entre les sexes', 'Le cerveau des hommes est plus développé que celui des femmes.']",1,"Question: Les sociobiologistes pensent qu'il y a plus d'hommes que de femmes avec des paraphilies parce que:
+
+Choix: ['Les paraphilies garantissent la survie de l'espèce.', 'La sélection évolutionnaire a favorisé le développement de mâles qui répondent à de nouveaux stimuli sexuels.', 'de différences entre le cerveau gauche et le cerveau droit entre les sexes', 'Le cerveau des hommes est plus développé que celui des femmes.']
+
+Réponse: La sélection évolutionnaire a favorisé le développement de mâles qui répondent à de nouveaux stimuli sexuels."
+"Selon une étude réalisée par Sprecher, Barbee et Schwartz (1995), les femmes étaient plus susceptibles que les hommes d'avoir des ________ après leur premier acte sexuel.",human_sexuality,"['Je me suis sentie heureuse.', 'éprouvé de la peur', 'culpabilité éprouvée', 'avoir éprouvé des regrets']",2,"Question: Selon une étude réalisée par Sprecher, Barbee et Schwartz (1995), les femmes étaient plus susceptibles que les hommes d'avoir des ________ après leur premier acte sexuel.
+
+Choix: ['Je me suis sentie heureuse.', 'éprouvé de la peur', 'culpabilité éprouvée', 'avoir éprouvé des regrets']
+
+Réponse: culpabilité éprouvée"
+À quoi est liée l'abus de cocaïne pendant la grossesse?,human_sexuality,"['un risque accru de bébés de faible poids à la naissance', 'une croissance plus faible et une intelligence plus faible', 'circonférence de la tête plus petite', 'tout ce qui précède']",3,"Question: À quoi est liée l'abus de cocaïne pendant la grossesse?
+
+Choix: ['un risque accru de bébés de faible poids à la naissance', 'une croissance plus faible et une intelligence plus faible', 'circonférence de la tête plus petite', 'tout ce qui précède']
+
+Réponse: tout ce qui précède"
+Joe veut désespérément se rapprocher d'Helen. Helen semble être découragée par les avances désespérées de Joe. C'est typique des relations de Joe avec les femmes. Selon la théorie de l'attachement Joe serait mieux décrit comme:,human_sexuality,"['Une amoureuse sûre', 'une amoureuse évitante,', 'Un amoureux anxieux et ambivalent', 'Un amoureux passionné']",2,"Question: Joe veut désespérément se rapprocher d'Helen. Helen semble être découragée par les avances désespérées de Joe. C'est typique des relations de Joe avec les femmes. Selon la théorie de l'attachement Joe serait mieux décrit comme:
+
+Choix: ['Une amoureuse sûre', 'une amoureuse évitante,', 'Un amoureux anxieux et ambivalent', 'Un amoureux passionné']
+
+Réponse: Un amoureux anxieux et ambivalent"
+"Bruce est un homme homosexuel. Son ami Chuck est un homme hétérosexuel. Si nous avions pu observer Bruce et Chuck en tant qu'enfants, nous aurions pu nous attendre à quoi ?",human_sexuality,"['Bruce a participé à des jeux plus féminins que Chuck.', 'Bruce a participé à des jeux plus masculins que Chuck.', 'Bruce et Chuck ont probablement participé à un jeu plus typiquement masculin qu'à un jeu typiquement féminin.', 'Le père de Bruce avait plus de tendances homosexuelles que le père de Chuck.']",0,"Question: Bruce est un homme homosexuel. Son ami Chuck est un homme hétérosexuel. Si nous avions pu observer Bruce et Chuck en tant qu'enfants, nous aurions pu nous attendre à quoi ?
+
+Choix: ['Bruce a participé à des jeux plus féminins que Chuck.', 'Bruce a participé à des jeux plus masculins que Chuck.', 'Bruce et Chuck ont probablement participé à un jeu plus typiquement masculin qu'à un jeu typiquement féminin.', 'Le père de Bruce avait plus de tendances homosexuelles que le père de Chuck.']
+
+Réponse: Bruce a participé à des jeux plus féminins que Chuck."
+Le judaïsme considère la sexualité comme,human_sexuality,"['intrinsèquement mauvais', 'La pensée de Dieu est devenue une aberration.', 'un don de Dieu', 'principalement une fonction biologique']",2,"Question: Le judaïsme considère la sexualité comme
+
+Choix: ['intrinsèquement mauvais', 'La pensée de Dieu est devenue une aberration.', 'un don de Dieu', 'principalement une fonction biologique']
+
+Réponse: un don de Dieu"
+Freud a dit que le pénis devient d'abord l'objet principal de la recherche du plaisir à:,human_sexuality,"['naissance', 'âgé d' environ 1 an', 'entre 3 et 6 ans', 'puberté']",2,"Question: Freud a dit que le pénis devient d'abord l'objet principal de la recherche du plaisir à:
+
+Choix: ['naissance', 'âgé d' environ 1 an', 'entre 3 et 6 ans', 'puberté']
+
+Réponse: entre 3 et 6 ans"
+"Selon Sternberg, qu'est-ce qui fait durer une relation ?",human_sexuality,"['l'intimité', 'Engagement', 'décision', 'le désir']",1,"Question: Selon Sternberg, qu'est-ce qui fait durer une relation ?
+
+Choix: ['l'intimité', 'Engagement', 'décision', 'le désir']
+
+Réponse: Engagement"
+Dans quelle religion certains sont- ils d'avis que l'avortement est un meurtre?,human_sexuality,"['Juifs orthodoxes', 'Les protestants fondamentalistes', 'Chrétiens orthodoxes orientaux', 'tout ce qui précède']",3,"Question: Dans quelle religion certains sont- ils d'avis que l'avortement est un meurtre?
+
+Choix: ['Juifs orthodoxes', 'Les protestants fondamentalistes', 'Chrétiens orthodoxes orientaux', 'tout ce qui précède']
+
+Réponse: tout ce qui précède"
+"Les ordres de moines et de nonnes trouvés à la fois dans les religions orientales et dans le christianisme qui affirment le célibat, la virginité et la pauvreté suivent le système éthique de:",human_sexuality,"['légalisme', 'l'ascèse', 'situationnisme', 'hédonisme']",1,"Question: Les ordres de moines et de nonnes trouvés à la fois dans les religions orientales et dans le christianisme qui affirment le célibat, la virginité et la pauvreté suivent le système éthique de:
+
+Choix: ['légalisme', 'l'ascèse', 'situationnisme', 'hédonisme']
+
+Réponse: l'ascèse"
+Ovaries et testicules,human_sexuality,"['sont homologues', 'produire des gamètes', 'produisent des hormones sexuelles', 'tout ce qui précède']",3,"Question: Ovaries et testicules
+
+Choix: ['sont homologues', 'produire des gamètes', 'produisent des hormones sexuelles', 'tout ce qui précède']
+
+Réponse: tout ce qui précède"
+Simon LeVay a étudié le cerveau des hétérosexuels et des homosexuels.,human_sexuality,"['l'activité corticale de ces deux groupes', 'le poids total du cerveau de ces deux groupes', 'la structure cellulaire de l'hypothalamus de ces deux groupes', 'le volume sanguin et le métabolisme des sucres dans le cerveau de ces deux groupes']",2,"Question: Simon LeVay a étudié le cerveau des hétérosexuels et des homosexuels.
+
+Choix: ['l'activité corticale de ces deux groupes', 'le poids total du cerveau de ces deux groupes', 'la structure cellulaire de l'hypothalamus de ces deux groupes', 'le volume sanguin et le métabolisme des sucres dans le cerveau de ces deux groupes']
+
+Réponse: la structure cellulaire de l'hypothalamus de ces deux groupes"
+"Laquelle des théories suivantes utilise des termes tels que ""modélisation"" et ""imitation"" pour expliquer les effets de l'exposition à l'érotisme sur le comportement d'une personne?",human_sexuality,"['la sociologie et la biologie', 'théorie psychanalytique', 'théorie du scénario', 'théorie de l'apprentissage social']",3,"Question: Laquelle des théories suivantes utilise des termes tels que ""modélisation"" et ""imitation"" pour expliquer les effets de l'exposition à l'érotisme sur le comportement d'une personne?
+
+Choix: ['la sociologie et la biologie', 'théorie psychanalytique', 'théorie du scénario', 'théorie de l'apprentissage social']
+
+Réponse: théorie de l'apprentissage social"
+"En moyenne, les hommes ________ commencent à avoir des rapports sexuels environ deux ans plus tard que les hommes ________.",human_sexuality,"['Américains mexicains et blancs; Afro-Américains', 'Américains mexicains; Afro-Américains et Blancs', 'Afro-Américains; Blancs et Latinos', 'Blancs, Afro-Américains et Latinos']",0,"Question: En moyenne, les hommes ________ commencent à avoir des rapports sexuels environ deux ans plus tard que les hommes ________.
+
+Choix: ['Américains mexicains et blancs; Afro-Américains', 'Américains mexicains; Afro-Américains et Blancs', 'Afro-Américains; Blancs et Latinos', 'Blancs, Afro-Américains et Latinos']
+
+Réponse: Américains mexicains et blancs; Afro-Américains"
+"Dans la communauté scientifique, la capacité des femmes à des orgasmes multiples a été découverte à l'origine par:",human_sexuality,"['Nom de famille Kinsey', 'Ce n' est pas Freud .', 'Masters et Johnson', 'Nom de famille Kaplan']",0,"Question: Dans la communauté scientifique, la capacité des femmes à des orgasmes multiples a été découverte à l'origine par:
+
+Choix: ['Nom de famille Kinsey', 'Ce n' est pas Freud .', 'Masters et Johnson', 'Nom de famille Kaplan']
+
+Réponse: Nom de famille Kinsey"
+Quelles des caractéristiques suivantes sont généralement compatibles avec le viol de rendez-vous?,human_sexuality,"['le recours à une force excessive', 'avec préméditation', 'motivés sexuellement', 'implique l'utilisation d'une arme']",2,"Question: Quelles des caractéristiques suivantes sont généralement compatibles avec le viol de rendez-vous?
+
+Choix: ['le recours à une force excessive', 'avec préméditation', 'motivés sexuellement', 'implique l'utilisation d'une arme']
+
+Réponse: motivés sexuellement"
+"Selon John Money, le __________ fait référence au sentiment intérieur d'une personne de sa masculinité ou de sa féminité.",human_sexuality,"['Identité de genre', 'Nomenclature sexuée', 'Schéma du genre', 'Orientation sexuelle intrapsychologique']",0,"Question: Selon John Money, le __________ fait référence au sentiment intérieur d'une personne de sa masculinité ou de sa féminité.
+
+Choix: ['Identité de genre', 'Nomenclature sexuée', 'Schéma du genre', 'Orientation sexuelle intrapsychologique']
+
+Réponse: Identité de genre"
+La taille moyenne des organes génitaux masculins est d'environ,human_sexuality,"['4 pouces', '5 pouces', '7 pouces', '1 pied de longueur']",1,"Question: La taille moyenne des organes génitaux masculins est d'environ
+
+Choix: ['4 pouces', '5 pouces', '7 pouces', '1 pied de longueur']
+
+Réponse: 5 pouces"
+Les gens qui ne peuvent pas atteindre l'orgasme sans toucher la chaussure d'une femme seraient certainement considérés comme anormaux ou déviants sexuellement par laquelle des définitions suivantes?,human_sexuality,"['psychologique', 'd'ordre sociologique', 'statistique', 'b et c']",3,"Question: Les gens qui ne peuvent pas atteindre l'orgasme sans toucher la chaussure d'une femme seraient certainement considérés comme anormaux ou déviants sexuellement par laquelle des définitions suivantes?
+
+Choix: ['psychologique', 'd'ordre sociologique', 'statistique', 'b et c']
+
+Réponse: b et c"
+"Si une femme ou un homme ressent à plusieurs reprises des douleurs pendant les rapports sexuels, il est probable qu'elle voudra avoir des rapports sexuels rarement ou pas du tout. Dans cette situation, __________ considérerait probablement la douleur comme une punition.",human_sexuality,"['Sigmund Freud est un psychologue .', 'Je suis John Money.', 'B. F. Skinner (en anglais)', 'Nom de famille Havelock Ellis']",2,"Question: Si une femme ou un homme ressent à plusieurs reprises des douleurs pendant les rapports sexuels, il est probable qu'elle voudra avoir des rapports sexuels rarement ou pas du tout. Dans cette situation, __________ considérerait probablement la douleur comme une punition.
+
+Choix: ['Sigmund Freud est un psychologue .', 'Je suis John Money.', 'B. F. Skinner (en anglais)', 'Nom de famille Havelock Ellis']
+
+Réponse: B. F. Skinner (en anglais)"
+"Qu'est- ce qui semble être le cas quand le dicton populaire ""les opposés s'attirent"" (c'est-à-dire que les attitudes dissemblables ont tendance à susciter l'affection) est considéré à la lumière des recherches actuelles?",human_sexuality,"['Cela ne semble pas être vrai.', 'Cela semble être vrai pour les hétérosexuels, mais pas pour les homosexuels.', 'Cela semble être vrai pour les homosexuels, mais pas pour les hétérosexuels.', 'C' est vrai pour les femmes , mais pas pour les hommes .']",0,"Question: Qu'est- ce qui semble être le cas quand le dicton populaire ""les opposés s'attirent"" (c'est-à-dire que les attitudes dissemblables ont tendance à susciter l'affection) est considéré à la lumière des recherches actuelles?
+
+Choix: ['Cela ne semble pas être vrai.', 'Cela semble être vrai pour les hétérosexuels, mais pas pour les homosexuels.', 'Cela semble être vrai pour les homosexuels, mais pas pour les hétérosexuels.', 'C' est vrai pour les femmes , mais pas pour les hommes .']
+
+Réponse: Cela ne semble pas être vrai."
+L'ovule peut être fécondé jusqu'à environ _______ après l'ovulation.,human_sexuality,"['6 heures', '24 heures', '72 heures', 'Une semaine']",1,"Question: L'ovule peut être fécondé jusqu'à environ _______ après l'ovulation.
+
+Choix: ['6 heures', '24 heures', '72 heures', 'Une semaine']
+
+Réponse: 24 heures"
+"Après avoir libéré un ovule, le follicule, sous la stimulation de l'hormone lutéinisante, se transforme en une masse glandulaire de cellules appelée le __________",human_sexuality,"['corps caverneux', 'corps jaune', 'corps callosum', 'corps glandulaire']",1,"Question: Après avoir libéré un ovule, le follicule, sous la stimulation de l'hormone lutéinisante, se transforme en une masse glandulaire de cellules appelée le __________
+
+Choix: ['corps caverneux', 'corps jaune', 'corps callosum', 'corps glandulaire']
+
+Réponse: corps jaune"
+Comment est généralement traitée l'endométriose?,human_sexuality,"['médicaments à base d'antiprosaglandines', 'médicaments à base de prostaglandines', 'les hormones', 'de l'aspirine']",2,"Question: Comment est généralement traitée l'endométriose?
+
+Choix: ['médicaments à base d'antiprosaglandines', 'médicaments à base de prostaglandines', 'les hormones', 'de l'aspirine']
+
+Réponse: les hormones"
+"Avant les recherches de Masters et Johnson, on pensait que la lubrification vaginale était due à des sécrétions de",human_sexuality,"['Glande de Cowper', 'Glande de la prostate', 'Les glandes de Bartholin', 'Glande surrénale']",2,"Question: Avant les recherches de Masters et Johnson, on pensait que la lubrification vaginale était due à des sécrétions de
+
+Choix: ['Glande de Cowper', 'Glande de la prostate', 'Les glandes de Bartholin', 'Glande surrénale']
+
+Réponse: Les glandes de Bartholin"
+"Buffy et Willow discutaient de leurs fantasmes sexuels Buffy a révélé qu'elle fantasmait parfois sur le sexe avec d'autres femmes, même si elle se trouve normalement attirée par les hommes. Elle fantasme aussi sur le sexe en groupe. Laquelle des affirmations suivantes peut être déduite des fantasmes de Buffy ?",human_sexuality,"['Les fantasmes de Buffy suggèrent qu'elle doit être une homosexuelle ou une bisexuelle latente.', 'Les fantasmes de Buffy sont le signe d'une paraphilie.', 'Les fantasmes de Buffy indiquent qu'elle ne fait pas assez de sexe pour rester satisfaite.', 'Les fantasmes de Buffy sont assez typiques et nous disent peu de choses sur ses tendances sexuelles.']",3,"Question: Buffy et Willow discutaient de leurs fantasmes sexuels Buffy a révélé qu'elle fantasmait parfois sur le sexe avec d'autres femmes, même si elle se trouve normalement attirée par les hommes. Elle fantasme aussi sur le sexe en groupe. Laquelle des affirmations suivantes peut être déduite des fantasmes de Buffy ?
+
+Choix: ['Les fantasmes de Buffy suggèrent qu'elle doit être une homosexuelle ou une bisexuelle latente.', 'Les fantasmes de Buffy sont le signe d'une paraphilie.', 'Les fantasmes de Buffy indiquent qu'elle ne fait pas assez de sexe pour rester satisfaite.', 'Les fantasmes de Buffy sont assez typiques et nous disent peu de choses sur ses tendances sexuelles.']
+
+Réponse: Les fantasmes de Buffy sont assez typiques et nous disent peu de choses sur ses tendances sexuelles."
+L'environnement pour le passage du sperme est plus hospitalier juste à,human_sexuality,"['préovulation', 'prolifération', 'l'ovulation', 'période de menstruation']",2,"Question: L'environnement pour le passage du sperme est plus hospitalier juste à
+
+Choix: ['préovulation', 'prolifération', 'l'ovulation', 'période de menstruation']
+
+Réponse: l'ovulation"
+Les sécrétions du liquide de la glande de Cowper à la pointe du pénis sont d'abord évidentes:,human_sexuality,"['après l'orgasme', 'immédiatement avant l' orgasme', 'avant la vasocongestion', 'pendant la phase de plateau']",3,"Question: Les sécrétions du liquide de la glande de Cowper à la pointe du pénis sont d'abord évidentes:
+
+Choix: ['après l'orgasme', 'immédiatement avant l' orgasme', 'avant la vasocongestion', 'pendant la phase de plateau']
+
+Réponse: pendant la phase de plateau"
+Laquelle des restrictions suivantes existait dans au moins une culture?,human_sexuality,"['pendant un certain temps après l'accouchement', 'pendant la menstruation', 'entre parents et enfants', 'tout ce qui précède']",3,"Question: Laquelle des restrictions suivantes existait dans au moins une culture?
+
+Choix: ['pendant un certain temps après l'accouchement', 'pendant la menstruation', 'entre parents et enfants', 'tout ce qui précède']
+
+Réponse: tout ce qui précède"
+Lequel des adolescents suivants a le taux de grossesse le plus élevé?,human_sexuality,"['États-Unis', 'Canadien', 'Suédois', 'Français']",0,"Question: Lequel des adolescents suivants a le taux de grossesse le plus élevé?
+
+Choix: ['États-Unis', 'Canadien', 'Suédois', 'Français']
+
+Réponse: États-Unis"
+L'apparition (le tout début) du travail est d'abord déclenchée par,human_sexuality,"['hormones sécrétées par les ovaires de la mère', 'hormones sécrétées par l'hypothalamus de la mère', 'hormones sécrétées par la glande surrénale du fœtus', 'la sécrétion de prostaglandines par le placenta et l' utérus']",2,"Question: L'apparition (le tout début) du travail est d'abord déclenchée par
+
+Choix: ['hormones sécrétées par les ovaires de la mère', 'hormones sécrétées par l'hypothalamus de la mère', 'hormones sécrétées par la glande surrénale du fœtus', 'la sécrétion de prostaglandines par le placenta et l' utérus']
+
+Réponse: hormones sécrétées par la glande surrénale du fœtus"
+L'un des premiers modèles de la physiologie de la réponse sexuelle humaine a été fourni par,human_sexuality,"['Henry Havelock Ellis est un écrivain américain.', 'Sigmund Freud est un psychologue .', 'Linda George et Stephen Weiler ont été nommés.', 'William Masters et Virginia Johnson']",3,"Question: L'un des premiers modèles de la physiologie de la réponse sexuelle humaine a été fourni par
+
+Choix: ['Henry Havelock Ellis est un écrivain américain.', 'Sigmund Freud est un psychologue .', 'Linda George et Stephen Weiler ont été nommés.', 'William Masters et Virginia Johnson']
+
+Réponse: William Masters et Virginia Johnson"
+"Un adulte se sent excité quand il regarde un enfant et se rend compte que la réaction est totalement inappropriée, par conséquent, il ressent de l'anxiété plutôt que de l'excitation Ceci est un exemple de __________ selon le modèle cognitif de la réponse sexuelle de Walen et Roth.",human_sexuality,"['perception négative', 'évaluation négative', 'excitation négative', 'dissonance cognitive']",1,"Question: Un adulte se sent excité quand il regarde un enfant et se rend compte que la réaction est totalement inappropriée, par conséquent, il ressent de l'anxiété plutôt que de l'excitation Ceci est un exemple de __________ selon le modèle cognitif de la réponse sexuelle de Walen et Roth.
+
+Choix: ['perception négative', 'évaluation négative', 'excitation négative', 'dissonance cognitive']
+
+Réponse: évaluation négative"
+Nous sommes attirés par une personne qui a des attitudes semblables aux nôtres parce que:,human_sexuality,"['nous obtenons un renforcement positif de cette personne d'accord avec nous', 'L'accord de l'autre personne renforce notre sens de ce qui est juste.', 'nous prévoyons des interactions positives avec cette personne', 'tout ce qui précède']",3,"Question: Nous sommes attirés par une personne qui a des attitudes semblables aux nôtres parce que:
+
+Choix: ['nous obtenons un renforcement positif de cette personne d'accord avec nous', 'L'accord de l'autre personne renforce notre sens de ce qui est juste.', 'nous prévoyons des interactions positives avec cette personne', 'tout ce qui précède']
+
+Réponse: tout ce qui précède"
+Selon l'étude Les communautés ethnoculturelles face au sida Les hommes célibataires _________ sont plus susceptibles que les hommes célibataires _________ de déclarer avoir eu plus d'un partenaire sexuel au cours de l'année précédente.,human_sexuality,"['Chinois; musulmans d'Afrique du Nord', 'Asie du Sud; Caraïbes anglophones', 'Asiatique du Sud; Chinois', 'Musulmans d'Afrique du Nord et d'Amérique latine']",1,"Question: Selon l'étude Les communautés ethnoculturelles face au sida Les hommes célibataires _________ sont plus susceptibles que les hommes célibataires _________ de déclarer avoir eu plus d'un partenaire sexuel au cours de l'année précédente.
+
+Choix: ['Chinois; musulmans d'Afrique du Nord', 'Asie du Sud; Caraïbes anglophones', 'Asiatique du Sud; Chinois', 'Musulmans d'Afrique du Nord et d'Amérique latine']
+
+Réponse: Asie du Sud; Caraïbes anglophones"
+L'érection du pénis ou du clitoris se produit en raison de l'activation du système _________.,human_sexuality,"['C' est pathétique .', 'apathique', 'sympathique', 'parasympathique']",3,"Question: L'érection du pénis ou du clitoris se produit en raison de l'activation du système _________.
+
+Choix: ['C' est pathétique .', 'apathique', 'sympathique', 'parasympathique']
+
+Réponse: parasympathique"
+Lequel des éléments suivants est homologue au gland du pénis ?,human_sexuality,"['les lèvres mineures', 'les lèvres majeures', 'déchets', 'le clitoris']",3,"Question: Lequel des éléments suivants est homologue au gland du pénis ?
+
+Choix: ['les lèvres mineures', 'les lèvres majeures', 'déchets', 'le clitoris']
+
+Réponse: le clitoris"
+Quel jour d'un cycle menstruel typique de 28 jours une femme est susceptible d'ovuler?,human_sexuality,"['Nom de l'entreprise:', 'Nom de l'entreprise', 'Nom de l'entreprise:', 'Il y en a vingt-deux.']",2,"Question: Quel jour d'un cycle menstruel typique de 28 jours une femme est susceptible d'ovuler?
+
+Choix: ['Nom de l'entreprise:', 'Nom de l'entreprise', 'Nom de l'entreprise:', 'Il y en a vingt-deux.']
+
+Réponse: Nom de l'entreprise:"
+Les deux principes qui traitent des questions de valeurs sont:,human_sexuality,"['religion et éthique', 'La foi et la science', 'juridique et éthique', 'juridique et religieuse']",0,"Question: Les deux principes qui traitent des questions de valeurs sont:
+
+Choix: ['religion et éthique', 'La foi et la science', 'juridique et éthique', 'juridique et religieuse']
+
+Réponse: religion et éthique"
+Des études menées par Bailey et Pillard (1991) ont montré que:,human_sexuality,"['le taux de concordance d'homosexualité pour les jumeaux identiques est de 100%', 'le taux de concordance d'homosexualité pour les jumeaux identiques et les jumeaux fraternels est approximativement le même', 'le taux de concordance d'homosexualité pour les jumeaux identiques est plus élevé que pour les jumeaux fraternels', 'le taux de concordance d'homosexualité pour les frères adoptifs diffère peu de celui des frères biologiques']",2,"Question: Des études menées par Bailey et Pillard (1991) ont montré que:
+
+Choix: ['le taux de concordance d'homosexualité pour les jumeaux identiques est de 100%', 'le taux de concordance d'homosexualité pour les jumeaux identiques et les jumeaux fraternels est approximativement le même', 'le taux de concordance d'homosexualité pour les jumeaux identiques est plus élevé que pour les jumeaux fraternels', 'le taux de concordance d'homosexualité pour les frères adoptifs diffère peu de celui des frères biologiques']
+
+Réponse: le taux de concordance d'homosexualité pour les jumeaux identiques est plus élevé que pour les jumeaux fraternels"
+La capacité d'un homme atteint d'une lésion de la moelle épinière à avoir une érection dépend de:,human_sexuality,"['le niveau de la moelle épinière auquel la lésion s'est produite;', 'si la moelle épinière a été partiellement ou complètement coupée', 'l'âge de l'homme', 'à la fois a et b']",3,"Question: La capacité d'un homme atteint d'une lésion de la moelle épinière à avoir une érection dépend de:
+
+Choix: ['le niveau de la moelle épinière auquel la lésion s'est produite;', 'si la moelle épinière a été partiellement ou complètement coupée', 'l'âge de l'homme', 'à la fois a et b']
+
+Réponse: à la fois a et b"
+Des recherches sur les effets du matériel sexuellement explicite utilisant du matériel que le spectateur trouve acceptable ont montré que:,human_sexuality,"['L' érotique n' a aucun effet sur le comportement sexuel .', 'peut entraîner une augmentation de l'excitation sexuelle chez les hommes et les femmes', 'L' érotique non agressive conduit à une augmentation massive du comportement agressif .', 'l' érotique diminue l' excitation sexuelle et l' intérêt sexuel']",1,"Question: Des recherches sur les effets du matériel sexuellement explicite utilisant du matériel que le spectateur trouve acceptable ont montré que:
+
+Choix: ['L' érotique n' a aucun effet sur le comportement sexuel .', 'peut entraîner une augmentation de l'excitation sexuelle chez les hommes et les femmes', 'L' érotique non agressive conduit à une augmentation massive du comportement agressif .', 'l' érotique diminue l' excitation sexuelle et l' intérêt sexuel']
+
+Réponse: peut entraîner une augmentation de l'excitation sexuelle chez les hommes et les femmes"
+Le fétichisme se développe généralement à l'âge de:,human_sexuality,"['30 à 50 ans', 'à la naissance', '10 à 20', '20 à 30 ans']",2,"Question: Le fétichisme se développe généralement à l'âge de:
+
+Choix: ['30 à 50 ans', 'à la naissance', '10 à 20', '20 à 30 ans']
+
+Réponse: 10 à 20"
+"Hillary vient d'apprendre qu'elle est enceinte, mais elle soupçonne que son mari l'a trompée. Il est important qu'elle soit testée pour la chlamydia parce que la chlamydia peut causer laquelle des complications suivantes?",human_sexuality,"['grossesses par voie tubulaire', 'accouchement prématuré', 'avortement spontané', 'tout ce qui précède']",3,"Question: Hillary vient d'apprendre qu'elle est enceinte, mais elle soupçonne que son mari l'a trompée. Il est important qu'elle soit testée pour la chlamydia parce que la chlamydia peut causer laquelle des complications suivantes?
+
+Choix: ['grossesses par voie tubulaire', 'accouchement prématuré', 'avortement spontané', 'tout ce qui précède']
+
+Réponse: tout ce qui précède"
+Le catholicisme romain prend la position qu'il est un péché de,human_sexuality,"['se livrer à des actes homosexuels', 'se livrer à des actes hétérosexuels en dehors du mariage', 'prendre la pilule contraceptive', 'tout ce qui précède']",3,"Question: Le catholicisme romain prend la position qu'il est un péché de
+
+Choix: ['se livrer à des actes homosexuels', 'se livrer à des actes hétérosexuels en dehors du mariage', 'prendre la pilule contraceptive', 'tout ce qui précède']
+
+Réponse: tout ce qui précède"
+Laquelle des méthodes suivantes est la méthode la plus courante de contrôle des naissances pour les couples mariés aux États-Unis?,human_sexuality,"['Stérilisation', 'Le DIU', 'Le diaphragme', 'La méthode du rythme']",0,"Question: Laquelle des méthodes suivantes est la méthode la plus courante de contrôle des naissances pour les couples mariés aux États-Unis?
+
+Choix: ['Stérilisation', 'Le DIU', 'Le diaphragme', 'La méthode du rythme']
+
+Réponse: Stérilisation"
+La théorie du _______ est utilisée par les sociobiologistes spécifiquement pour expliquer l'évolution des différences entre les sexes.,human_sexuality,"['sélection naturelle', 'la nouvelle synthèse', 'sélection sexuelle', 'le schéma de genre']",2,"Question: La théorie du _______ est utilisée par les sociobiologistes spécifiquement pour expliquer l'évolution des différences entre les sexes.
+
+Choix: ['sélection naturelle', 'la nouvelle synthèse', 'sélection sexuelle', 'le schéma de genre']
+
+Réponse: sélection sexuelle"
+Des travaux expérimentaux sur l'introduction de la pilule contraceptive ont été réalisés avec,human_sexuality,"['Des femmes américaines de la classe moyenne et supérieure.', 'Des femmes américaines blanches.', 'Des femmes portoricaines pauvres.', 'Femmes américaines d'origine asiatique']",2,"Question: Des travaux expérimentaux sur l'introduction de la pilule contraceptive ont été réalisés avec
+
+Choix: ['Des femmes américaines de la classe moyenne et supérieure.', 'Des femmes américaines blanches.', 'Des femmes portoricaines pauvres.', 'Femmes américaines d'origine asiatique']
+
+Réponse: Des femmes portoricaines pauvres."
+Laquelle des suivantes a des cycles menstruels ?,human_sexuality,"['certaines espèces de singes', 'certaines espèces de singes', 'certaines races de chiens', 'a et b seulement']",3,"Question: Laquelle des suivantes a des cycles menstruels ?
+
+Choix: ['certaines espèces de singes', 'certaines espèces de singes', 'certaines races de chiens', 'a et b seulement']
+
+Réponse: a et b seulement"
+Quel acte sexuel est interdit dans la plupart des sociétés?,human_sexuality,"['masturbation', 'l'inceste', 'les rapports sexuels pendant la menstruation', 'le sexe avec un non-conjoint si la personne est mariée.']",1,"Question: Quel acte sexuel est interdit dans la plupart des sociétés?
+
+Choix: ['masturbation', 'l'inceste', 'les rapports sexuels pendant la menstruation', 'le sexe avec un non-conjoint si la personne est mariée.']
+
+Réponse: l'inceste"
+Qu'est- ce qui disparaît quand un homme est circoncis?,human_sexuality,"['Nom de famille', 'corps spongiosum', 'le septum', 'prépuce']",3,"Question: Qu'est- ce qui disparaît quand un homme est circoncis?
+
+Choix: ['Nom de famille', 'corps spongiosum', 'le septum', 'prépuce']
+
+Réponse: prépuce"
+Le Staphylococcus aureus est ...,human_sexuality,"['...une hormone libérée pendant la menstruation', '...le terme pour le follicule après sa rupture', '...une bactérie associée au syndrome de choc toxique', '...le terme pour la masse de cellules dans le corps jaune']",2,"Question: Le Staphylococcus aureus est ...
+
+Choix: ['...une hormone libérée pendant la menstruation', '...le terme pour le follicule après sa rupture', '...une bactérie associée au syndrome de choc toxique', '...le terme pour la masse de cellules dans le corps jaune']
+
+Réponse: ...une bactérie associée au syndrome de choc toxique"
+Le comportement de Jeffrey Dahmer pourrait s'inscrire dans la catégorie:,human_sexuality,"['délinquance à l'égard des animaux', 'nécrophilie', 'urophilie', 'sclérose en plaques']",1,"Question: Le comportement de Jeffrey Dahmer pourrait s'inscrire dans la catégorie:
+
+Choix: ['délinquance à l'égard des animaux', 'nécrophilie', 'urophilie', 'sclérose en plaques']
+
+Réponse: nécrophilie"
+Une différence anatomique entre les mâles et les femelles est:,human_sexuality,"['Les mâles ont une structure de sortie pour l'urine et les fluides reproducteurs, tandis que les femelles en ont deux.', 'Les mâles ont un organe sexuel externe qui se remplit de sang, alors que les femelles n'en ont pas.', 'Les mâles ont plusieurs fois plus de terminaisons nerveuses dans le pénis que les femelles dans le clitoris.', 'tout ce qui précède']",0,"Question: Une différence anatomique entre les mâles et les femelles est:
+
+Choix: ['Les mâles ont une structure de sortie pour l'urine et les fluides reproducteurs, tandis que les femelles en ont deux.', 'Les mâles ont un organe sexuel externe qui se remplit de sang, alors que les femelles n'en ont pas.', 'Les mâles ont plusieurs fois plus de terminaisons nerveuses dans le pénis que les femelles dans le clitoris.', 'tout ce qui précède']
+
+Réponse: Les mâles ont une structure de sortie pour l'urine et les fluides reproducteurs, tandis que les femelles en ont deux."
+Kenny est tombé d'une échelle en essayant de changer une ampoule. Il a subi une blessure au haut du dos qui lui a tranché la moelle épinière et l'a laissé paraplégique. Quelles des caractéristiques suivantes sont probablement altérées chez Kenny ?,human_sexuality,"['éjaculation', 'érection', 'sensation dans les organes génitaux', 'à la fois A et C']",3,"Question: Kenny est tombé d'une échelle en essayant de changer une ampoule. Il a subi une blessure au haut du dos qui lui a tranché la moelle épinière et l'a laissé paraplégique. Quelles des caractéristiques suivantes sont probablement altérées chez Kenny ?
+
+Choix: ['éjaculation', 'érection', 'sensation dans les organes génitaux', 'à la fois A et C']
+
+Réponse: à la fois A et C"
+La boucle de rétroaction chez l'homme qui régule la production d'hormones sexuelles comprend tout sauf lequel des éléments suivants?,human_sexuality,"['de l'oxytocine', 'hormones libérant les gonadotrophines', 'hormones folliculo-stimulantes', 'glande pituitaire']",0,"Question: La boucle de rétroaction chez l'homme qui régule la production d'hormones sexuelles comprend tout sauf lequel des éléments suivants?
+
+Choix: ['de l'oxytocine', 'hormones libérant les gonadotrophines', 'hormones folliculo-stimulantes', 'glande pituitaire']
+
+Réponse: de l'oxytocine"
+L'Ancien Testament présente le point de vue que la sexualité est,human_sexuality,"['fondamentalement positif', 'à considérer à la lumière de ses conséquences sociales', 'comparables à d'autres fonctions biologiques', 'a et b']",3,"Question: L'Ancien Testament présente le point de vue que la sexualité est
+
+Choix: ['fondamentalement positif', 'à considérer à la lumière de ses conséquences sociales', 'comparables à d'autres fonctions biologiques', 'a et b']
+
+Réponse: a et b"
+Castration à l'âge adulte,human_sexuality,"['produira une voix haute en raison de la diminution de la production de testostérone.', 'produira une voix forte à cause de la douleur qui accompagne l'intervention.', 'ne produira pas une voix haute parce que le larynx a déjà grandi.', 'ne produira pas une voix haute parce que la castration n'affecte pas la production de testostérone.']",2,"Question: Castration à l'âge adulte
+
+Choix: ['produira une voix haute en raison de la diminution de la production de testostérone.', 'produira une voix forte à cause de la douleur qui accompagne l'intervention.', 'ne produira pas une voix haute parce que le larynx a déjà grandi.', 'ne produira pas une voix haute parce que la castration n'affecte pas la production de testostérone.']
+
+Réponse: ne produira pas une voix haute parce que le larynx a déjà grandi."
+Xena a été capable de concevoir mais a subi plusieurs fausses couches au début de sa grossesse.,human_sexuality,"['Insemination artificielle', 'fécondation in vitro', 'transfert intra-fallopien du zygote', 'transfert d'embryons']",3,"Question: Xena a été capable de concevoir mais a subi plusieurs fausses couches au début de sa grossesse.
+
+Choix: ['Insemination artificielle', 'fécondation in vitro', 'transfert intra-fallopien du zygote', 'transfert d'embryons']
+
+Réponse: transfert d'embryons"
+Laquelle des affirmations suivantes est VRAIE quant à la durée de la période réfractaire vécue par les hommes?,human_sexuality,"['Il est cohérent chez tous les hommes et dure 20 minutes.', 'Il varie d' un homme à l' autre et dure de quelques minutes à 24 heures .', 'il a tendance à être plus court avec la consommation d'alcool', 'il a tendance à être plus long chez les hommes plus jeunes']",1,"Question: Laquelle des affirmations suivantes est VRAIE quant à la durée de la période réfractaire vécue par les hommes?
+
+Choix: ['Il est cohérent chez tous les hommes et dure 20 minutes.', 'Il varie d' un homme à l' autre et dure de quelques minutes à 24 heures .', 'il a tendance à être plus court avec la consommation d'alcool', 'il a tendance à être plus long chez les hommes plus jeunes']
+
+Réponse: Il varie d' un homme à l' autre et dure de quelques minutes à 24 heures ."
+"À environ _________ mois après la conception, le sexe du fœtus est clair à partir de l'apparition des organes génitaux externes.",human_sexuality,"['Nom de l'entreprise', 'Nom de l'entreprise:', 'Nom de l'établissement', 'Nom de l'entreprise']",1,"Question: À environ _________ mois après la conception, le sexe du fœtus est clair à partir de l'apparition des organes génitaux externes.
+
+Choix: ['Nom de l'entreprise', 'Nom de l'entreprise:', 'Nom de l'établissement', 'Nom de l'entreprise']
+
+Réponse: Nom de l'entreprise:"
+__________ est un écoulement de la muqueuse interne de l'utérus.,human_sexuality,"['Les règles', 'Ovulation', 'La phase lutéale', 'La phase folliculaire']",0,"Question: __________ est un écoulement de la muqueuse interne de l'utérus.
+
+Choix: ['Les règles', 'Ovulation', 'La phase lutéale', 'La phase folliculaire']
+
+Réponse: Les règles"
+"Quand une femme pense qu'elle est probablement lesbienne, elle est à:",human_sexuality,"['étape de la fierté', 'stade de tolérance', 'étape d'acceptation', 'étape de confusion']",1,"Question: Quand une femme pense qu'elle est probablement lesbienne, elle est à:
+
+Choix: ['étape de la fierté', 'stade de tolérance', 'étape d'acceptation', 'étape de confusion']
+
+Réponse: stade de tolérance"
+Laquelle des maladies sexuellement transmissibles suivantes peut être transmise de la mère à l'enfant par le placenta ?,human_sexuality,"['gonorrhée', 'la syphilis', 'herpès génital', 'infection à chlamydia']",1,"Question: Laquelle des maladies sexuellement transmissibles suivantes peut être transmise de la mère à l'enfant par le placenta ?
+
+Choix: ['gonorrhée', 'la syphilis', 'herpès génital', 'infection à chlamydia']
+
+Réponse: la syphilis"
+Les personnes qui ont une attitude libérale à l'égard des relations sexuelles avant le mariage sont susceptibles de:,human_sexuality,"['avoir une attitude libérale à l'égard des relations sexuelles hors mariage', 's'engager dans une activité sexuelle extraconjugale accidentelle', 's'engager dans une balançoire ouverte', 'tout ce qui précède']",0,"Question: Les personnes qui ont une attitude libérale à l'égard des relations sexuelles avant le mariage sont susceptibles de:
+
+Choix: ['avoir une attitude libérale à l'égard des relations sexuelles hors mariage', 's'engager dans une activité sexuelle extraconjugale accidentelle', 's'engager dans une balançoire ouverte', 'tout ce qui précède']
+
+Réponse: avoir une attitude libérale à l'égard des relations sexuelles hors mariage"
+"Les crampes menstruelles peuvent être causées, en partie, par:",human_sexuality,"['faibles niveaux de prostaglandines', 'une augmentation de l'apport d'oxygène à l'utérus', 'terminaisons nerveuses très sensibles', 'masturbation fréquente']",0,"Question: Les crampes menstruelles peuvent être causées, en partie, par:
+
+Choix: ['faibles niveaux de prostaglandines', 'une augmentation de l'apport d'oxygène à l'utérus', 'terminaisons nerveuses très sensibles', 'masturbation fréquente']
+
+Réponse: faibles niveaux de prostaglandines"
+"Avalon s'est bien amusée pendant les vacances de printemps, mais malheureusement le mec qu'elle a rencontré à Palm Beach avait l'herpès génital.",human_sexuality,"['Avalon n'a pas pu contracter l'herpès génital en faisant de la fellation sur le type.', 'Si Avalon a contracté l'herpès génital, elle peut être guérie avec des antibiotiques s'ils sont administrés immédiatement après la première apparition.', 'Si Avalon a contracté l'herpès génital, elle ne sera contagieuse que lorsqu'elle en aura une.', 'rien de ce qui précède']",3,"Question: Avalon s'est bien amusée pendant les vacances de printemps, mais malheureusement le mec qu'elle a rencontré à Palm Beach avait l'herpès génital.
+
+Choix: ['Avalon n'a pas pu contracter l'herpès génital en faisant de la fellation sur le type.', 'Si Avalon a contracté l'herpès génital, elle peut être guérie avec des antibiotiques s'ils sont administrés immédiatement après la première apparition.', 'Si Avalon a contracté l'herpès génital, elle ne sera contagieuse que lorsqu'elle en aura une.', 'rien de ce qui précède']
+
+Réponse: rien de ce qui précède"
+Stan est sorti boire quelques bières avec des amis.,human_sexuality,"['réveil', 'érection', 'Inhibition', 'l'orgasme']",2,"Question: Stan est sorti boire quelques bières avec des amis.
+
+Choix: ['réveil', 'érection', 'Inhibition', 'l'orgasme']
+
+Réponse: Inhibition"
+La vasocongestion est un processus de:,human_sexuality,"['contraction musculaire', 'accumulation de sang dans les organes génitaux', 'relâchement musculaire', 'détumescence']",1,"Question: La vasocongestion est un processus de:
+
+Choix: ['contraction musculaire', 'accumulation de sang dans les organes génitaux', 'relâchement musculaire', 'détumescence']
+
+Réponse: accumulation de sang dans les organes génitaux"
+Quelles des caractéristiques suivantes sont des caractéristiques sexuelles secondaires chez les hommes ET chez les femmes?,human_sexuality,"['poils sous les aisselles', 'glandes sudoripares et hépatiques', 'l'approfondissement de la voix', 'les deux A et B']",3,"Question: Quelles des caractéristiques suivantes sont des caractéristiques sexuelles secondaires chez les hommes ET chez les femmes?
+
+Choix: ['poils sous les aisselles', 'glandes sudoripares et hépatiques', 'l'approfondissement de la voix', 'les deux A et B']
+
+Réponse: les deux A et B"
+"Il est 3 h du matin. Vous êtes un homme . Vous vous réveillez pour uriner Debout à la commode, vous êtes dans une agonie extrême. Tu as l'impression que ton pénis est en feu. Vous remarquez une décharge jaunâtre qui sort de votre pénis après avoir fini d' uriner Vos gémissements ont réveillé votre partenaire. Elle vient en courant dans la salle de bain et vous demande ce qui ne va pas Vous lui dites que vous avez probablement:",human_sexuality,"['herpès génital', 'Le sida', 'la syphilis', 'gonorrhée']",3,"Question: Il est 3 h du matin. Vous êtes un homme . Vous vous réveillez pour uriner Debout à la commode, vous êtes dans une agonie extrême. Tu as l'impression que ton pénis est en feu. Vous remarquez une décharge jaunâtre qui sort de votre pénis après avoir fini d' uriner Vos gémissements ont réveillé votre partenaire. Elle vient en courant dans la salle de bain et vous demande ce qui ne va pas Vous lui dites que vous avez probablement:
+
+Choix: ['herpès génital', 'Le sida', 'la syphilis', 'gonorrhée']
+
+Réponse: gonorrhée"
+Laquelle de ces affirmations est exacte en ce qui concerne les normes de l'oscillation?,human_sexuality,"['Les actes homosexuels entre hommes et femmes sont courants et largement acceptés.', 'On s'attend à ce que les couples aient des relations sexuelles avec les mêmes partenaires à plusieurs reprises.', 'La combinaison de deux hommes avec une femme est l'introduction typique au swinging.', 'La plupart des échangistes ont également tendance à avoir des attitudes tolérantes envers diverses formes de sexualité 'exotique'.']",3,"Question: Laquelle de ces affirmations est exacte en ce qui concerne les normes de l'oscillation?
+
+Choix: ['Les actes homosexuels entre hommes et femmes sont courants et largement acceptés.', 'On s'attend à ce que les couples aient des relations sexuelles avec les mêmes partenaires à plusieurs reprises.', 'La combinaison de deux hommes avec une femme est l'introduction typique au swinging.', 'La plupart des échangistes ont également tendance à avoir des attitudes tolérantes envers diverses formes de sexualité 'exotique'.']
+
+Réponse: La plupart des échangistes ont également tendance à avoir des attitudes tolérantes envers diverses formes de sexualité ""exotique""."
+"Romulo est dans un bus bondé et il voit une femme près de la porte. Se sentant un peu insolent , Romulo se frotte à la femme et est immédiatement excité . Le comportement inapproprié de Romulo serait caractérisé comme:",human_sexuality,"['Frotteurisme', 'Exhibitionnisme', 'Voyeurisme', 'Le sadomasochisme']",0,"Question: Romulo est dans un bus bondé et il voit une femme près de la porte. Se sentant un peu insolent , Romulo se frotte à la femme et est immédiatement excité . Le comportement inapproprié de Romulo serait caractérisé comme:
+
+Choix: ['Frotteurisme', 'Exhibitionnisme', 'Voyeurisme', 'Le sadomasochisme']
+
+Réponse: Frotteurisme"
+Les mini-pilules contiennent:,human_sexuality,"['œstrogènes uniquement', 'progestatif uniquement', 'androgènes et œstrogènes synthétiques', 'œstrogène synthétique']",1,"Question: Les mini-pilules contiennent:
+
+Choix: ['œstrogènes uniquement', 'progestatif uniquement', 'androgènes et œstrogènes synthétiques', 'œstrogène synthétique']
+
+Réponse: progestatif uniquement"
+"Les fantasmes hétérosexuels sur l'activité sexuelle n'impliquent jamais quelqu'un de _________, et les fantasmes gays et lesbiens n'impliquent jamais des personnes de _________.",human_sexuality,"['Les fantasmes hétérosexuels et homosexuels peuvent concerner des personnes du même sexe ou d'un autre sexe.', 'de l'autre sexe; du même sexe', 'du même sexe; du même sexe', 'du même sexe; de l'autre sexe']",0,"Question: Les fantasmes hétérosexuels sur l'activité sexuelle n'impliquent jamais quelqu'un de _________, et les fantasmes gays et lesbiens n'impliquent jamais des personnes de _________.
+
+Choix: ['Les fantasmes hétérosexuels et homosexuels peuvent concerner des personnes du même sexe ou d'un autre sexe.', 'de l'autre sexe; du même sexe', 'du même sexe; du même sexe', 'du même sexe; de l'autre sexe']
+
+Réponse: Les fantasmes hétérosexuels et homosexuels peuvent concerner des personnes du même sexe ou d'un autre sexe."
+Lequel des cas suivants est typiquement associé à une vasectomie ?,human_sexuality,"['diminution de la production de testostérone', 'réduction de la rigidité des érections', 'diminution de la production de sperme', 'orgasme régulier']",3,"Question: Lequel des cas suivants est typiquement associé à une vasectomie ?
+
+Choix: ['diminution de la production de testostérone', 'réduction de la rigidité des érections', 'diminution de la production de sperme', 'orgasme régulier']
+
+Réponse: orgasme régulier"
+Quels sont les réflexes ?,human_sexuality,"['éjaculation', 'érection', 'l'orgasme', 'les deux A et B']",3,"Question: Quels sont les réflexes ?
+
+Choix: ['éjaculation', 'érection', 'l'orgasme', 'les deux A et B']
+
+Réponse: les deux A et B"
+Laquelle des variations sexuelles suivantes est probablement la plus dangereuse ?,human_sexuality,"['le troilisme', 'l'asphyxie ou l'asphyxiophilie', 'délinquance à l'égard des animaux', 'nécrophilie']",1,"Question: Laquelle des variations sexuelles suivantes est probablement la plus dangereuse ?
+
+Choix: ['le troilisme', 'l'asphyxie ou l'asphyxiophilie', 'délinquance à l'égard des animaux', 'nécrophilie']
+
+Réponse: l'asphyxie ou l'asphyxiophilie"
+La phase folliculaire est à la __________ comme la phase lutéale est à la phase sécrétoire.,human_sexuality,"['période post-ovulatoire', 'période menstruelle', 'prolifératif', 'myométrique']",2,"Question: La phase folliculaire est à la __________ comme la phase lutéale est à la phase sécrétoire.
+
+Choix: ['période post-ovulatoire', 'période menstruelle', 'prolifératif', 'myométrique']
+
+Réponse: prolifératif"
+"Pour la conception, la meilleure position pour les rapports sexuels est:",human_sexuality,"['femme au sommet', 'man-on-top (homme au sommet)', 'entrée arrière', 'd'un côté à l'autre']",1,"Question: Pour la conception, la meilleure position pour les rapports sexuels est:
+
+Choix: ['femme au sommet', 'man-on-top (homme au sommet)', 'entrée arrière', 'd'un côté à l'autre']
+
+Réponse: man-on-top (homme au sommet)"
+"Danny et Sandy sont des collègues de travail. Sandy voit Danny dans la salle de récréation et dit: ""Hé Stud! De belles galettes! Tu veux le faire?"" Cela serait considéré comme du harcèlement si:",human_sexuality,"['Sandy est le superviseur de Danny.', 'Danny a déjà dit à Sandy qu'il n'appréciait pas ses avances.', 'Danny répond: 'Bien sûr, bébé, ton bureau ou le mien ?'', 'les deux A et B']",3,"Question: Danny et Sandy sont des collègues de travail. Sandy voit Danny dans la salle de récréation et dit: ""Hé Stud! De belles galettes! Tu veux le faire?"" Cela serait considéré comme du harcèlement si:
+
+Choix: ['Sandy est le superviseur de Danny.', 'Danny a déjà dit à Sandy qu'il n'appréciait pas ses avances.', 'Danny répond: 'Bien sûr, bébé, ton bureau ou le mien ?'', 'les deux A et B']
+
+Réponse: les deux A et B"
+L'érection chez le mâle et la lubrification vaginale chez la femelle marquent le stade __________ de la réponse sexuelle.,human_sexuality,"['émotion', 'résolution', 'plateau', 'l'orgasme']",0,"Question: L'érection chez le mâle et la lubrification vaginale chez la femelle marquent le stade __________ de la réponse sexuelle.
+
+Choix: ['émotion', 'résolution', 'plateau', 'l'orgasme']
+
+Réponse: émotion"
+Le placenta fait tout ce qui suit sauf:,human_sexuality,"['fournit de l'oxygène au fœtus', 'fournit des nutriments au fœtus', 'fournit du sang au fœtus', 'sécrète des hormones']",2,"Question: Le placenta fait tout ce qui suit sauf:
+
+Choix: ['fournit de l'oxygène au fœtus', 'fournit des nutriments au fœtus', 'fournit du sang au fœtus', 'sécrète des hormones']
+
+Réponse: fournit du sang au fœtus"
+"Parmi les symptômes suivants, lequel est le plus fréquent?",human_sexuality,"['menstruation douloureuse', 'absence de menstruation', 'menstruation sans ovulation', 'ovulation sans menstruation']",0,"Question: Parmi les symptômes suivants, lequel est le plus fréquent?
+
+Choix: ['menstruation douloureuse', 'absence de menstruation', 'menstruation sans ovulation', 'ovulation sans menstruation']
+
+Réponse: menstruation douloureuse"
+"Dans toutes ses relations, Helen est généralement mal à l'aise de se sentir proche d'une autre personne ou d'avoir cette personne proche d'elle. Selon la théorie de l'attachement Helen serait mieux décrite comme:",human_sexuality,"['Une amoureuse sûre', 'une amoureuse évitante,', 'Un amoureux anxieux et ambivalent', 'Un amoureux passionné']",1,"Question: Dans toutes ses relations, Helen est généralement mal à l'aise de se sentir proche d'une autre personne ou d'avoir cette personne proche d'elle. Selon la théorie de l'attachement Helen serait mieux décrite comme:
+
+Choix: ['Une amoureuse sûre', 'une amoureuse évitante,', 'Un amoureux anxieux et ambivalent', 'Un amoureux passionné']
+
+Réponse: une amoureuse évitante,"
+Combien de spermatozoïdes y a-t-il dans un éjaculateur typique ?,human_sexuality,"['300 000 personnes', '300 millions d'écus', '3 millions', '30 millions']",1,"Question: Combien de spermatozoïdes y a-t-il dans un éjaculateur typique ?
+
+Choix: ['300 000 personnes', '300 millions d'écus', '3 millions', '30 millions']
+
+Réponse: 300 millions d'écus"
+"Bill est un directeur publicitaire prospère dans une entreprise d'informatique. Il a 32 ans , il est marié et père de deux enfants . Quand la femme de Bill n'est pas à la maison, il lui met des bas de satin, une jarretière, un soutien-gorge, une jupe, une blouse et des talons rouges. Pendant qu'il s'habille, il devient sexuellement excité et se masturbe. Laquelle des descriptions suivantes correspond le mieux à Bill?",human_sexuality,"['imitateur féminin', 'une drag-queen', 'transsexuelle', 'le travesti']",3,"Question: Bill est un directeur publicitaire prospère dans une entreprise d'informatique. Il a 32 ans , il est marié et père de deux enfants . Quand la femme de Bill n'est pas à la maison, il lui met des bas de satin, une jarretière, un soutien-gorge, une jupe, une blouse et des talons rouges. Pendant qu'il s'habille, il devient sexuellement excité et se masturbe. Laquelle des descriptions suivantes correspond le mieux à Bill?
+
+Choix: ['imitateur féminin', 'une drag-queen', 'transsexuelle', 'le travesti']
+
+Réponse: le travesti"
+Les sociobiologistes supposent que la fonction centrale du sexe est:,human_sexuality,"['le plaisir', 'reproduction', 'pour maintenir le double standard', 'pour soulager la tension']",1,"Question: Les sociobiologistes supposent que la fonction centrale du sexe est:
+
+Choix: ['le plaisir', 'reproduction', 'pour maintenir le double standard', 'pour soulager la tension']
+
+Réponse: reproduction"
+Laquelle des approches suivantes de la psychothérapie se concentre uniquement sur le comportement problématique et sur la façon de le modifier?,human_sexuality,"['Modification du comportement', 'psychanalytique', 'd'ordre sociologique', 'au cours de l'évolution']",0,"Question: Laquelle des approches suivantes de la psychothérapie se concentre uniquement sur le comportement problématique et sur la façon de le modifier?
+
+Choix: ['Modification du comportement', 'psychanalytique', 'd'ordre sociologique', 'au cours de l'évolution']
+
+Réponse: Modification du comportement"
+"Le livre de JD Unwin ""Le sexe et la culture"" soutient que deux choses sont liées?",human_sexuality,"['l'homosexualité chez les fils avec des pères éloignés', 'Les abus sexuels et le christianisme', 'l'effondrement de la civilisation et la promiscuité', 'anthropologie et évolution']",2,"Question: Le livre de JD Unwin ""Le sexe et la culture"" soutient que deux choses sont liées?
+
+Choix: ['l'homosexualité chez les fils avec des pères éloignés', 'Les abus sexuels et le christianisme', 'l'effondrement de la civilisation et la promiscuité', 'anthropologie et évolution']
+
+Réponse: l'effondrement de la civilisation et la promiscuité"
+La condamnation officielle de la contraception artificielle par l'Église catholique est énoncée dans une encyclique intitulée Humanae Vitae.,human_sexuality,"['Le pape Jean II', 'Le pape Paul VI', 'Le pape Jean-Paul Ier', 'Le pape Jean-Paul II est']",1,"Question: La condamnation officielle de la contraception artificielle par l'Église catholique est énoncée dans une encyclique intitulée Humanae Vitae.
+
+Choix: ['Le pape Jean II', 'Le pape Paul VI', 'Le pape Jean-Paul Ier', 'Le pape Jean-Paul II est']
+
+Réponse: Le pape Paul VI"
+"Selon la loi d'attraction de Byrne et sa formule, nous sommes attirés par des gens qui:",human_sexuality,"['fournissent beaucoup de renforcement et une petite quantité de punition', 'fournissent plus de punition que de renforcement', 'fournir un équilibre égal entre la punition et le renforcement', 'sont extrêmement attrayantes et fournissent beaucoup de renforcement']",0,"Question: Selon la loi d'attraction de Byrne et sa formule, nous sommes attirés par des gens qui:
+
+Choix: ['fournissent beaucoup de renforcement et une petite quantité de punition', 'fournissent plus de punition que de renforcement', 'fournir un équilibre égal entre la punition et le renforcement', 'sont extrêmement attrayantes et fournissent beaucoup de renforcement']
+
+Réponse: fournissent beaucoup de renforcement et une petite quantité de punition"
+"Benny est à la tête d'une entreprise prospère. Après une dure journée de travail au cours de laquelle il est soumis à une pression incroyable pour bien performer Il rentre chez lui et sa femme lui donne une fessée . attachez-le à leur lit à quatre affiches et le taquiner jusqu'à ce qu'il demande à avoir des rapports sexuels Selon la théorie psychologique, quelle est la raison la plus probable pour laquelle Benny trouve ça séduisant ?",human_sexuality,"['De même qu'un enfant est devenu sexuellement excité en prétendant être un dirigeant puissant, de même il est maintenant excité au travail et doit se décharger quand il rentre à la maison.', 'Il est submergé par des sentiments de doute de soi et son comportement sadomasochiste lui permet un débouché sûr pour ce doute de soi.', 'Il est submergé par les pressions et les responsabilités au travail, et le comportement masochiste lui permet d'échapper à être un individu autonome et séparé.', 'Il est secrètement fasciné par la violence et s'engager dans un comportement sadomasochiste est un exutoire relativement sûr pour cela.']",2,"Question: Benny est à la tête d'une entreprise prospère. Après une dure journée de travail au cours de laquelle il est soumis à une pression incroyable pour bien performer Il rentre chez lui et sa femme lui donne une fessée . attachez-le à leur lit à quatre affiches et le taquiner jusqu'à ce qu'il demande à avoir des rapports sexuels Selon la théorie psychologique, quelle est la raison la plus probable pour laquelle Benny trouve ça séduisant ?
+
+Choix: ['De même qu'un enfant est devenu sexuellement excité en prétendant être un dirigeant puissant, de même il est maintenant excité au travail et doit se décharger quand il rentre à la maison.', 'Il est submergé par des sentiments de doute de soi et son comportement sadomasochiste lui permet un débouché sûr pour ce doute de soi.', 'Il est submergé par les pressions et les responsabilités au travail, et le comportement masochiste lui permet d'échapper à être un individu autonome et séparé.', 'Il est secrètement fasciné par la violence et s'engager dans un comportement sadomasochiste est un exutoire relativement sûr pour cela.']
+
+Réponse: Il est submergé par les pressions et les responsabilités au travail, et le comportement masochiste lui permet d'échapper à être un individu autonome et séparé."
+Darla et Janice sont deux mères qui élèvent leur fils Timmy.,human_sexuality,"['Il sera probablement gay quand il sera grand.', 'Il ne sera pas populaire auprès de ses pairs.', 'Tant que Timmy a au moins un soignant qui le soutient et l'accepte, il aura un développement sain.', 'Ses compétences sociales seront en retard par rapport à ses pairs qui ont été élevés dans des familles hétérosexuelles.']",2,"Question: Darla et Janice sont deux mères qui élèvent leur fils Timmy.
+
+Choix: ['Il sera probablement gay quand il sera grand.', 'Il ne sera pas populaire auprès de ses pairs.', 'Tant que Timmy a au moins un soignant qui le soutient et l'accepte, il aura un développement sain.', 'Ses compétences sociales seront en retard par rapport à ses pairs qui ont été élevés dans des familles hétérosexuelles.']
+
+Réponse: Tant que Timmy a au moins un soignant qui le soutient et l'accepte, il aura un développement sain."
+Quelles sont les expériences quand un accro au sexe a terminé l'acte sexuel ?,human_sexuality,"['(s) il éprouve des sentiments de désespoir et de désespoir', '(s) il utilise le fantasme du comportement qu'il vient d'accomplir pour s'exciter à nouveau', '(s) il se sent détendu et soulagé émotionnellement', '(s) il redevient immédiatement sexuellement excité et se sent bien au sujet du comportement']",0,"Question: Quelles sont les expériences quand un accro au sexe a terminé l'acte sexuel ?
+
+Choix: ['(s) il éprouve des sentiments de désespoir et de désespoir', '(s) il utilise le fantasme du comportement qu'il vient d'accomplir pour s'exciter à nouveau', '(s) il se sent détendu et soulagé émotionnellement', '(s) il redevient immédiatement sexuellement excité et se sent bien au sujet du comportement']
+
+Réponse: (s) il éprouve des sentiments de désespoir et de désespoir"
+Lequel des facteurs suivants est/sont susceptible de causer des douleurs au cours des rapports sexuels tant chez les hommes que chez les femmes?,human_sexuality,"['infections', 'le prépuce est trop serré', 'vaginisme féminin', 'à la fois A et C']",0,"Question: Lequel des facteurs suivants est/sont susceptible de causer des douleurs au cours des rapports sexuels tant chez les hommes que chez les femmes?
+
+Choix: ['infections', 'le prépuce est trop serré', 'vaginisme féminin', 'à la fois A et C']
+
+Réponse: infections"
+L' endomètre se développe et s' épaissit pendant:,human_sexuality,"['période de menstruation', 'la phase folliculaire', 'la phase lutéale', 'l'ovulation']",1,"Question: L' endomètre se développe et s' épaissit pendant:
+
+Choix: ['période de menstruation', 'la phase folliculaire', 'la phase lutéale', 'l'ovulation']
+
+Réponse: la phase folliculaire"
+Quel événement déclenche la puberté?,human_sexuality,"['hypophyse libère de l' FSH', 'l'hypophyse libère de l'hormone de croissance', 'l'hypothalamus libère le GNRS', 'l'hypothalamus libère de la LH']",2,"Question: Quel événement déclenche la puberté?
+
+Choix: ['hypophyse libère de l' FSH', 'l'hypophyse libère de l'hormone de croissance', 'l'hypothalamus libère le GNRS', 'l'hypothalamus libère de la LH']
+
+Réponse: l'hypothalamus libère le GNRS"
+Alexandre le Grand était probablement,human_sexuality,"['bisexuel ou bisexuelle', 'asexué', 'hétérosexuel', 'pédosexuel']",0,"Question: Alexandre le Grand était probablement
+
+Choix: ['bisexuel ou bisexuelle', 'asexué', 'hétérosexuel', 'pédosexuel']
+
+Réponse: bisexuel ou bisexuelle"
+"Shaggy rêve de déterrer une femme récemment enterrée et de coucher avec elle . Il l' a dit à ses amis et ils l' ont encouragé à aller en thérapie . Dans le cadre du traitement, il se masturbe dans sa fantaisie et au dernier moment avant l'orgasme, il passe à une fantaisie sur le fait d'avoir des relations sexuelles avec une femme vivante. Cette procédure s'inscrit dans le processus de:",human_sexuality,"['Réconditionnement orgasmique', 'conditionnement aversif', 'sensibilisation clandestine', 'thérapie de désensibilisation']",0,"Question: Shaggy rêve de déterrer une femme récemment enterrée et de coucher avec elle . Il l' a dit à ses amis et ils l' ont encouragé à aller en thérapie . Dans le cadre du traitement, il se masturbe dans sa fantaisie et au dernier moment avant l'orgasme, il passe à une fantaisie sur le fait d'avoir des relations sexuelles avec une femme vivante. Cette procédure s'inscrit dans le processus de:
+
+Choix: ['Réconditionnement orgasmique', 'conditionnement aversif', 'sensibilisation clandestine', 'thérapie de désensibilisation']
+
+Réponse: Réconditionnement orgasmique"
+Comment les filles apprennent- elles le plus souvent à se masturber?,human_sexuality,"['en lisant à ce sujet', 'd'être dit par des pairs', 'découverte de soi', 'en observant les autres le faire.']",2,"Question: Comment les filles apprennent- elles le plus souvent à se masturber?
+
+Choix: ['en lisant à ce sujet', 'd'être dit par des pairs', 'découverte de soi', 'en observant les autres le faire.']
+
+Réponse: découverte de soi"
+À combien de centimètres le col de l'utérus doit-il se diluer pour qu'un bébé puisse naître ?,human_sexuality,"['Nom de l'entreprise', 'Nom de l'entreprise', 'Nom de l'entreprise:', 'Nom de l'entreprise:']",1,"Question: À combien de centimètres le col de l'utérus doit-il se diluer pour qu'un bébé puisse naître ?
+
+Choix: ['Nom de l'entreprise', 'Nom de l'entreprise', 'Nom de l'entreprise:', 'Nom de l'entreprise:']
+
+Réponse: Nom de l'entreprise"
+"De 1988 à 1990, parmi les hétérosexuels aux États-Unis, le nombre d'adultes célibataires âgés de 20 à 45 ans qui déclarent avoir eu plusieurs partenaires a:",human_sexuality,"['diminué pour les hommes et les femmes', 'diminué pour les hommes, mais pas pour les femmes', 'diminué pour les femmes, mais pas pour les hommes', 'a diminué pour les hommes, et est resté le même pour les femmes']",0,"Question: De 1988 à 1990, parmi les hétérosexuels aux États-Unis, le nombre d'adultes célibataires âgés de 20 à 45 ans qui déclarent avoir eu plusieurs partenaires a:
+
+Choix: ['diminué pour les hommes et les femmes', 'diminué pour les hommes, mais pas pour les femmes', 'diminué pour les femmes, mais pas pour les hommes', 'a diminué pour les hommes, et est resté le même pour les femmes']
+
+Réponse: diminué pour les hommes et les femmes"
+Ce qui est vrai en ce qui concerne les voyeurs ?,human_sexuality,"['Ils sont généralement d'âge moyen.', 'Ils sont généralement dangereux.', 'Ils veulent généralement voir le comportement sexuel de leurs amis.', 'Ils veulent généralement observer les activités des étrangers.']",3,"Question: Ce qui est vrai en ce qui concerne les voyeurs ?
+
+Choix: ['Ils sont généralement d'âge moyen.', 'Ils sont généralement dangereux.', 'Ils veulent généralement voir le comportement sexuel de leurs amis.', 'Ils veulent généralement observer les activités des étrangers.']
+
+Réponse: Ils veulent généralement observer les activités des étrangers."
+Quelles sont les trois dimensions de l'intimité dans les relations amoureuses qui décrivent la proximité et le partage?,human_sexuality,"['affectueux, confiant et amical', 'devenir émotionnel, attentionné et physique', 'affectif, cognitif et physique', 'révélation mutuelle de soi, de la sexualité et de la confiance']",2,"Question: Quelles sont les trois dimensions de l'intimité dans les relations amoureuses qui décrivent la proximité et le partage?
+
+Choix: ['affectueux, confiant et amical', 'devenir émotionnel, attentionné et physique', 'affectif, cognitif et physique', 'révélation mutuelle de soi, de la sexualité et de la confiance']
+
+Réponse: affectif, cognitif et physique"
+"Mike et Carol sont mariés depuis 5 ans. Récemment, Mike a découvert que même s'il voulait coucher avec Carol, il avait du mal à s'exciter. Cependant, il n'a aucun problème à s'exciter quand il voit sa secrétaire au travail. Lequel des éléments suivants décrit le dysfonctionnement de Mike?",human_sexuality,"['Mike souffre d'un dysfonctionnement global.', 'Mike souffre de dysfonction érectile.', 'Mike souffre d'une inhibition de la lubrification.', 'Mike doit avoir une liaison avec sa secrétaire.']",1,"Question: Mike et Carol sont mariés depuis 5 ans. Récemment, Mike a découvert que même s'il voulait coucher avec Carol, il avait du mal à s'exciter. Cependant, il n'a aucun problème à s'exciter quand il voit sa secrétaire au travail. Lequel des éléments suivants décrit le dysfonctionnement de Mike?
+
+Choix: ['Mike souffre d'un dysfonctionnement global.', 'Mike souffre de dysfonction érectile.', 'Mike souffre d'une inhibition de la lubrification.', 'Mike doit avoir une liaison avec sa secrétaire.']
+
+Réponse: Mike souffre de dysfonction érectile."
+__________ se produit lorsque l'ovule fécondé s'implante ailleurs que dans l'utérus.,human_sexuality,"['Pseudocystite', 'Grossesse extra-utérine', 'Grossesse pré-éclamptique', 'Grossesse par éclampsie']",1,"Question: __________ se produit lorsque l'ovule fécondé s'implante ailleurs que dans l'utérus.
+
+Choix: ['Pseudocystite', 'Grossesse extra-utérine', 'Grossesse pré-éclamptique', 'Grossesse par éclampsie']
+
+Réponse: Grossesse extra-utérine"
+Un proxénète peut être décrit comme ...,human_sexuality,"['... un compagnon-maître d'une prostituée', '...un gigolo qui travaille avec un randonneur', '...une prostituée expérimentée', '... une escorte à une prostituée']",0,"Question: Un proxénète peut être décrit comme ...
+
+Choix: ['... un compagnon-maître d'une prostituée', '...un gigolo qui travaille avec un randonneur', '...une prostituée expérimentée', '... une escorte à une prostituée']
+
+Réponse: ... un compagnon-maître d'une prostituée"
+La menstruation est déclenchée par...,human_sexuality,"['...une forte augmentation des niveaux d'oestrogène', '...une forte augmentation des niveaux de progestérone', '... une forte diminution des niveaux d'oestrogène et de progestérone', '...une forte augmentation des niveaux d'oestrogène et de progestérone']",2,"Question: La menstruation est déclenchée par...
+
+Choix: ['...une forte augmentation des niveaux d'oestrogène', '...une forte augmentation des niveaux de progestérone', '... une forte diminution des niveaux d'oestrogène et de progestérone', '...une forte augmentation des niveaux d'oestrogène et de progestérone']
+
+Réponse: ... une forte diminution des niveaux d'oestrogène et de progestérone"
+Laquelle des affirmations suivantes concernant la divulgation de soi dans les relations est étayée par la recherche?,human_sexuality,"['quand un partenaire dans une relation se révèle, il est peu probable que l'autre le fasse', 'l'auto-divulgation de la part d'un partenaire conduit souvent à l'auto-divulgation de la part de l'autre', 'il existe une corrélation négative entre le niveau d'auto-divulgation et la satisfaction à l'égard de la relation', 'il n'y a pas de relation entre le niveau d'auto-divulgation et la satisfaction à l'égard de la relation']",1,"Question: Laquelle des affirmations suivantes concernant la divulgation de soi dans les relations est étayée par la recherche?
+
+Choix: ['quand un partenaire dans une relation se révèle, il est peu probable que l'autre le fasse', 'l'auto-divulgation de la part d'un partenaire conduit souvent à l'auto-divulgation de la part de l'autre', 'il existe une corrélation négative entre le niveau d'auto-divulgation et la satisfaction à l'égard de la relation', 'il n'y a pas de relation entre le niveau d'auto-divulgation et la satisfaction à l'égard de la relation']
+
+Réponse: l'auto-divulgation de la part d'un partenaire conduit souvent à l'auto-divulgation de la part de l'autre"
+L'attachement à un soignant commence:,human_sexuality,"['dans les heures qui suivent immédiatement la naissance', 'plusieurs semaines après la naissance', 'plusieurs mois après la naissance', 'quand l'enfant apprend à parler']",0,"Question: L'attachement à un soignant commence:
+
+Choix: ['dans les heures qui suivent immédiatement la naissance', 'plusieurs semaines après la naissance', 'plusieurs mois après la naissance', 'quand l'enfant apprend à parler']
+
+Réponse: dans les heures qui suivent immédiatement la naissance"
+La stérilisation féminine inhibe la production de _________.,human_sexuality,"['œuf', 'œstrogène', 'de la progestérone', 'rien de ce qui précède']",3,"Question: La stérilisation féminine inhibe la production de _________.
+
+Choix: ['œuf', 'œstrogène', 'de la progestérone', 'rien de ce qui précède']
+
+Réponse: rien de ce qui précède"
+Un autre terme pour l'auto-stimulation sexuelle est:,human_sexuality,"['masturbation', 'l' auto-érotisme', 'l' auto-érotisme', 'a et b']",3,"Question: Un autre terme pour l'auto-stimulation sexuelle est:
+
+Choix: ['masturbation', 'l' auto-érotisme', 'l' auto-érotisme', 'a et b']
+
+Réponse: a et b"
+On vous a demandé d'écrire une réponse à la recherche de LeVay sur les différences cérébrales entre hétérosexuels et homosexuels.,human_sexuality,"['La taille de l'échantillon était relativement petite.', 'Les groupes homosexuels et hétérosexuels n'étaient pas équivalents en termes de nombre de décès dus au sida.', 'Les lesbiennes ont été omises de l'étude.', 'tout ce qui précède']",3,"Question: On vous a demandé d'écrire une réponse à la recherche de LeVay sur les différences cérébrales entre hétérosexuels et homosexuels.
+
+Choix: ['La taille de l'échantillon était relativement petite.', 'Les groupes homosexuels et hétérosexuels n'étaient pas équivalents en termes de nombre de décès dus au sida.', 'Les lesbiennes ont été omises de l'étude.', 'tout ce qui précède']
+
+Réponse: tout ce qui précède"
+Environ ___ % des adolescents ont eu des expériences homosexuelles au cours de leur adolescence.,human_sexuality,"['Nom de l'entreprise', 'Nom de l'entreprise', 'Nom de l'entreprise:', '30 de l'année précédente.']",1,"Question: Environ ___ % des adolescents ont eu des expériences homosexuelles au cours de leur adolescence.
+
+Choix: ['Nom de l'entreprise', 'Nom de l'entreprise', 'Nom de l'entreprise:', '30 de l'année précédente.']
+
+Réponse: Nom de l'entreprise"
+Les hormones sont sécrétées:,human_sexuality,"['directement dans la circulation sanguine', 'dans les tissus entourant les glandes où ils ont été fabriqués', 'dans l'estomac et sont ensuite digérés et se déplacent dans tout le corps', 'dans les ovaires et les testicules']",0,"Question: Les hormones sont sécrétées:
+
+Choix: ['directement dans la circulation sanguine', 'dans les tissus entourant les glandes où ils ont été fabriqués', 'dans l'estomac et sont ensuite digérés et se déplacent dans tout le corps', 'dans les ovaires et les testicules']
+
+Réponse: directement dans la circulation sanguine"
+"À 28 jours après la conception, l'embryon mesure environ __________ centimètres de long.",human_sexuality,"['Nom de l'établissement', 'Nom de l'entreprise', 'Nom de l'entreprise', 'Nom de l'entreprise:']",0,"Question: À 28 jours après la conception, l'embryon mesure environ __________ centimètres de long.
+
+Choix: ['Nom de l'établissement', 'Nom de l'entreprise', 'Nom de l'entreprise', 'Nom de l'entreprise:']
+
+Réponse: Nom de l'établissement"
+"""L'État n'a rien à faire dans les chambres de la nation"", est une citation célèbre de cet ancien Premier ministre canadien.",human_sexuality,"['C' est Clark .', 'Nom de famille Mulroney', 'Le roi', 'Le président Trudeau.']",3,"Question: ""L'État n'a rien à faire dans les chambres de la nation"", est une citation célèbre de cet ancien Premier ministre canadien.
+
+Choix: ['C' est Clark .', 'Nom de famille Mulroney', 'Le roi', 'Le président Trudeau.']
+
+Réponse: Le président Trudeau."
+"Keith est vraiment inquiet à propos d'une grande présentation qu'il doit faire au travail demain. En conséquence, ce soir, il a du mal à avoir une érection. Laquelle des explications suivantes explique le mieux pourquoi Keith pourrait avoir ce problème?",human_sexuality,"['la relaxation est nécessaire pour la vasocongestion', 'L' anxiété inhibe le système sympathique .', 'l'anxiété provoque une éjaculation rétrograde qui inhibe l'excitation', 'anxiété diminue le flux sanguin vers la moelle épinière supérieure inhibant la vasocongestion']",0,"Question: Keith est vraiment inquiet à propos d'une grande présentation qu'il doit faire au travail demain. En conséquence, ce soir, il a du mal à avoir une érection. Laquelle des explications suivantes explique le mieux pourquoi Keith pourrait avoir ce problème?
+
+Choix: ['la relaxation est nécessaire pour la vasocongestion', 'L' anxiété inhibe le système sympathique .', 'l'anxiété provoque une éjaculation rétrograde qui inhibe l'excitation', 'anxiété diminue le flux sanguin vers la moelle épinière supérieure inhibant la vasocongestion']
+
+Réponse: la relaxation est nécessaire pour la vasocongestion"
+Une personne avec une note de 4 sur l'échelle de Kinsey serait classée comme:,human_sexuality,"['majoritairement hétérosexuels avec une expérience homosexuelle occasionnelle', 'hétérosexuel ayant une expérience substantielle de l'homosexualité', 'Homosexuel avec une expérience hétérosexuelle substantielle', 'majoritairement homosexuels avec une expérience hétérosexuelle occasionnelle']",2,"Question: Une personne avec une note de 4 sur l'échelle de Kinsey serait classée comme:
+
+Choix: ['majoritairement hétérosexuels avec une expérience homosexuelle occasionnelle', 'hétérosexuel ayant une expérience substantielle de l'homosexualité', 'Homosexuel avec une expérience hétérosexuelle substantielle', 'majoritairement homosexuels avec une expérience hétérosexuelle occasionnelle']
+
+Réponse: Homosexuel avec une expérience hétérosexuelle substantielle"
+La période réfractaire survient chez les mâles au cours du stade ______.,human_sexuality,"['résolution', 'l'orgasme', 'plateau', 'émotion']",0,"Question: La période réfractaire survient chez les mâles au cours du stade ______.
+
+Choix: ['résolution', 'l'orgasme', 'plateau', 'émotion']
+
+Réponse: résolution"
+La zone pellucide est ...,human_sexuality,"['...une couche protectrice entourant l'œuf', '... l'œuf fécondé', '...une enzyme sécrétée par le sperme pour décomposer la couche protectrice de l'ovule.', '...la zone où les spermatozoïdes se rassemblent avant de tenter de féconder l'ovule.']",0,"Question: La zone pellucide est ...
+
+Choix: ['...une couche protectrice entourant l'œuf', '... l'œuf fécondé', '...une enzyme sécrétée par le sperme pour décomposer la couche protectrice de l'ovule.', '...la zone où les spermatozoïdes se rassemblent avant de tenter de féconder l'ovule.']
+
+Réponse: ...une couche protectrice entourant l'œuf"
+"Chez les hommes, la gonorrhée et la chlamydia infectent le plus souvent:",human_sexuality,"['le pénis', 'le scrotum', 'urètre', 'la vessie']",2,"Question: Chez les hommes, la gonorrhée et la chlamydia infectent le plus souvent:
+
+Choix: ['le pénis', 'le scrotum', 'urètre', 'la vessie']
+
+Réponse: urètre"
+Quelle méthode d'avortement coûte le plus cher et comporte le plus grand risque de complications?,human_sexuality,"['hystérotomie', 'avortement induit par une solution saline', 'l' avortement par prostaglandine', 'dilatation et curetage']",0,"Question: Quelle méthode d'avortement coûte le plus cher et comporte le plus grand risque de complications?
+
+Choix: ['hystérotomie', 'avortement induit par une solution saline', 'l' avortement par prostaglandine', 'dilatation et curetage']
+
+Réponse: hystérotomie"
+"Mlle Jones s' est inquiétée pour sa santé ces derniers temps . Elle a remarqué des démangeaisons et une irritation de la peau autour de ses organes génitaux. Compte tenu de ses antécédents sexuels, elle soupçonne qu'elle a contracté:",human_sexuality,"['infection à chlamydia', 'verrues génitales', 'gonorrhée', 'poux pubiens']",3,"Question: Mlle Jones s' est inquiétée pour sa santé ces derniers temps . Elle a remarqué des démangeaisons et une irritation de la peau autour de ses organes génitaux. Compte tenu de ses antécédents sexuels, elle soupçonne qu'elle a contracté:
+
+Choix: ['infection à chlamydia', 'verrues génitales', 'gonorrhée', 'poux pubiens']
+
+Réponse: poux pubiens"
+Lequel des éléments suivants ne fait PAS partie de la structure interne du sein d'une femme ?,human_sexuality,"['Lobule du sein', 'Le conduit lactifère', 'Sinus lactifère', 'Le muscle de Dartos']",3,"Question: Lequel des éléments suivants ne fait PAS partie de la structure interne du sein d'une femme ?
+
+Choix: ['Lobule du sein', 'Le conduit lactifère', 'Sinus lactifère', 'Le muscle de Dartos']
+
+Réponse: Le muscle de Dartos"
+"Au cours des dernières décennies, les attitudes à l'égard des relations sexuelles avant le mariage ont __________; les attitudes à l'égard des relations sexuelles hors mariage ont __________.",human_sexuality,"['est resté constant; est resté constant', 'deviennent moins permissifs; deviennent plus tolérants', 'sont restés constants; ils sont devenus moins tolérants', 'deviennent plus permissifs; deviennent moins tolérants']",3,"Question: Au cours des dernières décennies, les attitudes à l'égard des relations sexuelles avant le mariage ont __________; les attitudes à l'égard des relations sexuelles hors mariage ont __________.
+
+Choix: ['est resté constant; est resté constant', 'deviennent moins permissifs; deviennent plus tolérants', 'sont restés constants; ils sont devenus moins tolérants', 'deviennent plus permissifs; deviennent moins tolérants']
+
+Réponse: deviennent plus permissifs; deviennent moins tolérants"

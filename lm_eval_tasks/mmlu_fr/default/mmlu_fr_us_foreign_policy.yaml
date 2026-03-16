@@ -1,0 +1,13 @@
+include: _default_template_yaml
+task: mmlu_fr_us_foreign_policy
+task_alias: us_foreign_policy
+
+description: "Les questions suivantes sont des questions à choix multiples (avec réponses) sur le sujet politique étrangère des États-Unis.\n\n"
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_French/mmlu_fr_by_subject/us_foreign_policy.csv
+
+test_split: test
+
+

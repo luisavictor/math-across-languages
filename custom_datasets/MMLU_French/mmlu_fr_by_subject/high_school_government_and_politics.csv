@@ -1,0 +1,966 @@
+question,subject,choices,answer,qa
+Lequel des énoncés suivants décrit le mieux l'équilibre que la Cour suprême a trouvé entre la clause d'établissement et la clause de libre exercice ?,high_school_government_and_politics,"['La liberté d'expression est protégée sauf dans certaines situations, comme crier 'feu' dans un théâtre bondé.', 'Une fois qu'une église a été reconnue par le gouvernement fédéral, son statut d'exonération fiscale ne peut jamais être révoqué.', 'Une fois que le Congrès a créé une agence administrative, cette agence ne peut être dissoute que par un amendement constitutionnel.', 'La prière parrainée par l'État pendant les heures d'école est interdite, mais la prière volontaire par des groupes d'étudiants avant l'école est autorisée.']",3,"Question: Lequel des énoncés suivants décrit le mieux l'équilibre que la Cour suprême a trouvé entre la clause d'établissement et la clause de libre exercice ?
+
+Choix: ['La liberté d'expression est protégée sauf dans certaines situations, comme crier 'feu' dans un théâtre bondé.', 'Une fois qu'une église a été reconnue par le gouvernement fédéral, son statut d'exonération fiscale ne peut jamais être révoqué.', 'Une fois que le Congrès a créé une agence administrative, cette agence ne peut être dissoute que par un amendement constitutionnel.', 'La prière parrainée par l'État pendant les heures d'école est interdite, mais la prière volontaire par des groupes d'étudiants avant l'école est autorisée.']
+
+Réponse: La prière parrainée par l'État pendant les heures d'école est interdite, mais la prière volontaire par des groupes d'étudiants avant l'école est autorisée."
+Laquelle des déclarations suivantes ne décrit PAS avec précision le comportement de vote aux États-Unis?,high_school_government_and_politics,"['Les électeurs enregistrés âgés de 35 à 45 ans sont plus susceptibles de voter que ceux de moins de 21 ans.', 'Un électeur inscrit qui a atteint son développement éducatif général (GED) est moins susceptible de voter qu'un élève qui a abandonné l'école secondaire.', 'Les électeurs inscrits sont plus susceptibles de voter aux élections générales qu'aux élections primaires.', 'Plus de femmes que d'hommes ont voté à chaque élection présidentielle depuis 1980.']",1,"Question: Laquelle des déclarations suivantes ne décrit PAS avec précision le comportement de vote aux États-Unis?
+
+Choix: ['Les électeurs enregistrés âgés de 35 à 45 ans sont plus susceptibles de voter que ceux de moins de 21 ans.', 'Un électeur inscrit qui a atteint son développement éducatif général (GED) est moins susceptible de voter qu'un élève qui a abandonné l'école secondaire.', 'Les électeurs inscrits sont plus susceptibles de voter aux élections générales qu'aux élections primaires.', 'Plus de femmes que d'hommes ont voté à chaque élection présidentielle depuis 1980.']
+
+Réponse: Un électeur inscrit qui a atteint son développement éducatif général (GED) est moins susceptible de voter qu'un élève qui a abandonné l'école secondaire."
+Lequel des éléments suivants joue le rôle le plus important dans la formation des opinions politiques d'un enfant?,high_school_government_and_politics,"['La zone géographique où l'enfant grandit', 'La famille de l'enfant', 'Les médias auxquels l'enfant est exposé', 'La religion de l'enfant']",1,"Question: Lequel des éléments suivants joue le rôle le plus important dans la formation des opinions politiques d'un enfant?
+
+Choix: ['La zone géographique où l'enfant grandit', 'La famille de l'enfant', 'Les médias auxquels l'enfant est exposé', 'La religion de l'enfant']
+
+Réponse: La famille de l'enfant"
+Quel pouvoir a été accordé aux États par les Articles de la Confédération mais pas par la Constitution ?,high_school_government_and_politics,"['Fabrication de pièces de monnaie', 'Autorisation de modifications constitutionnelles', 'Avoir une représentation au Congrès', 'Demander au président de statuer sur les litiges']",0,"Question: Quel pouvoir a été accordé aux États par les Articles de la Confédération mais pas par la Constitution ?
+
+Choix: ['Fabrication de pièces de monnaie', 'Autorisation de modifications constitutionnelles', 'Avoir une représentation au Congrès', 'Demander au président de statuer sur les litiges']
+
+Réponse: Fabrication de pièces de monnaie"
+La fonction première des comités d'action politique (CAP) est de:,high_school_government_and_politics,"['contribuer financièrement aux candidats à l'élection', 'coordonner les campagnes locales de mobilisation électorale', 'promouvoir la défaite des titulaires dans les législatures fédérales et étatiques', 'organiser des manifestations de protestation et d'autres actes de désobéissance civile']",0,"Question: La fonction première des comités d'action politique (CAP) est de:
+
+Choix: ['contribuer financièrement aux candidats à l'élection', 'coordonner les campagnes locales de mobilisation électorale', 'promouvoir la défaite des titulaires dans les législatures fédérales et étatiques', 'organiser des manifestations de protestation et d'autres actes de désobéissance civile']
+
+Réponse: contribuer financièrement aux candidats à l'élection"
+Les juges fédéraux sont soumis à laquelle des actions disciplinaires suivantes?,high_school_government_and_politics,"['Mise en accusation, condamnation et destitution par le Congrès', 'Révocation par le président qui a procédé à la nomination', 'Démission du président élu', 'Rappel des élections par les citoyens résidant dans le district sur lequel le juge a compétence']",0,"Question: Les juges fédéraux sont soumis à laquelle des actions disciplinaires suivantes?
+
+Choix: ['Mise en accusation, condamnation et destitution par le Congrès', 'Révocation par le président qui a procédé à la nomination', 'Démission du président élu', 'Rappel des élections par les citoyens résidant dans le district sur lequel le juge a compétence']
+
+Réponse: Mise en accusation, condamnation et destitution par le Congrès"
+La quantité d'accès que les secrétaires du cabinet ont au président est très probablement contrôlée par le,high_school_government_and_politics,"['vice-président', 'le chef de cabinet du président', 'conseiller à la sécurité nationale', 'président du conseil de la Réserve fédérale']",1,"Question: La quantité d'accès que les secrétaires du cabinet ont au président est très probablement contrôlée par le
+
+Choix: ['vice-président', 'le chef de cabinet du président', 'conseiller à la sécurité nationale', 'président du conseil de la Réserve fédérale']
+
+Réponse: le chef de cabinet du président"
+Lequel des éléments suivants définit l'importance d'une question politique ?,high_school_government_and_politics,"['La quantité de couverture que la question reçoit dans les principaux médias d'information', 'Le degré auquel l'opinion publique sur la question est susceptible de changer rapidement', 'Le nombre de personnes touchées par le problème', 'L'importance de la question pour un individu ou un groupe particulier']",3,"Question: Lequel des éléments suivants définit l'importance d'une question politique ?
+
+Choix: ['La quantité de couverture que la question reçoit dans les principaux médias d'information', 'Le degré auquel l'opinion publique sur la question est susceptible de changer rapidement', 'Le nombre de personnes touchées par le problème', 'L'importance de la question pour un individu ou un groupe particulier']
+
+Réponse: L'importance de la question pour un individu ou un groupe particulier"
+Les électeurs qui se fient exclusivement à la couverture des élections nationales par les chaînes de télévision sont plus susceptibles d'être,high_school_government_and_politics,"['quels groupes d'intérêt ont approuvé quels candidats', 'la force relative du soutien de chaque candidat, telle qu'indiquée par les sondages d'opinion publique', 'positions des candidats sur les questions internationales', 'positions des candidats sur les questions intérieures']",1,"Question: Les électeurs qui se fient exclusivement à la couverture des élections nationales par les chaînes de télévision sont plus susceptibles d'être
+
+Choix: ['quels groupes d'intérêt ont approuvé quels candidats', 'la force relative du soutien de chaque candidat, telle qu'indiquée par les sondages d'opinion publique', 'positions des candidats sur les questions internationales', 'positions des candidats sur les questions intérieures']
+
+Réponse: la force relative du soutien de chaque candidat, telle qu'indiquée par les sondages d'opinion publique"
+Quel principe a été établi par la décision de la Cour suprême dans l'affaire Marbury c. Madison?,high_school_government_and_politics,"['Un homme, une voix', 'Séparés mais égaux', 'Contrôle judiciaire', 'Droit à la vie privée']",2,"Question: Quel principe a été établi par la décision de la Cour suprême dans l'affaire Marbury c. Madison?
+
+Choix: ['Un homme, une voix', 'Séparés mais égaux', 'Contrôle judiciaire', 'Droit à la vie privée']
+
+Réponse: Contrôle judiciaire"
+Laquelle des personnes suivantes serait la plus susceptible d'être accusée de trafic d'influence ?,high_school_government_and_politics,"['Un membre du Congrès qui prend sa retraite pour enseigner les sciences politiques à l'université.', 'Un ancien président qui conseille un président actuel sur une question particulière de politique étrangère', 'Un électeur qui recherche les positions de tous les candidats dans une course avant de choisir qui soutenir', 'Un fonctionnaire qui quitte le Département d'État pour travailler comme consultant rémunéré pour des gouvernements étrangers']",3,"Question: Laquelle des personnes suivantes serait la plus susceptible d'être accusée de trafic d'influence ?
+
+Choix: ['Un membre du Congrès qui prend sa retraite pour enseigner les sciences politiques à l'université.', 'Un ancien président qui conseille un président actuel sur une question particulière de politique étrangère', 'Un électeur qui recherche les positions de tous les candidats dans une course avant de choisir qui soutenir', 'Un fonctionnaire qui quitte le Département d'État pour travailler comme consultant rémunéré pour des gouvernements étrangers']
+
+Réponse: Un fonctionnaire qui quitte le Département d'État pour travailler comme consultant rémunéré pour des gouvernements étrangers"
+Lequel des éléments suivants la Cour suprême n'a pas le pouvoir d'annuler?,high_school_government_and_politics,"['Modifications constitutionnelles', 'Décrets présidentiels', 'Les lois adoptées par le Congrès', 'Les lois adoptées par les législatures des États']",0,"Question: Lequel des éléments suivants la Cour suprême n'a pas le pouvoir d'annuler?
+
+Choix: ['Modifications constitutionnelles', 'Décrets présidentiels', 'Les lois adoptées par le Congrès', 'Les lois adoptées par les législatures des États']
+
+Réponse: Modifications constitutionnelles"
+"Selon The Federalist Papers, lequel des effets suivants du fédéralisme sur les factions politiques?",high_school_government_and_politics,"['Il fournit un environnement structuré dans lequel les factions peuvent s'épanouir.', 'Il limite les dangers du factionnisme en diluant le pouvoir politique.', 'Il permet aux factions de dominer au niveau national tout en limitant leur influence sur les gouvernements des États.', 'Cela élimine toute possibilité de formation de factions.']",1,"Question: Selon The Federalist Papers, lequel des effets suivants du fédéralisme sur les factions politiques?
+
+Choix: ['Il fournit un environnement structuré dans lequel les factions peuvent s'épanouir.', 'Il limite les dangers du factionnisme en diluant le pouvoir politique.', 'Il permet aux factions de dominer au niveau national tout en limitant leur influence sur les gouvernements des États.', 'Cela élimine toute possibilité de formation de factions.']
+
+Réponse: Il limite les dangers du factionnisme en diluant le pouvoir politique."
+Laquelle des affirmations suivantes concernant les modes de vote n'est PAS vraie ?,high_school_government_and_politics,"['Les non-Blancs sont plus susceptibles de voter démocrate que les Blancs.', 'Les femmes sont plus susceptibles de voter démocrate que les hommes.', 'Les Américains à faible revenu sont plus susceptibles de voter démocrate que les Américains à revenu élevé.', 'Les chrétiens évangéliques sont plus susceptibles de voter démocrate que les Américains non religieux.']",3,"Question: Laquelle des affirmations suivantes concernant les modes de vote n'est PAS vraie ?
+
+Choix: ['Les non-Blancs sont plus susceptibles de voter démocrate que les Blancs.', 'Les femmes sont plus susceptibles de voter démocrate que les hommes.', 'Les Américains à faible revenu sont plus susceptibles de voter démocrate que les Américains à revenu élevé.', 'Les chrétiens évangéliques sont plus susceptibles de voter démocrate que les Américains non religieux.']
+
+Réponse: Les chrétiens évangéliques sont plus susceptibles de voter démocrate que les Américains non religieux."
+Le principe juridique qui enjoint aux juges de suivre les précédents établis lorsqu'ils statuent sur des affaires est communément appelé,high_school_government_and_politics,"['délivrance de l'acte', 'dé jure', 'ex post facto ou ex post facto ou ex post facto', 'Décision prise à l'unanimité']",3,"Question: Le principe juridique qui enjoint aux juges de suivre les précédents établis lorsqu'ils statuent sur des affaires est communément appelé
+
+Choix: ['délivrance de l'acte', 'dé jure', 'ex post facto ou ex post facto ou ex post facto', 'Décision prise à l'unanimité']
+
+Réponse: Décision prise à l'unanimité"
+Les électeurs dans laquelle des catégories suivantes seraient le moins susceptibles de voter?,high_school_government_and_politics,"['Travailleurs qui appartiennent à un syndicat', 'Professionnels', 'Les électeurs actifs au sein de leurs partis politiques', 'Électeurs âgés de 18 à 29 ans']",3,"Question: Les électeurs dans laquelle des catégories suivantes seraient le moins susceptibles de voter?
+
+Choix: ['Travailleurs qui appartiennent à un syndicat', 'Professionnels', 'Les électeurs actifs au sein de leurs partis politiques', 'Électeurs âgés de 18 à 29 ans']
+
+Réponse: Électeurs âgés de 18 à 29 ans"
+"Lors de la ratification de la Constitution, le principal point de désaccord entre les fédéralistes et les anti-fédéralistes était terminé.",high_school_government_and_politics,"['si la représentation au Congrès devrait être égale entre les États ou proportionnelle à la population', 'la force du gouvernement fédéral par rapport aux États', 'l'avenir de la traite des esclaves', 'si les gens avaient des droits inaliénables']",1,"Question: Lors de la ratification de la Constitution, le principal point de désaccord entre les fédéralistes et les anti-fédéralistes était terminé.
+
+Choix: ['si la représentation au Congrès devrait être égale entre les États ou proportionnelle à la population', 'la force du gouvernement fédéral par rapport aux États', 'l'avenir de la traite des esclaves', 'si les gens avaient des droits inaliénables']
+
+Réponse: la force du gouvernement fédéral par rapport aux États"
+"Les succès législatifs de la National Rifle Association, des militants anti-avortement, et d'autres groupes d'intérêt puissants démontrent que",high_school_government_and_politics,"['La politique intérieure des États-Unis est devenue plus conservatrice dans les années 1990', 'l'influence des comités d'action politique s'est affaiblie ces dernières années', 'le pouvoir des groupes d'intérêt dépend du degré de soutien pour leurs positions à la Maison Blanche', 'L'opinion majoritaire sur une question peut parfois être annulée par l'intensité de l'engagement d'une minorité à l'activisme.']",3,"Question: Les succès législatifs de la National Rifle Association, des militants anti-avortement, et d'autres groupes d'intérêt puissants démontrent que
+
+Choix: ['La politique intérieure des États-Unis est devenue plus conservatrice dans les années 1990', 'l'influence des comités d'action politique s'est affaiblie ces dernières années', 'le pouvoir des groupes d'intérêt dépend du degré de soutien pour leurs positions à la Maison Blanche', 'L'opinion majoritaire sur une question peut parfois être annulée par l'intensité de l'engagement d'une minorité à l'activisme.']
+
+Réponse: L'opinion majoritaire sur une question peut parfois être annulée par l'intensité de l'engagement d'une minorité à l'activisme."
+La règle d'exclusion a été établie pour,high_school_government_and_politics,"['créer des installations 'séparées mais égales' pour faciliter la ségrégation raciale', 'permettre aux organisations privées de restreindre leur adhésion', 'limiter la capacité du gouvernement à utiliser des preuves obtenues illégalement', 'nier le contrôle du commerce interétatique aux États']",2,"Question: La règle d'exclusion a été établie pour
+
+Choix: ['créer des installations 'séparées mais égales' pour faciliter la ségrégation raciale', 'permettre aux organisations privées de restreindre leur adhésion', 'limiter la capacité du gouvernement à utiliser des preuves obtenues illégalement', 'nier le contrôle du commerce interétatique aux États']
+
+Réponse: limiter la capacité du gouvernement à utiliser des preuves obtenues illégalement"
+Les avis des comités du Congrès ne reflètent souvent pas l'opinion publique parce que,high_school_government_and_politics,"['la composition des commissions est souvent surreprésentée par les circonscriptions ayant le plus grand intérêt dans les affaires de la commission', 'La plupart des comités sont trop petits pour inclure des représentants de toutes les opinions populaires.', 'le parti minoritaire contrôle près de la moitié de tous les comités', 'Les membres des comités perdent souvent de vue les priorités de leurs électeurs en raison de leurs contacts fréquents avec des lobbyistes d'intérêts particuliers.']",0,"Question: Les avis des comités du Congrès ne reflètent souvent pas l'opinion publique parce que
+
+Choix: ['la composition des commissions est souvent surreprésentée par les circonscriptions ayant le plus grand intérêt dans les affaires de la commission', 'La plupart des comités sont trop petits pour inclure des représentants de toutes les opinions populaires.', 'le parti minoritaire contrôle près de la moitié de tous les comités', 'Les membres des comités perdent souvent de vue les priorités de leurs électeurs en raison de leurs contacts fréquents avec des lobbyistes d'intérêts particuliers.']
+
+Réponse: la composition des commissions est souvent surreprésentée par les circonscriptions ayant le plus grand intérêt dans les affaires de la commission"
+"Le Congrès serait tenu d'utiliser la ""clause élastique"" de la Constitution pour",high_school_government_and_politics,"['modification des exigences relatives à la citoyenneté', 'imposer des normes de sécurité sur le lieu de travail', 'augmenter les taux d'imposition', 'autoriser le Trésor à imprimer de l'argent']",1,"Question: Le Congrès serait tenu d'utiliser la ""clause élastique"" de la Constitution pour
+
+Choix: ['modification des exigences relatives à la citoyenneté', 'imposer des normes de sécurité sur le lieu de travail', 'augmenter les taux d'imposition', 'autoriser le Trésor à imprimer de l'argent']
+
+Réponse: imposer des normes de sécurité sur le lieu de travail"
+Le Comité du Règlement de la Chambre est considéré comme l'un des plus puissants de la Chambre des représentants parce qu'il a un grand pouvoir sur le,high_school_government_and_politics,"['comportement éthique des membres de la Chambre', 'sélection des juges fédéraux', 'nombre de sous-comités qu'une commission permanente peut créer à un moment donné', 'le calendrier des votes et les conditions dans lesquelles les projets de loi sont débattus et modifiés']",3,"Question: Le Comité du Règlement de la Chambre est considéré comme l'un des plus puissants de la Chambre des représentants parce qu'il a un grand pouvoir sur le
+
+Choix: ['comportement éthique des membres de la Chambre', 'sélection des juges fédéraux', 'nombre de sous-comités qu'une commission permanente peut créer à un moment donné', 'le calendrier des votes et les conditions dans lesquelles les projets de loi sont débattus et modifiés']
+
+Réponse: le calendrier des votes et les conditions dans lesquelles les projets de loi sont débattus et modifiés"
+"La Cour suprême a rendu l'avis cité ci-dessous dans sa décision sur laquelle des affaires suivantes? ""Nous concluons que dans le domaine de l'éducation, la doctrine de 'séparés mais égaux' n'a pas sa place Les établissements d'enseignement séparés sont intrinsèquement inégaux"".",high_school_government_and_politics,"['Gideon contre Wainwright', 'Marbury contre Madison', 'Engel contre Vitale', 'Brown contre le conseil de l'éducation de Topeka']",3,"Question: La Cour suprême a rendu l'avis cité ci-dessous dans sa décision sur laquelle des affaires suivantes? ""Nous concluons que dans le domaine de l'éducation, la doctrine de 'séparés mais égaux' n'a pas sa place Les établissements d'enseignement séparés sont intrinsèquement inégaux"".
+
+Choix: ['Gideon contre Wainwright', 'Marbury contre Madison', 'Engel contre Vitale', 'Brown contre le conseil de l'éducation de Topeka']
+
+Réponse: Brown contre le conseil de l'éducation de Topeka"
+"Au cours de la dernière décennie, de nombreux États ont avancé la date de leurs élections primaires présidentielles dans le but de",high_school_government_and_politics,"['minimiser le coût de la tenue de l'élection', 'convaincre le gouvernement national d'avancer la date des élections générales', 'restreindre le nombre de candidats à la présidentielle', 'accroître l'importance de leurs résultats électoraux']",3,"Question: Au cours de la dernière décennie, de nombreux États ont avancé la date de leurs élections primaires présidentielles dans le but de
+
+Choix: ['minimiser le coût de la tenue de l'élection', 'convaincre le gouvernement national d'avancer la date des élections générales', 'restreindre le nombre de candidats à la présidentielle', 'accroître l'importance de leurs résultats électoraux']
+
+Réponse: accroître l'importance de leurs résultats électoraux"
+"Déclaré inconstitutionnel en 1983, le veto législatif avait permis",high_school_government_and_politics,"['la branche exécutive pour opposer son veto à la législation approuvée par le Congrès', 'les tribunaux fédéraux de district pour renverser la législation', 'Le président peut opposer son veto aux lois de l'État.', 'Le Congrès annule les résolutions approuvées par le pouvoir exécutif']",3,"Question: Déclaré inconstitutionnel en 1983, le veto législatif avait permis
+
+Choix: ['la branche exécutive pour opposer son veto à la législation approuvée par le Congrès', 'les tribunaux fédéraux de district pour renverser la législation', 'Le président peut opposer son veto aux lois de l'État.', 'Le Congrès annule les résolutions approuvées par le pouvoir exécutif']
+
+Réponse: Le Congrès annule les résolutions approuvées par le pouvoir exécutif"
+Les lois électorales fédérales sont conçues pour réaliser tout ce qui suit SAUF,high_school_government_and_politics,"['exiger la divulgation des dons de campagne', 'empêcher les campagnes de publier des annonces 'attaquantes'', 'limiter les contributions à la campagne', 'exiger la divulgation des dépenses de campagne']",1,"Question: Les lois électorales fédérales sont conçues pour réaliser tout ce qui suit SAUF
+
+Choix: ['exiger la divulgation des dons de campagne', 'empêcher les campagnes de publier des annonces 'attaquantes'', 'limiter les contributions à la campagne', 'exiger la divulgation des dépenses de campagne']
+
+Réponse: empêcher les campagnes de publier des annonces ""attaquantes"""
+"Le président exécute un ""veto de poche"" en faisant lequel des éléments suivants?",high_school_government_and_politics,"['Expression publique du rejet d'un projet de loi', 'Émission d'une ordonnance exécutive invalidant un projet de loi récemment adopté', 'Ne pas signer un projet de loi après que le Congrès a ajourné', 'Rappel des ambassadeurs d'une négociation de paix']",2,"Question: Le président exécute un ""veto de poche"" en faisant lequel des éléments suivants?
+
+Choix: ['Expression publique du rejet d'un projet de loi', 'Émission d'une ordonnance exécutive invalidant un projet de loi récemment adopté', 'Ne pas signer un projet de loi après que le Congrès a ajourné', 'Rappel des ambassadeurs d'une négociation de paix']
+
+Réponse: Ne pas signer un projet de loi après que le Congrès a ajourné"
+Laquelle des affirmations suivantes s'applique au Parti républicain depuis les années 1980 ?,high_school_government_and_politics,"['Il s'est aligné avec les libertariens civils.', 'Elle est devenue dominée par les syndicats.', 'Elle est devenue plus antagoniste aux intérêts commerciaux.', 'Il est devenu plus influencé par les chrétiens évangéliques.']",3,"Question: Laquelle des affirmations suivantes s'applique au Parti républicain depuis les années 1980 ?
+
+Choix: ['Il s'est aligné avec les libertariens civils.', 'Elle est devenue dominée par les syndicats.', 'Elle est devenue plus antagoniste aux intérêts commerciaux.', 'Il est devenu plus influencé par les chrétiens évangéliques.']
+
+Réponse: Il est devenu plus influencé par les chrétiens évangéliques."
+"Laquelle des affirmations suivantes est MOINS vraie pour les électeurs aux élections fédérales, étatiques et locales?",high_school_government_and_politics,"['La participation électorale est plus faible aux élections de mi-mandat qu'aux élections présidentielles.', 'Les électeurs qui n'ont pas d'affiliation partisane ont tendance à voter moins régulièrement que ceux qui ont une forte affiliation partisane.', 'Les jeunes adultes sont moins susceptibles de voter que les personnes âgées.', 'Les individus sont plus susceptibles de voter lorsqu'ils croient savoir quel candidat remportera une élection.']",3,"Question: Laquelle des affirmations suivantes est MOINS vraie pour les électeurs aux élections fédérales, étatiques et locales?
+
+Choix: ['La participation électorale est plus faible aux élections de mi-mandat qu'aux élections présidentielles.', 'Les électeurs qui n'ont pas d'affiliation partisane ont tendance à voter moins régulièrement que ceux qui ont une forte affiliation partisane.', 'Les jeunes adultes sont moins susceptibles de voter que les personnes âgées.', 'Les individus sont plus susceptibles de voter lorsqu'ils croient savoir quel candidat remportera une élection.']
+
+Réponse: Les individus sont plus susceptibles de voter lorsqu'ils croient savoir quel candidat remportera une élection."
+Lequel des éléments suivants ne s'applique PAS aux ordres exécutifs?,high_school_government_and_politics,"['Les présidents évitent d'utiliser des ordres exécutifs pour des actions controversées.', 'Les ordres exécutifs ont le même effet que les lois adoptées par le Congrès.', 'Les présidents ont fait un usage accru des décrets exécutifs depuis les années 1970.', 'Les ordres exécutifs contournent l'approbation du Congrès.']",0,"Question: Lequel des éléments suivants ne s'applique PAS aux ordres exécutifs?
+
+Choix: ['Les présidents évitent d'utiliser des ordres exécutifs pour des actions controversées.', 'Les ordres exécutifs ont le même effet que les lois adoptées par le Congrès.', 'Les présidents ont fait un usage accru des décrets exécutifs depuis les années 1970.', 'Les ordres exécutifs contournent l'approbation du Congrès.']
+
+Réponse: Les présidents évitent d'utiliser des ordres exécutifs pour des actions controversées."
+Lequel des principes suivants est réalisé lorsque le gouvernement fédéral fournit la majeure partie du financement d'un projet dans lequel plusieurs niveaux de gouvernement travaillent ensemble?,high_school_government_and_politics,"['Confédération fédérale', 'Le fédéralisme budgétaire', 'Financement par subvention', 'Le double fédéralisme']",1,"Question: Lequel des principes suivants est réalisé lorsque le gouvernement fédéral fournit la majeure partie du financement d'un projet dans lequel plusieurs niveaux de gouvernement travaillent ensemble?
+
+Choix: ['Confédération fédérale', 'Le fédéralisme budgétaire', 'Financement par subvention', 'Le double fédéralisme']
+
+Réponse: Le fédéralisme budgétaire"
+"Dans ""Fédéraliste n° 10"", James Madison soutient qu'un système fédéral de gouvernement réduit le danger des factions politiques en",high_school_government_and_politics,"['créant des obstacles insurmontables à la fondation de factions', 'rendant difficile pour une faction d'obtenir le pouvoir nécessaire pour gouverner', 'exigeant une représentation égale de toutes les factions au sein du gouvernement', 'limitant l'activité politique des factions au niveau de l'État uniquement']",1,"Question: Dans ""Fédéraliste n° 10"", James Madison soutient qu'un système fédéral de gouvernement réduit le danger des factions politiques en
+
+Choix: ['créant des obstacles insurmontables à la fondation de factions', 'rendant difficile pour une faction d'obtenir le pouvoir nécessaire pour gouverner', 'exigeant une représentation égale de toutes les factions au sein du gouvernement', 'limitant l'activité politique des factions au niveau de l'État uniquement']
+
+Réponse: rendant difficile pour une faction d'obtenir le pouvoir nécessaire pour gouverner"
+Tout ce qui suit peut être considéré comme vrai en ce qui concerne l'impact d'un niveau d'éducation plus élevé sur les habitudes de vote,high_school_government_and_politics,"['les électeurs sont plus susceptibles de soutenir les programmes d'action positive imposés par le gouvernement', 'les électeurs sont plus enclins à soutenir les efforts de protection de l'environnement', 'les électeurs sont plus susceptibles de soutenir la prière publique dans les écoles', 'les électeurs sont moins susceptibles d'appuyer des restrictions sur le droit à l'avortement']",2,"Question: Tout ce qui suit peut être considéré comme vrai en ce qui concerne l'impact d'un niveau d'éducation plus élevé sur les habitudes de vote
+
+Choix: ['les électeurs sont plus susceptibles de soutenir les programmes d'action positive imposés par le gouvernement', 'les électeurs sont plus enclins à soutenir les efforts de protection de l'environnement', 'les électeurs sont plus susceptibles de soutenir la prière publique dans les écoles', 'les électeurs sont moins susceptibles d'appuyer des restrictions sur le droit à l'avortement']
+
+Réponse: les électeurs sont plus susceptibles de soutenir la prière publique dans les écoles"
+Les limites des districts du Congrès doivent être redessinées tous les 10 ans pour,high_school_government_and_politics,"['reflètent les changements démographiques indiqués par le recensement national', 'Garantir le renouvellement de la majorité des sièges au Congrès', 's'assurer que la délégation du Congrès de chaque État reflète exactement les affiliations des partis de ses résidents', 'déterminer quel chef de parti sera nommé Président de la Chambre']",0,"Question: Les limites des districts du Congrès doivent être redessinées tous les 10 ans pour
+
+Choix: ['reflètent les changements démographiques indiqués par le recensement national', 'Garantir le renouvellement de la majorité des sièges au Congrès', 's'assurer que la délégation du Congrès de chaque État reflète exactement les affiliations des partis de ses résidents', 'déterminer quel chef de parti sera nommé Président de la Chambre']
+
+Réponse: reflètent les changements démographiques indiqués par le recensement national"
+Lequel des éléments suivants s'applique aux cours d'appel?,high_school_government_and_politics,"['Les juges d'appel n'utilisent jamais le principe du stare decisis.', 'Les procès d'appel sont généralement des procès avec jury.', 'Les juges d'appel décident généralement des faits d'une affaire.', 'Les juges d'appel réexaminent les décisions des tribunaux inférieurs.']",3,"Question: Lequel des éléments suivants s'applique aux cours d'appel?
+
+Choix: ['Les juges d'appel n'utilisent jamais le principe du stare decisis.', 'Les procès d'appel sont généralement des procès avec jury.', 'Les juges d'appel décident généralement des faits d'une affaire.', 'Les juges d'appel réexaminent les décisions des tribunaux inférieurs.']
+
+Réponse: Les juges d'appel réexaminent les décisions des tribunaux inférieurs."
+Lequel des résultats suivants se produit généralement lorsque le Sénat et la Chambre des représentants adoptent des versions différentes du même projet de loi?,high_school_government_and_politics,"['Le président signe la version qu'il préfère.', 'Le projet de loi retourne au comité de chaque chambre et recommence le processus législatif.', 'Tous les amendements au projet de loi sont invalidés, et la version originale du projet de loi est envoyée au président pour signature.', 'Les deux organes législatifs forment un comité de conférence.']",3,"Question: Lequel des résultats suivants se produit généralement lorsque le Sénat et la Chambre des représentants adoptent des versions différentes du même projet de loi?
+
+Choix: ['Le président signe la version qu'il préfère.', 'Le projet de loi retourne au comité de chaque chambre et recommence le processus législatif.', 'Tous les amendements au projet de loi sont invalidés, et la version originale du projet de loi est envoyée au président pour signature.', 'Les deux organes législatifs forment un comité de conférence.']
+
+Réponse: Les deux organes législatifs forment un comité de conférence."
+"Lequel des éléments suivants explique le fait que le pouvoir et le prestige de la présidence ont augmenté depuis 1932 ? L'importance croissante de l'Amérique dans les affaires internationales II l'amélioration continue de la confiance du public dans le gouvernement fédéral III le New Deal et d'autres programmes qui ont élargi la responsabilité fédérale IV l'augmentation de la visibilité du président, due au développement des médias de masse",high_school_government_and_politics,"['Je ne fais que...', 'I et IV uniquement', 'I, III et IV uniquement', 'II et IV uniquement']",2,"Question: Lequel des éléments suivants explique le fait que le pouvoir et le prestige de la présidence ont augmenté depuis 1932 ? L'importance croissante de l'Amérique dans les affaires internationales II l'amélioration continue de la confiance du public dans le gouvernement fédéral III le New Deal et d'autres programmes qui ont élargi la responsabilité fédérale IV l'augmentation de la visibilité du président, due au développement des médias de masse
+
+Choix: ['Je ne fais que...', 'I et IV uniquement', 'I, III et IV uniquement', 'II et IV uniquement']
+
+Réponse: I, III et IV uniquement"
+"Les groupes d'intérêt représentant les hommes d'affaires et les investisseurs sont souvent parmi les groupes de lobbying les plus réussis à Washington, D.C., pour toutes les raisons suivantes",high_school_government_and_politics,"['Ces groupes disposent des ressources financières nécessaires pour organiser des campagnes soutenues en leur propre nom.', 'Beaucoup de ces groupes existent depuis plusieurs décennies ou plus, ce qui leur permet de maîtriser le système législatif et de développer des liens étroits avec les législateurs.', 'Dans de nombreuses circonscriptions, ces groupes constituent la majorité des électeurs.', 'Les électeurs de ces groupes contribuent fortement aux campagnes de nombreux législateurs et, ce faisant, ont un meilleur accès aux législateurs.']",2,"Question: Les groupes d'intérêt représentant les hommes d'affaires et les investisseurs sont souvent parmi les groupes de lobbying les plus réussis à Washington, D.C., pour toutes les raisons suivantes
+
+Choix: ['Ces groupes disposent des ressources financières nécessaires pour organiser des campagnes soutenues en leur propre nom.', 'Beaucoup de ces groupes existent depuis plusieurs décennies ou plus, ce qui leur permet de maîtriser le système législatif et de développer des liens étroits avec les législateurs.', 'Dans de nombreuses circonscriptions, ces groupes constituent la majorité des électeurs.', 'Les électeurs de ces groupes contribuent fortement aux campagnes de nombreux législateurs et, ce faisant, ont un meilleur accès aux législateurs.']
+
+Réponse: Dans de nombreuses circonscriptions, ces groupes constituent la majorité des électeurs."
+Chacun des deux principaux partis politiques des États-Unis est organisé,high_school_government_and_politics,"['en tant que partie unique avec une présence uniquement au niveau national', 'dans une structure fédérale dans laquelle les partis étatiques et locaux n'ont aucun pouvoir', 'comme une organisation relativement indépendante qui existe à tous les niveaux de gouvernement', 'd'une manière descendante, de sorte que les instructions sont dispersées du niveau national au niveau de l'État et au niveau local']",2,"Question: Chacun des deux principaux partis politiques des États-Unis est organisé
+
+Choix: ['en tant que partie unique avec une présence uniquement au niveau national', 'dans une structure fédérale dans laquelle les partis étatiques et locaux n'ont aucun pouvoir', 'comme une organisation relativement indépendante qui existe à tous les niveaux de gouvernement', 'd'une manière descendante, de sorte que les instructions sont dispersées du niveau national au niveau de l'État et au niveau local']
+
+Réponse: comme une organisation relativement indépendante qui existe à tous les niveaux de gouvernement"
+La clause d'origine de la Constitution stipule que,high_school_government_and_politics,"['la Déclaration des droits ne doit pas être violée par une législature d'État', 'Le Congrès et le président doivent créer conjointement le budget fédéral annuel', 'les projets de loi sur les revenus doivent être initiés à la Chambre des représentants', 'la Cour suprême a compétence initiale sur toutes les questions constitutionnelles']",2,"Question: La clause d'origine de la Constitution stipule que
+
+Choix: ['la Déclaration des droits ne doit pas être violée par une législature d'État', 'Le Congrès et le président doivent créer conjointement le budget fédéral annuel', 'les projets de loi sur les revenus doivent être initiés à la Chambre des représentants', 'la Cour suprême a compétence initiale sur toutes les questions constitutionnelles']
+
+Réponse: les projets de loi sur les revenus doivent être initiés à la Chambre des représentants"
+"Parmi les groupes suivants qui ont traditionnellement supposé le Parti démocrate, lequel a le moins d'électeurs libéraux?",high_school_government_and_politics,"['Les Blancs du Sud', 'Membres syndicaux', 'Afro-Américains', 'Les minorités ethniques du Nord']",0,"Question: Parmi les groupes suivants qui ont traditionnellement supposé le Parti démocrate, lequel a le moins d'électeurs libéraux?
+
+Choix: ['Les Blancs du Sud', 'Membres syndicaux', 'Afro-Américains', 'Les minorités ethniques du Nord']
+
+Réponse: Les Blancs du Sud"
+Quel est le verdict de la Cour suprême sur la peine de mort ?,high_school_government_and_politics,"['La peine de mort ne peut être infligée qu'aux citoyens.', 'Dans certaines circonstances, la peine de mort peut ne pas violer le huitième amendement.', 'Dans certaines circonstances, la peine de mort peut violer le troisième amendement.', 'Les États peuvent exécuter n'importe quel adulte, indépendamment de sa déficience intellectuelle.']",1,"Question: Quel est le verdict de la Cour suprême sur la peine de mort ?
+
+Choix: ['La peine de mort ne peut être infligée qu'aux citoyens.', 'Dans certaines circonstances, la peine de mort peut ne pas violer le huitième amendement.', 'Dans certaines circonstances, la peine de mort peut violer le troisième amendement.', 'Les États peuvent exécuter n'importe quel adulte, indépendamment de sa déficience intellectuelle.']
+
+Réponse: Dans certaines circonstances, la peine de mort peut ne pas violer le huitième amendement."
+Lequel des éléments suivants décrit un principe fondamental de la Constitution telle qu'elle a été rédigée en 1787?,high_school_government_and_politics,"['Démocratie directe', 'Contrôles et contrepoids', 'Égalité de représentation', 'Gouvernement unitaire']",1,"Question: Lequel des éléments suivants décrit un principe fondamental de la Constitution telle qu'elle a été rédigée en 1787?
+
+Choix: ['Démocratie directe', 'Contrôles et contrepoids', 'Égalité de représentation', 'Gouvernement unitaire']
+
+Réponse: Contrôles et contrepoids"
+Quelle est la principale raison pour laquelle les comités de la Chambre des représentants sont plus influents qu'ils ne le sont au Sénat ?,high_school_government_and_politics,"['La différence de taille entre les deux chambres signifie que plus de travail est fait sur le sol au Sénat et plus de travail est fait dans les comités de la Chambre.', 'Le Sénat dans son ensemble a des pouvoirs de confirmation que la Chambre n'a pas.', 'Les membres sont nommés au comité à la Chambre, mais sont élus aux commissions du Sénat.', 'Un membre de n'importe quel parti peut siéger à un comité à la Chambre, mais seuls les membres des principaux partis peuvent siéger à des comités au Sénat.']",0,"Question: Quelle est la principale raison pour laquelle les comités de la Chambre des représentants sont plus influents qu'ils ne le sont au Sénat ?
+
+Choix: ['La différence de taille entre les deux chambres signifie que plus de travail est fait sur le sol au Sénat et plus de travail est fait dans les comités de la Chambre.', 'Le Sénat dans son ensemble a des pouvoirs de confirmation que la Chambre n'a pas.', 'Les membres sont nommés au comité à la Chambre, mais sont élus aux commissions du Sénat.', 'Un membre de n'importe quel parti peut siéger à un comité à la Chambre, mais seuls les membres des principaux partis peuvent siéger à des comités au Sénat.']
+
+Réponse: La différence de taille entre les deux chambres signifie que plus de travail est fait sur le sol au Sénat et plus de travail est fait dans les comités de la Chambre."
+Laquelle des déclarations suivantes concernant les élections présidentielles depuis 1972 est la plus exacte?,high_school_government_and_politics,"['Les électeurs obtiennent de plus en plus leurs informations des journaux.', 'Les électeurs se sont davantage concentrés sur les candidats individuels.', 'Les élections sont dominées par des groupes d'intérêts particuliers.', 'Les électeurs votent de plus en plus en fonction de la plateforme d'un parti.']",1,"Question: Laquelle des déclarations suivantes concernant les élections présidentielles depuis 1972 est la plus exacte?
+
+Choix: ['Les électeurs obtiennent de plus en plus leurs informations des journaux.', 'Les électeurs se sont davantage concentrés sur les candidats individuels.', 'Les élections sont dominées par des groupes d'intérêts particuliers.', 'Les électeurs votent de plus en plus en fonction de la plateforme d'un parti.']
+
+Réponse: Les électeurs se sont davantage concentrés sur les candidats individuels."
+Laquelle des affirmations suivantes décrit le mieux le droit des citoyens américains à la vie privée ?,high_school_government_and_politics,"['Le droit à la vie privée est entièrement déterminé par les États au cas par cas.', 'Le droit à la vie privée est explicitement garanti dans le préambule de la Constitution.', 'La Cour suprême a jugé que le droit à la vie privée est implicite dans la Déclaration des droits.', 'La common law exige que le gouvernement respecte le droit des citoyens à la vie privée.']",2,"Question: Laquelle des affirmations suivantes décrit le mieux le droit des citoyens américains à la vie privée ?
+
+Choix: ['Le droit à la vie privée est entièrement déterminé par les États au cas par cas.', 'Le droit à la vie privée est explicitement garanti dans le préambule de la Constitution.', 'La Cour suprême a jugé que le droit à la vie privée est implicite dans la Déclaration des droits.', 'La common law exige que le gouvernement respecte le droit des citoyens à la vie privée.']
+
+Réponse: La Cour suprême a jugé que le droit à la vie privée est implicite dans la Déclaration des droits."
+Un veto présidentiel serait le plus susceptible d'être annulé dans laquelle des situations suivantes?,high_school_government_and_politics,"['Environ 30% des sénateurs et des représentants sont membres du parti politique présidentiel.', 'La majorité des citoyens américains soutiennent la législation proposée.', 'Le juge en chef de la Cour suprême était nommé par le président.', 'La campagne de réélection réussie du président préconise le bipartisme.']",0,"Question: Un veto présidentiel serait le plus susceptible d'être annulé dans laquelle des situations suivantes?
+
+Choix: ['Environ 30% des sénateurs et des représentants sont membres du parti politique présidentiel.', 'La majorité des citoyens américains soutiennent la législation proposée.', 'Le juge en chef de la Cour suprême était nommé par le président.', 'La campagne de réélection réussie du président préconise le bipartisme.']
+
+Réponse: Environ 30% des sénateurs et des représentants sont membres du parti politique présidentiel."
+"Parmi les groupes d'intérêt suivants, lequel a créé le plus grand nombre de comités d'action politique (CAP) depuis les années 1970?",high_school_government_and_politics,"['Les défenseurs de l'environnement', 'Syndicats du travail', 'Entreprises à but lucratif', 'Institutions religieuses']",2,"Question: Parmi les groupes d'intérêt suivants, lequel a créé le plus grand nombre de comités d'action politique (CAP) depuis les années 1970?
+
+Choix: ['Les défenseurs de l'environnement', 'Syndicats du travail', 'Entreprises à but lucratif', 'Institutions religieuses']
+
+Réponse: Entreprises à but lucratif"
+La clause de commerce de la Constitution a été utilisée pour,high_school_government_and_politics,"['libérer des détenus de prison à la suite d'une arrestation illégale;', 'maintenir la marine', 'accroître le pouvoir du gouvernement national', 'Veto des projets de loi d' attainder']",2,"Question: La clause de commerce de la Constitution a été utilisée pour
+
+Choix: ['libérer des détenus de prison à la suite d'une arrestation illégale;', 'maintenir la marine', 'accroître le pouvoir du gouvernement national', 'Veto des projets de loi d' attainder']
+
+Réponse: accroître le pouvoir du gouvernement national"
+"Lequel des cas suivants se produirait si le Congrès adoptait une loi et déclarait une récession, et que le président n'agissait pas sur le projet de loi dans les dix jours suivant son adoption ?",high_school_government_and_politics,"['Un veto par article de ligne', 'Un veto de poche', 'Un ajournement', 'Une ordonnance de certiorari']",1,"Question: Lequel des cas suivants se produirait si le Congrès adoptait une loi et déclarait une récession, et que le président n'agissait pas sur le projet de loi dans les dix jours suivant son adoption ?
+
+Choix: ['Un veto par article de ligne', 'Un veto de poche', 'Un ajournement', 'Une ordonnance de certiorari']
+
+Réponse: Un veto de poche"
+Les candidats républicains à la présidence qui ont tendance à avoir plus de succès dans les primaires ont tendance à être plus conservateurs que les républicains de base parce que,high_school_government_and_politics,"['les républicains modérés sont moins susceptibles que les républicains conservateurs d'obtenir un large soutien aux élections générales', 'la plupart des républicains modérés ont approuvé le candidat démocrate à la présidence', 'La plupart des républicains de base ne se soucient pas si le candidat de leur parti partage leurs opinions politiques', 'les militants du parti, dont la participation politique est disproportionnée par rapport à leur nombre, ont tendance à être très conservateurs']",3,"Question: Les candidats républicains à la présidence qui ont tendance à avoir plus de succès dans les primaires ont tendance à être plus conservateurs que les républicains de base parce que
+
+Choix: ['les républicains modérés sont moins susceptibles que les républicains conservateurs d'obtenir un large soutien aux élections générales', 'la plupart des républicains modérés ont approuvé le candidat démocrate à la présidence', 'La plupart des républicains de base ne se soucient pas si le candidat de leur parti partage leurs opinions politiques', 'les militants du parti, dont la participation politique est disproportionnée par rapport à leur nombre, ont tendance à être très conservateurs']
+
+Réponse: les militants du parti, dont la participation politique est disproportionnée par rapport à leur nombre, ont tendance à être très conservateurs"
+"Une ""motion de clôture"" est utilisée pour",high_school_government_and_politics,"['renvoie un projet de loi à la Chambre', 'annuler un veto présidentiel à la Chambre', 'modifier un projet de loi de crédits à la Chambre', 'mettre fin à une obstruction et forcer un vote sur un projet de loi au Sénat']",3,"Question: Une ""motion de clôture"" est utilisée pour
+
+Choix: ['renvoie un projet de loi à la Chambre', 'annuler un veto présidentiel à la Chambre', 'modifier un projet de loi de crédits à la Chambre', 'mettre fin à une obstruction et forcer un vote sur un projet de loi au Sénat']
+
+Réponse: mettre fin à une obstruction et forcer un vote sur un projet de loi au Sénat"
+Lequel des cas suivants illustre le mieux l'utilisation de la clause élastique?,high_school_government_and_politics,"['La Cour suprême permet à une décision d'une juridiction inférieure de rester en refusant d'entendre un appel.', 'Une commission du Congrès empêche la Chambre plénière de voter sur une loi en retardant son rapport.', 'Le Congrès adopte une loi établissant une limite de vitesse nationale.', 'Un membre de la Chambre des représentants présente un projet de loi visant à augmenter les taux d'impôt fédéral sur le revenu.']",2,"Question: Lequel des cas suivants illustre le mieux l'utilisation de la clause élastique?
+
+Choix: ['La Cour suprême permet à une décision d'une juridiction inférieure de rester en refusant d'entendre un appel.', 'Une commission du Congrès empêche la Chambre plénière de voter sur une loi en retardant son rapport.', 'Le Congrès adopte une loi établissant une limite de vitesse nationale.', 'Un membre de la Chambre des représentants présente un projet de loi visant à augmenter les taux d'impôt fédéral sur le revenu.']
+
+Réponse: Le Congrès adopte une loi établissant une limite de vitesse nationale."
+Laquelle des affirmations suivantes est vraie pour le Comité des voies et moyens de la Chambre ?,high_school_government_and_politics,"['Son rôle principal est d'approprier les dépenses pour les projets d'infrastructure.', 'Il est l'auteur principal de la législation de réforme bancaire du Congrès.', 'Il alloue des fonds pour les canaux et les voies navigables.', 'Sa compétence comprend le système fiscal.']",3,"Question: Laquelle des affirmations suivantes est vraie pour le Comité des voies et moyens de la Chambre ?
+
+Choix: ['Son rôle principal est d'approprier les dépenses pour les projets d'infrastructure.', 'Il est l'auteur principal de la législation de réforme bancaire du Congrès.', 'Il alloue des fonds pour les canaux et les voies navigables.', 'Sa compétence comprend le système fiscal.']
+
+Réponse: Sa compétence comprend le système fiscal."
+Lequel des éléments suivants est généralement considéré comme le but du dixième amendement à la Constitution?,high_school_government_and_politics,"['Il permet un procès par jury dans les affaires de common law.', 'Il accorde le droit de vote à toutes les femmes américaines.', 'Il abaisse l'âge légal du droit de vote de 21 à 18 ans.', 'Il réserve des pouvoirs aux États.']",3,"Question: Lequel des éléments suivants est généralement considéré comme le but du dixième amendement à la Constitution?
+
+Choix: ['Il permet un procès par jury dans les affaires de common law.', 'Il accorde le droit de vote à toutes les femmes américaines.', 'Il abaisse l'âge légal du droit de vote de 21 à 18 ans.', 'Il réserve des pouvoirs aux États.']
+
+Réponse: Il réserve des pouvoirs aux États."
+Laquelle des affirmations suivantes exprime le mieux la doctrine de l'intention originelle?,high_school_government_and_politics,"['Lorsqu'une loi n'est pas claire, la Cour suprême peut considérer l'intention d'une loi ou la lettre de la loi, mais pas les deux.', 'Les lois sur le droit d'auteur existent pour protéger les droits de ceux qui créent des œuvres originales.', 'Les juges d'appel devraient respecter les décisions initiales des juges de première instance.', 'La Constitution doit être interprétée à la lumière de l'intention de ceux qui l'ont rédigée.']",3,"Question: Laquelle des affirmations suivantes exprime le mieux la doctrine de l'intention originelle?
+
+Choix: ['Lorsqu'une loi n'est pas claire, la Cour suprême peut considérer l'intention d'une loi ou la lettre de la loi, mais pas les deux.', 'Les lois sur le droit d'auteur existent pour protéger les droits de ceux qui créent des œuvres originales.', 'Les juges d'appel devraient respecter les décisions initiales des juges de première instance.', 'La Constitution doit être interprétée à la lumière de l'intention de ceux qui l'ont rédigée.']
+
+Réponse: La Constitution doit être interprétée à la lumière de l'intention de ceux qui l'ont rédigée."
+Laquelle des déclarations suivantes est vraie pour les membres du Congrès qui se présentent à la réélection ?,high_school_government_and_politics,"['Les sénateurs en exercice sont plus susceptibles d'être réélus que les membres en exercice de la Chambre des représentants.', 'Les titulaires sont interdits par la loi de dépenser plus pour leurs campagnes de réélection que ne le font leurs adversaires.', 'Les titulaires ont un grand avantage sur les challengers parce qu'ils sont mieux connus et peuvent lever des fonds de campagne plus facilement.', 'Depuis les élections de 1994, la majorité des titulaires du Congrès ont échoué dans leurs tentatives de réélection.']",2,"Question: Laquelle des déclarations suivantes est vraie pour les membres du Congrès qui se présentent à la réélection ?
+
+Choix: ['Les sénateurs en exercice sont plus susceptibles d'être réélus que les membres en exercice de la Chambre des représentants.', 'Les titulaires sont interdits par la loi de dépenser plus pour leurs campagnes de réélection que ne le font leurs adversaires.', 'Les titulaires ont un grand avantage sur les challengers parce qu'ils sont mieux connus et peuvent lever des fonds de campagne plus facilement.', 'Depuis les élections de 1994, la majorité des titulaires du Congrès ont échoué dans leurs tentatives de réélection.']
+
+Réponse: Les titulaires ont un grand avantage sur les challengers parce qu'ils sont mieux connus et peuvent lever des fonds de campagne plus facilement."
+La stabilité relative de la politique publique américaine s'obtient en grande partie grâce à,high_school_government_and_politics,"['coopération entre les deux principaux partis politiques', 'activisme judiciaire', 'la fragmentation constitutionnelle du pouvoir', 'programmes d'action affirmative']",2,"Question: La stabilité relative de la politique publique américaine s'obtient en grande partie grâce à
+
+Choix: ['coopération entre les deux principaux partis politiques', 'activisme judiciaire', 'la fragmentation constitutionnelle du pouvoir', 'programmes d'action affirmative']
+
+Réponse: la fragmentation constitutionnelle du pouvoir"
+Lequel des éléments suivants est le résultat direct d'un système électoral comportant des circonscriptions uninominales?,high_school_government_and_politics,"['Seuls deux grands partis peuvent être soutenus avec succès.', 'Il est possible de mener des campagnes nationales sans dépenser beaucoup d'argent.', 'Les tiers peuvent avoir autant de succès que les deux principaux partis politiques.', 'Chaque parti politique a tendance à concentrer sa campagne sur une seule question.']",0,"Question: Lequel des éléments suivants est le résultat direct d'un système électoral comportant des circonscriptions uninominales?
+
+Choix: ['Seuls deux grands partis peuvent être soutenus avec succès.', 'Il est possible de mener des campagnes nationales sans dépenser beaucoup d'argent.', 'Les tiers peuvent avoir autant de succès que les deux principaux partis politiques.', 'Chaque parti politique a tendance à concentrer sa campagne sur une seule question.']
+
+Réponse: Seuls deux grands partis peuvent être soutenus avec succès."
+"Tous les facteurs suivants contribuent à la baisse des taux de vote chez les Américains de 18 à 25 ans, sauf:",high_school_government_and_politics,"['fréquentation d'un établissement d'enseignement supérieur dans un État autre que l'État d'origine', 'déplacement fréquent de sa résidence principale', 'l'éloignement de la plupart des questions politiques de la vie quotidienne des jeunes', 'le fait que l'âge minimum pour voter dans certains états est de 21 ans']",3,"Question: Tous les facteurs suivants contribuent à la baisse des taux de vote chez les Américains de 18 à 25 ans, sauf:
+
+Choix: ['fréquentation d'un établissement d'enseignement supérieur dans un État autre que l'État d'origine', 'déplacement fréquent de sa résidence principale', 'l'éloignement de la plupart des questions politiques de la vie quotidienne des jeunes', 'le fait que l'âge minimum pour voter dans certains états est de 21 ans']
+
+Réponse: le fait que l'âge minimum pour voter dans certains états est de 21 ans"
+Lequel des suivants peut déposer un amicus curiae?,high_school_government_and_politics,"['Un défendeur qui veut savoir quels témoins le plaignant prévoit d'appeler.', 'D'anciens présidents qui souhaitent envoyer des instructions aux juges qu'ils ont nommés.', 'Un sénateur qui veut destituer un juge de la Cour suprême.', 'Entreprises qui ne sont pas impliquées dans une affaire judiciaire mais qui souhaitent influer sur l'issue de celle-ci.']",3,"Question: Lequel des suivants peut déposer un amicus curiae?
+
+Choix: ['Un défendeur qui veut savoir quels témoins le plaignant prévoit d'appeler.', 'D'anciens présidents qui souhaitent envoyer des instructions aux juges qu'ils ont nommés.', 'Un sénateur qui veut destituer un juge de la Cour suprême.', 'Entreprises qui ne sont pas impliquées dans une affaire judiciaire mais qui souhaitent influer sur l'issue de celle-ci.']
+
+Réponse: Entreprises qui ne sont pas impliquées dans une affaire judiciaire mais qui souhaitent influer sur l'issue de celle-ci."
+Lequel des éléments suivants prédit le mieux comment quelqu'un votera lors d'une élection ?,high_school_government_and_politics,"['Le sexe de l'électeur', 'Affiliation au parti politique de l'électeur', 'Le statut socioéconomique de l'électeur', 'La religion de l'électeur']",1,"Question: Lequel des éléments suivants prédit le mieux comment quelqu'un votera lors d'une élection ?
+
+Choix: ['Le sexe de l'électeur', 'Affiliation au parti politique de l'électeur', 'Le statut socioéconomique de l'électeur', 'La religion de l'électeur']
+
+Réponse: Affiliation au parti politique de l'électeur"
+Laquelle des affirmations suivantes concernant le collège électoral est correcte ?,high_school_government_and_politics,"['Chaque État doit diviser ses votes électoraux entre tous les candidats qui reçoivent des votes.', 'Chaque État est également représenté au collège électoral.', 'Le collège électoral a été créé par un amendement à la Constitution.', 'Les résultats du collège électoral ont tendance à déformer la marge de victoire du vainqueur, par rapport au vote populaire pour le président.']",3,"Question: Laquelle des affirmations suivantes concernant le collège électoral est correcte ?
+
+Choix: ['Chaque État doit diviser ses votes électoraux entre tous les candidats qui reçoivent des votes.', 'Chaque État est également représenté au collège électoral.', 'Le collège électoral a été créé par un amendement à la Constitution.', 'Les résultats du collège électoral ont tendance à déformer la marge de victoire du vainqueur, par rapport au vote populaire pour le président.']
+
+Réponse: Les résultats du collège électoral ont tendance à déformer la marge de victoire du vainqueur, par rapport au vote populaire pour le président."
+Une morsure sonore serait très probablement utilisée lors d'une élection présidentielle afin de,high_school_government_and_politics,"['éviter la politique de ' course de chevaux '', 'fournir à l'auditoire le point de vue d'un candidat dans un laps de temps limité', 'réduire la quantité de publicité négative utilisée', 's'assurer qu'un candidat est présenté sous le meilleur jour']",1,"Question: Une morsure sonore serait très probablement utilisée lors d'une élection présidentielle afin de
+
+Choix: ['éviter la politique de ' course de chevaux '', 'fournir à l'auditoire le point de vue d'un candidat dans un laps de temps limité', 'réduire la quantité de publicité négative utilisée', 's'assurer qu'un candidat est présenté sous le meilleur jour']
+
+Réponse: fournir à l'auditoire le point de vue d'un candidat dans un laps de temps limité"
+"Parmi les activités suivantes, lesquelles sont interdites aux groupes d'intérêt?",high_school_government_and_politics,"['Envoi de députés à des séminaires éducatifs', 'Donner des cadeaux concrets aux législateurs', 'Fournir des services de recherche à des fonctionnaires gouvernementaux', 'Mettre en scène des manifestations et des boycotts']",1,"Question: Parmi les activités suivantes, lesquelles sont interdites aux groupes d'intérêt?
+
+Choix: ['Envoi de députés à des séminaires éducatifs', 'Donner des cadeaux concrets aux législateurs', 'Fournir des services de recherche à des fonctionnaires gouvernementaux', 'Mettre en scène des manifestations et des boycotts']
+
+Réponse: Donner des cadeaux concrets aux législateurs"
+La décision Dred Scott de 1857 a été annulée par le,high_school_government_and_politics,"['Décision dans l'affaire Plessy c. Ferguson', 'Le compromis du Missouri', 'Les lois de Jim Crow', 'Quatorzième amendement']",3,"Question: La décision Dred Scott de 1857 a été annulée par le
+
+Choix: ['Décision dans l'affaire Plessy c. Ferguson', 'Le compromis du Missouri', 'Les lois de Jim Crow', 'Quatorzième amendement']
+
+Réponse: Quatorzième amendement"
+Un membre de quel des groupes démographiques suivants est le plus susceptible de soutenir un candidat républicain à la présidence?,high_school_government_and_politics,"['Homme blanc marié', 'Femme blanche célibataire', 'Afro-américain, homme ou femme', 'Jeunes de moins de 25 ans, hommes ou femmes']",0,"Question: Un membre de quel des groupes démographiques suivants est le plus susceptible de soutenir un candidat républicain à la présidence?
+
+Choix: ['Homme blanc marié', 'Femme blanche célibataire', 'Afro-américain, homme ou femme', 'Jeunes de moins de 25 ans, hommes ou femmes']
+
+Réponse: Homme blanc marié"
+"Lequel des éléments suivants est le but principal des lois sur les ""votants automobiles""?",high_school_government_and_politics,"['Pour augmenter la participation aux journées électorales', 'Permettre aux citoyens de s'inscrire plus facilement pour voter', 'Pour exiger que tous les électeurs savent comment conduire', 'Pour établir des lois sur l'identification des électeurs']",1,"Question: Lequel des éléments suivants est le but principal des lois sur les ""votants automobiles""?
+
+Choix: ['Pour augmenter la participation aux journées électorales', 'Permettre aux citoyens de s'inscrire plus facilement pour voter', 'Pour exiger que tous les électeurs savent comment conduire', 'Pour établir des lois sur l'identification des électeurs']
+
+Réponse: Permettre aux citoyens de s'inscrire plus facilement pour voter"
+Une primaire ouverte est une élection primaire dans laquelle,high_school_government_and_politics,"['les électeurs inscrits comme 'indépendants' ne peuvent pas voter', 'les candidats ne précisent pas le poste pour lequel ils se présentent', 'les électeurs peuvent s'inscrire à leur bureau de vote le jour de l'élection', 'les électeurs peuvent voter à l'élection d'un parti autre que celui auquel ils sont inscrits']",3,"Question: Une primaire ouverte est une élection primaire dans laquelle
+
+Choix: ['les électeurs inscrits comme 'indépendants' ne peuvent pas voter', 'les candidats ne précisent pas le poste pour lequel ils se présentent', 'les électeurs peuvent s'inscrire à leur bureau de vote le jour de l'élection', 'les électeurs peuvent voter à l'élection d'un parti autre que celui auquel ils sont inscrits']
+
+Réponse: les électeurs peuvent voter à l'élection d'un parti autre que celui auquel ils sont inscrits"
+"Lequel des éléments suivants est la plus grande source de ""dépenses automatiques"" pour le gouvernement fédéral?",high_school_government_and_politics,"['Salaires des employés de la Poste américaine', 'Paiements d'intérêts versés aux détenteurs d'obligations américaines', 'Programmes d'octroi de droits', 'Défense nationale']",2,"Question: Lequel des éléments suivants est la plus grande source de ""dépenses automatiques"" pour le gouvernement fédéral?
+
+Choix: ['Salaires des employés de la Poste américaine', 'Paiements d'intérêts versés aux détenteurs d'obligations américaines', 'Programmes d'octroi de droits', 'Défense nationale']
+
+Réponse: Programmes d'octroi de droits"
+"Lequel des éléments suivants est un exemple de ""journalisme de courses de chevaux""?",high_school_government_and_politics,"['Un reportage se concentre sur les scandales d'un politicien plutôt que sur ses réalisations.', 'Un présentateur de télévision rapporte un événement avant les concurrents de la chaîne.', 'Un journaliste annonce quel candidat est en tête dans un sondage d'opinion publique.', 'Un rédacteur en chef de journal publie des articles sur les développements politiques à long terme.']",2,"Question: Lequel des éléments suivants est un exemple de ""journalisme de courses de chevaux""?
+
+Choix: ['Un reportage se concentre sur les scandales d'un politicien plutôt que sur ses réalisations.', 'Un présentateur de télévision rapporte un événement avant les concurrents de la chaîne.', 'Un journaliste annonce quel candidat est en tête dans un sondage d'opinion publique.', 'Un rédacteur en chef de journal publie des articles sur les développements politiques à long terme.']
+
+Réponse: Un journaliste annonce quel candidat est en tête dans un sondage d'opinion publique."
+Tout ce qui suit sont des valeurs fondamentales de la culture politique américaine EXCEPT,high_school_government_and_politics,"['égalité des revenus', 'démocratie', 'Liberté de l'individu', 'procédure régulière']",0,"Question: Tout ce qui suit sont des valeurs fondamentales de la culture politique américaine EXCEPT
+
+Choix: ['égalité des revenus', 'démocratie', 'Liberté de l'individu', 'procédure régulière']
+
+Réponse: égalité des revenus"
+La Cour suprême a utilisé la pratique de l'incorporation sélective pour,high_school_government_and_politics,"['limiter le nombre d'appels déposés par les défendeurs devant les tribunaux d'État', 'étendre le droit de vote aux minorités raciales et aux femmes', 'appliquer la plupart des protections de la Déclaration des droits à la loi de l'État', 'accélérer l'intégration des écoles publiques']",2,"Question: La Cour suprême a utilisé la pratique de l'incorporation sélective pour
+
+Choix: ['limiter le nombre d'appels déposés par les défendeurs devant les tribunaux d'État', 'étendre le droit de vote aux minorités raciales et aux femmes', 'appliquer la plupart des protections de la Déclaration des droits à la loi de l'État', 'accélérer l'intégration des écoles publiques']
+
+Réponse: appliquer la plupart des protections de la Déclaration des droits à la loi de l'État"
+"Selon la Constitution, qui détermine les critères d'éligibilité des électeurs ?",high_school_government_and_politics,"['Le président', 'Congrès américain', 'Les législatures des États', 'Agences administratives fédérales']",2,"Question: Selon la Constitution, qui détermine les critères d'éligibilité des électeurs ?
+
+Choix: ['Le président', 'Congrès américain', 'Les législatures des États', 'Agences administratives fédérales']
+
+Réponse: Les législatures des États"
+La différence entre un pardon et un sursis est,high_school_government_and_politics,"['une grâce dure 10 ans, tandis qu'un sursis dure un an', 'un sursis accorde une libération d'une punition légale, tandis qu'une grâce le repousse', 'une grâce accorde une libération d'une peine légale alors qu'un sursis la remet à plus tard', 'Seuls les gouverneurs des États peuvent accorder des grâces.']",2,"Question: La différence entre un pardon et un sursis est
+
+Choix: ['une grâce dure 10 ans, tandis qu'un sursis dure un an', 'un sursis accorde une libération d'une punition légale, tandis qu'une grâce le repousse', 'une grâce accorde une libération d'une peine légale alors qu'un sursis la remet à plus tard', 'Seuls les gouverneurs des États peuvent accorder des grâces.']
+
+Réponse: une grâce accorde une libération d'une peine légale alors qu'un sursis la remet à plus tard"
+Laquelle des actions suivantes le président peut prendre sans l'approbation du Congrès ?,high_school_government_and_politics,"['Accordez des remises de peine et des grâces', 'Nommer les juges de la Cour suprême', 'Négocier et ratifier les traités', 'Déclarer la guerre']",0,"Question: Laquelle des actions suivantes le président peut prendre sans l'approbation du Congrès ?
+
+Choix: ['Accordez des remises de peine et des grâces', 'Nommer les juges de la Cour suprême', 'Négocier et ratifier les traités', 'Déclarer la guerre']
+
+Réponse: Accordez des remises de peine et des grâces"
+Deux affaires connexes qui se sont concentrées sur le droit à la vie privée pour tous les citoyens américains ont été,high_school_government_and_politics,"['Near contre le Minnesota et le New York Times contre le Sullivan', 'Le Texas contre Johnson et Morse contre Frederick', 'Thornhill contre l'Alabama et Cox contre le New Hampshire', 'Griswold contre le Connecticut et Roe contre Wade.']",3,"Question: Deux affaires connexes qui se sont concentrées sur le droit à la vie privée pour tous les citoyens américains ont été
+
+Choix: ['Near contre le Minnesota et le New York Times contre le Sullivan', 'Le Texas contre Johnson et Morse contre Frederick', 'Thornhill contre l'Alabama et Cox contre le New Hampshire', 'Griswold contre le Connecticut et Roe contre Wade.']
+
+Réponse: Griswold contre le Connecticut et Roe contre Wade."
+L'adoption rapide de la Déclaration des droits dans les années qui ont suivi la ratification de la Constitution,high_school_government_and_politics,"['L'engagement sans réserve des fondateurs en faveur des droits individuels', 'La détermination des petits États à recevoir une représentation égale dans la législature', 'Le soutien des États du Nord à l'abolitionnisme', 'les craintes des États d'un gouvernement national surpuissant']",3,"Question: L'adoption rapide de la Déclaration des droits dans les années qui ont suivi la ratification de la Constitution
+
+Choix: ['L'engagement sans réserve des fondateurs en faveur des droits individuels', 'La détermination des petits États à recevoir une représentation égale dans la législature', 'Le soutien des États du Nord à l'abolitionnisme', 'les craintes des États d'un gouvernement national surpuissant']
+
+Réponse: les craintes des États d'un gouvernement national surpuissant"
+Les membres en exercice de la Chambre des représentants sont réélus plus souvent que les sénateurs en exercice pour toutes les raisons suivantes SAUF,high_school_government_and_politics,"['les électeurs des représentants appartiennent le plus souvent en grande partie au parti du représentant', 'Les sénateurs ont plus de pouvoir politique que les représentants, et les courses au Sénat sont donc plus agressives.', 'les représentants peuvent utiliser des fonds fédéraux pour faire connaître leurs réalisations par courrier direct aux électeurs', 'représentants courent le plus souvent incontestés']",2,"Question: Les membres en exercice de la Chambre des représentants sont réélus plus souvent que les sénateurs en exercice pour toutes les raisons suivantes SAUF
+
+Choix: ['les électeurs des représentants appartiennent le plus souvent en grande partie au parti du représentant', 'Les sénateurs ont plus de pouvoir politique que les représentants, et les courses au Sénat sont donc plus agressives.', 'les représentants peuvent utiliser des fonds fédéraux pour faire connaître leurs réalisations par courrier direct aux électeurs', 'représentants courent le plus souvent incontestés']
+
+Réponse: les représentants peuvent utiliser des fonds fédéraux pour faire connaître leurs réalisations par courrier direct aux électeurs"
+Une Cour suprême qui démontre une volonté de changer la politique publique et de modifier le précédent judiciaire est censée s'engager dans,high_school_government_and_politics,"['activisme judiciaire', 'procédure régulière', 'restriction judiciaire', 'Législation ex post facto']",0,"Question: Une Cour suprême qui démontre une volonté de changer la politique publique et de modifier le précédent judiciaire est censée s'engager dans
+
+Choix: ['activisme judiciaire', 'procédure régulière', 'restriction judiciaire', 'Législation ex post facto']
+
+Réponse: activisme judiciaire"
+Laquelle des déclarations suivantes est exacte au sujet de la direction des deux principaux partis politiques?,high_school_government_and_politics,"['L'organisation nationale du parti contrôle toutes les facettes de l'activité du parti dans tout le pays.', 'La direction du parti est dispersée parmi de nombreux fonctionnaires aux niveaux national, étatique et local.', 'Le plus haut fonctionnaire élu de chaque parti national dirige les activités et les opérations de ce parti jusqu'aux niveaux étatique et local.', 'Toutes les décisions importantes concernant les activités du parti sont prises lors des conventions de nomination présidentielle de chaque parti.']",1,"Question: Laquelle des déclarations suivantes est exacte au sujet de la direction des deux principaux partis politiques?
+
+Choix: ['L'organisation nationale du parti contrôle toutes les facettes de l'activité du parti dans tout le pays.', 'La direction du parti est dispersée parmi de nombreux fonctionnaires aux niveaux national, étatique et local.', 'Le plus haut fonctionnaire élu de chaque parti national dirige les activités et les opérations de ce parti jusqu'aux niveaux étatique et local.', 'Toutes les décisions importantes concernant les activités du parti sont prises lors des conventions de nomination présidentielle de chaque parti.']
+
+Réponse: La direction du parti est dispersée parmi de nombreux fonctionnaires aux niveaux national, étatique et local."
+L'opposition de l'Union américaine des libertés civiles (ACLU) l'Association nationale des femmes juristes (NAWL) et la Fédération américaine du travail et le Congrès des organisations industrielles (AFL-CIO) à la nomination de Samuel Alito 2006 à la Cour suprême est un exemple de,high_school_government_and_politics,"['réalignement', 'renforcement de la coalition', 'mise en accusation', 'une élection de révocation']",1,"Question: L'opposition de l'Union américaine des libertés civiles (ACLU) l'Association nationale des femmes juristes (NAWL) et la Fédération américaine du travail et le Congrès des organisations industrielles (AFL-CIO) à la nomination de Samuel Alito 2006 à la Cour suprême est un exemple de
+
+Choix: ['réalignement', 'renforcement de la coalition', 'mise en accusation', 'une élection de révocation']
+
+Réponse: renforcement de la coalition"
+"Lequel des éléments suivants est la meilleure illustration de la législation ""baril de porc""?",high_school_government_and_politics,"['Une agence fédérale est créée pour assurer la sécurité des aliments et des produits d'origine animale.', 'Un projet de loi ne peut être adopté que si la majorité des membres du Congrès des districts ruraux l'approuvent.', 'Un sénateur refuse de voter pour une augmentation d'impôt sans une diminution correspondante des dépenses.', 'Un membre du Congrès insère une disposition dans un projet de loi pour assurer le financement d'un projet dans son district.']",3,"Question: Lequel des éléments suivants est la meilleure illustration de la législation ""baril de porc""?
+
+Choix: ['Une agence fédérale est créée pour assurer la sécurité des aliments et des produits d'origine animale.', 'Un projet de loi ne peut être adopté que si la majorité des membres du Congrès des districts ruraux l'approuvent.', 'Un sénateur refuse de voter pour une augmentation d'impôt sans une diminution correspondante des dépenses.', 'Un membre du Congrès insère une disposition dans un projet de loi pour assurer le financement d'un projet dans son district.']
+
+Réponse: Un membre du Congrès insère une disposition dans un projet de loi pour assurer le financement d'un projet dans son district."
+Toutes les déclarations suivantes sur le gerrymandering sont vraies SAUF qu'il,high_school_government_and_politics,"['favorise les candidats en place par rapport aux challengers', 'peut diviser les électeurs partageant les mêmes idées en plusieurs districts pour réduire leur influence', 'a été autorisé par la Cour suprême dans certains cas', 'augmente le contrôle que les électeurs ont sur leurs élus']",3,"Question: Toutes les déclarations suivantes sur le gerrymandering sont vraies SAUF qu'il
+
+Choix: ['favorise les candidats en place par rapport aux challengers', 'peut diviser les électeurs partageant les mêmes idées en plusieurs districts pour réduire leur influence', 'a été autorisé par la Cour suprême dans certains cas', 'augmente le contrôle que les électeurs ont sur leurs élus']
+
+Réponse: augmente le contrôle que les électeurs ont sur leurs élus"
+"Lequel des éléments suivants a servi de base juridique à l'arrêt Roe c. Wade de 1973, dans lequel la Cour suprême a annulé l'interdiction de l'avortement par l'État?",high_school_government_and_politics,"['Le dix-neuvième amendement garantit aux femmes le droit de vote.', 'La loi sur les droits civils de 1964 interdit la discrimination fondée sur le sexe.', 'La Déclaration des droits implique un droit à la vie privée.', 'Le neuvième amendement réserve des pouvoirs au peuple.']",2,"Question: Lequel des éléments suivants a servi de base juridique à l'arrêt Roe c. Wade de 1973, dans lequel la Cour suprême a annulé l'interdiction de l'avortement par l'État?
+
+Choix: ['Le dix-neuvième amendement garantit aux femmes le droit de vote.', 'La loi sur les droits civils de 1964 interdit la discrimination fondée sur le sexe.', 'La Déclaration des droits implique un droit à la vie privée.', 'Le neuvième amendement réserve des pouvoirs au peuple.']
+
+Réponse: La Déclaration des droits implique un droit à la vie privée."
+"Parmi les éléments suivants, le fédéralisme américain est le plus clairement illustré par le",high_school_government_and_politics,"['système de contrôle et d'équilibre entre les trois branches du gouvernement national', 'processus par lequel les traités internationaux sont complétés', 'le statut constitutionnel spécial de Washington, D.C.', 'Dixième amendement à la Constitution']",3,"Question: Parmi les éléments suivants, le fédéralisme américain est le plus clairement illustré par le
+
+Choix: ['système de contrôle et d'équilibre entre les trois branches du gouvernement national', 'processus par lequel les traités internationaux sont complétés', 'le statut constitutionnel spécial de Washington, D.C.', 'Dixième amendement à la Constitution']
+
+Réponse: Dixième amendement à la Constitution"
+"Lorsque les pères fondateurs se sont réunis en 1787 pour rédiger la Constitution, leur objectif principal était de",high_school_government_and_politics,"['établir une charte des droits qui protégerait les citoyens du gouvernement', 'créer un système judiciaire national pour entendre les différends entre citoyens d'États différents', 'rendre aux États les pouvoirs que les Articles de la Confédération avaient donnés au gouvernement central', 'remplacer le gouvernement central faible créé par les articles de la Confédération par un plus fort']",3,"Question: Lorsque les pères fondateurs se sont réunis en 1787 pour rédiger la Constitution, leur objectif principal était de
+
+Choix: ['établir une charte des droits qui protégerait les citoyens du gouvernement', 'créer un système judiciaire national pour entendre les différends entre citoyens d'États différents', 'rendre aux États les pouvoirs que les Articles de la Confédération avaient donnés au gouvernement central', 'remplacer le gouvernement central faible créé par les articles de la Confédération par un plus fort']
+
+Réponse: remplacer le gouvernement central faible créé par les articles de la Confédération par un plus fort"
+Un amendement constitutionnel serait nécessaire pour interdire la combustion des drapeaux parce que cette activité est actuellement protégée par le droit à la liberté d'expression.,high_school_government_and_politics,"['procédure régulière', 'assemblage', 'le libre exercice de la religion', 'le droit à la liberté d'expression']",3,"Question: Un amendement constitutionnel serait nécessaire pour interdire la combustion des drapeaux parce que cette activité est actuellement protégée par le droit à la liberté d'expression.
+
+Choix: ['procédure régulière', 'assemblage', 'le libre exercice de la religion', 'le droit à la liberté d'expression']
+
+Réponse: le droit à la liberté d'expression"
+Lequel des éléments suivants est un exemple d'un pouvoir implicite du Congrès?,high_school_government_and_politics,"['réglementation du commerce interétatique', 'empruntant de l'argent au crédit des États-Unis', 'supervision des agences de la branche exécutive', 'déclarations de guerre']",2,"Question: Lequel des éléments suivants est un exemple d'un pouvoir implicite du Congrès?
+
+Choix: ['réglementation du commerce interétatique', 'empruntant de l'argent au crédit des États-Unis', 'supervision des agences de la branche exécutive', 'déclarations de guerre']
+
+Réponse: supervision des agences de la branche exécutive"
+"À quelle caractéristique du gouvernement américain le terme ""fédéralisme"" fait- il référence?",high_school_government_and_politics,"['Le système de contrôle et d'équilibre au sein du gouvernement national', 'Le pouvoir de la Cour suprême d'examiner la constitutionnalité des lois', 'La protection des droits de l'accusé par la Déclaration des droits', 'La division et le partage du pouvoir entre le gouvernement national et le gouvernement des États']",3,"Question: À quelle caractéristique du gouvernement américain le terme ""fédéralisme"" fait- il référence?
+
+Choix: ['Le système de contrôle et d'équilibre au sein du gouvernement national', 'Le pouvoir de la Cour suprême d'examiner la constitutionnalité des lois', 'La protection des droits de l'accusé par la Déclaration des droits', 'La division et le partage du pouvoir entre le gouvernement national et le gouvernement des États']
+
+Réponse: La division et le partage du pouvoir entre le gouvernement national et le gouvernement des États"
+"Compte tenu de la structure du collège électoral, les candidats à la présidence ont tendance à",high_school_government_and_politics,"['éviter les états de champ de bataille et concentrer leurs campagnes sur les états 'sûrs'', 'campagne plus fortement dans les États à forte population', 'dépenser plus d'argent en publicité télévisée dans les États des Plaines', 'campagne largement dans les États qui favorisent fortement un parti sur l'autre']",1,"Question: Compte tenu de la structure du collège électoral, les candidats à la présidence ont tendance à
+
+Choix: ['éviter les états de champ de bataille et concentrer leurs campagnes sur les états 'sûrs'', 'campagne plus fortement dans les États à forte population', 'dépenser plus d'argent en publicité télévisée dans les États des Plaines', 'campagne largement dans les États qui favorisent fortement un parti sur l'autre']
+
+Réponse: campagne plus fortement dans les États à forte population"
+Les filibusters sont moins susceptibles de se produire à la Chambre des représentants que dans le Sénat parce que,high_school_government_and_politics,"['Le décorum du Sénat interdit à un sénateur de tenter d'arrêter le discours d'un autre.', 'la Chambre se réunit pendant beaucoup moins d'heures par jour que le Sénat', 'Les séances du Sénat, contrairement aux séances de la Chambre, sont ouvertes au public.', 'Le débat à l'Assemblée est dans la plupart des cas strictement réglementé par le Règlement.']",3,"Question: Les filibusters sont moins susceptibles de se produire à la Chambre des représentants que dans le Sénat parce que
+
+Choix: ['Le décorum du Sénat interdit à un sénateur de tenter d'arrêter le discours d'un autre.', 'la Chambre se réunit pendant beaucoup moins d'heures par jour que le Sénat', 'Les séances du Sénat, contrairement aux séances de la Chambre, sont ouvertes au public.', 'Le débat à l'Assemblée est dans la plupart des cas strictement réglementé par le Règlement.']
+
+Réponse: Le débat à l'Assemblée est dans la plupart des cas strictement réglementé par le Règlement."
+"Quand le Parti démocrate poursuit des politiques sociales libérales, quelles de ses bases traditionnelles est-il le plus susceptible de s'aliéner ?",high_school_government_and_politics,"['Personnes titulaires de diplômes universitaires supérieurs', 'Les citadins du nord-est', 'Les Sudistes', 'Juifs américains']",2,"Question: Quand le Parti démocrate poursuit des politiques sociales libérales, quelles de ses bases traditionnelles est-il le plus susceptible de s'aliéner ?
+
+Choix: ['Personnes titulaires de diplômes universitaires supérieurs', 'Les citadins du nord-est', 'Les Sudistes', 'Juifs américains']
+
+Réponse: Les Sudistes"
+La pratique consistant à tracer des lignes de district du Congrès dans le but de donner un avantage à un parti par rapport à un autre est appelée,high_school_government_and_politics,"['chargement à l'avant', 'retenue antérieure', 'réaffectation', 'détournement de fonds']",3,"Question: La pratique consistant à tracer des lignes de district du Congrès dans le but de donner un avantage à un parti par rapport à un autre est appelée
+
+Choix: ['chargement à l'avant', 'retenue antérieure', 'réaffectation', 'détournement de fonds']
+
+Réponse: détournement de fonds"
+Lequel des éléments suivants n'est PAS une façon dont les pouvoirs du pouvoir exécutif sont équilibrés par le pouvoir législatif?,high_school_government_and_politics,"['Le Sénat peut utiliser l'obstruction pour bloquer un ordre exécutif.', 'Le Congrès peut destituer et condamner un président pour 'crime grave et délits mineurs'.', 'Le Sénat peut refuser de ratifier un traité.', 'Le Sénat peut refuser d'approuver la nomination d'un président à la Cour suprême.']",0,"Question: Lequel des éléments suivants n'est PAS une façon dont les pouvoirs du pouvoir exécutif sont équilibrés par le pouvoir législatif?
+
+Choix: ['Le Sénat peut utiliser l'obstruction pour bloquer un ordre exécutif.', 'Le Congrès peut destituer et condamner un président pour 'crime grave et délits mineurs'.', 'Le Sénat peut refuser de ratifier un traité.', 'Le Sénat peut refuser d'approuver la nomination d'un président à la Cour suprême.']
+
+Réponse: Le Sénat peut utiliser l'obstruction pour bloquer un ordre exécutif."
+Le veto a été jugé inconstitutionnel parce que,high_school_government_and_politics,"['Il a donné des pouvoirs exécutifs à la législature.', 'Il a donné des pouvoirs législatifs à la bureaucratie.', 'il a donné des pouvoirs législatifs au président', 'il a délégué trop de pouvoirs aux États']",2,"Question: Le veto a été jugé inconstitutionnel parce que
+
+Choix: ['Il a donné des pouvoirs exécutifs à la législature.', 'Il a donné des pouvoirs législatifs à la bureaucratie.', 'il a donné des pouvoirs législatifs au président', 'il a délégué trop de pouvoirs aux États']
+
+Réponse: il a donné des pouvoirs législatifs au président"
+"Pourquoi les politologues qualifient- ils d'""élections critiques"" les élections présidentielles de Franklin Roosevelt en 1932 et de Richard Nixon en 1968, ainsi que l'élection de mi-mandat de 1994?",high_school_government_and_politics,"['Les enjeux de ces élections étaient plus importants que dans la plupart des élections.', 'Ces élections ont vu des changements majeurs dans l'alignement des partis qui dureraient des décennies.', 'Les électeurs minoritaires ont joué un rôle clé dans la détermination des gagnants de ces élections.', 'Ces élections ont eu lieu en temps de guerre.']",1,"Question: Pourquoi les politologues qualifient- ils d'""élections critiques"" les élections présidentielles de Franklin Roosevelt en 1932 et de Richard Nixon en 1968, ainsi que l'élection de mi-mandat de 1994?
+
+Choix: ['Les enjeux de ces élections étaient plus importants que dans la plupart des élections.', 'Ces élections ont vu des changements majeurs dans l'alignement des partis qui dureraient des décennies.', 'Les électeurs minoritaires ont joué un rôle clé dans la détermination des gagnants de ces élections.', 'Ces élections ont eu lieu en temps de guerre.']
+
+Réponse: Ces élections ont vu des changements majeurs dans l'alignement des partis qui dureraient des décennies."
+Les membres de la Chambre sont plus préoccupés par leurs commissions que les sénateurs parce que,high_school_government_and_politics,"['Les membres de la Chambre ne peuvent siéger qu'à une seule commission à la fois.', 'Les comités du Sénat ont relativement peu de pouvoir pour modifier la législation.', 'Les projets de loi au Sénat doivent passer par tous les comités avant d'atteindre le sol', 'les règles rendent extrêmement difficile pour les représentants d'influencer la législation sur le sol de la Chambre']",3,"Question: Les membres de la Chambre sont plus préoccupés par leurs commissions que les sénateurs parce que
+
+Choix: ['Les membres de la Chambre ne peuvent siéger qu'à une seule commission à la fois.', 'Les comités du Sénat ont relativement peu de pouvoir pour modifier la législation.', 'Les projets de loi au Sénat doivent passer par tous les comités avant d'atteindre le sol', 'les règles rendent extrêmement difficile pour les représentants d'influencer la législation sur le sol de la Chambre']
+
+Réponse: les règles rendent extrêmement difficile pour les représentants d'influencer la législation sur le sol de la Chambre"
+Laquelle des affirmations suivantes sur les populations votantes est la plus exacte?,high_school_government_and_politics,"['Les individus sont moins susceptibles de voter dans une course étroitement contestée.', 'Les électeurs sont plus susceptibles de voter à l'âge de 18 ans qu'à l'âge de 65 ans.', 'Une personne ayant un diplôme d'études supérieures est plus susceptible de voter qu'une personne n'ayant qu'un diplôme d'études secondaires.', 'Les individus riches sont moins susceptibles de voter que les individus pauvres.']",2,"Question: Laquelle des affirmations suivantes sur les populations votantes est la plus exacte?
+
+Choix: ['Les individus sont moins susceptibles de voter dans une course étroitement contestée.', 'Les électeurs sont plus susceptibles de voter à l'âge de 18 ans qu'à l'âge de 65 ans.', 'Une personne ayant un diplôme d'études supérieures est plus susceptible de voter qu'une personne n'ayant qu'un diplôme d'études secondaires.', 'Les individus riches sont moins susceptibles de voter que les individus pauvres.']
+
+Réponse: Une personne ayant un diplôme d'études supérieures est plus susceptible de voter qu'une personne n'ayant qu'un diplôme d'études secondaires."
+L'objectif principal des lois Gramm-Rudman de 1985 et 1987 était de,high_school_government_and_politics,"['renforcer l'armée', 'augmenter le financement des programmes sociaux', 'réduire le déficit fédéral', 'limiter la capacité du président à mener une politique étrangère']",2,"Question: L'objectif principal des lois Gramm-Rudman de 1985 et 1987 était de
+
+Choix: ['renforcer l'armée', 'augmenter le financement des programmes sociaux', 'réduire le déficit fédéral', 'limiter la capacité du président à mener une politique étrangère']
+
+Réponse: réduire le déficit fédéral"
+"Laquelle des expressions suivantes décrit le mieux la pratique du "" partage des billets ""?",high_school_government_and_politics,"['Un candidat présidentiel choisit un co-candidat qui peut séduire les groupes d'électeurs dont le soutien au candidat est faible.', 'Un électeur choisit le candidat à la présidence d'un grand parti, mais choisit les candidats au Congrès de l'autre grand parti.', 'Un maire ordonne à la police locale de réduire le nombre d'infractions de stationnement dans les semaines qui précèdent les élections générales.', 'Un délégué à une convention nationale du parti soutient le candidat en tête mais reste non engagé sur la plate-forme du parti.']",1,"Question: Laquelle des expressions suivantes décrit le mieux la pratique du "" partage des billets ""?
+
+Choix: ['Un candidat présidentiel choisit un co-candidat qui peut séduire les groupes d'électeurs dont le soutien au candidat est faible.', 'Un électeur choisit le candidat à la présidence d'un grand parti, mais choisit les candidats au Congrès de l'autre grand parti.', 'Un maire ordonne à la police locale de réduire le nombre d'infractions de stationnement dans les semaines qui précèdent les élections générales.', 'Un délégué à une convention nationale du parti soutient le candidat en tête mais reste non engagé sur la plate-forme du parti.']
+
+Réponse: Un électeur choisit le candidat à la présidence d'un grand parti, mais choisit les candidats au Congrès de l'autre grand parti."
+Lequel des éléments suivants est le résultat le plus direct d'un système électoral avec des circonscriptions uninominales?,high_school_government_and_politics,"['Prolifération de nombreux petits partis', 'Un équilibre des pouvoirs qui favorise le président sur le Congrès', 'Une présence persistante de tiers', 'Développement d'un système à deux partis']",3,"Question: Lequel des éléments suivants est le résultat le plus direct d'un système électoral avec des circonscriptions uninominales?
+
+Choix: ['Prolifération de nombreux petits partis', 'Un équilibre des pouvoirs qui favorise le président sur le Congrès', 'Une présence persistante de tiers', 'Développement d'un système à deux partis']
+
+Réponse: Développement d'un système à deux partis"
+La loi sur le droit de vote de 1965,high_school_government_and_politics,"['accordé aux femmes le droit de vote', 'la discrimination fondée sur la race est interdite', 'accordé aux Afro-Américains le droit de vote', 'suspendu l'utilisation de tests d'alphabétisation dans les centres de vote']",3,"Question: La loi sur le droit de vote de 1965
+
+Choix: ['accordé aux femmes le droit de vote', 'la discrimination fondée sur la race est interdite', 'accordé aux Afro-Américains le droit de vote', 'suspendu l'utilisation de tests d'alphabétisation dans les centres de vote']
+
+Réponse: suspendu l'utilisation de tests d'alphabétisation dans les centres de vote"
+"Dans la Chambre des représentants, la commission du Règlement",high_school_government_and_politics,"['détermine à la fois le règlement de la Chambre et les conditions du processus législatif', 'joue un rôle central dans la gestion de la Bibliothèque du Congrès', 'a compétence sur les pêches et la faune sauvage', 'détermine quel comportement est considéré comme éthique à la Chambre']",0,"Question: Dans la Chambre des représentants, la commission du Règlement
+
+Choix: ['détermine à la fois le règlement de la Chambre et les conditions du processus législatif', 'joue un rôle central dans la gestion de la Bibliothèque du Congrès', 'a compétence sur les pêches et la faune sauvage', 'détermine quel comportement est considéré comme éthique à la Chambre']
+
+Réponse: détermine à la fois le règlement de la Chambre et les conditions du processus législatif"
+"Lorsqu'un recours est formé auprès de la Cour suprême, le tribunal",high_school_government_and_politics,"['refuse d'entendre l'appel', 'déclare un procès nul', 'ordonne à la cour inférieure de réexaminer l'affaire', 'Règles en faveur du défendeur']",0,"Question: Lorsqu'un recours est formé auprès de la Cour suprême, le tribunal
+
+Choix: ['refuse d'entendre l'appel', 'déclare un procès nul', 'ordonne à la cour inférieure de réexaminer l'affaire', 'Règles en faveur du défendeur']
+
+Réponse: refuse d'entendre l'appel"
+Dans quelle des circonstances suivantes un président subit-il habituellement une réduction de son pouvoir politique ? Le président est dans les deux dernières années de son deuxième mandat II Le nombre et la gravité des crises internationales augmentent III Des partis différents contrôlent le Congrès et la Maison Blanche. L'économie est forte et le taux d'approbation du président est élevé.,high_school_government_and_politics,"['Je ne fais que...', 'I et II uniquement', 'I et III uniquement', 'II et III uniquement']",2,"Question: Dans quelle des circonstances suivantes un président subit-il habituellement une réduction de son pouvoir politique ? Le président est dans les deux dernières années de son deuxième mandat II Le nombre et la gravité des crises internationales augmentent III Des partis différents contrôlent le Congrès et la Maison Blanche. L'économie est forte et le taux d'approbation du président est élevé.
+
+Choix: ['Je ne fais que...', 'I et II uniquement', 'I et III uniquement', 'II et III uniquement']
+
+Réponse: I et III uniquement"
+Lequel des éléments suivants est le MOINS susceptible d'expliquer la faible participation électorale à une élection?,high_school_government_and_politics,"['La disposition sur le précontrôle de la Loi sur le droit de vote', 'Faibles niveaux d'efficacité politique parmi les électeurs inscrits', 'Règlement exigeant que les électeurs présentent une pièce d'identité', 'La fréquence des élections provinciales et locales']",0,"Question: Lequel des éléments suivants est le MOINS susceptible d'expliquer la faible participation électorale à une élection?
+
+Choix: ['La disposition sur le précontrôle de la Loi sur le droit de vote', 'Faibles niveaux d'efficacité politique parmi les électeurs inscrits', 'Règlement exigeant que les électeurs présentent une pièce d'identité', 'La fréquence des élections provinciales et locales']
+
+Réponse: La disposition sur le précontrôle de la Loi sur le droit de vote"
+Les membres du Congrès sont autorisés à envoyer des lettres à leurs électeurs aux frais du gouvernement parce que,high_school_government_and_politics,"['détournement de fonds', 'législation sur les barils de viande de porc', 'le seizième amendement', 'le privilège de franquage']",3,"Question: Les membres du Congrès sont autorisés à envoyer des lettres à leurs électeurs aux frais du gouvernement parce que
+
+Choix: ['détournement de fonds', 'législation sur les barils de viande de porc', 'le seizième amendement', 'le privilège de franquage']
+
+Réponse: le privilège de franquage"
+L'idée que la Déclaration des droits s'applique aux gouvernements fédéral et étatique par le biais du quatorzième amendement est appelée,high_school_government_and_politics,"['commandement', 'Déclaration de résiliation du habeas corpus', 'constructionnisme strict', 'la doctrine de l'incorporation']",3,"Question: L'idée que la Déclaration des droits s'applique aux gouvernements fédéral et étatique par le biais du quatorzième amendement est appelée
+
+Choix: ['commandement', 'Déclaration de résiliation du habeas corpus', 'constructionnisme strict', 'la doctrine de l'incorporation']
+
+Réponse: la doctrine de l'incorporation"
+"Si aucun candidat à la présidence ne reçoit la majorité des votes du collège électoral, qui devient alors président ?",high_school_government_and_politics,"['Le candidat qui remporte le vote populaire national', 'Le vice-président en exercice des États-Unis', 'Quiconque est sélectionné par la Cour suprême des États-Unis', 'Le candidat qui obtient la majorité des voix à la Chambre']",3,"Question: Si aucun candidat à la présidence ne reçoit la majorité des votes du collège électoral, qui devient alors président ?
+
+Choix: ['Le candidat qui remporte le vote populaire national', 'Le vice-président en exercice des États-Unis', 'Quiconque est sélectionné par la Cour suprême des États-Unis', 'Le candidat qui obtient la majorité des voix à la Chambre']
+
+Réponse: Le candidat qui obtient la majorité des voix à la Chambre"
+"Contrairement à une élection primaire fermée, dans une élection primaire ouverte",high_school_government_and_politics,"['les électeurs choisissent le gagnant par caucus plutôt que par bulletins de vote individuels', 'les résultats des élections ne sont pas contraignants', 'n'importe quel électeur enregistré peut participer, indépendamment de l'affiliation de parti', 'les électeurs peuvent s'inscrire pour voter le jour de l'élection']",2,"Question: Contrairement à une élection primaire fermée, dans une élection primaire ouverte
+
+Choix: ['les électeurs choisissent le gagnant par caucus plutôt que par bulletins de vote individuels', 'les résultats des élections ne sont pas contraignants', 'n'importe quel électeur enregistré peut participer, indépendamment de l'affiliation de parti', 'les électeurs peuvent s'inscrire pour voter le jour de l'élection']
+
+Réponse: n'importe quel électeur enregistré peut participer, indépendamment de l'affiliation de parti"
+"Tous les dix ans, la majorité des assemblées législatives des États sont chargées de",high_school_government_and_politics,"['redessiner les limites des districts du Congrès', 'élection d'un nouveau gouverneur d'État', 'évaluer l'accessibilité physique des bureaux de vote', 'décider où construire de nouvelles écoles élémentaires']",0,"Question: Tous les dix ans, la majorité des assemblées législatives des États sont chargées de
+
+Choix: ['redessiner les limites des districts du Congrès', 'élection d'un nouveau gouverneur d'État', 'évaluer l'accessibilité physique des bureaux de vote', 'décider où construire de nouvelles écoles élémentaires']
+
+Réponse: redessiner les limites des districts du Congrès"
+Lequel des éléments suivants décrit le mieux le sort des mouvements tiers les plus populaires ?,high_school_government_and_politics,"['Ils remplacent l'un des deux principaux partis et deviennent eux-mêmes des principaux partis.', 'Ils sont finalement abandonnés par le public parce que leur politique est perçue comme trop radicale.', 'Leurs partisans deviennent frustrés et se retirent du processus politique.', 'Ils se désintègrent lorsque l'un ou les deux partis majeurs adoptent les objectifs du tiers.']",3,"Question: Lequel des éléments suivants décrit le mieux le sort des mouvements tiers les plus populaires ?
+
+Choix: ['Ils remplacent l'un des deux principaux partis et deviennent eux-mêmes des principaux partis.', 'Ils sont finalement abandonnés par le public parce que leur politique est perçue comme trop radicale.', 'Leurs partisans deviennent frustrés et se retirent du processus politique.', 'Ils se désintègrent lorsque l'un ou les deux partis majeurs adoptent les objectifs du tiers.']
+
+Réponse: Ils se désintègrent lorsque l'un ou les deux partis majeurs adoptent les objectifs du tiers."
+Le système des spoils pour l'attribution des postes de fonctionnaires a été remplacé par le système du mérite à la suite de la,high_school_government_and_politics,"['Doctrine de Truman', 'Loi de 1961 sur les normes du travail équitables', 'Loi nationale sur le redressement industriel', 'Loi de Pendleton de 1883']",3,"Question: Le système des spoils pour l'attribution des postes de fonctionnaires a été remplacé par le système du mérite à la suite de la
+
+Choix: ['Doctrine de Truman', 'Loi de 1961 sur les normes du travail équitables', 'Loi nationale sur le redressement industriel', 'Loi de Pendleton de 1883']
+
+Réponse: Loi de Pendleton de 1883"
+"Le terme ""triangle de fer"" fait référence à l'interrelation des",high_school_government_and_politics,"['président, le Congrès, et la Cour suprême', 'l'électorat, le Congrès et les comités d'action politique', 'gouvernements locaux, étatiques et fédéraux', 'la bureaucratie fédérale, les comités du Congrès, et les lobbyistes']",3,"Question: Le terme ""triangle de fer"" fait référence à l'interrelation des
+
+Choix: ['président, le Congrès, et la Cour suprême', 'l'électorat, le Congrès et les comités d'action politique', 'gouvernements locaux, étatiques et fédéraux', 'la bureaucratie fédérale, les comités du Congrès, et les lobbyistes']
+
+Réponse: la bureaucratie fédérale, les comités du Congrès, et les lobbyistes"
+"La loi No Child Left Behind, qui établit les normes éducatives que les États doivent respecter pour recevoir un financement éducatif fédéral, est un exemple de lequel des éléments suivants?",high_school_government_and_politics,"['Un mandat fédéral', 'Une modification constitutionnelle', 'Action affirmative', 'Réforme de l'infraction pénale']",0,"Question: La loi No Child Left Behind, qui établit les normes éducatives que les États doivent respecter pour recevoir un financement éducatif fédéral, est un exemple de lequel des éléments suivants?
+
+Choix: ['Un mandat fédéral', 'Une modification constitutionnelle', 'Action affirmative', 'Réforme de l'infraction pénale']
+
+Réponse: Un mandat fédéral"
+Un pouvoir inhérent du président est le pouvoir de,high_school_government_and_politics,"['nommer un candidat à la Cour suprême des États-Unis', 'négocier un traité avec un autre pays', 'déclarer l'état d'urgence à la suite d'une catastrophe naturelle;', 'opposer son veto à un projet de loi adopté par le Congrès américain']",2,"Question: Un pouvoir inhérent du président est le pouvoir de
+
+Choix: ['nommer un candidat à la Cour suprême des États-Unis', 'négocier un traité avec un autre pays', 'déclarer l'état d'urgence à la suite d'une catastrophe naturelle;', 'opposer son veto à un projet de loi adopté par le Congrès américain']
+
+Réponse: déclarer l'état d'urgence à la suite d'une catastrophe naturelle;"
+La Cour suprême a utilisé le quatorzième amendement pour appliquer des parties de la Déclaration des droits à la loi de l'État en citant les,high_school_government_and_politics,"['l'interdiction des perquisitions et des saisies déraisonnables;', 'clause de procédure régulière', 'garantie des droits à la vie privée', 'l'abolition de l'esclavage']",1,"Question: La Cour suprême a utilisé le quatorzième amendement pour appliquer des parties de la Déclaration des droits à la loi de l'État en citant les
+
+Choix: ['l'interdiction des perquisitions et des saisies déraisonnables;', 'clause de procédure régulière', 'garantie des droits à la vie privée', 'l'abolition de l'esclavage']
+
+Réponse: clause de procédure régulière"
+L'efficacité politique se réfère à l'idée que,high_school_government_and_politics,"['Les partis politiques peuvent fournir un contrôle à l'influence politique exercée par les sociétés', 'les individus croient pouvoir influencer le gouvernement en participant au processus démocratique', 'le système de freins et contrepoids garantit que le gouvernement est à la fois efficace et productif', 'Les politiciens ont le devoir d'informer leurs électeurs sur le processus démocratique.']",1,"Question: L'efficacité politique se réfère à l'idée que
+
+Choix: ['Les partis politiques peuvent fournir un contrôle à l'influence politique exercée par les sociétés', 'les individus croient pouvoir influencer le gouvernement en participant au processus démocratique', 'le système de freins et contrepoids garantit que le gouvernement est à la fois efficace et productif', 'Les politiciens ont le devoir d'informer leurs électeurs sur le processus démocratique.']
+
+Réponse: les individus croient pouvoir influencer le gouvernement en participant au processus démocratique"
+Lequel des pouvoirs présidentiels suivants est partagé avec le Sénat?,high_school_government_and_politics,"['Déploiement des troupes', 'Rédaction de projets de loi sur les crédits', 'Négociation des traités', 'Forcer le Congrès à se réunir']",2,"Question: Lequel des pouvoirs présidentiels suivants est partagé avec le Sénat?
+
+Choix: ['Déploiement des troupes', 'Rédaction de projets de loi sur les crédits', 'Négociation des traités', 'Forcer le Congrès à se réunir']
+
+Réponse: Négociation des traités"
+Lequel des éléments suivants est une différence significative entre le Sénat et la Chambre des représentants?,high_school_government_and_politics,"['Seule la Chambre a le pouvoir d'émettre des citations à comparaître.', 'Seul le Sénat peut présenter des projets de loi sur les recettes.', 'Les États sont également représentés à la Chambre, tandis que la représentation au Sénat est proportionnelle à la population.', 'Le Sénat permet un débat illimité, alors que la Chambre ne le fait pas.']",3,"Question: Lequel des éléments suivants est une différence significative entre le Sénat et la Chambre des représentants?
+
+Choix: ['Seule la Chambre a le pouvoir d'émettre des citations à comparaître.', 'Seul le Sénat peut présenter des projets de loi sur les recettes.', 'Les États sont également représentés à la Chambre, tandis que la représentation au Sénat est proportionnelle à la population.', 'Le Sénat permet un débat illimité, alors que la Chambre ne le fait pas.']
+
+Réponse: Le Sénat permet un débat illimité, alors que la Chambre ne le fait pas."
+"On dit qu'un membre du cabinet du président ""est devenu natif"" quand ce membre du cabinet",high_school_government_and_politics,"['démissionne pour occuper un poste de consultant auprès de groupes de pression', 'cède le contrôle de son département à des bureaucrates à vie au sein du département', 'place les priorités de son département au-dessus des priorités du président', 'accepte des pots-de-vin ou des faveurs coûteuses de la part d'entreprises réglementées par son ministère']",2,"Question: On dit qu'un membre du cabinet du président ""est devenu natif"" quand ce membre du cabinet
+
+Choix: ['démissionne pour occuper un poste de consultant auprès de groupes de pression', 'cède le contrôle de son département à des bureaucrates à vie au sein du département', 'place les priorités de son département au-dessus des priorités du président', 'accepte des pots-de-vin ou des faveurs coûteuses de la part d'entreprises réglementées par son ministère']
+
+Réponse: place les priorités de son département au-dessus des priorités du président"
+Tout ce qui suit sont des moyens par lesquels les lobbyistes tentent de convaincre les législateurs EXCEPT,high_school_government_and_politics,"['diffusion de propagande dans les médias', 'approuvant les candidats à des fonctions', 'socialiser avec les fonctionnaires du gouvernement', 'acquisition de dons de campagne d'entreprises pour les candidats']",3,"Question: Tout ce qui suit sont des moyens par lesquels les lobbyistes tentent de convaincre les législateurs EXCEPT
+
+Choix: ['diffusion de propagande dans les médias', 'approuvant les candidats à des fonctions', 'socialiser avec les fonctionnaires du gouvernement', 'acquisition de dons de campagne d'entreprises pour les candidats']
+
+Réponse: acquisition de dons de campagne d'entreprises pour les candidats"
+"Tout ce qui suit est la conséquence d'une faible participation aux élections aux États-Unis, sauf",high_school_government_and_politics,"['une perception du gouvernement comme illégitime', 'l'absence d'une vraie démocratie', 'un manque de représentation des minorités', 'l'imposition d'une amende à ceux qui n'ont pas voté;']",3,"Question: Tout ce qui suit est la conséquence d'une faible participation aux élections aux États-Unis, sauf
+
+Choix: ['une perception du gouvernement comme illégitime', 'l'absence d'une vraie démocratie', 'un manque de représentation des minorités', 'l'imposition d'une amende à ceux qui n'ont pas voté;']
+
+Réponse: l'imposition d'une amende à ceux qui n'ont pas voté;"
+Laquelle des déclarations suivantes est vraie concernant les délégués aux conventions de nomination présidentielle?,high_school_government_and_politics,"['Les délégués sont généralement plus susceptibles de s'inscrire comme électeurs tiers à un moment donné.', 'La majorité de la population générale est plus instruite que les délégués.', 'Les délégués ont généralement peu d'intérêt pour la politique.', 'Généralement, la population générale est moins idéologique que les délégués.']",3,"Question: Laquelle des déclarations suivantes est vraie concernant les délégués aux conventions de nomination présidentielle?
+
+Choix: ['Les délégués sont généralement plus susceptibles de s'inscrire comme électeurs tiers à un moment donné.', 'La majorité de la population générale est plus instruite que les délégués.', 'Les délégués ont généralement peu d'intérêt pour la politique.', 'Généralement, la population générale est moins idéologique que les délégués.']
+
+Réponse: Généralement, la population générale est moins idéologique que les délégués."
+Tout ce qui suit est spécifiquement mentionné dans la Constitution EXCEPT,high_school_government_and_politics,"['contrôle judiciaire', 'le recensement national', 'les règles de mise en accusation', 'le discours sur l'état de l'Union']",0,"Question: Tout ce qui suit est spécifiquement mentionné dans la Constitution EXCEPT
+
+Choix: ['contrôle judiciaire', 'le recensement national', 'les règles de mise en accusation', 'le discours sur l'état de l'Union']
+
+Réponse: contrôle judiciaire"
+Laquelle des affirmations suivantes est vraie pour la Cour suprême?,high_school_government_and_politics,"['Chaque affaire portée en appel devant la Cour suprême est jugée par la cour.', 'La Cour aide à fixer l'ordre du jour du public en décidant quels appels examiner.', 'La Cour entend toutes les affaires où deux juges ou plus sont d'accord sur le bien-fondé de l'affaire.', 'En décidant des affaires, le vote du juge en chef compte comme deux votes.']",1,"Question: Laquelle des affirmations suivantes est vraie pour la Cour suprême?
+
+Choix: ['Chaque affaire portée en appel devant la Cour suprême est jugée par la cour.', 'La Cour aide à fixer l'ordre du jour du public en décidant quels appels examiner.', 'La Cour entend toutes les affaires où deux juges ou plus sont d'accord sur le bien-fondé de l'affaire.', 'En décidant des affaires, le vote du juge en chef compte comme deux votes.']
+
+Réponse: La Cour aide à fixer l'ordre du jour du public en décidant quels appels examiner."
+"Bien que mieux connu pour protéger la liberté d'expression et de religion, le Premier Amendement protège aussi le droit des Américains à",high_school_government_and_politics,"['la procédure régulière de la loi dans toute affaire criminelle', 'conserver des biens personnels à moins d'être équitablement indemnisés par le gouvernement', 'ne pas faire l'objet d'amendes excessives ou de sanctions inhabituelles;', 'pétition au gouvernement pour une réparation des griefs']",3,"Question: Bien que mieux connu pour protéger la liberté d'expression et de religion, le Premier Amendement protège aussi le droit des Américains à
+
+Choix: ['la procédure régulière de la loi dans toute affaire criminelle', 'conserver des biens personnels à moins d'être équitablement indemnisés par le gouvernement', 'ne pas faire l'objet d'amendes excessives ou de sanctions inhabituelles;', 'pétition au gouvernement pour une réparation des griefs']
+
+Réponse: pétition au gouvernement pour une réparation des griefs"
+La Loi sur le droit de vote de 1965 a eu quels effets parmi les suivants ?,high_school_government_and_politics,"['Il a été interdit aux États d'établir des exigences d'identification des électeurs.', 'Les électeurs doivent maintenant passer des tests d'alphabétisation avant de voter.', 'La participation électorale des électeurs issus de minorités raciales a augmenté.', 'L'âge du droit de vote a été abaissé de 21 à 18 ans.']",2,"Question: La Loi sur le droit de vote de 1965 a eu quels effets parmi les suivants ?
+
+Choix: ['Il a été interdit aux États d'établir des exigences d'identification des électeurs.', 'Les électeurs doivent maintenant passer des tests d'alphabétisation avant de voter.', 'La participation électorale des électeurs issus de minorités raciales a augmenté.', 'L'âge du droit de vote a été abaissé de 21 à 18 ans.']
+
+Réponse: La participation électorale des électeurs issus de minorités raciales a augmenté."
+"Considérés comme un seul groupe, l'Administration des petites entreprises, les comités des petites entreprises de la Chambre des représentants et du Sénat, et les groupes de défense des petites entreprises sont un exemple de",high_school_government_and_politics,"['un triangle de fer', 'une commission de conférence', 'une agence de réglementation', 'double fédéralisme']",0,"Question: Considérés comme un seul groupe, l'Administration des petites entreprises, les comités des petites entreprises de la Chambre des représentants et du Sénat, et les groupes de défense des petites entreprises sont un exemple de
+
+Choix: ['un triangle de fer', 'une commission de conférence', 'une agence de réglementation', 'double fédéralisme']
+
+Réponse: un triangle de fer"
+Une ordonnance certiorari émanant de la Cour suprême indique que la Cour,high_school_government_and_politics,"['examinera une décision d'une juridiction inférieure', 'a rendu une décision sur une affaire', 'a décidé de ne pas entendre un appel', 'sera suspendu jusqu'à la fin de l'année civile']",0,"Question: Une ordonnance certiorari émanant de la Cour suprême indique que la Cour
+
+Choix: ['examinera une décision d'une juridiction inférieure', 'a rendu une décision sur une affaire', 'a décidé de ne pas entendre un appel', 'sera suspendu jusqu'à la fin de l'année civile']
+
+Réponse: examinera une décision d'une juridiction inférieure"
+Lequel des éléments suivants n'apparaît PAS dans la Constitution ?,high_school_government_and_politics,"['Le collège électoral', 'Les partis politiques', 'Séparation des pouvoirs', 'La durée du mandat des membres du Congrès']",1,"Question: Lequel des éléments suivants n'apparaît PAS dans la Constitution ?
+
+Choix: ['Le collège électoral', 'Les partis politiques', 'Séparation des pouvoirs', 'La durée du mandat des membres du Congrès']
+
+Réponse: Les partis politiques"
+"Lequel des principes constitutionnels suivants pourrait être violé si l'Agence de protection de l'environnement a émis, appliqué et jugé tous les litiges concernant un nouveau règlement?",high_school_government_and_politics,"['Le fédéralisme vertical', 'Procédure régulière', 'Nom de l'association', 'Séparation des pouvoirs']",3,"Question: Lequel des principes constitutionnels suivants pourrait être violé si l'Agence de protection de l'environnement a émis, appliqué et jugé tous les litiges concernant un nouveau règlement?
+
+Choix: ['Le fédéralisme vertical', 'Procédure régulière', 'Nom de l'association', 'Séparation des pouvoirs']
+
+Réponse: Séparation des pouvoirs"
+Laquelle des affirmations suivantes décrit correctement la relation entre le pouvoir judiciaire fédéral et le pouvoir judiciaire des États?,high_school_government_and_politics,"['Les tribunaux fédéraux sont des tribunaux supérieurs aux tribunaux des États et peuvent annuler les décisions des États pour n'importe quel motif.', 'Les deux sont entièrement autonomes, et ni l'un ni l'autre n'entend jamais les cas qui proviennent de l'autre.', 'Les deux sont généralement autonomes, bien que les tribunaux fédéraux puissent statuer sur la constitutionnalité des décisions des tribunaux d'État.', 'Les tribunaux d'État sont des tribunaux de première instance; les tribunaux fédéraux sont des tribunaux d'appel.']",2,"Question: Laquelle des affirmations suivantes décrit correctement la relation entre le pouvoir judiciaire fédéral et le pouvoir judiciaire des États?
+
+Choix: ['Les tribunaux fédéraux sont des tribunaux supérieurs aux tribunaux des États et peuvent annuler les décisions des États pour n'importe quel motif.', 'Les deux sont entièrement autonomes, et ni l'un ni l'autre n'entend jamais les cas qui proviennent de l'autre.', 'Les deux sont généralement autonomes, bien que les tribunaux fédéraux puissent statuer sur la constitutionnalité des décisions des tribunaux d'État.', 'Les tribunaux d'État sont des tribunaux de première instance; les tribunaux fédéraux sont des tribunaux d'appel.']
+
+Réponse: Les deux sont généralement autonomes, bien que les tribunaux fédéraux puissent statuer sur la constitutionnalité des décisions des tribunaux d'État."
+Un exemple de subvention catégorique serait:,high_school_government_and_politics,"['l'argent prêté par le gouvernement fédéral aux villes pour financer l'entretien des écoles', 'l'argent donné par le gouvernement fédéral aux États sans conditions', 'de l'argent prêté par le gouvernement fédéral à une entreprise privée pour l'empêcher de faire faillite', 'l'argent donné par le gouvernement fédéral aux États pour financer les programmes d'éducation précoce Head Start']",3,"Question: Un exemple de subvention catégorique serait:
+
+Choix: ['l'argent prêté par le gouvernement fédéral aux villes pour financer l'entretien des écoles', 'l'argent donné par le gouvernement fédéral aux États sans conditions', 'de l'argent prêté par le gouvernement fédéral à une entreprise privée pour l'empêcher de faire faillite', 'l'argent donné par le gouvernement fédéral aux États pour financer les programmes d'éducation précoce Head Start']
+
+Réponse: l'argent donné par le gouvernement fédéral aux États pour financer les programmes d'éducation précoce Head Start"
+"Lorsque la Cour suprême décide de prendre une affaire en appel, elle",high_school_government_and_politics,"['délivre un bref d'habeas corpus', 'délivre un bref de certiorari', 'émet des mémoires amicus curiae', 's'engage dans un contrôle judiciaire']",1,"Question: Lorsque la Cour suprême décide de prendre une affaire en appel, elle
+
+Choix: ['délivre un bref d'habeas corpus', 'délivre un bref de certiorari', 'émet des mémoires amicus curiae', 's'engage dans un contrôle judiciaire']
+
+Réponse: délivre un bref de certiorari"
+Laquelle des affirmations suivantes est vraie pour les juges fédéraux ?,high_school_government_and_politics,"['Ils servent un mandat de quatre ans qui coïncide avec le mandat présidentiel.', 'Ils sont nommés à vie et ne peuvent être destitués que par destitution.', 'Ils sont élus par le Congrès pour un mandat de dix ans.', 'Ils sont nommés à vie et ne peuvent être démis de leurs fonctions.']",1,"Question: Laquelle des affirmations suivantes est vraie pour les juges fédéraux ?
+
+Choix: ['Ils servent un mandat de quatre ans qui coïncide avec le mandat présidentiel.', 'Ils sont nommés à vie et ne peuvent être destitués que par destitution.', 'Ils sont élus par le Congrès pour un mandat de dix ans.', 'Ils sont nommés à vie et ne peuvent être démis de leurs fonctions.']
+
+Réponse: Ils sont nommés à vie et ne peuvent être destitués que par destitution."
+Le Congrès a tenté de protéger les agences de réglementation indépendantes de l'influence politique en exigeant que chaque agence,high_school_government_and_politics,"['être dirigée par un groupe de commissaires représentant les deux principaux partis politiques', 'planifier la politique en coopération avec les commissions appropriées du Congrès', 'présenter une nouvelle demande de financement à la fin de chaque exercice', 'soumettre tous les changements de politique prévus au président pour approbation']",0,"Question: Le Congrès a tenté de protéger les agences de réglementation indépendantes de l'influence politique en exigeant que chaque agence
+
+Choix: ['être dirigée par un groupe de commissaires représentant les deux principaux partis politiques', 'planifier la politique en coopération avec les commissions appropriées du Congrès', 'présenter une nouvelle demande de financement à la fin de chaque exercice', 'soumettre tous les changements de politique prévus au président pour approbation']
+
+Réponse: être dirigée par un groupe de commissaires représentant les deux principaux partis politiques"
+Laquelle des affirmations suivantes est vraie pour le redécoupage des circonscriptions par le Congrès ?,high_school_government_and_politics,"['La responsabilité de redessiner les districts du Congrès appartient aux comités du Congrès.', 'Il s'agit d'un processus non controversé car il a peu de ramifications politiques.', 'Il se produit tous les 10 ans pour refléter les changements de population selon le recensement.', 'La Cour suprême a statué que les législateurs ne peuvent pas tenir compte de la démographie raciale lors du redessinage des districts.']",2,"Question: Laquelle des affirmations suivantes est vraie pour le redécoupage des circonscriptions par le Congrès ?
+
+Choix: ['La responsabilité de redessiner les districts du Congrès appartient aux comités du Congrès.', 'Il s'agit d'un processus non controversé car il a peu de ramifications politiques.', 'Il se produit tous les 10 ans pour refléter les changements de population selon le recensement.', 'La Cour suprême a statué que les législateurs ne peuvent pas tenir compte de la démographie raciale lors du redessinage des districts.']
+
+Réponse: Il se produit tous les 10 ans pour refléter les changements de population selon le recensement."
+Lequel des éléments suivants décrit le mieux The Federalist Papers ?,high_school_government_and_politics,"['La plate-forme du parti fédéraliste pendant la présidence de John Adams, le premier président fédéraliste', 'Un livret anti-britannique populaire de l'ère pré-révolutionnaire', 'Une collection d'essais faisant valoir les mérites de la Constitution', 'Une série d'actes du Congrès définissant les relations entre le gouvernement fédéral et les gouvernements des États']",2,"Question: Lequel des éléments suivants décrit le mieux The Federalist Papers ?
+
+Choix: ['La plate-forme du parti fédéraliste pendant la présidence de John Adams, le premier président fédéraliste', 'Un livret anti-britannique populaire de l'ère pré-révolutionnaire', 'Une collection d'essais faisant valoir les mérites de la Constitution', 'Une série d'actes du Congrès définissant les relations entre le gouvernement fédéral et les gouvernements des États']
+
+Réponse: Une collection d'essais faisant valoir les mérites de la Constitution"
+Lequel des cas suivants s'applique aux affaires judiciaires dans lesquelles une partie privée poursuit une autre partie privée?,high_school_government_and_politics,"['Ils sont jugés devant un tribunal civil.', 'Le système judiciaire fédéral a compétence exclusive sur eux.', 'Ils sont jugés par un tribunal pénal.', 'Le système judiciaire de l'État a compétence exclusive sur eux.']",0,"Question: Lequel des cas suivants s'applique aux affaires judiciaires dans lesquelles une partie privée poursuit une autre partie privée?
+
+Choix: ['Ils sont jugés devant un tribunal civil.', 'Le système judiciaire fédéral a compétence exclusive sur eux.', 'Ils sont jugés par un tribunal pénal.', 'Le système judiciaire de l'État a compétence exclusive sur eux.']
+
+Réponse: Ils sont jugés devant un tribunal civil."
+Laquelle des déclarations suivantes sur les comités d'action politique (PAC) est la plus exacte?,high_school_government_and_politics,"['Ils ne peuvent faire campagne que pour des questions, pas pour des candidats individuels', 'Leurs activités ne sont pas réglementées par la Commission électorale fédérale (FEC).', 'Leurs activités se limitent aux élections présidentielles nationales', 'Ils recueillent de l'argent pour influencer les élections fédérales, étatiques et locales.']",3,"Question: Laquelle des déclarations suivantes sur les comités d'action politique (PAC) est la plus exacte?
+
+Choix: ['Ils ne peuvent faire campagne que pour des questions, pas pour des candidats individuels', 'Leurs activités ne sont pas réglementées par la Commission électorale fédérale (FEC).', 'Leurs activités se limitent aux élections présidentielles nationales', 'Ils recueillent de l'argent pour influencer les élections fédérales, étatiques et locales.']
+
+Réponse: Ils recueillent de l'argent pour influencer les élections fédérales, étatiques et locales."
+Le veto a été jugé inconstitutionnel parce qu'il,high_school_government_and_politics,"['a violé le processus législatif par lequel les projets de loi deviennent des lois', 'a permis au Congrès d'éliminer des sections de la législation sans une majorité des deux tiers', 'a donné aux États la possibilité de passer outre la législation fédérale', 'autorisé le Congrès à annuler les actions exécutives']",0,"Question: Le veto a été jugé inconstitutionnel parce qu'il
+
+Choix: ['a violé le processus législatif par lequel les projets de loi deviennent des lois', 'a permis au Congrès d'éliminer des sections de la législation sans une majorité des deux tiers', 'a donné aux États la possibilité de passer outre la législation fédérale', 'autorisé le Congrès à annuler les actions exécutives']
+
+Réponse: a violé le processus législatif par lequel les projets de loi deviennent des lois"
+"Dans laquelle des affaires suivantes la décision de la Cour suprême a- t- elle établi la doctrine ""séparée mais égale"" de la ségrégation raciale parrainée par l'État?",high_school_government_and_politics,"['Plessy contre Ferguson', 'McCulloch contre le Maryland', 'L'affaire Gibbons c. Ogden a été classée comme telle.', 'Brown c. Conseil de l'éducation américaine']",0,"Question: Dans laquelle des affaires suivantes la décision de la Cour suprême a- t- elle établi la doctrine ""séparée mais égale"" de la ségrégation raciale parrainée par l'État?
+
+Choix: ['Plessy contre Ferguson', 'McCulloch contre le Maryland', 'L'affaire Gibbons c. Ogden a été classée comme telle.', 'Brown c. Conseil de l'éducation américaine']
+
+Réponse: Plessy contre Ferguson"
+"Parmi les catégories de dépenses suivantes, lesquelles sont payées sans facture de crédits?",high_school_government_and_politics,"['Actes spéciaux et autorisations du département de l'éducation', 'Les budgets du ministère de la Justice', 'Crédits du budget fédéral', 'Financement du Département de la Défense']",2,"Question: Parmi les catégories de dépenses suivantes, lesquelles sont payées sans facture de crédits?
+
+Choix: ['Actes spéciaux et autorisations du département de l'éducation', 'Les budgets du ministère de la Justice', 'Crédits du budget fédéral', 'Financement du Département de la Défense']
+
+Réponse: Crédits du budget fédéral"
+Le plan de réorganisation 1 de 1939 et le décret exécutif 8248 permettent au président de sélectionner le personnel pour le,high_school_government_and_politics,"['Le corps de la paix', 'Bureau de la Maison Blanche', 'La commission des crédits du Sénat', 'Conseil des ministres']",1,"Question: Le plan de réorganisation 1 de 1939 et le décret exécutif 8248 permettent au président de sélectionner le personnel pour le
+
+Choix: ['Le corps de la paix', 'Bureau de la Maison Blanche', 'La commission des crédits du Sénat', 'Conseil des ministres']
+
+Réponse: Bureau de la Maison Blanche"
+Les poursuites pénales échouées au niveau de l'État sont parfois réexaminées au niveau fédéral.,high_school_government_and_politics,"['sur appel des procureurs de l'État', 'en vertu de la disposition du 'double péril' de la Constitution', 'parce que de nouvelles preuves ont annulé le verdict au niveau de l'État', 'comme des violations des libertés civiles']",3,"Question: Les poursuites pénales échouées au niveau de l'État sont parfois réexaminées au niveau fédéral.
+
+Choix: ['sur appel des procureurs de l'État', 'en vertu de la disposition du 'double péril' de la Constitution', 'parce que de nouvelles preuves ont annulé le verdict au niveau de l'État', 'comme des violations des libertés civiles']
+
+Réponse: comme des violations des libertés civiles"
+"Par rapport aux partis politiques de pays tels que l'Angleterre et Israël, qui ont tous deux un système multipartite, les partis politiques américains sont",high_school_government_and_politics,"['moins intéressés à influencer le résultat des élections', 'moins clairement identifiés à des idéologies politiques cohérentes', 'moins efficace pour recueillir des fonds auprès des partisans politiques', 'mieux en mesure de refléter les objectifs de l'ensemble de leurs circonscriptions']",1,"Question: Par rapport aux partis politiques de pays tels que l'Angleterre et Israël, qui ont tous deux un système multipartite, les partis politiques américains sont
+
+Choix: ['moins intéressés à influencer le résultat des élections', 'moins clairement identifiés à des idéologies politiques cohérentes', 'moins efficace pour recueillir des fonds auprès des partisans politiques', 'mieux en mesure de refléter les objectifs de l'ensemble de leurs circonscriptions']
+
+Réponse: moins clairement identifiés à des idéologies politiques cohérentes"
+Tout ce qui suit est vrai dans le cadre du système de contrôles et de contrepoids EXCEPT,high_school_government_and_politics,"['Les candidats du président doivent être approuvés par le Sénat avant d'entrer en fonction.', 'les deux tiers du Sénat doivent approuver les traités négociés par le président', 'Le président peut annuler un veto du Congrès et adopter des lois', 'Le Congrès peut annuler un veto présidentiel']",2,"Question: Tout ce qui suit est vrai dans le cadre du système de contrôles et de contrepoids EXCEPT
+
+Choix: ['Les candidats du président doivent être approuvés par le Sénat avant d'entrer en fonction.', 'les deux tiers du Sénat doivent approuver les traités négociés par le président', 'Le président peut annuler un veto du Congrès et adopter des lois', 'Le Congrès peut annuler un veto présidentiel']
+
+Réponse: Le président peut annuler un veto du Congrès et adopter des lois"
+L'affaire de la Cour suprême Regents de l'Université de Californie contre Bakke concernait laquelle des questions suivantes?,high_school_government_and_politics,"['Le droit des étudiants à manifester sur un campus financé par l'Etat', 'Prière en classe dans une école publique', 'Le droit des étudiants à porter des armes cachées sur le campus', 'L'utilisation de quotas raciaux dans les admissions dans les universités publiques']",3,"Question: L'affaire de la Cour suprême Regents de l'Université de Californie contre Bakke concernait laquelle des questions suivantes?
+
+Choix: ['Le droit des étudiants à manifester sur un campus financé par l'Etat', 'Prière en classe dans une école publique', 'Le droit des étudiants à porter des armes cachées sur le campus', 'L'utilisation de quotas raciaux dans les admissions dans les universités publiques']
+
+Réponse: L'utilisation de quotas raciaux dans les admissions dans les universités publiques"
+Pourquoi la couverture médiatique est- elle devenue moins diversifiée ces dernières années?,high_school_government_and_politics,"['Diminution du parti pris libéral dans les médias d'information', 'Accroître la visibilité des candidats individuels à la télévision', 'Concentration croissante de la propriété dans les médias d'information', 'Réduction du coût des publicités politiques à la télévision']",2,"Question: Pourquoi la couverture médiatique est- elle devenue moins diversifiée ces dernières années?
+
+Choix: ['Diminution du parti pris libéral dans les médias d'information', 'Accroître la visibilité des candidats individuels à la télévision', 'Concentration croissante de la propriété dans les médias d'information', 'Réduction du coût des publicités politiques à la télévision']
+
+Réponse: Concentration croissante de la propriété dans les médias d'information"
+"Les politiciens et les journalistes politiques sont des adversaires naturels; le caractère antagoniste de leur relation, cependant, est tempéré par le fait que",high_school_government_and_politics,"['Les jeunes politiciens qui sont plus à l'aise avec les médias remplacent progressivement les politiciens plus âgés.', 'Les règlements gouvernementaux sur l'interaction entre les deux groupes sont très stricts.', 'Chaque groupe est dépendant de l'autre pour effectuer son travail efficacement.', 'très peu de médias couvriront une histoire qui est embarrassante pour un leader politique']",2,"Question: Les politiciens et les journalistes politiques sont des adversaires naturels; le caractère antagoniste de leur relation, cependant, est tempéré par le fait que
+
+Choix: ['Les jeunes politiciens qui sont plus à l'aise avec les médias remplacent progressivement les politiciens plus âgés.', 'Les règlements gouvernementaux sur l'interaction entre les deux groupes sont très stricts.', 'Chaque groupe est dépendant de l'autre pour effectuer son travail efficacement.', 'très peu de médias couvriront une histoire qui est embarrassante pour un leader politique']
+
+Réponse: Chaque groupe est dépendant de l'autre pour effectuer son travail efficacement."
+Le War Powers Act de 1974 et le Budget and Impoundment Control Act de 1974 représentent les efforts du Congrès pour limiter les pouvoirs du,high_school_government_and_politics,"['Chefs d'état-major interarmées', 'Le comité des moyens de la Chambre', 'Agence centrale de renseignement', 'président']",3,"Question: Le War Powers Act de 1974 et le Budget and Impoundment Control Act de 1974 représentent les efforts du Congrès pour limiter les pouvoirs du
+
+Choix: ['Chefs d'état-major interarmées', 'Le comité des moyens de la Chambre', 'Agence centrale de renseignement', 'président']
+
+Réponse: président"
+"En vertu des articles de la Confédération, le gouvernement national avait le pouvoir de",high_school_government_and_politics,"['négocier des traités', 'collecter les impôts', 'établir un pouvoir judiciaire fédéral', 'faire respecter ses lois']",0,"Question: En vertu des articles de la Confédération, le gouvernement national avait le pouvoir de
+
+Choix: ['négocier des traités', 'collecter les impôts', 'établir un pouvoir judiciaire fédéral', 'faire respecter ses lois']
+
+Réponse: négocier des traités"
+"Selon Brown c. Conseil de l'éducation (1954), lequel des amendements suivants a été violé par la doctrine ""séparés mais égaux"" qui avait été établie dans Plessy v Ferguson est né en 1896.",high_school_government_and_politics,"['Première modification', 'Sixième amendement', 'Le neuvième amendement', 'Quatorzième amendement']",3,"Question: Selon Brown c. Conseil de l'éducation (1954), lequel des amendements suivants a été violé par la doctrine ""séparés mais égaux"" qui avait été établie dans Plessy v Ferguson est né en 1896.
+
+Choix: ['Première modification', 'Sixième amendement', 'Le neuvième amendement', 'Quatorzième amendement']
+
+Réponse: Quatorzième amendement"
+Les auteurs de la Constitution ont cherché à isoler le Sénat de l' opinion publique par,high_school_government_and_politics,"['limitant l'adhésion au Sénat à ceux qui ont déjà servi à la Chambre des représentants', 'déléguant la responsabilité de l'élection des sénateurs aux législatures des États', 'exigeant que tous les projets de loi de dépenses proviennent de la Chambre des représentants', 'habilitant le Sénat à fournir des conseils et le consentement à la branche exécutive']",1,"Question: Les auteurs de la Constitution ont cherché à isoler le Sénat de l' opinion publique par
+
+Choix: ['limitant l'adhésion au Sénat à ceux qui ont déjà servi à la Chambre des représentants', 'déléguant la responsabilité de l'élection des sénateurs aux législatures des États', 'exigeant que tous les projets de loi de dépenses proviennent de la Chambre des représentants', 'habilitant le Sénat à fournir des conseils et le consentement à la branche exécutive']
+
+Réponse: déléguant la responsabilité de l'élection des sénateurs aux législatures des États"
+Toutes les déclarations suivantes sur le Congrès sont vraies SAUF:,high_school_government_and_politics,"['Seul le Congrès peut adopter des lois.', 'Un amendement proposé doit être approuvé par les deux tiers des délégués dans les deux chambres du Congrès.', 'Le Congrès peut annuler un veto présidentiel si les deux tiers de la Chambre et du Sénat sont d'accord pour le faire.', 'Le pouvoir du Congrès sur la bureaucratie est inférieur à celui du président.']",3,"Question: Toutes les déclarations suivantes sur le Congrès sont vraies SAUF:
+
+Choix: ['Seul le Congrès peut adopter des lois.', 'Un amendement proposé doit être approuvé par les deux tiers des délégués dans les deux chambres du Congrès.', 'Le Congrès peut annuler un veto présidentiel si les deux tiers de la Chambre et du Sénat sont d'accord pour le faire.', 'Le pouvoir du Congrès sur la bureaucratie est inférieur à celui du président.']
+
+Réponse: Le pouvoir du Congrès sur la bureaucratie est inférieur à celui du président."
+La majorité des juges de la Cour suprême,high_school_government_and_politics,"['sont nommés par les présidents d'un même parti politique', 'ne pas avoir d'expérience judiciaire antérieure', 'changement d'affiliation au cours de leur mandat', 'rester sur le terrain pour seulement une décennie']",0,"Question: La majorité des juges de la Cour suprême
+
+Choix: ['sont nommés par les présidents d'un même parti politique', 'ne pas avoir d'expérience judiciaire antérieure', 'changement d'affiliation au cours de leur mandat', 'rester sur le terrain pour seulement une décennie']
+
+Réponse: sont nommés par les présidents d'un même parti politique"
+Laquelle des affirmations suivantes décrit plus précisément l'impact de la loi sur les droits civils de 1964 sur la déségrégation scolaire dans le Sud ?,high_school_government_and_politics,"['Étant donné qu'il ne contenait aucune disposition d'application, le Civil Rights Act de 1964 n'avait aucun effet appréciable sur la déségrégation scolaire.', 'En renversant le principe 'séparés mais égaux', la loi sur les droits civils de 1964 a mis fin à la ségrégation dans les écoles publiques.', 'La loi sur les droits civils de 1964 a accéléré la déségrégation scolaire en coupant les fonds fédéraux aux systèmes scolaires discriminatoires.', 'La loi sur les droits civils de 1964 a envoyé des troupes fédérales dans toutes les écoles publiques ségréguées du Sud pour forcer la déségrégation scolaire.']",2,"Question: Laquelle des affirmations suivantes décrit plus précisément l'impact de la loi sur les droits civils de 1964 sur la déségrégation scolaire dans le Sud ?
+
+Choix: ['Étant donné qu'il ne contenait aucune disposition d'application, le Civil Rights Act de 1964 n'avait aucun effet appréciable sur la déségrégation scolaire.', 'En renversant le principe 'séparés mais égaux', la loi sur les droits civils de 1964 a mis fin à la ségrégation dans les écoles publiques.', 'La loi sur les droits civils de 1964 a accéléré la déségrégation scolaire en coupant les fonds fédéraux aux systèmes scolaires discriminatoires.', 'La loi sur les droits civils de 1964 a envoyé des troupes fédérales dans toutes les écoles publiques ségréguées du Sud pour forcer la déségrégation scolaire.']
+
+Réponse: La loi sur les droits civils de 1964 a accéléré la déségrégation scolaire en coupant les fonds fédéraux aux systèmes scolaires discriminatoires."
+Une victoire de pluralité présidentielle se produit lorsque,high_school_government_and_politics,"['le candidat gagnant reçoit moins de 50 pour cent du vote populaire', 'les candidats reçoivent un nombre égal de voix électorales et le vote populaire détermine le vainqueur', 'le Sénat déclare le vainqueur officiel', 'le candidat vainqueur reçoit plus de 50% des voix populaires']",0,"Question: Une victoire de pluralité présidentielle se produit lorsque
+
+Choix: ['le candidat gagnant reçoit moins de 50 pour cent du vote populaire', 'les candidats reçoivent un nombre égal de voix électorales et le vote populaire détermine le vainqueur', 'le Sénat déclare le vainqueur officiel', 'le candidat vainqueur reçoit plus de 50% des voix populaires']
+
+Réponse: le candidat gagnant reçoit moins de 50 pour cent du vote populaire"
+Laquelle des déclarations suivantes caractérise le mieux le fédéralisme coopératif ?,high_school_government_and_politics,"['Les pouvoirs exécutif et législatif travaillant ensemble sur la législation', 'Le gouvernement fédéral accordant des pouvoirs sur un domaine politique aux États', 'Les gouvernements collaborent avec les entreprises pour résoudre un problème', 'Les gouvernements des États et le gouvernement fédéral travaillent sur la même question']",3,"Question: Laquelle des déclarations suivantes caractérise le mieux le fédéralisme coopératif ?
+
+Choix: ['Les pouvoirs exécutif et législatif travaillant ensemble sur la législation', 'Le gouvernement fédéral accordant des pouvoirs sur un domaine politique aux États', 'Les gouvernements collaborent avec les entreprises pour résoudre un problème', 'Les gouvernements des États et le gouvernement fédéral travaillent sur la même question']
+
+Réponse: Les gouvernements des États et le gouvernement fédéral travaillent sur la même question"
+"Dans Gideon c. Wainwright, la Cour suprême a statué que les accusés criminels dans les affaires d'État ont le droit",high_school_government_and_politics,"['à la représentation par un avocat', 'de ne pas s'incriminer eux-mêmes', 'Pour un procès rapide', 'Ne pas être puni de façon excessive.']",0,"Question: Dans Gideon c. Wainwright, la Cour suprême a statué que les accusés criminels dans les affaires d'État ont le droit
+
+Choix: ['à la représentation par un avocat', 'de ne pas s'incriminer eux-mêmes', 'Pour un procès rapide', 'Ne pas être puni de façon excessive.']
+
+Réponse: à la représentation par un avocat"
+Lequel des postes suivants n'est pas un poste spécial occupé par un membre du Congrès ?,high_school_government_and_politics,"['Le président pro tempore', 'Président de la Chambre', 'Présidence de la Fondation de gestion du Congrès', 'Le fouet des minorités']",2,"Question: Lequel des postes suivants n'est pas un poste spécial occupé par un membre du Congrès ?
+
+Choix: ['Le président pro tempore', 'Président de la Chambre', 'Présidence de la Fondation de gestion du Congrès', 'Le fouet des minorités']
+
+Réponse: Présidence de la Fondation de gestion du Congrès"
+Toutes les affirmations suivantes concernant la probabilité qu'une personne vote sont vraies SAUF:,high_school_government_and_politics,"['Quand il y a un candidat en tête dans un État, les gens dans cet État sont moins susceptibles de voter.', 'Les cols blancs sont plus susceptibles de voter que les cols bleus, à l'exception des cols bleus qui appartiennent à des syndicats.', 'Les électeurs inscrits en tant qu'indépendants sont moins susceptibles de voter que ceux inscrits en tant que démocrates ou républicains.', 'Il n'y a pas de différence dans la probabilité de voter entre ceux qui ont un diplôme de premier cycle et ceux qui ont un diplôme de troisième cycle.']",3,"Question: Toutes les affirmations suivantes concernant la probabilité qu'une personne vote sont vraies SAUF:
+
+Choix: ['Quand il y a un candidat en tête dans un État, les gens dans cet État sont moins susceptibles de voter.', 'Les cols blancs sont plus susceptibles de voter que les cols bleus, à l'exception des cols bleus qui appartiennent à des syndicats.', 'Les électeurs inscrits en tant qu'indépendants sont moins susceptibles de voter que ceux inscrits en tant que démocrates ou républicains.', 'Il n'y a pas de différence dans la probabilité de voter entre ceux qui ont un diplôme de premier cycle et ceux qui ont un diplôme de troisième cycle.']
+
+Réponse: Il n'y a pas de différence dans la probabilité de voter entre ceux qui ont un diplôme de premier cycle et ceux qui ont un diplôme de troisième cycle."
+Laquelle des déclarations suivantes sur la Chambre des représentants est vraie?,high_school_government_and_politics,"['Tous les projets de loi de recettes doivent provenir du Sénat avant de passer à la Chambre.', 'La représentation à la Chambre est répartie également entre les États, tandis que la représentation au Sénat est répartie proportionnellement à la population.', 'Le président de la Chambre détient moins de pouvoir que le président pro tempore du Sénat.', 'La Chambre a une commission des voies et moyens, alors que le Sénat ne l'a pas.']",3,"Question: Laquelle des déclarations suivantes sur la Chambre des représentants est vraie?
+
+Choix: ['Tous les projets de loi de recettes doivent provenir du Sénat avant de passer à la Chambre.', 'La représentation à la Chambre est répartie également entre les États, tandis que la représentation au Sénat est répartie proportionnellement à la population.', 'Le président de la Chambre détient moins de pouvoir que le président pro tempore du Sénat.', 'La Chambre a une commission des voies et moyens, alors que le Sénat ne l'a pas.']
+
+Réponse: La Chambre a une commission des voies et moyens, alors que le Sénat ne l'a pas."
+Laquelle des affirmations suivantes décrit le mieux la doctrine de la Cour suprême sur l'incorporation?,high_school_government_and_politics,"['Bien que la Constitution autorise le gouvernement fédéral à réglementer le commerce international, les États peuvent instituer des boycotts de marchandises importées de pays qui utilisent le travail des enfants.', 'Alors que le Congrès crée des lois et que le pouvoir exécutif édicte et applique ces lois, seule la Cour suprême peut décider quelles lois et actions exécutives sont inconstitutionnelles.', 'Le cinquième amendement garantit qu' un individu ne peut pas être privé de la vie Je suis libre. ou de la propriété sans procédure régulière et cette protection fournit une justification juridique pour ceux qui ne veulent pas servir dans un jury.', 'La Déclaration des droits énonce certains droits afin de protéger les individus du gouvernement fédéral et le quatorzième amendement étend la plupart de ces droits pour protéger les individus des gouvernements des États aussi.']",3,"Question: Laquelle des affirmations suivantes décrit le mieux la doctrine de la Cour suprême sur l'incorporation?
+
+Choix: ['Bien que la Constitution autorise le gouvernement fédéral à réglementer le commerce international, les États peuvent instituer des boycotts de marchandises importées de pays qui utilisent le travail des enfants.', 'Alors que le Congrès crée des lois et que le pouvoir exécutif édicte et applique ces lois, seule la Cour suprême peut décider quelles lois et actions exécutives sont inconstitutionnelles.', 'Le cinquième amendement garantit qu' un individu ne peut pas être privé de la vie Je suis libre. ou de la propriété sans procédure régulière et cette protection fournit une justification juridique pour ceux qui ne veulent pas servir dans un jury.', 'La Déclaration des droits énonce certains droits afin de protéger les individus du gouvernement fédéral et le quatorzième amendement étend la plupart de ces droits pour protéger les individus des gouvernements des États aussi.']
+
+Réponse: La Déclaration des droits énonce certains droits afin de protéger les individus du gouvernement fédéral et le quatorzième amendement étend la plupart de ces droits pour protéger les individus des gouvernements des États aussi."
+Les personnes qui adhèrent à un parti politique autre que celui auquel appartiennent leurs parents le font le plus souvent en raison de,high_school_government_and_politics,"['pression des pairs', 'les questions économiques', 'croyances religieuses', 'pression exercée par leurs employeurs']",1,"Question: Les personnes qui adhèrent à un parti politique autre que celui auquel appartiennent leurs parents le font le plus souvent en raison de
+
+Choix: ['pression des pairs', 'les questions économiques', 'croyances religieuses', 'pression exercée par leurs employeurs']
+
+Réponse: les questions économiques"
+Le droit des citoyens américains de pétitionner le gouvernement pour une réparation des griefs est protégé en vertu de la,high_school_government_and_politics,"['Première modification', 'Deuxième amendement', 'Troisième modification', 'Huitième amendement']",0,"Question: Le droit des citoyens américains de pétitionner le gouvernement pour une réparation des griefs est protégé en vertu de la
+
+Choix: ['Première modification', 'Deuxième amendement', 'Troisième modification', 'Huitième amendement']
+
+Réponse: Première modification"
+"Dans la majorité des cas, les programmes fédéraux sont mis en œuvre par",high_school_government_and_politics,"['entreprises privées travaillant en tant que sous-traitants pour le gouvernement', 'les gouvernements des États et des collectivités locales, par l'intermédiaire d'un financement fédéral', 'Le Congrès, par l'intermédiaire des bureaux locaux de ses représentants élus', 'les tribunaux fédéraux, au moyen de poursuites pénales']",1,"Question: Dans la majorité des cas, les programmes fédéraux sont mis en œuvre par
+
+Choix: ['entreprises privées travaillant en tant que sous-traitants pour le gouvernement', 'les gouvernements des États et des collectivités locales, par l'intermédiaire d'un financement fédéral', 'Le Congrès, par l'intermédiaire des bureaux locaux de ses représentants élus', 'les tribunaux fédéraux, au moyen de poursuites pénales']
+
+Réponse: les gouvernements des États et des collectivités locales, par l'intermédiaire d'un financement fédéral"
+Combien de votes au Sénat un candidat présidentiel à la Cour suprême doit-il recevoir pour être confirmé ?,high_school_government_and_politics,"['Quarante pour cent', 'Cinquante et un pour cent.', 'Cinquante-cinq pour cent', 'Soixante pour cent .']",1,"Question: Combien de votes au Sénat un candidat présidentiel à la Cour suprême doit-il recevoir pour être confirmé ?
+
+Choix: ['Quarante pour cent', 'Cinquante et un pour cent.', 'Cinquante-cinq pour cent', 'Soixante pour cent .']
+
+Réponse: Cinquante et un pour cent."
+Les nominations aux postes suivants doivent être confirmées par le Sénat avant d'entrer en vigueur. Directeur de la Sécurité intérieure II Secrétaire au Trésor III Conseiller à la sécurité nationale IV États-Unis Ambassadeur auprès des Nations Unies,high_school_government_and_politics,"['II uniquement', 'I et III uniquement', 'II et IV uniquement', 'I, II et IV uniquement']",3,"Question: Les nominations aux postes suivants doivent être confirmées par le Sénat avant d'entrer en vigueur. Directeur de la Sécurité intérieure II Secrétaire au Trésor III Conseiller à la sécurité nationale IV États-Unis Ambassadeur auprès des Nations Unies
+
+Choix: ['II uniquement', 'I et III uniquement', 'II et IV uniquement', 'I, II et IV uniquement']
+
+Réponse: I, II et IV uniquement"
+Lequel des éléments suivants décrit le mieux une subvention collective?,high_school_government_and_politics,"['Dépenses versées à des particuliers pour financer des projets de recherche', 'Fonds avec peu de restrictions qui sont fournis aux gouvernements des États ou des collectivités locales à des fins générales', 'Répartition des fonds entre les États selon une formule déterminée', 'De l'argent qui ne peut être utilisé qu'à une fin précise']",1,"Question: Lequel des éléments suivants décrit le mieux une subvention collective?
+
+Choix: ['Dépenses versées à des particuliers pour financer des projets de recherche', 'Fonds avec peu de restrictions qui sont fournis aux gouvernements des États ou des collectivités locales à des fins générales', 'Répartition des fonds entre les États selon une formule déterminée', 'De l'argent qui ne peut être utilisé qu'à une fin précise']
+
+Réponse: Fonds avec peu de restrictions qui sont fournis aux gouvernements des États ou des collectivités locales à des fins générales"
+Un membre de la Chambre des représentants souhaitant influencer la politique fiscale essaierait probablement de siéger à laquelle des commissions suivantes?,high_school_government_and_politics,"['Le commerce', 'Les voies et les moyens', 'L'éducation et la main-d'œuvre', 'Ressources']",1,"Question: Un membre de la Chambre des représentants souhaitant influencer la politique fiscale essaierait probablement de siéger à laquelle des commissions suivantes?
+
+Choix: ['Le commerce', 'Les voies et les moyens', 'L'éducation et la main-d'œuvre', 'Ressources']
+
+Réponse: Les voies et les moyens"
+Lequel des éléments suivants est un exemple de décentralisation?,high_school_government_and_politics,"['Permettre aux États de décider comment atteindre les objectifs fédéraux en matière d'émissions de gaz à effet de serre', 'Une 'course vers le bas' dans laquelle les États s'affrontent pour avoir le moins de réglementations environnementales', 'Un État qui légalise la possession de marijuana en conflit avec la loi fédérale', 'Un État empêché de mettre en œuvre une norme d'efficacité énergétique plus stricte que celle fixée par le gouvernement fédéral']",0,"Question: Lequel des éléments suivants est un exemple de décentralisation?
+
+Choix: ['Permettre aux États de décider comment atteindre les objectifs fédéraux en matière d'émissions de gaz à effet de serre', 'Une 'course vers le bas' dans laquelle les États s'affrontent pour avoir le moins de réglementations environnementales', 'Un État qui légalise la possession de marijuana en conflit avec la loi fédérale', 'Un État empêché de mettre en œuvre une norme d'efficacité énergétique plus stricte que celle fixée par le gouvernement fédéral']
+
+Réponse: Permettre aux États de décider comment atteindre les objectifs fédéraux en matière d'émissions de gaz à effet de serre"
+Quelle commission de la Chambre des représentants détermine la procédure selon laquelle les projets de loi sont débattus et modifiés?,high_school_government_and_politics,"['Les voies et les moyens', 'Le pouvoir judiciaire', 'L'éthique', 'Règles']",3,"Question: Quelle commission de la Chambre des représentants détermine la procédure selon laquelle les projets de loi sont débattus et modifiés?
+
+Choix: ['Les voies et les moyens', 'Le pouvoir judiciaire', 'L'éthique', 'Règles']
+
+Réponse: Règles"
+Le gouvernement promeut un traitement préférentiel pour les membres de groupes qui ont souffert historiquement de discrimination par le biais de,high_school_government_and_politics,"['le nouveau fédéralisme', 'programmes d'action affirmative', 'Les prestations de la Sécurité sociale', 'billets d'acquéreur']",1,"Question: Le gouvernement promeut un traitement préférentiel pour les membres de groupes qui ont souffert historiquement de discrimination par le biais de
+
+Choix: ['le nouveau fédéralisme', 'programmes d'action affirmative', 'Les prestations de la Sécurité sociale', 'billets d'acquéreur']
+
+Réponse: programmes d'action affirmative"
+Les règles qui régissent le collège électoral rendent particulièrement important pour les candidats à la présidence,high_school_government_and_politics,"['gagner autant d'États que possible, indépendamment de la taille des états', 'Ils passent la plupart de leur temps à faire campagne dans le Sud.', 'la campagne la plus agressive parmi ceux qui seront choisis comme électeurs', 'concentrer leurs efforts de campagne sur les États du 'champ de bataille'']",3,"Question: Les règles qui régissent le collège électoral rendent particulièrement important pour les candidats à la présidence
+
+Choix: ['gagner autant d'États que possible, indépendamment de la taille des états', 'Ils passent la plupart de leur temps à faire campagne dans le Sud.', 'la campagne la plus agressive parmi ceux qui seront choisis comme électeurs', 'concentrer leurs efforts de campagne sur les États du 'champ de bataille'']
+
+Réponse: concentrer leurs efforts de campagne sur les États du ""champ de bataille"""
+Lequel des éléments suivants ne peut limiter l'influence des tribunaux fédéraux?,high_school_government_and_politics,"['Une modification constitutionnelle contraire à une décision de justice', 'La destitution d'un juge fédéral', 'Défaut d'un gouverneur d'appliquer une décision de justice', 'Une élection nationale qui rappelle un juge impopulaire']",3,"Question: Lequel des éléments suivants ne peut limiter l'influence des tribunaux fédéraux?
+
+Choix: ['Une modification constitutionnelle contraire à une décision de justice', 'La destitution d'un juge fédéral', 'Défaut d'un gouverneur d'appliquer une décision de justice', 'Une élection nationale qui rappelle un juge impopulaire']
+
+Réponse: Une élection nationale qui rappelle un juge impopulaire"
+Tout ce qui suit est constitutionnellement mandaté pouvoirs présidentiels EXCEPT le pouvoir de,high_school_government_and_politics,"['négocier des traités', 'Loi sur le droit de veto', 'accorder des remises de peine et des grâces', 'Je déclare la guerre .']",3,"Question: Tout ce qui suit est constitutionnellement mandaté pouvoirs présidentiels EXCEPT le pouvoir de
+
+Choix: ['négocier des traités', 'Loi sur le droit de veto', 'accorder des remises de peine et des grâces', 'Je déclare la guerre .']
+
+Réponse: Je déclare la guerre ."
+"La Constitution, telle qu'elle a été ratifiée à l'origine, a corrigé toutes les faiblesses suivantes des articles de la Confédération, à l'exception des points suivants:",high_school_government_and_politics,"['l'absence d'un chef de l'exécutif', 'l'incapacité du gouvernement national à percevoir efficacement les impôts', 'absence d'une autorité centrale chargée de réglementer le commerce interétatique', 'omission d'une clause de suffrage universel']",3,"Question: La Constitution, telle qu'elle a été ratifiée à l'origine, a corrigé toutes les faiblesses suivantes des articles de la Confédération, à l'exception des points suivants:
+
+Choix: ['l'absence d'un chef de l'exécutif', 'l'incapacité du gouvernement national à percevoir efficacement les impôts', 'absence d'une autorité centrale chargée de réglementer le commerce interétatique', 'omission d'une clause de suffrage universel']
+
+Réponse: omission d'une clause de suffrage universel"
+"Parmi les contrôles du pouvoir exécutif sur le pouvoir législatif, il y a le pouvoir du président de",high_school_government_and_politics,"['convoquer des sessions spéciales du Congrès', 'introduire des projets de loi à l'étage du Congrès', 's'adresser au Congrès lors de son débat sur les projets de loi', 'vote sur les actes du Congrès']",0,"Question: Parmi les contrôles du pouvoir exécutif sur le pouvoir législatif, il y a le pouvoir du président de
+
+Choix: ['convoquer des sessions spéciales du Congrès', 'introduire des projets de loi à l'étage du Congrès', 's'adresser au Congrès lors de son débat sur les projets de loi', 'vote sur les actes du Congrès']
+
+Réponse: convoquer des sessions spéciales du Congrès"
+Lequel des éléments suivants décrit avec précision les droits individuels?,high_school_government_and_politics,"['Le Congrès fournit des fonds aux États, et les États décident de la meilleure façon de dépenser l'argent.', 'Le Congrès n'est autorisé à financer ces programmes que lorsque le gouvernement fédéral a un excédent budgétaire.', 'Le Congrès doit payer des prestations à quiconque est admissible à les recevoir.', 'Le Congrès accorde de l'argent aux États, à condition que certains critères soient remplis.']",2,"Question: Lequel des éléments suivants décrit avec précision les droits individuels?
+
+Choix: ['Le Congrès fournit des fonds aux États, et les États décident de la meilleure façon de dépenser l'argent.', 'Le Congrès n'est autorisé à financer ces programmes que lorsque le gouvernement fédéral a un excédent budgétaire.', 'Le Congrès doit payer des prestations à quiconque est admissible à les recevoir.', 'Le Congrès accorde de l'argent aux États, à condition que certains critères soient remplis.']
+
+Réponse: Le Congrès doit payer des prestations à quiconque est admissible à les recevoir."
+Laquelle des affirmations suivantes est vraie pour la plupart des tiers dans l'histoire des États-Unis ?,high_school_government_and_politics,"['Ils ont vu le jour et ont réussi à l'époque de la prospérité.', 'Ils ont été créés pour protester contre les guerres.', 'À un moment donné, ils ont remporté la majorité des sièges au Congrès.', 'Ils ont prospéré pendant des périodes d'insatisfaction généralisée.']",3,"Question: Laquelle des affirmations suivantes est vraie pour la plupart des tiers dans l'histoire des États-Unis ?
+
+Choix: ['Ils ont vu le jour et ont réussi à l'époque de la prospérité.', 'Ils ont été créés pour protester contre les guerres.', 'À un moment donné, ils ont remporté la majorité des sièges au Congrès.', 'Ils ont prospéré pendant des périodes d'insatisfaction généralisée.']
+
+Réponse: Ils ont prospéré pendant des périodes d'insatisfaction généralisée."
+"Les principes de la liberté - nous tenons ces vérités pour évidentes que tous les hommes sont créés égaux"" énoncé dans la Déclaration d'Indépendance ont été influencés par les croyances de philosophe politique",high_school_government_and_politics,"['Thomas Hobbes est un écrivain américain.', 'Il s'agit de Niccolò Macchiavelli .', 'Nom de l'auteur:', 'John Locke est un écrivain américain.']",3,"Question: Les principes de la liberté - nous tenons ces vérités pour évidentes que tous les hommes sont créés égaux"" énoncé dans la Déclaration d'Indépendance ont été influencés par les croyances de philosophe politique
+
+Choix: ['Thomas Hobbes est un écrivain américain.', 'Il s'agit de Niccolò Macchiavelli .', 'Nom de l'auteur:', 'John Locke est un écrivain américain.']
+
+Réponse: John Locke est un écrivain américain."
+Un gouvernement divisé se traduit fréquemment par,high_school_government_and_politics,"['redistribution des circonscriptions électorales', 'modifications apportées à la Constitution', 'conflit entre les États et le gouvernement fédéral', 'retards dans la confirmation des personnes désignées comme ambassadeurs']",3,"Question: Un gouvernement divisé se traduit fréquemment par
+
+Choix: ['redistribution des circonscriptions électorales', 'modifications apportées à la Constitution', 'conflit entre les États et le gouvernement fédéral', 'retards dans la confirmation des personnes désignées comme ambassadeurs']
+
+Réponse: retards dans la confirmation des personnes désignées comme ambassadeurs"
+Laquelle des affirmations suivantes s'applique au pouvoir de surveillance du Congrès ?,high_school_government_and_politics,"['Les activités de surveillance du Congrès se déroulent le plus souvent au niveau des comités et sous-comités.', 'Les contestations des États à la surveillance du Congrès ont gravement affaibli les pouvoirs de surveillance du Congrès.', 'La surveillance du Congrès est principalement dirigée vers le pouvoir judiciaire.', 'Les contributions des électeurs n'influencent pas la surveillance du Congrès.']",0,"Question: Laquelle des affirmations suivantes s'applique au pouvoir de surveillance du Congrès ?
+
+Choix: ['Les activités de surveillance du Congrès se déroulent le plus souvent au niveau des comités et sous-comités.', 'Les contestations des États à la surveillance du Congrès ont gravement affaibli les pouvoirs de surveillance du Congrès.', 'La surveillance du Congrès est principalement dirigée vers le pouvoir judiciaire.', 'Les contributions des électeurs n'influencent pas la surveillance du Congrès.']
+
+Réponse: Les activités de surveillance du Congrès se déroulent le plus souvent au niveau des comités et sous-comités."
+Laquelle des déclarations suivantes est la plus exacte sur les mandats de certiorari?,high_school_government_and_politics,"['Moins de 5% des requêtes en ordonnance certiorari sont accordées par la Cour suprême.', 'La Cour suprême n'accorde des ordonnances de certiorari que lorsqu'il y a une 'division de circuit'.', 'La décision du tribunal inférieur est annulée si la Cour suprême refuse un bref de certiorari.', 'Seul le solliciteur général peut demander un bref de certiorari.']",0,"Question: Laquelle des déclarations suivantes est la plus exacte sur les mandats de certiorari?
+
+Choix: ['Moins de 5% des requêtes en ordonnance certiorari sont accordées par la Cour suprême.', 'La Cour suprême n'accorde des ordonnances de certiorari que lorsqu'il y a une 'division de circuit'.', 'La décision du tribunal inférieur est annulée si la Cour suprême refuse un bref de certiorari.', 'Seul le solliciteur général peut demander un bref de certiorari.']
+
+Réponse: Moins de 5% des requêtes en ordonnance certiorari sont accordées par la Cour suprême."
+"Les lois électorales fédérales exigent que, dans",high_school_government_and_politics,"['dans une région qui compte une importante communauté de non-anglophones, les électeurs disposent de bulletins de vote dans leur langue maternelle', 'dans une circonscription électorale où la participation électorale est historiquement faible, les bureaux de vote restent ouverts plus longtemps que la journée de travail habituelle;', 'un État avec un déficit budgétaire, une taxe sera perçue de chaque électeur pour payer le coût de l'élection', 'une région avec une diversité raciale, les limites des districts du Congrès doivent être tracées pour garantir qu'au moins un membre du Congrès élu soit d'une minorité raciale']",0,"Question: Les lois électorales fédérales exigent que, dans
+
+Choix: ['dans une région qui compte une importante communauté de non-anglophones, les électeurs disposent de bulletins de vote dans leur langue maternelle', 'dans une circonscription électorale où la participation électorale est historiquement faible, les bureaux de vote restent ouverts plus longtemps que la journée de travail habituelle;', 'un État avec un déficit budgétaire, une taxe sera perçue de chaque électeur pour payer le coût de l'élection', 'une région avec une diversité raciale, les limites des districts du Congrès doivent être tracées pour garantir qu'au moins un membre du Congrès élu soit d'une minorité raciale']
+
+Réponse: dans une région qui compte une importante communauté de non-anglophones, les électeurs disposent de bulletins de vote dans leur langue maternelle"
+L'absence d'un parti politique uniquement dédié aux questions du travail et de la classe ouvrière aux États-Unis,high_school_government_and_politics,"['prouve que les politiciens américains ne se soucient pas de servir les électeurs de la classe ouvrière', 'est le résultat des restrictions gouvernementales imposées aux activités politiques des syndicats', 'reflète la difficulté d'unifier un parti autour d'une seule question dans un format 'le gagnant prend tout'', 'démontre que, aux États-Unis, la plupart des questions politiques concernant les travailleurs ont été décidées en faveur des travailleurs']",2,"Question: L'absence d'un parti politique uniquement dédié aux questions du travail et de la classe ouvrière aux États-Unis
+
+Choix: ['prouve que les politiciens américains ne se soucient pas de servir les électeurs de la classe ouvrière', 'est le résultat des restrictions gouvernementales imposées aux activités politiques des syndicats', 'reflète la difficulté d'unifier un parti autour d'une seule question dans un format 'le gagnant prend tout'', 'démontre que, aux États-Unis, la plupart des questions politiques concernant les travailleurs ont été décidées en faveur des travailleurs']
+
+Réponse: reflète la difficulté d'unifier un parti autour d'une seule question dans un format ""le gagnant prend tout"""
+La loi sur les droits civils de 1964 a été adoptée pour renforcer,high_school_government_and_politics,"['veto présidentiel', 'Système de contrôle et d'équilibre', 'Pouvoir des États de contester la réglementation fédérale', 'Quatorzième amendement']",3,"Question: La loi sur les droits civils de 1964 a été adoptée pour renforcer
+
+Choix: ['veto présidentiel', 'Système de contrôle et d'équilibre', 'Pouvoir des États de contester la réglementation fédérale', 'Quatorzième amendement']
+
+Réponse: Quatorzième amendement"
+"Lequel des éléments suivants ne fait PAS partie des ""triangles de fer"" qui influencent l'élaboration des politiques publiques?",high_school_government_and_politics,"['Les commissions de la Chambre', 'Les commissions du Sénat', 'Les tribunaux', 'Les agences bureaucratiques']",2,"Question: Lequel des éléments suivants ne fait PAS partie des ""triangles de fer"" qui influencent l'élaboration des politiques publiques?
+
+Choix: ['Les commissions de la Chambre', 'Les commissions du Sénat', 'Les tribunaux', 'Les agences bureaucratiques']
+
+Réponse: Les tribunaux"
+Le procureur général est le chef de laquelle des entités suivantes?,high_school_government_and_politics,"['La commission judiciaire du Sénat', 'Le ministère de la Justice', 'Le Département d'État', 'Le corps du juge-avocat général']",1,"Question: Le procureur général est le chef de laquelle des entités suivantes?
+
+Choix: ['La commission judiciaire du Sénat', 'Le ministère de la Justice', 'Le Département d'État', 'Le corps du juge-avocat général']
+
+Réponse: Le ministère de la Justice"
+La décision de la Cour suprême dans l'affaire Miranda c.,high_school_government_and_politics,"['Interdiction constitutionnelle des lois ex post facto', 'incorporation du cinquième amendement par la clause de procédure régulière du quatorzième amendement', 'Restriction du huitième amendement contre les peines cruelles et inhabituelles', 'l'abolition de l'esclavage par le treizième amendement']",1,"Question: La décision de la Cour suprême dans l'affaire Miranda c.
+
+Choix: ['Interdiction constitutionnelle des lois ex post facto', 'incorporation du cinquième amendement par la clause de procédure régulière du quatorzième amendement', 'Restriction du huitième amendement contre les peines cruelles et inhabituelles', 'l'abolition de l'esclavage par le treizième amendement']
+
+Réponse: incorporation du cinquième amendement par la clause de procédure régulière du quatorzième amendement"

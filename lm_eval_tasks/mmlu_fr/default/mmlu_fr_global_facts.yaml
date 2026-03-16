@@ -1,0 +1,13 @@
+include: _default_template_yaml
+task: mmlu_fr_global_facts
+task_alias: global_facts
+
+description: "Les questions suivantes sont des questions à choix multiples (avec réponses) sur le sujet faits mondiaux.\n\n"
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_French/mmlu_fr_by_subject/global_facts.csv
+
+test_split: test
+
+

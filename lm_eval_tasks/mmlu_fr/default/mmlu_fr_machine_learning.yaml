@@ -1,0 +1,13 @@
+include: _default_template_yaml
+task: mmlu_fr_machine_learning
+task_alias: machine_learning
+
+description: "Les questions suivantes sont des questions à choix multiples (avec réponses) sur le sujet apprentissage automatique.\n\n"
+
+dataset_kwargs:
+  data_files:
+    test: ../custom_datasets/MMLU_French/mmlu_fr_by_subject/machine_learning.csv
+
+test_split: test
+
+

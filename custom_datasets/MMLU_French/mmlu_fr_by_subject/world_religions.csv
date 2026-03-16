@@ -1,0 +1,856 @@
+question,subject,choices,answer,qa
+"Comment peut-on traduire ""murtis"" ?",world_religions,"['Les offrandes', 'Les prières', 'Les apparitions', 'Les idoles']",3,"Question: Comment peut-on traduire ""murtis"" ?
+
+Choix: ['Les offrandes', 'Les prières', 'Les apparitions', 'Les idoles']
+
+Réponse: Les idoles"
+Les naturalistes qui se sont concentrés sur les éléments et les processus naturels sont associés à lequel des éléments suivants?,world_religions,"['Taoïsme', 'École du Yin et du Yang', 'Nom de famille', 'Bouddhisme humaniste']",1,"Question: Les naturalistes qui se sont concentrés sur les éléments et les processus naturels sont associés à lequel des éléments suivants?
+
+Choix: ['Taoïsme', 'École du Yin et du Yang', 'Nom de famille', 'Bouddhisme humaniste']
+
+Réponse: École du Yin et du Yang"
+Quand le premier temple bouddhiste a- t- il été construit au Japon?,world_religions,"['325 de notre ère', '119 de notre ère', '451 de notre ère', '596 de notre ère']",3,"Question: Quand le premier temple bouddhiste a- t- il été construit au Japon?
+
+Choix: ['325 de notre ère', '119 de notre ère', '451 de notre ère', '596 de notre ère']
+
+Réponse: 596 de notre ère"
+Comment s'appelait la fête du Nouvel An qui durait dix jours et qui célébrait la culture babylonienne?,world_religions,"['Nom de famille Akitu', 'Wag et Thoth', 'Nom de famille', 'Nom de famille']",0,"Question: Comment s'appelait la fête du Nouvel An qui durait dix jours et qui célébrait la culture babylonienne?
+
+Choix: ['Nom de famille Akitu', 'Wag et Thoth', 'Nom de famille', 'Nom de famille']
+
+Réponse: Nom de famille Akitu"
+Lequel des termes suivants désigne l'art japonais de l'arrangement des fleurs?,world_religions,"['Le Zazen', 'Je vous en prie .', 'Je vous en prie .', 'À l' ikebana']",3,"Question: Lequel des termes suivants désigne l'art japonais de l'arrangement des fleurs?
+
+Choix: ['Le Zazen', 'Je vous en prie .', 'Je vous en prie .', 'À l' ikebana']
+
+Réponse: À l' ikebana"
+Le gourou Nanak et ses successeurs ont demandé l'utilisation de certains ragas sikhs afin de promouvoir lequel des suivants?,world_religions,"['L'harmonie et l'équilibre', 'La dévotion et la piété', 'Amour et passion', 'La bonne volonté et l'amour']",0,"Question: Le gourou Nanak et ses successeurs ont demandé l'utilisation de certains ragas sikhs afin de promouvoir lequel des suivants?
+
+Choix: ['L'harmonie et l'équilibre', 'La dévotion et la piété', 'Amour et passion', 'La bonne volonté et l'amour']
+
+Réponse: L'harmonie et l'équilibre"
+"Quel terme le gourou Nanak a- t- il utilisé pour désigner la ""parole divine"" comme faisant partie de la révélation divine?",world_religions,"['Le Shabad', 'Le Khalse', 'Nom', 'Le gourou .']",0,"Question: Quel terme le gourou Nanak a- t- il utilisé pour désigner la ""parole divine"" comme faisant partie de la révélation divine?
+
+Choix: ['Le Shabad', 'Le Khalse', 'Nom', 'Le gourou .']
+
+Réponse: Le Shabad"
+C'est quoi le mi'raj ?,world_religions,"['L'ascension miraculeuse de Mahomet au ciel', 'La migration de Mahomet à la Mecque', 'La première communauté de Mahomet à La Mecque', 'Les révélations du Coran par Mahomet']",0,"Question: C'est quoi le mi'raj ?
+
+Choix: ['L'ascension miraculeuse de Mahomet au ciel', 'La migration de Mahomet à la Mecque', 'La première communauté de Mahomet à La Mecque', 'Les révélations du Coran par Mahomet']
+
+Réponse: L'ascension miraculeuse de Mahomet au ciel"
+"Quel est le nom du dharmashastra le plus célèbre, qui date probablement d'environ le premier siècle?",world_religions,"['Les lois du Dharma', 'Les lois du Karma', 'Les lois de Vishnu', 'Les lois de Manu']",3,"Question: Quel est le nom du dharmashastra le plus célèbre, qui date probablement d'environ le premier siècle?
+
+Choix: ['Les lois du Dharma', 'Les lois du Karma', 'Les lois de Vishnu', 'Les lois de Manu']
+
+Réponse: Les lois de Manu"
+"Que signifie littéralement le terme "" Coran "" ?",world_religions,"['Le livre sacré', 'Le récit', 'La récitation', 'Les piliers']",2,"Question: Que signifie littéralement le terme "" Coran "" ?
+
+Choix: ['Le livre sacré', 'Le récit', 'La récitation', 'Les piliers']
+
+Réponse: La récitation"
+Par lequel des noms suivants Mani a- t- il appelé Dieu?,world_religions,"['Mère de la Lumière', 'Père de la bonté', 'Un amoureux inexprimable', 'Esprit éternel']",1,"Question: Par lequel des noms suivants Mani a- t- il appelé Dieu?
+
+Choix: ['Mère de la Lumière', 'Père de la bonté', 'Un amoureux inexprimable', 'Esprit éternel']
+
+Réponse: Père de la bonté"
+"Quelle tradition est connue pour promouvoir ""l'illumination progressive""?",world_religions,"['Le bushido', 'Le shintoïsme', 'Nom de famille', 'Le Soto Zen']",3,"Question: Quelle tradition est connue pour promouvoir ""l'illumination progressive""?
+
+Choix: ['Le bushido', 'Le shintoïsme', 'Nom de famille', 'Le Soto Zen']
+
+Réponse: Le Soto Zen"
+Quel est le repas commun offert dans le lieu de culte appelé dans le sikhisme?,world_religions,"['Très bien .', 'Nom de famille', 'Le Gurdwara', 'Panthée']",1,"Question: Quel est le repas commun offert dans le lieu de culte appelé dans le sikhisme?
+
+Choix: ['Très bien .', 'Nom de famille', 'Le Gurdwara', 'Panthée']
+
+Réponse: Nom de famille"
+À quelle tradition appartient le groupe rebelle anti-Han connu sous le nom de Maîtres Célestes ?,world_religions,"['Le bouddhisme', 'Taoïsme', 'Le confucianisme', 'Le chamanisme']",1,"Question: À quelle tradition appartient le groupe rebelle anti-Han connu sous le nom de Maîtres Célestes ?
+
+Choix: ['Le bouddhisme', 'Taoïsme', 'Le confucianisme', 'Le chamanisme']
+
+Réponse: Taoïsme"
+"Que signifie le mot ""Islam"" en arabe ?",world_religions,"['Le culte', 'Présentation du projet', 'L'obéissance', 'La foi']",1,"Question: Que signifie le mot ""Islam"" en arabe ?
+
+Choix: ['Le culte', 'Présentation du projet', 'L'obéissance', 'La foi']
+
+Réponse: Présentation du projet"
+Que signifie le terme anatman ?,world_religions,"['La souffrance', 'Une âme .', 'L'impermanence', 'Le non-soi']",3,"Question: Que signifie le terme anatman ?
+
+Choix: ['La souffrance', 'Une âme .', 'L'impermanence', 'Le non-soi']
+
+Réponse: Le non-soi"
+Quel genre de littérature sikh est désigné par le terme janam-sakhis?,world_religions,"['Des récits spirituels', 'Les récits de la rédemption', 'Narratives de naissance', 'Les récits théologiques']",2,"Question: Quel genre de littérature sikh est désigné par le terme janam-sakhis?
+
+Choix: ['Des récits spirituels', 'Les récits de la rédemption', 'Narratives de naissance', 'Les récits théologiques']
+
+Réponse: Narratives de naissance"
+Le bouddhisme de la Terre Pure appartient à quelle école ?,world_religions,"['Le Vajrayana', 'Le theravada', 'Le Mahayana', 'Nom Mahavira']",2,"Question: Le bouddhisme de la Terre Pure appartient à quelle école ?
+
+Choix: ['Le Vajrayana', 'Le theravada', 'Le Mahayana', 'Nom Mahavira']
+
+Réponse: Le Mahayana"
+Quel groupe Jaina permet seulement aux femmes de mener une vie de semi-renonciation ?,world_religions,"['Autres espèces d'oiseaux', 'Nom de famille', 'Nom de famille', 'Dégombres']",3,"Question: Quel groupe Jaina permet seulement aux femmes de mener une vie de semi-renonciation ?
+
+Choix: ['Autres espèces d'oiseaux', 'Nom de famille', 'Nom de famille', 'Dégombres']
+
+Réponse: Dégombres"
+Quelle est la prière la plus importante du judaïsme?,world_religions,"['Le Shema', 'Les Sefirot', 'Le Deutéronome', 'Le Décalogue']",0,"Question: Quelle est la prière la plus importante du judaïsme?
+
+Choix: ['Le Shema', 'Les Sefirot', 'Le Deutéronome', 'Le Décalogue']
+
+Réponse: Le Shema"
+L'alliance socio-politique entre les kshatriyas et les shramanas était enracinée dans leur opposition commune à laquelle des suivantes?,world_religions,"['L'orthodoxie brahmanique', 'Ascèse légaliste', 'La dévotion de Bhakti', 'Pratiques peu orthodoxes']",0,"Question: L'alliance socio-politique entre les kshatriyas et les shramanas était enracinée dans leur opposition commune à laquelle des suivantes?
+
+Choix: ['L'orthodoxie brahmanique', 'Ascèse légaliste', 'La dévotion de Bhakti', 'Pratiques peu orthodoxes']
+
+Réponse: L'orthodoxie brahmanique"
+Quelle première bataille a conduit à la conversion de La Mecque ?,world_religions,"['La bataille d'Oud', 'La bataille de Camel', 'La bataille de la tranchée', 'La bataille de Badr']",2,"Question: Quelle première bataille a conduit à la conversion de La Mecque ?
+
+Choix: ['La bataille d'Oud', 'La bataille de Camel', 'La bataille de la tranchée', 'La bataille de Badr']
+
+Réponse: La bataille de la tranchée"
+Quelle discipline intérieure doit être adoptée pour atteindre la libération spirituelle dans le sikhisme?,world_religions,"['Souvenons- nous du nom divin', 'En méditant sur les hymnes sacrés', 'Rappelez-vous que la mort est inévitable', 'Méditer sur la bonté du monde créé']",0,"Question: Quelle discipline intérieure doit être adoptée pour atteindre la libération spirituelle dans le sikhisme?
+
+Choix: ['Souvenons- nous du nom divin', 'En méditant sur les hymnes sacrés', 'Rappelez-vous que la mort est inévitable', 'Méditer sur la bonté du monde créé']
+
+Réponse: Souvenons- nous du nom divin"
+"Pendant l'occupation japonaise de la Corée (1910-1945), laquelle des conditions suivantes a été imposée aux Coréens?",world_religions,"['Le confucianisme', 'Le bouddhisme', 'Le christianisme', 'Taoïsme']",0,"Question: Pendant l'occupation japonaise de la Corée (1910-1945), laquelle des conditions suivantes a été imposée aux Coréens?
+
+Choix: ['Le confucianisme', 'Le bouddhisme', 'Le christianisme', 'Taoïsme']
+
+Réponse: Le confucianisme"
+"Quel est le sens du mot "" sikh "" en pendjabi?",world_religions,"['Le disciple .', 'Fidèle', 'Un dévot .', 'Éclairée']",0,"Question: Quel est le sens du mot "" sikh "" en pendjabi?
+
+Choix: ['Le disciple .', 'Fidèle', 'Un dévot .', 'Éclairée']
+
+Réponse: Le disciple ."
+Laquelle des personnes suivantes évite la politique ?,world_religions,"['Les sages du Zhuangzi', 'Les chants du Sud', 'Le duc de Zhou', 'Les ' rois sages ' confucéens']",0,"Question: Laquelle des personnes suivantes évite la politique ?
+
+Choix: ['Les sages du Zhuangzi', 'Les chants du Sud', 'Le duc de Zhou', 'Les ' rois sages ' confucéens']
+
+Réponse: Les sages du Zhuangzi"
+Que signifie le mot hébreu mashiach?,world_religions,"['Un oint', 'Mon Dieu !', 'Prophète', 'La lignée de David']",0,"Question: Que signifie le mot hébreu mashiach?
+
+Choix: ['Un oint', 'Mon Dieu !', 'Prophète', 'La lignée de David']
+
+Réponse: Un oint"
+"Selon les traditions jaïnes, que signifie le terme ajiva?",world_religions,"['Une âme .', 'Le son', 'Non-matière', 'Il n' y a pas d' âme .']",3,"Question: Selon les traditions jaïnes, que signifie le terme ajiva?
+
+Choix: ['Une âme .', 'Le son', 'Non-matière', 'Il n' y a pas d' âme .']
+
+Réponse: Il n' y a pas d' âme ."
+"Dans la tradition zen japonaise, qu'est-ce que le zazen ?",world_religions,"['Une collection de statues', 'La vénération des ancêtres', 'Méditation en position assise', 'Les rituels funéraires']",2,"Question: Dans la tradition zen japonaise, qu'est-ce que le zazen ?
+
+Choix: ['Une collection de statues', 'La vénération des ancêtres', 'Méditation en position assise', 'Les rituels funéraires']
+
+Réponse: Méditation en position assise"
+Quelle est une composante centrale du bouddhisme tantrique ?,world_religions,"['Ascèse', 'Le plaisir corporel', 'La musique', 'Union sexuelle']",3,"Question: Quelle est une composante centrale du bouddhisme tantrique ?
+
+Choix: ['Ascèse', 'Le plaisir corporel', 'La musique', 'Union sexuelle']
+
+Réponse: Union sexuelle"
+"Comment le compositeur égyptien Ludul Bel Nemequi ("" Je louerai le Seigneur de la sagesse "") dépeint- il Marduk?",world_religions,"['Aimer et pardonner', 'Furieux et miséricordieux', 'Jugeur et vengeur', 'Transcendant et immanent']",1,"Question: Comment le compositeur égyptien Ludul Bel Nemequi ("" Je louerai le Seigneur de la sagesse "") dépeint- il Marduk?
+
+Choix: ['Aimer et pardonner', 'Furieux et miséricordieux', 'Jugeur et vengeur', 'Transcendant et immanent']
+
+Réponse: Furieux et miséricordieux"
+"Après la révolte de Bar Kochba, où se trouvaient les deux principaux centres de développement juif ?",world_religions,"['La Palestine et la Babylonie', 'Babylone et l'Europe', 'La Palestine et l'Espagne', 'Espagne et France']",0,"Question: Après la révolte de Bar Kochba, où se trouvaient les deux principaux centres de développement juif ?
+
+Choix: ['La Palestine et la Babylonie', 'Babylone et l'Europe', 'La Palestine et l'Espagne', 'Espagne et France']
+
+Réponse: La Palestine et la Babylonie"
+"Outre le jaïnisme, quelle autre tradition a commencé comme un mouvement de renoncement au monde?",world_religions,"['Le bouddhisme', 'L'hindouisme', 'Le judaïsme', 'Nom et prénom']",0,"Question: Outre le jaïnisme, quelle autre tradition a commencé comme un mouvement de renoncement au monde?
+
+Choix: ['Le bouddhisme', 'L'hindouisme', 'Le judaïsme', 'Nom et prénom']
+
+Réponse: Le bouddhisme"
+"Selon la tradition hindoue, dans quel âge sommes-nous actuellement ?",world_religions,"['Le Kali-yuga', 'Le Maha Yuga', 'Le Yuga de Krita', 'Le Satya Yuga']",0,"Question: Selon la tradition hindoue, dans quel âge sommes-nous actuellement ?
+
+Choix: ['Le Kali-yuga', 'Le Maha Yuga', 'Le Yuga de Krita', 'Le Satya Yuga']
+
+Réponse: Le Kali-yuga"
+"Dans la tradition zoroastrienne, le terme Gathas désigne lequel des éléments suivants ?",world_religions,"['Les hymnes', 'Les lois', 'L'éthique', 'Les mythes']",0,"Question: Dans la tradition zoroastrienne, le terme Gathas désigne lequel des éléments suivants ?
+
+Choix: ['Les hymnes', 'Les lois', 'L'éthique', 'Les mythes']
+
+Réponse: Les hymnes"
+Quelle forme de bouddhisme enseignait que le seul espoir de salut était dans la grâce salvatrice d'Amida ?,world_religions,"['Une terre pure', 'Le Tendai', 'Nom de famille Shingon', 'Le Soto Zen']",0,"Question: Quelle forme de bouddhisme enseignait que le seul espoir de salut était dans la grâce salvatrice d'Amida ?
+
+Choix: ['Une terre pure', 'Le Tendai', 'Nom de famille Shingon', 'Le Soto Zen']
+
+Réponse: Une terre pure"
+"Selon la tradition hindoue, qui est considérée comme la femme idéale?",world_religions,"['Je suis Sita.', 'Je ne sais pas.', 'Nom de l'espèce:', 'Je suis Durga.']",0,"Question: Selon la tradition hindoue, qui est considérée comme la femme idéale?
+
+Choix: ['Je suis Sita.', 'Je ne sais pas.', 'Nom de l'espèce:', 'Je suis Durga.']
+
+Réponse: Je suis Sita."
+Qui est la femme mystique qui a donné l'exemple de l'amour dévorant du divin ?,world_religions,"['C' est Rumi .', 'Le Rabi'a', 'Je suis Fatima.', 'Nom de famille:']",1,"Question: Qui est la femme mystique qui a donné l'exemple de l'amour dévorant du divin ?
+
+Choix: ['C' est Rumi .', 'Le Rabi'a', 'Je suis Fatima.', 'Nom de famille:']
+
+Réponse: Le Rabi'a"
+Qui est la poétesse du VIIIe siècle de notre ère adorée dans de nombreux temples du sud de l'Inde dédiés à Vishnu?,world_religions,"['Nom et prénom (s)', 'La déesse .', 'Le Gange', 'Nom de l'espèce:']",0,"Question: Qui est la poétesse du VIIIe siècle de notre ère adorée dans de nombreux temples du sud de l'Inde dédiés à Vishnu?
+
+Choix: ['Nom et prénom (s)', 'La déesse .', 'Le Gange', 'Nom de l'espèce:']
+
+Réponse: Nom et prénom (s)"
+Qui est associé aux stigmates et à la prédication aux oiseaux ?,world_religions,"['Paul de Tarse', 'Clare d'Assise', 'François d'Assise est le père de l'Église catholique.', 'Jean de la Croix']",2,"Question: Qui est associé aux stigmates et à la prédication aux oiseaux ?
+
+Choix: ['Paul de Tarse', 'Clare d'Assise', 'François d'Assise est le père de l'Église catholique.', 'Jean de la Croix']
+
+Réponse: François d'Assise est le père de l'Église catholique."
+"Dans son dernier ouvrage, Les Lois, Platon est passé de la cosmologie à laquelle des questions suivantes ?",world_religions,"['Épistémologie', 'La moralité', 'La religion', 'L'esthétique']",1,"Question: Dans son dernier ouvrage, Les Lois, Platon est passé de la cosmologie à laquelle des questions suivantes ?
+
+Choix: ['Épistémologie', 'La moralité', 'La religion', 'L'esthétique']
+
+Réponse: La moralité"
+Quelle dénomination chrétienne prône un christianisme dépouillé?,world_religions,"['Église orthodoxe grecque', 'Catholique romaine', 'Les puritains', 'Les quakers']",3,"Question: Quelle dénomination chrétienne prône un christianisme dépouillé?
+
+Choix: ['Église orthodoxe grecque', 'Catholique romaine', 'Les puritains', 'Les quakers']
+
+Réponse: Les quakers"
+Rome prétendait que son évêque (le pape) était le successeur direct de quel chef?,world_religions,"['Je suis Peter.', 'Je suis Paul.', 'Jésus !', 'Il s'appelle Matthew.']",0,"Question: Rome prétendait que son évêque (le pape) était le successeur direct de quel chef?
+
+Choix: ['Je suis Peter.', 'Je suis Paul.', 'Jésus !', 'Il s'appelle Matthew.']
+
+Réponse: Je suis Peter."
+Quand est né le Dalaï Lama actuel ?,world_religions,"['Il est né en 1935.', 'L'année 2000', 'L'année 1965', 'L'année 1975']",0,"Question: Quand est né le Dalaï Lama actuel ?
+
+Choix: ['Il est né en 1935.', 'L'année 2000', 'L'année 1965', 'L'année 1975']
+
+Réponse: Il est né en 1935."
+"Selon les traditions jaïnes, qui étaient les caityavasis?",world_religions,"['Les propriétaires qui ont soutenu les renonciateurs', 'Les interprètes orthodoxes des Écritures', 'Des femmes ascètes qui vivaient en communautés.', 'Ceux qui renoncent à demeurer dans le temple']",3,"Question: Selon les traditions jaïnes, qui étaient les caityavasis?
+
+Choix: ['Les propriétaires qui ont soutenu les renonciateurs', 'Les interprètes orthodoxes des Écritures', 'Des femmes ascètes qui vivaient en communautés.', 'Ceux qui renoncent à demeurer dans le temple']
+
+Réponse: Ceux qui renoncent à demeurer dans le temple"
+"Zhuangzi décrit un état comme ziran, ce qui signifie lequel des suivants?",world_religions,"['La prévenance', 'La non-action', 'Spontanéité', 'La méditation']",2,"Question: Zhuangzi décrit un état comme ziran, ce qui signifie lequel des suivants?
+
+Choix: ['La prévenance', 'La non-action', 'Spontanéité', 'La méditation']
+
+Réponse: Spontanéité"
+"Les mudras, qui sont une caractéristique importante de l'art bouddhiste, sont également connus sous quel nom?",world_religions,"['les gestes de la main', 'les saints', 'vêtements religieux', 'temples']",0,"Question: Les mudras, qui sont une caractéristique importante de l'art bouddhiste, sont également connus sous quel nom?
+
+Choix: ['les gestes de la main', 'les saints', 'vêtements religieux', 'temples']
+
+Réponse: les gestes de la main"
+À quel dirigeant la révolte des Maccabées est- elle associée?,world_religions,"['Jules César est mort .', 'Alexandre le Grand', 'Cyrus le Perse', 'Antiochus IV Épiphane']",3,"Question: À quel dirigeant la révolte des Maccabées est- elle associée?
+
+Choix: ['Jules César est mort .', 'Alexandre le Grand', 'Cyrus le Perse', 'Antiochus IV Épiphane']
+
+Réponse: Antiochus IV Épiphane"
+Quel âge avait Guru Nanak quand il a commencé à prêcher le message du Nom divin ?,world_religions,"['30 de l'année précédente.', '40 ans', 'Il y en a 33 .', 'Les résultats sont les suivants:']",0,"Question: Quel âge avait Guru Nanak quand il a commencé à prêcher le message du Nom divin ?
+
+Choix: ['30 de l'année précédente.', '40 ans', 'Il y en a 33 .', 'Les résultats sont les suivants:']
+
+Réponse: 30 de l'année précédente."
+La déesse égyptienne largement adorée Hathor était représentée sous la forme de laquelle des divinités suivantes?,world_religions,"['Le serpent', 'Nom de l'aigle', 'Le guépard', 'La vache']",3,"Question: La déesse égyptienne largement adorée Hathor était représentée sous la forme de laquelle des divinités suivantes?
+
+Choix: ['Le serpent', 'Nom de l'aigle', 'Le guépard', 'La vache']
+
+Réponse: La vache"
+Que signifie l'expression Guru-Panth dans les traditions Sikhs ?,world_religions,"['Résolution du Parlement européen', 'Écriture', 'Le culte', 'Apprentissage']",0,"Question: Que signifie l'expression Guru-Panth dans les traditions Sikhs ?
+
+Choix: ['Résolution du Parlement européen', 'Écriture', 'Le culte', 'Apprentissage']
+
+Réponse: Résolution du Parlement européen"
+Après quel événement la période rabbinique a- t- elle commencé dans le judaïsme?,world_religions,"['La construction du deuxième temple', 'La destruction du deuxième temple', 'La christianisation de l'Empire romain', 'L'émergence de l'islam']",1,"Question: Après quel événement la période rabbinique a- t- elle commencé dans le judaïsme?
+
+Choix: ['La construction du deuxième temple', 'La destruction du deuxième temple', 'La christianisation de l'Empire romain', 'L'émergence de l'islam']
+
+Réponse: La destruction du deuxième temple"
+Quel moine a développé le bouddhisme de la Terre Pure tel que nous le connaissons aujourd'hui ?,world_religions,"['Genshin est là.', 'Nom de famille', 'Nom de famille', 'Nom de famille Shinran']",2,"Question: Quel moine a développé le bouddhisme de la Terre Pure tel que nous le connaissons aujourd'hui ?
+
+Choix: ['Genshin est là.', 'Nom de famille', 'Nom de famille', 'Nom de famille Shinran']
+
+Réponse: Nom de famille"
+Quel est le plus grand pays musulman au monde avec plus de 200 millions d'adhérents ?,world_religions,"['États-Unis', 'États-Unis', 'Indonésie', 'États-Unis']",2,"Question: Quel est le plus grand pays musulman au monde avec plus de 200 millions d'adhérents ?
+
+Choix: ['États-Unis', 'États-Unis', 'Indonésie', 'États-Unis']
+
+Réponse: Indonésie"
+Quel pape a encouragé les cultes de saint Pierre et saint Paul pour renforcer l'autorité à Rome ?,world_religions,"['Grégoire', 'Saint Augustin', 'Je suis Athanase.', 'Je vous en prie .']",0,"Question: Quel pape a encouragé les cultes de saint Pierre et saint Paul pour renforcer l'autorité à Rome ?
+
+Choix: ['Grégoire', 'Saint Augustin', 'Je suis Athanase.', 'Je vous en prie .']
+
+Réponse: Grégoire"
+"Auquel des éléments suivants le terme ""Arhats"" se réfère-t-il?",world_religions,"['Être éclairé', 'Ceux qui en sont dignes', 'Les saints', 'Les Sages']",0,"Question: Auquel des éléments suivants le terme ""Arhats"" se réfère-t-il?
+
+Choix: ['Être éclairé', 'Ceux qui en sont dignes', 'Les saints', 'Les Sages']
+
+Réponse: Être éclairé"
+Quel Gourou a été martyrisé quand il a refusé d'embrasser l'Islam ?,world_religions,"['Le gourou Ram Das', 'Le gourou Tegh Bahadur', 'Le gourou Gobind Singh', 'Le gourou Har Rai']",1,"Question: Quel Gourou a été martyrisé quand il a refusé d'embrasser l'Islam ?
+
+Choix: ['Le gourou Ram Das', 'Le gourou Tegh Bahadur', 'Le gourou Gobind Singh', 'Le gourou Har Rai']
+
+Réponse: Le gourou Tegh Bahadur"
+Quel Gourou portait les deux épées symbolisant l'autorité temporelle et spirituelle ?,world_religions,"['Le gourou Nanak', 'Le gourou Arjan', 'Le gourou Hargobind', 'Le gourou Ram Das']",2,"Question: Quel Gourou portait les deux épées symbolisant l'autorité temporelle et spirituelle ?
+
+Choix: ['Le gourou Nanak', 'Le gourou Arjan', 'Le gourou Hargobind', 'Le gourou Ram Das']
+
+Réponse: Le gourou Hargobind"
+Où se trouve la clé de la libération dans le sikhisme?,world_religions,"['Dans la communauté', 'Dans la foi en Dieu', 'Dans la renonciation ascétique', 'Dans la vie du maître de maison']",3,"Question: Où se trouve la clé de la libération dans le sikhisme?
+
+Choix: ['Dans la communauté', 'Dans la foi en Dieu', 'Dans la renonciation ascétique', 'Dans la vie du maître de maison']
+
+Réponse: Dans la vie du maître de maison"
+Quel est l'un des thèmes les plus fondamentaux de la culture et de la civilisation japonaises ?,world_religions,"['Dieu est éternel et miséricordieux envers ceux qui offrent l'adoration', 'Les humains peuvent s'aligner avec l' énergie de la vie par le culte du kami .', 'La justice sera le résultat final dans l'autre monde.', 'La puissance et la force sont les attributs les plus divins.']",0,"Question: Quel est l'un des thèmes les plus fondamentaux de la culture et de la civilisation japonaises ?
+
+Choix: ['Dieu est éternel et miséricordieux envers ceux qui offrent l'adoration', 'Les humains peuvent s'aligner avec l' énergie de la vie par le culte du kami .', 'La justice sera le résultat final dans l'autre monde.', 'La puissance et la force sont les attributs les plus divins.']
+
+Réponse: Dieu est éternel et miséricordieux envers ceux qui offrent l'adoration"
+Quelle déesse est adorée pendant la fête de Divali?,world_religions,"['Je suis Durga.', 'Sri Lakshmi', 'Nom de l'espèce:', 'Nom Mahavira']",1,"Question: Quelle déesse est adorée pendant la fête de Divali?
+
+Choix: ['Je suis Durga.', 'Sri Lakshmi', 'Nom de l'espèce:', 'Nom Mahavira']
+
+Réponse: Sri Lakshmi"
+Où les gens croyaient-ils à la déesse connue sous le nom de Sainte Mère du Mont Fairy Peach ?,world_religions,"['États-Unis', 'Nom de famille', 'La région de Goguryeo', 'Corée du Sud']",1,"Question: Où les gens croyaient-ils à la déesse connue sous le nom de Sainte Mère du Mont Fairy Peach ?
+
+Choix: ['États-Unis', 'Nom de famille', 'La région de Goguryeo', 'Corée du Sud']
+
+Réponse: Nom de famille"
+À qui sont attribués les Yoga Sutras?,world_religions,"['Je ne sais pas.', 'Je vous en prie.', 'Je suis Ramanuja.', 'Je suis Aryabhatta.']",1,"Question: À qui sont attribués les Yoga Sutras?
+
+Choix: ['Je ne sais pas.', 'Je vous en prie.', 'Je suis Ramanuja.', 'Je suis Aryabhatta.']
+
+Réponse: Je vous en prie."
+Lequel des éléments suivants ne décrit PAS la Ka'ba ?,world_religions,"['Elle a été visitée par Moïse.', 'Il est haram.', 'Il a été construit par Abraham.', 'C'est un bâtiment carré.']",0,"Question: Lequel des éléments suivants ne décrit PAS la Ka'ba ?
+
+Choix: ['Elle a été visitée par Moïse.', 'Il est haram.', 'Il a été construit par Abraham.', 'C'est un bâtiment carré.']
+
+Réponse: Elle a été visitée par Moïse."
+Quelle divinité hindoue à tête d'éléphant est souvent décrite comme la plus aimée?,world_religions,"['Parvati est là.', 'Je suis Ganesha.', 'Nom de Dieu: Vishnu', 'Je suis Sita.']",1,"Question: Quelle divinité hindoue à tête d'éléphant est souvent décrite comme la plus aimée?
+
+Choix: ['Parvati est là.', 'Je suis Ganesha.', 'Nom de Dieu: Vishnu', 'Je suis Sita.']
+
+Réponse: Je suis Ganesha."
+La littérature sacrée a pris naissance avec lequel des noms suivants?,world_religions,"['Sri Lakshmi', 'Nom Mahavira', 'Je vous en prie .', 'Je vous en prie .']",2,"Question: La littérature sacrée a pris naissance avec lequel des noms suivants?
+
+Choix: ['Sri Lakshmi', 'Nom Mahavira', 'Je vous en prie .', 'Je vous en prie .']
+
+Réponse: Je vous en prie ."
+Qui est l'auteur des Admonitions pour les femmes ?,world_religions,"['Ban Zhao est à la retraite.', 'Nom de famille', 'Ménis', 'Nom de famille Liu Xiang']",0,"Question: Qui est l'auteur des Admonitions pour les femmes ?
+
+Choix: ['Ban Zhao est à la retraite.', 'Nom de famille', 'Ménis', 'Nom de famille Liu Xiang']
+
+Réponse: Ban Zhao est à la retraite."
+Combien de renonciatrices étaient sous la tutelle de Chandanbala ?,world_religions,"['36 000 personnes', '12 000 personnes', 'Vingt-quatre mille', '7 000 personnes']",0,"Question: Combien de renonciatrices étaient sous la tutelle de Chandanbala ?
+
+Choix: ['36 000 personnes', '12 000 personnes', 'Vingt-quatre mille', '7 000 personnes']
+
+Réponse: 36 000 personnes"
+"Selon la tradition Sikh, le Mul Mantar éclaire la nature de quoi ?",world_religions,"['La réalité ultime', 'Les gourous', 'La communauté', 'Le culte sikh']",0,"Question: Selon la tradition Sikh, le Mul Mantar éclaire la nature de quoi ?
+
+Choix: ['La réalité ultime', 'Les gourous', 'La communauté', 'Le culte sikh']
+
+Réponse: La réalité ultime"
+Quel terme désigne l'ordre divin comme un principe supérieur dans le sikhisme?,world_religions,"['Nom de l'établissement', 'Le Hukam', 'Nom de l'établissement:', 'Nom de famille Karam']",1,"Question: Quel terme désigne l'ordre divin comme un principe supérieur dans le sikhisme?
+
+Choix: ['Nom de l'établissement', 'Le Hukam', 'Nom de l'établissement:', 'Nom de famille Karam']
+
+Réponse: Le Hukam"
+Combien de livres y a-t-il dans le Nouveau Testament ?,world_religions,"['30 de l'année précédente.', 'Nom de l'entreprise:', 'Nom de l'entreprise', 'Nom de l'entreprise:']",2,"Question: Combien de livres y a-t-il dans le Nouveau Testament ?
+
+Choix: ['30 de l'année précédente.', 'Nom de l'entreprise:', 'Nom de l'entreprise', 'Nom de l'entreprise:']
+
+Réponse: Nom de l'entreprise"
+Quelle forme de bouddhisme met l'accent sur l'engagement social qui attire la participation des laïcs ?,world_religions,"['Le bouddhisme zen', 'Bouddhisme Chan', 'Bouddhisme humaniste', 'Le bouddhisme de la Terre Pure']",2,"Question: Quelle forme de bouddhisme met l'accent sur l'engagement social qui attire la participation des laïcs ?
+
+Choix: ['Le bouddhisme zen', 'Bouddhisme Chan', 'Bouddhisme humaniste', 'Le bouddhisme de la Terre Pure']
+
+Réponse: Bouddhisme humaniste"
+Quelle était l'une des croyances ou des pratiques caractéristiques des habitants du Sud (Digambara)?,world_religions,"['Ils adoraient exclusivement à l'extérieur du temple.', 'Ils croyaient que la nudité était une expression élémentaire de non-attachement', 'Ils comprenaient des femmes dans les rangs de la direction', 'Ils croyaient que l' omnisciente Jina devait manger et dormir .']",1,"Question: Quelle était l'une des croyances ou des pratiques caractéristiques des habitants du Sud (Digambara)?
+
+Choix: ['Ils adoraient exclusivement à l'extérieur du temple.', 'Ils croyaient que la nudité était une expression élémentaire de non-attachement', 'Ils comprenaient des femmes dans les rangs de la direction', 'Ils croyaient que l' omnisciente Jina devait manger et dormir .']
+
+Réponse: Ils croyaient que la nudité était une expression élémentaire de non-attachement"
+La prière centrale du jaïnisme est connue sous lequel des noms suivants?,world_religions,"['Nomokar Mantra', 'Le mantra de la libération', 'Nom de famille Ahimsa', 'Autres espèces']",0,"Question: La prière centrale du jaïnisme est connue sous lequel des noms suivants?
+
+Choix: ['Nomokar Mantra', 'Le mantra de la libération', 'Nom de famille Ahimsa', 'Autres espèces']
+
+Réponse: Nomokar Mantra"
+Quand les premiers temples jaïns sont- ils apparus?,world_religions,"['Deuxième siècle de notre ère', 'Cinquième siècle de notre ère', 'Cinquième siècle avant notre ère', 'Dix-huitième siècle de notre ère']",1,"Question: Quand les premiers temples jaïns sont- ils apparus?
+
+Choix: ['Deuxième siècle de notre ère', 'Cinquième siècle de notre ère', 'Cinquième siècle avant notre ère', 'Dix-huitième siècle de notre ère']
+
+Réponse: Cinquième siècle de notre ère"
+Combien de Djinns sont apparus à notre époque ?,world_religions,"['Nom de l'entreprise:', 'Il y en a 42 .', 'Il y en a vingt-quatre.', 'Il y en a 13 .']",2,"Question: Combien de Djinns sont apparus à notre époque ?
+
+Choix: ['Nom de l'entreprise:', 'Il y en a 42 .', 'Il y en a vingt-quatre.', 'Il y en a 13 .']
+
+Réponse: Il y en a vingt-quatre."
+Le titre de Dalaï Lama désigne lequel des éléments suivants?,world_religions,"['Océan d'Amour', 'Il aime la sagesse', 'Un océan de sagesse', 'Le silence de l'amour']",2,"Question: Le titre de Dalaï Lama désigne lequel des éléments suivants?
+
+Choix: ['Océan d'Amour', 'Il aime la sagesse', 'Un océan de sagesse', 'Le silence de l'amour']
+
+Réponse: Un océan de sagesse"
+"Qui accompagne Vishnu dans plusieurs de ses incarnations en tant que son épouse, et est connue comme la déesse de la bonne fortune?",world_religions,"['Parvati est là.', 'Je suis Sita.', 'Nom de famille Sri (Lakshmi)', 'Nom de famille Sarasvati']",2,"Question: Qui accompagne Vishnu dans plusieurs de ses incarnations en tant que son épouse, et est connue comme la déesse de la bonne fortune?
+
+Choix: ['Parvati est là.', 'Je suis Sita.', 'Nom de famille Sri (Lakshmi)', 'Nom de famille Sarasvati']
+
+Réponse: Nom de famille Sri (Lakshmi)"
+Comment le mot bhakti est- il souvent traduit?,world_religions,"['Les dieux', 'Le yoga', 'La dévotion', 'La religion']",2,"Question: Comment le mot bhakti est- il souvent traduit?
+
+Choix: ['Les dieux', 'Le yoga', 'La dévotion', 'La religion']
+
+Réponse: La dévotion"
+"Quel dieu ou déesse hindou est la parole incarnée, le pouvoir de la parole, et la mère des Védas?",world_religions,"['Nom de Dieu: Vishnu', 'Je suis Ganesha.', 'Nom de famille Sarasvati', 'Je suis Indra.']",2,"Question: Quel dieu ou déesse hindou est la parole incarnée, le pouvoir de la parole, et la mère des Védas?
+
+Choix: ['Nom de Dieu: Vishnu', 'Je suis Ganesha.', 'Nom de famille Sarasvati', 'Je suis Indra.']
+
+Réponse: Nom de famille Sarasvati"
+Quel est le nom de la prière juive utilisée pour le deuil depuis le Moyen Âge?,world_religions,"['Le Shema', 'Le Kaddish', 'La Knesset', 'Le Kippa']",1,"Question: Quel est le nom de la prière juive utilisée pour le deuil depuis le Moyen Âge?
+
+Choix: ['Le Shema', 'Le Kaddish', 'La Knesset', 'Le Kippa']
+
+Réponse: Le Kaddish"
+Krishna et Rama sont les incarnations de quel dieu hindou ?,world_religions,"['Je suis Shiva.', 'Nom de Dieu: Vishnu', 'C' est Brahma .', 'Je suis Ganesha.']",1,"Question: Krishna et Rama sont les incarnations de quel dieu hindou ?
+
+Choix: ['Je suis Shiva.', 'Nom de Dieu: Vishnu', 'C' est Brahma .', 'Je suis Ganesha.']
+
+Réponse: Nom de Dieu: Vishnu"
+Les kshatriyas est le nom de caste attribué à quel groupe ?,world_religions,"['Les prêtres', 'Les domestiques', 'Des chefs, des guerriers', 'Les commerçants']",2,"Question: Les kshatriyas est le nom de caste attribué à quel groupe ?
+
+Choix: ['Les prêtres', 'Les domestiques', 'Des chefs, des guerriers', 'Les commerçants']
+
+Réponse: Des chefs, des guerriers"
+Quand la version ancienne babylonienne de Gilgamesh a- t- elle été modifiée en version standard?,world_religions,"['Vers la fin du premier millénaire avant notre ère', 'Vers le milieu du premier millénaire avant notre ère', 'Vers la fin du deuxième millénaire avant notre ère', 'Vers le milieu du deuxième millénaire avant notre ère']",2,"Question: Quand la version ancienne babylonienne de Gilgamesh a- t- elle été modifiée en version standard?
+
+Choix: ['Vers la fin du premier millénaire avant notre ère', 'Vers le milieu du premier millénaire avant notre ère', 'Vers la fin du deuxième millénaire avant notre ère', 'Vers le milieu du deuxième millénaire avant notre ère']
+
+Réponse: Vers la fin du deuxième millénaire avant notre ère"
+Quelle est la signification de samyak jnana dans les traditions jaïnes ?,world_religions,"['Connaissances précises', 'Une bonne pratique', 'Une bonne intuition', 'Croyance correcte']",2,"Question: Quelle est la signification de samyak jnana dans les traditions jaïnes ?
+
+Choix: ['Connaissances précises', 'Une bonne pratique', 'Une bonne intuition', 'Croyance correcte']
+
+Réponse: Une bonne intuition"
+Quel type d'organisation bouddhiste est le Bodu Bala Sena ?,world_religions,"['Activiste et organisation militante au Sri Lanka', 'Organisation œcuménique en Inde', 'Organisation moderne aux États-Unis', 'Organisation de maintien de la paix au Japon']",0,"Question: Quel type d'organisation bouddhiste est le Bodu Bala Sena ?
+
+Choix: ['Activiste et organisation militante au Sri Lanka', 'Organisation œcuménique en Inde', 'Organisation moderne aux États-Unis', 'Organisation de maintien de la paix au Japon']
+
+Réponse: Activiste et organisation militante au Sri Lanka"
+Quel mystique croyait que le mal était une distorsion qui révèle plus clairement l'amour divin ?,world_religions,"['Julien de Norwich', 'Catherine de Sienne', 'Thérèse d'Avila', 'Jean de la Croix']",0,"Question: Quel mystique croyait que le mal était une distorsion qui révèle plus clairement l'amour divin ?
+
+Choix: ['Julien de Norwich', 'Catherine de Sienne', 'Thérèse d'Avila', 'Jean de la Croix']
+
+Réponse: Julien de Norwich"
+"Dans les traditions jaïnes, ""mauvais karma"" est connu par lequel des termes suivants?",world_religions,"['Le père .', 'Le Punya', 'Nom et prénom (s)', 'Je suis Akash.']",0,"Question: Dans les traditions jaïnes, ""mauvais karma"" est connu par lequel des termes suivants?
+
+Choix: ['Le père .', 'Le Punya', 'Nom et prénom (s)', 'Je suis Akash.']
+
+Réponse: Le père ."
+Au cours de quelle fête japonaise les esprits des membres de la famille décédés reviennent- ils pour recevoir des offrandes rituelles de nourriture préparées par leurs proches?,world_religions,"['Autres espèces', 'Je ne sais pas.', 'Nom de famille Omizutori', 'Nom de famille']",0,"Question: Au cours de quelle fête japonaise les esprits des membres de la famille décédés reviennent- ils pour recevoir des offrandes rituelles de nourriture préparées par leurs proches?
+
+Choix: ['Autres espèces', 'Je ne sais pas.', 'Nom de famille Omizutori', 'Nom de famille']
+
+Réponse: Autres espèces"
+"Que signifie ""Mahavira""?",world_religions,"['Le grand héros', 'Maître', 'Le plus petit', 'Médicant']",0,"Question: Que signifie ""Mahavira""?
+
+Choix: ['Le grand héros', 'Maître', 'Le plus petit', 'Médicant']
+
+Réponse: Le grand héros"
+Que signifie le Tripitaka ?,world_religions,"['Les trois pierres précieuses', 'Il y a trois paniers.', 'Il y a trois bodhisattvas.', 'Les trois bouddhas']",1,"Question: Que signifie le Tripitaka ?
+
+Choix: ['Les trois pierres précieuses', 'Il y a trois paniers.', 'Il y a trois bodhisattvas.', 'Les trois bouddhas']
+
+Réponse: Il y a trois paniers."
+Où se trouve le plus grand réseau de sanctuaires confucéens au monde ?,world_religions,"['Indonésie', 'États-Unis', 'Corée du Sud', 'États-Unis']",2,"Question: Où se trouve le plus grand réseau de sanctuaires confucéens au monde ?
+
+Choix: ['Indonésie', 'États-Unis', 'Corée du Sud', 'États-Unis']
+
+Réponse: Corée du Sud"
+"Ghosa, Apala et Lopamurda, tous nommés dans les premiers Védas, sont-ils les suivants?",world_religions,"['Les princesses féminines', 'Guerrières féminines', 'Déesses féminines', 'Poètes féminines']",3,"Question: Ghosa, Apala et Lopamurda, tous nommés dans les premiers Védas, sont-ils les suivants?
+
+Choix: ['Les princesses féminines', 'Guerrières féminines', 'Déesses féminines', 'Poètes féminines']
+
+Réponse: Poètes féminines"
+Quel est le titre des chefs religieux et administratifs qui ont succédé au Prophète ?,world_religions,"['Le Prophète', 'Le Prophète', 'Le calife', 'Le Mahdi']",2,"Question: Quel est le titre des chefs religieux et administratifs qui ont succédé au Prophète ?
+
+Choix: ['Le Prophète', 'Le Prophète', 'Le calife', 'Le Mahdi']
+
+Réponse: Le calife"
+Lequel des éléments suivants n'est PAS inclus dans la compréhension islamique de la jurisprudence?,world_religions,"['Le consensus', 'Raison personnelle', 'Le présent règlement est obligatoire dans tous ses éléments.', 'Une inspiration divine']",3,"Question: Lequel des éléments suivants n'est PAS inclus dans la compréhension islamique de la jurisprudence?
+
+Choix: ['Le consensus', 'Raison personnelle', 'Le présent règlement est obligatoire dans tous ses éléments.', 'Une inspiration divine']
+
+Réponse: Une inspiration divine"
+Pourquoi Mahavira est-il une personne importante dans les traditions jaïnes ?,world_religions,"['Il est le dernier des prophètes ascétiques.', 'Il est le premier des prophètes ascétiques.', 'Il est le plus savant des prophètes ascétiques.', 'Il est le plus saint des prophètes ascétiques.']",0,"Question: Pourquoi Mahavira est-il une personne importante dans les traditions jaïnes ?
+
+Choix: ['Il est le dernier des prophètes ascétiques.', 'Il est le premier des prophètes ascétiques.', 'Il est le plus savant des prophètes ascétiques.', 'Il est le plus saint des prophètes ascétiques.']
+
+Réponse: Il est le dernier des prophètes ascétiques."
+Le Livre Tibétain des Morts est aussi connu sous lequel des noms suivants ?,world_religions,"['Le Bardo Thodol', 'Le Bardo Ngawang', 'Bardo Gyaltsen', 'Le Bardo Chogye']",0,"Question: Le Livre Tibétain des Morts est aussi connu sous lequel des noms suivants ?
+
+Choix: ['Le Bardo Thodol', 'Le Bardo Ngawang', 'Bardo Gyaltsen', 'Le Bardo Chogye']
+
+Réponse: Le Bardo Thodol"
+"Quelle fête hindoue consiste à décorer la maison avec des lumières, à allumer des pétards et à porter de nouveaux vêtements ?",world_religions,"['Le jour de la fête de Deepavali', 'Le jour de l'Holi', 'Ce n' est pas Diwali .', 'Nom de famille Navaratri']",0,"Question: Quelle fête hindoue consiste à décorer la maison avec des lumières, à allumer des pétards et à porter de nouveaux vêtements ?
+
+Choix: ['Le jour de la fête de Deepavali', 'Le jour de l'Holi', 'Ce n' est pas Diwali .', 'Nom de famille Navaratri']
+
+Réponse: Le jour de la fête de Deepavali"
+Quelles heures sont réservées comme heures ambrosial pour les Sikhs?,world_religions,"['5 à 7 heures du matin.', '21h à 23h', '15h à 18h', '3 à 6 heures du matin.']",3,"Question: Quelles heures sont réservées comme heures ambrosial pour les Sikhs?
+
+Choix: ['5 à 7 heures du matin.', '21h à 23h', '15h à 18h', '3 à 6 heures du matin.']
+
+Réponse: 3 à 6 heures du matin."
+Le sacrifice de soi est un thème important pour quel penseur bouddhiste ?,world_religions,"['Thich Nhat Hanh', 'Le Dalaï Lama', 'Nom: Daisetsu T. Suzuki', 'Nom de famille Shaku Soyen']",0,"Question: Le sacrifice de soi est un thème important pour quel penseur bouddhiste ?
+
+Choix: ['Thich Nhat Hanh', 'Le Dalaï Lama', 'Nom: Daisetsu T. Suzuki', 'Nom de famille Shaku Soyen']
+
+Réponse: Thich Nhat Hanh"
+Combien de fois par jour la Fatiha est-elle récitée ?,world_religions,"['Exactement dix-sept .', 'Au moins 17', 'Au moins 13', 'Exactement vingt-quatre .']",1,"Question: Combien de fois par jour la Fatiha est-elle récitée ?
+
+Choix: ['Exactement dix-sept .', 'Au moins 17', 'Au moins 13', 'Exactement vingt-quatre .']
+
+Réponse: Au moins 17"
+"Quelle branche du judaïsme fondée par Zacharias Frankel est connue pour son ""judaïsme positif-historique""?",world_religions,"['Conservateur', 'Réformé', 'Le reconstructionnisme', 'Les orthodoxes']",0,"Question: Quelle branche du judaïsme fondée par Zacharias Frankel est connue pour son ""judaïsme positif-historique""?
+
+Choix: ['Conservateur', 'Réformé', 'Le reconstructionnisme', 'Les orthodoxes']
+
+Réponse: Conservateur"
+"Quel est le terme utilisé pour décrire les ""pures"" en tant qu'ordre de Sikhs loyaux unis?",world_religions,"['Le Khalsa', 'Je vous en prie .', 'Panj Kakke est à l' épreuve .', 'Le Shabad']",0,"Question: Quel est le terme utilisé pour décrire les ""pures"" en tant qu'ordre de Sikhs loyaux unis?
+
+Choix: ['Le Khalsa', 'Je vous en prie .', 'Panj Kakke est à l' épreuve .', 'Le Shabad']
+
+Réponse: Le Khalsa"
+Qui est le fondateur du sikhisme ?,world_religions,"['Le gourou Gobind Singh', 'Le gourou Nanak', 'Le gourou Kabir', 'Le gourou Hargobind']",1,"Question: Qui est le fondateur du sikhisme ?
+
+Choix: ['Le gourou Gobind Singh', 'Le gourou Nanak', 'Le gourou Kabir', 'Le gourou Hargobind']
+
+Réponse: Le gourou Nanak"
+Quel terme est généralement associé aux femmes dans les traditions hindoues?,world_religions,"['Contaminé', 'Idéal', 'Un signe de bon augure', 'Elle est gentille.']",2,"Question: Quel terme est généralement associé aux femmes dans les traditions hindoues?
+
+Choix: ['Contaminé', 'Idéal', 'Un signe de bon augure', 'Elle est gentille.']
+
+Réponse: Un signe de bon augure"
+Quel est un autre nom pour Enuma Elish?,world_religions,"['L'épopée de la création', 'Une épopée de la destruction', 'L'épopée égyptienne', 'L'épopée des origines']",0,"Question: Quel est un autre nom pour Enuma Elish?
+
+Choix: ['L'épopée de la création', 'Une épopée de la destruction', 'L'épopée égyptienne', 'L'épopée des origines']
+
+Réponse: L'épopée de la création"
+Quelle était la fête féminine la plus importante dans les villes de toute la Grèce?,world_religions,"['Thesmophorie', 'Les jours de l'oracle', 'Jeux isthmiques', 'Fête de l'Athrodite']",0,"Question: Quelle était la fête féminine la plus importante dans les villes de toute la Grèce?
+
+Choix: ['Thesmophorie', 'Les jours de l'oracle', 'Jeux isthmiques', 'Fête de l'Athrodite']
+
+Réponse: Thesmophorie"
+Le parler en langues est une caractéristique de quelle dénomination chrétienne?,world_religions,"['L'évangélisme', 'Piété', 'Le pentecôtisme', 'Le fondamentalisme']",2,"Question: Le parler en langues est une caractéristique de quelle dénomination chrétienne?
+
+Choix: ['L'évangélisme', 'Piété', 'Le pentecôtisme', 'Le fondamentalisme']
+
+Réponse: Le pentecôtisme"
+Le charisme peut être défini comme lequel des éléments suivants ?,world_religions,"['Une huile', 'Une prophétie', 'Un don spirituel', 'Autorités']",2,"Question: Le charisme peut être défini comme lequel des éléments suivants ?
+
+Choix: ['Une huile', 'Une prophétie', 'Un don spirituel', 'Autorités']
+
+Réponse: Un don spirituel"
+"Dans l'Islam, quelle est la qibla ?",world_religions,"['Faire l'aumône', 'Le pèlerinage', 'Direction de la prière', 'Révélation']",2,"Question: Dans l'Islam, quelle est la qibla ?
+
+Choix: ['Faire l'aumône', 'Le pèlerinage', 'Direction de la prière', 'Révélation']
+
+Réponse: Direction de la prière"
+"Dans le bouddhisme Tendai, que signifie le terme honji ?",world_religions,"['Une trace', 'Le terrain d'origine', 'Manifestation', 'Le vrai signe']",1,"Question: Dans le bouddhisme Tendai, que signifie le terme honji ?
+
+Choix: ['Une trace', 'Le terrain d'origine', 'Manifestation', 'Le vrai signe']
+
+Réponse: Le terrain d'origine"
+Quel est le nom d'un récent mouvement de réveil en Turquie dirigé par Fetullah Gülen ?,world_religions,"['Le service', 'La nation de l'islam', 'Frères musulmans', 'Le soufisme']",0,"Question: Quel est le nom d'un récent mouvement de réveil en Turquie dirigé par Fetullah Gülen ?
+
+Choix: ['Le service', 'La nation de l'islam', 'Frères musulmans', 'Le soufisme']
+
+Réponse: Le service"
+Pour qui les Védas hindous sont- ils les plus importants?,world_religions,"['Les brahmanes', 'Les Kshatriyas', 'Je suis Shiva.', 'Les yogis']",0,"Question: Pour qui les Védas hindous sont- ils les plus importants?
+
+Choix: ['Les brahmanes', 'Les Kshatriyas', 'Je suis Shiva.', 'Les yogis']
+
+Réponse: Les brahmanes"
+"Selon le mythe de la fondation coréenne, qui s'est transformé en humain pour engendrer Dangun ?",world_religions,"['Le Hwanin', 'Nom de famille', 'Corée du Sud', 'Le Yi']",1,"Question: Selon le mythe de la fondation coréenne, qui s'est transformé en humain pour engendrer Dangun ?
+
+Choix: ['Le Hwanin', 'Nom de famille', 'Corée du Sud', 'Le Yi']
+
+Réponse: Nom de famille"
+"Dans le bouddhisme, comment s'appellent les femmes ordonnées ?",world_religions,"['Les moines', 'Les Bhikshunis', 'Le Sangha', 'Autres espèces']",1,"Question: Dans le bouddhisme, comment s'appellent les femmes ordonnées ?
+
+Choix: ['Les moines', 'Les Bhikshunis', 'Le Sangha', 'Autres espèces']
+
+Réponse: Les Bhikshunis"
+Quel est le nom du texte le plus autoritaire de la Kabbale ?,world_religions,"['Nom de famille', 'Le Midrash', 'Le Zohar', 'La Septante']",2,"Question: Quel est le nom du texte le plus autoritaire de la Kabbale ?
+
+Choix: ['Nom de famille', 'Le Midrash', 'Le Zohar', 'La Septante']
+
+Réponse: Le Zohar"
+Quel philosophe confucéen est décrit comme un mystique en raison de son accent sur le qi (ou ch'i)?,world_religions,"['Le Dao', 'Nom de famille', 'Nom de l'auteur:', 'C' est Confucius .']",2,"Question: Quel philosophe confucéen est décrit comme un mystique en raison de son accent sur le qi (ou ch'i)?
+
+Choix: ['Le Dao', 'Nom de famille', 'Nom de l'auteur:', 'C' est Confucius .']
+
+Réponse: Nom de l'auteur:"
+Lequel des actes suivants le Coran autorise- t- il?,world_religions,"['Le meurtre d'honneur', 'La lapidation', 'L'adultère', 'Polygamie']",3,"Question: Lequel des actes suivants le Coran autorise- t- il?
+
+Choix: ['Le meurtre d'honneur', 'La lapidation', 'L'adultère', 'Polygamie']
+
+Réponse: Polygamie"
+Quelle est la principale forme de bouddhisme au Sri Lanka ?,world_religions,"['Le theravada', 'Le Mahayana', 'Une terre pure', 'Le Zen']",0,"Question: Quelle est la principale forme de bouddhisme au Sri Lanka ?
+
+Choix: ['Le theravada', 'Le Mahayana', 'Une terre pure', 'Le Zen']
+
+Réponse: Le theravada"
+Quel leader est connu pour répandre le dharma de la non-violence ?,world_religions,"['Nom de famille Ngo Dinh Diem', 'Le Dalaï Lama', 'C' est Siddhartha .', 'Je suis Ashoka.']",3,"Question: Quel leader est connu pour répandre le dharma de la non-violence ?
+
+Choix: ['Nom de famille Ngo Dinh Diem', 'Le Dalaï Lama', 'C' est Siddhartha .', 'Je suis Ashoka.']
+
+Réponse: Je suis Ashoka."
+Quels sont les deux sacrements que tous les chrétiens célèbrent?,world_religions,"['Le baptême et l'eucharistie', 'Baptême et ordination', 'L'eucharistie et le mariage', 'L'eucharistie et la confession']",0,"Question: Quels sont les deux sacrements que tous les chrétiens célèbrent?
+
+Choix: ['Le baptême et l'eucharistie', 'Baptême et ordination', 'L'eucharistie et le mariage', 'L'eucharistie et la confession']
+
+Réponse: Le baptême et l'eucharistie"
+Quelle est la fête la plus importante pour les Sikhs ?,world_religions,"['Le jour de l'Holi', 'Nom et prénom', 'Journée de Baisakhi', 'Je vous salue, Mahalla.']",2,"Question: Quelle est la fête la plus importante pour les Sikhs ?
+
+Choix: ['Le jour de l'Holi', 'Nom et prénom', 'Journée de Baisakhi', 'Je vous salue, Mahalla.']
+
+Réponse: Journée de Baisakhi"
+Qui a déclaré Mahomet prophète ?,world_religions,"['Je ne sais pas.', 'Je suis Gabriel.', 'Le Waraqah', 'Je suis Abu Bakr.']",2,"Question: Qui a déclaré Mahomet prophète ?
+
+Choix: ['Je ne sais pas.', 'Je suis Gabriel.', 'Le Waraqah', 'Je suis Abu Bakr.']
+
+Réponse: Le Waraqah"
+Les contes Jataka sont une collection de quel genre d'histoires ?,world_religions,"['Des récits de vie', 'Des histoires de guerriers', 'Les histoires de naissance', 'Des histoires de héros']",2,"Question: Les contes Jataka sont une collection de quel genre d'histoires ?
+
+Choix: ['Des récits de vie', 'Des histoires de guerriers', 'Les histoires de naissance', 'Des histoires de héros']
+
+Réponse: Les histoires de naissance"
+Lequel des éléments suivants correspond à la période de fermeture du Japon au christianisme et à l'Europe ?,world_religions,"['1749 à 1945', 'Autres spécialités', '1641 à 1853', '1517 à 1870']",2,"Question: Lequel des éléments suivants correspond à la période de fermeture du Japon au christianisme et à l'Europe ?
+
+Choix: ['1749 à 1945', 'Autres spécialités', '1641 à 1853', '1517 à 1870']
+
+Réponse: 1641 à 1853"
+"En yiddish, quel est le mot pour alliance ?",world_religions,"['La Haggadah', 'Le Halakhah', 'Britannique', 'Nom de l'établissement']",3,"Question: En yiddish, quel est le mot pour alliance ?
+
+Choix: ['La Haggadah', 'Le Halakhah', 'Britannique', 'Nom de l'établissement']
+
+Réponse: Nom de l'établissement"
+"D'après la liste des rois sumériens, d'où vient la royauté?",world_religions,"['Grâce à l' initiation dans les cultes de mystère', 'Par des victoires militaires', 'Lignée directe des ancêtres', 'Il descend du ciel']",3,"Question: D'après la liste des rois sumériens, d'où vient la royauté?
+
+Choix: ['Grâce à l' initiation dans les cultes de mystère', 'Par des victoires militaires', 'Lignée directe des ancêtres', 'Il descend du ciel']
+
+Réponse: Il descend du ciel"
+Quel est le nom de la communauté hindoue associée à l'activisme environnemental ?,world_religions,"['Les Puranas', 'Bishnoi', 'Le Rajasthan', 'Le Jambho']",1,"Question: Quel est le nom de la communauté hindoue associée à l'activisme environnemental ?
+
+Choix: ['Les Puranas', 'Bishnoi', 'Le Rajasthan', 'Le Jambho']
+
+Réponse: Bishnoi"
+Quel bodhisattva est connu pour conduire les âmes d'enfants morts au salut ?,world_religions,"['Le Guan-yin', 'Nom de famille', 'Je vous en prie , monsieur Ojizo .', 'Je suis Amitabha.']",2,"Question: Quel bodhisattva est connu pour conduire les âmes d'enfants morts au salut ?
+
+Choix: ['Le Guan-yin', 'Nom de famille', 'Je vous en prie , monsieur Ojizo .', 'Je suis Amitabha.']
+
+Réponse: Je vous en prie , monsieur Ojizo ."
+À quel concept théologique l'Évangile de Jean est- il associé?,world_religions,"['L'incarnation', 'Le Logos de Dieu', 'Jésus en tant que messie et sauveur', 'Tout ce qui précède']",3,"Question: À quel concept théologique l'Évangile de Jean est- il associé?
+
+Choix: ['L'incarnation', 'Le Logos de Dieu', 'Jésus en tant que messie et sauveur', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+"Quel dieu a supplanté Enil, le dieu suprême de la Mésopotamie?",world_religions,"['C' est Horus .', 'Je vous en prie .', 'C' est Marduk .', 'Nom de l'organisation:']",2,"Question: Quel dieu a supplanté Enil, le dieu suprême de la Mésopotamie?
+
+Choix: ['C' est Horus .', 'Je vous en prie .', 'C' est Marduk .', 'Nom de l'organisation:']
+
+Réponse: C' est Marduk ."
+Lequel des mouvements suivants a été fondé par Mordechai Kaplan ?,world_religions,"['Judaïsme libéral', 'Le judaïsme réformé', 'Judaïsme conservateur', 'Le judaïsme reconstructionniste']",3,"Question: Lequel des mouvements suivants a été fondé par Mordechai Kaplan ?
+
+Choix: ['Judaïsme libéral', 'Le judaïsme réformé', 'Judaïsme conservateur', 'Le judaïsme reconstructionniste']
+
+Réponse: Le judaïsme reconstructionniste"
+Quand l'État d'Israël a- t- il été fondé?,world_religions,"['Il est mort en 1947 .', 'Il est né en 1948.', 'La guerre de 1945', 'Il est né en 1949 .']",1,"Question: Quand l'État d'Israël a- t- il été fondé?
+
+Choix: ['Il est mort en 1947 .', 'Il est né en 1948.', 'La guerre de 1945', 'Il est né en 1949 .']
+
+Réponse: Il est né en 1948."
+Les icônes sont une caractéristique principale de quelle église?,world_religions,"['Anglican', 'Catholique', 'Les orthodoxes', 'Luthérienne']",2,"Question: Les icônes sont une caractéristique principale de quelle église?
+
+Choix: ['Anglican', 'Catholique', 'Les orthodoxes', 'Luthérienne']
+
+Réponse: Les orthodoxes"
+La première des Quatre Nobles Vérités enseigne laquelle des suivantes ne peut être échappée ?,world_religions,"['La fierté', 'La haine', 'La souffrance', 'Le destin']",2,"Question: La première des Quatre Nobles Vérités enseigne laquelle des suivantes ne peut être échappée ?
+
+Choix: ['La fierté', 'La haine', 'La souffrance', 'Le destin']
+
+Réponse: La souffrance"
+La Réforme continentale a commencé en quelle année ?,world_religions,"['Nom de l'entreprise', 'Nom de l'entreprise:', 'Nom de l'entreprise:', 'Nom de l'entreprise:']",1,"Question: La Réforme continentale a commencé en quelle année ?
+
+Choix: ['Nom de l'entreprise', 'Nom de l'entreprise:', 'Nom de l'entreprise:', 'Nom de l'entreprise:']
+
+Réponse: Nom de l'entreprise:"
+Le minimalisme du Haiku serait issu de quelle tradition?,world_religions,"['Le bouddhisme zen', 'Le shintoïsme', 'Le bouddhisme de la Terre Pure', 'Le confucianisme']",0,"Question: Le minimalisme du Haiku serait issu de quelle tradition?
+
+Choix: ['Le bouddhisme zen', 'Le shintoïsme', 'Le bouddhisme de la Terre Pure', 'Le confucianisme']
+
+Réponse: Le bouddhisme zen"
+Quelle divinité est la contrepartie romaine du dieu grec Zeus ?,world_religions,"['Jupiter et ses étoiles', 'Nom de l'équipage', 'Nom de l'auteur:', 'La planète Neptune']",0,"Question: Quelle divinité est la contrepartie romaine du dieu grec Zeus ?
+
+Choix: ['Jupiter et ses étoiles', 'Nom de l'équipage', 'Nom de l'auteur:', 'La planète Neptune']
+
+Réponse: Jupiter et ses étoiles"
+À quelle tradition le philosophe Laozi est- il associé?,world_religions,"['Le jaïnisme', 'Le bouddhisme', 'Le confucianisme', 'Taoïsme']",3,"Question: À quelle tradition le philosophe Laozi est- il associé?
+
+Choix: ['Le jaïnisme', 'Le bouddhisme', 'Le confucianisme', 'Taoïsme']
+
+Réponse: Taoïsme"
+Quels dieux égyptiens Akhenaton s'est- il résolument efforcé d'éliminer?,world_religions,"['Shu et Set', 'Horus et Isis', 'Amun et Mut', 'Khonsu et Nekhbet']",2,"Question: Quels dieux égyptiens Akhenaton s'est- il résolument efforcé d'éliminer?
+
+Choix: ['Shu et Set', 'Horus et Isis', 'Amun et Mut', 'Khonsu et Nekhbet']
+
+Réponse: Amun et Mut"
+Le terme xin désigne lequel des éléments suivants?,world_religions,"['La piété', 'La non-action', 'Le cœur et l'esprit', 'Le monde']",2,"Question: Le terme xin désigne lequel des éléments suivants?
+
+Choix: ['La piété', 'La non-action', 'Le cœur et l'esprit', 'Le monde']
+
+Réponse: Le cœur et l'esprit"
+Quel terme dans les textes dharma de la période classique désigne les quatre étapes de la vie ?,world_religions,"['Le Kama.', 'Le Samnyasin', 'Les ashrams', 'Autres espèces']",2,"Question: Quel terme dans les textes dharma de la période classique désigne les quatre étapes de la vie ?
+
+Choix: ['Le Kama.', 'Le Samnyasin', 'Les ashrams', 'Autres espèces']
+
+Réponse: Les ashrams"
+"Quel est le terme pour le commentaire sur le Coran, qui signifie ""dévoiler""?",world_religions,"['Le fiqh', 'Retour à l'accueil', 'le jeûne', 'Le Tafsir']",3,"Question: Quel est le terme pour le commentaire sur le Coran, qui signifie ""dévoiler""?
+
+Choix: ['Le fiqh', 'Retour à l'accueil', 'le jeûne', 'Le Tafsir']
+
+Réponse: Le Tafsir"
+À quelle branche de l'islam les Ismaélites sont- ils associés ?,world_religions,"['Les sunnites', 'Les chiites', 'Le soufi', 'Les Ahmadiyya']",1,"Question: À quelle branche de l'islam les Ismaélites sont- ils associés ?
+
+Choix: ['Les sunnites', 'Les chiites', 'Le soufi', 'Les Ahmadiyya']
+
+Réponse: Les chiites"
+Le terme mappo est associé à lequel des éléments suivants ?,world_religions,"['Le dharma', 'Un âge de déclin', 'L'âge d'or', 'Le samouraï']",1,"Question: Le terme mappo est associé à lequel des éléments suivants ?
+
+Choix: ['Le dharma', 'Un âge de déclin', 'L'âge d'or', 'Le samouraï']
+
+Réponse: Un âge de déclin"
+Quel est le nom du bodhisattva japonais connu pour son engagement à soulager la souffrance?,world_religions,"['Je ne sais pas.', 'Nom de famille: Izanami', 'Nom de famille', 'Autres espèces']",2,"Question: Quel est le nom du bodhisattva japonais connu pour son engagement à soulager la souffrance?
+
+Choix: ['Je ne sais pas.', 'Nom de famille: Izanami', 'Nom de famille', 'Autres espèces']
+
+Réponse: Nom de famille"
+Qui a été le premier ermite ancorite important ?,world_religions,"['Nom de l'espèce:', 'Je suis Athanase.', 'Je vous en prie .', 'Autres fruits et légumes']",2,"Question: Qui a été le premier ermite ancorite important ?
+
+Choix: ['Nom de l'espèce:', 'Je suis Athanase.', 'Je vous en prie .', 'Autres fruits et légumes']
+
+Réponse: Je vous en prie ."
+Quels sont les évangiles synoptiques?,world_religions,"['Pierre, Jean et Marc', 'Matthieu, Marc et Jean', 'Le livre de Matthieu, celui de Marc, celui de Luc', 'Jean, Luc et Marc']",2,"Question: Quels sont les évangiles synoptiques?
+
+Choix: ['Pierre, Jean et Marc', 'Matthieu, Marc et Jean', 'Le livre de Matthieu, celui de Marc, celui de Luc', 'Jean, Luc et Marc']
+
+Réponse: Le livre de Matthieu, celui de Marc, celui de Luc"
+Quel est le titre anglais du texte de divination également connu sous le nom de Yijing ?,world_religions,"['Le classique des documents', 'Le Sutra du Lotus', 'Le Sutra de la guirlande de fleurs', 'Le classique des changements']",3,"Question: Quel est le titre anglais du texte de divination également connu sous le nom de Yijing ?
+
+Choix: ['Le classique des documents', 'Le Sutra du Lotus', 'Le Sutra de la guirlande de fleurs', 'Le classique des changements']
+
+Réponse: Le classique des changements"
+Où était le site le plus célèbre des cultes mystérieux en Grèce ?,world_religions,"['Éphèse', 'La ville de Corinthe', 'Autriche', 'Éléusis']",3,"Question: Où était le site le plus célèbre des cultes mystérieux en Grèce ?
+
+Choix: ['Éphèse', 'La ville de Corinthe', 'Autriche', 'Éléusis']
+
+Réponse: Éléusis"
+"Quand la "" captivité "" babylonienne a- t- elle commencé?",world_religions,"['515 avant notre ère', '535 avant notre ère', '586 avant notre ère', '70 de notre ère']",2,"Question: Quand la "" captivité "" babylonienne a- t- elle commencé?
+
+Choix: ['515 avant notre ère', '535 avant notre ère', '586 avant notre ère', '70 de notre ère']
+
+Réponse: 586 avant notre ère"
+Le terme vajrya signifie diamant et lequel des suivants ?,world_religions,"['Émeraude', 'Il est brillant .', 'Un coup de foudre .', 'Éclairs']",2,"Question: Le terme vajrya signifie diamant et lequel des suivants ?
+
+Choix: ['Émeraude', 'Il est brillant .', 'Un coup de foudre .', 'Éclairs']
+
+Réponse: Un coup de foudre ."
+"Dans le jaïnisme, quel est le cycle dont il faut se libérer ?",world_religions,"['Le Punya', 'Le Samsara', 'Nom de famille', 'Le Jiva']",1,"Question: Dans le jaïnisme, quel est le cycle dont il faut se libérer ?
+
+Choix: ['Le Punya', 'Le Samsara', 'Nom de famille', 'Le Jiva']
+
+Réponse: Le Samsara"
+Par quel titre le Daodejing est- il connu en français?,world_religions,"['Classique des changements', 'Classique de la voie et du pouvoir', 'Classique des femmes', 'Classique de la philosophie']",1,"Question: Par quel titre le Daodejing est- il connu en français?
+
+Choix: ['Classique des changements', 'Classique de la voie et du pouvoir', 'Classique des femmes', 'Classique de la philosophie']
+
+Réponse: Classique de la voie et du pouvoir"
+Les Communidades de Base sont associées à laquelle des entités suivantes ?,world_religions,"['L' évêque Oscar Romero', 'Résistance et renouvellement', 'La dignité de tous les êtres humains', 'Tout ce qui précède']",3,"Question: Les Communidades de Base sont associées à laquelle des entités suivantes ?
+
+Choix: ['L' évêque Oscar Romero', 'Résistance et renouvellement', 'La dignité de tous les êtres humains', 'Tout ce qui précède']
+
+Réponse: Tout ce qui précède"
+Que signifie le terme matsuri ?,world_religions,"['Les amulettes', 'La méditation', 'Les rituels', 'Les grandes fêtes']",3,"Question: Que signifie le terme matsuri ?
+
+Choix: ['Les amulettes', 'La méditation', 'Les rituels', 'Les grandes fêtes']
+
+Réponse: Les grandes fêtes"
+Quel homme d'État romain a encouragé la religion civile dans son ouvrage Les lois?,world_religions,"['Nom de l'entreprise:', 'Je suis Platon.', 'Ce n'est pas vrai.', 'Le mois d'août']",2,"Question: Quel homme d'État romain a encouragé la religion civile dans son ouvrage Les lois?
+
+Choix: ['Nom de l'entreprise:', 'Je suis Platon.', 'Ce n'est pas vrai.', 'Le mois d'août']
+
+Réponse: Ce n'est pas vrai."
+"Que signifie ""Svetambara""?",world_religions,"['Vêtement du ciel', 'Elle est nue.', 'Vêtements blancs', 'Vêtés']",2,"Question: Que signifie ""Svetambara""?
+
+Choix: ['Vêtement du ciel', 'Elle est nue.', 'Vêtements blancs', 'Vêtés']
+
+Réponse: Vêtements blancs"
+Qu'est- ce que les Européens et de nombreux musulmans considèrent comme le symbole de l'islam?,world_religions,"['Le Hijab', 'Le croissant', 'Le minaret', 'Le Coran']",1,"Question: Qu'est- ce que les Européens et de nombreux musulmans considèrent comme le symbole de l'islam?
+
+Choix: ['Le Hijab', 'Le croissant', 'Le minaret', 'Le Coran']
+
+Réponse: Le croissant"
+Quel est le but d'entendre le Vak du Gourou le matin ?,world_religions,"['Prières en faveur de personnes n'appartenant pas à la communauté sikhe', 'La confession commune pour purifier la communauté', 'Inspiration pour la méditation personnelle tout au long de la journée', 'L'instruction doctrinale pour la discussion dans la communauté']",2,"Question: Quel est le but d'entendre le Vak du Gourou le matin ?
+
+Choix: ['Prières en faveur de personnes n'appartenant pas à la communauté sikhe', 'La confession commune pour purifier la communauté', 'Inspiration pour la méditation personnelle tout au long de la journée', 'L'instruction doctrinale pour la discussion dans la communauté']
+
+Réponse: Inspiration pour la méditation personnelle tout au long de la journée"
+Quels sont les commentaires rabbiniques produits après la publication de la Mishna?,world_religions,"['La Septante', 'Le Talmud', 'Une yeshiva', 'Nom de famille']",3,"Question: Quels sont les commentaires rabbiniques produits après la publication de la Mishna?
+
+Choix: ['La Septante', 'Le Talmud', 'Une yeshiva', 'Nom de famille']
+
+Réponse: Nom de famille"
+C'est quoi un mohel ?,world_religions,"['Une circoncisseuse rituelle', 'Un type de lame à huile', 'Un professeur .', 'Une alliance']",0,"Question: C'est quoi un mohel ?
+
+Choix: ['Une circoncisseuse rituelle', 'Un type de lame à huile', 'Un professeur .', 'Une alliance']
+
+Réponse: Une circoncisseuse rituelle"
+"Le ""Sermon des fleurs"" est associé à quelle forme de bouddhisme?",world_religions,"['Le theravada', 'Nom de famille Chan-Zen', 'Une terre pure', 'Le Yogicara']",1,"Question: Le ""Sermon des fleurs"" est associé à quelle forme de bouddhisme?
+
+Choix: ['Le theravada', 'Nom de famille Chan-Zen', 'Une terre pure', 'Le Yogicara']
+
+Réponse: Nom de famille Chan-Zen"
+"Quand les philosophes grecs, qui rejetaient la conception anthropomorphique du divin, firent- ils un changement majeur?",world_religions,"['Début du IIIe siècle avant notre ère', 'Deuxième et premier siècles avant notre ère', 'Fin du VIe siècle avant notre ère', 'Quatrième et troisième siècles avant notre ère']",2,"Question: Quand les philosophes grecs, qui rejetaient la conception anthropomorphique du divin, firent- ils un changement majeur?
+
+Choix: ['Début du IIIe siècle avant notre ère', 'Deuxième et premier siècles avant notre ère', 'Fin du VIe siècle avant notre ère', 'Quatrième et troisième siècles avant notre ère']
+
+Réponse: Fin du VIe siècle avant notre ère"
+Quelle est la principale raison de porter le hijab aujourd'hui?,world_religions,"['Identité islamique', 'La modestie islamique', 'Obéissance islamique', 'Isolement islamique']",0,"Question: Quelle est la principale raison de porter le hijab aujourd'hui?
+
+Choix: ['Identité islamique', 'La modestie islamique', 'Obéissance islamique', 'Isolement islamique']
+
+Réponse: Identité islamique"
+"La Torah orale, sous sa forme écrite, est connue sous quel nom?",world_religions,"['La Mishna', 'Le Midrash', 'Le Tanakh', 'Le Pentateuque']",0,"Question: La Torah orale, sous sa forme écrite, est connue sous quel nom?
+
+Choix: ['La Mishna', 'Le Midrash', 'Le Tanakh', 'Le Pentateuque']
+
+Réponse: La Mishna"
+Qu'est- ce qui a été au centre des traditions religieuses en Chine et en Corée?,world_religions,"['La paix et l'harmonie', 'Pouvoir et influence', 'La vérité et l'amour', 'La sagesse et l'éthique']",0,"Question: Qu'est- ce qui a été au centre des traditions religieuses en Chine et en Corée?
+
+Choix: ['La paix et l'harmonie', 'Pouvoir et influence', 'La vérité et l'amour', 'La sagesse et l'éthique']
+
+Réponse: La paix et l'harmonie"
+À qui les gens du peuple ont- ils fait appel pendant une sécheresse à l'époque de la dynastie Han ?,world_religions,"['Le Bouddha', 'Nom de famille', 'La Reine Mère de l'Ouest', 'C' est Confucius .']",2,"Question: À qui les gens du peuple ont- ils fait appel pendant une sécheresse à l'époque de la dynastie Han ?
+
+Choix: ['Le Bouddha', 'Nom de famille', 'La Reine Mère de l'Ouest', 'C' est Confucius .']
+
+Réponse: La Reine Mère de l'Ouest"
+Quel est le sens du terme théologique homoousios?,world_religions,"['d'une substance similaire', 'de la même substance', 'd'une substance similaire', 'de substance humaine']",1,"Question: Quel est le sens du terme théologique homoousios?
+
+Choix: ['d'une substance similaire', 'de la même substance', 'd'une substance similaire', 'de substance humaine']
+
+Réponse: de la même substance"
+"Selon le mythe d'origine japonais, qui donne naissance à Amaterasu de son œil gauche ?",world_religions,"['Il est', 'Nom de famille Izanagi', 'Nom de famille: Izanami', 'Je vous en prie .']",1,"Question: Selon le mythe d'origine japonais, qui donne naissance à Amaterasu de son œil gauche ?
+
+Choix: ['Il est', 'Nom de famille Izanagi', 'Nom de famille: Izanami', 'Je vous en prie .']
+
+Réponse: Nom de famille Izanagi"
+Le numen d'Auguste faisait référence à laquelle des caractéristiques suivantes ?,world_religions,"['La puissance divine', 'Virilité sexuelle', 'La perspicacité militaire', 'Intellect philosophique']",0,"Question: Le numen d'Auguste faisait référence à laquelle des caractéristiques suivantes ?
+
+Choix: ['La puissance divine', 'Virilité sexuelle', 'La perspicacité militaire', 'Intellect philosophique']
+
+Réponse: La puissance divine"
