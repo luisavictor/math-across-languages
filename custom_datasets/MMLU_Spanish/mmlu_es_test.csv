@@ -1,0 +1,676 @@
+question,subject,choices,answer,qa
+Una lesión que causa la compresión del nervio facial en el foramen estilomastoide causará ipsilateral,anatomy,"['parálisis de los músculos faciales.', 'parálisis de los músculos faciales y pérdida del gusto.', 'parálisis de los músculos faciales, pérdida del gusto y lacrimación.', 'parálisis de los músculos faciales, pérdida del gusto, lacrimación y disminución de la salivación.']",0,"Pregunta: Una lesión que causa la compresión del nervio facial en el foramen estilomastoide causará ipsilateral
+
+Opciones de respuesta: ['parálisis de los músculos faciales.', 'parálisis de los músculos faciales y pérdida del gusto.', 'parálisis de los músculos faciales, pérdida del gusto y lacrimación.', 'parálisis de los músculos faciales, pérdida del gusto, lacrimación y disminución de la salivación.']
+
+Respuesta: parálisis de los músculos faciales."
+"Un perfil de ""cara de plato"" a menudo se asocia con",anatomy,"['una mandíbula sobresaliente debido a la reactivación del cartílago condilar por acromegalia.', 'un maxilar recesivo debido a la falta de alargamiento de la base craneal.', 'un hueso frontal agrandado debido a la hidrocefalia.', 'Desarrollo defectuoso del seno aéreo maxilar.']",1,"Pregunta: Un perfil de ""cara de plato"" a menudo se asocia con
+
+Opciones de respuesta: ['una mandíbula sobresaliente debido a la reactivación del cartílago condilar por acromegalia.', 'un maxilar recesivo debido a la falta de alargamiento de la base craneal.', 'un hueso frontal agrandado debido a la hidrocefalia.', 'Desarrollo defectuoso del seno aéreo maxilar.']
+
+Respuesta: un maxilar recesivo debido a la falta de alargamiento de la base craneal."
+¿Cuál de las siguientes explica mejor la estructura que recoge la orina en el cuerpo?,anatomy,"['La vejiga', 'Riñón', 'El uretero', 'La uretra']",0,"Pregunta: ¿Cuál de las siguientes explica mejor la estructura que recoge la orina en el cuerpo?
+
+Opciones de respuesta: ['La vejiga', 'Riñón', 'El uretero', 'La uretra']
+
+Respuesta: La vejiga"
+¿Cuál de las siguientes estructuras se deriva del ectomesenquima?,anatomy,"['Las neuronas motoras', 'Los músculos esqueléticos', 'Los melanocitos', 'Glándulas sudoríparas']",2,"Pregunta: ¿Cuál de las siguientes estructuras se deriva del ectomesenquima?
+
+Opciones de respuesta: ['Las neuronas motoras', 'Los músculos esqueléticos', 'Los melanocitos', 'Glándulas sudoríparas']
+
+Respuesta: Los melanocitos"
+¿Cuál de las siguientes describe el grupo de capilares sanguíneos que se encuentran en cada nefrona en el riñón?,anatomy,"['Arteriola aferente', 'Glomérulos y sus derivados', 'Lazo de Henle', 'Cuenca renal']",1,"Pregunta: ¿Cuál de las siguientes describe el grupo de capilares sanguíneos que se encuentran en cada nefrona en el riñón?
+
+Opciones de respuesta: ['Arteriola aferente', 'Glomérulos y sus derivados', 'Lazo de Henle', 'Cuenca renal']
+
+Respuesta: Glomérulos y sus derivados"
+Un paciente sufre una fractura de cuello con daño en la médula espinal a nivel de la sexta vértebra cervical.,anatomy,"['No podrán respirar sin soporte vital.', 'Sólo podrán respirar tranquilamente.', 'Es imposible predecir un efecto sobre la respiración.', 'La respiración no se verá afectada.']",1,"Pregunta: Un paciente sufre una fractura de cuello con daño en la médula espinal a nivel de la sexta vértebra cervical.
+
+Opciones de respuesta: ['No podrán respirar sin soporte vital.', 'Sólo podrán respirar tranquilamente.', 'Es imposible predecir un efecto sobre la respiración.', 'La respiración no se verá afectada.']
+
+Respuesta: Sólo podrán respirar tranquilamente."
+¿Cuál de las siguientes regiones anatómicas del abdomen se encuentra justo distal al esternón?,anatomy,"['En el epigástrico', 'Hipocondríaco', 'Hipogástrico', 'En el área lumbar']",0,"Pregunta: ¿Cuál de las siguientes regiones anatómicas del abdomen se encuentra justo distal al esternón?
+
+Opciones de respuesta: ['En el epigástrico', 'Hipocondríaco', 'Hipogástrico', 'En el área lumbar']
+
+Respuesta: En el epigástrico"
+¿Cuál de las siguientes descripciones describe mejor el mecanismo de defensa del cuerpo humano contra las bacterias ambientales?,anatomy,"['El pelo en la nariz', 'Membranas mucosas', 'Los osteoblastos', 'La saliva']",1,"Pregunta: ¿Cuál de las siguientes descripciones describe mejor el mecanismo de defensa del cuerpo humano contra las bacterias ambientales?
+
+Opciones de respuesta: ['El pelo en la nariz', 'Membranas mucosas', 'Los osteoblastos', 'La saliva']
+
+Respuesta: Membranas mucosas"
+Los procesos palatinos comienzan a fusionarse en,anatomy,"['seis semanas después de la fecundación.', 'ocho semanas después de la fecundación.', 'diez semanas después de la fecundación.', '12 semanas después de la fecundación.']",2,"Pregunta: Los procesos palatinos comienzan a fusionarse en
+
+Opciones de respuesta: ['seis semanas después de la fecundación.', 'ocho semanas después de la fecundación.', 'diez semanas después de la fecundación.', '12 semanas después de la fecundación.']
+
+Respuesta: diez semanas después de la fecundación."
+La actividad de la corteza motora primaria resulta en,anatomy,"['contracción bilateral de los músculos de las extremidades antigravedad.', 'contracción bilateral de la musculatura de las extremidades.', 'contracción de la musculatura ipsilateral de las extremidades.', 'contracción de la musculatura contralateral de las extremidades.']",3,"Pregunta: La actividad de la corteza motora primaria resulta en
+
+Opciones de respuesta: ['contracción bilateral de los músculos de las extremidades antigravedad.', 'contracción bilateral de la musculatura de las extremidades.', 'contracción de la musculatura ipsilateral de las extremidades.', 'contracción de la musculatura contralateral de las extremidades.']
+
+Respuesta: contracción de la musculatura contralateral de las extremidades."
+Usted observa que los ganglios linfáticos submandibulares de su paciente están agrandados.,anatomy,"['el paladar duro.', 'el paladar duro y el labio superior.', 'el paladar duro, el labio superior y el incisivo central superior.', 'el paladar duro, el labio superior, el incisivo central superior y el primer molar inferior.']",3,"Pregunta: Usted observa que los ganglios linfáticos submandibulares de su paciente están agrandados.
+
+Opciones de respuesta: ['el paladar duro.', 'el paladar duro y el labio superior.', 'el paladar duro, el labio superior y el incisivo central superior.', 'el paladar duro, el labio superior, el incisivo central superior y el primer molar inferior.']
+
+Respuesta: el paladar duro, el labio superior, el incisivo central superior y el primer molar inferior."
+Un paciente sufre daño a la órbita en un accidente de tráfico que resulta en daño al tercer nervio craneal. ¿Cuál de los siguientes signos estará presente?,anatomy,"['Constricción de las pupilas y un estrabismo medial', 'Dilatación de las pupilas y un estrabismo medial', 'Constricción de las pupilas y un estrabismo lateral', 'Dilatación de las pupilas y estrabismo lateral']",3,"Pregunta: Un paciente sufre daño a la órbita en un accidente de tráfico que resulta en daño al tercer nervio craneal. ¿Cuál de los siguientes signos estará presente?
+
+Opciones de respuesta: ['Constricción de las pupilas y un estrabismo medial', 'Dilatación de las pupilas y un estrabismo medial', 'Constricción de las pupilas y un estrabismo lateral', 'Dilatación de las pupilas y estrabismo lateral']
+
+Respuesta: Dilatación de las pupilas y estrabismo lateral"
+¿Cuál de las siguientes afirmaciones es cierta para la articulación temporomandibular?,anatomy,"['Tiene un disco articular de cartílago hialino', 'Sus superficies articulares están cubiertas por cartílago hialino', 'La información propioceptiva es llevada por el chorda tímpano y los nervios temporales profundos', 'La información propioceptiva es llevada por los nervios masetérico y auriculotemporal.']",3,"Pregunta: ¿Cuál de las siguientes afirmaciones es cierta para la articulación temporomandibular?
+
+Opciones de respuesta: ['Tiene un disco articular de cartílago hialino', 'Sus superficies articulares están cubiertas por cartílago hialino', 'La información propioceptiva es llevada por el chorda tímpano y los nervios temporales profundos', 'La información propioceptiva es llevada por los nervios masetérico y auriculotemporal.']
+
+Respuesta: La información propioceptiva es llevada por los nervios masetérico y auriculotemporal."
+El examen laringoscópico de las cuerdas vocales después de la sospecha de daño recurrente del nervio laríngeo generalmente muestra que la cuerdas vocales en el lado lesionado está tensa y en una posición intermedia entre la adducción y la abducción Esto es porque,anatomy,"['El músculo cricotiroideo sigue siendo funcional pero los músculos interarretenoides están completamente activos.', 'El músculo cricothyroid todavía es funcional pero los interarytenoids son débiles.', 'El músculo cricotiroideo está paralizado pero los interartenoides están completamente activos.', 'El músculo cricotiroideo está paralizado pero los interartenoides están débiles.']",1,"Pregunta: El examen laringoscópico de las cuerdas vocales después de la sospecha de daño recurrente del nervio laríngeo generalmente muestra que la cuerdas vocales en el lado lesionado está tensa y en una posición intermedia entre la adducción y la abducción Esto es porque
+
+Opciones de respuesta: ['El músculo cricotiroideo sigue siendo funcional pero los músculos interarretenoides están completamente activos.', 'El músculo cricothyroid todavía es funcional pero los interarytenoids son débiles.', 'El músculo cricotiroideo está paralizado pero los interartenoides están completamente activos.', 'El músculo cricotiroideo está paralizado pero los interartenoides están débiles.']
+
+Respuesta: El músculo cricothyroid todavía es funcional pero los interarytenoids son débiles."
+¿Cuál de las siguientes afirmaciones sobre el crecimiento de la mandíbula es correcta?,anatomy,"['La sínfisis mental se cierra alrededor de 1 año después del parto', 'El cartílago de crecimiento condilar cesa su actividad en la pubertad', 'El centro de osificación aparece alrededor de 8 semanas I.U.L medial al cartílago de Meckel', 'La matriz funcional que actúa sobre el ángulo de la mandíbula es el músculo pterigoide lateral']",0,"Pregunta: ¿Cuál de las siguientes afirmaciones sobre el crecimiento de la mandíbula es correcta?
+
+Opciones de respuesta: ['La sínfisis mental se cierra alrededor de 1 año después del parto', 'El cartílago de crecimiento condilar cesa su actividad en la pubertad', 'El centro de osificación aparece alrededor de 8 semanas I.U.L medial al cartílago de Meckel', 'La matriz funcional que actúa sobre el ángulo de la mandíbula es el músculo pterigoide lateral']
+
+Respuesta: La sínfisis mental se cierra alrededor de 1 año después del parto"
+¿Cuál de las siguientes afirmaciones es cierta sobre el reflejo de la luz pupillar?,anatomy,"['Su miembro eferente es llevado por el nervio óptico.', 'Es mediada por los cólicos inferiores en el cerebro medio.', 'Es un reflejo consensual.', 'Su miembro aferente es llevado por el nervio oculomotor .']",2,"Pregunta: ¿Cuál de las siguientes afirmaciones es cierta sobre el reflejo de la luz pupillar?
+
+Opciones de respuesta: ['Su miembro eferente es llevado por el nervio óptico.', 'Es mediada por los cólicos inferiores en el cerebro medio.', 'Es un reflejo consensual.', 'Su miembro aferente es llevado por el nervio oculomotor .']
+
+Respuesta: Es un reflejo consensual."
+¿Qué músculos están normalmente activos durante la inspiración silenciosa?,anatomy,"['Músculos intercostales externos y internos', 'Músculos intercostales externos y el diafragma', 'Músculos intercostales internos y el diafragma', 'Músculos intercostales externos e internos y el diafragma']",1,"Pregunta: ¿Qué músculos están normalmente activos durante la inspiración silenciosa?
+
+Opciones de respuesta: ['Músculos intercostales externos y internos', 'Músculos intercostales externos y el diafragma', 'Músculos intercostales internos y el diafragma', 'Músculos intercostales externos e internos y el diafragma']
+
+Respuesta: Músculos intercostales externos y el diafragma"
+¿Cuál de las siguientes produce las hormonas masculinas?,anatomy,"['Glándulas del pene', 'El prepucio', 'La próstata', 'Pruebas']",3,"Pregunta: ¿Cuál de las siguientes produce las hormonas masculinas?
+
+Opciones de respuesta: ['Glándulas del pene', 'El prepucio', 'La próstata', 'Pruebas']
+
+Respuesta: Pruebas"
+¿Cuál de las siguientes estructuras lleva la sangre oxigenada al corazón?,anatomy,"['La aorta', 'Arterias carótidas', 'Vena cava inferior', 'Las venas pulmonares']",3,"Pregunta: ¿Cuál de las siguientes estructuras lleva la sangre oxigenada al corazón?
+
+Opciones de respuesta: ['La aorta', 'Arterias carótidas', 'Vena cava inferior', 'Las venas pulmonares']
+
+Respuesta: Las venas pulmonares"
+¿Cuál de los siguientes permite que el aire pase a los pulmones?,anatomy,"['La aorta', 'Esófago', 'Tráqueas', 'El páncreas']",2,"Pregunta: ¿Cuál de los siguientes permite que el aire pase a los pulmones?
+
+Opciones de respuesta: ['La aorta', 'Esófago', 'Tráqueas', 'El páncreas']
+
+Respuesta: Tráqueas"
+¿Dónde se encuentra el nodo sinoatrial?,anatomy,"['Entre la aurícula izquierda y el ventrículo izquierdo', 'Entre la aurícula derecha y el ventrículo derecho', 'En la pared superior de la aurícula derecha', 'En la pared superior del ventrículo izquierdo']",2,"Pregunta: ¿Dónde se encuentra el nodo sinoatrial?
+
+Opciones de respuesta: ['Entre la aurícula izquierda y el ventrículo izquierdo', 'Entre la aurícula derecha y el ventrículo derecho', 'En la pared superior de la aurícula derecha', 'En la pared superior del ventrículo izquierdo']
+
+Respuesta: En la pared superior de la aurícula derecha"
+"En relación con la costilla, el nervio intercostal correspondiente se encuentra",anatomy,"['profundo hasta su borde superior.', 'superficial hasta su borde superior.', 'profundo hasta su borde inferior.', 'superficial hasta su borde inferior.']",2,"Pregunta: En relación con la costilla, el nervio intercostal correspondiente se encuentra
+
+Opciones de respuesta: ['profundo hasta su borde superior.', 'superficial hasta su borde superior.', 'profundo hasta su borde inferior.', 'superficial hasta su borde inferior.']
+
+Respuesta: profundo hasta su borde inferior."
+El drenaje linfático regional del lado izquierdo de la punta de la lengua,anatomy,"['el ganglio linfático submental izquierdo.', 'los ganglios linfáticos submentales izquierdo y derecho.', 'el ganglio linfático submandibular izquierdo.', 'los ganglios linfáticos submandibulares izquierdo y derecho.']",1,"Pregunta: El drenaje linfático regional del lado izquierdo de la punta de la lengua
+
+Opciones de respuesta: ['el ganglio linfático submental izquierdo.', 'los ganglios linfáticos submentales izquierdo y derecho.', 'el ganglio linfático submandibular izquierdo.', 'los ganglios linfáticos submandibulares izquierdo y derecho.']
+
+Respuesta: los ganglios linfáticos submentales izquierdo y derecho."
+La gastrulación es el proceso de,anatomy,"['la formación del mesodermo y se produce después de la neurulación.', 'La formación de ectomesenquima ocurre antes de la neurulación.', 'la formación del mesodermo y se produce antes de la neurulación.', 'Formación de ectomesenquima y ocurre después de la neurulación.']",1,"Pregunta: La gastrulación es el proceso de
+
+Opciones de respuesta: ['la formación del mesodermo y se produce después de la neurulación.', 'La formación de ectomesenquima ocurre antes de la neurulación.', 'la formación del mesodermo y se produce antes de la neurulación.', 'Formación de ectomesenquima y ocurre después de la neurulación.']
+
+Respuesta: La formación de ectomesenquima ocurre antes de la neurulación."
+La sincondrosis esfeno-occipital,anatomy,"['es un cartílago de crecimiento secundario.', 'influye en la posición del viscerocráneo.', 'cesa su actividad a los 7 años de edad.', 'puede reactivarse en pacientes afectados por acromegalia.']",1,"Pregunta: La sincondrosis esfeno-occipital
+
+Opciones de respuesta: ['es un cartílago de crecimiento secundario.', 'influye en la posición del viscerocráneo.', 'cesa su actividad a los 7 años de edad.', 'puede reactivarse en pacientes afectados por acromegalia.']
+
+Respuesta: influye en la posición del viscerocráneo."
+¿Cuál de las siguientes sustancias se encuentra en mayor cantidad en el aire exhalado?,anatomy,"['Dióxido de carbono', 'Monóxido de carbono', 'El nitrógeno', 'Oxígeno']",2,"Pregunta: ¿Cuál de las siguientes sustancias se encuentra en mayor cantidad en el aire exhalado?
+
+Opciones de respuesta: ['Dióxido de carbono', 'Monóxido de carbono', 'El nitrógeno', 'Oxígeno']
+
+Respuesta: El nitrógeno"
+¿Cuál de las siguientes condiciones se caracteriza por la presencia de cálculos renales?,anatomy,"['Glomerulonefritis y otras enfermedades infecciosas', 'Nefritis intersticial', 'Enfermedad de las glándulas sebáceas', 'Riñón poliquístico']",2,"Pregunta: ¿Cuál de las siguientes condiciones se caracteriza por la presencia de cálculos renales?
+
+Opciones de respuesta: ['Glomerulonefritis y otras enfermedades infecciosas', 'Nefritis intersticial', 'Enfermedad de las glándulas sebáceas', 'Riñón poliquístico']
+
+Respuesta: Enfermedad de las glándulas sebáceas"
+Se puede sentir un pulso en la cara de un paciente donde el,anatomy,"['La arteria facial cruza la mandíbula.', 'La arteria facial cruza el maxilar.', 'La arteria temporal superficial cruza el maxilar.', 'La arteria temporal superficial cruza el borde orbital.']",0,"Pregunta: Se puede sentir un pulso en la cara de un paciente donde el
+
+Opciones de respuesta: ['La arteria facial cruza la mandíbula.', 'La arteria facial cruza el maxilar.', 'La arteria temporal superficial cruza el maxilar.', 'La arteria temporal superficial cruza el borde orbital.']
+
+Respuesta: La arteria facial cruza la mandíbula."
+Un paciente sufre un traumatismo grave en la parte superior izquierda del abdomen y requiere cirugía. ¿Cuál de los siguientes órganos es más probable que esté involucrado?,anatomy,"['Apéndice', 'La vesícula biliar', 'Mejora del riñón', 'La vejiga urinaria']",2,"Pregunta: Un paciente sufre un traumatismo grave en la parte superior izquierda del abdomen y requiere cirugía. ¿Cuál de los siguientes órganos es más probable que esté involucrado?
+
+Opciones de respuesta: ['Apéndice', 'La vesícula biliar', 'Mejora del riñón', 'La vejiga urinaria']
+
+Respuesta: Mejora del riñón"
+¿Qué afirmación con respecto al haz atrioventricular es correcta?,anatomy,"['Está formado por procesos nerviosos autónomos y es la única conexión eléctrica entre las aurículas y los ventrículos.', 'Está formado por fibras de Purkinje y es la única conexión eléctrica entre las aurículas y los ventrículos', 'Está formado por procesos nerviosos autónomos y forma una de varias conexiones eléctricas entre las aurículas y los ventrículos.', 'Está formado por fibras de Purkinje y forma una de varias conexiones eléctricas entre las aurículas y los ventrículos.']",1,"Pregunta: ¿Qué afirmación con respecto al haz atrioventricular es correcta?
+
+Opciones de respuesta: ['Está formado por procesos nerviosos autónomos y es la única conexión eléctrica entre las aurículas y los ventrículos.', 'Está formado por fibras de Purkinje y es la única conexión eléctrica entre las aurículas y los ventrículos', 'Está formado por procesos nerviosos autónomos y forma una de varias conexiones eléctricas entre las aurículas y los ventrículos.', 'Está formado por fibras de Purkinje y forma una de varias conexiones eléctricas entre las aurículas y los ventrículos.']
+
+Respuesta: Está formado por fibras de Purkinje y es la única conexión eléctrica entre las aurículas y los ventrículos"
+¿Cuál de los siguientes términos describe el movimiento de doblar el antebrazo hacia el cuerpo?,anatomy,"['Secuestro', 'Pérdida de peso', 'Flexión', 'Pronación']",2,"Pregunta: ¿Cuál de los siguientes términos describe el movimiento de doblar el antebrazo hacia el cuerpo?
+
+Opciones de respuesta: ['Secuestro', 'Pérdida de peso', 'Flexión', 'Pronación']
+
+Respuesta: Flexión"
+Se evita que los alimentos entren en la laringe durante la fase faríngea de la deglución,anatomy,"['constricción de la entrada laríngea.', 'movimiento hacia arriba de la epiglotis.', 'movimiento hacia abajo de la laringe.', 'aumento de la frecuencia respiratoria.']",0,"Pregunta: Se evita que los alimentos entren en la laringe durante la fase faríngea de la deglución
+
+Opciones de respuesta: ['constricción de la entrada laríngea.', 'movimiento hacia arriba de la epiglotis.', 'movimiento hacia abajo de la laringe.', 'aumento de la frecuencia respiratoria.']
+
+Respuesta: constricción de la entrada laríngea."
+¿En cuál de los siguientes lugares entra la bilis en el tracto digestivo?,anatomy,"['Esfínter gastroesofágico', 'El duodeno', 'Ileocecum y sus derivados', 'Jejunum, también conocido como']",1,"Pregunta: ¿En cuál de los siguientes lugares entra la bilis en el tracto digestivo?
+
+Opciones de respuesta: ['Esfínter gastroesofágico', 'El duodeno', 'Ileocecum y sus derivados', 'Jejunum, también conocido como']
+
+Respuesta: El duodeno"
+¿En cuál de las siguientes posiciones se acuesta el paciente boca abajo?,anatomy,"['En el dorso', 'En posición erguida', 'En el lateral', 'Inclinado']",1,"Pregunta: ¿En cuál de las siguientes posiciones se acuesta el paciente boca abajo?
+
+Opciones de respuesta: ['En el dorso', 'En posición erguida', 'En el lateral', 'Inclinado']
+
+Respuesta: En posición erguida"
+El paladar hendido bilateral completo se debe a la falta de fusión de la,anatomy,"['Procesos del paladar.', 'Procesos palatinos y frontales nasales.', 'Procesos nasales palatinos, frontonasales y secundarios.', 'los procesos nasales palatinos, frontonasales, secundarios y los procesos mandibulares.']",2,"Pregunta: El paladar hendido bilateral completo se debe a la falta de fusión de la
+
+Opciones de respuesta: ['Procesos del paladar.', 'Procesos palatinos y frontales nasales.', 'Procesos nasales palatinos, frontonasales y secundarios.', 'los procesos nasales palatinos, frontonasales, secundarios y los procesos mandibulares.']
+
+Respuesta: Procesos nasales palatinos, frontonasales y secundarios."
+El tubo auditivo,anatomy,"['conecta el oído interno y la nasofaringe.', 'se deriva de la segunda bolsa faríngea.', 'se abre por la acción del levator veli palatini.', 'está cerrado por la acción del tensor veli palatini.']",2,"Pregunta: El tubo auditivo
+
+Opciones de respuesta: ['conecta el oído interno y la nasofaringe.', 'se deriva de la segunda bolsa faríngea.', 'se abre por la acción del levator veli palatini.', 'está cerrado por la acción del tensor veli palatini.']
+
+Respuesta: se abre por la acción del levator veli palatini."
+¿Cuál de los siguientes es el órgano linfoide que es un depósito de glóbulos rojos y filtra los organismos de la sangre?,anatomy,"['Apéndice', 'La vesícula biliar', 'El páncreas', 'Mejora del riñón']",3,"Pregunta: ¿Cuál de los siguientes es el órgano linfoide que es un depósito de glóbulos rojos y filtra los organismos de la sangre?
+
+Opciones de respuesta: ['Apéndice', 'La vesícula biliar', 'El páncreas', 'Mejora del riñón']
+
+Respuesta: Mejora del riñón"
+¿Cuáles de las siguientes cavidades están separadas por el diafragma?,anatomy,"['Abdominal y pélvica', 'Cráneo y espina dorsal', 'Estímulo torácico y abdominal', 'Pericardial y pleural']",2,"Pregunta: ¿Cuáles de las siguientes cavidades están separadas por el diafragma?
+
+Opciones de respuesta: ['Abdominal y pélvica', 'Cráneo y espina dorsal', 'Estímulo torácico y abdominal', 'Pericardial y pleural']
+
+Respuesta: Estímulo torácico y abdominal"
+Las paredes de los bronquiolos contienen,anatomy,"['el cartílago, el músculo liso y el epitelio respiratorio.', 'el cartílago y el músculo liso.', 'el cartílago y el epitelio respiratorio.', 'el músculo liso y el epitelio respiratorio.']",3,"Pregunta: Las paredes de los bronquiolos contienen
+
+Opciones de respuesta: ['el cartílago, el músculo liso y el epitelio respiratorio.', 'el cartílago y el músculo liso.', 'el cartílago y el epitelio respiratorio.', 'el músculo liso y el epitelio respiratorio.']
+
+Respuesta: el músculo liso y el epitelio respiratorio."
+"¿Cuál de los siguientes órganos elimina la bilirrubina de la sangre, fabrica las proteínas plasmáticas y participa en la producción de protrombina y fibrinógeno?",anatomy,"['La vesícula biliar', 'Riñón', 'Hígado', 'Mejora del riñón']",2,"Pregunta: ¿Cuál de los siguientes órganos elimina la bilirrubina de la sangre, fabrica las proteínas plasmáticas y participa en la producción de protrombina y fibrinógeno?
+
+Opciones de respuesta: ['La vesícula biliar', 'Riñón', 'Hígado', 'Mejora del riñón']
+
+Respuesta: Hígado"
+¿Cuál de las siguientes condiciones se caracteriza por la incompetencia del esfínter esofágico?,anatomy,"['Enfermedad de Crohn', 'Varices del esófago', 'Enfermedad por reflujo gastroesofágico', 'Estenosis pilórica']",2,"Pregunta: ¿Cuál de las siguientes condiciones se caracteriza por la incompetencia del esfínter esofágico?
+
+Opciones de respuesta: ['Enfermedad de Crohn', 'Varices del esófago', 'Enfermedad por reflujo gastroesofágico', 'Estenosis pilórica']
+
+Respuesta: Enfermedad por reflujo gastroesofágico"
+Los músculos del paladar blando están inervados por ramas del,anatomy,"['los nervios trigémino y glossofaríngeo.', 'nervios faciales y glossofaríngeos.', 'los nervios trigémino y vago.', 'los nervios facial y vago.']",2,"Pregunta: Los músculos del paladar blando están inervados por ramas del
+
+Opciones de respuesta: ['los nervios trigémino y glossofaríngeo.', 'nervios faciales y glossofaríngeos.', 'los nervios trigémino y vago.', 'los nervios facial y vago.']
+
+Respuesta: los nervios trigémino y vago."
+¿Cuál de los siguientes es el hueso grande que se encuentra superior a la rótula y inferior al isquion?,anatomy,"['Calcanero', 'El fémur', 'Sinfisis púbica', 'Cuello delantero']",1,"Pregunta: ¿Cuál de los siguientes es el hueso grande que se encuentra superior a la rótula y inferior al isquion?
+
+Opciones de respuesta: ['Calcanero', 'El fémur', 'Sinfisis púbica', 'Cuello delantero']
+
+Respuesta: El fémur"
+Un bloqueo exitoso del nervio alveolar inferior producirá la anestesia del,anatomy,"['el labio inferior.', 'el labio inferior y los dientes mandibulares.', 'el labio inferior, los dientes mandibulares y las encías labiales de los dientes mandibulares anteriores.', 'el labio inferior, los dientes mandibulares y las encías labiales de los dientes mandibulares anteriores y las encías bucales de los dientes mandibulares posteriores.']",2,"Pregunta: Un bloqueo exitoso del nervio alveolar inferior producirá la anestesia del
+
+Opciones de respuesta: ['el labio inferior.', 'el labio inferior y los dientes mandibulares.', 'el labio inferior, los dientes mandibulares y las encías labiales de los dientes mandibulares anteriores.', 'el labio inferior, los dientes mandibulares y las encías labiales de los dientes mandibulares anteriores y las encías bucales de los dientes mandibulares posteriores.']
+
+Respuesta: el labio inferior, los dientes mandibulares y las encías labiales de los dientes mandibulares anteriores."
+La mucosa de la laringe superior es innervada por el,anatomy,"['el nervio laríngeo interno que es el miembro aferente del reflejo de la tos.', 'el nervio laríngeo externo que es el miembro aferente del reflejo de mordaza.', 'el nervio laríngeo interno que es el miembro aferente del reflejo de náusea.', 'el nervio laríngeo externo que es el miembro aferente del reflejo de la tos.']",0,"Pregunta: La mucosa de la laringe superior es innervada por el
+
+Opciones de respuesta: ['el nervio laríngeo interno que es el miembro aferente del reflejo de la tos.', 'el nervio laríngeo externo que es el miembro aferente del reflejo de mordaza.', 'el nervio laríngeo interno que es el miembro aferente del reflejo de náusea.', 'el nervio laríngeo externo que es el miembro aferente del reflejo de la tos.']
+
+Respuesta: el nervio laríngeo interno que es el miembro aferente del reflejo de la tos."
+Los huesos del viscerocráneo se desarrollan inicialmente por,anatomy,"['la ossificación endocondral y seguir el patrón de crecimiento somático.', 'la ossificación endocondral y seguir el patrón de crecimiento neural.', 'la ossificación intramembranosa y seguir el patrón de crecimiento somático.', 'la ossificación intramembranosa y seguir el patrón de crecimiento neural.']",2,"Pregunta: Los huesos del viscerocráneo se desarrollan inicialmente por
+
+Opciones de respuesta: ['la ossificación endocondral y seguir el patrón de crecimiento somático.', 'la ossificación endocondral y seguir el patrón de crecimiento neural.', 'la ossificación intramembranosa y seguir el patrón de crecimiento somático.', 'la ossificación intramembranosa y seguir el patrón de crecimiento neural.']
+
+Respuesta: la ossificación intramembranosa y seguir el patrón de crecimiento somático."
+El médico le indica al asistente médico que complete un formulario de solicitud para un estudio de rayos X del peroné. ¿En cuál de las siguientes estructuras se realizará el procedimiento?,anatomy,"['El talón', 'Baja pierna', 'Dedos de los pies', 'Piel y muslo']",1,"Pregunta: El médico le indica al asistente médico que complete un formulario de solicitud para un estudio de rayos X del peroné. ¿En cuál de las siguientes estructuras se realizará el procedimiento?
+
+Opciones de respuesta: ['El talón', 'Baja pierna', 'Dedos de los pies', 'Piel y muslo']
+
+Respuesta: Baja pierna"
+¿Qué células de la sangre no tienen núcleo?,anatomy,"['El linfocito', 'El monocito', 'Erythrocyte (Erythrocyte en inglés)', 'Basófilo']",2,"Pregunta: ¿Qué células de la sangre no tienen núcleo?
+
+Opciones de respuesta: ['El linfocito', 'El monocito', 'Erythrocyte (Erythrocyte en inglés)', 'Basófilo']
+
+Respuesta: Erythrocyte (Erythrocyte en inglés)"
+La sutura coronal une el,anatomy,"['huesos frontales y parietales.', 'huesos parietales izquierdo y derecho.', 'huesos parietales y occipitales.', 'el parietal, el temporal escamoso y el ala superior del esfenoide.']",0,"Pregunta: La sutura coronal une el
+
+Opciones de respuesta: ['huesos frontales y parietales.', 'huesos parietales izquierdo y derecho.', 'huesos parietales y occipitales.', 'el parietal, el temporal escamoso y el ala superior del esfenoide.']
+
+Respuesta: huesos frontales y parietales."
+"Si usted pasa su dedo por la línea media anterior del cuello extendido de un paciente de la barbilla a la muesca del esternón, usted debe ser capaz de palpar, con el fin,",anatomy,"['El hueso hioide, el cartílago cricoide, el cartílago tiroideo.', 'el cartílago tiroideo, el cartílago cricoide, el hueso hioide.', 'El hueso hioide, el cartílago tiroideo, el cartílago cricoide.', 'el cartílago tiroideo, el hueso hioide, el cartílago cricoide.']",2,"Pregunta: Si usted pasa su dedo por la línea media anterior del cuello extendido de un paciente de la barbilla a la muesca del esternón, usted debe ser capaz de palpar, con el fin,
+
+Opciones de respuesta: ['El hueso hioide, el cartílago cricoide, el cartílago tiroideo.', 'el cartílago tiroideo, el cartílago cricoide, el hueso hioide.', 'El hueso hioide, el cartílago tiroideo, el cartílago cricoide.', 'el cartílago tiroideo, el hueso hioide, el cartílago cricoide.']
+
+Respuesta: El hueso hioide, el cartílago tiroideo, el cartílago cricoide."
+¿Cuál de las siguientes estructuras óseas se puede palpar en un paciente vivo?,anatomy,"['El foramen supraorbital', 'El agujero infraorbital', 'El foramen mental', 'Todo lo anterior']",3,"Pregunta: ¿Cuál de las siguientes estructuras óseas se puede palpar en un paciente vivo?
+
+Opciones de respuesta: ['El foramen supraorbital', 'El agujero infraorbital', 'El foramen mental', 'Todo lo anterior']
+
+Respuesta: Todo lo anterior"
+¿Cuál de las siguientes estructuras acompaña al esófago a través del diafragma?,anatomy,"['Los nervios frénicos', 'Los nervios esplancánicos', 'Los troncos simpáticos', 'Los nervios vagos']",3,"Pregunta: ¿Cuál de las siguientes estructuras acompaña al esófago a través del diafragma?
+
+Opciones de respuesta: ['Los nervios frénicos', 'Los nervios esplancánicos', 'Los troncos simpáticos', 'Los nervios vagos']
+
+Respuesta: Los nervios vagos"
+¿Qué secuencia describe la circulación sistémica?,anatomy,"['Ventrículo izquierdo → aorta → arterias → venas → capilares', 'Ventrículo izquierdo → aorta → arterias → capilares → venas', 'Ventrículo derecho → tronco pulmonar → arterias → capilares → venas', 'Ventrículo derecho → tronco pulmonar → arterias → venas → capilares']",1,"Pregunta: ¿Qué secuencia describe la circulación sistémica?
+
+Opciones de respuesta: ['Ventrículo izquierdo → aorta → arterias → venas → capilares', 'Ventrículo izquierdo → aorta → arterias → capilares → venas', 'Ventrículo derecho → tronco pulmonar → arterias → capilares → venas', 'Ventrículo derecho → tronco pulmonar → arterias → venas → capilares']
+
+Respuesta: Ventrículo izquierdo → aorta → arterias → capilares → venas"
+La ubicación anatómica del canal espinal es,anatomy,"['el caudal', 'en el dorso', 'frontales', 'transversal']",1,"Pregunta: La ubicación anatómica del canal espinal es
+
+Opciones de respuesta: ['el caudal', 'en el dorso', 'frontales', 'transversal']
+
+Respuesta: en el dorso"
+El conducto parótido corre,anatomy,"['profundamente hacia el masetor y entra en la boca frente al segundo molar superior.', 'superficial al masetor y entra en la boca frente al segundo molar superior.', 'profundamente hacia el masetor y entra en la boca frente al segundo premolar superior.', 'superficial al masetor y entra en la boca frente al segundo premolar superior.']",1,"Pregunta: El conducto parótido corre
+
+Opciones de respuesta: ['profundamente hacia el masetor y entra en la boca frente al segundo molar superior.', 'superficial al masetor y entra en la boca frente al segundo molar superior.', 'profundamente hacia el masetor y entra en la boca frente al segundo premolar superior.', 'superficial al masetor y entra en la boca frente al segundo premolar superior.']
+
+Respuesta: superficial al masetor y entra en la boca frente al segundo molar superior."
+"Si el pie es secuestrado, ¿en qué dirección se mueve?",anatomy,"['Hacia adentro', 'Hacia afuera', 'Hacia arriba', 'Hacia abajo']",3,"Pregunta: Si el pie es secuestrado, ¿en qué dirección se mueve?
+
+Opciones de respuesta: ['Hacia adentro', 'Hacia afuera', 'Hacia arriba', 'Hacia abajo']
+
+Respuesta: Hacia abajo"
+El nervio infraorbital,anatomy,"['es una rama terminal de la división maxilar del nervio trigémino.', 'es una rama terminal de la rama maxilar del nervio facial.', 'lleva neuronas motoras parasimpáticas secretadas a la glándula lagrimal.', 'Innerva la parte inferior del músculo orbicular ocular.']",0,"Pregunta: El nervio infraorbital
+
+Opciones de respuesta: ['es una rama terminal de la división maxilar del nervio trigémino.', 'es una rama terminal de la rama maxilar del nervio facial.', 'lleva neuronas motoras parasimpáticas secretadas a la glándula lagrimal.', 'Innerva la parte inferior del músculo orbicular ocular.']
+
+Respuesta: es una rama terminal de la división maxilar del nervio trigémino."
+¿Cuál de las siguientes descripciones describe mejor el proceso por el cual los músculos del estómago se contraen para impulsar los alimentos a través del tracto digestivo?,anatomy,"['Absorción', 'Emulsión', 'Peristaltismo', 'Regurgitación']",2,"Pregunta: ¿Cuál de las siguientes descripciones describe mejor el proceso por el cual los músculos del estómago se contraen para impulsar los alimentos a través del tracto digestivo?
+
+Opciones de respuesta: ['Absorción', 'Emulsión', 'Peristaltismo', 'Regurgitación']
+
+Respuesta: Peristaltismo"
+¿Cuál de los siguientes es el punto en el que un impulso se transmite de una neurona a otra neurona?,anatomy,"['Dendritas', 'Célula gliales', 'El centro nervioso', 'Sinapsis']",3,"Pregunta: ¿Cuál de los siguientes es el punto en el que un impulso se transmite de una neurona a otra neurona?
+
+Opciones de respuesta: ['Dendritas', 'Célula gliales', 'El centro nervioso', 'Sinapsis']
+
+Respuesta: Sinapsis"
+¿Cuál de los siguientes músculos inicia la elevación de la mandíbula?,anatomy,"['Masseter y sus derivados', 'Temporalis y sus derivados', 'Pterigoide lateral', 'El pterigoide medial.']",3,"Pregunta: ¿Cuál de los siguientes músculos inicia la elevación de la mandíbula?
+
+Opciones de respuesta: ['Masseter y sus derivados', 'Temporalis y sus derivados', 'Pterigoide lateral', 'El pterigoide medial.']
+
+Respuesta: El pterigoide medial."
+¿Cuál de los siguientes es un órgano accesorio del sistema gastrointestinal que es responsable de la secreción de insulina?,anatomy,"['Glándula suprarrenal', 'La vesícula biliar', 'Hígado', 'El páncreas']",3,"Pregunta: ¿Cuál de los siguientes es un órgano accesorio del sistema gastrointestinal que es responsable de la secreción de insulina?
+
+Opciones de respuesta: ['Glándula suprarrenal', 'La vesícula biliar', 'Hígado', 'El páncreas']
+
+Respuesta: El páncreas"
+Un tumor maligno está dañando el nervio glossofaríngeo del paciente.,anatomy,"['pérdida del gusto en los dos tercios anteriores de la lengua.', 'pérdida de la sensibilidad somática en los dos tercios anteriores de la lengua.', 'pérdida del gusto y de la sensibilidad somática en el tercio posterior de la lengua.', 'parálisis de los músculos de la lengua.']",2,"Pregunta: Un tumor maligno está dañando el nervio glossofaríngeo del paciente.
+
+Opciones de respuesta: ['pérdida del gusto en los dos tercios anteriores de la lengua.', 'pérdida de la sensibilidad somática en los dos tercios anteriores de la lengua.', 'pérdida del gusto y de la sensibilidad somática en el tercio posterior de la lengua.', 'parálisis de los músculos de la lengua.']
+
+Respuesta: pérdida del gusto y de la sensibilidad somática en el tercio posterior de la lengua."
+Un posible efecto de daño al tercer nervio craneal por trauma a la órbita es,anatomy,"['un estrabismo convergente.', 'la ptosis.', 'contracción de las pupilas.', 'la hemianopía bitemporal.']",1,"Pregunta: Un posible efecto de daño al tercer nervio craneal por trauma a la órbita es
+
+Opciones de respuesta: ['un estrabismo convergente.', 'la ptosis.', 'contracción de las pupilas.', 'la hemianopía bitemporal.']
+
+Respuesta: la ptosis."
+¿En cuál de las siguientes estructuras fluye la sangre desde el ventrículo derecho del corazón?,anatomy,"['Vena cava inferior', 'Ventrículo izquierdo', 'Arterias pulmonares', 'Las venas pulmonares']",2,"Pregunta: ¿En cuál de las siguientes estructuras fluye la sangre desde el ventrículo derecho del corazón?
+
+Opciones de respuesta: ['Vena cava inferior', 'Ventrículo izquierdo', 'Arterias pulmonares', 'Las venas pulmonares']
+
+Respuesta: Arterias pulmonares"
+Un paciente es apuñalado en el cuello. sospechas daño en el nervio accesorio en el triángulo posterior.,anatomy,"['extender su cuello contra la resistencia.', 'extender su cuello sin deterioro.', 'levantar sus hombros contra la resistencia.', 'levantar sus hombros sin deterioro.']",2,"Pregunta: Un paciente es apuñalado en el cuello. sospechas daño en el nervio accesorio en el triángulo posterior.
+
+Opciones de respuesta: ['extender su cuello contra la resistencia.', 'extender su cuello sin deterioro.', 'levantar sus hombros contra la resistencia.', 'levantar sus hombros sin deterioro.']
+
+Respuesta: levantar sus hombros contra la resistencia."
+¿Cuál de los siguientes músculos proviene del primer arco braquial?,anatomy,"['Los músculos de la masticación', 'Los músculos de la masticación y el vientre anterior del digástrico', 'Los músculos de la masticación y los vientres anterior y posterior de digástrica', 'Los músculos de la masticación, del abdomen anterior y posterior del digástrico y del geniohyoide']",1,"Pregunta: ¿Cuál de los siguientes músculos proviene del primer arco braquial?
+
+Opciones de respuesta: ['Los músculos de la masticación', 'Los músculos de la masticación y el vientre anterior del digástrico', 'Los músculos de la masticación y los vientres anterior y posterior de digástrica', 'Los músculos de la masticación, del abdomen anterior y posterior del digástrico y del geniohyoide']
+
+Respuesta: Los músculos de la masticación y el vientre anterior del digástrico"
+¿Cuál de los siguientes describe mejor el lugar donde se puede encontrar el pulso carotídeo?,anatomy,"['Frente a las orejas y justo por encima del nivel de los ojos', 'En el espacio antecubital', 'En el medio de la ingle', 'En el lado anterior del cuello']",3,"Pregunta: ¿Cuál de los siguientes describe mejor el lugar donde se puede encontrar el pulso carotídeo?
+
+Opciones de respuesta: ['Frente a las orejas y justo por encima del nivel de los ojos', 'En el espacio antecubital', 'En el medio de la ingle', 'En el lado anterior del cuello']
+
+Respuesta: En el lado anterior del cuello"
+"En el tronco cerebral, las vías para:",anatomy,"['Nocicepción decusada en el lemnisco medial', 'movimientos hábiles decussate en el lemnisco medial', 'movimientos motoros expertos decussate en las pirámides.', 'Toque discriminativo decussate en las pirámides.']",2,"Pregunta: En el tronco cerebral, las vías para:
+
+Opciones de respuesta: ['Nocicepción decusada en el lemnisco medial', 'movimientos hábiles decussate en el lemnisco medial', 'movimientos motoros expertos decussate en las pirámides.', 'Toque discriminativo decussate en las pirámides.']
+
+Respuesta: movimientos motoros expertos decussate en las pirámides."
+El tracto respiratorio es atravesado por el istmo de la glándula tiroides a nivel del,anatomy,"['el cartílago de la tiroides.', 'la membrana cricotiroidea.', 'el cartílago cricoide.', 'los anillos traqueales.']",3,"Pregunta: El tracto respiratorio es atravesado por el istmo de la glándula tiroides a nivel del
+
+Opciones de respuesta: ['el cartílago de la tiroides.', 'la membrana cricotiroidea.', 'el cartílago cricoide.', 'los anillos traqueales.']
+
+Respuesta: los anillos traqueales."
+Usted nota una lesión en la mucosa alveolar labial del diente incisivo lateral inferior derecho de uno de sus pacientes y decide tomar una biopsia para enviar para el informe de patología oral ¿Qué nervio requeriría anestesia local para llevar a cabo una biopsia sin dolor?,anatomy,"['El nervio incisivo', 'El nervio mental', 'El nervio bucal', 'El nervio lingual']",1,"Pregunta: Usted nota una lesión en la mucosa alveolar labial del diente incisivo lateral inferior derecho de uno de sus pacientes y decide tomar una biopsia para enviar para el informe de patología oral ¿Qué nervio requeriría anestesia local para llevar a cabo una biopsia sin dolor?
+
+Opciones de respuesta: ['El nervio incisivo', 'El nervio mental', 'El nervio bucal', 'El nervio lingual']
+
+Respuesta: El nervio mental"
+Las mayores concentraciones de receptores propioceptivos que proporcionan información sobre la posición de la ATM se encuentran en,anatomy,"['la cápsula y los ligamentos de la ATM y el músculo pterigoideo medial.', 'la cápsula y los ligamentos de la ATM y el músculo pterigoide lateral.', 'el disco articular de la ATM y el músculo pterigoideo medial.', 'el disco articular de la ATM y el músculo pterigoide lateral.']",1,"Pregunta: Las mayores concentraciones de receptores propioceptivos que proporcionan información sobre la posición de la ATM se encuentran en
+
+Opciones de respuesta: ['la cápsula y los ligamentos de la ATM y el músculo pterigoideo medial.', 'la cápsula y los ligamentos de la ATM y el músculo pterigoide lateral.', 'el disco articular de la ATM y el músculo pterigoideo medial.', 'el disco articular de la ATM y el músculo pterigoide lateral.']
+
+Respuesta: la cápsula y los ligamentos de la ATM y el músculo pterigoide lateral."
+¿Cuál de las siguientes es una sustancia que ayuda a la transmisión de los impulsos nerviosos a los músculos?,anatomy,"['Acetilcolina y sus derivados', 'Cholecistoquinina y sus derivados', 'Desoxirribosa y sus derivados', 'Oxitocina y sus derivados']",0,"Pregunta: ¿Cuál de las siguientes es una sustancia que ayuda a la transmisión de los impulsos nerviosos a los músculos?
+
+Opciones de respuesta: ['Acetilcolina y sus derivados', 'Cholecistoquinina y sus derivados', 'Desoxirribosa y sus derivados', 'Oxitocina y sus derivados']
+
+Respuesta: Acetilcolina y sus derivados"
+"En la médula espinal, los cuerpos celulares de las neuronas motoras se encuentran en",anatomy,"['La lámina I.', 'La lámina II.', 'La lámina V.', 'Lámina IX']",3,"Pregunta: En la médula espinal, los cuerpos celulares de las neuronas motoras se encuentran en
+
+Opciones de respuesta: ['La lámina I.', 'La lámina II.', 'La lámina V.', 'Lámina IX']
+
+Respuesta: Lámina IX"
+"Cuando se examina a un paciente que ha sufrido una fractura desfavorable del cuerpo de la mandíbula, se",anatomy,"['el fragmento anterior se desplazará hacia abajo por la acción del músculo digástrico.', 'el fragmento posterior se desplazará por la parte anterior por la acción del músculo pterigoide lateral.', 'el fragmento anterior se desplazará hacia atrás por la acción del músculo temporal.', 'el fragmento posterior se desplazará medialmente por la acción del músculo pterigoideo medial.']",0,"Pregunta: Cuando se examina a un paciente que ha sufrido una fractura desfavorable del cuerpo de la mandíbula, se
+
+Opciones de respuesta: ['el fragmento anterior se desplazará hacia abajo por la acción del músculo digástrico.', 'el fragmento posterior se desplazará por la parte anterior por la acción del músculo pterigoide lateral.', 'el fragmento anterior se desplazará hacia atrás por la acción del músculo temporal.', 'el fragmento posterior se desplazará medialmente por la acción del músculo pterigoideo medial.']
+
+Respuesta: el fragmento anterior se desplazará hacia abajo por la acción del músculo digástrico."
+El examen de un paciente indica que tiene un estrabismo medialmente dirigido (quinto).,anatomy,"['el nervio oculomotor.', 'el nervio troclear.', 'el nervio trigémino oftalmico.', 'abducen el nervio.']",3,"Pregunta: El examen de un paciente indica que tiene un estrabismo medialmente dirigido (quinto).
+
+Opciones de respuesta: ['el nervio oculomotor.', 'el nervio troclear.', 'el nervio trigémino oftalmico.', 'abducen el nervio.']
+
+Respuesta: abducen el nervio."
+"Un paciente se corta un nervio motor periférico en la muñeca cuando cae a través de una ventana de cristal Si el nervio no se regenera, después de unos 6 meses los músculos que normalmente innerva mostrarán signos de cuál de las cuatro opciones a continuación?",anatomy,"['parálisis espástica', 'parálisis flácida', 'atrofia de las articulaciones', 'contracción']",2,"Pregunta: Un paciente se corta un nervio motor periférico en la muñeca cuando cae a través de una ventana de cristal Si el nervio no se regenera, después de unos 6 meses los músculos que normalmente innerva mostrarán signos de cuál de las cuatro opciones a continuación?
+
+Opciones de respuesta: ['parálisis espástica', 'parálisis flácida', 'atrofia de las articulaciones', 'contracción']
+
+Respuesta: atrofia de las articulaciones"
+Un paciente sufre un AVC en el área de la cápsula interna izquierda que transporta las neuronas motoras a la pierna derecha.,anatomy,"['parálisis espástica.', 'parálisis flácida.', 'el temblor.', 'hiporeflexión.']",0,"Pregunta: Un paciente sufre un AVC en el área de la cápsula interna izquierda que transporta las neuronas motoras a la pierna derecha.
+
+Opciones de respuesta: ['parálisis espástica.', 'parálisis flácida.', 'el temblor.', 'hiporeflexión.']
+
+Respuesta: parálisis espástica."
+La corona de un diente muy cariado se fractura repentinamente mientras el paciente está de pie comiendo en un establecimiento de comida para llevar y se inhala un fragmento.,anatomy,"['pulmón derecho porque el bronquio principal derecho es más ancho y más vertical que el izquierdo.', 'pulmón izquierdo porque el bronquio principal izquierdo es más ancho y más vertical que el derecho.', 'pulmón derecho o pulmón izquierdo porque los dos bronquios principales son del mismo tamaño y en la misma angulación.', 'pulmón derecho o izquierdo porque no hay factores que predisponen a que el fragmento vaya en una dirección en particular.']",0,"Pregunta: La corona de un diente muy cariado se fractura repentinamente mientras el paciente está de pie comiendo en un establecimiento de comida para llevar y se inhala un fragmento.
+
+Opciones de respuesta: ['pulmón derecho porque el bronquio principal derecho es más ancho y más vertical que el izquierdo.', 'pulmón izquierdo porque el bronquio principal izquierdo es más ancho y más vertical que el derecho.', 'pulmón derecho o pulmón izquierdo porque los dos bronquios principales son del mismo tamaño y en la misma angulación.', 'pulmón derecho o izquierdo porque no hay factores que predisponen a que el fragmento vaya en una dirección en particular.']
+
+Respuesta: pulmón derecho porque el bronquio principal derecho es más ancho y más vertical que el izquierdo."
+"El calcio, el potasio y el sodio se clasifican como ¿cuál de los siguientes?",anatomy,"['Andrógenos', 'Catecolaminas y sus derivados', 'Los electrolitos', 'Los estrógenos']",2,"Pregunta: El calcio, el potasio y el sodio se clasifican como ¿cuál de los siguientes?
+
+Opciones de respuesta: ['Andrógenos', 'Catecolaminas y sus derivados', 'Los electrolitos', 'Los estrógenos']
+
+Respuesta: Los electrolitos"
+¿La noradrenalina es el neurotransmisor entre cuál de las dos estructuras de abajo?,anatomy,"['neuronas parasimpáticas pre y postganglionares', 'neuronas pre y postganglionares simpáticas', 'neuronas posganglionares parasimpáticas y órganos objetivo', 'neuronas postganglionares simpáticas y órganos objetivo']",3,"Pregunta: ¿La noradrenalina es el neurotransmisor entre cuál de las dos estructuras de abajo?
+
+Opciones de respuesta: ['neuronas parasimpáticas pre y postganglionares', 'neuronas pre y postganglionares simpáticas', 'neuronas posganglionares parasimpáticas y órganos objetivo', 'neuronas postganglionares simpáticas y órganos objetivo']
+
+Respuesta: neuronas postganglionares simpáticas y órganos objetivo"
+¿Cuáles de las siguientes glándulas productoras de moco se encuentran a cada lado de la abertura vaginal?,anatomy,"['En las glándulas suprarrenales', 'Las de Bartholin', 'En el bulbouretrales', 'Cuerpo amarillo']",1,"Pregunta: ¿Cuáles de las siguientes glándulas productoras de moco se encuentran a cada lado de la abertura vaginal?
+
+Opciones de respuesta: ['En las glándulas suprarrenales', 'Las de Bartholin', 'En el bulbouretrales', 'Cuerpo amarillo']
+
+Respuesta: Las de Bartholin"
+"Cuando se requiere una abertura de emergencia en las vías respiratorias, la membrana cricotiroidea debe perforarse inmediatamente",anatomy,"['superior al cartílago de la tiroides.', 'inferior al cartílago de la tiroides.', 'inferior al cartílago cricoide.', 'superior al istmo de la tiroides.']",1,"Pregunta: Cuando se requiere una abertura de emergencia en las vías respiratorias, la membrana cricotiroidea debe perforarse inmediatamente
+
+Opciones de respuesta: ['superior al cartílago de la tiroides.', 'inferior al cartílago de la tiroides.', 'inferior al cartílago cricoide.', 'superior al istmo de la tiroides.']
+
+Respuesta: inferior al cartílago de la tiroides."
+El líquido cefalorraquídeo circula alrededor del cerebro entre los,anatomy,"['el cráneo y la dura mater.', 'Dura mater y la matriz aracnoidea.', 'Las aracnoides y las piamaras.', 'pia mater y la superficie del cerebro.']",2,"Pregunta: El líquido cefalorraquídeo circula alrededor del cerebro entre los
+
+Opciones de respuesta: ['el cráneo y la dura mater.', 'Dura mater y la matriz aracnoidea.', 'Las aracnoides y las piamaras.', 'pia mater y la superficie del cerebro.']
+
+Respuesta: Las aracnoides y las piamaras."
+¿Cuál de los siguientes cierra y sella las vías respiratorias inferiores durante la deglución?,anatomy,"['Alvéolos', 'La epiglotis', 'Laringe y laringe', 'Uvula y sus derivados']",1,"Pregunta: ¿Cuál de los siguientes cierra y sella las vías respiratorias inferiores durante la deglución?
+
+Opciones de respuesta: ['Alvéolos', 'La epiglotis', 'Laringe y laringe', 'Uvula y sus derivados']
+
+Respuesta: La epiglotis"
+¿Qué pared orbital tiene más probabilidades de colapsar en una fractura de 'explosión'?,anatomy,"['El techo .', 'El suelo .', 'La pared lateral', 'La pared medial']",1,"Pregunta: ¿Qué pared orbital tiene más probabilidades de colapsar en una fractura de 'explosión'?
+
+Opciones de respuesta: ['El techo .', 'El suelo .', 'La pared lateral', 'La pared medial']
+
+Respuesta: El suelo ."
+Las paredes del seno maxilar están relacionadas con el seno.,anatomy,"['el suelo de la órbita.', 'el suelo de la órbita y los dientes posteriores superiores.', 'el suelo de la órbita, los dientes posteriores superiores y la fosa infratemporal.', 'el suelo de la órbita, los dientes posteriores superiores, la fosa infratemporal y el paladar duro.']",2,"Pregunta: Las paredes del seno maxilar están relacionadas con el seno.
+
+Opciones de respuesta: ['el suelo de la órbita.', 'el suelo de la órbita y los dientes posteriores superiores.', 'el suelo de la órbita, los dientes posteriores superiores y la fosa infratemporal.', 'el suelo de la órbita, los dientes posteriores superiores, la fosa infratemporal y el paladar duro.']
+
+Respuesta: el suelo de la órbita, los dientes posteriores superiores y la fosa infratemporal."
+¿Cuál de las siguientes afirmaciones sobre el crecimiento postnatal del maxilar es correcta?,anatomy,"['La neumatización por agrandamiento del seno maxilar en desarrollo cesa en la pubertad', 'Se crea espacio para la erupción de los molares permanentes por resorción de la tuberosidad maxilar', 'Las suturas zigomaticomaxillary contribuyen a aumentar la altura y la longitud del maxilar', 'La sutura intermaxilar se cierra alrededor de ocho años después del nacimiento']",2,"Pregunta: ¿Cuál de las siguientes afirmaciones sobre el crecimiento postnatal del maxilar es correcta?
+
+Opciones de respuesta: ['La neumatización por agrandamiento del seno maxilar en desarrollo cesa en la pubertad', 'Se crea espacio para la erupción de los molares permanentes por resorción de la tuberosidad maxilar', 'Las suturas zigomaticomaxillary contribuyen a aumentar la altura y la longitud del maxilar', 'La sutura intermaxilar se cierra alrededor de ocho años después del nacimiento']
+
+Respuesta: Las suturas zigomaticomaxillary contribuyen a aumentar la altura y la longitud del maxilar"
+Los suministros del séptimo nervio craneal,anatomy,"['Las papilas gustativas en el tercio posterior de la lengua.', 'los músculos del paladar blando.', 'los músculos del labio inferior.', 'la glándula salival parótida.']",2,"Pregunta: Los suministros del séptimo nervio craneal
+
+Opciones de respuesta: ['Las papilas gustativas en el tercio posterior de la lengua.', 'los músculos del paladar blando.', 'los músculos del labio inferior.', 'la glándula salival parótida.']
+
+Respuesta: los músculos del labio inferior."
+¿Cuál de los siguientes senos paranasales se abre en el meato medio?,anatomy,"['Los senos etmoidales anteriores', 'Los senos etmoidales y frontales anteriores', 'Los senos etmoidales, frontales y maxilares anteriores', 'Los senos etmoidales, frontales, maxilares y esfenoidales anteriores']",2,"Pregunta: ¿Cuál de los siguientes senos paranasales se abre en el meato medio?
+
+Opciones de respuesta: ['Los senos etmoidales anteriores', 'Los senos etmoidales y frontales anteriores', 'Los senos etmoidales, frontales y maxilares anteriores', 'Los senos etmoidales, frontales, maxilares y esfenoidales anteriores']
+
+Respuesta: Los senos etmoidales, frontales y maxilares anteriores"
+¿Cuál de los siguientes es una proteína estructural y fibrosa que se encuentra en la dermis?,anatomy,"['Colágeno', 'Heparina y sus derivados', 'Lípocito', 'La melanina']",0,"Pregunta: ¿Cuál de los siguientes es una proteína estructural y fibrosa que se encuentra en la dermis?
+
+Opciones de respuesta: ['Colágeno', 'Heparina y sus derivados', 'Lípocito', 'La melanina']
+
+Respuesta: Colágeno"
+La elevación de la plataforma palatina se debe al efecto de,anatomy,"['Descenso de la lengua.', 'cambios en la flexión del cerebro en desarrollo.', 'moléculas hidrófilas que aumentan la presión de turgor en los estantes palatinos.', 'una combinación de estos tres procesos.']",3,"Pregunta: La elevación de la plataforma palatina se debe al efecto de
+
+Opciones de respuesta: ['Descenso de la lengua.', 'cambios en la flexión del cerebro en desarrollo.', 'moléculas hidrófilas que aumentan la presión de turgor en los estantes palatinos.', 'una combinación de estos tres procesos.']
+
+Respuesta: una combinación de estos tres procesos."
+¿En qué superficies de los dientes es más probable que se acumule la placa dental en la boca de un paciente con mala higiene bucal?,anatomy,"['Las superficies palatinas de los molares superiores y las superficies linguales de los incisivos inferiores.', 'Las superficies bucales de los molares superiores y las superficies linguales de los incisivos inferiores.', 'Las superficies palatinas de los molares superiores y las superficies labiales de los incisivos inferiores.', 'Las superficies bucales de los molares superiores y las superficies labiales de los incisivos inferiores.']",1,"Pregunta: ¿En qué superficies de los dientes es más probable que se acumule la placa dental en la boca de un paciente con mala higiene bucal?
+
+Opciones de respuesta: ['Las superficies palatinas de los molares superiores y las superficies linguales de los incisivos inferiores.', 'Las superficies bucales de los molares superiores y las superficies linguales de los incisivos inferiores.', 'Las superficies palatinas de los molares superiores y las superficies labiales de los incisivos inferiores.', 'Las superficies bucales de los molares superiores y las superficies labiales de los incisivos inferiores.']
+
+Respuesta: Las superficies bucales de los molares superiores y las superficies linguales de los incisivos inferiores."
+El edema laríngeo generalmente se limita a la laringe por encima de las cuerdas vocales porque,anatomy,"['Hay numerosas glándulas mucosas en los pliegues vestibulares.', 'la mucosa que cubre las cuerdas vocales está firmemente unida a los tejidos subyacentes.', 'fluido va a drenar rápidamente en el tórax por debajo de los pliegues vocales.', 'la mucosa por encima de las cuerdas vocales es más vascular que la por debajo de las cuerdas vocales.']",1,"Pregunta: El edema laríngeo generalmente se limita a la laringe por encima de las cuerdas vocales porque
+
+Opciones de respuesta: ['Hay numerosas glándulas mucosas en los pliegues vestibulares.', 'la mucosa que cubre las cuerdas vocales está firmemente unida a los tejidos subyacentes.', 'fluido va a drenar rápidamente en el tórax por debajo de los pliegues vocales.', 'la mucosa por encima de las cuerdas vocales es más vascular que la por debajo de las cuerdas vocales.']
+
+Respuesta: la mucosa que cubre las cuerdas vocales está firmemente unida a los tejidos subyacentes."
+Las arterias coronarias,anatomy,"['surgen del arco de la aorta y se llenan durante la diástole.', 'surgen de la aorta ascendente y se llenan durante la sístole.', 'surgen del arco de la aorta y se llenan durante la sístole.', 'surgen de la aorta ascendente y se llenan durante la diástole.']",3,"Pregunta: Las arterias coronarias
+
+Opciones de respuesta: ['surgen del arco de la aorta y se llenan durante la diástole.', 'surgen de la aorta ascendente y se llenan durante la sístole.', 'surgen del arco de la aorta y se llenan durante la sístole.', 'surgen de la aorta ascendente y se llenan durante la diástole.']
+
+Respuesta: surgen de la aorta ascendente y se llenan durante la diástole."
+¿Qué músculo es el más activo durante una excursión lateral derecha de la mandíbula?,anatomy,"['Músculo pterigoide lateral izquierdo', 'El músculo pterigoide lateral derecho', 'El músculo pterigoideo medial izquierdo', 'Músculo pterigoideo medial derecho']",0,"Pregunta: ¿Qué músculo es el más activo durante una excursión lateral derecha de la mandíbula?
+
+Opciones de respuesta: ['Músculo pterigoide lateral izquierdo', 'El músculo pterigoide lateral derecho', 'El músculo pterigoideo medial izquierdo', 'Músculo pterigoideo medial derecho']
+
+Respuesta: Músculo pterigoide lateral izquierdo"
+Los nervios frénicos innervan el,anatomy,"['el diafragma.', 'el diafragma y la pleura parietal.', 'el diafragma, la pleura parietal y el pericardio.', 'el diafragma, la pleura parietal, el pericardio y los músculos intercostales.']",2,"Pregunta: Los nervios frénicos innervan el
+
+Opciones de respuesta: ['el diafragma.', 'el diafragma y la pleura parietal.', 'el diafragma, la pleura parietal y el pericardio.', 'el diafragma, la pleura parietal, el pericardio y los músculos intercostales.']
+
+Respuesta: el diafragma, la pleura parietal y el pericardio."
+Los nervios preganglionares parasimpáticos salen del sistema nervioso central con el,anatomy,"['los terceros nervios craneales.', 'el cuarto nervio craneal.', 'el quinto nervio craneal.', 'el sexto nervio craneal.']",0,"Pregunta: Los nervios preganglionares parasimpáticos salen del sistema nervioso central con el
+
+Opciones de respuesta: ['los terceros nervios craneales.', 'el cuarto nervio craneal.', 'el quinto nervio craneal.', 'el sexto nervio craneal.']
+
+Respuesta: los terceros nervios craneales."
+"En un paciente con una boca normal y sana, se esperaría que la mucosa que cubre el proceso alveolar que soporta los dientes mandibulares",anatomy,"['de color rosado claro en ambos lados de la unión mucogingigival.', 'rosado claro por debajo de la unión mucogingival y rojo por encima de ella.', 'rojo por debajo de la unión mucogingival y rosa claro por encima de ella.', 'rojo a ambos lados de la unión mucogingival.']",2,"Pregunta: En un paciente con una boca normal y sana, se esperaría que la mucosa que cubre el proceso alveolar que soporta los dientes mandibulares
+
+Opciones de respuesta: ['de color rosado claro en ambos lados de la unión mucogingigival.', 'rosado claro por debajo de la unión mucogingival y rojo por encima de ella.', 'rojo por debajo de la unión mucogingival y rosa claro por encima de ella.', 'rojo a ambos lados de la unión mucogingival.']
+
+Respuesta: rojo por debajo de la unión mucogingival y rosa claro por encima de ella."
+La macrostomía es el resultado de un fallo en la fusión de,anatomy,"['Procesos maxilares y mandibulares.', 'Procesos mandibulares izquierdo y derecho.', 'Procesos maxilares y frontales nasales.', 'Arcos mandibulares y hioides.']",0,"Pregunta: La macrostomía es el resultado de un fallo en la fusión de
+
+Opciones de respuesta: ['Procesos maxilares y mandibulares.', 'Procesos mandibulares izquierdo y derecho.', 'Procesos maxilares y frontales nasales.', 'Arcos mandibulares y hioides.']
+
+Respuesta: Procesos maxilares y mandibulares."
+Usted sospecha que su paciente tiene una glándula salival submandibular agrandada.,anatomy,"['para ser palpable por vía intraoral ..', 'para ser palpable extraoralmente.', 'para ser palpable tanto intra como extraoralmente.', 'sólo pueden detectarse mediante un examen radiográfico.']",2,"Pregunta: Usted sospecha que su paciente tiene una glándula salival submandibular agrandada.
+
+Opciones de respuesta: ['para ser palpable por vía intraoral ..', 'para ser palpable extraoralmente.', 'para ser palpable tanto intra como extraoralmente.', 'sólo pueden detectarse mediante un examen radiográfico.']
+
+Respuesta: para ser palpable tanto intra como extraoralmente."
+Osteoclastos,anatomy,"['se depositan en el hueso y se diferencian de las células mesenquimales periosteal.', 'reabsorben el hueso y se diferencian de las células mesenquimales periosteal.', 'se depositan en el hueso y se diferencian de los monocitos.', 'reabsorben el hueso y se diferencian de los monocitos.']",3,"Pregunta: Osteoclastos
+
+Opciones de respuesta: ['se depositan en el hueso y se diferencian de las células mesenquimales periosteal.', 'reabsorben el hueso y se diferencian de las células mesenquimales periosteal.', 'se depositan en el hueso y se diferencian de los monocitos.', 'reabsorben el hueso y se diferencian de los monocitos.']
+
+Respuesta: reabsorben el hueso y se diferencian de los monocitos."
+El músculo pterigoide lateral,anatomy,"['está unido al proceso coronoide y eleva la mandíbula.', 'está unido al proceso condilar y eleva la mandíbula.', 'está unido al proceso coronoide y sobresale la mandíbula.', 'está unido al proceso condilar y sobresale la mandíbula.']",3,"Pregunta: El músculo pterigoide lateral
+
+Opciones de respuesta: ['está unido al proceso coronoide y eleva la mandíbula.', 'está unido al proceso condilar y eleva la mandíbula.', 'está unido al proceso coronoide y sobresale la mandíbula.', 'está unido al proceso condilar y sobresale la mandíbula.']
+
+Respuesta: está unido al proceso condilar y sobresale la mandíbula."
+"En el feto, el ducto arterioso pasa la sangre del",anatomy,"['de la vena pulmonar hacia la aorta.', 'aorta hacia la vena pulmonar.', 'la arteria pulmonar hacia la aorta.', 'aorta hacia la arteria pulmonar.']",2,"Pregunta: En el feto, el ducto arterioso pasa la sangre del
+
+Opciones de respuesta: ['de la vena pulmonar hacia la aorta.', 'aorta hacia la vena pulmonar.', 'la arteria pulmonar hacia la aorta.', 'aorta hacia la arteria pulmonar.']
+
+Respuesta: la arteria pulmonar hacia la aorta."
+¿Cuál de los siguientes huesos se desarrolla por osificación endocondral?,anatomy,"['Las costillas .', 'Las costillas y el esternón', 'Las costillas, el esternón y la clavícula', 'Las costillas, el esternón, la clavícula y las vértebras']",1,"Pregunta: ¿Cuál de los siguientes huesos se desarrolla por osificación endocondral?
+
+Opciones de respuesta: ['Las costillas .', 'Las costillas y el esternón', 'Las costillas, el esternón y la clavícula', 'Las costillas, el esternón, la clavícula y las vértebras']
+
+Respuesta: Las costillas y el esternón"
+La mucosa del paladar duro es,anatomy,"['Queratinizado y tiene submucosa y glándulas salivales menores posterolaterales.', 'no queratinizado y presenta submucosa y glándulas salivales menores posteromedialmente.', 'ceratinizado y carece de submucosa y glándulas salivales menores.', 'no queratinizado y carece de submucosa y glándulas salivales menores.']",0,"Pregunta: La mucosa del paladar duro es
+
+Opciones de respuesta: ['Queratinizado y tiene submucosa y glándulas salivales menores posterolaterales.', 'no queratinizado y presenta submucosa y glándulas salivales menores posteromedialmente.', 'ceratinizado y carece de submucosa y glándulas salivales menores.', 'no queratinizado y carece de submucosa y glándulas salivales menores.']
+
+Respuesta: Queratinizado y tiene submucosa y glándulas salivales menores posterolaterales."
+La cabeza de la sexta costilla se articula con,anatomy,"['La faceta articular inferior de T5 y la faceta articular superior de T6.', 'La faceta articular inferior de T5 y la faceta articular superior de T6.', 'El demifacet articular inferior de T5 y el demifacet articular superior de T6.', 'Las semifacetas superior e inferior de T6.']",2,"Pregunta: La cabeza de la sexta costilla se articula con
+
+Opciones de respuesta: ['La faceta articular inferior de T5 y la faceta articular superior de T6.', 'La faceta articular inferior de T5 y la faceta articular superior de T6.', 'El demifacet articular inferior de T5 y el demifacet articular superior de T6.', 'Las semifacetas superior e inferior de T6.']
+
+Respuesta: El demifacet articular inferior de T5 y el demifacet articular superior de T6."
+¿Cuál de los siguientes se encuentra debajo del diafragma en el cuadrante superior izquierdo de la cavidad abdominal?,anatomy,"['Apéndice', 'El duodeno', 'Mejora del riñón', 'El páncreas']",2,"Pregunta: ¿Cuál de los siguientes se encuentra debajo del diafragma en el cuadrante superior izquierdo de la cavidad abdominal?
+
+Opciones de respuesta: ['Apéndice', 'El duodeno', 'Mejora del riñón', 'El páncreas']
+
+Respuesta: Mejora del riñón"
+Las terminaciones nerviosas propioceptivas en las articulaciones sinoviales se encuentran en,anatomy,"['el cartílago articular y la membrana sinovial.', 'membrana sinovial y la cápsula.', 'la cápsula y los ligamentos.', 'ligamentos y discos articulares.']",3,"Pregunta: Las terminaciones nerviosas propioceptivas en las articulaciones sinoviales se encuentran en
+
+Opciones de respuesta: ['el cartílago articular y la membrana sinovial.', 'membrana sinovial y la cápsula.', 'la cápsula y los ligamentos.', 'ligamentos y discos articulares.']
+
+Respuesta: ligamentos y discos articulares."
+¿La caja torácica es una unidad estructural importante para cuál de las siguientes funciones?,anatomy,"['Alimentación', 'Menstruación', 'Mentación', 'La respiración']",3,"Pregunta: ¿La caja torácica es una unidad estructural importante para cuál de las siguientes funciones?
+
+Opciones de respuesta: ['Alimentación', 'Menstruación', 'Mentación', 'La respiración']
+
+Respuesta: La respiración"
+Un paciente es admitido después de una lesión en la cabeza y cae rápidamente en coma. Una resonancia magnética indica una hemorragia extradural porque se puede detectar sangre extravasada entre los,anatomy,"['los huesos del cráneo y la dura mater.', 'Dura mater y aracnoides.', 'Aracnoideas y pia mater.', 'pia mater y la superficie del cerebro.']",0,"Pregunta: Un paciente es admitido después de una lesión en la cabeza y cae rápidamente en coma. Una resonancia magnética indica una hemorragia extradural porque se puede detectar sangre extravasada entre los
+
+Opciones de respuesta: ['los huesos del cráneo y la dura mater.', 'Dura mater y aracnoides.', 'Aracnoideas y pia mater.', 'pia mater y la superficie del cerebro.']
+
+Respuesta: los huesos del cráneo y la dura mater."
+Un bloqueo nervioso infraorbital exitoso producirá la anestesia del,anatomy,"['los dientes maxilares anteriores.', 'los dientes maxilares anteriores y sus encías labiales.', 'los dientes maxilares anteriores, sus encías labiales y el labio superior.', 'los dientes maxilares anteriores, sus encías labiales, el labio superior y el paladar duro anterior.']",2,"Pregunta: Un bloqueo nervioso infraorbital exitoso producirá la anestesia del
+
+Opciones de respuesta: ['los dientes maxilares anteriores.', 'los dientes maxilares anteriores y sus encías labiales.', 'los dientes maxilares anteriores, sus encías labiales y el labio superior.', 'los dientes maxilares anteriores, sus encías labiales, el labio superior y el paladar duro anterior.']
+
+Respuesta: los dientes maxilares anteriores, sus encías labiales y el labio superior."
+¿Cuál de los siguientes agujeros perforan el hueso esfenoide?,anatomy,"['El foramen oval', 'El foramen oval y el rotundón', 'El foramen oval, el rotundo y el espinosum', 'El foramen oval, el rotundo y el espinosum y el foramen lacerum']",2,"Pregunta: ¿Cuál de los siguientes agujeros perforan el hueso esfenoide?
+
+Opciones de respuesta: ['El foramen oval', 'El foramen oval y el rotundón', 'El foramen oval, el rotundo y el espinosum', 'El foramen oval, el rotundo y el espinosum y el foramen lacerum']
+
+Respuesta: El foramen oval, el rotundo y el espinosum"
+¿Cuál de los siguientes es un trastorno caracterizado por episodios incontrolables de quedarse dormido durante el día?,anatomy,"['Dislexia', 'La epilepsia', 'Hidrocefalia', 'La narcolepsia']",3,"Pregunta: ¿Cuál de los siguientes es un trastorno caracterizado por episodios incontrolables de quedarse dormido durante el día?
+
+Opciones de respuesta: ['Dislexia', 'La epilepsia', 'Hidrocefalia', 'La narcolepsia']
+
+Respuesta: La narcolepsia"
+¿Cuál de los siguientes permite el intercambio de gases en los pulmones?,anatomy,"['Alvéolos', 'Los bronquios', 'Los bronquiolos', 'Los capilares']",0,"Pregunta: ¿Cuál de los siguientes permite el intercambio de gases en los pulmones?
+
+Opciones de respuesta: ['Alvéolos', 'Los bronquios', 'Los bronquiolos', 'Los capilares']
+
+Respuesta: Alvéolos"
+"Un paciente tiene una fractura en la que el radio está doblado pero no desplazado, y la piel está intacta.",anatomy,"['Cerrado, de hoja verde', 'Compuesto complejo, triturado', 'Compuesto, transversal', 'Abierto, en espiral']",0,"Pregunta: Un paciente tiene una fractura en la que el radio está doblado pero no desplazado, y la piel está intacta.
+
+Opciones de respuesta: ['Cerrado, de hoja verde', 'Compuesto complejo, triturado', 'Compuesto, transversal', 'Abierto, en espiral']
+
+Respuesta: Cerrado, de hoja verde"
+¿En cuál de las siguientes estructuras se produce la fertilización de un óvulo por un espermatozoide?,anatomy,"['Cuello del útero', 'La trompa de Falopio', 'El ovario', 'El útero']",1,"Pregunta: ¿En cuál de las siguientes estructuras se produce la fertilización de un óvulo por un espermatozoide?
+
+Opciones de respuesta: ['Cuello del útero', 'La trompa de Falopio', 'El ovario', 'El útero']
+
+Respuesta: La trompa de Falopio"
+El ectodermo da lugar a,anatomy,"['el tubo neural.', 'las células ectomesenquimales.', 'el esmalte dental.', 'las tres estructuras.']",3,"Pregunta: El ectodermo da lugar a
+
+Opciones de respuesta: ['el tubo neural.', 'las células ectomesenquimales.', 'el esmalte dental.', 'las tres estructuras.']
+
+Respuesta: las tres estructuras."
+"En los hombres, ¿cuál de las siguientes estructuras se encuentra en el cuello de la vejiga y rodea la uretra?",anatomy,"['Epididymis y sus derivados', 'La próstata', 'El escroto', 'Vesícula seminal']",1,"Pregunta: En los hombres, ¿cuál de las siguientes estructuras se encuentra en el cuello de la vejiga y rodea la uretra?
+
+Opciones de respuesta: ['Epididymis y sus derivados', 'La próstata', 'El escroto', 'Vesícula seminal']
+
+Respuesta: La próstata"
+"¿Cuál de las siguientes opciones completa la siguiente afirmación? ""La válvula atrioventricular derecha""...",anatomy,"['es una válvula semilunar', 'Los músculos papilares evitan que se extienda.', 'está abierto durante la sístole.', 'impide que la sangre regrese del tronco pulmonar a medida que el corazón se relaja.']",1,"Pregunta: ¿Cuál de las siguientes opciones completa la siguiente afirmación? ""La válvula atrioventricular derecha""...
+
+Opciones de respuesta: ['es una válvula semilunar', 'Los músculos papilares evitan que se extienda.', 'está abierto durante la sístole.', 'impide que la sangre regrese del tronco pulmonar a medida que el corazón se relaja.']
+
+Respuesta: Los músculos papilares evitan que se extienda."
+¿Cuál de las siguientes áreas del cerebro es suministrada por las ramas de las arterias subclaviales?,anatomy,"['El lóbulo frontal', 'El lóbulo parietal', 'El hipotálamo', 'El cerebelo']",3,"Pregunta: ¿Cuál de las siguientes áreas del cerebro es suministrada por las ramas de las arterias subclaviales?
+
+Opciones de respuesta: ['El lóbulo frontal', 'El lóbulo parietal', 'El hipotálamo', 'El cerebelo']
+
+Respuesta: El cerebelo"
+¿Cuál de las siguientes estructuras es parte del intestino delgado?,anatomy,"['Colón ascendente', 'El ceco', 'El íleon', 'Colón sigmoide']",2,"Pregunta: ¿Cuál de las siguientes estructuras es parte del intestino delgado?
+
+Opciones de respuesta: ['Colón ascendente', 'El ceco', 'El íleon', 'Colón sigmoide']
+
+Respuesta: El íleon"
+Durante un bloqueo del nervio alveolar inferior la aguja idealmente pasa,anatomy,"['pterigoide posterior y medial a medial.', 'pterigoide anterior y lateral hasta el pterigoide medial.', 'a través del pterigoide medial.', 'inferior al pterigoide medial.']",1,"Pregunta: Durante un bloqueo del nervio alveolar inferior la aguja idealmente pasa
+
+Opciones de respuesta: ['pterigoide posterior y medial a medial.', 'pterigoide anterior y lateral hasta el pterigoide medial.', 'a través del pterigoide medial.', 'inferior al pterigoide medial.']
+
+Respuesta: pterigoide anterior y lateral hasta el pterigoide medial."
+¿Pacientes con cuál de las siguientes enfermedades son tratados con inyecciones de vitamina B-12?,anatomy,"['La parálisis de Bell', 'Enfermedad de Crohn', 'Anemia perniciosa', 'Enfermedad de Graves']",2,"Pregunta: ¿Pacientes con cuál de las siguientes enfermedades son tratados con inyecciones de vitamina B-12?
+
+Opciones de respuesta: ['La parálisis de Bell', 'Enfermedad de Crohn', 'Anemia perniciosa', 'Enfermedad de Graves']
+
+Respuesta: Anemia perniciosa"
+¿Cuál de los siguientes huesos tiene un proceso que se une con el hueso cigomático para formar el arco cigomático?,anatomy,"['El hueso maxilar', 'El hueso temporal', 'El hueso esfenoide', 'El hueso frontal']",1,"Pregunta: ¿Cuál de los siguientes huesos tiene un proceso que se une con el hueso cigomático para formar el arco cigomático?
+
+Opciones de respuesta: ['El hueso maxilar', 'El hueso temporal', 'El hueso esfenoide', 'El hueso frontal']
+
+Respuesta: El hueso temporal"
+Los axones preganglionares parasimpáticos abandonan el SNC con el,anatomy,"['los nervios espinales cervicales.', 'los nervios espinales torácicos.', 'los nervios espinales lumbares.', 'los nervios espinales sacrales.']",3,"Pregunta: Los axones preganglionares parasimpáticos abandonan el SNC con el
+
+Opciones de respuesta: ['los nervios espinales cervicales.', 'los nervios espinales torácicos.', 'los nervios espinales lumbares.', 'los nervios espinales sacrales.']
+
+Respuesta: los nervios espinales sacrales."
+Un paciente con daño a su cadena simpática cervical mostrará los siguientes signos y síntomas.,anatomy,"['Constricción de las pupilas', 'Constricción pupillar y vasodilatación de los vasos faciales', 'Constricción de las pupilas, vasodilatación de los vasos faciales y aumento de la sudoración facial', 'Constricción de las pupilas, vasodilatación de los vasos faciales, aumento de la sudoración facial y disminución de la lacrimación']",1,"Pregunta: Un paciente con daño a su cadena simpática cervical mostrará los siguientes signos y síntomas.
+
+Opciones de respuesta: ['Constricción de las pupilas', 'Constricción pupillar y vasodilatación de los vasos faciales', 'Constricción de las pupilas, vasodilatación de los vasos faciales y aumento de la sudoración facial', 'Constricción de las pupilas, vasodilatación de los vasos faciales, aumento de la sudoración facial y disminución de la lacrimación']
+
+Respuesta: Constricción pupillar y vasodilatación de los vasos faciales"
+¿Cuál de los siguientes nervios craneales está relacionado con el sentido del olfato?,anatomy,"['Los secuestradores', 'Hipoglosario', 'El olfato', 'Tróclear']",2,"Pregunta: ¿Cuál de los siguientes nervios craneales está relacionado con el sentido del olfato?
+
+Opciones de respuesta: ['Los secuestradores', 'Hipoglosario', 'El olfato', 'Tróclear']
+
+Respuesta: El olfato"
+¿Dónde están ubicados los centros vitales en el tronco cerebral?,anatomy,"['Cerebro medio', 'Pones', 'la médula oblonga', 'el cerebelo']",2,"Pregunta: ¿Dónde están ubicados los centros vitales en el tronco cerebral?
+
+Opciones de respuesta: ['Cerebro medio', 'Pones', 'la médula oblonga', 'el cerebelo']
+
+Respuesta: la médula oblonga"
+¿La saliva contiene una enzima que actúa sobre cuál de los siguientes nutrientes?,anatomy,"['Almidones y féculas', 'Proteínas', 'Las grasas', 'Minerales']",0,"Pregunta: ¿La saliva contiene una enzima que actúa sobre cuál de los siguientes nutrientes?
+
+Opciones de respuesta: ['Almidones y féculas', 'Proteínas', 'Las grasas', 'Minerales']
+
+Respuesta: Almidones y féculas"
+Durante la deglución del,anatomy,"['Se abre el tubo auditivo.', 'El músculo cricofaríngeo se contrae.', 'La rima glotis se abre.', 'El reflejo nauseabundo está suspendido.']",0,"Pregunta: Durante la deglución del
+
+Opciones de respuesta: ['Se abre el tubo auditivo.', 'El músculo cricofaríngeo se contrae.', 'La rima glotis se abre.', 'El reflejo nauseabundo está suspendido.']
+
+Respuesta: Se abre el tubo auditivo."
+Las raíces dorsales de todos los nervios espinales contienen,anatomy,"['los procesos neuronales sensoriales.', 'los procesos neuronales sensoriales y autónomos.', 'los procesos de las neuronas motoras.', 'los procesos neuronales motores y autónomos.']",0,"Pregunta: Las raíces dorsales de todos los nervios espinales contienen
+
+Opciones de respuesta: ['los procesos neuronales sensoriales.', 'los procesos neuronales sensoriales y autónomos.', 'los procesos de las neuronas motoras.', 'los procesos neuronales motores y autónomos.']
+
+Respuesta: los procesos neuronales sensoriales."
+¿Cuál de las siguientes es la glándula maestra del sistema endocrino?,anatomy,"['En las glándulas suprarrenales', 'El páncreas', 'En el caso de la glándula pineal', 'La hipófisis']",3,"Pregunta: ¿Cuál de las siguientes es la glándula maestra del sistema endocrino?
+
+Opciones de respuesta: ['En las glándulas suprarrenales', 'El páncreas', 'En el caso de la glándula pineal', 'La hipófisis']
+
+Respuesta: La hipófisis"
+La pérdida de la sensibilidad somática en los dos tercios anteriores de la lengua indica daños en el,anatomy,"['rama lingual del nervio trigémino mandibular.', 'La cuerda tímpana es la rama del nervio facial.', 'rama lingüística del nervio glossofaríngeo.', 'el nervio hipogloso.']",0,"Pregunta: La pérdida de la sensibilidad somática en los dos tercios anteriores de la lengua indica daños en el
+
+Opciones de respuesta: ['rama lingual del nervio trigémino mandibular.', 'La cuerda tímpana es la rama del nervio facial.', 'rama lingüística del nervio glossofaríngeo.', 'el nervio hipogloso.']
+
+Respuesta: rama lingual del nervio trigémino mandibular."
+"En los hombres, ¿de cuál de las siguientes estructuras se obtienen con mayor frecuencia muestras para cultivos de gonococos?",anatomy,"['El ano', 'La vejiga', 'La uretra', 'El testículo']",2,"Pregunta: En los hombres, ¿de cuál de las siguientes estructuras se obtienen con mayor frecuencia muestras para cultivos de gonococos?
+
+Opciones de respuesta: ['El ano', 'La vejiga', 'La uretra', 'El testículo']
+
+Respuesta: La uretra"
+¿Cuál de las siguientes estructuras debe ser visible en una radiografía dental panorámica?,anatomy,"['El canal mandibular', 'El canal mandibular y el seno maxilar', 'El canal mandibular, el seno maxilar y el paladar duro', 'El canal mandibular, el seno maxilar, el paladar duro y el arco cigomático']",3,"Pregunta: ¿Cuál de las siguientes estructuras debe ser visible en una radiografía dental panorámica?
+
+Opciones de respuesta: ['El canal mandibular', 'El canal mandibular y el seno maxilar', 'El canal mandibular, el seno maxilar y el paladar duro', 'El canal mandibular, el seno maxilar, el paladar duro y el arco cigomático']
+
+Respuesta: El canal mandibular, el seno maxilar, el paladar duro y el arco cigomático"
