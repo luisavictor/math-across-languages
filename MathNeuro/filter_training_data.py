@@ -234,8 +234,8 @@ def prepare_filtered_training_data(
     correct_df = train_reset.iloc[selected_correct_ids].copy()
     incorrect_df = train_reset.iloc[selected_incorrect_ids].copy()
 
-    # correct_df.to_csv(correct_path, index=False)
-    # incorrect_df.to_csv(incorrect_path, index=False)
+    correct_df.to_csv(correct_path, index=False)
+    incorrect_df.to_csv(incorrect_path, index=False)
 
     summary = {
         "task_name": task_name,
