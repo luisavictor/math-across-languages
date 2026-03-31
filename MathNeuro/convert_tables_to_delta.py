@@ -104,7 +104,7 @@ def convert_table(latex_src, mode="pct", color=False):
         if "Pre-train" in stripped:
             pretrain_values = parse_pretrain_row(stripped)
             continue
-        if pretrain_values and re.match(r'^\s*[\d.]+\s*&', line):
+        if pretrain_values and re.match(r'^\s*[\de.+-]+\s*&', line):
             label, means, stds = parse_data_row(line)
             if len(means) == len(pretrain_values):
                 changes = [compute_change(m, p) for m, p in zip(means, pretrain_values)]
@@ -138,7 +138,7 @@ def convert_table(latex_src, mode="pct", color=False):
             continue
 
         # Non-data rows with column-count mismatch or structural lines
-        if pretrain_values and re.match(r'^\s*[\d.]+\s*&', line) and idx not in data_row_map:
+        if pretrain_values and re.match(r'^\s*[\de.+-]+\s*&', line) and idx not in data_row_map:
             label, means, stds = parse_data_row(line)
             print(f"  WARNING: column count mismatch on row '{label}' "
                   f"({len(means)} vs {len(pretrain_values)} pretrain cols). "
