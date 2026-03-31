@@ -17,7 +17,7 @@ else
     export batch_size="12"
 fi
 
-env CUDA_VISIBLE_DEVICES=3 python3 /raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/filter_training_data.py \
+env CUDA_VISIBLE_DEVICES=0 python3 /raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/filter_training_data.py \
     --model $model \
     --train_data $ENGLISH_GSM8K_PATH \
     --task_name $ENGLISH_TASK \
@@ -28,7 +28,7 @@ env CUDA_VISIBLE_DEVICES=3 python3 /raid/s3/opengptx/behzad_shomali/LabTest/Math
 
 sleep 20s;
 
-env CUDA_VISIBLE_DEVICES=5 python3 /raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/filter_training_data.py \
+env CUDA_VISIBLE_DEVICES=2 python3 /raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/filter_training_data.py \
     --model $model \
     --train_data $HINDI_GSM8K_PATH \
     --task_name $HINDI_TASK \
@@ -39,7 +39,7 @@ env CUDA_VISIBLE_DEVICES=5 python3 /raid/s3/opengptx/behzad_shomali/LabTest/Math
 
 sleep 20s;
 
-env CUDA_VISIBLE_DEVICES=1 python3 /raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/filter_training_data.py \
+env CUDA_VISIBLE_DEVICES=3 python3 /raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/filter_training_data.py \
     --model $model \
     --train_data $GERMAN_GSM8K_PATH \
     --task_name $GERMAN_TASK \

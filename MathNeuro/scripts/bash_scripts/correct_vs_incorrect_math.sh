@@ -19,7 +19,7 @@ GERMAN_MMLU_CALIBRATION_DATASET="/raid/s3/opengptx/behzad_shomali/LabTest/custom
 
 model=$1
 if [[ $model == *"Qwen"* ]]; then
-    export batch_size="18"
+    export batch_size="16"
     export hindi_correct_train_dataset="/raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/data/filtered_gsm8k_hindi/train_correct_Qwen_Qwen3-4B-Instruct-2507.csv"
     export hindi_incorrect_train_dataset="/raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/data/filtered_gsm8k_hindi/train_incorrect_Qwen_Qwen3-4B-Instruct-2507.csv"
     export german_correct_train_dataset="/raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/data/filtered_gsm8k_german/train_correct_Qwen_Qwen3-4B-Instruct-2507.csv"
@@ -27,7 +27,7 @@ if [[ $model == *"Qwen"* ]]; then
     export english_correct_train_dataset="/raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/data/filtered_gsm8k/train_correct_Qwen_Qwen3-4B-Instruct-2507.csv"
     export english_incorrect_train_dataset="/raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/data/filtered_gsm8k/train_incorrect_Qwen_Qwen3-4B-Instruct-2507.csv"
 elif [[ $model == *"Llama-3.2-1B-Instruct"* ]]; then
-    export batch_size="20"
+    export batch_size="18"
     export hindi_correct_train_dataset="/raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/data/filtered_gsm8k_hindi/train_correct_meta-llama_Llama-3.2-1B-Instruct.csv"
     export hindi_incorrect_train_dataset="/raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/data/filtered_gsm8k_hindi/train_incorrect_meta-llama_Llama-3.2-1B-Instruct.csv"
     export german_correct_train_dataset="/raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/data/filtered_gsm8k_german/train_correct_meta-llama_Llama-3.2-1B-Instruct.csv"
@@ -35,7 +35,7 @@ elif [[ $model == *"Llama-3.2-1B-Instruct"* ]]; then
     export english_correct_train_dataset="/raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/data/filtered_gsm8k/train_correct_meta-llama_Llama-3.2-1B-Instruct.csv"
     export english_incorrect_train_dataset="/raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/data/filtered_gsm8k/train_incorrect_meta-llama_Llama-3.2-1B-Instruct.csv"
 else
-    export batch_size="16"
+    export batch_size="14"
     export hindi_correct_train_dataset="/raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/data/filtered_gsm8k_hindi/train_correct_meta-llama_Llama-3.1-8B-Instruct.csv"
     export hindi_incorrect_train_dataset="/raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/data/filtered_gsm8k_hindi/train_incorrect_meta-llama_Llama-3.1-8B-Instruct.csv"
     export german_correct_train_dataset="/raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/data/filtered_gsm8k_german/train_correct_meta-llama_Llama-3.1-8B-Instruct.csv"
@@ -70,7 +70,7 @@ do
         echo "Iteration $i: Running scaling/pruning for model: $model with data mode: $data_mode";
 
         ## Hindi RACE 
-        env CUDA_VISIBLE_DEVICES=1 python3 MathNeuro_SelectedSamples.py \
+        env CUDA_VISIBLE_DEVICES=0 python3 MathNeuro_SelectedSamples.py \
             --model $model \
             --save_path ${save_root}/results_gsm8k_race_hindi_max300 \
             --train_dataset $HINDI_GSM8K_PATH \

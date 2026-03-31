@@ -19,11 +19,16 @@ GERMAN_GSM8K_PATH="/raid/s3/opengptx/behzad_shomali/LabTest/custom_datasets/GSM8
 GERMAN_RACE_CALIBRATION_DATASET="/raid/s3/opengptx/behzad_shomali/LabTest/custom_datasets/Race_German/race_de_train.csv"
 GERMAN_MMLU_CALIBRATION_DATASET="/raid/s3/opengptx/behzad_shomali/LabTest/custom_datasets/MMLU_German/mmlu_de_val.csv"
 
+FRENCH_LM_EVAL_TASK="gsm8k_fr_cot"
+FRENCH_GSM8K_PATH="/raid/s3/opengptx/behzad_shomali/LabTest/custom_datasets/GSM8k_French/gsm8k_fr_train.csv"
+FRENCH_RACE_CALIBRATION_DATASET="/raid/s3/opengptx/behzad_shomali/LabTest/custom_datasets/Race_French/race_fr_train.csv"
+FRENCH_MMLU_CALIBRATION_DATASET="/raid/s3/opengptx/behzad_shomali/LabTest/custom_datasets/MMLU_French/mmlu_fr_val.csv"
+
 model=$1
 if [[ $model == *"Qwen"* ]]; then
     export batch_size="18"
 elif [[ $model == *"Llama-3.2-1B-Instruct"* ]]; then
-    export batch_size="20"
+    export batch_size="24"
 else
     export batch_size="16"
 fi
@@ -35,120 +40,14 @@ scalar=0
 save_root="/raid/s3/opengptx/behzad_shomali/LabTest/results/prune"
 
 ## English RACE 
-CUDA_VISIBLE_DEVICES=4 python3 MathNeuroFast.py \
-    --model $model \
-    --save_path ${save_root}/results_gsm8k_race \
-    --train_dataset $ENGLISH_GSM8K_PATH \
-    --train_lm_eval_task $ENGLISH_LM_EVAL_TASK \
-    --eval_datasets race \
-    --calibration_datasets $ENGLISH_RACE_CALIBRATION_DATASET \
-    --calibration_dataset_names Race \
-    --eval_dataset_subset 200 \
-    --num_samples 500 \
-    --random_state 1 \
-    --scalar $scalar \
-    --batch_size $batch_size \
-    --proportion $proportions \
-    --num_repeats 3 \
-    --random_prune \
-    --random_prune_seed 42 123 456 \
-    --random_prune_fractions $random_prune_fractions;
-
-sleep 5s;
-
-## Hindi RACE 
-CUDA_VISIBLE_DEVICES=4 python3 MathNeuroFast.py \
-    --model $model \
-    --save_path ${save_root}/results_gsm8k_race_hindi_max300 \
-    --train_dataset $HINDI_GSM8K_PATH \
-    --train_lm_eval_task $HINDI_LM_EVAL_TASK \
-    --eval_datasets race_hi_max300 \
-    --calibration_datasets $HINDI_RACE_CALIBRATION_DATASET \
-    --calibration_dataset_names Race \
-    --eval_dataset_subset 200 \
-    --num_samples 500 \
-    --random_state 1 \
-    --scalar $scalar \
-    --batch_size $batch_size \
-    --proportion $proportions \
-    --num_repeats 3 \
-    --random_prune \
-    --random_prune_seed 42 123 456 \
-    --random_prune_fractions $random_prune_fractions;
-sleep 5s;
-
-## German RACE 
-CUDA_VISIBLE_DEVICES=4 python3 MathNeuroFast.py \
-    --model $model \
-    --save_path ${save_root}/results_gsm8k_race_german \
-    --train_dataset $GERMAN_GSM8K_PATH \
-    --train_lm_eval_task $GERMAN_LM_EVAL_TASK \
-    --eval_datasets race_de \
-    --calibration_datasets $GERMAN_RACE_CALIBRATION_DATASET \
-    --calibration_dataset_names Race \
-    --eval_dataset_subset 200 \
-    --num_samples 500 \
-    --random_state 1 \
-    --scalar $scalar \
-    --batch_size $batch_size \
-    --proportion $proportions \
-    --num_repeats 3 \
-    --random_prune \
-    --random_prune_seed 42 123 456 \
-    --random_prune_fractions $random_prune_fractions;
-sleep 5s;
-
-# ## Hindi MMLU
-# CUDA_VISIBLE_DEVICES=4 python3 MathNeuroFast.py \
+# env CUDA_VISIBLE_DEVICES=1 python3 MathNeuroFast.py \
 #     --model $model \
-#     --save_path ${save_root}/results_gsm8k_mmlu_hindi_max300 \
-#     --train_dataset $HINDI_GSM8K_PATH \
-#     --train_lm_eval_task $HINDI_LM_EVAL_TASK \
-#     --eval_datasets mmlu_hi_max300 \
-#     --calibration_datasets $HINDI_MMLU_CALIBRATION_DATASET \
-#     --calibration_dataset_names MMLU \
-#     --eval_dataset_subset 200 \
-#     --num_samples 500 \
-#     --random_state 1 \
-#     --scalar $scalar \
-#     --batch_size $batch_size \
-#     --proportion $proportions \
-#     --num_repeats 3 \
-#     --random_prune \
-#     --random_prune_seed 42 123 456 \
-#     --random_prune_fractions $random_prune_fractions;
-# sleep 5s;
-
-# ## German MMLU
-# CUDA_VISIBLE_DEVICES=4 python3 MathNeuroFast.py \
-#     --model $model \
-#     --save_path ${save_root}/results_gsm8k_mmlu_german \
-#     --train_dataset $GERMAN_GSM8K_PATH \
-#     --train_lm_eval_task $GERMAN_LM_EVAL_TASK \
-#     --eval_datasets mmlu_de \
-#     --calibration_datasets $GERMAN_MMLU_CALIBRATION_DATASET \
-#     --calibration_dataset_names MMLU \
-#     --eval_dataset_subset 200 \
-#     --num_samples 500 \
-#     --random_state 1 \
-#     --scalar $scalar \
-#     --batch_size $batch_size \
-#     --proportion $proportions \
-#     --num_repeats 3 \
-#     --random_prune \
-#     --random_prune_seed 42 123 456 \
-#     --random_prune_fractions $random_prune_fractions;
-# sleep 5s;
-
-# ## English MMLU
-# CUDA_VISIBLE_DEVICES=4 python3 MathNeuroFast.py \
-#     --model $model \
-#     --save_path ${save_root}/results_gsm8k_mmlu \
+#     --save_path ${save_root}/results_gsm8k_race \
 #     --train_dataset $ENGLISH_GSM8K_PATH \
 #     --train_lm_eval_task $ENGLISH_LM_EVAL_TASK \
-#     --eval_datasets mmlu \
-#     --calibration_datasets $ENGLISH_MMLU_CALIBRATION_DATASET \
-#     --calibration_dataset_names MMLU \
+#     --eval_datasets race \
+#     --calibration_datasets $ENGLISH_RACE_CALIBRATION_DATASET \
+#     --calibration_dataset_names Race \
 #     --eval_dataset_subset 200 \
 #     --num_samples 500 \
 #     --random_state 1 \
@@ -158,7 +57,89 @@ sleep 5s;
 #     --num_repeats 3 \
 #     --random_prune \
 #     --random_prune_seed 42 123 456 \
-#     --random_prune_fractions $random_prune_fractions;
-# sleep 5s;
+#     --random_prune_fractions $random_prune_fractions &
 
-wait
+# sleep 20s;
+
+# (
+    ## Hindi RACE 
+    # env CUDA_VISIBLE_DEVICES=$2 python3 MathNeuroFast.py \
+    #     --model $model \
+    #     --save_path ${save_root}/results_gsm8k_race_hindi_max300 \
+    #     --train_dataset $HINDI_GSM8K_PATH \
+    #     --train_lm_eval_task $HINDI_LM_EVAL_TASK \
+    #     --eval_datasets race_hi_max300 \
+    #     --calibration_datasets $HINDI_RACE_CALIBRATION_DATASET \
+    #     --calibration_dataset_names Race \
+    #     --eval_dataset_subset 200 \
+    #     --num_samples 500 \
+    #     --random_state 1 \
+    #     --scalar $scalar \
+    #     --batch_size $batch_size \
+    #     --proportion $proportions \
+    #     --num_repeats 3 \
+    #     --random_prune \
+    #     --random_prune_seed 42 123 456 \
+    #     --random_prune_fractions $random_prune_fractions ;
+    
+    # sleep 20s;
+    # ## German RACE 
+    # env CUDA_VISIBLE_DEVICES=3 python3 MathNeuroFast.py \
+    #     --model $model \
+    #     --save_path ${save_root}/results_gsm8k_race_german \
+    #     --train_dataset $GERMAN_GSM8K_PATH \
+    #     --train_lm_eval_task $GERMAN_LM_EVAL_TASK \
+    #     --eval_datasets race_de \
+    #     --calibration_datasets $GERMAN_RACE_CALIBRATION_DATASET \
+    #     --calibration_dataset_names Race \
+    #     --eval_dataset_subset 200 \
+    #     --num_samples 500 \
+    #     --random_state 1 \
+    #     --scalar $scalar \
+    #     --batch_size $batch_size \
+    #     --proportion $proportions \
+    #     --num_repeats 3 \
+    #     --random_prune \
+    #     --random_prune_seed 42 123 456 \
+    #     --random_prune_fractions $random_prune_fractions ;
+# ) &
+
+
+# env CUDA_VISIBLE_DEVICES=$2 python3 MathNeuroFast.py \
+#     --model $model \
+#     --save_path ${save_root}/results_gsm8k_race_hindi_max300 \
+#     --train_dataset $HINDI_GSM8K_PATH \
+#     --train_lm_eval_task $HINDI_LM_EVAL_TASK \
+#     --eval_datasets race_hi_max300 \
+#     --calibration_datasets $HINDI_RACE_CALIBRATION_DATASET \
+#     --calibration_dataset_names Race \
+#     --eval_dataset_subset 200 \
+#     --num_samples 500 \
+#     --random_state 1 \
+#     --scalar $scalar \
+#     --batch_size $batch_size \
+#     --proportion $proportions \
+#     --num_repeats 3 \
+#     --random_prune \
+#     --random_prune_seed 42 123 456 \
+#     --random_prune_fractions $random_prune_fractions ;
+
+
+env CUDA_VISIBLE_DEVICES=$2 python3 MathNeuroFast.py \
+    --model $model \
+    --save_path ${save_root}/results_gsm8k_race_french \
+    --train_dataset $FRENCH_GSM8K_PATH \
+    --train_lm_eval_task $FRENCH_LM_EVAL_TASK \
+    --eval_datasets race_fr \
+    --calibration_datasets $FRENCH_RACE_CALIBRATION_DATASET \
+    --calibration_dataset_names Race \
+    --eval_dataset_subset 200 \
+    --num_samples 500 \
+    --random_state 1 \
+    --scalar $scalar \
+    --batch_size $batch_size \
+    --proportion $proportions \
+    --num_repeats 3 \
+    --random_prune \
+    --random_prune_seed 42 123 456 \
+    --random_prune_fractions $random_prune_fractions ;
