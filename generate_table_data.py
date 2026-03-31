@@ -33,6 +33,12 @@ from typing import Any, Dict, List, Optional, Tuple
 #         'gsm8k_key': 'gsm8k_hi_cot_max300',
 #         'task_key': 'race_hi_max300',
 #         'label': 'Hindi'
+#     },
+#     'french': {
+#         'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/scale/results_gsm8k_race_french/eval_results/meta-llama/Llama-3.1-8B-Instruct',
+#         'gsm8k_key': 'gsm8k_fr_cot',
+#         'task_key': 'race_fr',
+#         'label': 'French'
 #     }
 # }
 
@@ -55,6 +61,12 @@ from typing import Any, Dict, List, Optional, Tuple
 #         'gsm8k_key': 'gsm8k_hi_cot_max300',
 #         'task_key': 'race_hi_max300',
 #         'label': 'Hindi'
+#     },
+#     'french': {
+#         'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/scale/results_gsm8k_race_french/eval_results/meta-llama/Llama-3.2-1B-Instruct',
+#         'gsm8k_key': 'gsm8k_fr_cot',
+#         'task_key': 'race_fr',
+#         'label': 'French'
 #     }
 # }
 
@@ -80,17 +92,11 @@ from typing import Any, Dict, List, Optional, Tuple
 #         'task_key': 'race_hi_max300',
 #         'label': 'Hindi'
 #     },
-#     'code': {
-#         'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/scale/results_codealpaca_race/eval_results/Qwen/Qwen3-4B-Instruct-2507',
-#         'gsm8k_key': "oracle_acc",
-#         'task_key': "race",
-#         'label': 'Code',
-#         'dataset_type': 'code',
-#         'primary_task_key': 'codealpaca',
-#         'primary_metric_candidates': ['oracle_acc'],
-#         'primary_flex_metric_candidates': [],
-#         'oracle_metric_file_prefix': 'codealpaca_oracle_metrics',
-#         'include_flex': False
+#     'french': {
+#         'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/scale/results_gsm8k_race_french/eval_results/Qwen/Qwen3-4B-Instruct-2507',
+#         'gsm8k_key': 'gsm8k_fr_cot',
+#         'task_key': 'race_fr',
+#         'label': 'French'
 #     }
 # }
 
@@ -113,6 +119,12 @@ from typing import Any, Dict, List, Optional, Tuple
 #         'gsm8k_key': 'gsm8k_hi_cot_max300',
 #         'task_key': 'race_hi_max300',
 #         'label': 'Hindi'
+#     },
+#     'french': {
+#         'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_french/eval_results/meta-llama/Llama-3.1-8B-Instruct',
+#         'gsm8k_key': 'gsm8k_fr_cot',
+#         'task_key': 'race_fr',
+#         'label': 'French'
 #     }
 # }
 
@@ -135,6 +147,12 @@ from typing import Any, Dict, List, Optional, Tuple
 #         'gsm8k_key': 'gsm8k_hi_cot_max300',
 #         'task_key': 'race_hi_max300',
 #         'label': 'Hindi'
+#     },
+#     'french': {
+#         'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_french/eval_results/meta-llama/Llama-3.2-1B-Instruct',
+#         'gsm8k_key': 'gsm8k_fr_cot',
+#         'task_key': 'race_fr',
+#         'label': 'French'
 #     }
 # }
 
@@ -159,17 +177,11 @@ from typing import Any, Dict, List, Optional, Tuple
 #         'task_key': 'race_hi_max300',
 #         'label': 'Hindi'
 #     },
-#     'code': {
-#         'path': "/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_codealpaca_race/eval_results/Qwen/Qwen3-4B-Instruct-2507",
-#         'gsm8k_key': "oracle_acc",
-#         'task_key': "race",
-#         'label': 'Code',
-#         'dataset_type': 'code',
-#         'primary_task_key': 'codealpaca',
-#         'primary_metric_candidates': ['oracle_acc'],
-#         'primary_flex_metric_candidates': [],
-#         'oracle_metric_file_prefix': 'codealpaca_oracle_metrics',
-#         'include_flex': False
+#     'french': {
+#         'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_french/eval_results/Qwen/Qwen3-4B-Instruct-2507',
+#         'gsm8k_key': 'gsm8k_fr_cot',
+#         'task_key': 'race_fr',
+#         'label': 'French'
 #     }
 # }
 
@@ -192,6 +204,12 @@ from typing import Any, Dict, List, Optional, Tuple
 #         'gsm8k_key': 'gsm8k_hi_cot_max300',
 #         'task_key': 'mmlu_hi_max300',
 #         'label': 'Hindi'
+#     },
+#     'french': {
+#         'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/scale/results_gsm8k_mmlu_french/eval_results/meta-llama/Llama-3.1-8B-Instruct',
+#         'gsm8k_key': 'gsm8k_fr_cot',
+#         'task_key': 'mmlu_fr',
+#         'label': 'French'
 #     }
 # }
 
@@ -213,6 +231,12 @@ from typing import Any, Dict, List, Optional, Tuple
 #         'gsm8k_key': 'gsm8k_hi_cot_max300',
 #         'task_key': 'mmlu_hi_max300',
 #         'label': 'Hindi'
+#     },
+#     "french": {
+#         'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/scale/results_gsm8k_mmlu_french/eval_results/meta-llama/Llama-3.2-1B-Instruct',
+#         'gsm8k_key': 'gsm8k_fr_cot',
+#         'task_key': 'mmlu_fr',
+#         'label': 'French'
 #     }
 # }
 
@@ -236,40 +260,40 @@ from typing import Any, Dict, List, Optional, Tuple
 #         'task_key': 'mmlu_hi_max300',
 #         'label': 'Hindi'
 #     },
-#     'code': {
-#         'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/scale/results_codealpaca_mmlu/eval_results/Qwen/Qwen3-4B-Instruct-2507',
-#         'gsm8k_key': "oracle_acc",
-#         'task_key': "mmlu",
-#         'label': 'Code',
-#         'dataset_type': 'code',
-#         'primary_task_key': 'codealpaca',
-#         'primary_metric_candidates': ['oracle_acc'],
-#         'primary_flex_metric_candidates': [],
-#         'oracle_metric_file_prefix': 'codealpaca_oracle_metrics',
-#         'include_flex': False
+#     'french': {
+#         'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/scale/results_gsm8k_mmlu_french/eval_results/Qwen/Qwen3-4B-Instruct-2507',
+#         'gsm8k_key': 'gsm8k_fr_cot',
+#         'task_key': 'mmlu_fr',
+#         'label': 'French'
 #     }
 # }
 
-# DATASETS = {
-#     'english': {
-#         'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_mmlu/eval_results/meta-llama/Llama-3.1-8B-Instruct',
-#         'gsm8k_key': 'gsm8k_cot',
-#         'task_key': 'mmlu',
-#         'label': 'English'
-#     },
-#     'german': {
-#         'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_mmlu_german/eval_results/meta-llama/Llama-3.1-8B-Instruct',
-#         'gsm8k_key': 'gsm8k_de_cot',
-#         'task_key': 'mmlu_de',
-#         'label': 'German'
-#     },
-#     'hindi': {
-#         'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_mmlu_hindi_max300/eval_results/meta-llama/Llama-3.1-8B-Instruct',
-#         'gsm8k_key': 'gsm8k_hi_cot_max300',
-#         'task_key': 'mmlu_hi_max300',
-#         'label': 'Hindi'
-#     }
-# }
+DATASETS = {
+    'english': {
+        'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_mmlu/eval_results/meta-llama/Llama-3.1-8B-Instruct',
+        'gsm8k_key': 'gsm8k_cot',
+        'task_key': 'mmlu',
+        'label': 'English'
+    },
+    'german': {
+        'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_mmlu_german/eval_results/meta-llama/Llama-3.1-8B-Instruct',
+        'gsm8k_key': 'gsm8k_de_cot',
+        'task_key': 'mmlu_de',
+        'label': 'German'
+    },
+    'hindi': {
+        'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_mmlu_hindi_max300/eval_results/meta-llama/Llama-3.1-8B-Instruct',
+        'gsm8k_key': 'gsm8k_hi_cot_max300',
+        'task_key': 'mmlu_hi_max300',
+        'label': 'Hindi'
+    },
+    'french': {
+        'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_mmlu_french/eval_results/meta-llama/Llama-3.1-8B-Instruct',
+        'gsm8k_key': 'gsm8k_fr_cot',
+        'task_key': 'mmlu_fr',
+        'label': 'French'
+    }
+}
 
 # DATASETS = {
 #     'english': {
@@ -289,6 +313,12 @@ from typing import Any, Dict, List, Optional, Tuple
 #         'gsm8k_key': 'gsm8k_hi_cot_max300',
 #         'task_key': 'mmlu_hi_max300',
 #         'label': 'Hindi'
+#     },
+#     'french': {
+#         'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_mmlu_french/eval_results/meta-llama/Llama-3.2-1B-Instruct',
+#         'gsm8k_key': 'gsm8k_fr_cot',
+#         'task_key': 'mmlu_fr',
+#         'label': 'French'
 #     }
 # }
 
@@ -311,17 +341,11 @@ from typing import Any, Dict, List, Optional, Tuple
 #         'task_key': 'mmlu_hi_max300',
 #         'label': 'Hindi'
 #     },
-#     'code': {
-#         'path': "/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_codealpaca_mmlu/eval_results/Qwen/Qwen3-4B-Instruct-2507",
-#         'gsm8k_key': "oracle_acc",
-#         'task_key': "mmlu",
-#         'label': 'Code',
-#         'dataset_type': 'code',
-#         'primary_task_key': 'codealpaca',
-#         'primary_metric_candidates': ['oracle_acc'],
-#         'primary_flex_metric_candidates': [],
-#         'oracle_metric_file_prefix': 'codealpaca_oracle_metrics',
-#         'include_flex': False
+#     'french': {
+#         'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_mmlu_french/eval_results/Qwen/Qwen3-4B-Instruct-2507',
+#         'gsm8k_key': 'gsm8k_fr_cot',
+#         'task_key': 'mmlu_fr',
+#         'label': 'French'
 #     }
 # }
 
@@ -441,26 +465,26 @@ from typing import Any, Dict, List, Optional, Tuple
 
 ###################### Individual vs group effect #########################
 
-DATASETS = {
-    'english': {
-        'path': "/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_random/eval_results/meta-llama/Llama-3.2-1B-Instruct",
-        'gsm8k_key': 'gsm8k_cot',
-        'task_key': 'race',
-        'label': 'English'
-    },
-    'german': {
-        'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_german_random/eval_results/meta-llama/Llama-3.2-1B-Instruct',
-        'gsm8k_key': 'gsm8k_de_cot',
-        'task_key': 'race_de',
-        'label': 'German'
-    },
-    'hindi': {
-        'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_hindi_max300_random/eval_results/meta-llama/Llama-3.2-1B-Instruct',
-        'gsm8k_key': 'gsm8k_hi_cot_max300',
-        'task_key': 'race_hi_max300',
-        'label': 'Hindi'
-    }
-}
+# DATASETS = {
+#     'english': {
+#         'path': "/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_random/eval_results/meta-llama/Llama-3.2-1B-Instruct",
+#         'gsm8k_key': 'gsm8k_cot',
+#         'task_key': 'race',
+#         'label': 'English'
+#     },
+#     'german': {
+#         'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_german_random/eval_results/meta-llama/Llama-3.2-1B-Instruct',
+#         'gsm8k_key': 'gsm8k_de_cot',
+#         'task_key': 'race_de',
+#         'label': 'German'
+#     },
+#     'hindi': {
+#         'path': '/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_hindi_max300_random/eval_results/meta-llama/Llama-3.2-1B-Instruct',
+#         'gsm8k_key': 'gsm8k_hi_cot_max300',
+#         'task_key': 'race_hi_max300',
+#         'label': 'Hindi'
+#     }
+# }
 
 
 # Top-k percentages to evaluate
