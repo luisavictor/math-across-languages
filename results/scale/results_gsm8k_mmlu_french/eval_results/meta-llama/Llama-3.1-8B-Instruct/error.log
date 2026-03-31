@@ -1,0 +1,50 @@
+2026-03-06 18:01:33,373 [INFO] MathNeuroFast started – log file: /raid/s3/opengptx/behzad_shomali/LabTest/results/scale/results_gsm8k_mmlu_french/eval_results/meta-llama/Llama-3.1-8B-Instruct/error.log
+2026-03-06 18:02:24,901 [CRITICAL] Unhandled exception:
+Traceback (most recent call last):
+  File "/raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/MathNeuroFast.py", line 203, in <module>
+    results = lm_eval.simple_evaluate(  # call simple_evaluate
+  File "/raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/lm_eval/utils.py", line 397, in _wrapper
+    return fn(*args, **kwargs)
+  File "/raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/lm_eval/evaluator.py", line 296, in simple_evaluate
+    results = evaluate(
+  File "/raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/lm_eval/utils.py", line 397, in _wrapper
+    return fn(*args, **kwargs)
+  File "/raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/lm_eval/evaluator.py", line 468, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+  File "/raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/lm_eval/models/huggingface.py", line 1249, in generate_until
+    cont = self._model_generate(
+  File "/raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/lm_eval/models/huggingface.py", line 821, in _model_generate
+    return self.model.generate(
+  File "/raid/s3/opengptx/behzad_shomali/miniforge3/envs/math_neuro/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/raid/s3/opengptx/behzad_shomali/miniforge3/envs/math_neuro/lib/python3.10/site-packages/transformers/generation/utils.py", line 2564, in generate
+    result = decoding_method(
+  File "/raid/s3/opengptx/behzad_shomali/miniforge3/envs/math_neuro/lib/python3.10/site-packages/transformers/generation/utils.py", line 2787, in _sample
+    outputs = model_forward(**model_inputs, return_dict=True)
+  File "/raid/s3/opengptx/behzad_shomali/miniforge3/envs/math_neuro/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/raid/s3/opengptx/behzad_shomali/miniforge3/envs/math_neuro/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/raid/s3/opengptx/behzad_shomali/miniforge3/envs/math_neuro/lib/python3.10/site-packages/transformers/utils/generic.py", line 918, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/raid/s3/opengptx/behzad_shomali/miniforge3/envs/math_neuro/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 459, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+  File "/raid/s3/opengptx/behzad_shomali/miniforge3/envs/math_neuro/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/raid/s3/opengptx/behzad_shomali/miniforge3/envs/math_neuro/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/raid/s3/opengptx/behzad_shomali/miniforge3/envs/math_neuro/lib/python3.10/site-packages/transformers/utils/generic.py", line 1072, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "/raid/s3/opengptx/behzad_shomali/miniforge3/envs/math_neuro/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 368, in forward
+    inputs_embeds: torch.Tensor = self.embed_tokens(input_ids)
+  File "/raid/s3/opengptx/behzad_shomali/miniforge3/envs/math_neuro/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/raid/s3/opengptx/behzad_shomali/miniforge3/envs/math_neuro/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/raid/s3/opengptx/behzad_shomali/miniforge3/envs/math_neuro/lib/python3.10/site-packages/torch/nn/modules/sparse.py", line 192, in forward
+    return F.embedding(
+  File "/raid/s3/opengptx/behzad_shomali/miniforge3/envs/math_neuro/lib/python3.10/site-packages/torch/nn/functional.py", line 2542, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+KeyboardInterrupt
+
+2026-03-06 20:53:16,477 [INFO] MathNeuroFast started – log file: /raid/s3/opengptx/behzad_shomali/LabTest/results/scale/results_gsm8k_mmlu_french/eval_results/meta-llama/Llama-3.1-8B-Instruct/error.log
