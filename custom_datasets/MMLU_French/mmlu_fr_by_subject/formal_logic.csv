@@ -369,9 +369,9 @@ Réponse: [B  D] • H]  L [B  D] • H]  L [B  D] • H]  L"
 Choix: ['Vérifié', 'Invalide. Contre-exemple lorsque O et P sont vrais', 'Invalide. Contre-exemple lorsque O est vrai et P est faux', 'Invalide. Contre-exemple lorsque P est vrai et O est faux']
 
 Réponse: Vérifié"
-Choisissez la meilleure traduction en logique de prédicat: Leroy est mauvais seulement si DJ Khaled crie son nom.,formal_logic,"['', 'Nom et prénom de l'employeur', 'Bx  Sy', 'Nom et prénom de l'employeur']",3,"Question: Choisissez la meilleure traduction en logique de prédicat: Leroy est mauvais seulement si DJ Khaled crie son nom.
+Choisissez la meilleure traduction en logique de prédicat: Leroy est mauvais seulement si DJ Khaled crie son nom.,formal_logic,"["""", ""Nom et prénom de l'employeur"", ""Bx  Sy"", ""Nom et prénom de l'employeur""]",3,"Question: Choisissez la meilleure traduction en logique de prédicat: Leroy est mauvais seulement si DJ Khaled crie son nom.
 
-Choix: ['', 'Nom et prénom de l'employeur', 'Bx  Sy', 'Nom et prénom de l'employeur']
+Choix: ["""", ""Nom et prénom de l'employeur"", ""Bx  Sy"", ""Nom et prénom de l'employeur""]
 
 Réponse: Nom et prénom de l'employeur"
 "Laquelle des formules données de PL est la meilleure symbolisation de la phrase suivante? Si George s'inscrit ou Harry s'inscrit, alors Ira ne s'inscrit pas.",formal_logic,"['(G  H)  I (G  H)  I (G  H)  I (G  H)', '(G  H)  I (G  H)  I (G  H)  I (G  H)', '(G  H)  ~I (G  H)  ~I (G  H)', '(G  H)  ~I (G  H)  ~I (G  H)']",3,"Question: Laquelle des formules données de PL est la meilleure symbolisation de la phrase suivante? Si George s'inscrit ou Harry s'inscrit, alors Ira ne s'inscrit pas.
