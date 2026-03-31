@@ -1,3 +1,9 @@
+[Race] repeat 1, top 0.0100% — math: 750389, non-math: 750389, math-only after removing non-math: 196297
+[Race] repeat 1, top 0.1000% — math: 7504600, non-math: 7504600, math-only after removing non-math: 1877702
+[Race] repeat 1, top 1.0000% — math: 75046517, non-math: 75046517, math-only after removing non-math: 17468734
+[Race] repeat 1, top 5.0000% — math: 375232780, non-math: 375232780, math-only after removing non-math: 66923018
+[Race] repeat 1, top 10.0000% — math: 750465721, non-math: 750465721, math-only after removing non-math: 101494495
+[Race] repeat 1, top 15.0000% — math: 1125698662, non-math: 1125698662, math-only after removing non-math: 138837519
 [Race] repeat 1, top 0.0001% — math: 7373, non-math: 7373, math-only after removing non-math: 2486
 [Race] repeat 1, top 0.0010% — math: 74917, non-math: 74917, math-only after removing non-math: 20991
 [Race] repeat 2, top 0.0001% — math: 7373, non-math: 7373, math-only after removing non-math: 2587

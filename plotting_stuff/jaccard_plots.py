@@ -10,6 +10,8 @@ import numpy as np
 
 _LAYER_RE = re.compile(r"^layers\.(\d+)$")
 
+
+
 def compute_chance_jaccard(top_k):
     return (top_k*(1-top_k))/(top_k**2-top_k+2)
 
@@ -19,6 +21,7 @@ def plot_jaccard_per_good_percent(
     json_path: str | Path,
     save_dir: str | Path | None = None,
     show: bool = True,
+    show_chance_line: bool = False,
 ):
     """
     Reads a jaccard_summary.json (list of entries) and, for each entry (i.e., each good_percent),
@@ -81,12 +84,16 @@ def plot_jaccard_per_good_percent(
         fig, ax_left = plt.subplots(figsize=(12, 5))
         ax_right = ax_left.twinx()
 
+        chance_jac = [compute_chance_jaccard(gp) for item in layer_items]
+
         # Left axis: Jaccard
         l1 = ax_left.plot(x, jacc, marker="o", label="Jaccard")
+        if show_chance_line:
+              l1_chance = ax_left.plot(x, chance_jac, marker="o", label="Chance Jaccard")
 
         # Right axis: isolated counts
         l2 = ax_right.plot(x, iso_en, marker=".",alpha=0.5,color="green", label="Math-specific English")
-        l3 = ax_right.plot(x, iso_de, marker=".",color="violet", label="Math-specific German")
+        l3 = ax_right.plot(x, iso_de, marker=".",color="violet", label="Code-specific")
 
         ax_left.set_xlabel("Layer")
         ax_left.set_ylabel("Jaccard similarity")
@@ -99,11 +106,14 @@ def plot_jaccard_per_good_percent(
         ax_left.set_title(title)
 
 
-        ax_left.set_ylim(0.0, 0.4)
+        ax_left.set_ylim(0.0, 0.5)
         #ax_right.set_ylim([])
 
         # Combine legends from both axes
-        lines = l1 + l2 + l3
+        if show_chance_line:
+             lines = l1 + l1_chance + l2 + l3
+        else:
+            lines = l1 + l2 + l3
         labels = [ln.get_label() for ln in lines]
 
         ax_left.legend(lines, labels, loc="upper right")  # <-- add this
@@ -111,7 +121,10 @@ def plot_jaccard_per_good_percent(
         if save_dir is not None:
             # safe filename
             gp_str = str(gp)
-            out_path = save_dir / f"jaccard_layers_{gp_str}_seed_{seed}.pdf"
+            if show_chance_line:
+                out_path = save_dir / f"jaccard_layers_with_chance_{gp_str}_seed_{seed}.pdf"
+            else:
+                out_path = save_dir / f"jaccard_layers_{gp_str}_seed_{seed}.pdf"
             fig.savefig(out_path, dpi=200)
             print("Saved:", out_path)
 
