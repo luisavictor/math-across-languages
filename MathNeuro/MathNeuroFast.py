@@ -1,6 +1,8 @@
 import os
 import sys
 import argparse
+import logging
+import traceback
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch.nn as nn
 import pandas as pd
@@ -98,6 +100,29 @@ torch.manual_seed(args.random_state)
 torch.cuda.manual_seed_all(args.random_state)
 torch.backends.cudnn.benchmark = False
 
+# ── Logging setup ────────────────────────────────────────────────────────────
+_log_dir = os.path.join(args.save_path, "eval_results", args.model) if args.save_path else "."
+os.makedirs(_log_dir, exist_ok=True)
+_log_file = os.path.join(_log_dir, "error.log")
+
+logger = logging.getLogger("MathNeuroFast")
+logger.setLevel(logging.DEBUG)
+_fh = logging.FileHandler(_log_file, mode="a")
+_fh.setLevel(logging.DEBUG)
+_fh.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(message)s"))
+logger.addHandler(_fh)
+
+def _excepthook(exc_type, exc_value, exc_tb):
+    """Log unhandled exceptions to the log file before crashing."""
+    logger.critical(
+        "Unhandled exception:\n%s",
+        "".join(traceback.format_exception(exc_type, exc_value, exc_tb)),
+    )
+    sys.__excepthook__(exc_type, exc_value, exc_tb)
+
+sys.excepthook = _excepthook
+logger.info("MathNeuroFast started – log file: %s", _log_file)
+
 oracle_cases_path = None
 oracle_eval_ids = None
 if args.run_codealpaca_eval:
@@ -189,6 +214,9 @@ if args.pre_train_eval:
             samples_dir = f"{args.save_path}/eval_results/{args.model}/samples_pre_train_task_{args.scalar}"
             saved = save_lm_eval_samples(results, f"{samples_dir}/pre_modification")
             print("Saved:", saved)
+        except Exception:
+            logger.error("Pre-train eval (train task) failed:\n%s", traceback.format_exc())
+            raise
         finally:
             if oracle_env_set:
                 os.environ.pop("CODEALPACA_ORACLE_CASES_PATH", None)
@@ -266,7 +294,8 @@ def compute_score_mask(model, train, num_samples, save_dir, save_path):
             for key, tensor in magnitude.items():
                 try:
                     param_dict[f"{key}.weight"] += tensor
-                except:
+                except Exception as e:
+                    logger.warning("Skipped accumulation for %s: %s", key, e)
                     print(f'passed at {key}')
     keys_to_remove = [key for key in param_dict if key.split('.weight')[0] not in magnitude]
 
@@ -467,84 +496,73 @@ def parse_math_top_counts(none_file_path, dataset_name, repeat=1):
     return counts
 
 
-def create_random_prune_mask(train_scores, math_only_count,
-                             good_percent, random_seed=42, pool_size=None):
-    """Create a pruning mask by randomly sampling neurons proportional to their score.
+def create_random_prune_mask(train_scores, comparison_scores, prune_count,
+                             good_percent, random_seed=42):
+    """Create a pruning mask by randomly sampling from math-only neurons.
 
-    Only neurons in the top *good_percent* fraction (by absolute score) are
-    eligible for sampling.  Among those, the probability of being selected is
-    proportional to the absolute score.
+    Math-only neurons are those in the top *good_percent* fraction of
+    train_scores but NOT in the top *good_percent* fraction of
+    comparison_scores.  This mirrors the per-layer selection logic used in
+    ``find_good_params`` + ``prune`` in the main pipeline.
 
     Args:
-        train_scores: dict  {param_name: score_tensor} from compute_score_mask.
-        math_only_count: number of neurons to prune (from the None file).
-        good_percent: only sample from neurons in this top fraction (same as
-            the proportion used in the real pruning experiment).
+        train_scores: dict {param_name: score_tensor} – train (math) scores.
+        comparison_scores: dict {param_name: score_tensor} – comparison scores.
+        prune_count: number of math-only neurons to prune.
+        good_percent: top fraction used to define "important" neurons (per layer).
         random_seed: random seed for reproducibility.
-        pool_size: if given, use this as the number of top neurons to form
-            the sampling pool instead of computing it as
-            int(total_params * good_percent).
 
     Returns:
         mask_dict: dict with 1 everywhere except 0 at the randomly pruned positions.
     """
     rng = np.random.RandomState(random_seed)
 
-    # Flatten all non-embedding scores
-    flat_scores = []
-    param_keys = []
-    param_shapes = []
+    # Collect all math-only positions across layers
+    # Each entry is (param_key, local_flat_index)
+    all_math_only = []
+
     for k, v in train_scores.items():
         if "embed" in k:
             continue
-        param_keys.append(k)
-        param_shapes.append(v.shape)
-        flat_scores.append(v.view(-1).float().abs())
 
-    all_scores = torch.cat(flat_scores)
-    total_params = all_scores.numel()
+        num_params = v.numel()
+        keep_num = int(num_params * good_percent)
+        if keep_num == 0:
+            continue
 
-    # Pool: top good_percent neurons by absolute score
-    if pool_size is None:
-        pool_size = int(total_params * good_percent)
-    top_values, top_positions = torch.topk(all_scores, pool_size, largest=True)
+        # Per-layer top-k for train (same logic as find_good_params)
+        train_tensor = v.view(-1).float().abs()
+        train_top_pos = set(torch.topk(train_tensor, keep_num, largest=True)[1].tolist())
 
-    # pool_scores = top_values.numpy().astype(np.float64)
-    # pool_indices = top_positions.numpy()
+        # Per-layer top-k for comparison
+        comp_tensor = comparison_scores[k].view(-1).float().abs()
+        comp_top_pos = set(torch.topk(comp_tensor, keep_num, largest=True)[1].tolist())
 
-    # # Normalize to probabilities
-    # pool_probs = pool_scores / pool_scores.sum()
+        # Math-only: in train top-k but NOT in comparison top-k
+        math_only_local = train_top_pos - comp_top_pos
+        for idx in math_only_local:
+            all_math_only.append((k, idx))
 
-    # # Sample without replacement
-    # sample_size = min(math_only_count, pool_size)
-    # # chosen = rng.choice(pool_size, size=sample_size, replace=False, p=pool_probs)
-    # chosen = rng.choice(pool_size, size=sample_size, replace=False)
-    # chosen_flat = pool_indices[chosen]
+    total_math_only = len(all_math_only)
+    sample_size = min(prune_count, total_math_only)
 
-    pool_scores = top_values.numpy().astype(np.float64)
-    pool_indices = top_positions.numpy()
+    # Randomly sample from the math-only set
+    chosen_indices = rng.choice(total_math_only, size=sample_size, replace=False)
 
-    # Take the top sample_size neurons (pool is already sorted descending by score)
-    sample_size = min(math_only_count, pool_size)
-    chosen = np.arange(sample_size)
-    chosen_flat = pool_indices[chosen]
-
-    # Build flat mask: 1 everywhere, 0 at chosen positions
-    mask_flat = torch.ones(total_params)
-    mask_flat[chosen_flat] = 0
-
-    # Reshape back to per-parameter tensors
+    # Build mask: 1 everywhere, 0 at chosen math-only positions
     mask_dict = {}
-    offset = 0
     for k, v in train_scores.items():
-        if "embed" in k:
-            mask_dict[k] = torch.ones_like(v)
-            continue
-        n = v.numel()
-        mask_dict[k] = mask_flat[offset:offset + n].reshape(v.shape)
-        offset += n
+        mask_dict[k] = torch.ones_like(v)
 
-    return mask_dict
+    for idx in chosen_indices:
+        key, local_idx = all_math_only[idx]
+        mask_dict[key].view(-1)[local_idx] = 0
+
+    total_params = sum(v.numel() for k, v in train_scores.items() if "embed" not in k)
+    print(f"Random prune mask: pruning {sample_size} / {total_math_only} math-only neurons "
+          f"(seed={random_seed}, total non-embed params: {total_params})")
+
+    return mask_dict, sample_size, total_math_only
 
 
 num_samples = args.num_samples
@@ -759,6 +777,10 @@ for dataset in dataset_list:
                             limit=codealpaca_limit,
                             random_seed=random_state
                         )
+                    except Exception:
+                        logger.error("CodeAlpaca eval failed (dataset=%s, proportion=%s, repeat=%s):\n%s",
+                                     dataset.name, good_percent, repeat, traceback.format_exc())
+                        raise
                     finally:
                         if oracle_env_set:
                             os.environ.pop("CODEALPACA_ORACLE_CASES_PATH", None)
@@ -807,10 +829,13 @@ if args.random_prune:
     # Seed whose masks we reuse (repeat 0 → "repeat 1" in the None file)
     mask_seed = args.random_state  # default 1
 
-    # Load existing train scores (only need train scores for sampling weights)
+    # Load existing train and comparison scores
     train_scores_path = Path(mask_dir) / f"train_scores_seed{mask_seed}.pt"
+    comparison_scores_path = Path(mask_dir) / f"comparison_scores_seed{mask_seed}.pt"
     print(f"Loading train scores from {train_scores_path}")
     train_scores = torch.load(train_scores_path, map_location="cpu")
+    print(f"Loading comparison scores from {comparison_scores_path}")
+    comparison_scores = torch.load(comparison_scores_path, map_location="cpu")
 
     for dataset in dataset_list:
         # Parse math-only counts from None file for this dataset, repeat 1
@@ -822,10 +847,6 @@ if args.random_prune:
             )
             continue
         print(f"Parsed math-only counts for {dataset.name}: {none_counts}")
-
-        # Parse math top-k counts (pool sizes) from None file for repeat 1
-        math_top_counts = parse_math_top_counts(output_file, dataset_name=dataset.name, repeat=1)
-        print(f"Parsed math top-k counts for {dataset.name}: {math_top_counts}")
 
         for good_percent in good_percents:
             # Convert to the percentage key used in the None file
@@ -875,13 +896,23 @@ if args.random_prune:
                     f"({prune_frac:.0%}) randomly sampled neurons"
                 )
 
-                # Create random prune mask weighted by score
-                math_pool_size = math_top_counts.get(good_percent)
-                random_mask = create_random_prune_mask(
-                    train_scores, prune_count,
+                # Create random prune mask from math-only neurons
+                random_mask, actual_pruned, total_math_only = create_random_prune_mask(
+                    train_scores, comparison_scores, prune_count,
                     good_percent=good_percent, random_seed=rseed,
-                    pool_size=math_pool_size,
                 )
+
+                # Log pruning details to a summary file
+                prune_log_path = f"{args.save_path}_random/random_prune_log_{args.model.replace('/', '_')}.txt"
+                os.makedirs(os.path.dirname(prune_log_path), exist_ok=True)
+                with open(prune_log_path, "a") as _log:
+                    _log.write(
+                        f"[{dataset.name}] proportion={good_percent}, "
+                        f"seed={rseed}, frac={prune_frac}, "
+                        f"requested={prune_count}, actual_pruned={actual_pruned}, "
+                        f"total_math_only={total_math_only}, "
+                        f"math_only_count={math_only_count}\n"
+                    )
 
                 # Load fresh model
                 model = AutoModelForCausalLM.from_pretrained(
@@ -927,6 +958,10 @@ if args.random_prune:
                             limit=args.eval_dataset_subset,
                             random_seed=mask_seed,
                         )
+                    except Exception:
+                        logger.error("Random prune eval failed (dataset=%s, proportion=%s, seed=%s, frac=%s):\n%s",
+                                     dataset.name, good_percent, rseed, prune_frac, traceback.format_exc())
+                        raise
                     finally:
                         if oracle_env_set:
                             os.environ.pop("CODEALPACA_ORACLE_CASES_PATH", None)
