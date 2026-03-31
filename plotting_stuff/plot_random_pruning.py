@@ -3,14 +3,15 @@
 Plot GSM8K performance (exact_match,strict-match) vs fraction of pruned neurons
 for random neuron selection experiments.
 
-Creates one figure per language (English, German, Hindi), with subplots for each
-unique pruning threshold (calculate value). Each subplot shows one line per model,
-averaged over random seeds with std-dev error bands.
+Creates one figure per model, with subplots for each unique pruning threshold
+(calculate value). Each subplot shows one line per language, averaged over
+random seeds with std-dev error bands.
+
+Baselines and endpoints are hardcoded per model in MODEL_BASELINES / MODEL_ENDPOINTS.
 
 Usage:
     python plot_random_pruning.py
-    python plot_random_pruning.py --baseline 0.45 0.78 0.62
-    python plot_random_pruning.py --baseline 0.45 0.78 0.62 --save
+    python plot_random_pruning.py --save
 """
 
 import argparse
@@ -22,6 +23,18 @@ from collections import defaultdict
 
 import matplotlib.pyplot as plt
 import numpy as np
+
+# ── Font / style (consistent with plots.ipynb) ──────────────────────────────
+plt.rcParams.update({
+    'font.size': 12,
+    'axes.labelsize': 20,
+    'axes.titlesize': 13,
+    'xtick.labelsize': 20,
+    'ytick.labelsize': 18,
+    'legend.fontsize': 14,
+    'lines.linewidth': 3,
+    'lines.markersize': 10,
+})
 
 
 # ── Configuration ────────────────────────────────────────────────────────────
@@ -60,7 +73,131 @@ MODEL_MARKERS = {
     "Qwen3-4B": "^",
 }
 
+LANGUAGE_COLORS = {
+    "English": "green",
+    "German": "violet",
+    "Hindi": "orange",
+}
+
+LANGUAGE_MARKERS = {
+    "English": "o",
+    "German": "s",
+    "Hindi": "^",
+}
+
 METRIC_KEY = "exact_match,strict-match"
+
+# ── Per-model baselines (x=0) and endpoints (x=1.0) per language ─────────────
+# Format: {model_short_name: {language: score}}
+# TODO: replace placeholder values with actual measured scores
+MODEL_BASELINES = {
+    "Llama-1B": {"English": 0.340, "German": 0.235, "Hindi": 0.145},
+    "Llama-8B": {"English": 0.765, "German": 0.585, "Hindi": 0.415},
+    "Qwen3-4B": {"English": 0.735, "German": 0.685, "Hindi": 0.385},
+}
+
+def _parse_prune_logs(language_dirs: dict) -> dict:
+    """
+    Parse random_prune_log*.txt files from each language directory to extract
+    math_only_count per (model, threshold).  Returns averaged counts across
+    languages.
+
+    Returns:
+        {model_short_name: {threshold_str: avg_math_only_count}}
+    """
+    # Collect per (model, threshold) → list of math_only_count values
+    counts: dict[str, dict[str, list[int]]] = defaultdict(lambda: defaultdict(list))
+
+    for _lang, lang_dir in language_dirs.items():
+        if not os.path.isdir(lang_dir):
+            continue
+        log_files = glob.glob(os.path.join(lang_dir, "random_prune_log*.txt"))
+        for log_file in log_files:
+            # Try to identify the model from the filename (per-model logs)
+            fname = os.path.basename(log_file)
+            model_from_fname = None
+            for full_name, short_name in MODEL_SHORT_NAMES.items():
+                # e.g. "random_prune_log_meta-llama_Llama-3.1-8B-Instruct.txt"
+                sanitised = full_name.replace("/", "_")
+                if sanitised in fname:
+                    model_from_fname = short_name
+                    break
+
+            with open(log_file) as f:
+                for line in f:
+                    m = re.search(
+                        r"proportion=([\d.]+).*math_only_count=(\d+)", line
+                    )
+                    if not m:
+                        continue
+                    prop = m.group(1)
+                    moc = int(m.group(2))
+
+                    if model_from_fname:
+                        counts[model_from_fname][prop].append(moc)
+                    else:
+                        # Single log for all models — group by unique
+                        # (proportion, math_only_count) pairs; model identity
+                        # will be resolved below.
+                        counts["_unknown_"][f"{prop}_{moc}"].append(moc)
+
+    # Handle the "_unknown_" bucket: cluster by model size
+    if "_unknown_" in counts:
+        raw = counts.pop("_unknown_")
+        # Group unique math_only_counts per proportion
+        prop_counts: dict[str, set[int]] = defaultdict(set)
+        for key, vals in raw.items():
+            prop = key.rsplit("_", 1)[0]
+            prop_counts[prop].update(vals)
+        # For each proportion, sort the unique counts and assign to models
+        # by size (smallest → Llama-1B, middle → Qwen3-4B, largest → Llama-8B)
+        model_order = ["Llama-1B", "Qwen3-4B", "Llama-8B"]
+        for prop, unique_vals in prop_counts.items():
+            sorted_vals = sorted(unique_vals)
+            for model_short, val in zip(model_order, sorted_vals):
+                counts[model_short][prop].append(val)
+
+    # Average across languages
+    result: dict[str, dict[str, int]] = {}
+    for model, prop_dict in counts.items():
+        result[model] = {}
+        for prop, vals in prop_dict.items():
+            # Deduplicate identical values from same language/seed lines
+            unique_vals = list(set(vals))
+            result[model][prop] = int(np.mean(unique_vals))
+    return result
+
+
+def _fmt_param_count(n: float) -> str:
+    """Format a parameter count with K / M / B suffix."""
+    abs_n = abs(n)
+    if abs_n >= 1e9:
+        return f"{n / 1e9:.1f}B"
+    if abs_n >= 1e6:
+        return f"{n / 1e6:.1f}M"
+    if abs_n >= 1e3:
+        return f"{n / 1e3:.0f}K"
+    return f"{n:.0f}"
+
+
+# Format: {model_short_name: {threshold: {language: score}}}
+MODEL_ENDPOINTS = {
+    "Llama-1B": {
+        "0.001": {"English": 0.063, "German": 0.078, "Hindi": 0.035},
+        "0.01": {"English": 0.013, "German": 0.018, "Hindi": 0.008},
+        "0.1": {"English": 0.022, "German": 0.015, "Hindi": 0.010},
+    },
+    "Llama-8B": {
+        "0.001": {"English": 0.258,  "German": 0.260,  "Hindi": 0.155},
+        "0.01": {"English": 0.015, "German": 0.017, "Hindi": 0.017},
+        "0.1": {"English": 0.003, "German": 0.020, "Hindi": 0.012},
+    },
+    "Qwen3-4B": {
+        "0.001": {"English": 0.645, "German": 0.525, "Hindi": 0.230},
+        "0.01": {"English": 0.020, "German": 0.035, "Hindi": 0.085},
+        "0.1": {"English": 0.015, "German": 0.027, "Hindi": 0.005},
+    },
+}
 
 
 # ── Data loading ─────────────────────────────────────────────────────────────
@@ -127,50 +264,56 @@ def load_results(base_dir: str, task_key: str = "gsm8k_cot"):
 
 # ── Plotting ─────────────────────────────────────────────────────────────────
 
-def plot_language(
-    language: str,
-    data: dict,
+def plot_model(
+    model: str,
+    lang_data: dict,
     baselines: dict | None = None,
+    endpoints: dict | None = None,
+    math_only_counts: dict | None = None,
     save: bool = False,
     output_dir: str = ".",
 ):
     """
-    Create a figure for one language with one subplot per calculate value.
+    Create a figure for one model with one subplot per calculate value.
+    Each subplot compares different languages.
 
     Args:
-        language:  Language name (for title).
-        data:      {model: {calculate: {frac: [scores]}}}.
-        baselines: Optional {model: baseline_score} for x=0 point.
-        save:      Whether to save to file.
+        model:     Model short name (for title).
+        lang_data: {language: {calculate: {frac: [scores]}}}.
+        baselines:        Optional {language: baseline_score} for x=0 point.
+        endpoints:        Optional {threshold: {language: endpoint_score}} for x=1.0 point.
+        math_only_counts: Optional {threshold: avg_math_only_count} for top axis.
+        save:             Whether to save to file.
         output_dir: Where to save.
     """
-    # Collect all unique calculate values across models
+    # Collect all unique calculate values across languages
     all_calcs = set()
-    for model_data in data.values():
-        all_calcs.update(model_data.keys())
+    for language_data in lang_data.values():
+        all_calcs.update(language_data.keys())
     all_calcs = sorted(all_calcs, key=lambda x: float(x))
 
     n_subplots = len(all_calcs)
     if n_subplots == 0:
-        print(f"[{language}] No data found, skipping.")
+        print(f"[{model}] No data found, skipping.")
         return
 
     fig, axes = plt.subplots(1, n_subplots, figsize=(6 * n_subplots, 5), sharey=True)
     if n_subplots == 1:
         axes = [axes]
 
-    fig.suptitle(f"GSM8K Performance after Random Pruning — {language}", fontsize=14, y=1.02)
+    # fig.suptitle(f"GSM8K Performance after Random Pruning — {model}", fontsize=16, y=1.02)
 
-    # Sort models for consistent legend order
-    models_sorted = sorted(data.keys())
+    # Sort languages for consistent legend order
+    languages_sorted = sorted(lang_data.keys())
+
 
     for ax, calc_val in zip(axes, all_calcs):
-        ax.set_title(f"threshold = {calc_val}", fontsize=12)
-        ax.set_xlabel("Fraction of pruned neurons", fontsize=11)
+        ax.set_title(f"Top-$k$ = {calc_val}", fontsize=24, pad=15)
+        ax.set_xlabel("Fraction of Pruned Parameter", fontsize=22)
         ax.grid(True, alpha=0.3)
 
-        for model in models_sorted:
-            calc_data = data[model].get(calc_val, {})
+        for language in languages_sorted:
+            calc_data = lang_data[language].get(calc_val, {})
             if not calc_data:
                 continue
 
@@ -188,29 +331,63 @@ def plot_language(
             stds = np.array(stds)
 
             # Prepend baseline at x=0 if provided
-            if baselines and model in baselines:
+            if baselines and language in baselines:
                 x_vals = [0.0] + x_vals
-                means = np.concatenate([[baselines[model]], means])
+                means = np.concatenate([[baselines[language]], means])
                 stds = np.concatenate([[0.0], stds])
 
-            color = MODEL_COLORS.get(model, None)
-            marker = MODEL_MARKERS.get(model, "o")
+            # Append endpoint at x=1.0 if provided (per threshold)
+            calc_endpoints = endpoints.get(calc_val, {}) if endpoints else {}
+            if calc_endpoints and language in calc_endpoints:
+                x_vals = x_vals + [1.0]
+                means = np.concatenate([means, [calc_endpoints[language]]])
+                stds = np.concatenate([stds, [0.0]])
 
-            ax.plot(x_vals, means, marker=marker, label=model, color=color,
-                    linewidth=2, markersize=6)
+            # Delta mode: percentage difference relative to baseline
+            if plot_model.delta_mode and baselines and language in baselines:
+                baseline = baselines[language]
+                # Avoid division by zero
+                if baseline != 0:
+                    means = 100 * (means - baseline) / baseline
+                    stds = 100 * stds / baseline
+                else:
+                    means = means * 0
+                    stds = stds * 0
+
+            color = LANGUAGE_COLORS.get(language, None)
+            marker = LANGUAGE_MARKERS.get(language, "o")
+
+            ax.plot(x_vals, means, marker=marker, label=language, color=color)
             ax.fill_between(x_vals, means - stds, means + stds, alpha=0.15, color=color)
 
-    axes[0].set_ylabel("GSM8K exact_match (strict)", fontsize=11)
+        # ── Secondary top x-axis: number of parameters pruned ───────────
+        total_params = (math_only_counts or {}).get(calc_val)
+        if total_params is not None:
+            ax_top = ax.twiny()
+            ax_top.set_xlim(ax.get_xlim())
+            # Use the actual data-point fractions so x=1.0 is always present
+            tick_fracs = sorted({0.0, 0.2, 0.4, 0.6, 0.8, 1.0}
+                                & set(np.arange(0, 1.01, 0.2).round(2)))
+            ax_top.set_xticks(tick_fracs)
+            ax_top.set_xticklabels(
+                [_fmt_param_count(t * total_params) for t in tick_fracs],
+            )
+            ax_top.set_xlabel("Parameters Pruned", fontsize=22, labelpad=15)
+
+    ylabel = "GSM8K Performance"
+    if plot_model.delta_mode:
+        ylabel = "Performance Change \nfrom Baseline (%)"
+    axes[0].set_ylabel(ylabel, fontsize=22)
 
     # Single shared legend
     handles, labels = axes[0].get_legend_handles_labels()
-    fig.legend(handles, labels, loc="upper center", ncol=len(models_sorted),
-               bbox_to_anchor=(0.5, 1.0), fontsize=10)
+    fig.legend(handles, labels, loc="upper center", ncol=len(languages_sorted),
+               bbox_to_anchor=(0.5, 1.09), fontsize=20, frameon=False)
 
     fig.tight_layout()
 
     if save:
-        out_path = os.path.join(output_dir, f"random_pruning_{language.lower()}.pdf")
+        out_path = os.path.join(output_dir, f"random_pruning_{model.lower().replace(' ', '_')}.pdf")
         fig.savefig(out_path, bbox_inches="tight", dpi=150)
         print(f"Saved: {out_path}")
 
@@ -224,17 +401,6 @@ def main():
         description="Plot GSM8K vs fraction of randomly pruned neurons."
     )
     parser.add_argument(
-        "--baseline",
-        nargs="+",
-        type=float,
-        default=None,
-        help=(
-            "Baseline GSM8K scores (y-value at x=0) for each model, in the order: "
-            "Llama-1B, Llama-8B, Qwen3-4B. "
-            "Provide fewer values if not all models are present."
-        ),
-    )
-    parser.add_argument(
         "--save",
         action="store_true",
         help="Save figures as PDF files.",
@@ -244,16 +410,21 @@ def main():
         default=os.path.dirname(__file__),
         help="Directory to save output figures (default: script directory).",
     )
+    parser.add_argument(
+        "--delta",
+        action="store_true",
+        help="Plot delta to baseline (x=0) value.",
+    )
     args = parser.parse_args()
 
-    # Build baselines dict
-    model_order = ["Llama-1B", "Llama-8B", "Qwen3-4B"]
-    baselines = None
-    if args.baseline:
-        baselines = {}
-        for i, val in enumerate(args.baseline):
-            if i < len(model_order):
-                baselines[model_order[i]] = val
+    # Parse log files to build math_only_count per (model, threshold)
+    model_math_only_counts = _parse_prune_logs(LANGUAGE_DIRS)
+    for m_name, m_counts in sorted(model_math_only_counts.items()):
+        for thr, cnt in sorted(m_counts.items(), key=lambda x: float(x[0])):
+            print(f"  {m_name} | threshold={thr} | math_only_count={cnt:,}")
+
+    # Load data for all languages: {model: {language: {calculate: {frac: [scores]}}}}
+    all_data = defaultdict(dict)
 
     for language, lang_dir in LANGUAGE_DIRS.items():
         if not os.path.isdir(lang_dir):
@@ -266,17 +437,26 @@ def main():
 
         data = load_results(lang_dir, task_key=LANGUAGE_TASK_KEYS[language])
 
-        # Show summary
+        # Show summary and reorganize: model -> language -> calc -> frac -> scores
         for model, calc_dict in sorted(data.items()):
             for calc, frac_dict in sorted(calc_dict.items(), key=lambda x: float(x[0])):
                 n_fracs = len(frac_dict)
                 total_pts = sum(len(v) for v in frac_dict.values())
                 print(f"  {model} | threshold={calc} | {n_fracs} fracs, {total_pts} data points")
+            all_data[model][language] = calc_dict
 
-        plot_language(
-            language=language,
-            data=data,
-            baselines=baselines,
+    # One figure per model, comparing languages in each subplot
+    # Set delta mode flag for plot_model
+    plot_model.delta_mode = args.delta
+
+    for model, lang_data in sorted(all_data.items()):
+        print(f"\nPlotting: {model}")
+        plot_model(
+            model=model,
+            lang_data=lang_data,
+            baselines=MODEL_BASELINES.get(model),
+            endpoints=MODEL_ENDPOINTS.get(model),
+            math_only_counts=model_math_only_counts.get(model),
             save=args.save,
             output_dir=args.output_dir,
         )
