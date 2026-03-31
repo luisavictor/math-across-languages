@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Identify neurons",
+            "type": "python",
+            "request": "launch",
+            "program": "/raid/s3/opengptx/behzad_shomali/LabTest/MathNeuro/MathNeuro.py",
+            "args": [
+                "--model", "meta-llama/Llama-3.1-8B-Instruct",
+                "--save_path", "Llama-3.1-8B-Instruct/results_gsm8k_race_german",
+                "--train_dataset", "custom_datasets/GSM8k_German/gsm8k_de_train.csv",
+                "--train_lm_eval_task", "gsm8k_de_cot",
+                "--eval_datasets", "race_de",
+                "--calibration_datasets", "custom_datasets/Race_German/race_de_train.csv",
+                "--calibration_dataset_names", "Race",
+                "--eval_dataset_subset", "10",
+                "--num_samples", "10",
+                "--random_state", "1",
+                "--pre_train_eval",
+                "--scalar", "1.01",
+                "--batch_size", "12",
+                "--proportion", "0.1",
+                "--num_repeats", "3",
+                "--store_params"
+            ],
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "2,3,4"
+            },
+            "console": "integratedTerminal",
+        }
+    ],
+    "inputs": [
+        {
+            "id": "programArgs",
+            "type": "promptString",
+            "description": "Enter arguments for the program",
+            "default": ""
+        }
+    ]
+}

@@ -1,0 +1,2186 @@
+[
+  {
+    "good_percent": 0.0001,
+    "seed": 1,
+    "mask_dir_lang1": "/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_hindi_max300/isolated_masks/meta-llama/Llama-3.1-8B-Instruct/",
+    "mask_dir_lang2": "/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_french/isolated_masks/meta-llama/Llama-3.1-8B-Instruct/",
+    "global": {
+      "total_isolated_run1": 196365,
+      "total_isolated_run2": 258752,
+      "intersection": 89775,
+      "union": 365342,
+      "jaccard": 0.24572865972157595
+    },
+    "per_group": {
+      "layers.0": {
+        "total_isolated_run1": 4428,
+        "total_isolated_run2": 6890,
+        "intersection": 1790,
+        "union": 9528,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.18786733837111672
+      },
+      "layers.1": {
+        "total_isolated_run1": 3546,
+        "total_isolated_run2": 5140,
+        "intersection": 1845,
+        "union": 6841,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.26969741265896796
+      },
+      "layers.2": {
+        "total_isolated_run1": 4020,
+        "total_isolated_run2": 7325,
+        "intersection": 1763,
+        "union": 9582,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.18399081611354623
+      },
+      "layers.3": {
+        "total_isolated_run1": 4352,
+        "total_isolated_run2": 7970,
+        "intersection": 2514,
+        "union": 9808,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.25632137030995106
+      },
+      "layers.4": {
+        "total_isolated_run1": 5452,
+        "total_isolated_run2": 7977,
+        "intersection": 2455,
+        "union": 10974,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.22371058866411517
+      },
+      "layers.5": {
+        "total_isolated_run1": 5330,
+        "total_isolated_run2": 7699,
+        "intersection": 2671,
+        "union": 10358,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2578683143463989
+      },
+      "layers.6": {
+        "total_isolated_run1": 5692,
+        "total_isolated_run2": 7946,
+        "intersection": 2597,
+        "union": 11041,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.23521420161217282
+      },
+      "layers.7": {
+        "total_isolated_run1": 7651,
+        "total_isolated_run2": 8889,
+        "intersection": 4871,
+        "union": 11669,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.41743079955437484
+      },
+      "layers.8": {
+        "total_isolated_run1": 6772,
+        "total_isolated_run2": 8400,
+        "intersection": 4236,
+        "union": 10936,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.38734455010972935
+      },
+      "layers.9": {
+        "total_isolated_run1": 6856,
+        "total_isolated_run2": 9800,
+        "intersection": 4950,
+        "union": 11706,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.4228600717580728
+      },
+      "layers.10": {
+        "total_isolated_run1": 7037,
+        "total_isolated_run2": 9418,
+        "intersection": 4287,
+        "union": 12168,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.35231755424063116
+      },
+      "layers.11": {
+        "total_isolated_run1": 6248,
+        "total_isolated_run2": 8423,
+        "intersection": 4004,
+        "union": 10667,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.3753632698978157
+      },
+      "layers.12": {
+        "total_isolated_run1": 5674,
+        "total_isolated_run2": 7955,
+        "intersection": 3202,
+        "union": 10427,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.307087369329625
+      },
+      "layers.13": {
+        "total_isolated_run1": 6297,
+        "total_isolated_run2": 7836,
+        "intersection": 3865,
+        "union": 10268,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.37641215426567975
+      },
+      "layers.14": {
+        "total_isolated_run1": 6834,
+        "total_isolated_run2": 8886,
+        "intersection": 3242,
+        "union": 12478,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.25981727841000163
+      },
+      "layers.15": {
+        "total_isolated_run1": 7220,
+        "total_isolated_run2": 9275,
+        "intersection": 3872,
+        "union": 12623,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.30674166204547254
+      },
+      "layers.16": {
+        "total_isolated_run1": 6319,
+        "total_isolated_run2": 7684,
+        "intersection": 3150,
+        "union": 10853,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.29024232930986826
+      },
+      "layers.17": {
+        "total_isolated_run1": 6171,
+        "total_isolated_run2": 8188,
+        "intersection": 3169,
+        "union": 11190,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2831992850759607
+      },
+      "layers.18": {
+        "total_isolated_run1": 5559,
+        "total_isolated_run2": 8565,
+        "intersection": 2816,
+        "union": 11308,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2490272373540856
+      },
+      "layers.19": {
+        "total_isolated_run1": 5411,
+        "total_isolated_run2": 7915,
+        "intersection": 3273,
+        "union": 10053,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.3255744553864518
+      },
+      "layers.20": {
+        "total_isolated_run1": 5763,
+        "total_isolated_run2": 8796,
+        "intersection": 3566,
+        "union": 10993,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.3243882470663149
+      },
+      "layers.21": {
+        "total_isolated_run1": 4948,
+        "total_isolated_run2": 7351,
+        "intersection": 2477,
+        "union": 9822,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.25218896355121156
+      },
+      "layers.22": {
+        "total_isolated_run1": 6449,
+        "total_isolated_run2": 7993,
+        "intersection": 3089,
+        "union": 11353,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.27208667312604595
+      },
+      "layers.23": {
+        "total_isolated_run1": 6697,
+        "total_isolated_run2": 6467,
+        "intersection": 2405,
+        "union": 10759,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.22353378566781298
+      },
+      "layers.24": {
+        "total_isolated_run1": 6689,
+        "total_isolated_run2": 6245,
+        "intersection": 1978,
+        "union": 10956,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1805403431909456
+      },
+      "layers.25": {
+        "total_isolated_run1": 6260,
+        "total_isolated_run2": 6726,
+        "intersection": 2182,
+        "union": 10804,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.20196223620881154
+      },
+      "layers.26": {
+        "total_isolated_run1": 6482,
+        "total_isolated_run2": 7219,
+        "intersection": 2632,
+        "union": 11069,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.23778119071280152
+      },
+      "layers.27": {
+        "total_isolated_run1": 6101,
+        "total_isolated_run2": 5778,
+        "intersection": 1206,
+        "union": 10673,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.11299540897592054
+      },
+      "layers.28": {
+        "total_isolated_run1": 6400,
+        "total_isolated_run2": 6399,
+        "intersection": 1822,
+        "union": 10977,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.16598341987792659
+      },
+      "layers.29": {
+        "total_isolated_run1": 5075,
+        "total_isolated_run2": 5834,
+        "intersection": 916,
+        "union": 9993,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.09166416491544081
+      },
+      "layers.30": {
+        "total_isolated_run1": 5360,
+        "total_isolated_run2": 5268,
+        "intersection": 1461,
+        "union": 9167,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.159376022690084
+      },
+      "layers.31": {
+        "total_isolated_run1": 4508,
+        "total_isolated_run2": 4763,
+        "intersection": 1423,
+        "union": 7848,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.18132008154943935
+      },
+      "lm_head": {
+        "total_isolated_run1": 8764,
+        "total_isolated_run2": 17732,
+        "intersection": 46,
+        "union": 26450,
+        "num_tensors": 1,
+        "num_elements_compared": 525336576,
+        "jaccard": 0.0017391304347826088
+      }
+    }
+  },
+  {
+    "good_percent": 0.001,
+    "seed": 1,
+    "mask_dir_lang1": "/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_hindi_max300/isolated_masks/meta-llama/Llama-3.1-8B-Instruct/",
+    "mask_dir_lang2": "/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_french/isolated_masks/meta-llama/Llama-3.1-8B-Instruct/",
+    "global": {
+      "total_isolated_run1": 1877866,
+      "total_isolated_run2": 2249433,
+      "intersection": 817516,
+      "union": 3309783,
+      "jaccard": 0.2469998788440209
+    },
+    "per_group": {
+      "layers.0": {
+        "total_isolated_run1": 36853,
+        "total_isolated_run2": 60656,
+        "intersection": 16360,
+        "union": 81149,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2016044560006901
+      },
+      "layers.1": {
+        "total_isolated_run1": 49797,
+        "total_isolated_run2": 54585,
+        "intersection": 23848,
+        "union": 80534,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2961233764621154
+      },
+      "layers.2": {
+        "total_isolated_run1": 70253,
+        "total_isolated_run2": 70698,
+        "intersection": 23250,
+        "union": 117701,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.19753443046363242
+      },
+      "layers.3": {
+        "total_isolated_run1": 58615,
+        "total_isolated_run2": 73324,
+        "intersection": 23283,
+        "union": 108656,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.21428176998969223
+      },
+      "layers.4": {
+        "total_isolated_run1": 52599,
+        "total_isolated_run2": 80263,
+        "intersection": 26823,
+        "union": 106039,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.25295410179273664
+      },
+      "layers.5": {
+        "total_isolated_run1": 59234,
+        "total_isolated_run2": 78270,
+        "intersection": 29293,
+        "union": 108211,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.27070260879208213
+      },
+      "layers.6": {
+        "total_isolated_run1": 60952,
+        "total_isolated_run2": 78427,
+        "intersection": 32322,
+        "union": 107057,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.3019139336988707
+      },
+      "layers.7": {
+        "total_isolated_run1": 65063,
+        "total_isolated_run2": 74230,
+        "intersection": 38540,
+        "union": 100753,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.3825196272071303
+      },
+      "layers.8": {
+        "total_isolated_run1": 65881,
+        "total_isolated_run2": 71307,
+        "intersection": 40402,
+        "union": 96786,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.4174364060917901
+      },
+      "layers.9": {
+        "total_isolated_run1": 67162,
+        "total_isolated_run2": 78889,
+        "intersection": 45369,
+        "union": 100682,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.45061679346854455
+      },
+      "layers.10": {
+        "total_isolated_run1": 62740,
+        "total_isolated_run2": 82393,
+        "intersection": 39672,
+        "union": 105461,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.3761769753747831
+      },
+      "layers.11": {
+        "total_isolated_run1": 60336,
+        "total_isolated_run2": 74370,
+        "intersection": 37576,
+        "union": 97130,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.3868629671574179
+      },
+      "layers.12": {
+        "total_isolated_run1": 54895,
+        "total_isolated_run2": 69363,
+        "intersection": 32286,
+        "union": 91972,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.3510416213630235
+      },
+      "layers.13": {
+        "total_isolated_run1": 60524,
+        "total_isolated_run2": 73378,
+        "intersection": 36840,
+        "union": 97062,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.37955121468751934
+      },
+      "layers.14": {
+        "total_isolated_run1": 53025,
+        "total_isolated_run2": 67007,
+        "intersection": 24846,
+        "union": 95186,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.26102578110226293
+      },
+      "layers.15": {
+        "total_isolated_run1": 55371,
+        "total_isolated_run2": 70918,
+        "intersection": 25325,
+        "union": 100964,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.25083197971554216
+      },
+      "layers.16": {
+        "total_isolated_run1": 54533,
+        "total_isolated_run2": 64994,
+        "intersection": 23830,
+        "union": 95697,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2490151206411904
+      },
+      "layers.17": {
+        "total_isolated_run1": 54931,
+        "total_isolated_run2": 66892,
+        "intersection": 24717,
+        "union": 97106,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.25453627994150724
+      },
+      "layers.18": {
+        "total_isolated_run1": 57459,
+        "total_isolated_run2": 67009,
+        "intersection": 22151,
+        "union": 102317,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.21649383777866826
+      },
+      "layers.19": {
+        "total_isolated_run1": 64532,
+        "total_isolated_run2": 69927,
+        "intersection": 28221,
+        "union": 106238,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2656394133925714
+      },
+      "layers.20": {
+        "total_isolated_run1": 59541,
+        "total_isolated_run2": 66111,
+        "intersection": 23454,
+        "union": 102198,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2294956848470616
+      },
+      "layers.21": {
+        "total_isolated_run1": 56844,
+        "total_isolated_run2": 65384,
+        "intersection": 24791,
+        "union": 97437,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2544310682800168
+      },
+      "layers.22": {
+        "total_isolated_run1": 59108,
+        "total_isolated_run2": 65346,
+        "intersection": 23302,
+        "union": 101152,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.23036618158810504
+      },
+      "layers.23": {
+        "total_isolated_run1": 58667,
+        "total_isolated_run2": 66436,
+        "intersection": 22681,
+        "union": 102422,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2214465642147195
+      },
+      "layers.24": {
+        "total_isolated_run1": 55975,
+        "total_isolated_run2": 64822,
+        "intersection": 17878,
+        "union": 102919,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.17370942197261924
+      },
+      "layers.25": {
+        "total_isolated_run1": 56310,
+        "total_isolated_run2": 68451,
+        "intersection": 21135,
+        "union": 103626,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.20395460598691448
+      },
+      "layers.26": {
+        "total_isolated_run1": 60458,
+        "total_isolated_run2": 63920,
+        "intersection": 19724,
+        "union": 104654,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.18846866818277372
+      },
+      "layers.27": {
+        "total_isolated_run1": 58826,
+        "total_isolated_run2": 52123,
+        "intersection": 14681,
+        "union": 96268,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1525013503968089
+      },
+      "layers.28": {
+        "total_isolated_run1": 62387,
+        "total_isolated_run2": 59095,
+        "intersection": 17108,
+        "union": 104374,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.16391055243643052
+      },
+      "layers.29": {
+        "total_isolated_run1": 51734,
+        "total_isolated_run2": 56761,
+        "intersection": 12791,
+        "union": 95704,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.13365167600100308
+      },
+      "layers.30": {
+        "total_isolated_run1": 47282,
+        "total_isolated_run2": 53301,
+        "intersection": 10697,
+        "union": 89886,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.11900629686491779
+      },
+      "layers.31": {
+        "total_isolated_run1": 49515,
+        "total_isolated_run2": 52750,
+        "intersection": 14243,
+        "union": 88022,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.16181181977232964
+      },
+      "lm_head": {
+        "total_isolated_run1": 36464,
+        "total_isolated_run2": 88033,
+        "intersection": 77,
+        "union": 124420,
+        "num_tensors": 1,
+        "num_elements_compared": 525336576,
+        "jaccard": 0.0006188715640572255
+      }
+    }
+  },
+  {
+    "good_percent": 0.01,
+    "seed": 1,
+    "mask_dir_lang1": "/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_hindi_max300/isolated_masks/meta-llama/Llama-3.1-8B-Instruct/",
+    "mask_dir_lang2": "/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_french/isolated_masks/meta-llama/Llama-3.1-8B-Instruct/",
+    "global": {
+      "total_isolated_run1": 17473389,
+      "total_isolated_run2": 20218239,
+      "intersection": 6798991,
+      "union": 30892637,
+      "jaccard": 0.2200845139895309
+    },
+    "per_group": {
+      "layers.0": {
+        "total_isolated_run1": 640513,
+        "total_isolated_run2": 460279,
+        "intersection": 125796,
+        "union": 974996,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1290220677828422
+      },
+      "layers.1": {
+        "total_isolated_run1": 530252,
+        "total_isolated_run2": 545790,
+        "intersection": 166724,
+        "union": 909318,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1833505990203647
+      },
+      "layers.2": {
+        "total_isolated_run1": 406207,
+        "total_isolated_run2": 682853,
+        "intersection": 217008,
+        "union": 872052,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2488475457885539
+      },
+      "layers.3": {
+        "total_isolated_run1": 509651,
+        "total_isolated_run2": 614990,
+        "intersection": 206322,
+        "union": 918319,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.22467356114814133
+      },
+      "layers.4": {
+        "total_isolated_run1": 531212,
+        "total_isolated_run2": 650483,
+        "intersection": 245206,
+        "union": 936489,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2618354299943726
+      },
+      "layers.5": {
+        "total_isolated_run1": 568599,
+        "total_isolated_run2": 680650,
+        "intersection": 249892,
+        "union": 999357,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.25005278394007346
+      },
+      "layers.6": {
+        "total_isolated_run1": 611776,
+        "total_isolated_run2": 739918,
+        "intersection": 275942,
+        "union": 1075752,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2565107943094691
+      },
+      "layers.7": {
+        "total_isolated_run1": 637322,
+        "total_isolated_run2": 727055,
+        "intersection": 280262,
+        "union": 1084115,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2585168547617181
+      },
+      "layers.8": {
+        "total_isolated_run1": 639364,
+        "total_isolated_run2": 716276,
+        "intersection": 305749,
+        "union": 1049891,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2912197551936344
+      },
+      "layers.9": {
+        "total_isolated_run1": 659813,
+        "total_isolated_run2": 722934,
+        "intersection": 338113,
+        "union": 1044634,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.3236664707447776
+      },
+      "layers.10": {
+        "total_isolated_run1": 676384,
+        "total_isolated_run2": 738178,
+        "intersection": 344304,
+        "union": 1070258,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.32170187001638856
+      },
+      "layers.11": {
+        "total_isolated_run1": 626783,
+        "total_isolated_run2": 685691,
+        "intersection": 308858,
+        "union": 1003616,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.30774519338073525
+      },
+      "layers.12": {
+        "total_isolated_run1": 569489,
+        "total_isolated_run2": 674873,
+        "intersection": 277047,
+        "union": 967315,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2864082537746236
+      },
+      "layers.13": {
+        "total_isolated_run1": 536771,
+        "total_isolated_run2": 685371,
+        "intersection": 297103,
+        "union": 925039,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.32117889083595397
+      },
+      "layers.14": {
+        "total_isolated_run1": 443394,
+        "total_isolated_run2": 624177,
+        "intersection": 216997,
+        "union": 850574,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.25511830834236643
+      },
+      "layers.15": {
+        "total_isolated_run1": 486217,
+        "total_isolated_run2": 644074,
+        "intersection": 224747,
+        "union": 905544,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.24819003825324887
+      },
+      "layers.16": {
+        "total_isolated_run1": 474405,
+        "total_isolated_run2": 634024,
+        "intersection": 213897,
+        "union": 894532,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.23911609646161344
+      },
+      "layers.17": {
+        "total_isolated_run1": 537403,
+        "total_isolated_run2": 675403,
+        "intersection": 252035,
+        "union": 960771,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.26232577794292294
+      },
+      "layers.18": {
+        "total_isolated_run1": 533835,
+        "total_isolated_run2": 683999,
+        "intersection": 229214,
+        "union": 988620,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.23185248123647104
+      },
+      "layers.19": {
+        "total_isolated_run1": 576055,
+        "total_isolated_run2": 667714,
+        "intersection": 242080,
+        "union": 1001689,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.24167181630226547
+      },
+      "layers.20": {
+        "total_isolated_run1": 556780,
+        "total_isolated_run2": 596547,
+        "intersection": 197355,
+        "union": 955972,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.20644433100551063
+      },
+      "layers.21": {
+        "total_isolated_run1": 562480,
+        "total_isolated_run2": 608793,
+        "intersection": 210847,
+        "union": 960426,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2195348730667433
+      },
+      "layers.22": {
+        "total_isolated_run1": 573946,
+        "total_isolated_run2": 598829,
+        "intersection": 203011,
+        "union": 969764,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.20934062307942963
+      },
+      "layers.23": {
+        "total_isolated_run1": 542795,
+        "total_isolated_run2": 563249,
+        "intersection": 186899,
+        "union": 919145,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.20334006059979656
+      },
+      "layers.24": {
+        "total_isolated_run1": 468641,
+        "total_isolated_run2": 530201,
+        "intersection": 141053,
+        "union": 857789,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.16443787458221076
+      },
+      "layers.25": {
+        "total_isolated_run1": 446829,
+        "total_isolated_run2": 534492,
+        "intersection": 148689,
+        "union": 832632,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.17857709047934742
+      },
+      "layers.26": {
+        "total_isolated_run1": 510441,
+        "total_isolated_run2": 557879,
+        "intersection": 131569,
+        "union": 936751,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.14045247883375625
+      },
+      "layers.27": {
+        "total_isolated_run1": 530292,
+        "total_isolated_run2": 538810,
+        "intersection": 132799,
+        "union": 936303,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.14183335950007636
+      },
+      "layers.28": {
+        "total_isolated_run1": 544313,
+        "total_isolated_run2": 518483,
+        "intersection": 155493,
+        "union": 907303,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.17137935177112829
+      },
+      "layers.29": {
+        "total_isolated_run1": 445487,
+        "total_isolated_run2": 483228,
+        "intersection": 107803,
+        "union": 820912,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.13132101857446352
+      },
+      "layers.30": {
+        "total_isolated_run1": 371568,
+        "total_isolated_run2": 479746,
+        "intersection": 71151,
+        "union": 780163,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.09120017227169194
+      },
+      "layers.31": {
+        "total_isolated_run1": 374454,
+        "total_isolated_run2": 450923,
+        "intersection": 67462,
+        "union": 757915,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.08900998133036027
+      },
+      "lm_head": {
+        "total_isolated_run1": 349918,
+        "total_isolated_run2": 502327,
+        "intersection": 27564,
+        "union": 824681,
+        "num_tensors": 1,
+        "num_elements_compared": 525336576,
+        "jaccard": 0.03342383297299198
+      }
+    }
+  },
+  {
+    "good_percent": 0.025,
+    "seed": 1,
+    "mask_dir_lang1": "/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_hindi_max300/isolated_masks/meta-llama/Llama-3.1-8B-Instruct/",
+    "mask_dir_lang2": "/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_french/isolated_masks/meta-llama/Llama-3.1-8B-Instruct/",
+    "global": {
+      "total_isolated_run1": 42040453,
+      "total_isolated_run2": 45794120,
+      "intersection": 14517415,
+      "union": 73317158,
+      "jaccard": 0.19800842525838222
+    },
+    "per_group": {
+      "layers.0": {
+        "total_isolated_run1": 612356,
+        "total_isolated_run2": 1309971,
+        "intersection": 223062,
+        "union": 1699265,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1312696960156303
+      },
+      "layers.1": {
+        "total_isolated_run1": 1516434,
+        "total_isolated_run2": 1010499,
+        "intersection": 342200,
+        "union": 2184733,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.15663241229019748
+      },
+      "layers.2": {
+        "total_isolated_run1": 1100749,
+        "total_isolated_run2": 1648737,
+        "intersection": 460498,
+        "union": 2288988,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2011797353240821
+      },
+      "layers.3": {
+        "total_isolated_run1": 1018336,
+        "total_isolated_run2": 1578345,
+        "intersection": 384114,
+        "union": 2212567,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.17360559024879246
+      },
+      "layers.4": {
+        "total_isolated_run1": 1185112,
+        "total_isolated_run2": 1438244,
+        "intersection": 495271,
+        "union": 2128085,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2327308354694479
+      },
+      "layers.5": {
+        "total_isolated_run1": 1361504,
+        "total_isolated_run2": 1383269,
+        "intersection": 543541,
+        "union": 2201232,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2469258124541166
+      },
+      "layers.6": {
+        "total_isolated_run1": 1365918,
+        "total_isolated_run2": 1406951,
+        "intersection": 595807,
+        "union": 2177062,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2736747965836526
+      },
+      "layers.7": {
+        "total_isolated_run1": 1462714,
+        "total_isolated_run2": 1347520,
+        "intersection": 611502,
+        "union": 2198732,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.27811575035065667
+      },
+      "layers.8": {
+        "total_isolated_run1": 1443349,
+        "total_isolated_run2": 1332218,
+        "intersection": 629824,
+        "union": 2145743,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2935225700375115
+      },
+      "layers.9": {
+        "total_isolated_run1": 1453211,
+        "total_isolated_run2": 1386486,
+        "intersection": 668550,
+        "union": 2171147,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.30792479735365685
+      },
+      "layers.10": {
+        "total_isolated_run1": 1462194,
+        "total_isolated_run2": 1405733,
+        "intersection": 678774,
+        "union": 2189153,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.3100623848584361
+      },
+      "layers.11": {
+        "total_isolated_run1": 1498908,
+        "total_isolated_run2": 1362413,
+        "intersection": 619222,
+        "union": 2242099,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2761795977786886
+      },
+      "layers.12": {
+        "total_isolated_run1": 1489673,
+        "total_isolated_run2": 1332504,
+        "intersection": 568942,
+        "union": 2253235,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2525000721185318
+      },
+      "layers.13": {
+        "total_isolated_run1": 1481547,
+        "total_isolated_run2": 1463223,
+        "intersection": 653428,
+        "union": 2291342,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2851726193645471
+      },
+      "layers.14": {
+        "total_isolated_run1": 1334326,
+        "total_isolated_run2": 1447425,
+        "intersection": 514722,
+        "union": 2267029,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.22704694117278607
+      },
+      "layers.15": {
+        "total_isolated_run1": 1298169,
+        "total_isolated_run2": 1513930,
+        "intersection": 522496,
+        "union": 2289603,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.22820375410060173
+      },
+      "layers.16": {
+        "total_isolated_run1": 1265397,
+        "total_isolated_run2": 1385183,
+        "intersection": 519277,
+        "union": 2131303,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.24364297333602966
+      },
+      "layers.17": {
+        "total_isolated_run1": 1245207,
+        "total_isolated_run2": 1427378,
+        "intersection": 537710,
+        "union": 2134875,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2518695473973886
+      },
+      "layers.18": {
+        "total_isolated_run1": 1155245,
+        "total_isolated_run2": 1497711,
+        "intersection": 480552,
+        "union": 2172404,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.22120747337972127
+      },
+      "layers.19": {
+        "total_isolated_run1": 1111207,
+        "total_isolated_run2": 1504377,
+        "intersection": 479787,
+        "union": 2135797,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.22464073130545648
+      },
+      "layers.20": {
+        "total_isolated_run1": 993091,
+        "total_isolated_run2": 1560635,
+        "intersection": 413350,
+        "union": 2140376,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.19312027419481437
+      },
+      "layers.21": {
+        "total_isolated_run1": 1039582,
+        "total_isolated_run2": 1544759,
+        "intersection": 403617,
+        "union": 2180724,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.185083944598216
+      },
+      "layers.22": {
+        "total_isolated_run1": 1107672,
+        "total_isolated_run2": 1556310,
+        "intersection": 408391,
+        "union": 2255591,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.18105720407644826
+      },
+      "layers.23": {
+        "total_isolated_run1": 1088531,
+        "total_isolated_run2": 1492130,
+        "intersection": 387303,
+        "union": 2193358,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1765799290403117
+      },
+      "layers.24": {
+        "total_isolated_run1": 1139142,
+        "total_isolated_run2": 1289599,
+        "intersection": 311823,
+        "union": 2116918,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.14730046227581794
+      },
+      "layers.25": {
+        "total_isolated_run1": 1210761,
+        "total_isolated_run2": 1262301,
+        "intersection": 330518,
+        "union": 2142544,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.15426427648627053
+      },
+      "layers.26": {
+        "total_isolated_run1": 1146875,
+        "total_isolated_run2": 1190505,
+        "intersection": 291676,
+        "union": 2045704,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.14257976716084048
+      },
+      "layers.27": {
+        "total_isolated_run1": 1040295,
+        "total_isolated_run2": 1053623,
+        "intersection": 263472,
+        "union": 1830446,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.14393869035196885
+      },
+      "layers.28": {
+        "total_isolated_run1": 1174403,
+        "total_isolated_run2": 1164629,
+        "intersection": 312559,
+        "union": 2026473,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1542379296442637
+      },
+      "layers.29": {
+        "total_isolated_run1": 1194191,
+        "total_isolated_run2": 1237178,
+        "intersection": 266006,
+        "union": 2165363,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.12284591544235308
+      },
+      "layers.30": {
+        "total_isolated_run1": 1049816,
+        "total_isolated_run2": 1244848,
+        "intersection": 192883,
+        "union": 2101781,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.09177121688701154
+      },
+      "layers.31": {
+        "total_isolated_run1": 1029046,
+        "total_isolated_run2": 1066479,
+        "intersection": 163574,
+        "union": 1931951,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.08466777884118179
+      },
+      "lm_head": {
+        "total_isolated_run1": 2965492,
+        "total_isolated_run2": 1949007,
+        "intersection": 242964,
+        "union": 4671535,
+        "num_tensors": 1,
+        "num_elements_compared": 525336576,
+        "jaccard": 0.05200945727689078
+      }
+    }
+  },
+  {
+    "good_percent": 0.05,
+    "seed": 1,
+    "mask_dir_lang1": "/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_hindi_max300/isolated_masks/meta-llama/Llama-3.1-8B-Instruct/",
+    "mask_dir_lang2": "/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_french/isolated_masks/meta-llama/Llama-3.1-8B-Instruct/",
+    "global": {
+      "total_isolated_run1": 66773497,
+      "total_isolated_run2": 75076328,
+      "intersection": 23629854,
+      "union": 118219971,
+      "jaccard": 0.1998803907674787
+    },
+    "per_group": {
+      "layers.0": {
+        "total_isolated_run1": 968990,
+        "total_isolated_run2": 2460329,
+        "intersection": 343230,
+        "union": 3086089,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1112184386127555
+      },
+      "layers.1": {
+        "total_isolated_run1": 1266181,
+        "total_isolated_run2": 1648324,
+        "intersection": 486347,
+        "union": 2428158,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.20029462662643865
+      },
+      "layers.2": {
+        "total_isolated_run1": 2729033,
+        "total_isolated_run2": 1932519,
+        "intersection": 681865,
+        "union": 3979687,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.17133633876231974
+      },
+      "layers.3": {
+        "total_isolated_run1": 1813411,
+        "total_isolated_run2": 2534464,
+        "intersection": 651429,
+        "union": 3696446,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.17623116907429462
+      },
+      "layers.4": {
+        "total_isolated_run1": 1730428,
+        "total_isolated_run2": 2360927,
+        "intersection": 660390,
+        "union": 3430965,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1924793753360935
+      },
+      "layers.5": {
+        "total_isolated_run1": 1760321,
+        "total_isolated_run2": 2717452,
+        "intersection": 911102,
+        "union": 3566671,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2554488485200906
+      },
+      "layers.6": {
+        "total_isolated_run1": 1995507,
+        "total_isolated_run2": 2734951,
+        "intersection": 1009455,
+        "union": 3721003,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2712857259185225
+      },
+      "layers.7": {
+        "total_isolated_run1": 1978967,
+        "total_isolated_run2": 2599661,
+        "intersection": 1052295,
+        "union": 3526333,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2984105585036921
+      },
+      "layers.8": {
+        "total_isolated_run1": 2010170,
+        "total_isolated_run2": 2409231,
+        "intersection": 1051378,
+        "union": 3368023,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.3121647328417888
+      },
+      "layers.9": {
+        "total_isolated_run1": 2190385,
+        "total_isolated_run2": 2353498,
+        "intersection": 1069810,
+        "union": 3474073,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.30794113998180234
+      },
+      "layers.10": {
+        "total_isolated_run1": 2192804,
+        "total_isolated_run2": 2307291,
+        "intersection": 1105502,
+        "union": 3394593,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.32566555106900885
+      },
+      "layers.11": {
+        "total_isolated_run1": 2283685,
+        "total_isolated_run2": 2154277,
+        "intersection": 1024878,
+        "union": 3413084,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.3002791610168399
+      },
+      "layers.12": {
+        "total_isolated_run1": 2177137,
+        "total_isolated_run2": 2093730,
+        "intersection": 964301,
+        "union": 3306566,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.29163216460823704
+      },
+      "layers.13": {
+        "total_isolated_run1": 2317419,
+        "total_isolated_run2": 2102620,
+        "intersection": 1045700,
+        "union": 3374339,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.30989773108155405
+      },
+      "layers.14": {
+        "total_isolated_run1": 2214282,
+        "total_isolated_run2": 1920028,
+        "intersection": 865047,
+        "union": 3269263,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.26460000311996923
+      },
+      "layers.15": {
+        "total_isolated_run1": 2260064,
+        "total_isolated_run2": 2064573,
+        "intersection": 878733,
+        "union": 3445904,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.25500797468530756
+      },
+      "layers.16": {
+        "total_isolated_run1": 2121052,
+        "total_isolated_run2": 2247272,
+        "intersection": 816571,
+        "union": 3551753,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2299064715367313
+      },
+      "layers.17": {
+        "total_isolated_run1": 2272473,
+        "total_isolated_run2": 2489092,
+        "intersection": 863501,
+        "union": 3898064,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2215204778577263
+      },
+      "layers.18": {
+        "total_isolated_run1": 2412461,
+        "total_isolated_run2": 2579810,
+        "intersection": 797017,
+        "union": 4195254,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.18998063049340994
+      },
+      "layers.19": {
+        "total_isolated_run1": 2431415,
+        "total_isolated_run2": 2576389,
+        "intersection": 797975,
+        "union": 4209829,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1895504544246334
+      },
+      "layers.20": {
+        "total_isolated_run1": 2285347,
+        "total_isolated_run2": 2455134,
+        "intersection": 715428,
+        "union": 4025053,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.17774374647986002
+      },
+      "layers.21": {
+        "total_isolated_run1": 2148029,
+        "total_isolated_run2": 2338224,
+        "intersection": 709819,
+        "union": 3776434,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1879601232273621
+      },
+      "layers.22": {
+        "total_isolated_run1": 2036495,
+        "total_isolated_run2": 2303196,
+        "intersection": 687737,
+        "union": 3651954,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.18832028004733903
+      },
+      "layers.23": {
+        "total_isolated_run1": 1829949,
+        "total_isolated_run2": 2418638,
+        "intersection": 668366,
+        "union": 3580221,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.18668288912891132
+      },
+      "layers.24": {
+        "total_isolated_run1": 1650924,
+        "total_isolated_run2": 2309967,
+        "intersection": 489048,
+        "union": 3471843,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.14086120829772544
+      },
+      "layers.25": {
+        "total_isolated_run1": 1759609,
+        "total_isolated_run2": 2089064,
+        "intersection": 456201,
+        "union": 3392472,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.134474507085099
+      },
+      "layers.26": {
+        "total_isolated_run1": 1658856,
+        "total_isolated_run2": 2294261,
+        "intersection": 466883,
+        "union": 3486234,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1339218767300187
+      },
+      "layers.27": {
+        "total_isolated_run1": 1849220,
+        "total_isolated_run2": 2021044,
+        "intersection": 451553,
+        "union": 3418711,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.13208282302891353
+      },
+      "layers.28": {
+        "total_isolated_run1": 2040566,
+        "total_isolated_run2": 1934054,
+        "intersection": 554155,
+        "union": 3420465,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1620115978383056
+      },
+      "layers.29": {
+        "total_isolated_run1": 2162753,
+        "total_isolated_run2": 1786016,
+        "intersection": 424009,
+        "union": 3524760,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.12029443139391051
+      },
+      "layers.30": {
+        "total_isolated_run1": 1865004,
+        "total_isolated_run2": 1776314,
+        "intersection": 326160,
+        "union": 3315158,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.09838445105783797
+      },
+      "layers.31": {
+        "total_isolated_run1": 1993519,
+        "total_isolated_run2": 1663334,
+        "intersection": 278824,
+        "union": 3378029,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.08254044000214326
+      },
+      "lm_head": {
+        "total_isolated_run1": 2367041,
+        "total_isolated_run2": 3400644,
+        "intersection": 325145,
+        "union": 5442540,
+        "num_tensors": 1,
+        "num_elements_compared": 525336576,
+        "jaccard": 0.05974140750458426
+      }
+    }
+  },
+  {
+    "good_percent": 0.1,
+    "seed": 1,
+    "mask_dir_lang1": "/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_hindi_max300/isolated_masks/meta-llama/Llama-3.1-8B-Instruct/",
+    "mask_dir_lang2": "/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_french/isolated_masks/meta-llama/Llama-3.1-8B-Instruct/",
+    "global": {
+      "total_isolated_run1": 101873552,
+      "total_isolated_run2": 126062043,
+      "intersection": 35667561,
+      "union": 192268034,
+      "jaccard": 0.18550957357789388
+    },
+    "per_group": {
+      "layers.0": {
+        "total_isolated_run1": 2633617,
+        "total_isolated_run2": 2326123,
+        "intersection": 525719,
+        "union": 4434021,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.11856484216019726
+      },
+      "layers.1": {
+        "total_isolated_run1": 1685416,
+        "total_isolated_run2": 3977316,
+        "intersection": 663143,
+        "union": 4999589,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1326395029671439
+      },
+      "layers.2": {
+        "total_isolated_run1": 2983496,
+        "total_isolated_run2": 2825336,
+        "intersection": 896848,
+        "union": 4911984,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1825836566242887
+      },
+      "layers.3": {
+        "total_isolated_run1": 3603926,
+        "total_isolated_run2": 3163160,
+        "intersection": 942419,
+        "union": 5824667,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.16179791909134034
+      },
+      "layers.4": {
+        "total_isolated_run1": 3390625,
+        "total_isolated_run2": 3929097,
+        "intersection": 993713,
+        "union": 6326009,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.15708371581513716
+      },
+      "layers.5": {
+        "total_isolated_run1": 3683060,
+        "total_isolated_run2": 3906306,
+        "intersection": 1311113,
+        "union": 6278253,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.20883404985431456
+      },
+      "layers.6": {
+        "total_isolated_run1": 3356495,
+        "total_isolated_run2": 4250709,
+        "intersection": 1420712,
+        "union": 6186492,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.22964743185637354
+      },
+      "layers.7": {
+        "total_isolated_run1": 3279744,
+        "total_isolated_run2": 4232096,
+        "intersection": 1490648,
+        "union": 6021192,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.24756692694735527
+      },
+      "layers.8": {
+        "total_isolated_run1": 3109639,
+        "total_isolated_run2": 4450351,
+        "intersection": 1544066,
+        "union": 6015924,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.25666314933499823
+      },
+      "layers.9": {
+        "total_isolated_run1": 3162089,
+        "total_isolated_run2": 4532712,
+        "intersection": 1667975,
+        "union": 6026826,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2767584463198373
+      },
+      "layers.10": {
+        "total_isolated_run1": 3140382,
+        "total_isolated_run2": 4527262,
+        "intersection": 1742725,
+        "union": 5924919,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2941348227714168
+      },
+      "layers.11": {
+        "total_isolated_run1": 2980030,
+        "total_isolated_run2": 4388075,
+        "intersection": 1612561,
+        "union": 5755544,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.28017525363371387
+      },
+      "layers.12": {
+        "total_isolated_run1": 2843169,
+        "total_isolated_run2": 4394970,
+        "intersection": 1478381,
+        "union": 5759758,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2566741519348556
+      },
+      "layers.13": {
+        "total_isolated_run1": 2907019,
+        "total_isolated_run2": 4037650,
+        "intersection": 1749937,
+        "union": 5194732,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.3368676189647512
+      },
+      "layers.14": {
+        "total_isolated_run1": 2619916,
+        "total_isolated_run2": 3578758,
+        "intersection": 1405359,
+        "union": 4793315,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.29319145518289536
+      },
+      "layers.15": {
+        "total_isolated_run1": 2825492,
+        "total_isolated_run2": 3301732,
+        "intersection": 1321690,
+        "union": 4805534,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2750349909083985
+      },
+      "layers.16": {
+        "total_isolated_run1": 3335428,
+        "total_isolated_run2": 3377363,
+        "intersection": 1237589,
+        "union": 5475202,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.22603531340030925
+      },
+      "layers.17": {
+        "total_isolated_run1": 3547281,
+        "total_isolated_run2": 3354915,
+        "intersection": 1261474,
+        "union": 5640722,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.22363697413203487
+      },
+      "layers.18": {
+        "total_isolated_run1": 3575653,
+        "total_isolated_run2": 3401402,
+        "intersection": 1150131,
+        "union": 5826924,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.197382186553317
+      },
+      "layers.19": {
+        "total_isolated_run1": 3701036,
+        "total_isolated_run2": 3255118,
+        "intersection": 1134907,
+        "union": 5821247,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.19495943051377138
+      },
+      "layers.20": {
+        "total_isolated_run1": 3362793,
+        "total_isolated_run2": 3082021,
+        "intersection": 1010265,
+        "union": 5434549,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1858967505859272
+      },
+      "layers.21": {
+        "total_isolated_run1": 3281976,
+        "total_isolated_run2": 3397474,
+        "intersection": 985955,
+        "union": 5693495,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.17317219036813064
+      },
+      "layers.22": {
+        "total_isolated_run1": 3622541,
+        "total_isolated_run2": 3743435,
+        "intersection": 1055699,
+        "union": 6310277,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1672983610703619
+      },
+      "layers.23": {
+        "total_isolated_run1": 3479251,
+        "total_isolated_run2": 3817684,
+        "intersection": 978256,
+        "union": 6318679,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.15481970202949066
+      },
+      "layers.24": {
+        "total_isolated_run1": 3424304,
+        "total_isolated_run2": 3850702,
+        "intersection": 819721,
+        "union": 6455285,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1269844786093875
+      },
+      "layers.25": {
+        "total_isolated_run1": 3226350,
+        "total_isolated_run2": 3875774,
+        "intersection": 802703,
+        "union": 6299421,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.12742488555694245
+      },
+      "layers.26": {
+        "total_isolated_run1": 2762159,
+        "total_isolated_run2": 3470987,
+        "intersection": 696229,
+        "union": 5536917,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.12574308049046068
+      },
+      "layers.27": {
+        "total_isolated_run1": 2736360,
+        "total_isolated_run2": 3429204,
+        "intersection": 623794,
+        "union": 5541770,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.11256223192229198
+      },
+      "layers.28": {
+        "total_isolated_run1": 2562121,
+        "total_isolated_run2": 3629151,
+        "intersection": 763310,
+        "union": 5427962,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.14062552390749972
+      },
+      "layers.29": {
+        "total_isolated_run1": 2331771,
+        "total_isolated_run2": 3534873,
+        "intersection": 641667,
+        "union": 5224977,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.12280762192828791
+      },
+      "layers.30": {
+        "total_isolated_run1": 2225446,
+        "total_isolated_run2": 3351275,
+        "intersection": 538297,
+        "union": 5038424,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.10683836850570734
+      },
+      "layers.31": {
+        "total_isolated_run1": 2199754,
+        "total_isolated_run2": 3344078,
+        "intersection": 436406,
+        "union": 5107426,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.08544538873397285
+      },
+      "lm_head": {
+        "total_isolated_run1": 4295213,
+        "total_isolated_run2": 8324934,
+        "intersection": 764149,
+        "union": 11855998,
+        "num_tensors": 1,
+        "num_elements_compared": 525336576,
+        "jaccard": 0.06445252436783475
+      }
+    }
+  },
+  {
+    "good_percent": 0.15,
+    "seed": 1,
+    "mask_dir_lang1": "/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_hindi_max300/isolated_masks/meta-llama/Llama-3.1-8B-Instruct/",
+    "mask_dir_lang2": "/raid/s3/opengptx/behzad_shomali/LabTest/results/prune/results_gsm8k_race_french/isolated_masks/meta-llama/Llama-3.1-8B-Instruct/",
+    "global": {
+      "total_isolated_run1": 139578833,
+      "total_isolated_run2": 162550336,
+      "intersection": 43333471,
+      "union": 258795698,
+      "jaccard": 0.16744277951637357
+    },
+    "per_group": {
+      "layers.0": {
+        "total_isolated_run1": 4432676,
+        "total_isolated_run2": 2988236,
+        "intersection": 688638,
+        "union": 6732274,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.10228906310111562
+      },
+      "layers.1": {
+        "total_isolated_run1": 2965833,
+        "total_isolated_run2": 4175499,
+        "intersection": 747319,
+        "union": 6394013,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.11687792940051889
+      },
+      "layers.2": {
+        "total_isolated_run1": 2406496,
+        "total_isolated_run2": 4351492,
+        "intersection": 1123326,
+        "union": 5634662,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1993599616090548
+      },
+      "layers.3": {
+        "total_isolated_run1": 4117313,
+        "total_isolated_run2": 3346359,
+        "intersection": 985321,
+        "union": 6478351,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.15209441414952662
+      },
+      "layers.4": {
+        "total_isolated_run1": 3685513,
+        "total_isolated_run2": 4106751,
+        "intersection": 1381586,
+        "union": 6410678,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.21551324212509193
+      },
+      "layers.5": {
+        "total_isolated_run1": 4323226,
+        "total_isolated_run2": 4815910,
+        "intersection": 1437026,
+        "union": 7702110,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.18657562667892305
+      },
+      "layers.6": {
+        "total_isolated_run1": 5109457,
+        "total_isolated_run2": 5033033,
+        "intersection": 1537024,
+        "union": 8605466,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1786101996103407
+      },
+      "layers.7": {
+        "total_isolated_run1": 5212580,
+        "total_isolated_run2": 4784504,
+        "intersection": 1556433,
+        "union": 8440651,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.18439726983143837
+      },
+      "layers.8": {
+        "total_isolated_run1": 5121483,
+        "total_isolated_run2": 4813236,
+        "intersection": 1682078,
+        "union": 8252641,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.20382299436022966
+      },
+      "layers.9": {
+        "total_isolated_run1": 5088464,
+        "total_isolated_run2": 5130517,
+        "intersection": 1938024,
+        "union": 8280957,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2340338200041372
+      },
+      "layers.10": {
+        "total_isolated_run1": 4928596,
+        "total_isolated_run2": 5468943,
+        "intersection": 2110726,
+        "union": 8286813,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.25470901780937977
+      },
+      "layers.11": {
+        "total_isolated_run1": 4631936,
+        "total_isolated_run2": 5667672,
+        "intersection": 2015959,
+        "union": 8283649,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.24336605763957406
+      },
+      "layers.12": {
+        "total_isolated_run1": 4494352,
+        "total_isolated_run2": 5491116,
+        "intersection": 1825001,
+        "union": 8160467,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.22363928436938718
+      },
+      "layers.13": {
+        "total_isolated_run1": 3986799,
+        "total_isolated_run2": 5729518,
+        "intersection": 2040710,
+        "union": 7675607,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2658695266706594
+      },
+      "layers.14": {
+        "total_isolated_run1": 3513532,
+        "total_isolated_run2": 5291516,
+        "intersection": 1733922,
+        "union": 7071126,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2452115829925814
+      },
+      "layers.15": {
+        "total_isolated_run1": 3386940,
+        "total_isolated_run2": 5130617,
+        "intersection": 1611042,
+        "union": 6906515,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.2332640991875063
+      },
+      "layers.16": {
+        "total_isolated_run1": 3314824,
+        "total_isolated_run2": 5009030,
+        "intersection": 1554769,
+        "union": 6769085,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.22968673018583752
+      },
+      "layers.17": {
+        "total_isolated_run1": 3336030,
+        "total_isolated_run2": 4965116,
+        "intersection": 1549914,
+        "union": 6751232,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.22957498720233582
+      },
+      "layers.18": {
+        "total_isolated_run1": 3429166,
+        "total_isolated_run2": 4968496,
+        "intersection": 1455353,
+        "union": 6942309,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.20963529569196646
+      },
+      "layers.19": {
+        "total_isolated_run1": 3732649,
+        "total_isolated_run2": 4548620,
+        "intersection": 1339261,
+        "union": 6942008,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1929212700417516
+      },
+      "layers.20": {
+        "total_isolated_run1": 4173602,
+        "total_isolated_run2": 4248038,
+        "intersection": 1210478,
+        "union": 7211162,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.16786171216233944
+      },
+      "layers.21": {
+        "total_isolated_run1": 4497746,
+        "total_isolated_run2": 4045253,
+        "intersection": 1179557,
+        "union": 7363442,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.16019098133726048
+      },
+      "layers.22": {
+        "total_isolated_run1": 4764936,
+        "total_isolated_run2": 3995689,
+        "intersection": 1193573,
+        "union": 7567052,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.15773289254520784
+      },
+      "layers.23": {
+        "total_isolated_run1": 4327012,
+        "total_isolated_run2": 3942818,
+        "intersection": 1120059,
+        "union": 7149771,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.15665662578563705
+      },
+      "layers.24": {
+        "total_isolated_run1": 4107802,
+        "total_isolated_run2": 3734732,
+        "intersection": 919508,
+        "union": 6923026,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1328187991782784
+      },
+      "layers.25": {
+        "total_isolated_run1": 4117920,
+        "total_isolated_run2": 4315177,
+        "intersection": 909216,
+        "union": 7523881,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.1208440165388049
+      },
+      "layers.26": {
+        "total_isolated_run1": 3733744,
+        "total_isolated_run2": 4602155,
+        "intersection": 877298,
+        "union": 7458601,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.11762232622444879
+      },
+      "layers.27": {
+        "total_isolated_run1": 3771864,
+        "total_isolated_run2": 4304159,
+        "intersection": 745376,
+        "union": 7330647,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.10167942884168342
+      },
+      "layers.28": {
+        "total_isolated_run1": 4130557,
+        "total_isolated_run2": 4585342,
+        "intersection": 921774,
+        "union": 7794125,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.11826523182525299
+      },
+      "layers.29": {
+        "total_isolated_run1": 3272238,
+        "total_isolated_run2": 5097127,
+        "intersection": 783999,
+        "union": 7585366,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.10335677935646084
+      },
+      "layers.30": {
+        "total_isolated_run1": 2926337,
+        "total_isolated_run2": 4749931,
+        "intersection": 697521,
+        "union": 6978747,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.0999493175494111
+      },
+      "layers.31": {
+        "total_isolated_run1": 3005745,
+        "total_isolated_run2": 4349013,
+        "intersection": 526954,
+        "union": 6827804,
+        "num_tensors": 7,
+        "num_elements_compared": 218103808,
+        "jaccard": 0.07717766942343394
+      },
+      "lm_head": {
+        "total_isolated_run1": 11531465,
+        "total_isolated_run2": 14764721,
+        "intersection": 1934726,
+        "union": 24361460,
+        "num_tensors": 1,
+        "num_elements_compared": 525336576,
+        "jaccard": 0.07941748975636108
+      }
+    }
+  }
+]
