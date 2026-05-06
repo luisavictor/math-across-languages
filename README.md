@@ -12,6 +12,7 @@ We also include post-paper exploratory analyses for coding tasks using CodeAlpac
 
 
 
+
 ## Project layout
 
 - `MathNeuro/MathNeuroFast.py`: main experiment driver (identify task-specific parameters, prune/scale, eval).
@@ -21,18 +22,19 @@ We also include post-paper exploratory analyses for coding tasks using CodeAlpac
 - `runner.py`: sandboxed executor used by oracle tooling.
 - `build_oracle_cases.py`: builds oracle cases from CodeAlpaca CSVs.
 - `ORACLE_TESTS.md`: offline oracle workflow notes.
-- `custom_datasets/`: german translations of GSM8K, MMLU and Race, and for coding the original CodeAlpaca, each with train/test split
-- `lm_eval_tasks/`: custom tasks/yaml files for lm_eval (e.g., German gsm8k_cot is not a predefined task in the standard lm_eval package, thus, we defined it ourselves).
+- `custom_datasets/`: translated GSM8K, MMLU, and RACE datasets for German, French, and Hindi, plus CodeAlpaca data used in exploratory coding analyses.
+- `lm_eval_tasks/`: custom tasks/yaml files for lm_eval (e.g., German gsm8k_cot is not a predefined task in the standard lm_eval package).
 
-## Setup for conda(local)
 
-```
-conda env create -n math_neuro -f MathNeuro/requirements.yml
-conda activate math_neuro
+## Setup
+
+Create an environment with Python 3.10+ and install the main dependencies:
+
+```bash
+pip install torch transformers pandas numpy accelerate datasets evaluate
+pip install -e MathNeuro
 python -m spacy download xx_sent_ud_sm
 ```
-
-If you already have a working environment, skip this section.
 
 ## Key arguments (MathNeuro.py)
 
@@ -52,6 +54,9 @@ If you already have a working environment, skip this section.
 - `--store_params` saves isolated masks to `.../isolated_masks/`.
 - `--train_lm_eval_task` lets you evaluate a train task via lm_eval (e.g., `gsm8k_cot`).
 - `--run_codealpaca_eval` runs the CodeAlpaca oracle evaluation after lm_eval.
+
+
+
 
 ## Core workflow
 
@@ -145,7 +150,7 @@ py build_oracle_cases.py --csv custom_datasets/CodeAlpaca/codealpaca_test_filter
 py -m pytest -q tests/test_oracle_cases.py
 ```
 
-At the moment oracle_cases.jsonl contains 2 test cases each for 200 samples from the CodeAlpaca_test_filtered.csv.
+The included `oracle_cases.jsonl` contains two oracle test cases for each of 200 filtered CodeAlpaca samples.
 
 Model outputs should be JSONL (default `candidate_generations.jsonl`) with:
 
@@ -160,8 +165,16 @@ Model outputs should be JSONL (default `candidate_generations.jsonl`) with:
 - `MathNeuro/results_*/isolated_masks/`: saved parameter masks (`.pt`).
 - `oracle_cases.jsonl`: oracle cases for CodeAlpaca evaluation.
 
-## Open questions / TODO
 
-- Decide whether CodeAlpaca parameter identification should use Python-only tasks for both train and test (currently, testset is Python-only).
-- Confirm if English MMLU needs math-related question filtering like already done for German MMLU.
-- Wire layer selection into `MathNeuro/MathNeuro.py` (currently standalone) to only modifiy parameters from specific layers.
+
+## Citation
+
+If you use this repository, please cite:
+
+```bibtex
+@article{TODO,
+  title = {LLM Parameters for Math Across Languages: Shared or Separate?},
+  author = {Shomali, Behzad and Victor, Luisa and Selbach, Tim and Bashir, Ali Hamza and Berghaus, David and Koehler, Joachim and Ali, Mehdi and Frey, Markus},
+  year = {2026}
+}
+```
