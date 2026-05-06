@@ -1,11 +1,20 @@
-# Identifying Task-Specific Neurons: Cross-Lingual MathNeuro + CodeNeuro
+# LLM Parameters for Math Across Languages: Shared or Separate?
 
-This repository explores task-specific parameter isolation (pruning/scaling/fine-tuning) for math and code tasks, with evaluation via the EleutherAI LM Evaluation Harness and a CodeAlpaca oracle.
+This repository contains the codebase for the paper "LLM Parameters for Math Across Languages: Shared or Separate?" and additional exploratory analyses extending the same parameter-isolation framework to coding and math/code parameter overlap.
+
+
+Below, we explain how to use the provided code for identifying, intervening on, and comparing task-associated parameters in language models.
+
+The core experiments reproduce the cross-lingual math-parameter analysis from our paper, where math-associated parameters are extracted for GSM8K-style reasoning across English, German, French, and Hindi, then compared via global and layer-wise Jaccard overlap.
+
+We also include post-paper exploratory analyses for coding tasks using CodeAlpaca and a local oracle-based evaluator. These analyses investigate whether coding-associated parameters overlap with math-reasoning parameters.
+
+
+
 
 ## Project layout
 
-- `MathNeuro/MathNeuro.py`: main experiment driver (identify task-specific parameters, prune/scale, eval).
-- `MathNeuro/fine_tune.py`: fine-tunes only isolated parameters after mask selection.
+- `MathNeuro/MathNeuroFast.py`: main experiment driver (identify task-specific parameters, prune/scale, eval).
 - `MathNeuro/compute_param_overlap.py`: compares two isolated parameter masks, e.g., English vs German math-specific parameters in terms of Jaccard similarity.
 - `MathNeuro/codealpaca_oracle.py`: utilities for CodeAlpaca oracle evaluation.
 - `MathNeuro/find_important_layers.py`: layer selection by bypassing layers and measuring accuracy drops.
