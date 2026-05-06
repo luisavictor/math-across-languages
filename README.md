@@ -2,29 +2,24 @@
 
 This repository contains the codebase for the paper "LLM Parameters for Math Across Languages: Shared or Separate?" and additional exploratory analyses extending the same parameter-isolation framework to coding and math/code parameter overlap.
 
-
 Below, we explain how to use the provided code for identifying, intervening on, and comparing task-associated parameters in language models.
 
 The core experiments reproduce the cross-lingual math-parameter analysis from our paper, where math-associated parameters are extracted for GSM8K-style reasoning across English, German, French, and Hindi, then compared via global and layer-wise Jaccard overlap.
 
+The main finding is that math-associated parameters are neither fully shared across languages nor fully language-specific: they show partial cross-lingual overlap, especially in intermediate layers. English tends to yield the largest set of math-associated parameters, while lower-resource languages such as Hindi show smaller sets and lower overlap with English. Intervention experiments further suggest that these parameters act collectively: pruning or scaling larger subsets changes math behavior more reliably than targeting individual parameters.
+
 We also include post-paper exploratory analyses for coding tasks using CodeAlpaca and a local oracle-based evaluator. These analyses investigate whether coding-associated parameters overlap with math-reasoning parameters.
-
-
-
-
 
 ## Project layout
 
-- `MathNeuro/MathNeuroFast.py`: main experiment driver (identify task-specific parameters, prune/scale, eval).
+- `MathNeuro/MathNeuroFast.py`: main experiment driver (identify task-specific parameters, prune/scale/fine-tune, eval).
 - `MathNeuro/compute_param_overlap.py`: compares two isolated parameter masks, e.g., English vs German math-specific parameters in terms of Jaccard similarity.
 - `MathNeuro/codealpaca_oracle.py`: utilities for CodeAlpaca oracle evaluation.
-- `MathNeuro/find_important_layers.py`: layer selection by bypassing layers and measuring accuracy drops.
-- `runner.py`: sandboxed executor used by oracle tooling.
+- `runner.py`: subprocess executor used by oracle tooling.
 - `build_oracle_cases.py`: builds oracle cases from CodeAlpaca CSVs.
 - `ORACLE_TESTS.md`: offline oracle workflow notes.
 - `custom_datasets/`: translated GSM8K, MMLU, and RACE datasets for German, French, and Hindi, plus CodeAlpaca data used in exploratory coding analyses.
-- `lm_eval_tasks/`: custom tasks/yaml files for lm_eval (e.g., German gsm8k_cot is not a predefined task in the standard lm_eval package).
-
+- `lm_eval_tasks/`: custom task/yaml files for lm_eval (e.g., translated GSM8K CoT tasks are not predefined in the standard lm_eval package).
 
 ## Setup
 
@@ -36,136 +31,111 @@ pip install -e MathNeuro
 python -m spacy download xx_sent_ud_sm
 ```
 
-## Key arguments (MathNeuro.py)
+## Key arguments (`MathNeuroFast.py`)
 
-- `--model`: HuggingFace model id (string).
-- `--train_dataset`: CSV with task-specific dataset, e.g., gsm8k
-- `--calibration_datasets`: one or more CSVs with non-task-related content
-- `--calibration_dataset_names`: human-readable names (same order as calibration datasets).
-- `--eval_datasets`: lm_eval task names (e.g., `race`).
-- `--save_path`: where eval results and masks are written.
-- `--text_file`: filename for pruning/scaling logs.
-- `--num_samples`: number of samples to identify task-specific params, default is 500.
-- `--eval_dataset_subset`: evaluation subset size for faster runs, default is 200.
-- `--proportion`: fraction of top params to isolate (top-k).
-- `--scalar`: 0 for pruning, >0 for scaling.
-- `--fine_tune`: if set, the model is fine-tuned on the extracted parameter set, pruning or scaling are ignored (`scalar` value does not matter)
-- `--pre_train_eval`: if set, the model is evaluated on the given tasks before anything has been modified (baseline performance)
-- `--store_params` saves isolated masks to `.../isolated_masks/`.
-- `--train_lm_eval_task` lets you evaluate a train task via lm_eval (e.g., `gsm8k_cot`).
-- `--run_codealpaca_eval` runs the CodeAlpaca oracle evaluation after lm_eval.
+- `--model`: HuggingFace model id, e.g., `meta-llama/Llama-3.2-1B-Instruct`.
+- `--train_dataset`: CSV with the task-specific dataset.
+- `--calibration_datasets`: one or more CSVs with non-task-related calibration content.
+- `--calibration_dataset_names`: human-readable names for the calibration datasets, in the same order as `--calibration_datasets`.
+- `--eval_datasets`: lm_eval task names used to measure post-intervention behavior, e.g., `race_de`.
+- `--save_path`: directory where evaluation results and score/mask artifacts are written.
+- `--text_file`: filename for text logs; this is still parsed by the script and used in output paths.
+- `--num_samples`: number of samples used to identify task-associated parameters, default `500`.
+- `--eval_dataset_subset`: evaluation subset size for faster runs. We use `200` in the example/paper-style runs below; if omitted, `MathNeuroFast.py` currently falls back to `100`.
+- `--eval_dataset_size`: optional size for task-specific evaluation datasets before subsetting.
+- `--proportion`: fraction of top parameters to isolate, i.e., top-k.
+- `--scalar`: intervention factor for isolated parameters. `0` prunes isolated parameters; values above `0` scale them.
+- `--fine_tune`: if set, the model is fine-tuned on the extracted parameter set instead of pruning/scaling.
+- `--pre_train_eval`: if set, the model is evaluated on the train/eval tasks before parameter intervention.
+- `--train_lm_eval_task`: lm_eval task corresponding to the task-specific train dataset, e.g., `gsm8k_de_cot`.
+- `--run_codealpaca_eval`: runs the CodeAlpaca oracle evaluation after lm_eval.
+- `--batch_size`: batch size for lm_eval evaluation, default `1`.
+- `--random_state`: seed for dataset sampling and evaluation, default `1` in `MathNeuroFast.py`.
+- `--num_repeats`: number of repeated random samples in the original driver, default `5` in `MathNeuro.py`.
 
 
+## Stored parameter files
 
+For each run, the scripts create a mask/score directory at:
+
+```text
+<save_path>/isolated_masks/<model>/
+```
+
+The main saved `.pt` files are:
+
+- `train_scores_seed<seed>.pt`: parameter-importance scores computed on the task-specific training dataset, e.g., GSM8K or CodeAlpaca.
+- `comparison_scores_seed<seed>.pt`: parameter-importance scores computed on the calibration/non-task dataset, e.g., RACE or MMLU.
+- `gsm8k_<calibration_name>_<proportion>_repeat<repeat>.pt`: only written by `MathNeuro.py` when `--store_params` is set. This stores the final boolean isolated-parameter masks plus metadata (`model_name`, `dataset_name`, `good_percent`, and `repeat`).
+
+The score files are dictionaries mapping model parameter names to tensors. `compute_param_overlap.py` loads the train/comparison score files, rebuilds top-k isolated masks for a chosen `--proportion`, and then computes global and layer-wise Jaccard overlap. This means overlap sweeps can be rerun for several top-k values without recomputing forward-pass scores.
 
 ## Core workflow
 
-Pruning/Scaling/Finetuning Example hyperparameter configurations
+Example pruning/scaling configurations:
 
-- Scaling on German gsm8k and race datasets:
+- Scaling on German GSM8K and RACE datasets:
 
-```
---model
-meta-llama/Llama-3.2-1B-Instruct
---save_path
-results_gsm8k_race_german
---train_dataset
-../custom_datasets/GSM8k_German/gsm8k_de_train.csv
---train_lm_eval_task
-gsm8k_de_cot
---eval_datasets
-race_de
---calibration_datasets
-../custom_datasets/Race_German/race_de_train.csv
---calibration_dataset_names
-Race
---eval_dataset_subset
-200
---num_samples
-500
---proportion=0.001
---random_state=1
---scalar=1.01
+```bash
+python MathNeuro/MathNeuroFast.py \
+  --model meta-llama/Llama-3.2-1B-Instruct \
+  --save_path results_gsm8k_race_german \
+  --train_dataset ../custom_datasets/GSM8k_German/gsm8k_de_train.csv \
+  --train_lm_eval_task gsm8k_de_cot \
+  --eval_datasets race_de \
+  --calibration_datasets ../custom_datasets/Race_German/race_de_train.csv \
+  --calibration_dataset_names Race \
+  --eval_dataset_subset 200 \
+  --num_samples 500 \
+  --proportion 0.001 \
+  --random_state 1 \
+  --scalar 1.01
 ```
 
-- Finetuning on English gsm8k and mmlu datasets:
+- Pruning on CodeAlpaca and MMLU datasets including baseline evaluation at the beginning:
 
-```
---model
-meta-llama/Llama-3.2-1B-Instruct
---save_path
-results_gsm8k_mmlu_en
---train_dataset
-data/gsm8k.csv
---train_lm_eval_task
-gsm8k_cot
---eval_datasets
-mmlu
---calibration_datasets
-data/mmlu.csv
---calibration_dataset_names
-MMLU
---eval_dataset_subset
-200
---num_samples
-500
---proportion=0.001
---random_state=1
---fine_tune
+```bash
+python MathNeuro/MathNeuroFast.py \
+  --model meta-llama/Llama-3.2-1B-Instruct \
+  --save_path results_codealpaca_mmlu \
+  --train_dataset ../custom_datasets/CodeAlpaca/codealpaca_train.csv \
+  --train_lm_eval_task codealpaca \
+  --eval_datasets mmlu \
+  --calibration_datasets data/mmlu.csv \
+  --calibration_dataset_names MMLU \
+  --eval_dataset_subset 200 \
+  --num_samples 500 \
+  --proportion 0.001 \
+  --random_state 1 \
+  --run_codealpaca_eval \
+  --pre_train_eval
 ```
 
-- Pruning on CodeAlpaca and MMLU datasets including baseline evaluation at the very beginning:
+## CodeAlpaca oracle evaluation
 
-```
---model
-meta-llama/Llama-3.2-1B-Instruct
---save_path
-results_codealpaca_mmlu
---train_dataset
-../custom_datasets/CodeAlpaca/codealpaca_train.csv
---train_lm_eval_task
-codealpaca
---eval_datasets
-mmlu
---calibration_datasets
-data/mmlu.csv
---calibration_dataset_names
-MMLU
---eval_dataset_subset
-200
---num_samples
-500
---proportion=0.001
---random_state=1
---run_codealpaca_eval
---pre_train_eval
-```
+See `ORACLE_TESTS.md` for the full workflow. Minimal flow for creating and testing oracle cases:
 
-## CodeAlpaca oracle evaluation (offline)
-
-See `ORACLE_TESTS.md` for the full workflow. Minimal flow for creation (already done in this repository):
-
-```
-py build_oracle_cases.py --csv custom_datasets/CodeAlpaca/codealpaca_test_filtered.csv --output oracle_cases.jsonl --n_cases 30 --seed 0
+```bash
+py build_oracle_cases.py --csv custom_datasets/CodeAlpaca/codealpaca_test_filtered.csv --output oracle_cases.jsonl --n_cases 2 --seed 0
 py -m pytest -q tests/test_oracle_cases.py
 ```
 
-The included `oracle_cases.jsonl` contains two oracle test cases for each of 200 filtered CodeAlpaca samples.
+The included `oracle_cases.jsonl` contains two oracle test cases for each of 330 filtered CodeAlpaca samples. During `MathNeuroFast.py` runs with `--run_codealpaca_eval`, `--eval_dataset_subset` controls how many eligible sample IDs are selected for the oracle evaluation.
 
 Model outputs should be JSONL (default `candidate_generations.jsonl`) with:
 
-```
+```json
 {"sample_id": 0, "code": "<model completion here>"}
 ```
 
+The oracle workflow executes model-generated code locally through `runner.py`, use it in an isolated environment.
+
 ## Outputs
 
-- `MathNeuro/results_*`: experiment results by dataset setting.
-- `MathNeuro/results_*/eval_results/`: lm_eval metrics JSON.
-- `MathNeuro/results_*/isolated_masks/`: saved parameter masks (`.pt`).
+- `<save_path>/eval_results/<model>/`: lm_eval metrics, generated samples, and oracle metrics.
+- `<save_path>/isolated_masks/<model>/`: saved `.pt` train/comparison score tensors and, when requested by `MathNeuro.py --store_params`, finalized isolated mask files.
+- `MathNeuro/jaccard_results/`: example overlap-analysis outputs.
 - `oracle_cases.jsonl`: oracle cases for CodeAlpaca evaluation.
-
-
 
 ## Citation
 
