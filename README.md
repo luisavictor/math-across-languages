@@ -144,10 +144,13 @@ The oracle workflow executes model-generated code locally through `runner.py`, u
 If you use this repository, please cite:
 
 ```bibtex
-@inproceedings{shomali2026llmparameters,
-  title={{LLM} Parameters for Math Across Languages: Shared or Separate?},
-  author={Shomali, Behzad and Victor, Luisa and Selbach, Tim and Bashir, Ali Hamza and Berghaus, David and Koehler, Joachim and Ali, Mehdi and Frey, Markus},
-  booktitle={Proceedings of the ACL Student Research Workshop (SRW)},
-  year={2026}
+@misc{shomali2026llmparametersmathlanguages,
+      title={LLM Parameters for Math Across Languages: Shared or Separate?}, 
+      author={Behzad Shomali and Luisa Victor and Tim Selbach and Ali Hamza Bashir and David Berghaus and Joachim Koehler and Mehdi Ali and Markus Frey},
+      year={2026},
+      eprint={2606.18453},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2606.18453}, 
 }
 ```
